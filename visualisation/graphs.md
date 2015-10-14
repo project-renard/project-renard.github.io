@@ -2,7 +2,8 @@
 
 Graphs are not necessarily the best way to display data since they can become
 cluttered. A computer can easily render a graph with many edges, but a human
-does not necessarily understand the information displayed. See this discussion of the Big Fat Graph used in the semantic web [^Karger2006]
+does not necessarily understand the information displayed. See [this discussion
+of the Big Fat Graph](#schraefel:2006) used in the semantic web.
 
 ## Large tree structure visualisation
 
@@ -16,7 +17,7 @@ This [bibliography of tree visualisation](http://vcg.informatik.uni-rostock.de/~
 - <http://simile-widgets.org/>
 
 
-[^Karger2006]: *The Pathetic Fallacy of RDF*. schraefel, mc; and Karger, D. In
+[#schraefel:2006]: *The Pathetic Fallacy of RDF*. schraefel, mc; and Karger, D. In
                International Workshop on the Semantic Web and User Interaction (SWUI) 2006,
                2006. <http://swui.semanticweb.org/swui06/papers/Karger/Pathetic_Fallacy.html>
 
