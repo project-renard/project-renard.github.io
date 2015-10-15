@@ -1,0 +1,29 @@
+[[!meta title="Open questions"]]
+
+# UI
+
+## Browser
+
+- What are the limits to rendering in the browser?
+  - number of nodes in a graph
+  - fidelity of PDF rendering (for display and printing)
+
+## Desktop
+
+- How difficult is it to make changes to the UI when developing on the desktop?
+
+- How can the application be distributed on multiple platforms easily?
+
+## Mobile
+
+- Where will the documents be stored?
+
+- How to reduce and measure energy consumption?
+
+- How to reduce and measure data consumption?
+
+## Text-based and command line
+
+- What would it take to build a system for reading on the terminal?
+
+- How can it be integrated with a user's editor (such as Vim, Emacs, Notepad++).
