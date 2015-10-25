@@ -2,28 +2,28 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>RecentChanges</title>
-<link href="http://project-renard.github.io/design//recentchanges/"/>
-<link href="http://project-renard.github.io/design//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://project-renard.github.io//recentchanges/"/>
+<link href="http://project-renard.github.io//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
-<name>project-renard-design</name>
+<name>Project Renard</name>
 
 </author>
 
 
 
 
-<id>http://project-renard.github.io/design//recentchanges/</id>
+<id>http://project-renard.github.io//recentchanges/</id>
 
-<subtitle type="html">project-renard-design</subtitle>
-<generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-10-25T10:00:46Z</updated>
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2015-10-25T18:27:07Z</updated>
 <entry>
-	<title>change to .travis.yml on project-renard-design</title>
+	<title>change to .travis.yml on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_dc467842e3ee8c959b4367c42545030ab138a1fd/</id>
+	<id>http://project-renard.github.io//recentchanges/change_d9660e9b0ddfb618d49368590174c362f2f636d3/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-dc467842e3ee8c959b4367c42545030ab138a1fd"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-d9660e9b0ddfb618d49368590174c362f2f636d3"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -31,9 +31,8 @@
 
 
 
-	<updated>2015-10-25T10:00:46Z</updated>
-	<published>2015-10-25T10:00:46Z</published>
-
+	<updated>2015-10-25T18:27:07Z</updated>
+	<published>2015-10-25T18:27:07Z</published>
 
 	<content type="html" xml:lang="en">
 	
@@ -42,12 +41,9 @@
 
 
 
-&lt;div id=&quot;change-dc467842e3ee8c959b4367c42545030ab138a1fd&quot; class=&quot;metadata&quot;&gt;
+&lt;div id=&quot;change-d9660e9b0ddfb618d49368590174c362f2f636d3&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -61,7 +57,929 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:00:46 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:27:07 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Travis-CI: update the push repo&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .travisdeploykey.enc .travisdeploykey.pub on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_6666c11629d31fe319fc93014ee07ebd0a4047db/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-6666c11629d31fe319fc93014ee07ebd0a4047db"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:25:38Z</updated>
+	<published>2015-10-25T18:25:38Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-6666c11629d31fe319fc93014ee07ebd0a4047db&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.travisdeploykey.enc
+
+.travisdeploykey.pub
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:25:38 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Travis-CI: new deploy key&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to design on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_9210584b7033d4312b3231a2e58104ab50f822f0/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-9210584b7033d4312b3231a2e58104ab50f822f0"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:10:27Z</updated>
+	<published>2015-10-25T18:10:27Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-9210584b7033d4312b3231a2e58104ab50f822f0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+design
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:10:27 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+design: capitalise the title of index&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to index on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_89cc69ec1cb1b1c13dc9c566c12aabd4fe9f74f5/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-89cc69ec1cb1b1c13dc9c566c12aabd4fe9f74f5"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:09:28Z</updated>
+	<published>2015-10-25T18:09:28Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-89cc69ec1cb1b1c13dc9c566c12aabd4fe9f74f5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+index
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:09:28 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+new index&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_736d62199f5c885c1729cd8e9cd60bd71da524e2/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-736d62199f5c885c1729cd8e9cd60bd71da524e2"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:08:44Z</updated>
+	<published>2015-10-25T18:08:44Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-736d62199f5c885c1729cd8e9cd60bd71da524e2&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+book/interaction
+
+book/introduction
+
+book/visualisation/graphs
+
+book/visualisation
+
+book/workflow
+
+design
+
+design/interaction
+
+design/introduction
+
+design/sidebar
+
+design/visualisation/graphs
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:08:44 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+move the current top page down to the design/ subdirectory&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_8ed95be28a101e95059973489c7efeecc2467a00/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-8ed95be28a101e95059973489c7efeecc2467a00"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:04:51Z</updated>
+	<published>2015-10-25T18:04:51Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-8ed95be28a101e95059973489c7efeecc2467a00&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:04:51 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+rename the wiki to be more general&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard-design.setup project-renard.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_0e57a4b69a821cb5a8f78626ab794be82eaa4d8b/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-0e57a4b69a821cb5a8f78626ab794be82eaa4d8b"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:03:48Z</updated>
+	<published>2015-10-25T18:03:48Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-0e57a4b69a821cb5a8f78626ab794be82eaa4d8b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard-design.setup
+
+project-renard.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:03:48 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: rename the setup file&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .travis.yml on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_f88a6c61d9f89be6d5541efe06fb121d5ae640db/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-f88a6c61d9f89be6d5541efe06fb121d5ae640db"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T18:01:21Z</updated>
+	<published>2015-10-25T18:01:21Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-f88a6c61d9f89be6d5541efe06fb121d5ae640db&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.travis.yml
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:01:21 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Travis-CI: use source/master for source / GitHub Pages HTML respectively&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow index interaction introduction sidebar visualisation/graphs  on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_1207a088d576b437de73efb622828b69b8159f84/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-1207a088d576b437de73efb622828b69b8159f84"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T11:40:35Z</updated>
+	<published>2015-10-25T11:40:35Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-1207a088d576b437de73efb622828b69b8159f84&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+book/interaction
+
+book/introduction
+
+book/visualisation/graphs
+
+book/visualisation
+
+book/workflow
+
+index
+
+interaction
+
+introduction
+
+sidebar
+
+visualisation/graphs
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:40:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Organise the layout of the book into chapters&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard-design.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_b7cd731eac8e8871bebebde4e4eda7416868bbee/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-b7cd731eac8e8871bebebde4e4eda7416868bbee"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T11:08:08Z</updated>
+	<published>2015-10-25T11:08:08Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-b7cd731eac8e8871bebebde4e4eda7416868bbee&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard-design.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:08:08 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: change wikiname to just &amp;quot;design&amp;quot;&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard-design.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_6e040aff40aaaf50ad6cc2d2b6b8480b4498e072/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-6e040aff40aaaf50ad6cc2d2b6b8480b4498e072"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T11:06:21Z</updated>
+	<published>2015-10-25T11:06:21Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-6e040aff40aaaf50ad6cc2d2b6b8480b4498e072&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard-design.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:06:21 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: enable sidebar plugin&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to index on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_4aea40eed6c0d97223f72793791136c5d0f92d11/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-4aea40eed6c0d97223f72793791136c5d0f92d11"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T11:05:08Z</updated>
+	<published>2015-10-25T11:05:08Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-4aea40eed6c0d97223f72793791136c5d0f92d11&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+index
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:05:08 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Put the list numbering to the left&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to index sidebar on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_b058ab154eb18d4d47403613540f001eab370ea6/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-b058ab154eb18d4d47403613540f001eab370ea6"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T11:03:43Z</updated>
+	<published>2015-10-25T11:03:43Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-b058ab154eb18d4d47403613540f001eab370ea6&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+index
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:03:43 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+put pages in sidebar&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to index interaction introduction workflow on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_5168b66853db497d435bc428b3eaaffafdc8bd8c/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-5168b66853db497d435bc428b3eaaffafdc8bd8c"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T10:58:57Z</updated>
+	<published>2015-10-25T10:58:57Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-5168b66853db497d435bc428b3eaaffafdc8bd8c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+index
+
+interaction
+
+introduction
+
+workflow
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:58:57 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+create chapters&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard-design.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_224ebd01af6f4f4ab79fbc084bf10cb76f89882e/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-224ebd01af6f4f4ab79fbc084bf10cb76f89882e"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T10:27:36Z</updated>
+	<published>2015-10-25T10:27:36Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-224ebd01af6f4f4ab79fbc084bf10cb76f89882e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard-design.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:27:36 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: use exclude to skip over output directory&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .travis.yml on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_dc467842e3ee8c959b4367c42545030ab138a1fd/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-dc467842e3ee8c959b4367c42545030ab138a1fd"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-25T10:00:46Z</updated>
+	<published>2015-10-25T10:00:46Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-dc467842e3ee8c959b4367c42545030ab138a1fd&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.travis.yml
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:00:46 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -81,11 +999,11 @@ ikiwiki: Need MultiMarkdown Perl module&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs on project-renard-design</title>
+	<title>change to visualisation/graphs on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_1852703c757d28e2adcd7259453547204b3cc161/</id>
+	<id>http://project-renard.github.io//recentchanges/change_1852703c757d28e2adcd7259453547204b3cc161/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-1852703c757d28e2adcd7259453547204b3cc161"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-1852703c757d28e2adcd7259453547204b3cc161"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -95,7 +1013,6 @@ ikiwiki: Need MultiMarkdown Perl module&lt;br /&gt;
 
 	<updated>2015-10-25T09:59:20Z</updated>
 	<published>2015-10-25T09:59:20Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -107,9 +1024,6 @@ ikiwiki: Need MultiMarkdown Perl module&lt;br /&gt;
 &lt;div id=&quot;change-1852703c757d28e2adcd7259453547204b3cc161&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 visualisation/graphs
 
@@ -123,7 +1037,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:59:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:59:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -143,11 +1057,11 @@ graph: update structure of citation&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs on project-renard-design</title>
+	<title>change to visualisation/graphs on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_38d56c3cd3b755a5ae7d275916b38ce286b7f39e/</id>
+	<id>http://project-renard.github.io//recentchanges/change_38d56c3cd3b755a5ae7d275916b38ce286b7f39e/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-38d56c3cd3b755a5ae7d275916b38ce286b7f39e"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-38d56c3cd3b755a5ae7d275916b38ce286b7f39e"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -157,7 +1071,6 @@ graph: update structure of citation&lt;br /&gt;
 
 	<updated>2015-10-25T09:56:35Z</updated>
 	<published>2015-10-25T09:56:35Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -169,9 +1082,6 @@ graph: update structure of citation&lt;br /&gt;
 &lt;div id=&quot;change-38d56c3cd3b755a5ae7d275916b38ce286b7f39e&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 visualisation/graphs
 
@@ -185,7 +1095,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:56:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:56:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -205,11 +1115,11 @@ graphs: update the citation&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_a27a94ee0b143d5217affafb963514dd6eaa3954/</id>
+	<id>http://project-renard.github.io//recentchanges/change_a27a94ee0b143d5217affafb963514dd6eaa3954/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-a27a94ee0b143d5217affafb963514dd6eaa3954"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-a27a94ee0b143d5217affafb963514dd6eaa3954"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -219,7 +1129,6 @@ graphs: update the citation&lt;br /&gt;
 
 	<updated>2015-10-25T09:50:27Z</updated>
 	<published>2015-10-25T09:50:27Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -231,9 +1140,6 @@ graphs: update the citation&lt;br /&gt;
 &lt;div id=&quot;change-a27a94ee0b143d5217affafb963514dd6eaa3954&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -247,7 +1153,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:50:27 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:50:27 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -267,11 +1173,11 @@ ikiwiki: use MultiMarkdown&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_3ad6fa3c96b04cf9258fba399d4392265c76dbea/</id>
+	<id>http://project-renard.github.io//recentchanges/change_3ad6fa3c96b04cf9258fba399d4392265c76dbea/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-3ad6fa3c96b04cf9258fba399d4392265c76dbea"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-3ad6fa3c96b04cf9258fba399d4392265c76dbea"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -281,7 +1187,6 @@ ikiwiki: use MultiMarkdown&lt;br /&gt;
 
 	<updated>2015-10-25T03:25:10Z</updated>
 	<published>2015-10-25T03:25:10Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -293,9 +1198,6 @@ ikiwiki: use MultiMarkdown&lt;br /&gt;
 &lt;div id=&quot;change-3ad6fa3c96b04cf9258fba399d4392265c76dbea&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -309,7 +1211,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:25:10 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:25:10 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -329,11 +1231,11 @@ ikiwiki: enable the `indexpages` option&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travis.yml on project-renard-design</title>
+	<title>change to .travis.yml on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_4a7ca768a320985e6ad00c647b49b76fd2048712/</id>
+	<id>http://project-renard.github.io//recentchanges/change_4a7ca768a320985e6ad00c647b49b76fd2048712/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-4a7ca768a320985e6ad00c647b49b76fd2048712"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-4a7ca768a320985e6ad00c647b49b76fd2048712"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -343,7 +1245,6 @@ ikiwiki: enable the `indexpages` option&lt;br /&gt;
 
 	<updated>2015-10-25T03:21:50Z</updated>
 	<published>2015-10-25T03:21:50Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -355,9 +1256,6 @@ ikiwiki: enable the `indexpages` option&lt;br /&gt;
 &lt;div id=&quot;change-4a7ca768a320985e6ad00c647b49b76fd2048712&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -371,7 +1269,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:21:50 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:21:50 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -391,11 +1289,11 @@ Travis-CI: use container-based builds&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index on project-renard-design</title>
+	<title>change to index on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_f414086369e937045a2b0578392fa3fde6299f83/</id>
+	<id>http://project-renard.github.io//recentchanges/change_f414086369e937045a2b0578392fa3fde6299f83/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-f414086369e937045a2b0578392fa3fde6299f83"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-f414086369e937045a2b0578392fa3fde6299f83"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -405,7 +1303,6 @@ Travis-CI: use container-based builds&lt;br /&gt;
 
 	<updated>2015-10-25T02:49:39Z</updated>
 	<published>2015-10-25T02:49:39Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -417,9 +1314,6 @@ Travis-CI: use container-based builds&lt;br /&gt;
 &lt;div id=&quot;change-f414086369e937045a2b0578392fa3fde6299f83&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 index
 
@@ -433,7 +1327,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:49:39 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:49:39 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -453,11 +1347,11 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index on project-renard-design</title>
+	<title>change to index on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_50913c442686b0b7a3830e0866dc288e5a959000/</id>
+	<id>http://project-renard.github.io//recentchanges/change_50913c442686b0b7a3830e0866dc288e5a959000/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-50913c442686b0b7a3830e0866dc288e5a959000"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-50913c442686b0b7a3830e0866dc288e5a959000"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -467,7 +1361,6 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 
 	<updated>2015-10-25T02:15:22Z</updated>
 	<published>2015-10-25T02:15:22Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -479,9 +1372,6 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 &lt;div id=&quot;change-50913c442686b0b7a3830e0866dc288e5a959000&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 index
 
@@ -495,7 +1385,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:15:22 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:15:22 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -521,11 +1411,11 @@ Not the inline directive.&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travis.yml on project-renard-design</title>
+	<title>change to .travis.yml on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b/</id>
+	<id>http://project-renard.github.io//recentchanges/change_8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -535,7 +1425,6 @@ Not the inline directive.&lt;br /&gt;
 
 	<updated>2015-10-25T02:10:34Z</updated>
 	<published>2015-10-25T02:10:34Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -547,9 +1436,6 @@ Not the inline directive.&lt;br /&gt;
 &lt;div id=&quot;change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -563,7 +1449,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:10:34 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:10:34 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -583,11 +1469,11 @@ Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index on project-renard-design</title>
+	<title>change to index on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_070f973cc1ad17e6b465b245a4aacda9da6b8ece/</id>
+	<id>http://project-renard.github.io//recentchanges/change_070f973cc1ad17e6b465b245a4aacda9da6b8ece/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-070f973cc1ad17e6b465b245a4aacda9da6b8ece"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-070f973cc1ad17e6b465b245a4aacda9da6b8ece"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -597,7 +1483,6 @@ Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
 
 	<updated>2015-10-25T02:10:20Z</updated>
 	<published>2015-10-25T02:10:20Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -609,9 +1494,6 @@ Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
 &lt;div id=&quot;change-070f973cc1ad17e6b465b245a4aacda9da6b8ece&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 index
 
@@ -625,7 +1507,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:10:20 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:10:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -645,11 +1527,11 @@ ikiwiki: show list of pages&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm on project-renard-design</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_59138496255f4bd013243dc383e1f3727625b0e8/</id>
+	<id>http://project-renard.github.io//recentchanges/change_59138496255f4bd013243dc383e1f3727625b0e8/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-59138496255f4bd013243dc383e1f3727625b0e8"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-59138496255f4bd013243dc383e1f3727625b0e8"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -659,7 +1541,6 @@ ikiwiki: show list of pages&lt;br /&gt;
 
 	<updated>2015-10-25T01:55:40Z</updated>
 	<published>2015-10-25T01:55:40Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -671,9 +1552,6 @@ ikiwiki: show list of pages&lt;br /&gt;
 &lt;div id=&quot;change-59138496255f4bd013243dc383e1f3727625b0e8&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .ikiwiki-plugin/IkiWiki/Plugin/trail.pm
 
@@ -687,7 +1565,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:55:40 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:55:40 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -717,11 +1595,11 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_4f113f5a567b5da1c781bf7569bbb777673db7d5/</id>
+	<id>http://project-renard.github.io//recentchanges/change_4f113f5a567b5da1c781bf7569bbb777673db7d5/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-4f113f5a567b5da1c781bf7569bbb777673db7d5"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-4f113f5a567b5da1c781bf7569bbb777673db7d5"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -731,7 +1609,6 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 
 	<updated>2015-10-25T01:53:58Z</updated>
 	<published>2015-10-25T01:53:58Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -743,9 +1620,6 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 &lt;div id=&quot;change-4f113f5a567b5da1c781bf7569bbb777673db7d5&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -759,7 +1633,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:53:58 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:53:58 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -779,11 +1653,11 @@ ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_838b51450f85df113610dc3d91d4a2534c581772/</id>
+	<id>http://project-renard.github.io//recentchanges/change_838b51450f85df113610dc3d91d4a2534c581772/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-838b51450f85df113610dc3d91d4a2534c581772"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-838b51450f85df113610dc3d91d4a2534c581772"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -793,7 +1667,6 @@ ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 
 	<updated>2015-10-25T01:47:02Z</updated>
 	<published>2015-10-25T01:47:02Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -805,9 +1678,6 @@ ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 &lt;div id=&quot;change-838b51450f85df113610dc3d91d4a2534c581772&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -821,7 +1691,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:47:02 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:47:02 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -841,11 +1711,11 @@ ikiwiki: add the trail plugin&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_679416a340087b95d6dd5cd92fdbfe517c9634a7/</id>
+	<id>http://project-renard.github.io//recentchanges/change_679416a340087b95d6dd5cd92fdbfe517c9634a7/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-679416a340087b95d6dd5cd92fdbfe517c9634a7"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-679416a340087b95d6dd5cd92fdbfe517c9634a7"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -855,7 +1725,6 @@ ikiwiki: add the trail plugin&lt;br /&gt;
 
 	<updated>2015-10-25T01:42:53Z</updated>
 	<published>2015-10-25T01:42:53Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -867,9 +1736,6 @@ ikiwiki: add the trail plugin&lt;br /&gt;
 &lt;div id=&quot;change-679416a340087b95d6dd5cd92fdbfe517c9634a7&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -883,7 +1749,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:42:53 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:42:53 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -903,11 +1769,11 @@ ikiwiki: Enable the theme plugin and use the goldtype theme&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_ee044f8ea9490f4b847d91616663312593fee65d/</id>
+	<id>http://project-renard.github.io//recentchanges/change_ee044f8ea9490f4b847d91616663312593fee65d/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-ee044f8ea9490f4b847d91616663312593fee65d"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-ee044f8ea9490f4b847d91616663312593fee65d"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -917,7 +1783,6 @@ ikiwiki: Enable the theme plugin and use the goldtype theme&lt;br /&gt;
 
 	<updated>2015-10-25T01:41:47Z</updated>
 	<published>2015-10-25T01:41:47Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -929,9 +1794,6 @@ ikiwiki: Enable the theme plugin and use the goldtype theme&lt;br /&gt;
 &lt;div id=&quot;change-ee044f8ea9490f4b847d91616663312593fee65d&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -945,7 +1807,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:41:47 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:41:47 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -965,11 +1827,11 @@ ikiwiki: Remove the websetup plugin&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travis.yml on project-renard-design</title>
+	<title>change to .travis.yml on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_220fc02ec52edef828e07804373b1144a3bc243a/</id>
+	<id>http://project-renard.github.io//recentchanges/change_220fc02ec52edef828e07804373b1144a3bc243a/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-220fc02ec52edef828e07804373b1144a3bc243a"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-220fc02ec52edef828e07804373b1144a3bc243a"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -979,7 +1841,6 @@ ikiwiki: Remove the websetup plugin&lt;br /&gt;
 
 	<updated>2015-10-25T01:37:00Z</updated>
 	<published>2015-10-25T01:37:00Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -991,9 +1852,6 @@ ikiwiki: Remove the websetup plugin&lt;br /&gt;
 &lt;div id=&quot;change-220fc02ec52edef828e07804373b1144a3bc243a&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -1007,7 +1865,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:37:00 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:37:00 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1027,11 +1885,11 @@ Add --url flag to ikiwiki build so that any RSS is generated correctly&lt;br /&g
 
 </entry>
 <entry>
-	<title>change to .travis.yml project-renard-design.setup on project-renard-design</title>
+	<title>change to .travis.yml project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_9703cdcb56904b2f3d678a6053762eece1c5fc18/</id>
+	<id>http://project-renard.github.io//recentchanges/change_9703cdcb56904b2f3d678a6053762eece1c5fc18/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-9703cdcb56904b2f3d678a6053762eece1c5fc18"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-9703cdcb56904b2f3d678a6053762eece1c5fc18"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1041,7 +1899,6 @@ Add --url flag to ikiwiki build so that any RSS is generated correctly&lt;br /&g
 
 	<updated>2015-10-25T01:32:57Z</updated>
 	<published>2015-10-25T01:32:57Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1053,9 +1910,6 @@ Add --url flag to ikiwiki build so that any RSS is generated correctly&lt;br /&g
 &lt;div id=&quot;change-9703cdcb56904b2f3d678a6053762eece1c5fc18&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -1071,7 +1925,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:32:57 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:32:57 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1091,11 +1945,11 @@ Use an ikiwiki setup file&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to project-renard-design.setup on project-renard-design</title>
+	<title>change to project-renard-design.setup on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_464561513ef1512bb60a155acc27d9cc8a365f3a/</id>
+	<id>http://project-renard.github.io//recentchanges/change_464561513ef1512bb60a155acc27d9cc8a365f3a/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-464561513ef1512bb60a155acc27d9cc8a365f3a"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-464561513ef1512bb60a155acc27d9cc8a365f3a"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1105,7 +1959,6 @@ Use an ikiwiki setup file&lt;br /&gt;
 
 	<updated>2015-10-25T01:27:32Z</updated>
 	<published>2015-10-25T01:27:32Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1117,9 +1970,6 @@ Use an ikiwiki setup file&lt;br /&gt;
 &lt;div id=&quot;change-464561513ef1512bb60a155acc27d9cc8a365f3a&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 project-renard-design.setup
 
@@ -1133,7 +1983,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:27:32 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:27:32 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1153,11 +2003,11 @@ add setup file&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index on project-renard-design</title>
+	<title>change to index on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_5c6eb10e7cb55e2ec41174ef7239602718ced8ac/</id>
+	<id>http://project-renard.github.io//recentchanges/change_5c6eb10e7cb55e2ec41174ef7239602718ced8ac/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-5c6eb10e7cb55e2ec41174ef7239602718ced8ac"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-5c6eb10e7cb55e2ec41174ef7239602718ced8ac"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1167,7 +2017,6 @@ add setup file&lt;br /&gt;
 
 	<updated>2015-10-25T01:18:33Z</updated>
 	<published>2015-10-25T01:18:33Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1179,9 +2028,6 @@ add setup file&lt;br /&gt;
 &lt;div id=&quot;change-5c6eb10e7cb55e2ec41174ef7239602718ced8ac&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 index
 
@@ -1195,7 +2041,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:18:33 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:18:33 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1215,11 +2061,11 @@ add title for index&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index visualisation on project-renard-design</title>
+	<title>change to index visualisation on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_3326abadbfcdb139908f953fd0a67653b9f387d4/</id>
+	<id>http://project-renard.github.io//recentchanges/change_3326abadbfcdb139908f953fd0a67653b9f387d4/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-3326abadbfcdb139908f953fd0a67653b9f387d4"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-3326abadbfcdb139908f953fd0a67653b9f387d4"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1229,7 +2075,6 @@ add title for index&lt;br /&gt;
 
 	<updated>2015-10-25T01:15:28Z</updated>
 	<published>2015-10-25T01:15:28Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1241,9 +2086,6 @@ add title for index&lt;br /&gt;
 &lt;div id=&quot;change-3326abadbfcdb139908f953fd0a67653b9f387d4&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 index
 
@@ -1259,7 +2101,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:15:28 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:15:28 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1279,11 +2121,11 @@ start creating a ToC&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to file-format/pdf on project-renard-design</title>
+	<title>change to file-format/pdf on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_76e567dc1afa8d4c0f80248de8f4d00f4d930c83/</id>
+	<id>http://project-renard.github.io//recentchanges/change_76e567dc1afa8d4c0f80248de8f4d00f4d930c83/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-76e567dc1afa8d4c0f80248de8f4d00f4d930c83"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-76e567dc1afa8d4c0f80248de8f4d00f4d930c83"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1293,7 +2135,6 @@ start creating a ToC&lt;br /&gt;
 
 	<updated>2015-10-25T00:16:26Z</updated>
 	<published>2015-10-25T00:16:26Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1305,9 +2146,6 @@ start creating a ToC&lt;br /&gt;
 &lt;div id=&quot;change-76e567dc1afa8d4c0f80248de8f4d00f4d930c83&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 file-format/pdf
 
@@ -1321,7 +2159,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:16:26 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:16:26 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1341,11 +2179,11 @@ PDF format&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travis.yml on project-renard-design</title>
+	<title>change to .travis.yml on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_046447a2191b3df2908a1dfcae44c494b5384218/</id>
+	<id>http://project-renard.github.io//recentchanges/change_046447a2191b3df2908a1dfcae44c494b5384218/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-046447a2191b3df2908a1dfcae44c494b5384218"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-046447a2191b3df2908a1dfcae44c494b5384218"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1355,7 +2193,6 @@ PDF format&lt;br /&gt;
 
 	<updated>2015-10-24T23:21:21Z</updated>
 	<published>2015-10-24T23:21:21Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1367,9 +2204,6 @@ PDF format&lt;br /&gt;
 &lt;div id=&quot;change-046447a2191b3df2908a1dfcae44c494b5384218&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travis.yml
 
@@ -1383,7 +2217,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:21:21 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:21:21 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1403,11 +2237,11 @@ Travis-CI: build config&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travisdeploykey.enc .travisdeploykey.pub on project-renard-design</title>
+	<title>change to .travisdeploykey.enc .travisdeploykey.pub on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_79f3af98a8620b509074dde922245dfbbdc88432/</id>
+	<id>http://project-renard.github.io//recentchanges/change_79f3af98a8620b509074dde922245dfbbdc88432/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-79f3af98a8620b509074dde922245dfbbdc88432"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-79f3af98a8620b509074dde922245dfbbdc88432"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1417,7 +2251,6 @@ Travis-CI: build config&lt;br /&gt;
 
 	<updated>2015-10-24T23:16:55Z</updated>
 	<published>2015-10-24T23:16:55Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1429,9 +2262,6 @@ Travis-CI: build config&lt;br /&gt;
 &lt;div id=&quot;change-79f3af98a8620b509074dde922245dfbbdc88432&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 .travisdeploykey.enc
 
@@ -1447,7 +2277,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:16:55 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:16:55 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1467,11 +2297,11 @@ Travis-CI: add deploy keys&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to data/bibliography on project-renard-design</title>
+	<title>change to data/bibliography on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_519f3fc6ec9e0305e030d591f09fc24cf0e32dd4/</id>
+	<id>http://project-renard.github.io//recentchanges/change_519f3fc6ec9e0305e030d591f09fc24cf0e32dd4/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-519f3fc6ec9e0305e030d591f09fc24cf0e32dd4"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-519f3fc6ec9e0305e030d591f09fc24cf0e32dd4"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1481,7 +2311,6 @@ Travis-CI: add deploy keys&lt;br /&gt;
 
 	<updated>2015-10-16T16:39:35Z</updated>
 	<published>2015-10-16T16:39:35Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1493,9 +2322,6 @@ Travis-CI: add deploy keys&lt;br /&gt;
 &lt;div id=&quot;change-519f3fc6ec9e0305e030d591f09fc24cf0e32dd4&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 data/bibliography
 
@@ -1509,7 +2335,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:39:35 AM 10/16/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:39:35 PM 10/16/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1529,11 +2355,11 @@ Add note about bibliography data&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to document-sources/services on project-renard-design</title>
+	<title>change to document-sources/services on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_8ed8402a54e6f53fcc7681c08248a4c1f728d851/</id>
+	<id>http://project-renard.github.io//recentchanges/change_8ed8402a54e6f53fcc7681c08248a4c1f728d851/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-8ed8402a54e6f53fcc7681c08248a4c1f728d851"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-8ed8402a54e6f53fcc7681c08248a4c1f728d851"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1543,7 +2369,6 @@ Add note about bibliography data&lt;br /&gt;
 
 	<updated>2015-10-16T14:59:23Z</updated>
 	<published>2015-10-16T14:59:23Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1555,9 +2380,6 @@ Add note about bibliography data&lt;br /&gt;
 &lt;div id=&quot;change-8ed8402a54e6f53fcc7681c08248a4c1f728d851&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 document-sources/services
 
@@ -1571,7 +2393,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:59:23 AM 10/16/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:59:23 PM 10/16/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1591,11 +2413,11 @@ Add information about Ebrary as a document source.&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to open-questions on project-renard-design</title>
+	<title>change to open-questions on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8/</id>
+	<id>http://project-renard.github.io//recentchanges/change_e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1605,7 +2427,6 @@ Add information about Ebrary as a document source.&lt;br /&gt;
 
 	<updated>2015-10-15T21:09:08Z</updated>
 	<published>2015-10-15T21:09:08Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1617,9 +2438,6 @@ Add information about Ebrary as a document source.&lt;br /&gt;
 &lt;div id=&quot;change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 open-questions
 
@@ -1633,7 +2451,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:09:08 PM 10/15/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:09:08 PM 10/15/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1659,11 +2477,11 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs.md on project-renard-design</title>
+	<title>change to visualisation/graphs.md visualisation/graphs on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_ffcbdca6ecfbc56ec868696811ec7af8e622f203/</id>
+	<id>http://project-renard.github.io//recentchanges/change_ffcbdca6ecfbc56ec868696811ec7af8e622f203/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-ffcbdca6ecfbc56ec868696811ec7af8e622f203"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-ffcbdca6ecfbc56ec868696811ec7af8e622f203"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1673,7 +2491,6 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 
 	<updated>2015-10-14T19:27:55Z</updated>
 	<published>2015-10-14T19:27:55Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1686,10 +2503,9 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-
-
-
 visualisation/graphs.md
+
+visualisation/graphs
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1701,7 +2517,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:27:55 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:27:55 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1721,11 +2537,11 @@ rename to use .mdwn extension&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs.md on project-renard-design</title>
+	<title>change to visualisation/graphs.md on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_d49fb287cbae925dc5b9c94e1371b2b1a292d6b1/</id>
+	<id>http://project-renard.github.io//recentchanges/change_d49fb287cbae925dc5b9c94e1371b2b1a292d6b1/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-d49fb287cbae925dc5b9c94e1371b2b1a292d6b1"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-d49fb287cbae925dc5b9c94e1371b2b1a292d6b1"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1735,7 +2551,6 @@ rename to use .mdwn extension&lt;br /&gt;
 
 	<updated>2015-10-14T19:20:15Z</updated>
 	<published>2015-10-14T19:20:15Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1747,9 +2562,6 @@ rename to use .mdwn extension&lt;br /&gt;
 &lt;div id=&quot;change-d49fb287cbae925dc5b9c94e1371b2b1a292d6b1&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 visualisation/graphs.md
 
@@ -1763,7 +2575,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:20:15 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:20:15 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1783,11 +2595,11 @@ fix paper link&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs.md on project-renard-design</title>
+	<title>change to visualisation/graphs.md on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_ea37995b65461abd6bb876f8b7779dc7c92c9625/</id>
+	<id>http://project-renard.github.io//recentchanges/change_ea37995b65461abd6bb876f8b7779dc7c92c9625/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-ea37995b65461abd6bb876f8b7779dc7c92c9625"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-ea37995b65461abd6bb876f8b7779dc7c92c9625"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1797,7 +2609,6 @@ fix paper link&lt;br /&gt;
 
 	<updated>2015-10-14T19:14:40Z</updated>
 	<published>2015-10-14T19:14:40Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1809,9 +2620,6 @@ fix paper link&lt;br /&gt;
 &lt;div id=&quot;change-ea37995b65461abd6bb876f8b7779dc7c92c9625&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 visualisation/graphs.md
 
@@ -1825,7 +2633,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:14:40 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:14:40 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1845,11 +2653,11 @@ add information on graph visualisation&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to README.md on project-renard-design</title>
+	<title>change to README.md on Project Renard</title>
 
-	<id>http://project-renard.github.io/design//recentchanges/change_826ba563bdb632cda511dcaf9ef9a5cd4652aab3/</id>
+	<id>http://project-renard.github.io//recentchanges/change_826ba563bdb632cda511dcaf9ef9a5cd4652aab3/</id>
 
-	<link href="http://project-renard.github.io/design/recentchanges/#change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -1859,7 +2667,6 @@ add information on graph visualisation&lt;br /&gt;
 
 	<updated>2015-10-14T19:08:16Z</updated>
 	<published>2015-10-14T19:08:16Z</published>
-
 
 	<content type="html" xml:lang="en">
 	
@@ -1871,9 +2678,6 @@ add information on graph visualisation&lt;br /&gt;
 &lt;div id=&quot;change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
 
 README.md
 
@@ -1887,7 +2691,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:08:16 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:08:16 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
