@@ -1,5 +1,6 @@
 [[!meta title="design"]]
 
+
 <h1>
 <center>
 The Design and Implementation of New Architecture for Information Display, Retrieval, and Manipulation
@@ -11,7 +12,7 @@ The Design and Implementation of New Architecture for Information Display, Retri
 This book describes the design of a computer-based system for organising thoughts.
 
 
-[[!trailitem book/introduction ]]
-[[!trailitem book/workflow ]]
-[[!trailitem book/interaction ]]
-[[!trailitem book/visualisation ]]
+[[!trailitem introduction ]]
+[[!trailitem workflow ]]
+[[!trailitem interaction ]]
+[[!trailitem visualisation ]]
