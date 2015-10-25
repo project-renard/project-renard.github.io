@@ -41,6 +41,7 @@ rcs: git
 # plugins to add to the default configuration
 add_plugins:
 - goodstuff
+- theme
 # plugins to disable
 disable_plugins: []
 # additional directory to search for template files
@@ -295,7 +296,7 @@ atom: 1
 
 # theme plugin
 # name of theme to enable
-theme: actiontabs
+theme: goldtype
 
 # websetup plugin
 # list of plugins that cannot be enabled/disabled via the web interface
