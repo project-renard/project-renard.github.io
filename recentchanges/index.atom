@@ -16,7 +16,7 @@
 <id>http://project-renard.github.io/design//recentchanges/</id>
 
 <subtitle type="html">project-renard-design</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2015-10-25T10:00:46Z</updated>
 <entry>
 	<title>change to .travis.yml on project-renard-design</title>
@@ -34,6 +34,7 @@
 	<updated>2015-10-25T10:00:46Z</updated>
 	<published>2015-10-25T10:00:46Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -44,6 +45,9 @@
 &lt;div id=&quot;change-dc467842e3ee8c959b4367c42545030ab138a1fd&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -57,7 +61,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:00:46 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:00:46 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -92,6 +96,7 @@ ikiwiki: Need MultiMarkdown Perl module&lt;br /&gt;
 	<updated>2015-10-25T09:59:20Z</updated>
 	<published>2015-10-25T09:59:20Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -102,6 +107,9 @@ ikiwiki: Need MultiMarkdown Perl module&lt;br /&gt;
 &lt;div id=&quot;change-1852703c757d28e2adcd7259453547204b3cc161&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 visualisation/graphs
 
@@ -115,7 +123,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:59:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:59:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -150,6 +158,7 @@ graph: update structure of citation&lt;br /&gt;
 	<updated>2015-10-25T09:56:35Z</updated>
 	<published>2015-10-25T09:56:35Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -160,6 +169,9 @@ graph: update structure of citation&lt;br /&gt;
 &lt;div id=&quot;change-38d56c3cd3b755a5ae7d275916b38ce286b7f39e&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 visualisation/graphs
 
@@ -173,7 +185,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:56:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:56:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -208,6 +220,7 @@ graphs: update the citation&lt;br /&gt;
 	<updated>2015-10-25T09:50:27Z</updated>
 	<published>2015-10-25T09:50:27Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -218,6 +231,9 @@ graphs: update the citation&lt;br /&gt;
 &lt;div id=&quot;change-a27a94ee0b143d5217affafb963514dd6eaa3954&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -231,7 +247,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:50:27 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:50:27 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -266,6 +282,7 @@ ikiwiki: use MultiMarkdown&lt;br /&gt;
 	<updated>2015-10-25T03:25:10Z</updated>
 	<published>2015-10-25T03:25:10Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -276,6 +293,9 @@ ikiwiki: use MultiMarkdown&lt;br /&gt;
 &lt;div id=&quot;change-3ad6fa3c96b04cf9258fba399d4392265c76dbea&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -289,7 +309,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:25:10 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:25:10 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -324,6 +344,7 @@ ikiwiki: enable the `indexpages` option&lt;br /&gt;
 	<updated>2015-10-25T03:21:50Z</updated>
 	<published>2015-10-25T03:21:50Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -334,6 +355,9 @@ ikiwiki: enable the `indexpages` option&lt;br /&gt;
 &lt;div id=&quot;change-4a7ca768a320985e6ad00c647b49b76fd2048712&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -347,7 +371,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:21:50 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:21:50 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -382,6 +406,7 @@ Travis-CI: use container-based builds&lt;br /&gt;
 	<updated>2015-10-25T02:49:39Z</updated>
 	<published>2015-10-25T02:49:39Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -392,6 +417,9 @@ Travis-CI: use container-based builds&lt;br /&gt;
 &lt;div id=&quot;change-f414086369e937045a2b0578392fa3fde6299f83&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 index
 
@@ -405,7 +433,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:49:39 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:49:39 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -440,6 +468,7 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 	<updated>2015-10-25T02:15:22Z</updated>
 	<published>2015-10-25T02:15:22Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -450,6 +479,9 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 &lt;div id=&quot;change-50913c442686b0b7a3830e0866dc288e5a959000&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 index
 
@@ -463,7 +495,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:15:22 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:15:22 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -504,6 +536,7 @@ Not the inline directive.&lt;br /&gt;
 	<updated>2015-10-25T02:10:34Z</updated>
 	<published>2015-10-25T02:10:34Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -514,6 +547,9 @@ Not the inline directive.&lt;br /&gt;
 &lt;div id=&quot;change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -527,7 +563,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:10:34 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:10:34 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -562,6 +598,7 @@ Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
 	<updated>2015-10-25T02:10:20Z</updated>
 	<published>2015-10-25T02:10:20Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -572,6 +609,9 @@ Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
 &lt;div id=&quot;change-070f973cc1ad17e6b465b245a4aacda9da6b8ece&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 index
 
@@ -585,7 +625,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:10:20 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:10:20 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -620,6 +660,7 @@ ikiwiki: show list of pages&lt;br /&gt;
 	<updated>2015-10-25T01:55:40Z</updated>
 	<published>2015-10-25T01:55:40Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -630,6 +671,9 @@ ikiwiki: show list of pages&lt;br /&gt;
 &lt;div id=&quot;change-59138496255f4bd013243dc383e1f3727625b0e8&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .ikiwiki-plugin/IkiWiki/Plugin/trail.pm
 
@@ -643,7 +687,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:55:40 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:55:40 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -688,6 +732,7 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 	<updated>2015-10-25T01:53:58Z</updated>
 	<published>2015-10-25T01:53:58Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -698,6 +743,9 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 &lt;div id=&quot;change-4f113f5a567b5da1c781bf7569bbb777673db7d5&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -711,7 +759,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:53:58 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:53:58 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -746,6 +794,7 @@ ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 	<updated>2015-10-25T01:47:02Z</updated>
 	<published>2015-10-25T01:47:02Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -756,6 +805,9 @@ ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 &lt;div id=&quot;change-838b51450f85df113610dc3d91d4a2534c581772&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -769,7 +821,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:47:02 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:47:02 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -804,6 +856,7 @@ ikiwiki: add the trail plugin&lt;br /&gt;
 	<updated>2015-10-25T01:42:53Z</updated>
 	<published>2015-10-25T01:42:53Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -814,6 +867,9 @@ ikiwiki: add the trail plugin&lt;br /&gt;
 &lt;div id=&quot;change-679416a340087b95d6dd5cd92fdbfe517c9634a7&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -827,7 +883,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:42:53 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:42:53 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -862,6 +918,7 @@ ikiwiki: Enable the theme plugin and use the goldtype theme&lt;br /&gt;
 	<updated>2015-10-25T01:41:47Z</updated>
 	<published>2015-10-25T01:41:47Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -872,6 +929,9 @@ ikiwiki: Enable the theme plugin and use the goldtype theme&lt;br /&gt;
 &lt;div id=&quot;change-ee044f8ea9490f4b847d91616663312593fee65d&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -885,7 +945,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:41:47 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:41:47 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -920,6 +980,7 @@ ikiwiki: Remove the websetup plugin&lt;br /&gt;
 	<updated>2015-10-25T01:37:00Z</updated>
 	<published>2015-10-25T01:37:00Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -930,6 +991,9 @@ ikiwiki: Remove the websetup plugin&lt;br /&gt;
 &lt;div id=&quot;change-220fc02ec52edef828e07804373b1144a3bc243a&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -943,7 +1007,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:37:00 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:37:00 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -978,6 +1042,7 @@ Add --url flag to ikiwiki build so that any RSS is generated correctly&lt;br /&g
 	<updated>2015-10-25T01:32:57Z</updated>
 	<published>2015-10-25T01:32:57Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -988,6 +1053,9 @@ Add --url flag to ikiwiki build so that any RSS is generated correctly&lt;br /&g
 &lt;div id=&quot;change-9703cdcb56904b2f3d678a6053762eece1c5fc18&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -1003,7 +1071,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:32:57 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:32:57 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1038,6 +1106,7 @@ Use an ikiwiki setup file&lt;br /&gt;
 	<updated>2015-10-25T01:27:32Z</updated>
 	<published>2015-10-25T01:27:32Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1048,6 +1117,9 @@ Use an ikiwiki setup file&lt;br /&gt;
 &lt;div id=&quot;change-464561513ef1512bb60a155acc27d9cc8a365f3a&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 project-renard-design.setup
 
@@ -1061,7 +1133,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:27:32 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:27:32 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1096,6 +1168,7 @@ add setup file&lt;br /&gt;
 	<updated>2015-10-25T01:18:33Z</updated>
 	<published>2015-10-25T01:18:33Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1106,6 +1179,9 @@ add setup file&lt;br /&gt;
 &lt;div id=&quot;change-5c6eb10e7cb55e2ec41174ef7239602718ced8ac&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 index
 
@@ -1119,7 +1195,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:18:33 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:18:33 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1154,6 +1230,7 @@ add title for index&lt;br /&gt;
 	<updated>2015-10-25T01:15:28Z</updated>
 	<published>2015-10-25T01:15:28Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1164,6 +1241,9 @@ add title for index&lt;br /&gt;
 &lt;div id=&quot;change-3326abadbfcdb139908f953fd0a67653b9f387d4&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 index
 
@@ -1179,7 +1259,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:15:28 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:15:28 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1214,6 +1294,7 @@ start creating a ToC&lt;br /&gt;
 	<updated>2015-10-25T00:16:26Z</updated>
 	<published>2015-10-25T00:16:26Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1224,6 +1305,9 @@ start creating a ToC&lt;br /&gt;
 &lt;div id=&quot;change-76e567dc1afa8d4c0f80248de8f4d00f4d930c83&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 file-format/pdf
 
@@ -1237,7 +1321,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:16:26 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:16:26 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1272,6 +1356,7 @@ PDF format&lt;br /&gt;
 	<updated>2015-10-24T23:21:21Z</updated>
 	<published>2015-10-24T23:21:21Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1282,6 +1367,9 @@ PDF format&lt;br /&gt;
 &lt;div id=&quot;change-046447a2191b3df2908a1dfcae44c494b5384218&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travis.yml
 
@@ -1295,7 +1383,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:21:21 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:21:21 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1330,6 +1418,7 @@ Travis-CI: build config&lt;br /&gt;
 	<updated>2015-10-24T23:16:55Z</updated>
 	<published>2015-10-24T23:16:55Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1340,6 +1429,9 @@ Travis-CI: build config&lt;br /&gt;
 &lt;div id=&quot;change-79f3af98a8620b509074dde922245dfbbdc88432&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 .travisdeploykey.enc
 
@@ -1355,7 +1447,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:16:55 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:16:55 PM 10/24/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1390,6 +1482,7 @@ Travis-CI: add deploy keys&lt;br /&gt;
 	<updated>2015-10-16T16:39:35Z</updated>
 	<published>2015-10-16T16:39:35Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1400,6 +1493,9 @@ Travis-CI: add deploy keys&lt;br /&gt;
 &lt;div id=&quot;change-519f3fc6ec9e0305e030d591f09fc24cf0e32dd4&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 data/bibliography
 
@@ -1413,7 +1509,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:39:35 PM 10/16/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:39:35 AM 10/16/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1448,6 +1544,7 @@ Add note about bibliography data&lt;br /&gt;
 	<updated>2015-10-16T14:59:23Z</updated>
 	<published>2015-10-16T14:59:23Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1458,6 +1555,9 @@ Add note about bibliography data&lt;br /&gt;
 &lt;div id=&quot;change-8ed8402a54e6f53fcc7681c08248a4c1f728d851&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 document-sources/services
 
@@ -1471,7 +1571,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:59:23 PM 10/16/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:59:23 AM 10/16/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1506,6 +1606,7 @@ Add information about Ebrary as a document source.&lt;br /&gt;
 	<updated>2015-10-15T21:09:08Z</updated>
 	<published>2015-10-15T21:09:08Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1516,6 +1617,9 @@ Add information about Ebrary as a document source.&lt;br /&gt;
 &lt;div id=&quot;change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 open-questions
 
@@ -1529,7 +1633,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:09:08 PM 10/15/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:09:08 PM 10/15/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1555,7 +1659,7 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs.md visualisation/graphs on project-renard-design</title>
+	<title>change to visualisation/graphs.md on project-renard-design</title>
 
 	<id>http://project-renard.github.io/design//recentchanges/change_ffcbdca6ecfbc56ec868696811ec7af8e622f203/</id>
 
@@ -1570,6 +1674,7 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 	<updated>2015-10-14T19:27:55Z</updated>
 	<published>2015-10-14T19:27:55Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1581,9 +1686,10 @@ These can later be linked to specific points where they are addressed.&lt;br /&g
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-visualisation/graphs.md
 
-visualisation/graphs
+
+
+visualisation/graphs.md
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1595,7 +1701,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:27:55 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:27:55 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1630,6 +1736,7 @@ rename to use .mdwn extension&lt;br /&gt;
 	<updated>2015-10-14T19:20:15Z</updated>
 	<published>2015-10-14T19:20:15Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1640,6 +1747,9 @@ rename to use .mdwn extension&lt;br /&gt;
 &lt;div id=&quot;change-d49fb287cbae925dc5b9c94e1371b2b1a292d6b1&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 visualisation/graphs.md
 
@@ -1653,7 +1763,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:20:15 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:20:15 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1688,6 +1798,7 @@ fix paper link&lt;br /&gt;
 	<updated>2015-10-14T19:14:40Z</updated>
 	<published>2015-10-14T19:14:40Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1698,6 +1809,9 @@ fix paper link&lt;br /&gt;
 &lt;div id=&quot;change-ea37995b65461abd6bb876f8b7779dc7c92c9625&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 visualisation/graphs.md
 
@@ -1711,7 +1825,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:14:40 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:14:40 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
@@ -1746,6 +1860,7 @@ add information on graph visualisation&lt;br /&gt;
 	<updated>2015-10-14T19:08:16Z</updated>
 	<published>2015-10-14T19:08:16Z</published>
 
+
 	<content type="html" xml:lang="en">
 	
 
@@ -1756,6 +1871,9 @@ add information on graph visualisation&lt;br /&gt;
 &lt;div id=&quot;change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
 
 README.md
 
@@ -1769,7 +1887,7 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:08:16 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:08:16 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;

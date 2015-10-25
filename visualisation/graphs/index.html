@@ -1,15 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>graphs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../../style.css" type="text/css" />
 
 <link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
 
 
 
@@ -36,6 +40,8 @@ graphs
 </span>
 </span>
 
+
+
 </div>
 
 
@@ -58,33 +64,47 @@ graphs
 
 
 
+
+
+
+
+
 </div>
+
+
 
 
 
 <div id="pagebody">
 
-<div id="content">
-<h1>Design considerations</h1>
+<div id="content" role="main">
+<h1 id="designconsiderations">Design considerations</h1>
 
 <p>Graphs are not necessarily the best way to display data since they can become
 cluttered. A computer can easily render a graph with many edges, but a human
-does not necessarily understand the information displayed. See <a href="*The"></a>
+does not necessarily understand the information displayed. See <span class="markdowncitation"> (<a href="#schraefel:2006">1</a>)</span>
 for discussion of the <em>Big Fat Graph</em> used in the semantic web.</p>
 
-<h2>Large tree structure visualisation</h2>
+<h2 id="largetreestructurevisualisation">Large tree structure visualisation</h2>
 
-<h3>Resources</h3>
+<h3 id="resources">Resources</h3>
 
 <p>This <a href="http://vcg.informatik.uni-rostock.de/~hs162/treeposter/poster.html">bibliography of tree visualisation</a> shows many ways of displaying hierarchical data</p>
 
-<h3>Implementations</h3>
+<h3 id="implementations">Implementations</h3>
 
 <ul>
 <li><a href="http://www.randelshofer.ch/treeviz/">http://www.randelshofer.ch/treeviz/</a></li>
 <li><a href="http://simile-widgets.org/">http://simile-widgets.org/</a></li>
 </ul>
 
+<div class="bibliography">
+<hr />
+<p>Bibliography</p>
+
+<div id="schraefel:2006"><p>[1] <span class="item"><em>The Pathetic Fallacy of RDF</em>. schraefel, mc; and Karger, D. In International Workshop on the Semantic Web and User Interaction (SWUI) 2006, 2006. <a href="http://swui.semanticweb.org/swui06/papers/Karger/Patheticb14a7b8059d9c055954c92674ce60032Fallacy.html">http://swui.semanticweb.org/swui06/papers/Karger/Patheticb14a7b8059d9c055954c92674ce60032Fallacy.html</a></span></p></div>
+
+</div>
 
 </div>
 
@@ -92,9 +112,11 @@ for discussion of the <em>Big Fat Graph</em> used in the semantic web.</p>
 
 
 
+
+
 </div>
 
-<div id="footer" class="pagefooter">
+<div id="footer" class="pagefooter" role="contentinfo">
 
 <div id="pageinfo">
 
@@ -106,9 +128,12 @@ for discussion of the <em>Big Fat Graph</em> used in the semantic web.</p>
 
 
 
+
+
+
 <div class="pagedate">
-Last edited <span class="date">Sun 25 Oct 2015 09:59:20 AM UTC</span>
-<!-- Created <span class="date">Wed 14 Oct 2015 07:27:55 PM UTC</span> -->
+Last edited <span class="date">Sun 25 Oct 2015 04:59:16 AM CDT</span>
+<!-- Created <span class="date">Wed 14 Oct 2015 02:27:55 PM CDT</span> -->
 </div>
 
 </div>
