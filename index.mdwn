@@ -9,4 +9,4 @@ The Design and Implementation of New Architecture for Information Display, Retri
 [[!traillink Introduction|introduction ]]
 [[!traillink Visualisation|visualisation ]]
 
-[[!map pages="page(*/*)" show=title]]
+[[!map pages="page(*/*) and !ikiwiki/* and !templates/*" show=title]]
