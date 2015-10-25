@@ -96,7 +96,7 @@ timezone: :/etc/localtime
 # regexp of normally excluded files to include
 #include: ^\.htaccess$
 # regexp of files that should be skipped
-#exclude: ^(*\.private|Makefile)$
+exclude: (^|/)Makefile$|\.setup$|(^|/)_site
 # specifies the characters that are allowed in source filenames
 wiki_file_chars: -[:alnum:]+/.:_
 # allow symlinks in the path leading to the srcdir (potentially insecure)
