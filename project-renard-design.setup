@@ -43,6 +43,7 @@ add_plugins:
 - goodstuff
 - theme
 - trail
+- sidebar
 # plugins to disable
 disable_plugins: []
 # additional directory to search for template files
