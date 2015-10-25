@@ -1,1 +1,10 @@
-[[!map pages="page(*/*) and !ikiwiki/* and !templates/*" show=title]]
+### Table of contents:
+
+1. [[Introduction|book/introduction]]
+2. [[Workflow|book/workflow]]
+3. [[Interaction|book/interaction]]
+4. [[Visualisation|book/visualisation]]
+
+### Unorganised
+
+[[!map pages="page(*/*) and !book/* and !ikiwiki/* and !templates/*" show=title]]

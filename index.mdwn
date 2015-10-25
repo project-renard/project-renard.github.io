@@ -6,7 +6,12 @@ The Design and Implementation of New Architecture for Information Display, Retri
 </center>
 </h1>
 
-1. [[!traillink Introduction|introduction ]]
-2. [[!traillink Workflow|workflow ]]
-3. [[!traillink Interaction|interaction ]]
-4. [[!traillink Visualisation|visualisation ]]
+## Abstract
+
+This book describes the design of a computer-based system for organising thoughts.
+
+
+[[!trailitem book/introduction ]]
+[[!trailitem book/workflow ]]
+[[!trailitem book/interaction ]]
+[[!trailitem book/visualisation ]]
