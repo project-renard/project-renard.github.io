@@ -212,7 +212,7 @@ atom: 1
 
 # mdwn plugin
 # enable multimarkdown features?
-#multimarkdown: 0
+multimarkdown: 1
 # disable use of markdown discount?
 #nodiscount: 0
 
