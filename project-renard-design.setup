@@ -42,6 +42,7 @@ rcs: git
 add_plugins:
 - goodstuff
 - theme
+- trail
 # plugins to disable
 disable_plugins: []
 # additional directory to search for template files
