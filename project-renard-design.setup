@@ -17,9 +17,9 @@ adminuser:
 # users who are banned from the wiki
 banned_users: []
 # where the source of the wiki is located
-#srcdir: /home/zaki/project-renard-design
+srcdir: .
 # where to build the wiki
-#destdir: /home/zaki/public_html/project-renard-design
+destdir: ./_site
 # base url to the wiki
 #url: http://localhost/~zaki/project-renard-design
 # url to the ikiwiki.cgi
@@ -27,7 +27,7 @@ banned_users: []
 # do not adjust cgiurl if CGI is accessed via different URL
 reverse_proxy: 0
 # filename of cgi wrapper to generate
-cgi_wrapper: /home/zaki/public_html/project-renard-design/ikiwiki.cgi
+#cgi_wrapper: /home/zaki/public_html/project-renard-design/ikiwiki.cgi
 # mode for cgi_wrapper (can safely be made suid)
 cgi_wrappermode: 06755
 # number of seconds to delay CGI requests when overloaded
@@ -118,7 +118,7 @@ deterministic: 0
 
 # git plugin
 # git hook to generate
-git_wrapper: /home/zaki/project-renard-design.git/hooks/post-update
+#git_wrapper: /home/zaki/project-renard-design.git/hooks/post-update
 # shell command for git_wrapper to run, in the background
 #git_wrapper_background_command: git push github
 # mode for git_wrapper (can safely be made suid)

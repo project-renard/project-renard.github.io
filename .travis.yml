@@ -17,7 +17,7 @@ install:
     `git log -n 1 --format='commit %h - %s'`"
 script:
   #- set -e
-  - ikiwiki --rebuild . _site
+  - ikiwiki --rebuild --setup project-renard-design.setup
   - git clone --bare -b gh-pages git@github.com:project-renard/design.git _site/.git
   - cd _site
   - git config core.bare false
