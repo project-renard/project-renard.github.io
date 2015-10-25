@@ -86,7 +86,7 @@ hardlink: 0
 # group for wrappers to run in
 #wrappergroup: ikiwiki
 # extra library and plugin directories
-libdirs: []
+libdirs: [ './.ikiwiki-plugin' ]
 # extra library and plugin directory (searched after libdirs)
 libdir: /home/zaki/.ikiwiki
 # environment variables
