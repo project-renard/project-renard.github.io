@@ -17,6 +17,7 @@ install:
     `git log -n 1 --format='commit %h - %s'`"
 script:
   #- set -e
+  - export PERL5LIB="./.ikiwiki-plugin"
   - ikiwiki --rebuild --setup project-renard-design.setup --url 'http://project-renard.github.io/design/'
   - git clone --bare -b gh-pages git@github.com:project-renard/design.git _site/.git
   - cd _site
