@@ -1,0 +1,9 @@
+These are the different sections of this wiki.
+
+- [[Design|design]]
+- [[Roadmap|roadmap]]
+- [[Survey|survey]]
+
+### Unorganised
+
+[[!map pages="page(*/*) and !design/* and !ikiwiki/* and !templates/*" show=title]]
