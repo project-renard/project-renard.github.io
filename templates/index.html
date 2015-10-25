@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>templates</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../style.css" type="text/css" />
 
@@ -13,12 +14,7 @@
 
 
 
-
-
 <meta name="robots" content="noindex, follow" />
-
-
-
 </head>
 <body>
 
@@ -37,8 +33,6 @@ templates
 
 </span>
 </span>
-
-
 
 </div>
 
@@ -62,20 +56,13 @@ templates
 
 
 
-
-
-
-
-
 </div>
-
-
 
 
 
 <div id="pagebody">
 
-<div id="content" role="main">
+<div id="content">
 <p><a href="../ikiwiki/">Ikiwiki</a> uses many templates for many purposes. By editing its templates,
 you can fully customise its appearance, and avoid duplicate content.</p>
 
@@ -94,10 +81,8 @@ use <code>&lt;TMPL_IF variable&gt;text&lt;TMPL_ELSE&gt;other text&lt;/TMPL_IF&gt
 
 <h2>template pages</h2>
 
-<p>Template pages are regular wiki pages containing a
-<a href="http://ikiwiki.info/ikiwiki/directive/templatebody/">templatebody directive</a>,
-used as templates for other pages. The parts of the template
-page outside the directive can be used to document it.</p>
+<p>Template pages are regular wiki pages that are used as templates for other
+pages.</p>
 
 <p>The <a href="http://ikiwiki.info/ikiwiki/directive/template/">template directive</a> allows
 template pages to be filled out and inserted into other pages in the wiki.</p>
@@ -116,9 +101,6 @@ template pages to be filled out and inserted into other pages in the wiki.</p>
 </p>
 
 
-
-<p>If the template does not contain a <code>templatebody</code> directive, the entire
-source of the page is used for the template. This is deprecated.</p>
 
 <h2>template files</h2>
 
@@ -160,16 +142,11 @@ search plugin.</li>
 <li><code>autotag.tmpl</code> - Filled in by the tag plugin to make tag pages.</li>
 <li><code>calendarmonth.tmpl</code>, <code>calendaryear.tmpl</code> - Used by ikiwiki-calendar to
 make calendar archive pages.</li>
-<li><code>trails.tmpl</code> - Used by the trail plugin to generate links on each page
-that is a member of a trail.</li>
-<li><code>notifyemail.tmpl</code> - Used by the notifymail plugin to generate mails about
-changed pages.</li>
 <li><code>editpage.tmpl</code>, <code>editconflict.tmpl</code>, <code>editcreationconflict.tmpl</code>,
 <code>editfailedsave.tmpl</code>, <code>editpagegone.tmpl</code>, <code>pocreatepage.tmpl</code>,
 <code>editcomment.tmpl</code> <code>commentmoderation.tmpl</code>, <code>renamesummary.tmpl</code>,
-<code>passwordmail.tmpl</code>, <code>emailauth.tmpl,</code>login-selector.tmpl<code>,
-</code>revert.tmpl` - Parts of ikiwiki's user interface; do not normally need
-to be customised.</li>
+<code>passwordmail.tmpl</code>, <code>openid-selector.tmpl</code>, <code>revert.tmpl</code> - Parts of ikiwiki's user
+interface; do not normally need to be customised.</li>
 </ul>
 
 
@@ -179,16 +156,11 @@ to be customised.</li>
 
 
 
-
-
 </div>
 
-<div id="footer" class="pagefooter" role="contentinfo">
+<div id="footer" class="pagefooter">
 
 <div id="pageinfo">
-
-
-
 
 
 
@@ -209,8 +181,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 13 May 2015 08:15:08 PM CDT</span>
-<!-- Created <span class="date">Wed 13 May 2015 08:15:08 PM CDT</span> -->
+Last edited <span class="date">Tue 14 Feb 2012 04:21:44 PM UTC</span>
+<!-- Created <span class="date">Tue 14 Feb 2012 04:21:44 PM UTC</span> -->
 </div>
 
 </div>
