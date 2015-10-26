@@ -109,18 +109,16 @@ number</li>
 was created</li>
 <li>"<code>created_before(page)</code>" - matches only files created before the given page
 was created</li>
-<li>"<code>internal(glob)</code>" - like <code>glob()</code>, but matches even internal-use
+<li>"<code>internal(glob)</code>" - like <code>glob()</code>, but matches even internal-use 
 pages that globs do not usually match.</li>
 <li>"<code>title(glob)</code>", "<code>author(glob)</code>", "<code>authorurl(glob)</code>",
-"<code>license(glob)</code>", "<code>copyright(glob)</code>", "<code>guid(glob)</code>"
-
+"<code>license(glob)</code>", "<code>copyright(glob)</code>", "<code>guid(glob)</code>" 
 <ul>
 <li>match pages that have the given metadata, matching the specified glob.</li>
-</ul>
-</li>
+</ul></li>
 <li>"<code>user(username)</code>" - tests whether a modification is being made by a
 user with the specified username. If openid is enabled, an openid can also
-be put here. Glob patterns can be used in the username. For example,
+be put here. Glob patterns can be used in the username. For example, 
 to match all openid users, use <code>user(*://*)</code></li>
 <li>"<code>admin()</code>" - tests whether a modification is being made by one of the
 wiki admins.</li>
@@ -128,10 +126,9 @@ wiki admins.</li>
 specified IP address.</li>
 <li>"<code>comment(glob)</code>" - matches comments to a page matching the glob.</li>
 <li>"<code>comment_pending(glob)</code>" - matches unmoderated, pending comments.</li>
-<li>"<code>postcomment(glob)</code>" - matches only when comments are being
+<li>"<code>postcomment(glob)</code>" - matches only when comments are being 
 posted to a page matching the specified glob</li>
 </ul>
-
 
 <p>For example, to match all pages in a blog that link to the page about music
 and were written in 2005:</p>

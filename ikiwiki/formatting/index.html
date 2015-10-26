@@ -81,7 +81,6 @@ in single or double asterisks.</p>
 <li>"* another item"</li>
 </ul>
 
-
 <p>To make a numbered list, start each line with a number (any number will
 do) followed by a period:</p>
 
@@ -91,22 +90,21 @@ do) followed by a period:</p>
 <li>"2. third line"</li>
 </ol>
 
-
 <p>To create a header, start a line with one or more <code>#</code> characters followed
 by a space and the header text. The number of <code>#</code> characters controls the
 size of the header:</p>
 
-<h1># h1</h1>
+<h1 id="h1"># h1</h1>
 
-<h2>## h2</h2>
+<h2 id="h2">## h2</h2>
 
-<h3>### h3</h3>
+<h3 id="h3">### h3</h3>
 
-<h4>#### h4</h4>
+<h4 id="h4">#### h4</h4>
 
-<h5>##### h5</h5>
+<h5 id="h5">##### h5</h5>
 
-<h6>###### h6</h6>
+<h6 id="h6">###### h6</h6>
 
 <p>To create a horizontal rule, just write three or more dashes or stars on
 their own line:</p>
@@ -115,8 +113,10 @@ their own line:</p>
 
 <p>To quote someone, prefix the quote with "&gt;":</p>
 
-<blockquote><p>To be or not to be,
-that is the question.</p></blockquote>
+<blockquote>
+  <p>To be or not to be,
+  that is the question.</p>
+</blockquote>
 
 <p>To write a code block, indent each line with a tab or 4 spaces:</p>
 
@@ -139,7 +139,7 @@ square brackets. So you would use <code>[[WikiLink]]</code> to link to <a href="
 <li><p>Insert <a href="../../smileys/">smileys</a> and some other useful symbols. <img src="../../smileys/smile.png" alt=":-)" /></p></li>
 <li><p>Use <a href="../../shortcuts/">shortcuts</a> to link to common resources.</p>
 
-<p>  [[!wikipedia  War_of_1812]]</p></li>
+<p>[[!wikipedia  War_of_1812]]</p></li>
 <li><p>Create and fill out <a href="../../templates/">templates</a> for repeated chunks of
 parameterized wiki text.</p></li>
 <li><p>Insert various <a href="../directive/">directives</a> onto a page to perform useful
@@ -147,19 +147,23 @@ actions.
 For example, you can:</p>
 
 <ul>
-<li><p>Add a table of contents to a page:</p>
+<li>Add a table of contents to a page:</li>
+</ul>
 
-<p>[[!toc ]]</p></li>
-<li><p>Change the title of a page:</p>
+<p>[[!toc ]]</p>
 
-<p>[[!meta  title="full page title"]]</p></li>
-<li><p>Create a blog by inlining a set of pages:</p>
+<ul>
+<li>Change the title of a page:</li>
+</ul>
+
+<p>[[!meta  title="full page title"]]</p>
+
+<ul>
+<li>Create a blog by inlining a set of pages:</li>
+</ul>
 
 <p>[[!inline  pages="blog/*"]]</p></li>
 </ul>
-</li>
-</ul>
-
 
 </div>
 
