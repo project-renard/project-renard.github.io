@@ -17,7 +17,65 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2015-10-25T18:30:36Z</updated>
+<updated>2015-10-28T20:38:58Z</updated>
+<entry>
+	<title>change to design/sidebar on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_e5d93cc6597863206d06afc509fe0a1f9748726d/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-e5d93cc6597863206d06afc509fe0a1f9748726d"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-10-28T20:38:58Z</updated>
+	<published>2015-10-28T20:38:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-e5d93cc6597863206d06afc509fe0a1f9748726d&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+design/sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:38:58 PM 10/28/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+remove the map directive in the sidebar&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to index on Project Renard</title>
 
