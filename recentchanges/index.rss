@@ -8,6 +8,60 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to .travis.yml project-renard.setup on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_ddc8a00ceeae888e66b78182ae0a39226c553334/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-ddc8a00ceeae888e66b78182ae0a39226c553334</link>
+
+	<pubDate>Sun, 01 Nov 2015 18:36:56 +0000</pubDate>
+	<dcterms:modified>2015-11-01T18:36:56Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ddc8a00ceeae888e66b78182ae0a39226c553334&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.travis.yml
+
+project-renard.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:36:56 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: tagging&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to survey/reference-management on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2606,7 +2660,7 @@ rename to use .mdwn extension&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to visualisation/graphs.md on Project Renard</title>
+	<title>zaki.mughal: change to README.md visualisation/graphs.md on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2626,6 +2680,8 @@ rename to use .mdwn extension&lt;br /&gt;
 &lt;div id=&quot;change-d49fb287cbae925dc5b9c94e1371b2b1a292d6b1&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
+
+README.md
 
 visualisation/graphs.md
 
@@ -2647,60 +2703,6 @@ zaki.mughal
 
 
 fix paper link&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to README.md visualisation/graphs.md on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_ea37995b65461abd6bb876f8b7779dc7c92c9625/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-ea37995b65461abd6bb876f8b7779dc7c92c9625</link>
-
-	<pubDate>Wed, 14 Oct 2015 19:14:40 +0000</pubDate>
-	<dcterms:modified>2015-10-14T19:14:40Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-ea37995b65461abd6bb876f8b7779dc7c92c9625&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-README.md
-
-visualisation/graphs.md
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:14:40 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-add information on graph visualisation&lt;br /&gt;
 
 
 &lt;/div&gt;
