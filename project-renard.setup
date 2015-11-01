@@ -404,11 +404,11 @@ theme: goldtype
 
 # tag plugin
 # parent page tags are located under
-#tagbase: tag
+tagbase: tag
 # autocreate new tag pages?
-#tag_autocreate: 1
+tag_autocreate: 1
 # commit autocreated tag pages
-#tag_autocreate_commit: 1
+tag_autocreate_commit: 1
 
 # typography plugin
 # Text::Typography attributes value

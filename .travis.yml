@@ -18,6 +18,7 @@ script:
   #- set -e
   - export PERL5LIB="./.ikiwiki-plugin"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
+  - git push -f git@github.com:project-renard/project-renard.github.io.git source:source
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
   - git config core.bare false
