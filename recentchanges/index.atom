@@ -17,7 +17,65 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2015-11-01T17:41:58Z</updated>
+<updated>2015-11-01T18:14:45Z</updated>
+<entry>
+	<title>change to survey/reference-management on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_376d3b5bf9c3d5f37c700f883960576047ca4edb/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-376d3b5bf9c3d5f37c700f883960576047ca4edb"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-11-01T18:14:45Z</updated>
+	<published>2015-11-01T18:14:45Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-376d3b5bf9c3d5f37c700f883960576047ca4edb&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+survey/reference-management
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:14:45 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix the title of wikilinks to reference management tools&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to survey survey/reference-management survey/reference-management/paperpile survey/tool/docear survey/tool/endnote survey/tool/jabref survey/tool/mendeley survey/tool/paperpile survey/tool/papers survey/tool/zotero on Project Renard</title>
 
@@ -2905,7 +2963,7 @@ fix paper link&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to visualisation/graphs.md on Project Renard</title>
+	<title>change to README.md visualisation/graphs.md on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_ea37995b65461abd6bb876f8b7779dc7c92c9625/</id>
 
@@ -2931,6 +2989,8 @@ fix paper link&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+README.md
+
 visualisation/graphs.md
 
 &lt;/span&gt;
@@ -2951,64 +3011,6 @@ zaki.mughal
 
 
 add information on graph visualisation&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to README.md on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_826ba563bdb632cda511dcaf9ef9a5cd4652aab3/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-10-14T19:08:16Z</updated>
-	<published>2015-10-14T19:08:16Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-826ba563bdb632cda511dcaf9ef9a5cd4652aab3&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-README.md
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:08:16 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-add readme&lt;br /&gt;
 
 
 &lt;/div&gt;
