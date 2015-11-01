@@ -10,6 +10,7 @@ install:
   - chmod go-rwx .travisdeploykey
   - eval `ssh-agent -s`
   - ssh-add .travisdeploykey
+  - git config --global push.default simple
   - git config --global user.name "Travis-CI"
   - git config --global user.email "noreply@travis-ci.org"
   - COMMIT_MESSAGE="Publishing site on `date "+%Y-%m-%d %H:%M:%S"` from
@@ -18,7 +19,6 @@ script:
   #- set -e
   - export PERL5LIB="./.ikiwiki-plugin"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
-  - git push -f git@github.com:project-renard/project-renard.github.io.git source:source
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
   - git config core.bare false
