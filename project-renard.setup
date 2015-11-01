@@ -44,6 +44,7 @@ add_plugins:
 - theme
 - trail
 - sidebar
+- autoindex
 # plugins to disable
 disable_plugins: []
 # additional directory to search for template files
@@ -370,7 +371,7 @@ theme: goldtype
 
 # autoindex plugin
 # commit autocreated index pages
-#autoindex_commit: 1
+autoindex_commit: 1
 
 # camelcase plugin
 # list of words to not turn into links
