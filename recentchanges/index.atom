@@ -17,7 +17,123 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2015-11-01T20:53:13Z</updated>
+<updated>2015-11-01T21:37:58Z</updated>
+<entry>
+	<title>change to tag/software-type/reference-management on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_e1ded379e563e38cf1170d7eb49d957648a8d3c2/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-e1ded379e563e38cf1170d7eb49d957648a8d3c2"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-11-01T21:37:58Z</updated>
+	<published>2015-11-01T21:37:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-e1ded379e563e38cf1170d7eb49d957648a8d3c2&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/software-type/reference-management
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:37:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/software-type/reference-management&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tag/handles-file-type/application-pdf on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_2426602c3ae7d12b200d2802fef5d5d8634259b5/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-2426602c3ae7d12b200d2802fef5d5d8634259b5"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-11-01T21:37:56Z</updated>
+	<published>2015-11-01T21:37:56Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-2426602c3ae7d12b200d2802fef5d5d8634259b5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/handles-file-type/application-pdf
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:37:56 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/handles-file-type/application-pdf&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to .travis.yml project-renard.setup on Project Renard</title>
 
@@ -2843,7 +2959,7 @@ Add note about bibliography data&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to document-sources/services on Project Renard</title>
+	<title>change to README.md document-sources/services open-questions visualisation/graphs on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_8ed8402a54e6f53fcc7681c08248a4c1f728d851/</id>
 
@@ -2869,7 +2985,13 @@ Add note about bibliography data&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+README.md
+
 document-sources/services
+
+open-questions
+
+visualisation/graphs
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2889,130 +3011,6 @@ zaki.mughal
 
 
 Add information about Ebrary as a document source.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to open-questions on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-10-15T21:09:08Z</updated>
-	<published>2015-10-15T21:09:08Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-e0b69e7b3e8afafb4f3cc7efc7b203297e79e7d8&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-open-questions
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:09:08 PM 10/15/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add a document with open design questions.&lt;br /&gt;
-
-
-
-
-
-These can later be linked to specific points where they are addressed.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to README.md visualisation/graphs on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_ffcbdca6ecfbc56ec868696811ec7af8e622f203/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-ffcbdca6ecfbc56ec868696811ec7af8e622f203"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-10-14T19:27:55Z</updated>
-	<published>2015-10-14T19:27:55Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-ffcbdca6ecfbc56ec868696811ec7af8e622f203&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-README.md
-
-visualisation/graphs
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:27:55 PM 10/14/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-rename to use .mdwn extension&lt;br /&gt;
 
 
 &lt;/div&gt;
