@@ -23,7 +23,7 @@ script:
   - cd _site
   - git config core.bare false
   - git add -f .
-  - 'git commit -m "${COMMIT_MESSAGE}"' || true
+  - 'git commit -m "${COMMIT_MESSAGE}" || true'
   - git push -f git@github.com:project-renard/project-renard.github.io.git master:master
 
 branches:
