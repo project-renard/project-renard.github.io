@@ -8,6 +8,60 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to survey/feature/metadata-retrieval survey/tool/mendeley on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_bb026d45b7899bd36db959543b7eefc165b28073/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-bb026d45b7899bd36db959543b7eefc165b28073</link>
+
+	<pubDate>Tue, 03 Nov 2015 01:34:32 +0000</pubDate>
+	<dcterms:modified>2015-11-03T01:34:32Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-bb026d45b7899bd36db959543b7eefc165b28073&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+survey/feature/metadata-retrieval
+
+survey/tool/mendeley
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:34:32 AM 11/03/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add information about metadata feature&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to .travis.yml on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2586,7 +2640,7 @@ ikiwiki: show list of pages&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography document-sources/services file-format/pdf index open-questions  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2608,6 +2662,26 @@ ikiwiki: show list of pages&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 .ikiwiki-plugin/IkiWiki/Plugin/trail.pm
+
+.travis.yml
+
+.travisdeploykey.enc
+
+.travisdeploykey.pub
+
+README.md
+
+data/bibliography
+
+document-sources/services
+
+file-format/pdf
+
+index
+
+open-questions
+
+...
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2637,78 +2711,6 @@ ikiwiki: add the trail plugin to the .ikiwiki-plugin libdir&lt;br /&gt;
 
 
     rsync.default ../git.ikiwiki.info/IkiWiki/Plugin/trail.pm .ikiwiki-plugin/IkiWiki/Plugin/trail.pm&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography document-sources/services file-format/pdf index open-questions project-renard-design.setup  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_4f113f5a567b5da1c781bf7569bbb777673db7d5/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-4f113f5a567b5da1c781bf7569bbb777673db7d5</link>
-
-	<pubDate>Sun, 25 Oct 2015 01:53:58 +0000</pubDate>
-	<dcterms:modified>2015-10-25T01:53:58Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-4f113f5a567b5da1c781bf7569bbb777673db7d5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.travis.yml
-
-.travisdeploykey.enc
-
-.travisdeploykey.pub
-
-README.md
-
-data/bibliography
-
-document-sources/services
-
-file-format/pdf
-
-index
-
-open-questions
-
-project-renard-design.setup
-
-...
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:53:58 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-ikiwiki: add the .ikiwiki-plugin directory to libdirs&lt;br /&gt;
 
 
 &lt;/div&gt;
