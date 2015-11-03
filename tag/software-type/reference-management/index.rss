@@ -8,6 +8,27 @@
 <description>Project Renard</description>
 <item>
 
+	<title>Papers</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//survey/tool/papers/</guid>
+
+	<link>http://project-renard.github.io//survey/tool/papers/</link>
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
+
+	<description>
+</description>
+
+
+</item>
+<item>
+
 	<title>Paperpile</title>
 
 
@@ -35,6 +56,27 @@ a real-time collaborative editor.&lt;/p&gt;
 </item>
 <item>
 
+	<title>Docear</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//survey/tool/docear/</guid>
+
+	<link>http://project-renard.github.io//survey/tool/docear/</link>
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
+
+	<description>
+</description>
+
+
+</item>
+<item>
+
 	<title>Mendeley</title>
 
 
@@ -49,13 +91,76 @@ a real-time collaborative editor.&lt;/p&gt;
 
 
 	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
-	<dcterms:modified>2015-11-03T01:34:32Z</dcterms:modified>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
 PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
-&lt;p&gt;It has the ability to retrieve article metadata and use that to fill out the
-bibliography database. This allows for &lt;/p&gt;
+&lt;p&gt;Features:
+- &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../survey/feature/metadata-retrieval/&quot;&gt;Metadata retrieval&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>EndNote</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//survey/tool/endnote/</guid>
+
+	<link>http://project-renard.github.io//survey/tool/endnote/</link>
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
+
+	<description>
+</description>
+
+
+</item>
+<item>
+
+	<title>Zotero</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//survey/tool/zotero/</guid>
+
+	<link>http://project-renard.github.io//survey/tool/zotero/</link>
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
+
+	<description>
+</description>
+
+
+</item>
+<item>
+
+	<title>JabRef</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//survey/tool/jabref/</guid>
+
+	<link>http://project-renard.github.io//survey/tool/jabref/</link>
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 01 Nov 2015 17:41:58 +0000</pubDate>
+	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
+
+	<description>
 </description>
 
 

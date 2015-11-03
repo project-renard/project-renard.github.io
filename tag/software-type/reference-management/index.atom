@@ -17,7 +17,33 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2015-11-03T01:34:32Z</updated>
+<updated>2015-11-03T14:57:59Z</updated>
+<entry>
+	<title>Papers</title>
+
+	<id>http://project-renard.github.io//survey/tool/papers/</id>
+
+	<link href="http://project-renard.github.io//survey/tool/papers/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2015-11-03T14:57:59Z</updated>
+	<published>2015-11-01T17:41:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Paperpile</title>
 
@@ -51,6 +77,32 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>Docear</title>
+
+	<id>http://project-renard.github.io//survey/tool/docear/</id>
+
+	<link href="http://project-renard.github.io//survey/tool/docear/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2015-11-03T14:57:59Z</updated>
+	<published>2015-11-01T17:41:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Mendeley</title>
 
 	<id>http://project-renard.github.io//survey/tool/mendeley/</id>
@@ -67,15 +119,93 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2015-11-03T01:34:32Z</updated>
+	<updated>2015-11-03T14:57:59Z</updated>
 	<published>2015-11-01T17:41:58Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
 PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
-&lt;p&gt;It has the ability to retrieve article metadata and use that to fill out the
-bibliography database. This allows for &lt;/p&gt;
+&lt;p&gt;Features:
+- &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../survey/feature/metadata-retrieval/&quot;&gt;Metadata retrieval&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>EndNote</title>
+
+	<id>http://project-renard.github.io//survey/tool/endnote/</id>
+
+	<link href="http://project-renard.github.io//survey/tool/endnote/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2015-11-03T14:57:59Z</updated>
+	<published>2015-11-01T17:41:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Zotero</title>
+
+	<id>http://project-renard.github.io//survey/tool/zotero/</id>
+
+	<link href="http://project-renard.github.io//survey/tool/zotero/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2015-11-03T14:57:59Z</updated>
+	<published>2015-11-01T17:41:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>JabRef</title>
+
+	<id>http://project-renard.github.io//survey/tool/jabref/</id>
+
+	<link href="http://project-renard.github.io//survey/tool/jabref/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2015-11-03T14:57:59Z</updated>
+	<published>2015-11-01T17:41:58Z</published>
+
+	<content type="html" xml:lang="en">
+	
 
 	</content>
 
