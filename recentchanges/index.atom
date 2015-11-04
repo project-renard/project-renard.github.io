@@ -17,7 +17,85 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2015-11-03T15:14:00Z</updated>
+<updated>2015-11-04T15:55:54Z</updated>
+<entry>
+	<title>change to data/bibliography data development/data/bibliography development/data development/document-sources development/document-sources/services development/file-format development/file-format/pdf development/open-questions document-sources  on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_859f5911d6d52b32c835d97361f583b03139f76e/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-859f5911d6d52b32c835d97361f583b03139f76e"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2015-11-04T15:55:54Z</updated>
+	<published>2015-11-04T15:55:54Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-859f5911d6d52b32c835d97361f583b03139f76e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+data/bibliography
+
+data
+
+development/data/bibliography
+
+development/data
+
+development/document-sources
+
+development/document-sources/services
+
+development/file-format
+
+development/file-format/pdf
+
+development/open-questions
+
+document-sources
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:55:54 PM 11/04/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+start moving items to development section&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to survey/reference-management on Project Renard</title>
 
@@ -2893,7 +2971,7 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to index on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography document-sources/services file-format/pdf index open-questions  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_50913c442686b0b7a3830e0866dc288e5a959000/</id>
 
@@ -2916,70 +2994,6 @@ index: remove the ikiwiki/ and templates/ subdirs from the map&lt;br /&gt;
 
 
 &lt;div id=&quot;change-50913c442686b0b7a3830e0866dc288e5a959000&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-index
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:15:22 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-ikiwiki: show pages using the map directive&lt;br /&gt;
-
-
-
-
-
-Not the inline directive.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography document-sources/services file-format/pdf index open-questions  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-10-25T02:10:34Z</updated>
-	<published>2015-10-25T02:10:34Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-8bce7b4a5750109eba5ee49c79b892d8cd8d8a5b&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -3015,14 +3029,20 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:10:34 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:15:22 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-Travis-CI: use PERL5LIB to indicate location of ikiwiki plugins&lt;br /&gt;
+ikiwiki: show pages using the map directive&lt;br /&gt;
+
+
+
+
+
+Not the inline directive.&lt;br /&gt;
 
 
 &lt;/div&gt;
