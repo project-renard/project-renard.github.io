@@ -1,5 +1,15 @@
-# Unique identifiers
+There are several sources of bibliography data that can be retrieved from
+online. Many of these have unique identifiers that can be used retrieve
+specific versions of a document. A single document may have multiple unique
+identifiers under different namespaces. Examples of these kinds of namespaces
+include:
 
 - ArXiV ID
 - DOI
 - PubMed ID
+
+Bibliography data may be stored in different kinds of metadata formats including:
+
+- RIS
+- BibTeX
+- MARC
