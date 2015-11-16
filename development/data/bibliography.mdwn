@@ -13,3 +13,8 @@ Bibliography data may be stored in different kinds of metadata formats including
 - RIS
 - BibTeX
 - MARC
+
+URI normalisation
+
+- remove proxies `s/.ezprox.lib.uh.edu//`
+- link DOIs to what they redirect to
