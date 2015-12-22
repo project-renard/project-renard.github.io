@@ -1,0 +1,15 @@
+[[!meta title="PDF rendering"]]
+
+
+- Aspects
+  - Render targets
+    - PNG
+    - Cairo surface
+  - PDF version support
+  - Direct access to PDF stream
+  - Embedded font support and access
+
+- Poppler
+- MuPDF
+- PDFium
+

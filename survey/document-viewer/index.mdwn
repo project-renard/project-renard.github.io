@@ -1,0 +1,44 @@
+[[!meta title="Document viewer"]]
+
+## List of document viewers
+
+[[!map pages="tagged(software-type/document-viewer)" show=title]]
+
+## Comparison
+
+
+- Aspects:
+  - Website
+  - License
+  - Source available
+  - File formats
+  - Text selection
+  - Rectangular area selection
+  - Annotation
+    - Adding comments on the margin
+    - Overlay text on the document
+    - Highlighting (number of colors)
+    - Summary view of notes
+    - Annotation export
+  - Editing
+  - Total installation size
+    - of Debian package
+    - of Windows executable
+    - of Mac OS X DMG
+  - Platform
+  - Reference manager support (BibTeX)
+
+- Xpdf
+- KPDF
+- Evince
+- MuPDF viewer
+- PDF Split and Merge
+- Okular
+- Skim
+- Sumatra PDF
+- Zathura
+- podofo
+- Mendeley
+
+
+
