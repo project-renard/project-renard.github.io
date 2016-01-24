@@ -1,1 +1,8 @@
-[[!map pages="doc/development/meeting-log/* and ! doc/development/meeting-log/*/*"]]
+[[!if test="enabled(sidebar)" then="""
+[[!sidebar]]
+""" else="""
+[[!inline pages=sidebar raw=yes]]
+"""]]
+
+[[!inline pages="page(doc/development/meeting-log/posts/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*" show="10"
+actions=yes rootpage="posts" trail=yes]]

@@ -18,10 +18,10 @@
 
     - Install the dependencies on Debian by running:
 
-    ```
-    cd curie
-    sudo xargs apt-get install -y --no-install-recommends < debian-packages
-    ```
+      ```
+      cd curie
+      sudo xargs apt-get install -y --no-install-recommends < debian-packages
+      ```
 
 - **base**: Make sure the version of Perl 5 you have is v5.20 or greater.
    -  If you do not have that version of Perl 5, you can use `perlbrew` to set it up.

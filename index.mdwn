@@ -1,5 +1,28 @@
+<style>
+.img.left {
+float:left;
+}
+.img.right {
+float:right;
+}
+.firstcharacter {
+    float: left;
+    color: #903;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: Georgia;
+}
+</style>
 
-<img src="img/project-renard-logo.png"/>
-
-- [[Documentation|doc]]
-
+[[!img img/project-renard-logo.png class="img right" alt="Picture of a fox (Renard) reading a book" size="150x"]]
+<span class="firstcharacter">P</span>roject Renard is an initiative to rethink how information is used in the
+digital realm. An early dream of the researchers that created computers was to
+create a "tool for thought" — a tool that could help them avoid the overhead
+of organising information before it could become useful. We have the
+technologies that are needed, but nobody has yet integrated them in a way that
+creates a unified experience. This experience needs to incorparate everything
+from information seeking to filing documents and ideas into a always-available database
+to linking disparate thoughts into a mental model in order to make sense of it all.

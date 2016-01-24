@@ -1,4 +1,4 @@
 Here is a full list of posts to this [[section|/doc/development/meeting-log]].
 
-[[!inline pages="page(posts/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*"
+[[!inline pages="page(doc/development/meeting-log/posts/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*"
 archive=yes feedshow=10 quick=yes]]

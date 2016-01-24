@@ -6,4 +6,4 @@ These are the different sections of this wiki.
 
 ### Unorganised
 
-[[!map pages="page(*/*) and !doc/survey/* and !doc/development/* and !doc/design/* and !tag/* and !ikiwiki/* and !templates/*" show=title]]
+[[!map pages="page(doc/*/*) and !doc/survey/* and !doc/development/* and !doc/design/* and !tag/* and !ikiwiki/* and !templates/*" show=title]]
