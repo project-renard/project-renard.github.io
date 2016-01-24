@@ -8,6 +8,132 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to img/project-renard-logo.png index on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1</link>
+
+	<pubDate>Sun, 24 Jan 2016 04:29:20 +0000</pubDate>
+	<dcterms:modified>2016-01-24T04:29:20Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+img/project-renard-logo.png
+
+index
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:29:20 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add homepage&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>zaki.mughal: change to design design/interaction design/introduction design/sidebar design/visualisation/graphs design/visualisation design/workflow development/data/bibliography development/data development/document-sources  on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_51775fe6af7cebd5f3790e066e307922c413ccaa/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-51775fe6af7cebd5f3790e066e307922c413ccaa</link>
+
+	<pubDate>Sun, 24 Jan 2016 04:26:51 +0000</pubDate>
+	<dcterms:modified>2016-01-24T04:26:51Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-51775fe6af7cebd5f3790e066e307922c413ccaa&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+design
+
+design/interaction
+
+design/introduction
+
+design/sidebar
+
+design/visualisation/graphs
+
+design/visualisation
+
+design/workflow
+
+development/data/bibliography
+
+development/data
+
+development/document-sources
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:26:51 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+move developer doc pages to doc/ directory&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to survey/tool/mupdf on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2552,7 +2678,7 @@ Travis-CI: use source/master for source / GitHub Pages HTML respectively&lt;br /
 </item>
 <item>
 
-	<title>zaki.mughal: change to book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow index interaction introduction sidebar visualisation/graphs  on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2573,6 +2699,16 @@ Travis-CI: use source/master for source / GitHub Pages HTML respectively&lt;br /
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
+.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
+
+.travis.yml
+
+.travisdeploykey.enc
+
+.travisdeploykey.pub
+
+README.md
+
 book/interaction
 
 book/introduction
@@ -2582,16 +2718,6 @@ book/visualisation/graphs
 book/visualisation
 
 book/workflow
-
-index
-
-interaction
-
-introduction
-
-sidebar
-
-visualisation/graphs
 
 ...
 
@@ -2613,130 +2739,6 @@ zaki.mughal
 
 
 Organise the layout of the book into chapters&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to project-renard-design.setup on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_b7cd731eac8e8871bebebde4e4eda7416868bbee/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-b7cd731eac8e8871bebebde4e4eda7416868bbee</link>
-
-	<pubDate>Sun, 25 Oct 2015 11:08:08 +0000</pubDate>
-	<dcterms:modified>2015-10-25T11:08:08Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-b7cd731eac8e8871bebebde4e4eda7416868bbee&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-project-renard-design.setup
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:08:08 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-ikiwiki: change wikiname to just &amp;quot;design&amp;quot;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography document-sources/services file-format/pdf index interaction  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_6e040aff40aaaf50ad6cc2d2b6b8480b4498e072/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-6e040aff40aaaf50ad6cc2d2b6b8480b4498e072</link>
-
-	<pubDate>Sun, 25 Oct 2015 11:06:21 +0000</pubDate>
-	<dcterms:modified>2015-10-25T11:06:21Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6e040aff40aaaf50ad6cc2d2b6b8480b4498e072&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
-
-.travis.yml
-
-.travisdeploykey.enc
-
-.travisdeploykey.pub
-
-README.md
-
-data/bibliography
-
-document-sources/services
-
-file-format/pdf
-
-index
-
-interaction
-
-...
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:06:21 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-ikiwiki: enable sidebar plugin&lt;br /&gt;
 
 
 &lt;/div&gt;
