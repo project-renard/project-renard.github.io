@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T05:16:04Z</updated>
+<updated>2016-01-24T05:42:14Z</updated>
 <entry>
 	<title>initial-setup</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-01-24T05:16:04Z</updated>
+	<updated>2016-01-24T05:42:14Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">
@@ -59,12 +59,13 @@ built-in feature.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install development packages for libgtk-3.0 &lt;a href=&quot;https://developer.gnome.org/gtk3/&quot;&gt;https://developer.gnome.org/gtk3/&lt;/a&gt; on Debian GNU/Linux.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Install the dependencies on Debian by running:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
+&lt;li&gt;Install the dependencies on Debian by running:
+&lt;pre&gt;
 cd curie
-sudo xargs apt-get install -y --no-install-recommends &amp;lt; debian-packages
-&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+sudo xargs apt-get install \
+  -y --no-install-recommends \
+  &amp;lt; debian-packages
+&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;base&lt;/strong&gt;: Make sure the version of Perl 5 you have is v5.20 or greater.&lt;/p&gt;
 

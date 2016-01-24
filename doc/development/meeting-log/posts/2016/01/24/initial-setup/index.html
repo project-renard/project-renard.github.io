@@ -113,12 +113,13 @@ built-in feature.</p></li>
 <li><p><strong>curie</strong>: Install development packages for libgtk-3.0 <a href="https://developer.gnome.org/gtk3/">https://developer.gnome.org/gtk3/</a> on Debian GNU/Linux.</p>
 
 <ul>
-<li><p>Install the dependencies on Debian by running:</p>
-
-<p><code>
+<li>Install the dependencies on Debian by running:
+<pre>
 cd curie
-sudo xargs apt-get install -y --no-install-recommends &lt; debian-packages
-</code></p></li>
+sudo xargs apt-get install \
+  -y --no-install-recommends \
+  &lt; debian-packages
+</pre></li>
 </ul></li>
 <li><p><strong>base</strong>: Make sure the version of Perl 5 you have is v5.20 or greater.</p>
 
@@ -189,7 +190,7 @@ that are provided by libgdl <a href="https://developer.gnome.org/gdl/">https://d
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 24 Jan 2016 05:16:04 AM UTC</span>
+Last edited <span class="date">Sun 24 Jan 2016 05:42:14 AM UTC</span>
 <!-- Created <span class="date">Sun 24 Jan 2016 04:45:06 AM UTC</span> -->
 </div>
 
