@@ -1,0 +1,66 @@
+## Agenda
+
+- Record all steps taken today to a post on the project-renard wiki.
+  - That means that this EtherPad document will become a page on the wiki.
+- Choose a standard version of Perl 5 to work on. The code will not work on
+  older versions. This is so that we can use modern features without worrying
+  about backwards compatibility.
+  
+  Perl v5.20 is a good choice right now. It supports method signatures as a
+  built-in feature.
+
+- Set up GTK+ 3 on Linux so that it can run the **curie** code.
+    - This is related to issue "GTK+ Linux setup" <https://github.com/project-renard/curie/issues/2>.
+
+## Tasks in progress
+
+- **curie**: Install development packages for libgtk-3.0 <https://developer.gnome.org/gtk3/> on Debian GNU/Linux.
+
+    - Install the dependencies on Debian by running:
+
+    ```
+    cd curie
+    sudo xargs apt-get install -y --no-install-recommends < debian-packages
+    ```
+
+- **base**: Make sure the version of Perl 5 you have is v5.20 or greater.
+   -  If you do not have that version of Perl 5, you can use `perlbrew` to set it up.
+      Follow the instructions at <http://perlbrew.pl/>.
+
+- **base**: We will use cpanm to install the Perl modules that we need. It can be
+  installed by running
+  
+  ```
+      perlbrew install-cpanm
+  ```
+  
+  or if you do not have perlbrew, following the instructions at
+  <https://github.com/miyagawa/cpanminus#installing-to-system-perl>:
+      
+  ```
+      cpan App::cpanminus
+  ```
+
+- **curie**: Removed the Gtk3::Ex::PDFViewer code which was causing problems
+    - PR <https://github.com/project-renard/curie/pull/3>.
+
+- **curie**: Install the Perl CPAN packages needed for Gtk3.
+    - This can be done more easily by creating a `cpanfile` which lists the requirements.
+    - PR <https://github.com/project-renard/curie/pull/4>.
+
+## Tasks remaining
+
+- **curie**: Install and investigate the Glade UI designer.
+    - Glade can be installed by running the commands:
+      ```
+      sudo apt-get install --no-install-recommends glade
+      ```
+
+    - There is a Glade tutorial at <http://live.gnome.org/Glade/Tutorials>.
+
+    - We need to see if Glade <https://glade.gnome.org/> can handle the docking widgets
+      that are provided by libgdl <https://developer.gnome.org/gdl/>.
+
+
+
+
