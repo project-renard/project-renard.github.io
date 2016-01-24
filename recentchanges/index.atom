@@ -17,7 +17,65 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T05:16:04Z</updated>
+<updated>2016-01-24T05:17:38Z</updated>
+<entry>
+	<title>change to .travis.yml on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_aeda2e8b4ecb4affb06f0d9fc12367729df5965f/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-aeda2e8b4ecb4affb06f0d9fc12367729df5965f"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-24T05:17:38Z</updated>
+	<published>2016-01-24T05:17:38Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-aeda2e8b4ecb4affb06f0d9fc12367729df5965f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.travis.yml
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:17:38 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Need to have Image::Magick Perl module to scale images&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- aeda2e8b4ecb4affb06f0d9fc12367729df5965f --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development doc/development/meeting-log doc/development/meeting-log/posts doc/development/meeting-log/posts/.swp doc/development/meeting-log/posts/2016/01/24/initial-setup doc index sidebar on Project Renard</title>
 
@@ -2909,7 +2967,7 @@ ikiwiki: tagging&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to survey/reference-management on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_376d3b5bf9c3d5f37c700f883960576047ca4edb/</id>
 
@@ -2932,64 +2990,6 @@ ikiwiki: tagging&lt;br /&gt;
 
 
 &lt;div id=&quot;change-376d3b5bf9c3d5f37c700f883960576047ca4edb&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-survey/reference-management
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:14:45 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Fix the title of wikilinks to reference management tools&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 376d3b5bf9c3d5f37c700f883960576047ca4edb --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_842cd57ea259412259ce111f6a5b11204be198e1/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-842cd57ea259412259ce111f6a5b11204be198e1"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-11-01T17:41:58Z</updated>
-	<published>2015-11-01T17:41:58Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-842cd57ea259412259ce111f6a5b11204be198e1&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -3025,19 +3025,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:41:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:14:45 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-update tool survey&lt;br /&gt;
+Fix the title of wikilinks to reference management tools&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- 842cd57ea259412259ce111f6a5b11204be198e1 --&gt;
+&lt;!-- 376d3b5bf9c3d5f37c700f883960576047ca4edb --&gt;
 
 	</content>
 
