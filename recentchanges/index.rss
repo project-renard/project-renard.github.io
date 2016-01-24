@@ -8,6 +8,60 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to doc/development/meeting-log doc/development/meeting-log/posts on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_268b6642645e5d79d1a25bed5736b9c3440b07f4/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-268b6642645e5d79d1a25bed5736b9c3440b07f4</link>
+
+	<pubDate>Sun, 24 Jan 2016 04:43:02 +0000</pubDate>
+	<dcterms:modified>2016-01-24T04:43:02Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-268b6642645e5d79d1a25bed5736b9c3440b07f4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log
+
+doc/development/meeting-log/posts
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:43:02 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Start meeting log pages&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to doc/development on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2630,7 +2684,7 @@ move the current top page down to the design/ subdirectory&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to project-renard.setup on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2648,58 +2702,6 @@ move the current top page down to the design/ subdirectory&lt;br /&gt;
 
 
 &lt;div id=&quot;change-8ed95be28a101e95059973489c7efeecc2467a00&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-project-renard.setup
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:04:51 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-rename the wiki to be more general&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_0e57a4b69a821cb5a8f78626ab794be82eaa4d8b/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-0e57a4b69a821cb5a8f78626ab794be82eaa4d8b</link>
-
-	<pubDate>Sun, 25 Oct 2015 18:03:48 +0000</pubDate>
-	<dcterms:modified>2015-10-25T18:03:48Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-0e57a4b69a821cb5a8f78626ab794be82eaa4d8b&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2735,14 +2737,14 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:03:48 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:04:51 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-ikiwiki: rename the setup file&lt;br /&gt;
+rename the wiki to be more general&lt;br /&gt;
 
 
 &lt;/div&gt;
