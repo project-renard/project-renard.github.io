@@ -1,1 +1,1 @@
-[[!map pages="development/* and ! development/*/*"]]
+[[!map pages="page(*/*) and !tag/* and !ikiwiki/* and !templates/*" show=title]]
