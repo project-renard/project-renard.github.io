@@ -17,11 +17,12 @@
 - **curie**: Install development packages for libgtk-3.0 <https://developer.gnome.org/gtk3/> on Debian GNU/Linux.
 
     - Install the dependencies on Debian by running:
-
-      ```
+      <pre>
       cd curie
-      sudo xargs apt-get install -y --no-install-recommends < debian-packages
-      ```
+      sudo xargs apt-get install \
+          -y --no-install-recommends \
+          < debian-packages
+      </pre>
 
 - **base**: Make sure the version of Perl 5 you have is v5.20 or greater.
    -  If you do not have that version of Perl 5, you can use `perlbrew` to set it up.
