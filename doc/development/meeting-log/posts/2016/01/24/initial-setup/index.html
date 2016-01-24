@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>initial-setup</title>
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2016</a>/ 
+
+<a href="../../">01</a>/ 
+
+<a href="../">24</a>/ 
+
+</span>
+<span class="title">
+initial-setup
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<h2 id="agenda">Agenda</h2>
+
+<ul>
+<li>Record all steps taken today to a post on the project-renard wiki.
+<ul>
+<li>That means that this EtherPad document will become a page on the wiki.</li>
+</ul></li>
+<li><p>Choose a standard version of Perl 5 to work on. The code will not work on
+older versions. This is so that we can use modern features without worrying
+about backwards compatibility.</p>
+
+<p>Perl v5.20 is a good choice right now. It supports method signatures as a
+built-in feature.</p></li>
+<li><p>Set up GTK+ 3 on Linux so that it can run the <strong>curie</strong> code.</p>
+
+<ul>
+<li>This is related to issue "GTK+ Linux setup" <a href="https://github.com/project-renard/curie/issues/2">https://github.com/project-renard/curie/issues/2</a>.</li>
+</ul></li>
+</ul>
+
+<h2 id="tasksinprogress">Tasks in progress</h2>
+
+<ul>
+<li><p><strong>curie</strong>: Install development packages for libgtk-3.0 <a href="https://developer.gnome.org/gtk3/">https://developer.gnome.org/gtk3/</a> on Debian GNU/Linux.</p>
+
+<ul>
+<li>Install the dependencies on Debian by running:</li>
+</ul>
+
+<p><code>
+cd curie
+sudo xargs apt-get install -y --no-install-recommends &lt; debian-packages
+</code></p></li>
+<li><p><strong>base</strong>: Make sure the version of Perl 5 you have is v5.20 or greater.</p>
+
+<ul>
+<li>If you do not have that version of Perl 5, you can use <code>perlbrew</code> to set it up.
+Follow the instructions at <a href="http://perlbrew.pl/">http://perlbrew.pl/</a>.</li>
+</ul></li>
+<li><p><strong>base</strong>: We will use cpanm to install the Perl modules that we need. It can be
+installed by running</p>
+
+<p><code>
+  perlbrew install-cpanm
+</code></p>
+
+<p>or if you do not have perlbrew, following the instructions at
+<a href="https://github.com/miyagawa/cpanminus#installing-to-system-perl">https://github.com/miyagawa/cpanminus#installing-to-system-perl</a>:</p>
+
+<p><code>
+  cpan App::cpanminus
+</code></p></li>
+<li><p><strong>curie</strong>: Removed the Gtk3::Ex::PDFViewer code which was causing problems</p>
+
+<ul>
+<li>PR <a href="https://github.com/project-renard/curie/pull/3">https://github.com/project-renard/curie/pull/3</a>.</li>
+</ul></li>
+<li><p><strong>curie</strong>: Install the Perl CPAN packages needed for Gtk3.</p>
+
+<ul>
+<li>This can be done more easily by creating a <code>cpanfile</code> which lists the requirements.</li>
+<li>PR <a href="https://github.com/project-renard/curie/pull/4">https://github.com/project-renard/curie/pull/4</a>.</li>
+</ul></li>
+</ul>
+
+<h2 id="tasksremaining">Tasks remaining</h2>
+
+<ul>
+<li><p><strong>curie</strong>: Install and investigate the Glade UI designer.</p>
+
+<ul>
+<li><p>Glade can be installed by running the commands:
+<code>
+sudo apt-get install --no-install-recommends glade
+</code></p></li>
+<li><p>There is a Glade tutorial at <a href="http://live.gnome.org/Glade/Tutorials">http://live.gnome.org/Glade/Tutorials</a>.</p></li>
+<li><p>We need to see if Glade <a href="https://glade.gnome.org/">https://glade.gnome.org/</a> can handle the docking widgets
+that are provided by libgdl <a href="https://developer.gnome.org/gdl/">https://developer.gnome.org/gdl/</a>.</p></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Sun 24 Jan 2016 04:45:06 AM UTC</span>
+<!-- Created <span class="date">Sun 24 Jan 2016 04:45:06 AM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

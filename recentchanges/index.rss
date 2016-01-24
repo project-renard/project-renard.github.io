@@ -8,6 +8,58 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to doc/development/meeting-log/posts/2016/01/24/initial-setup on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_0550ee345fd8c67f0b85e5c95692cb70629c95e7/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-0550ee345fd8c67f0b85e5c95692cb70629c95e7</link>
+
+	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
+	<dcterms:modified>2016-01-24T04:45:06Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-0550ee345fd8c67f0b85e5c95692cb70629c95e7&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:45:06 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add meeting log for initial set up&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to doc/development/meeting-log doc/development/meeting-log/posts on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2612,7 +2664,7 @@ new index&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2633,15 +2685,17 @@ new index&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-book/interaction
+.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
 
-book/introduction
+.travis.yml
 
-book/visualisation/graphs
+.travisdeploykey.enc
 
-book/visualisation
+.travisdeploykey.pub
 
-book/workflow
+README.md
+
+data/bibliography
 
 design
 
@@ -2650,8 +2704,6 @@ design/interaction
 design/introduction
 
 design/sidebar
-
-design/visualisation/graphs
 
 ...
 
@@ -2673,78 +2725,6 @@ zaki.mughal
 
 
 move the current top page down to the design/ subdirectory&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_8ed95be28a101e95059973489c7efeecc2467a00/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-8ed95be28a101e95059973489c7efeecc2467a00</link>
-
-	<pubDate>Sun, 25 Oct 2015 18:04:51 +0000</pubDate>
-	<dcterms:modified>2015-10-25T18:04:51Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-8ed95be28a101e95059973489c7efeecc2467a00&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
-
-.travis.yml
-
-.travisdeploykey.enc
-
-.travisdeploykey.pub
-
-README.md
-
-book/interaction
-
-book/introduction
-
-book/visualisation/graphs
-
-book/visualisation
-
-book/workflow
-
-...
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:04:51 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-rename the wiki to be more general&lt;br /&gt;
 
 
 &lt;/div&gt;
