@@ -45,6 +45,7 @@ add_plugins:
 - trail
 - sidebar
 - autoindex
+- txt
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
