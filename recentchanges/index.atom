@@ -17,7 +17,71 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T04:29:20Z</updated>
+<updated>2016-01-24T04:31:40Z</updated>
+<entry>
+	<title>change to doc on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_68f7278b950cb9e6317c662cc31a585458726523/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-68f7278b950cb9e6317c662cc31a585458726523"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-24T04:31:40Z</updated>
+	<published>2016-01-24T04:31:40Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-68f7278b950cb9e6317c662cc31a585458726523&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:31:40 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Filter out the full path to documentation&lt;br /&gt;
+
+
+
+
+
+This only shows un-organised pages that are not in those folders.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to img/project-renard-logo.png index on Project Renard</title>
 
@@ -2925,7 +2989,7 @@ ikiwiki: rename the setup file&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .travis.yml on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_f88a6c61d9f89be6d5541efe06fb121d5ae640db/</id>
 
@@ -2948,64 +3012,6 @@ ikiwiki: rename the setup file&lt;br /&gt;
 
 
 &lt;div id=&quot;change-f88a6c61d9f89be6d5541efe06fb121d5ae640db&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.travis.yml
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:01:21 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Travis-CI: use source/master for source / GitHub Pages HTML respectively&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md book/interaction book/introduction book/visualisation/graphs book/visualisation book/workflow  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_1207a088d576b437de73efb622828b69b8159f84/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-1207a088d576b437de73efb622828b69b8159f84"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-10-25T11:40:35Z</updated>
-	<published>2015-10-25T11:40:35Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-1207a088d576b437de73efb622828b69b8159f84&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -3041,14 +3047,14 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:40:35 AM 10/25/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:01:21 PM 10/25/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-Organise the layout of the book into chapters&lt;br /&gt;
+Travis-CI: use source/master for source / GitHub Pages HTML respectively&lt;br /&gt;
 
 
 &lt;/div&gt;
