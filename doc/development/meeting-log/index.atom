@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>doc/development/meeting-log</title>
+<link href="http://project-renard.github.io//doc/development/meeting-log/"/>
+<link href="http://project-renard.github.io//doc/development/meeting-log/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//doc/development/meeting-log/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2016-01-24T05:16:04Z</updated>
+<entry>
+	<title>initial-setup</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/"/>
+
+
+
+
+
+	<updated>2016-01-24T05:16:04Z</updated>
+	<published>2016-01-24T04:45:06Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Record all steps taken today to a post on the project-renard wiki.
+&lt;ul&gt;
+&lt;li&gt;That means that this EtherPad document will become a page on the wiki.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Choose a standard version of Perl 5 to work on. The code will not work on
+older versions. This is so that we can use modern features without worrying
+about backwards compatibility.&lt;/p&gt;
+
+&lt;p&gt;Perl v5.20 is a good choice right now. It supports method signatures as a
+built-in feature.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up GTK+ 3 on Linux so that it can run the &lt;strong&gt;curie&lt;/strong&gt; code.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is related to issue &quot;GTK+ Linux setup&quot; &lt;a href=&quot;https://github.com/project-renard/curie/issues/2&quot;&gt;https://github.com/project-renard/curie/issues/2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install development packages for libgtk-3.0 &lt;a href=&quot;https://developer.gnome.org/gtk3/&quot;&gt;https://developer.gnome.org/gtk3/&lt;/a&gt; on Debian GNU/Linux.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Install the dependencies on Debian by running:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cd curie
+sudo xargs apt-get install -y --no-install-recommends &amp;lt; debian-packages
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;base&lt;/strong&gt;: Make sure the version of Perl 5 you have is v5.20 or greater.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you do not have that version of Perl 5, you can use &lt;code&gt;perlbrew&lt;/code&gt; to set it up.
+Follow the instructions at &lt;a href=&quot;http://perlbrew.pl/&quot;&gt;http://perlbrew.pl/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;base&lt;/strong&gt;: We will use cpanm to install the Perl modules that we need. It can be
+installed by running&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  perlbrew install-cpanm
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or if you do not have perlbrew, following the instructions at
+&lt;a href=&quot;https://github.com/miyagawa/cpanminus#installing-to-system-perl&quot;&gt;https://github.com/miyagawa/cpanminus#installing-to-system-perl&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  cpan App::cpanminus
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Removed the Gtk3::Ex::PDFViewer code which was causing problems&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/3&quot;&gt;https://github.com/project-renard/curie/pull/3&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install the Perl CPAN packages needed for Gtk3.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This can be done more easily by creating a &lt;code&gt;cpanfile&lt;/code&gt; which lists the requirements.&lt;/li&gt;
+&lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/4&quot;&gt;https://github.com/project-renard/curie/pull/4&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install and investigate the Glade UI designer.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Glade can be installed by running the commands:
+&lt;code&gt;
+sudo apt-get install --no-install-recommends glade
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is a Glade tutorial at &lt;a href=&quot;http://live.gnome.org/Glade/Tutorials&quot;&gt;http://live.gnome.org/Glade/Tutorials&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We need to see if Glade &lt;a href=&quot;https://glade.gnome.org/&quot;&gt;https://glade.gnome.org/&lt;/a&gt; can handle the docking widgets
+that are provided by libgdl &lt;a href=&quot;https://developer.gnome.org/gdl/&quot;&gt;https://developer.gnome.org/gdl/&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

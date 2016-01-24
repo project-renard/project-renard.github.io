@@ -17,7 +17,143 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T04:46:39Z</updated>
+<updated>2016-01-24T05:16:04Z</updated>
+<entry>
+	<title>change to doc/development doc/development/meeting-log doc/development/meeting-log/posts doc/development/meeting-log/posts/.swp doc/development/meeting-log/posts/2016/01/24/initial-setup doc index sidebar on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-24T05:16:04Z</updated>
+	<published>2016-01-24T05:16:04Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development
+
+doc/development/meeting-log
+
+doc/development/meeting-log/posts
+
+doc/development/meeting-log/posts/.swp
+
+doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+doc
+
+index
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:16:04 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix site layout&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to project-renard.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_3d502affd1a5a0d974c8db09196715c317b018a6/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-3d502affd1a5a0d974c8db09196715c317b018a6"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-24T05:15:38Z</updated>
+	<published>2016-01-24T05:15:38Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-3d502affd1a5a0d974c8db09196715c317b018a6&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+project-renard.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:15:38 AM 01/24/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove htmlscrubber plugin&lt;br /&gt;
+
+
+
+
+
+Allow for adding styles to individual pages.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 3d502affd1a5a0d974c8db09196715c317b018a6 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to img on Project Renard</title>
 
@@ -69,7 +205,7 @@ creating index page img&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 34df49f1d492720b0216d71fe15b002a8c5e6be7 --&gt;
 
 	</content>
 
@@ -127,7 +263,7 @@ creating index page doc/development/document-viewer/navigation&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 8901108b1b62fd01d9de0f757f57b2206ef74aed --&gt;
 
 	</content>
 
@@ -185,7 +321,7 @@ creating index page doc/development/meeting-log/posts/2016&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 0f87850674481f845496ddb3e73d979cddaf123d --&gt;
 
 	</content>
 
@@ -243,7 +379,7 @@ creating index page doc/development/meeting-log/posts/2016/01/24&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 70d3cfa7ab0654fb161d23d5904af233f9124ec3 --&gt;
 
 	</content>
 
@@ -301,7 +437,7 @@ creating index page doc/development/document-viewer&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 577eb8dbc8395c426afa1f5b2bd8bdd4452f6b88 --&gt;
 
 	</content>
 
@@ -359,7 +495,7 @@ creating index page doc/development/meeting-log/posts/2016/01&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 8c571e3d832bc73f2deb5fed22441307f9670831 --&gt;
 
 	</content>
 
@@ -417,7 +553,7 @@ Fix the development site-map parameters&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- c76ee591fbe9c364822d2fe330351605f8e53385 --&gt;
 
 	</content>
 
@@ -475,7 +611,7 @@ Add meeting log for initial set up&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 0550ee345fd8c67f0b85e5c95692cb70629c95e7 --&gt;
 
 	</content>
 
@@ -535,7 +671,7 @@ Start meeting log pages&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 268b6642645e5d79d1a25bed5736b9c3440b07f4 --&gt;
 
 	</content>
 
@@ -593,7 +729,7 @@ Show more of the pages under doc/development&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 85a69942d2950a11e650052d92fe8fa00af1df86 --&gt;
 
 	</content>
 
@@ -657,7 +793,7 @@ This only shows un-organised pages that are not in those folders.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 68f7278b950cb9e6317c662cc31a585458726523 --&gt;
 
 	</content>
 
@@ -717,7 +853,7 @@ add homepage&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1 --&gt;
 
 	</content>
 
@@ -795,7 +931,7 @@ move developer doc pages to doc/ directory&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 51775fe6af7cebd5f3790e066e307922c413ccaa --&gt;
 
 	</content>
 
@@ -853,7 +989,7 @@ add link to MuPDF page&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 5e85b7092c2586cafb8552e7b92e8fdeefbb85b1 --&gt;
 
 	</content>
 
@@ -919,7 +1055,7 @@ add links to tools&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- f4c841e7def320fb0e28de170a4f27d74fb5c0f6 --&gt;
 
 	</content>
 
@@ -983,7 +1119,7 @@ add to survey&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- edccc9e0a9d39634dd23a6c1abc9285184c8b65c --&gt;
 
 	</content>
 
@@ -1041,7 +1177,7 @@ add note about metadata URI normalisation&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 32314a993cf103aa8087040e08ce6918fa2f3e2e --&gt;
 
 	</content>
 
@@ -1099,7 +1235,7 @@ zoom info&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 9208e4947a9200d55bff19aa5501e8e084841572 --&gt;
 
 	</content>
 
@@ -1157,7 +1293,7 @@ link to biblio data page&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- b3916ec3b49ea6830d197a0769e793b1eafa4d01 --&gt;
 
 	</content>
 
@@ -1215,7 +1351,7 @@ automatically generate list of reference managers from tags&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- b4ad4749b9279dcb0afe57d25aee0a4724db389d --&gt;
 
 	</content>
 
@@ -1273,7 +1409,7 @@ add info about bibliography metadata&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 4aaaf4d486a128253939d81c29ec3306b5803711 --&gt;
 
 	</content>
 
@@ -1331,7 +1467,7 @@ add info about tutorial project&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- f75a4fbd43f051f1eda1c0f4dc40538749f34b72 --&gt;
 
 	</content>
 
@@ -1393,7 +1529,7 @@ update the map directive for moved files&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- d7da2678ea88ce6eb99f41a0dbfd94a582d0519c --&gt;
 
 	</content>
 
@@ -1451,7 +1587,7 @@ creating index page survey/feature&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 7bfcf4d75bac8d9a230df3ef3abf43d99cd2e699 --&gt;
 
 	</content>
 
@@ -1509,7 +1645,7 @@ creating index page development&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- fca20c5f36bd164228cb1c2530ffcff1a3e4e622 --&gt;
 
 	</content>
 
@@ -1587,7 +1723,7 @@ start moving items to development section&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 859f5911d6d52b32c835d97361f583b03139f76e --&gt;
 
 	</content>
 
@@ -1645,7 +1781,7 @@ fix pagespec for finding all ref managers&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 015e4af55bedf361aea5b70f653732536a2130ac --&gt;
 
 	</content>
 
@@ -1715,7 +1851,7 @@ add tags&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- dd972f898ffcb766b390e02aa1c36b7a444f3f7b --&gt;
 
 	</content>
 
@@ -1775,7 +1911,7 @@ add information about metadata feature&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- bb026d45b7899bd36db959543b7eefc165b28073 --&gt;
 
 	</content>
 
@@ -1833,7 +1969,7 @@ Travis-CI: adding language Perl&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- c03528fcfcf8598e49a7ba7bfb52d37eadf23e67 --&gt;
 
 	</content>
 
@@ -1891,7 +2027,7 @@ Travis-CI: fix command for git commit&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- e8a6969d52fe7dc3b867b2649d0090daf2c36dbd --&gt;
 
 	</content>
 
@@ -1949,7 +2085,7 @@ add info about Mendeley&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 8da1179720d53cbc7b822f95d6b060ac497e03ec --&gt;
 
 	</content>
 
@@ -2007,7 +2143,7 @@ Travis-CI: do not fail if there is nothing to commit&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 5debee9c18ed172f9ccb205178d7c582f3eb352c --&gt;
 
 	</content>
 
@@ -2065,7 +2201,7 @@ skip more directories in the index page map&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- dd961600979f2247b40d31225e688e67db16fc5d --&gt;
 
 	</content>
 
@@ -2123,7 +2259,7 @@ add autoindex plugin&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 5ad6e42870fa2dad5cd2654f05495a6c5b53e969 --&gt;
 
 	</content>
 
@@ -2181,7 +2317,7 @@ creating index page tag&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- a042d0cc746e673d1432f8a53b1436e326ba9128 --&gt;
 
 	</content>
 
@@ -2239,7 +2375,7 @@ creating index page file-format&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 983f8b430141106ebe7b15ccbb18c65aaac4da5c --&gt;
 
 	</content>
 
@@ -2297,7 +2433,7 @@ creating index page tag/handles-file-type&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- e0f6ccdb1d176de475ffac2c5996cc64b7c8bc1a --&gt;
 
 	</content>
 
@@ -2355,7 +2491,7 @@ creating index page tag/software-type&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 9249b6241a0de1cd149b778a7d7d27e9bf1d702a --&gt;
 
 	</content>
 
@@ -2413,7 +2549,7 @@ creating index page document-sources&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 677c2d86c4a79c0ee241a881c621a2823bf2d576 --&gt;
 
 	</content>
 
@@ -2471,7 +2607,7 @@ creating index page data&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 96c3f388bb4e776d16f84a0ff2689d09a9d54e27 --&gt;
 
 	</content>
 
@@ -2529,7 +2665,7 @@ creating index page survey/tool&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- a32ff4efc3bb526876746687e0b9d00f22fd6811 --&gt;
 
 	</content>
 
@@ -2587,7 +2723,7 @@ creating tag page tag/software-type/reference-management&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- e1ded379e563e38cf1170d7eb49d957648a8d3c2 --&gt;
 
 	</content>
 
@@ -2645,7 +2781,7 @@ creating tag page tag/handles-file-type/application-pdf&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 2426602c3ae7d12b200d2802fef5d5d8634259b5 --&gt;
 
 	</content>
 
@@ -2705,7 +2841,7 @@ ikiwiki: update the git pushing code&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 8b63fd5a0e40db5d73589041d590d6ce9d052416 --&gt;
 
 	</content>
 
@@ -2765,7 +2901,7 @@ ikiwiki: tagging&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- ddc8a00ceeae888e66b78182ae0a39226c553334 --&gt;
 
 	</content>
 
@@ -2823,7 +2959,7 @@ Fix the title of wikilinks to reference management tools&lt;br /&gt;
 
 &lt;/div&gt;
 
-
+&lt;!-- 376d3b5bf9c3d5f37c700f883960576047ca4edb --&gt;
 
 	</content>
 
@@ -2831,7 +2967,7 @@ Fix the title of wikilinks to reference management tools&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to survey survey/reference-management survey/reference-management/paperpile survey/tool/docear survey/tool/endnote survey/tool/jabref survey/tool/mendeley survey/tool/paperpile survey/tool/papers survey/tool/zotero on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_842cd57ea259412259ce111f6a5b11204be198e1/</id>
 
@@ -2854,82 +2990,6 @@ Fix the title of wikilinks to reference management tools&lt;br /&gt;
 
 
 &lt;div id=&quot;change-842cd57ea259412259ce111f6a5b11204be198e1&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-survey
-
-survey/reference-management
-
-survey/reference-management/paperpile
-
-survey/tool/docear
-
-survey/tool/endnote
-
-survey/tool/jabref
-
-survey/tool/mendeley
-
-survey/tool/paperpile
-
-survey/tool/papers
-
-survey/tool/zotero
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:41:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-update tool survey&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_63ca84d302aff090379b7397121df0877b718fd3/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-63ca84d302aff090379b7397121df0877b718fd3"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2015-11-01T07:01:35Z</updated>
-	<published>2015-11-01T07:01:35Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-63ca84d302aff090379b7397121df0877b718fd3&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2959,25 +3019,25 @@ design/sidebar
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
 &lt;span class=&quot;committer&quot;&gt;
 
-yotov.st
+zaki.mughal
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:01:35 AM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:41:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-Added one idea from Mendeley&lt;br /&gt;
+update tool survey&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-
+&lt;!-- 842cd57ea259412259ce111f6a5b11204be198e1 --&gt;
 
 	</content>
 
