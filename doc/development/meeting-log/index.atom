@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T05:42:14Z</updated>
+<updated>2016-01-27T21:18:50Z</updated>
 <entry>
 	<title>initial-setup</title>
 
@@ -29,11 +29,15 @@
 
 
 
-	<updated>2016-01-24T05:42:14Z</updated>
+	<updated>2016-01-27T21:18:50Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+	&lt;p&gt;Link to original Etherpad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/dW7FmrdR34&quot;&gt;https://public.etherpad-mozilla.org/p/dW7FmrdR34&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to meeting log: &lt;a href=&quot;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/24/initial-setup/&quot;&gt;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/24/initial-setup/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Record all steps taken today to a post on the project-renard wiki.
@@ -96,6 +100,11 @@ installed by running&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;This can be done more easily by creating a &lt;code&gt;cpanfile&lt;/code&gt; which lists the requirements.&lt;/li&gt;
 &lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/4&quot;&gt;https://github.com/project-renard/curie/pull/4&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that the &lt;code&gt;cpanfile&lt;/code&gt; is available, you can install the dependencies by running&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cpanm --installdeps .
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

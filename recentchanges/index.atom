@@ -17,7 +17,123 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-24T05:42:14Z</updated>
+<updated>2016-01-27T21:18:50Z</updated>
+<entry>
+	<title>change to doc/development/meeting-log/posts/2016/01/24/initial-setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_ed9cc49fa0a147007974c8b55e929d2d713d90b3/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-ed9cc49fa0a147007974c8b55e929d2d713d90b3"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-27T21:18:50Z</updated>
+	<published>2016-01-27T21:18:50Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-ed9cc49fa0a147007974c8b55e929d2d713d90b3&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:18:50 PM 01/27/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add a note about installing deps from `cpanfile` using `cpanm`.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- ed9cc49fa0a147007974c8b55e929d2d713d90b3 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/development/meeting-log/posts/2016/01/24/initial-setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_3133785ebf52715e75824b5bc9144b900e58cb6c/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-3133785ebf52715e75824b5bc9144b900e58cb6c"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-27T21:18:34Z</updated>
+	<published>2016-01-27T21:18:34Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-3133785ebf52715e75824b5bc9144b900e58cb6c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:18:34 PM 01/27/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add link to Etherpad to top of meeting notes&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 3133785ebf52715e75824b5bc9144b900e58cb6c --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/meeting-log/posts/2016/01/24/initial-setup on Project Renard</title>
 
@@ -2847,7 +2963,7 @@ creating index page survey/tool&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to tag/software-type/reference-management on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_e1ded379e563e38cf1170d7eb49d957648a8d3c2/</id>
 
@@ -2870,122 +2986,6 @@ creating index page survey/tool&lt;br /&gt;
 
 
 &lt;div id=&quot;change-e1ded379e563e38cf1170d7eb49d957648a8d3c2&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-tag/software-type/reference-management
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:37:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tag/software-type/reference-management&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- e1ded379e563e38cf1170d7eb49d957648a8d3c2 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tag/handles-file-type/application-pdf on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_2426602c3ae7d12b200d2802fef5d5d8634259b5/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-2426602c3ae7d12b200d2802fef5d5d8634259b5"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-11-01T21:37:56Z</updated>
-	<published>2015-11-01T21:37:56Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-2426602c3ae7d12b200d2802fef5d5d8634259b5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-tag/handles-file-type/application-pdf
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:37:56 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tag/handles-file-type/application-pdf&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 2426602c3ae7d12b200d2802fef5d5d8634259b5 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography design design/interaction design/introduction design/sidebar  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_8b63fd5a0e40db5d73589041d590d6ce9d052416/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-8b63fd5a0e40db5d73589041d590d6ce9d052416"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-11-01T20:53:13Z</updated>
-	<published>2015-11-01T20:53:13Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-8b63fd5a0e40db5d73589041d590d6ce9d052416&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -3021,19 +3021,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:53:13 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:37:58 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-ikiwiki: update the git pushing code&lt;br /&gt;
+creating tag page tag/software-type/reference-management&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- 8b63fd5a0e40db5d73589041d590d6ce9d052416 --&gt;
+&lt;!-- e1ded379e563e38cf1170d7eb49d957648a8d3c2 --&gt;
 
 	</content>
 
