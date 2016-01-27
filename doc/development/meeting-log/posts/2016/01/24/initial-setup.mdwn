@@ -41,7 +41,7 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
   
   or if you do not have perlbrew, following the instructions at
   <https://github.com/miyagawa/cpanminus#installing-to-system-perl>:
-      
+  
   ```
       cpan App::cpanminus
   ```
@@ -52,6 +52,11 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
 - **curie**: Install the Perl CPAN packages needed for Gtk3.
     - This can be done more easily by creating a `cpanfile` which lists the requirements.
     - PR <https://github.com/project-renard/curie/pull/4>.
+    - Now that the `cpanfile` is available, you can install the dependencies by running
+      
+      ```
+      cpanm --installdeps .
+      ```
 
 ## Tasks remaining
 
@@ -65,6 +70,7 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
 
     - We need to see if Glade <https://glade.gnome.org/> can handle the docking widgets
       that are provided by libgdl <https://developer.gnome.org/gdl/>.
+
 
 
 
