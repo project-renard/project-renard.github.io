@@ -8,6 +8,44 @@
 <description>Project Renard</description>
 <item>
 
+	<title>using-glade-to-build-curie-gui</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
+
+	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
+	<dcterms:modified>2016-01-30T23:23:38Z</dcterms:modified>
+
+	<description>&lt;p&gt;Link to EtherPad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/OdqbhdX86o&quot;&gt;https://public.etherpad-mozilla.org/p/OdqbhdX86o&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Link to meeting log: &lt;a href=&quot;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui&quot;&gt;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discuss Glade tutorial.&lt;/li&gt;
+&lt;li&gt;Start a simple GUI in Glade for &lt;strong&gt;curie&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
+
+&lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Design a GUI for displaying images.&lt;/li&gt;
+&lt;li&gt;Display a single image.&lt;/li&gt;
+&lt;li&gt;Install MuPDF.&lt;/li&gt;
+&lt;li&gt;Look into MuPDF API.&lt;/li&gt;
+&lt;li&gt;Refactor GUI code.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>initial-setup</title>
 
 
@@ -16,13 +54,9 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-01-27T21:18:50Z</dcterms:modified>
+	<dcterms:modified>2016-01-30T23:20:38Z</dcterms:modified>
 
-	<description>&lt;p&gt;Link to original Etherpad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/dW7FmrdR34&quot;&gt;https://public.etherpad-mozilla.org/p/dW7FmrdR34&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Link to meeting log: &lt;a href=&quot;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/24/initial-setup/&quot;&gt;https://project-renard.github.io/doc/development/meeting-log/posts/2016/01/24/initial-setup/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Record all steps taken today to a post on the project-renard wiki.
@@ -42,7 +76,7 @@ built-in feature.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
+&lt;h2 id=&quot;taskscompleted&quot;&gt;Tasks completed&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install development packages for libgtk-3.0 &lt;a href=&quot;https://developer.gnome.org/gtk3/&quot;&gt;https://developer.gnome.org/gtk3/&lt;/a&gt; on Debian GNU/Linux.&lt;/p&gt;
@@ -91,11 +125,6 @@ installed by running&lt;/p&gt;
 cpanm --installdeps .
 &lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
-
-&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install and investigate the Glade UI designer.&lt;/p&gt;
 
 &lt;ul&gt;
