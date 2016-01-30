@@ -12,7 +12,7 @@
 - Set up GTK+ 3 on Linux so that it can run the **curie** code.
     - This is related to issue "GTK+ Linux setup" <https://github.com/project-renard/curie/issues/2>.
 
-## Tasks in progress
+## Tasks completed
 
 - **curie**: Install development packages for libgtk-3.0 <https://developer.gnome.org/gtk3/> on Debian GNU/Linux.
 
@@ -53,8 +53,6 @@
       ```
       cpanm --installdeps .
       ```
-
-## Tasks remaining
 
 - **curie**: Install and investigate the Glade UI designer.
     - Glade can be installed by running the commands:
