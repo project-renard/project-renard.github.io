@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-31T21:35:27Z</updated>
+<updated>2016-01-31T21:50:51Z</updated>
 <entry>
 	<title>Using Glade to build curie GUI</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-01-31T21:35:27Z</updated>
+	<updated>2016-01-31T21:50:51Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -97,21 +97,19 @@ information and retrieves from sources such as the Protein Data Bank.&lt;/li&gt;
 &lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;PDF rendering using MuPDF library&lt;/p&gt;
-
+&lt;li&gt;PDF rendering using MuPDF library
 &lt;ul&gt;
 &lt;li&gt;Install MuPDF
-&lt;a href=&quot;http://mupdf.com/downloads/&quot;&gt;http://mupdf.com/downloads/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;
+&lt;a href=&quot;http://mupdf.com/downloads/&quot;&gt;http://mupdf.com/downloads/&lt;/a&gt;
+&lt;pre&gt;
 mkdir build; cd build
 wget &#39;http://mupdf.com/downloads/mupdf-1.8-source.tar.gz&#39;
- tar xvvzf mupdf-1.8-source.tar.gz
- cd mupdf-1.8-source
- make HAVE_GLFW=no
-   make HAVE_GLFW=no install
-&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+tar xvvzf mupdf-1.8-source.tar.gz
+cd mupdf-1.8-source
+make HAVE_GLFW=no
+make HAVE_GLFW=no install
+&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;

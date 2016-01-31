@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-01-31T21:35:27Z</dcterms:modified>
+	<dcterms:modified>2016-01-31T21:50:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;Link to EtherPad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/OdqbhdX86o&quot;&gt;https://public.etherpad-mozilla.org/p/OdqbhdX86o&lt;/a&gt;.&lt;/p&gt;
 
@@ -82,21 +82,19 @@ information and retrieves from sources such as the Protein Data Bank.&lt;/li&gt;
 &lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;PDF rendering using MuPDF library&lt;/p&gt;
-
+&lt;li&gt;PDF rendering using MuPDF library
 &lt;ul&gt;
 &lt;li&gt;Install MuPDF
-&lt;a href=&quot;http://mupdf.com/downloads/&quot;&gt;http://mupdf.com/downloads/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;
+&lt;a href=&quot;http://mupdf.com/downloads/&quot;&gt;http://mupdf.com/downloads/&lt;/a&gt;
+&lt;pre&gt;
 mkdir build; cd build
 wget &#39;http://mupdf.com/downloads/mupdf-1.8-source.tar.gz&#39;
- tar xvvzf mupdf-1.8-source.tar.gz
- cd mupdf-1.8-source
- make HAVE_GLFW=no
-   make HAVE_GLFW=no install
-&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+tar xvvzf mupdf-1.8-source.tar.gz
+cd mupdf-1.8-source
+make HAVE_GLFW=no
+make HAVE_GLFW=no install
+&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
