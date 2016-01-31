@@ -9,11 +9,27 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
 - Discuss Glade tutorial.
 - Start a simple GUI in Glade for **curie**.
 
+## Tasks completed
+
+- Glade tutorial
+   - Tutorial code <https://github.com/zmughal/learning-gtk/tree/master/charter>
+   - Look up callback signature:
+       -  <https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html>
+       - <https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw>
+
 ## Tasks in progress
+
+- Design a GUI for displaying images of the document.
+   - Anjuta: IDE with docking. Uses GDL <http://anjuta.org/>
+  
+- Discuss the display of supplemental information along with document
+   - <https://en.wikipedia.org/wiki/Knowledge_Graph>
+   - <http://utopiadocs.com/>
+   - <http://epafilis.info/projects.html>, <http://reflect.ws/>, <http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html>
+
 
 ## Tasks remaining
 
-- Design a GUI for displaying images.
 - Display a single image.
 - Install MuPDF.
 - Look into MuPDF API.
