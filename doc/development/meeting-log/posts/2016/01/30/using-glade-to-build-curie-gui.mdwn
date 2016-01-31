@@ -13,25 +13,51 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
 
 - Glade tutorial
    - Tutorial code <https://github.com/zmughal/learning-gtk/tree/master/charter>
+      - If you are following this tutorial, notet that there are changes that have occurred in GTK+3.0 since it was written.
+        For example, the "expose-event" signal is now the "draw" signal: <https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11>.
    - Look up callback signature:
        -  <https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html>
        - <https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw>
 
-## Tasks in progress
-
-- Design a GUI for displaying images of the document.
-   - Anjuta: IDE with docking. Uses GDL <http://anjuta.org/>
-  
 - Discuss the display of supplemental information along with document
    - <https://en.wikipedia.org/wiki/Knowledge_Graph>
-   - <http://utopiadocs.com/>
-   - <http://epafilis.info/projects.html>, <http://reflect.ws/>, <http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html>
+   - Utopia <http://utopiadocs.com/>: a PDF reader that shows social
+     information and retrieves from sources such as the Protein Data Bank.
+   - Reflect: browser plugin for chemistry identifier lookup
+      - <http://epafilis.info/projects.html>
+	  - <http://reflect.ws/>
+      - <http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html>
 
+- Design a GUI for displaying images of the document
+   - PR <https://github.com/project-renard/curie/pull/6> (and progress images)
+   - Examples
+      - Anjuta: IDE with docking. Uses GDL <http://anjuta.org/>.
+      - Example of simple PDF viewer using Poppler <https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/>.
+   - Display a single image
+      - Cairo for loading PNG
+          - <http://cairographics.org/cookbook/perl_cairo_module/>
+          - <http://zetcode.com/gfx/cairo/cairoimages/>
+
+## Tasks in progress
+
+- PDF rendering using MuPDF library
+  - Install MuPDF
+    <http://mupdf.com/downloads/>
+    
+    ```
+    mkdir build; cd build
+    wget 'http://mupdf.com/downloads/mupdf-1.8-source.tar.gz'
+     tar xvvzf mupdf-1.8-source.tar.gz
+     cd mupdf-1.8-source
+     make HAVE_GLFW=no
+       make HAVE_GLFW=no install
+    ```
 
 ## Tasks remaining
 
-- Display a single image.
-- Install MuPDF.
 - Look into MuPDF API.
+   - <http://mupdf.com/docs/overview>
+   - <http://mupdf.com/docs/>
+
 - Refactor GUI code.
 
