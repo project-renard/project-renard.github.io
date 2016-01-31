@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-01-30T23:27:25Z</dcterms:modified>
+	<dcterms:modified>2016-01-31T17:32:43Z</dcterms:modified>
 
 	<description>&lt;p&gt;Link to EtherPad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/OdqbhdX86o&quot;&gt;https://public.etherpad-mozilla.org/p/OdqbhdX86o&lt;/a&gt;.&lt;/p&gt;
 
@@ -29,12 +29,40 @@
 &lt;li&gt;Start a simple GUI in Glade for &lt;strong&gt;curie&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;taskscompleted&quot;&gt;Tasks completed&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Glade tutorial
+&lt;ul&gt;
+&lt;li&gt;Tutorial code &lt;a href=&quot;https://github.com/zmughal/learning-gtk/tree/master/charter&quot;&gt;https://github.com/zmughal/learning-gtk/tree/master/charter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look up callback signature:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html&quot;&gt;https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw&quot;&gt;https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Design a GUI for displaying images of the document.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anjuta: IDE with docking. Uses GDL &lt;a href=&quot;http://anjuta.org/&quot;&gt;http://anjuta.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Discuss the display of supplemental information along with document&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Knowledge_Graph&quot;&gt;https://en.wikipedia.org/wiki/Knowledge_Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;http://utopiadocs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://epafilis.info/projects.html&quot;&gt;http://epafilis.info/projects.html&lt;/a&gt;, &lt;a href=&quot;http://reflect.ws/&quot;&gt;http://reflect.ws/&lt;/a&gt;, &lt;a href=&quot;http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html&quot;&gt;http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Design a GUI for displaying images.&lt;/li&gt;
 &lt;li&gt;Display a single image.&lt;/li&gt;
 &lt;li&gt;Install MuPDF.&lt;/li&gt;
 &lt;li&gt;Look into MuPDF API.&lt;/li&gt;
