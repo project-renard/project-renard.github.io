@@ -39,8 +39,11 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
           - <http://cairographics.org/cookbook/perl_cairo_module/>
           - <http://zetcode.com/gfx/cairo/cairoimages/>
    - First attempt: draw a green colour on the whole drawing area:
+
      [[!img gfx/curie-green-background-drawingarea.png class="img right" alt="curie GUI with green colour" size="250x"]]
+
    - Second attempt: draw an image read from a file on the drawing area:
+
      [[!img gfx/curie-image-peppers-drawingarea.png class="img right" alt="curie GUI with image of peppers" size="250x"]]
 
 ## Tasks in progress
