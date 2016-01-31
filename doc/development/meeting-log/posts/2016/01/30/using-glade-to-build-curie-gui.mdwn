@@ -46,10 +46,10 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
     <pre>
     mkdir build; cd build
     wget 'http://mupdf.com/downloads/mupdf-1.8-source.tar.gz'
-     tar xvvzf mupdf-1.8-source.tar.gz
-     cd mupdf-1.8-source
-     make HAVE_GLFW=no
-       make HAVE_GLFW=no install
+    tar xvvzf mupdf-1.8-source.tar.gz
+    cd mupdf-1.8-source
+    make HAVE_GLFW=no
+    make HAVE_GLFW=no install
     </pre>
 
 ## Tasks remaining
