@@ -20,7 +20,8 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
        - <https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw>
 
 - Discuss the display of supplemental information along with document
-   - <https://en.wikipedia.org/wiki/Knowledge_Graph>
+   - Knowledge Graph <https://en.wikipedia.org/wiki/Knowledge_Graph>: Google's infoboxes which show up on search.
+   - SPARQL: query langauge for semantic web data.
    - Utopia <http://utopiadocs.com/>: a PDF reader that shows social
      information and retrieves from sources such as the Protein Data Bank.
    - Reflect: browser plugin for chemistry identifier lookup
