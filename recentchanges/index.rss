@@ -8,6 +8,58 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_652be869346390d9f1e25bb459d2bf3ee505d67f/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-652be869346390d9f1e25bb459d2bf3ee505d67f</link>
+
+	<pubDate>Sun, 31 Jan 2016 22:20:33 +0000</pubDate>
+	<dcterms:modified>2016-01-31T22:20:33Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-652be869346390d9f1e25bb459d2bf3ee505d67f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:20:33 PM 01/31/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Move images into their own paragraph&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 652be869346390d9f1e25bb459d2bf3ee505d67f --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to doc/development/meeting-log/posts/2016/01/30/gfx/curie-green-background-drawingarea.png doc/development/meeting-log/posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2614,7 +2666,7 @@ Travis-CI: fix command for git commit&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to survey/tool/mendeley on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2632,58 +2684,6 @@ Travis-CI: fix command for git commit&lt;br /&gt;
 
 
 &lt;div id=&quot;change-8da1179720d53cbc7b822f95d6b060ac497e03ec&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-survey/tool/mendeley
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:27:14 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-add info about Mendeley&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 8da1179720d53cbc7b822f95d6b060ac497e03ec --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_5debee9c18ed172f9ccb205178d7c582f3eb352c/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-5debee9c18ed172f9ccb205178d7c582f3eb352c</link>
-
-	<pubDate>Sun, 01 Nov 2015 21:53:16 +0000</pubDate>
-	<dcterms:modified>2015-11-01T21:53:16Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-5debee9c18ed172f9ccb205178d7c582f3eb352c&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2719,19 +2719,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:53:16 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:27:14 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-Travis-CI: do not fail if there is nothing to commit&lt;br /&gt;
+add info about Mendeley&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- 5debee9c18ed172f9ccb205178d7c582f3eb352c --&gt;
+&lt;!-- 8da1179720d53cbc7b822f95d6b060ac497e03ec --&gt;
 </description>
 
 

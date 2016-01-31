@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-01-31T22:18:31Z</dcterms:modified>
+	<dcterms:modified>2016-01-31T22:20:33Z</dcterms:modified>
 
 	<description>&lt;p&gt;Link to EtherPad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/OdqbhdX86o&quot;&gt;https://public.etherpad-mozilla.org/p/OdqbhdX86o&lt;/a&gt;.&lt;/p&gt;
 
@@ -77,10 +77,12 @@ information and retrieves from sources such as the Protein Data Bank.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://zetcode.com/gfx/cairo/cairoimages/&quot;&gt;http://zetcode.com/gfx/cairo/cairoimages/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;First attempt: draw a green colour on the whole drawing area:
-&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-green-background-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-green-background-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with green colour&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Second attempt: draw an image read from a file on the drawing area:
-&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-image-peppers-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with image of peppers&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;First attempt: draw a green colour on the whole drawing area:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-green-background-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-green-background-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with green colour&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Second attempt: draw an image read from a file on the drawing area:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-image-peppers-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with image of peppers&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
