@@ -111,13 +111,49 @@ meeting-log
 <h2 id="taskscompleted">Tasks completed</h2>
 
 <ul>
-<li>Glade tutorial
+<li><p>Glade tutorial</p>
+
 <ul>
-<li>Tutorial code <a href="https://github.com/zmughal/learning-gtk/tree/master/charter">https://github.com/zmughal/learning-gtk/tree/master/charter</a></li>
+<li>Tutorial code <a href="https://github.com/zmughal/learning-gtk/tree/master/charter">https://github.com/zmughal/learning-gtk/tree/master/charter</a>
+<ul>
+<li>If you are following this tutorial, notet that there are changes that have occurred in GTK+3.0 since it was written.
+For example, the "expose-event" signal is now the "draw" signal: <a href="https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11">https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11</a>.</li>
+</ul></li>
 <li>Look up callback signature:
 <ul>
 <li><a href="https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html">https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html</a></li>
 <li><a href="https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw">https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw</a></li>
+</ul></li>
+</ul></li>
+<li><p>Discuss the display of supplemental information along with document</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_Graph">https://en.wikipedia.org/wiki/Knowledge_Graph</a></li>
+<li>Utopia <a href="http://utopiadocs.com/">http://utopiadocs.com/</a>: a PDF reader that shows social
+information and retrieves from sources such as the Protein Data Bank.</li>
+<li>Reflect: browser plugin for chemistry identifier lookup
+<ul>
+<li><a href="http://epafilis.info/projects.html">http://epafilis.info/projects.html</a></li>
+<li><a href="http://reflect.ws/">http://reflect.ws/</a></li>
+<li><a href="http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html">http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html</a></li>
+</ul></li>
+</ul></li>
+<li><p>Design a GUI for displaying images of the document</p>
+
+<ul>
+<li>PR <a href="https://github.com/project-renard/curie/pull/6">https://github.com/project-renard/curie/pull/6</a> (and progress images)</li>
+<li>Examples
+<ul>
+<li>Anjuta: IDE with docking. Uses GDL <a href="http://anjuta.org/">http://anjuta.org/</a>.</li>
+<li>Example of simple PDF viewer using Poppler <a href="https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/">https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/</a>.</li>
+</ul></li>
+<li>Display a single image
+<ul>
+<li>Cairo for loading PNG
+<ul>
+<li><a href="http://cairographics.org/cookbook/perl_cairo_module/">http://cairographics.org/cookbook/perl_cairo_module/</a></li>
+<li><a href="http://zetcode.com/gfx/cairo/cairoimages/">http://zetcode.com/gfx/cairo/cairoimages/</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -125,27 +161,33 @@ meeting-log
 <h2 id="tasksinprogress">Tasks in progress</h2>
 
 <ul>
-<li><p>Design a GUI for displaying images of the document.</p>
+<li><p>PDF rendering using MuPDF library</p>
 
 <ul>
-<li>Anjuta: IDE with docking. Uses GDL <a href="http://anjuta.org/">http://anjuta.org/</a></li>
-</ul></li>
-<li><p>Discuss the display of supplemental information along with document</p>
+<li>Install MuPDF
+<a href="http://mupdf.com/downloads/">http://mupdf.com/downloads/</a></li>
+</ul>
 
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Knowledge_Graph">https://en.wikipedia.org/wiki/Knowledge_Graph</a></li>
-<li><a href="http://utopiadocs.com/">http://utopiadocs.com/</a></li>
-<li><a href="http://epafilis.info/projects.html">http://epafilis.info/projects.html</a>, <a href="http://reflect.ws/">http://reflect.ws/</a>, <a href="http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html">http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html</a></li>
-</ul></li>
+<p><code>
+mkdir build; cd build
+wget 'http://mupdf.com/downloads/mupdf-1.8-source.tar.gz'
+ tar xvvzf mupdf-1.8-source.tar.gz
+ cd mupdf-1.8-source
+ make HAVE_GLFW=no
+   make HAVE_GLFW=no install
+</code></p></li>
 </ul>
 
 <h2 id="tasksremaining">Tasks remaining</h2>
 
 <ul>
-<li>Display a single image.</li>
-<li>Install MuPDF.</li>
-<li>Look into MuPDF API.</li>
-<li>Refactor GUI code.</li>
+<li><p>Look into MuPDF API.</p>
+
+<ul>
+<li><a href="http://mupdf.com/docs/overview">http://mupdf.com/docs/overview</a></li>
+<li><a href="http://mupdf.com/docs/">http://mupdf.com/docs/</a></li>
+</ul></li>
+<li><p>Refactor GUI code.</p></li>
 </ul>
 
 </div>

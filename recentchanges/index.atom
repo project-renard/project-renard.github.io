@@ -17,7 +17,65 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-01-31T17:32:43Z</updated>
+<updated>2016-01-31T21:35:27Z</updated>
+<entry>
+	<title>change to doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_5b5426e5634e592c117507937596faf7c481cf39/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-5b5426e5634e592c117507937596faf7c481cf39"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-01-31T21:35:27Z</updated>
+	<published>2016-01-31T21:35:27Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-5b5426e5634e592c117507937596faf7c481cf39&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:35:27 PM 01/31/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update meeting agenda&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 5b5426e5634e592c117507937596faf7c481cf39 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
 
@@ -2909,7 +2967,7 @@ creating index page tag&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to file-format on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_983f8b430141106ebe7b15ccbb18c65aaac4da5c/</id>
 
@@ -2932,64 +2990,6 @@ creating index page tag&lt;br /&gt;
 
 
 &lt;div id=&quot;change-983f8b430141106ebe7b15ccbb18c65aaac4da5c&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-file-format
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:43:30 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating index page file-format&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 983f8b430141106ebe7b15ccbb18c65aaac4da5c --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_e0f6ccdb1d176de475ffac2c5996cc64b7c8bc1a/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-e0f6ccdb1d176de475ffac2c5996cc64b7c8bc1a"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-11-01T21:43:28Z</updated>
-	<published>2015-11-01T21:43:28Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-e0f6ccdb1d176de475ffac2c5996cc64b7c8bc1a&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -3025,19 +3025,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:43:28 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:43:30 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-creating index page tag/handles-file-type&lt;br /&gt;
+creating index page file-format&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- e0f6ccdb1d176de475ffac2c5996cc64b7c8bc1a --&gt;
+&lt;!-- 983f8b430141106ebe7b15ccbb18c65aaac4da5c --&gt;
 
 	</content>
 
