@@ -12,6 +12,58 @@
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_1a4eb274f1c5b6600f509e9106dce41e0c15064c/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-1a4eb274f1c5b6600f509e9106dce41e0c15064c</link>
+
+	<pubDate>Mon, 01 Feb 2016 05:01:20 +0000</pubDate>
+	<dcterms:modified>2016-02-01T05:01:20Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1a4eb274f1c5b6600f509e9106dce41e0c15064c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:01:20 AM 02/01/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix a small typo&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 1a4eb274f1c5b6600f509e9106dce41e0c15064c --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>zaki.mughal: change to doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
 	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_652be869346390d9f1e25bb459d2bf3ee505d67f/</guid>
 
 	<link>http://project-renard.github.io/recentchanges/#change-652be869346390d9f1e25bb459d2bf3ee505d67f</link>
@@ -2614,7 +2666,7 @@ Travis-CI: adding language Perl&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to .travis.yml on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2632,58 +2684,6 @@ Travis-CI: adding language Perl&lt;br /&gt;
 
 
 &lt;div id=&quot;change-e8a6969d52fe7dc3b867b2649d0090daf2c36dbd&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.travis.yml
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:40:43 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Travis-CI: fix command for git commit&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- e8a6969d52fe7dc3b867b2649d0090daf2c36dbd --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_8da1179720d53cbc7b822f95d6b060ac497e03ec/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-8da1179720d53cbc7b822f95d6b060ac497e03ec</link>
-
-	<pubDate>Sun, 01 Nov 2015 22:27:14 +0000</pubDate>
-	<dcterms:modified>2015-11-01T22:27:14Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-8da1179720d53cbc7b822f95d6b060ac497e03ec&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2719,19 +2719,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:27:14 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:40:43 PM 11/01/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-add info about Mendeley&lt;br /&gt;
+Travis-CI: fix command for git commit&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- 8da1179720d53cbc7b822f95d6b060ac497e03ec --&gt;
+&lt;!-- e8a6969d52fe7dc3b867b2649d0090daf2c36dbd --&gt;
 </description>
 
 
