@@ -8,6 +8,68 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to local.css on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_e72ea941ee12d5bd60d3a8f10960fcb745c8d187/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-e72ea941ee12d5bd60d3a8f10960fcb745c8d187</link>
+
+	<pubDate>Tue, 02 Feb 2016 17:59:34 +0000</pubDate>
+	<dcterms:modified>2016-02-02T17:59:34Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-e72ea941ee12d5bd60d3a8f10960fcb745c8d187&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+local.css
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:59:34 PM 02/02/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Style: Make the page header background repeat&lt;br /&gt;
+
+
+
+
+
+This is so that there is not any blank space when the browser is wider&lt;br /&gt;
+
+
+
+than the header image.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- e72ea941ee12d5bd60d3a8f10960fcb745c8d187 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to about on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2586,7 +2648,7 @@ creating index page survey/feature&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to development on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2604,58 +2666,6 @@ creating index page survey/feature&lt;br /&gt;
 
 
 &lt;div id=&quot;change-fca20c5f36bd164228cb1c2530ffcff1a3e4e622&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-development
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:58:46 PM 11/04/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating index page development&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- fca20c5f36bd164228cb1c2530ffcff1a3e4e622 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_859f5911d6d52b32c835d97361f583b03139f76e/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-859f5911d6d52b32c835d97361f583b03139f76e</link>
-
-	<pubDate>Wed, 04 Nov 2015 15:55:54 +0000</pubDate>
-	<dcterms:modified>2015-11-04T15:55:54Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-859f5911d6d52b32c835d97361f583b03139f76e&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2691,19 +2701,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:55:54 PM 11/04/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:58:46 PM 11/04/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-start moving items to development section&lt;br /&gt;
+creating index page development&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- 859f5911d6d52b32c835d97361f583b03139f76e --&gt;
+&lt;!-- fca20c5f36bd164228cb1c2530ffcff1a3e4e622 --&gt;
 </description>
 
 
