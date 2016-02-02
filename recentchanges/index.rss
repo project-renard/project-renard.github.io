@@ -8,6 +8,64 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to about header_background.png img/illuminated-page-header.png local.css on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851</link>
+
+	<pubDate>Tue, 02 Feb 2016 17:50:01 +0000</pubDate>
+	<dcterms:modified>2016-02-02T17:50:01Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+about
+
+header background.png
+
+img/illuminated-page-header.png
+
+local.css
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:50:01 PM 02/02/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Proper layout and information about the illuminated manuscript header&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to about on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2600,7 +2658,7 @@ start moving items to development section&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to survey/reference-management on Project Renard</title>
+	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2618,58 +2676,6 @@ start moving items to development section&lt;br /&gt;
 
 
 &lt;div id=&quot;change-015e4af55bedf361aea5b70f653732536a2130ac&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-survey/reference-management
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:14:00 PM 11/03/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-fix pagespec for finding all ref managers&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 015e4af55bedf361aea5b70f653732536a2130ac --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md data/bibliography data design design/interaction design/introduction  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_dd972f898ffcb766b390e02aa1c36b7a444f3f7b/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-dd972f898ffcb766b390e02aa1c36b7a444f3f7b</link>
-
-	<pubDate>Tue, 03 Nov 2015 14:57:59 +0000</pubDate>
-	<dcterms:modified>2015-11-03T14:57:59Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-dd972f898ffcb766b390e02aa1c36b7a444f3f7b&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -2705,19 +2711,19 @@ zaki.mughal
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:57:59 PM 11/03/2015&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:14:00 PM 11/03/2015&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-add tags&lt;br /&gt;
+fix pagespec for finding all ref managers&lt;br /&gt;
 
 
 &lt;/div&gt;
 
-&lt;!-- dd972f898ffcb766b390e02aa1c36b7a444f3f7b --&gt;
+&lt;!-- 015e4af55bedf361aea5b70f653732536a2130ac --&gt;
 </description>
 
 
