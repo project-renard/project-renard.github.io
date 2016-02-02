@@ -26,7 +26,7 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
      information and retrieves from sources such as the Protein Data Bank.
    - Reflect: browser plugin for chemistry identifier lookup
       - <http://epafilis.info/projects.html>
-	  - <http://reflect.ws/>
+      - <http://reflect.ws/>
       - <http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html>
 
 - Design a GUI for displaying images of the document
@@ -59,12 +59,14 @@ Link to meeting log: <https://project-renard.github.io/doc/development/meeting-l
     make HAVE_GLFW=no
     make HAVE_GLFW=no install
     </pre>
+  - Make a note of the OpenGL viewer flag at <https://github.com/project-renard/p5-Alien-MuPDF/issues/3>.
 
 ## Tasks remaining
 
 - Look into MuPDF API.
    - <http://mupdf.com/docs/overview>
    - <http://mupdf.com/docs/>
+   - See issue <https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1>.
 
 - Refactor GUI code.
 
