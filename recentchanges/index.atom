@@ -17,7 +17,72 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-02T18:05:23Z</updated>
+<updated>2016-02-02T18:14:17Z</updated>
+<entry>
+	<title>change to project-renard.setup on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_47514a01f3e4a033f11b78734aa13c90385c18fd/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-47514a01f3e4a033f11b78734aa13c90385c18fd"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-02-02T18:14:17Z</updated>
+	<published>2016-02-02T18:14:17Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-47514a01f3e4a033f11b78734aa13c90385c18fd&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/47514a01f3e4a033f11b78734aa13c90385c18fd&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;project-renard.setup
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:14:17 PM 02/02/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: Set up historyurl and diffurl&lt;br /&gt;
+
+
+
+
+
+This allows for looking up changes made to a page.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 47514a01f3e4a033f11b78734aa13c90385c18fd --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui on Project Renard</title>
 
@@ -45,7 +110,8 @@
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f545e48a933e8cbfcef3d0c6f99f8157f9b227c4&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -103,7 +169,8 @@ Update meeting log&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-local.css
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/e72ea941ee12d5bd60d3a8f10960fcb745c8d187&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;local.css
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -171,7 +238,8 @@ than the header image.&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-about
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f6fe2df8951ba85973fb73c253c0f9ad0fa4ee48&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -229,13 +297,17 @@ Resize the page header on the about page&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-about
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
 
-header background.png
 
-img/illuminated-page-header.png
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;header background.png
 
-local.css
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;img/illuminated-page-header.png
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a529e96e9b06b4e089dd8e82ff1ac19d9f4fd851&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;local.css
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -293,7 +365,8 @@ Proper layout and information about the illuminated manuscript header&lt;br /&gt
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-about
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/5d4e4fe7dbe24ea4a1683a5cd41d15e4b88fd461&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -351,7 +424,8 @@ Fix the link syntax&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-header background.png
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ae26d7e5f97da5729c087da2652fe047e7f36411&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;header background.png
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -409,7 +483,8 @@ Add a illuminated manuscript border as the new header image&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-about
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ef764c4be7aba45cd3bc7a06444541ca0b3a1f12&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -467,7 +542,8 @@ Add an about page&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/1a4eb274f1c5b6600f509e9106dce41e0c15064c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -525,7 +601,8 @@ Fix a small typo&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/652be869346390d9f1e25bb459d2bf3ee505d67f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -583,11 +660,14 @@ Move images into their own paragraph&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/gfx/curie-green-background-drawingarea.png
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ea9b072260a08373b41cca510bc9188b3af3a31a&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/gfx/curie-green-background-drawingarea.png
 
-doc/development/meeting-log/posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ea9b072260a08373b41cca510bc9188b3af3a31a&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ea9b072260a08373b41cca510bc9188b3af3a31a&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -645,7 +725,8 @@ Add images of GUI progress&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/dbaa8eca8cd26f0d15be31ea3a16766bc82e2795&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -703,7 +784,8 @@ Add more information about semantic lookup&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/1d11d82f22cfd80c41b03d92c0bd430778edc17f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -761,7 +843,8 @@ Fix code formatting&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0472cf2d42fe829430d8c398a1661bef502fef85&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -819,7 +902,8 @@ Fix code formatting&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/5b5426e5634e592c117507937596faf7c481cf39&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -877,7 +961,8 @@ Update meeting agenda&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/fc1b9a146d1c2874de8453a1f8744141d259b203&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -935,9 +1020,11 @@ Update meeting agenda&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ddadcd0dc6d4dcc9269b832f3501a0d6faadd24d&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ddadcd0dc6d4dcc9269b832f3501a0d6faadd24d&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -995,7 +1082,8 @@ Add titles to meeting logs&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/98df60eb15282b32516386030054535a6f9efc47&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1053,7 +1141,8 @@ Add agenda for next meeting&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a6c34a2ecd646afa30f159a6b91d9a3d9a7c0d97&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1111,9 +1200,11 @@ Mark all tasks from last meeting as completed&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/.swp
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f761b2211377a39375d2faf196294b1fa44e67c7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/.swp
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f761b2211377a39375d2faf196294b1fa44e67c7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1171,7 +1262,8 @@ Remove extra agenda links at top of post&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ed9cc49fa0a147007974c8b55e929d2d713d90b3&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1229,7 +1321,8 @@ Add a note about installing deps from `cpanfile` using `cpanm`.&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/3133785ebf52715e75824b5bc9144b900e58cb6c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1287,7 +1380,8 @@ Add link to Etherpad to top of meeting notes&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f9061904e187007d3d86e8ee50d9ea6bc3b094ee&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1345,7 +1439,8 @@ Fix the code formatting&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-project-renard.setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c7a79d107f8e81c4ff80ab86ed8500dd32386de1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;project-renard.setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1403,7 +1498,8 @@ Add the txt plugin to the ikiwiki setup&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-.travis.yml
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/aeda2e8b4ecb4affb06f0d9fc12367729df5965f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1461,21 +1557,29 @@ Need to have Image::Magick Perl module to scale images&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development
 
-doc/development/meeting-log
 
-doc/development/meeting-log/posts
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log
 
-doc/development/meeting-log/posts/.swp
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts
 
-doc
 
-index
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/.swp
 
-sidebar
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;index
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bd8494f6df160ab524c2f1f2e4b599bcbfd27ce9&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sidebar
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1533,7 +1637,8 @@ Fix site layout&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-project-renard.setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/3d502affd1a5a0d974c8db09196715c317b018a6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;project-renard.setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1597,7 +1702,8 @@ Allow for adding styles to individual pages.&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-img
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/34df49f1d492720b0216d71fe15b002a8c5e6be7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;img
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1655,7 +1761,8 @@ creating index page img&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/document-viewer/navigation
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/8901108b1b62fd01d9de0f757f57b2206ef74aed&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/document-viewer/navigation
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1713,7 +1820,8 @@ creating index page doc/development/document-viewer/navigation&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0f87850674481f845496ddb3e73d979cddaf123d&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1771,7 +1879,8 @@ creating index page doc/development/meeting-log/posts/2016&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/70d3cfa7ab0654fb161d23d5904af233f9124ec3&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1829,7 +1938,8 @@ creating index page doc/development/meeting-log/posts/2016/01/24&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/document-viewer
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/577eb8dbc8395c426afa1f5b2bd8bdd4452f6b88&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/document-viewer
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1887,7 +1997,8 @@ creating index page doc/development/document-viewer&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/8c571e3d832bc73f2deb5fed22441307f9670831&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -1945,7 +2056,8 @@ creating index page doc/development/meeting-log/posts/2016/01&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c76ee591fbe9c364822d2fe330351605f8e53385&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2003,7 +2115,8 @@ Fix the development site-map parameters&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log/posts/2016/01/24/initial-setup
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0550ee345fd8c67f0b85e5c95692cb70629c95e7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/01/24/initial-setup
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2061,9 +2174,11 @@ Add meeting log for initial set up&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development/meeting-log
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/268b6642645e5d79d1a25bed5736b9c3440b07f4&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log
 
-doc/development/meeting-log/posts
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/268b6642645e5d79d1a25bed5736b9c3440b07f4&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2121,7 +2236,8 @@ Start meeting log pages&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc/development
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/85a69942d2950a11e650052d92fe8fa00af1df86&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2179,7 +2295,8 @@ Show more of the pages under doc/development&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-doc
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/68f7278b950cb9e6317c662cc31a585458726523&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2243,9 +2360,11 @@ This only shows un-organised pages that are not in those folders.&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-img/project-renard-logo.png
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;img/project-renard-logo.png
 
-index
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ccc8f754ff4c462a1d12a689d4df0b9efdc2e0f1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;index
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2303,25 +2422,35 @@ add homepage&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-design
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design
 
-design/interaction
 
-design/introduction
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/interaction
 
-design/sidebar
 
-design/visualisation/graphs
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/introduction
 
-design/visualisation
 
-design/workflow
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/sidebar
 
-development/data/bibliography
 
-development/data
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/visualisation/graphs
 
-development/document-sources
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/visualisation
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/workflow
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/data/bibliography
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/data
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/51775fe6af7cebd5f3790e066e307922c413ccaa&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/document-sources
+
 
 ...
 
@@ -2381,7 +2510,8 @@ move developer doc pages to doc/ directory&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-survey/tool/mupdf
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/5e85b7092c2586cafb8552e7b92e8fdeefbb85b1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/tool/mupdf
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2439,15 +2569,20 @@ add link to MuPDF page&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-survey/pdf-rendering
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f4c841e7def320fb0e28de170a4f27d74fb5c0f6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/pdf-rendering
 
-survey/pdf-writing
 
-survey/tool/libharu
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f4c841e7def320fb0e28de170a4f27d74fb5c0f6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/pdf-writing
 
-survey/tool/mupdf
 
-survey/tool/poppler
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f4c841e7def320fb0e28de170a4f27d74fb5c0f6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/tool/libharu
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f4c841e7def320fb0e28de170a4f27d74fb5c0f6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/tool/mupdf
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f4c841e7def320fb0e28de170a4f27d74fb5c0f6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/tool/poppler
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2505,13 +2640,17 @@ add links to tools&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-survey/document-viewer
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/edccc9e0a9d39634dd23a6c1abc9285184c8b65c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/document-viewer
 
-survey
 
-survey/pdf-rendering
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/edccc9e0a9d39634dd23a6c1abc9285184c8b65c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey
 
-survey/pdf-writing
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/edccc9e0a9d39634dd23a6c1abc9285184c8b65c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/pdf-rendering
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/edccc9e0a9d39634dd23a6c1abc9285184c8b65c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/pdf-writing
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2569,7 +2708,8 @@ add to survey&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-development/data/bibliography
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/32314a993cf103aa8087040e08ce6918fa2f3e2e&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/data/bibliography
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2627,7 +2767,8 @@ add note about metadata URI normalisation&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-development/document-viewer/navigation/zooming
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/9208e4947a9200d55bff19aa5501e8e084841572&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/document-viewer/navigation/zooming
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2685,7 +2826,8 @@ zoom info&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-survey/feature/metadata-retrieval
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/b3916ec3b49ea6830d197a0769e793b1eafa4d01&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/feature/metadata-retrieval
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2743,7 +2885,8 @@ link to biblio data page&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-survey/reference-management
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/b4ad4749b9279dcb0afe57d25aee0a4724db389d&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;survey/reference-management
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2801,7 +2944,8 @@ automatically generate list of reference managers from tags&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-development/data/bibliography
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/4aaaf4d486a128253939d81c29ec3306b5803711&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/data/bibliography
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2859,7 +3003,8 @@ add info about bibliography metadata&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-development/tutorial
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f75a4fbd43f051f1eda1c0f4dc40538749f34b72&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;development/tutorial
+
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2891,7 +3036,7 @@ add info about tutorial project&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to development/data development/document-sources development/file-format on Project Renard</title>
+	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_d7da2678ea88ce6eb99f41a0dbfd94a582d0519c/</id>
 
@@ -2917,11 +3062,37 @@ add info about tutorial project&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-development/data
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
 
-development/document-sources
 
-development/file-format
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.enc
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.pub
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;README.md
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/interaction
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/introduction
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/sidebar
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/d7da2678ea88ce6eb99f41a0dbfd94a582d0519c&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;design/visualisation/graphs
+
+
+...
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2946,84 +3117,6 @@ update the map directive for moved files&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- d7da2678ea88ce6eb99f41a0dbfd94a582d0519c --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md design design/interaction design/introduction design/sidebar design/visualisation/graphs  on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_7bfcf4d75bac8d9a230df3ef3abf43d99cd2e699/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-7bfcf4d75bac8d9a230df3ef3abf43d99cd2e699"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2015-11-04T15:58:48Z</updated>
-	<published>2015-11-04T15:58:48Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-7bfcf4d75bac8d9a230df3ef3abf43d99cd2e699&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
-
-.travis.yml
-
-.travisdeploykey.enc
-
-.travisdeploykey.pub
-
-README.md
-
-design
-
-design/interaction
-
-design/introduction
-
-design/sidebar
-
-design/visualisation/graphs
-
-...
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:58:48 PM 11/04/2015&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating index page survey/feature&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 7bfcf4d75bac8d9a230df3ef3abf43d99cd2e699 --&gt;
 
 	</content>
 
