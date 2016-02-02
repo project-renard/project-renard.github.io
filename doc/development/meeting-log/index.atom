@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-01T05:01:20Z</updated>
+<updated>2016-02-02T18:05:23Z</updated>
 <entry>
 	<title>Using Glade to build curie GUI</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-01T05:01:20Z</updated>
+	<updated>2016-02-02T18:05:23Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -116,6 +116,7 @@ cd mupdf-1.8-source
 make HAVE_GLFW=no
 make HAVE_GLFW=no install
 &lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Make a note of the OpenGL viewer flag at &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/3&quot;&gt;https://github.com/project-renard/p5-Alien-MuPDF/issues/3&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -127,6 +128,7 @@ make HAVE_GLFW=no install
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/overview&quot;&gt;http://mupdf.com/docs/overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/&quot;&gt;http://mupdf.com/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See issue &lt;a href=&quot;https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1&quot;&gt;https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Refactor GUI code.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;

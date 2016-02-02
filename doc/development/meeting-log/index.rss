@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-02-01T05:01:20Z</dcterms:modified>
+	<dcterms:modified>2016-02-02T18:05:23Z</dcterms:modified>
 
 	<description>&lt;p&gt;Link to EtherPad: &lt;a href=&quot;https://public.etherpad-mozilla.org/p/OdqbhdX86o&quot;&gt;https://public.etherpad-mozilla.org/p/OdqbhdX86o&lt;/a&gt;.&lt;/p&gt;
 
@@ -101,6 +101,7 @@ cd mupdf-1.8-source
 make HAVE_GLFW=no
 make HAVE_GLFW=no install
 &lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Make a note of the OpenGL viewer flag at &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/3&quot;&gt;https://github.com/project-renard/p5-Alien-MuPDF/issues/3&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -112,6 +113,7 @@ make HAVE_GLFW=no install
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/overview&quot;&gt;http://mupdf.com/docs/overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/&quot;&gt;http://mupdf.com/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See issue &lt;a href=&quot;https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1&quot;&gt;https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Refactor GUI code.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
