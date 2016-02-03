@@ -8,6 +8,7 @@
   - PDF version support
   - Direct access to PDF stream
   - Embedded font support and access
+  - Multi-threading
 
  - [[Poppler|tool/poppler]]
  - [[MuPDF|tool/mupdf]]
