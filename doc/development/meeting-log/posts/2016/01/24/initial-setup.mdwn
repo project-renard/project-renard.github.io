@@ -12,7 +12,7 @@
   built-in feature.
 
 - Set up GTK+ 3 on Linux so that it can run the **curie** code.
-    - This is related to issue "GTK+ Linux setup" <https://github.com/project-renard/curie/issues/2>.
+    - This is related to issue "GTK+ Linux setup" [[!template id=github item="project-renard/curie/issues/2"]].
 
 ## Tasks completed
 
@@ -45,11 +45,11 @@
   ```
 
 - **curie**: Removed the Gtk3::Ex::PDFViewer code which was causing problems
-    - PR <https://github.com/project-renard/curie/pull/3>.
+    - PR [[!template id=github item="project-renard/curie/pull/3"]].
 
 - **curie**: Install the Perl CPAN packages needed for Gtk3.
     - This can be done more easily by creating a `cpanfile` which lists the requirements.
-    - PR <https://github.com/project-renard/curie/pull/4>.
+    - PR [[!template id=github item="project-renard/curie/pull/4"]].
     - Now that the `cpanfile` is available, you can install the dependencies by running
       
       ```

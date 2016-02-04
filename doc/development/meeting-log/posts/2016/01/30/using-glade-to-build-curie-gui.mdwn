@@ -26,7 +26,7 @@
       - <http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html>
 
 - Design a GUI for displaying images of the document
-   - PR <https://github.com/project-renard/curie/pull/6> (and progress images)
+   - PR [[!template id=github item="project-renard/curie/pull/6"]] (and progress images)
    - Examples
       - Anjuta: IDE with docking. Uses GDL <http://anjuta.org/>.
       - Example of simple PDF viewer using Poppler <https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/>.
@@ -55,14 +55,14 @@
     make HAVE_GLFW=no
     make HAVE_GLFW=no install
     </pre>
-  - Make a note of the OpenGL viewer flag at <https://github.com/project-renard/p5-Alien-MuPDF/issues/3>.
+  - Make a note of the OpenGL viewer flag at [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/3"]].
 
 ## Tasks remaining
 
 - Look into MuPDF API.
    - <http://mupdf.com/docs/overview>
    - <http://mupdf.com/docs/>
-   - See issue <https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1>.
+   - See issue [[!template id=github item="project-renard/p5-Incunabula-Format-PDF/issues/1"]].
 
 - Refactor GUI code.
 
