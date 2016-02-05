@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-05T18:29:05Z</updated>
+<updated>2016-02-05T18:31:34Z</updated>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-05T18:29:05Z</updated>
+	<updated>2016-02-05T18:31:34Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -40,6 +40,8 @@ doing each thing.&lt;/p&gt;
 
 &lt;p&gt;First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.&lt;/p&gt;
+
+&lt;p&gt;Table of contents:&lt;/p&gt;
 
 &lt;h2 id=&quot;ui&quot;&gt;UI&lt;/h2&gt;
 
@@ -80,7 +82,7 @@ techniques for active reading.&quot;&lt;/a&gt;
 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
 ACM, 2012.&lt;/p&gt;
 
-&lt;p&gt;See the &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;video&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;See this &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;video&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Willinsky, John, Alex Garnett, and Angela Pan Wong. &lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;&quot;Refurbishing the Camelot
 of Scholarship: How to Improve the Digital Contribution of the PDF Research
 Article.&quot;&lt;/a&gt; Journal of Electronic Publishing 15.1 (2012).&lt;/p&gt;
@@ -236,7 +238,7 @@ make HAVE_GLFW=no install
 
 
 	<updated>2016-02-04T21:13:31Z</updated>
-	<published>2016-01-24T04:46:35Z</published>
+	<published>2016-01-24T04:46:37Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
