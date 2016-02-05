@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-05T18:24:47Z</updated>
+<updated>2016-02-05T18:28:07Z</updated>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-05T18:24:47Z</updated>
+	<updated>2016-02-05T18:28:07Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -80,15 +80,14 @@ techniques for active reading.&quot;&lt;/a&gt;
 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
 ACM, 2012.&lt;/p&gt;
 
-&lt;p&gt;See the video at &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;See the &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;video&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Willinsky, John, Alex Garnett, and Angela Pan Wong. &lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;&quot;Refurbishing the Camelot
 of Scholarship: How to Improve the Digital Contribution of the PDF Research
 Article.&quot;&lt;/a&gt; Journal of Electronic Publishing 15.1 (2012).&lt;/p&gt;
 
-&lt;p&gt;This one comes with a demo PDF &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;https://pkp.sfu.ca/files/idealizedPDF.pdf&lt;/a&gt;
+&lt;p&gt;This one comes with a &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;demo PDF&lt;/a&gt;
 that demonstrates various aspects of what they would like to achieve
-which they compare with the article that they modified
-&lt;a href=&quot;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&quot;&gt;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&lt;/a&gt;.&lt;/p&gt;
+which they compare with &lt;a href=&quot;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&quot;&gt;the article that they modified&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;As you can see, the authors opt to change the way PDFs are published, but
 clearly, we can&#39;t convince everyone to do that. So instead, we will need
@@ -237,7 +236,7 @@ make HAVE_GLFW=no install
 
 
 	<updated>2016-02-04T21:13:31Z</updated>
-	<published>2016-01-24T04:46:33Z</published>
+	<published>2016-01-24T04:46:34Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
