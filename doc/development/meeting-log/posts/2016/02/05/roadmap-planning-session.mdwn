@@ -1,0 +1,70 @@
+[[!meta title="Roadmap planning session"]]
+
+From [[last time|2016/01/30/using-glade-to-build-curie-gui]], we were going to
+look at the MuPDF API for the last remaining task. However, we should step back
+and take a look at where we are going before moving forward and why we are
+doing each thing.
+
+First, we will look at UI functionality then move on to background processing
+that is necessary to support each of those.
+
+## UI
+
+- Display
+
+  
+- Navigation
+
+
+
+## Further reading
+
+### Books
+
+These two books discuss and compare how people use books both on paper
+and on screens. There are many ideas in them both.
+
+- Reading and Writing the Electronic Book
+  Catherine C. Marshall
+  2010
+
+- Designing Usable Electronic Text, 2nd Edition
+  Andrew Dillon
+  2004
+
+### Review articles
+
+- Electronic Environments for Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011)
+  Corina Koolen, Ray Siemens, Alex Garnett
+  2011
+
+  <http://src-online.ca/index.php/src/article/view/71>
+
+### Research articles
+
+- Hinckley, K., Bi, X., Pahud, M., Buxton, B., Informal Information
+  Gathering Techniques for Active Reading. 4pp Note. In Proc. CHI 2012
+  Conf. on Human Factors in Computing Systems, Austin, TX, May 5-10, 2012.
+
+  See the video at <https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/> for a demo.
+
+- Refurbishing the Camelot of Scholarship: How to Improve the Digital Contribution of the PDF Research Article
+  John Willinsky, Alex Garnett, and Angela Pan Wong
+  2012
+  <http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main>
+
+  This one comes with a demo PDF <https://pkp.sfu.ca/files/idealizedPDF.pdf>
+  that demonstrates various aspects of what they would like to achieve
+  which they compare with the article that they modified
+  <http://www.italiavacance.eu/index.php/IJAR/article/download/95/102>.
+  
+  As you can see, the authors opt to change the way PDFs are published, but
+  clearly, we can't convince everyone to do that. So instead, we will need
+  to be able to reformat documents our own way.
+  
+  That will be the main contribution of Project Renard that nobody has
+  done yet. I want to call it document resynthesis. I got the
+  "resynthesis" name from a sound synthesis technique that takes existing
+  sounds and takes the Fourier components and processes them in order to
+  make new sounds.
+  
