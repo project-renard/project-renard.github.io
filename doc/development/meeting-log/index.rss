@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-02-05T18:09:21Z</dcterms:modified>
+	<dcterms:modified>2016-02-05T18:24:47Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -41,36 +41,34 @@ that is necessary to support each of those.&lt;/p&gt;
 and on screens. There are many ideas in them both.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Reading and Writing the Electronic Book
-Catherine C. Marshall
-2010&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Designing Usable Electronic Text, 2nd Edition
-Andrew Dillon
-2004&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Marshall, Catherine C. &lt;a href=&quot;http://www.morganclaypool.com/doi/abs/10.2200/S00215ED1V01Y200907ICR009&quot;&gt;&quot;Reading and writing the electronic
+book.&quot;&lt;/a&gt;
+Synthesis lectures on information concepts, retrieval, and services 1.1 (2009):
+1-185.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dillon, Andrew. Designing usable electronic text: Ergonomic aspects of human
+information usage. CRC Press, 2004.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;reviewarticles&quot;&gt;Review articles&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Electronic Environments for Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011)
-Corina Koolen, Ray Siemens, Alex Garnett
-2011&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://src-online.ca/index.php/src/article/view/71&quot;&gt;http://src-online.ca/index.php/src/article/view/71&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Koolen, Corina, Ray Siemens, and Alex Garnett. &lt;a href=&quot;http://src-online.ca/index.php/src/article/view/71&quot;&gt;&quot;Electronic Environments for
+Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011).&quot;&lt;/a&gt;
+Scholarly and Research Communication 3.4 (2012).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;researcharticles&quot;&gt;Research articles&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Hinckley, K., Bi, X., Pahud, M., Buxton, B., Informal Information
-Gathering Techniques for Active Reading. 4pp Note. In Proc. CHI 2012
-Conf. on Human Factors in Computing Systems, Austin, TX, May 5-10, 2012.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Hinckley, K., Bi, X., Pahud, M., Buxton, B. &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=2208327&quot;&gt;&quot;Informal information gathering
+techniques for active reading.&quot;&lt;/a&gt;
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
+ACM, 2012.&lt;/p&gt;
 
 &lt;p&gt;See the video at &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Refurbishing the Camelot of Scholarship: How to Improve the Digital Contribution of the PDF Research Article
-John Willinsky, Alex Garnett, and Angela Pan Wong
-2012
-&lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Willinsky, John, Alex Garnett, and Angela Pan Wong. &lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;&quot;Refurbishing the Camelot
+of Scholarship: How to Improve the Digital Contribution of the PDF Research
+Article.&quot;&lt;/a&gt; Journal of Electronic Publishing 15.1 (2012).&lt;/p&gt;
 
 &lt;p&gt;This one comes with a demo PDF &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;https://pkp.sfu.ca/files/idealizedPDF.pdf&lt;/a&gt;
 that demonstrates various aspects of what they would like to achieve
@@ -214,7 +212,7 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
+	<pubDate>Sun, 24 Jan 2016 04:45:38 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
