@@ -17,7 +17,97 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-04T21:13:31Z</updated>
+<updated>2016-02-05T18:09:21Z</updated>
+<entry>
+	<title>Roadmap planning session</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/"/>
+
+
+
+
+
+	<updated>2016-02-05T18:09:21Z</updated>
+	<published>2016-02-05T18:09:21Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
+look at the MuPDF API for the last remaining task. However, we should step back
+and take a look at where we are going before moving forward and why we are
+doing each thing.&lt;/p&gt;
+
+&lt;p&gt;First, we will look at UI functionality then move on to background processing
+that is necessary to support each of those.&lt;/p&gt;
+
+&lt;h2 id=&quot;ui&quot;&gt;UI&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Display&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Navigation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;furtherreading&quot;&gt;Further reading&lt;/h2&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;p&gt;These two books discuss and compare how people use books both on paper
+and on screens. There are many ideas in them both.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Reading and Writing the Electronic Book
+Catherine C. Marshall
+2010&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Designing Usable Electronic Text, 2nd Edition
+Andrew Dillon
+2004&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reviewarticles&quot;&gt;Review articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Electronic Environments for Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011)
+Corina Koolen, Ray Siemens, Alex Garnett
+2011&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://src-online.ca/index.php/src/article/view/71&quot;&gt;http://src-online.ca/index.php/src/article/view/71&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;researcharticles&quot;&gt;Research articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Hinckley, K., Bi, X., Pahud, M., Buxton, B., Informal Information
+Gathering Techniques for Active Reading. 4pp Note. In Proc. CHI 2012
+Conf. on Human Factors in Computing Systems, Austin, TX, May 5-10, 2012.&lt;/p&gt;
+
+&lt;p&gt;See the video at &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refurbishing the Camelot of Scholarship: How to Improve the Digital Contribution of the PDF Research Article
+John Willinsky, Alex Garnett, and Angela Pan Wong
+2012
+&lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This one comes with a demo PDF &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;https://pkp.sfu.ca/files/idealizedPDF.pdf&lt;/a&gt;
+that demonstrates various aspects of what they would like to achieve
+which they compare with the article that they modified
+&lt;a href=&quot;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&quot;&gt;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see, the authors opt to change the way PDFs are published, but
+clearly, we can&#39;t convince everyone to do that. So instead, we will need
+to be able to reformat documents our own way.&lt;/p&gt;
+
+&lt;p&gt;That will be the main contribution of Project Renard that nobody has
+done yet. I want to call it document resynthesis. I got the
+&quot;resynthesis&quot; name from a sound synthesis technique that takes existing
+sounds and takes the Fourier components and processes them in order to
+make new sounds.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Using Glade to build curie GUI</title>
 
