@@ -1,7 +1,5 @@
 [[!meta title="Roadmap planning session"]]
 
-[[!toc]]
-
 From [[last time|2016/01/30/using-glade-to-build-curie-gui]], we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
 and take a look at where we are going before moving forward and why we are
@@ -9,6 +7,9 @@ doing each thing.
 
 First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.
+
+Table of contents:
+[[!toc]]
 
 ## UI
 
@@ -47,7 +48,7 @@ and on screens. There are many ideas in them both.
   Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
   ACM, 2012.
 
-  See the [[video|https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/]] for a demo.
+  See this [[video|https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/]] for a demo.
 
 - Willinsky, John, Alex Garnett, and Angela Pan Wong. [["Refurbishing the Camelot
   of Scholarship: How to Improve the Digital Contribution of the PDF Research
