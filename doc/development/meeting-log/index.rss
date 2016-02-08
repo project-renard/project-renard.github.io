@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-02-08T01:38:22Z</dcterms:modified>
+	<dcterms:modified>2016-02-08T01:43:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -45,11 +45,22 @@ that is necessary to support each of those.&lt;/p&gt;
 &lt;li&gt;Reading order: may be embedded in the PDF or might require
 extraction&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Metadata
+&lt;li&gt;&lt;p&gt;Metadata&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;RDF database&lt;/li&gt;
 &lt;li&gt;Printing: cover page with metadata and QR code&lt;/li&gt;
 &lt;li&gt;Summary: automatic summarisation&lt;/li&gt;
+&lt;li&gt;Example old paper from 1965: &lt;a href=&quot;http://dx.doi.org/10.1109/TBME.1965.4502337&quot;&gt;A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Note how the page layout was done manually&lt;/li&gt;
+&lt;li&gt;BibTeX &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX&quot;&gt;entry types table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Binding example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm&quot;&gt;Getting the compiler flags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm&quot;&gt;Inline C code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -61,9 +72,10 @@ one page at a time. See PR &lt;a href=&quot;https://github.com/project-renard/cu
 .&lt;/p&gt;
 
 &lt;p&gt;To speed up development, we skipped creating a binding for now and
-just used the &lt;code&gt;&amp;lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&amp;gt;&lt;/code&gt;mudraw&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;
+just used the
+&lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&gt;&lt;code&gt;mudraw&lt;/code&gt;&lt;/a&gt;
 command to get the PDF page as a PNG image
-and &lt;code&gt;&amp;lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&amp;gt;pdfinfo&amp;lt;/a&amp;gt;&lt;/code&gt;
+and &lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&gt;&lt;code&gt;pdfinfo&lt;/code&gt;&lt;/a&gt;
 command to get the number of pages in the PDF. The following is the
 result.&lt;/p&gt;
 
@@ -247,7 +259,7 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Sun, 24 Jan 2016 04:46:39 +0000</pubDate>
+	<pubDate>Sun, 24 Jan 2016 05:15:38 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;

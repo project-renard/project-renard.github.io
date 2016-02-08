@@ -117,11 +117,22 @@ that is necessary to support each of those.</p>
 <li>Reading order: may be embedded in the PDF or might require
 extraction</li>
 </ul></li>
-<li>Metadata
+<li><p>Metadata</p>
+
 <ul>
 <li>RDF database</li>
 <li>Printing: cover page with metadata and QR code</li>
 <li>Summary: automatic summarisation</li>
+<li>Example old paper from 1965: <a href="http://dx.doi.org/10.1109/TBME.1965.4502337">A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology</a></li>
+<li>Note how the page layout was done manually</li>
+<li>BibTeX <a href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX">entry types table</a></li>
+</ul></li>
+<li><p>Binding example:</p>
+
+<ul>
+<li>Using Inline::C to bind to <code>libmatio</code>:</li>
+<li><a href="https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm">Getting the compiler flags</a></li>
+<li><a href="https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm">Inline C code</a></li>
 </ul></li>
 </ul>
 
@@ -133,9 +144,10 @@ one page at a time. See PR <a href="https://github.com/project-renard/curie/pull
 .</p>
 
 <p>To speed up development, we skipped creating a binding for now and
-just used the <code>&lt;a href="http://mupdf.com/doc/browse/source/tools/mudraw.c"&gt;</code>mudraw<code>&lt;/a&gt;</code>
+just used the
+<a href="http://mupdf.com/doc/browse/source/tools/mudraw.c"><code>mudraw</code></a>
 command to get the PDF page as a PNG image
-and <code>&lt;a href="https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc"&gt;pdfinfo&lt;/a&gt;</code>
+and <a href="https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc"><code>pdfinfo</code></a>
 command to get the number of pages in the PDF. The following is the
 result.</p>
 
@@ -214,7 +226,7 @@ make new sounds.</p></li>
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 08 Feb 2016 01:38:22 AM UTC</span>
+Last edited <span class="date">Mon 08 Feb 2016 01:43:11 AM UTC</span>
 <!-- Created <span class="date">Fri 05 Feb 2016 06:09:21 PM UTC</span> -->
 </div>
 

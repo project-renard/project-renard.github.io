@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-08T01:38:22Z</updated>
+<updated>2016-02-08T01:43:11Z</updated>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-08T01:38:22Z</updated>
+	<updated>2016-02-08T01:43:11Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -60,11 +60,22 @@ that is necessary to support each of those.&lt;/p&gt;
 &lt;li&gt;Reading order: may be embedded in the PDF or might require
 extraction&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Metadata
+&lt;li&gt;&lt;p&gt;Metadata&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;RDF database&lt;/li&gt;
 &lt;li&gt;Printing: cover page with metadata and QR code&lt;/li&gt;
 &lt;li&gt;Summary: automatic summarisation&lt;/li&gt;
+&lt;li&gt;Example old paper from 1965: &lt;a href=&quot;http://dx.doi.org/10.1109/TBME.1965.4502337&quot;&gt;A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Note how the page layout was done manually&lt;/li&gt;
+&lt;li&gt;BibTeX &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX&quot;&gt;entry types table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Binding example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm&quot;&gt;Getting the compiler flags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm&quot;&gt;Inline C code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -76,9 +87,10 @@ one page at a time. See PR &lt;a href=&quot;https://github.com/project-renard/cu
 .&lt;/p&gt;
 
 &lt;p&gt;To speed up development, we skipped creating a binding for now and
-just used the &lt;code&gt;&amp;lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&amp;gt;&lt;/code&gt;mudraw&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;
+just used the
+&lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&gt;&lt;code&gt;mudraw&lt;/code&gt;&lt;/a&gt;
 command to get the PDF page as a PNG image
-and &lt;code&gt;&amp;lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&amp;gt;pdfinfo&amp;lt;/a&amp;gt;&lt;/code&gt;
+and &lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&gt;&lt;code&gt;pdfinfo&lt;/code&gt;&lt;/a&gt;
 command to get the number of pages in the PDF. The following is the
 result.&lt;/p&gt;
 
@@ -272,7 +284,7 @@ make HAVE_GLFW=no install
 
 
 	<updated>2016-02-04T21:13:31Z</updated>
-	<published>2016-01-24T04:46:39Z</published>
+	<published>2016-01-24T05:15:38Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
