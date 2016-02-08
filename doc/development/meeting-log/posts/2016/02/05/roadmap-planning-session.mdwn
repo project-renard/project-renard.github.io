@@ -25,6 +25,16 @@ that is necessary to support each of those.
   - RDF database
   - Printing: cover page with metadata and QR code
   - Summary: automatic summarisation
+  - Example old paper from 1965: [[A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology|http://dx.doi.org/10.1109/TBME.1965.4502337]]
+    - Note how the page layout was done manually
+  - BibTeX [[entry types table|https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX]]
+
+- Binding example:
+  - Using Inline::C to bind to `libmatio`:
+    - [[Getting the compiler flags|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm]]
+    - [[Inline C code|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm]]
+
+
 
 ## Implementation work
 
@@ -33,13 +43,15 @@ jumping to the first and last pages and moving forward and backwards
 one page at a time. See PR [[!template id=github item="project-renard/curie/pull/6"]].
 
 To speed up development, we skipped creating a binding for now and
-just used the `[[`mudraw`|http://mupdf.com/doc/browse/source/tools/mudraw.c]]`
+just used the
+[[`mudraw`|http://mupdf.com/doc/browse/source/tools/mudraw.c]]
 command to get the PDF page as a PNG image
-and `[[pdfinfo|https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc]]`
+and [[`pdfinfo`|https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc]]
 command to get the number of pages in the PDF. The following is the
 result.
 
 [[!img gfx/curie-simple-mudraw-pdf-render.png alt="curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation" size="250x"]]
+
 
 ## Further reading
 
