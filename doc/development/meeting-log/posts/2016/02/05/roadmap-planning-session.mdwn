@@ -31,8 +31,8 @@ that is necessary to support each of those.
 
 - Binding example:
   - Using Inline::C to bind to `libmatio`:
-    - [[Getting the compiler flags|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm]]
-    - [[Inline C code|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm]]
+     - [[Getting the compiler flags|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm]]
+     - [[Inline C code|https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm]]
 
 
 
