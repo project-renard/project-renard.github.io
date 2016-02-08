@@ -95,30 +95,50 @@ look at the MuPDF API for the last remaining task. However, we should step back
 and take a look at where we are going before moving forward and why we are
 doing each thing.</p>
 
+<h2 id="brainstorming">Brainstorming</h2>
+
 <p>First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.</p>
 
-<p>Table of contents:</p>
-
-<div class="toc">
-	<ol>
-		<li class="L2"><a href="#index1h2">UI</a>
-		</li>
-		<li class="L2"><a href="#index2h2">Further reading</a>
-		</li>
-	</ol>
-</div>
-
-<h2 id="ui"><a name="index1h2"></a>UI</h2>
-
 <ul>
-<li><p>Display</p></li>
-<li><p>Navigation</p></li>
+<li>UI
+<ul>
+<li>Display</li>
+<li>Navigation</li>
+<li>back, forward</li>
+<li>jump to page</li>
+<li>history list (what was the last page I was at)
+<a href="../gfx/sketch-page-canvas-layout.jpg"><img src="./250x-sketch-page-canvas-layout.jpg" width="250" height="188" alt="Sketch of layout for drawing multiple pages on the canvas" class="img" /></a></li>
+<li>Reading order: may be embedded in the PDF or might require
+extraction</li>
+</ul></li>
+<li>Metadata
+<ul>
+<li>RDF database</li>
+<li>Printing: cover page with metadata and QR code</li>
+<li>Summary: automatic summarisation</li>
+</ul></li>
 </ul>
 
-<h2 id="furtherreading"><a name="index2h2"></a>Further reading</h2>
+<h2 id="implementationwork">Implementation work</h2>
 
-<h3 id="books"><a name="index1h3"></a>Books</h3>
+<p>We continued work on the simple GUI by adding buttons to the Glade GUI for
+jumping to the first and last pages and moving forward and backwards
+one page at a time. See PR <a href="https://github.com/project-renard/curie/pull/6"><img src="https://github-shields.com/github/project-renard/curie/pull/6.svg" alt="project-renard/curie/pull/6" id="project-renardcuriepull6" /></a>
+.</p>
+
+<p>To speed up development, we skipped creating a binding for now and
+just used the <code>&lt;a href="http://mupdf.com/doc/browse/source/tools/mudraw.c"&gt;</code>mudraw<code>&lt;/a&gt;</code>
+command to get the PDF page as a PNG image
+and <code>&lt;a href="https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc"&gt;pdfinfo&lt;/a&gt;</code>
+command to get the number of pages in the PDF. The following is the
+result.</p>
+
+<p><a href="../gfx/curie-simple-mudraw-pdf-render.png"><img src="./250x-curie-simple-mudraw-pdf-render.png" width="250" height="220" alt="curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation" class="img" /></a></p>
+
+<h2 id="furtherreading">Further reading</h2>
+
+<h3 id="books">Books</h3>
 
 <p>These two books discuss and compare how people use books both on paper
 and on screens. There are many ideas in them both.</p>
@@ -132,7 +152,7 @@ Synthesis lectures on information concepts, retrieval, and services 1.1 (2009):
 information usage. CRC Press, 2004.</p></li>
 </ul>
 
-<h3 id="reviewarticles"><a name="index2h3"></a>Review articles</h3>
+<h3 id="reviewarticles">Review articles</h3>
 
 <ul>
 <li>Koolen, Corina, Ray Siemens, and Alex Garnett. <a href="http://src-online.ca/index.php/src/article/view/71">"Electronic Environments for
@@ -140,7 +160,7 @@ Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011)."</
 Scholarly and Research Communication 3.4 (2012).</li>
 </ul>
 
-<h3 id="researcharticles"><a name="index3h3"></a>Research articles</h3>
+<h3 id="researcharticles">Research articles</h3>
 
 <ul>
 <li><p>Hinckley, K., Bi, X., Pahud, M., Buxton, B. <a href="http://dl.acm.org/citation.cfm?id=2208327">"Informal information gathering
@@ -189,7 +209,7 @@ make new sounds.</p></li>
 
 
 <div class="pagedate">
-Last edited <span class="date">Fri 05 Feb 2016 06:31:34 PM UTC</span>
+Last edited <span class="date">Mon 08 Feb 2016 01:36:04 AM UTC</span>
 <!-- Created <span class="date">Fri 05 Feb 2016 06:09:21 PM UTC</span> -->
 </div>
 

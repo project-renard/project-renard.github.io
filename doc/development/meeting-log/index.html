@@ -105,17 +105,46 @@ look at the MuPDF API for the last remaining task. However, we should step back
 and take a look at where we are going before moving forward and why we are
 doing each thing.</p>
 
+<h2 id="brainstorming">Brainstorming</h2>
+
 <p>First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.</p>
 
-<p>Table of contents:</p>
-
-<h2 id="ui">UI</h2>
-
 <ul>
-<li><p>Display</p></li>
-<li><p>Navigation</p></li>
+<li>UI
+<ul>
+<li>Display</li>
+<li>Navigation</li>
+<li>back, forward</li>
+<li>jump to page</li>
+<li>history list (what was the last page I was at)
+<a href="./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg"><img src="./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg" width="250" height="188" alt="Sketch of layout for drawing multiple pages on the canvas" class="img" /></a></li>
+<li>Reading order: may be embedded in the PDF or might require
+extraction</li>
+</ul></li>
+<li>Metadata
+<ul>
+<li>RDF database</li>
+<li>Printing: cover page with metadata and QR code</li>
+<li>Summary: automatic summarisation</li>
+</ul></li>
 </ul>
+
+<h2 id="implementationwork">Implementation work</h2>
+
+<p>We continued work on the simple GUI by adding buttons to the Glade GUI for
+jumping to the first and last pages and moving forward and backwards
+one page at a time. See PR <a href="https://github.com/project-renard/curie/pull/6"><img src="https://github-shields.com/github/project-renard/curie/pull/6.svg" alt="project-renard/curie/pull/6" id="project-renardcuriepull6" /></a>
+.</p>
+
+<p>To speed up development, we skipped creating a binding for now and
+just used the <code>&lt;a href="http://mupdf.com/doc/browse/source/tools/mudraw.c"&gt;</code>mudraw<code>&lt;/a&gt;</code>
+command to get the PDF page as a PNG image
+and <code>&lt;a href="https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc"&gt;pdfinfo&lt;/a&gt;</code>
+command to get the number of pages in the PDF. The following is the
+result.</p>
+
+<p><a href="./posts/2016/02/05/gfx/curie-simple-mudraw-pdf-render.png"><img src="./posts/2016/02/05/roadmap-planning-session/250x-curie-simple-mudraw-pdf-render.png" width="250" height="220" alt="curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation" class="img" /></a></p>
 
 <h2 id="furtherreading">Further reading</h2>
 
@@ -420,7 +449,7 @@ that are provided by libgdl <a href="https://developer.gnome.org/gdl/">https://d
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sun 24 Jan 2016 04:46:37 AM UTC</span>
+Posted <span class="date">Sun 24 Jan 2016 04:46:38 AM UTC</span>
 </span>
 
 
@@ -468,7 +497,7 @@ Links:
 
 <div class="pagedate">
 Last edited <span class="date">Sun 24 Jan 2016 05:16:04 AM UTC</span>
-<!-- Created <span class="date">Sun 24 Jan 2016 04:46:37 AM UTC</span> -->
+<!-- Created <span class="date">Sun 24 Jan 2016 04:46:38 AM UTC</span> -->
 </div>
 
 </div>

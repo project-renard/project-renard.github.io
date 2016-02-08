@@ -16,24 +16,53 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-02-05T18:31:34Z</dcterms:modified>
+	<dcterms:modified>2016-02-08T01:36:04Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
 and take a look at where we are going before moving forward and why we are
 doing each thing.&lt;/p&gt;
 
+&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
+
 &lt;p&gt;First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.&lt;/p&gt;
 
-&lt;p&gt;Table of contents:&lt;/p&gt;
-
-&lt;h2 id=&quot;ui&quot;&gt;UI&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Display&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Navigation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;UI
+&lt;ul&gt;
+&lt;li&gt;Display&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;back, forward&lt;/li&gt;
+&lt;li&gt;jump to page&lt;/li&gt;
+&lt;li&gt;history list (what was the last page I was at)
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading order: may be embedded in the PDF or might require
+extraction&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Metadata
+&lt;ul&gt;
+&lt;li&gt;RDF database&lt;/li&gt;
+&lt;li&gt;Printing: cover page with metadata and QR code&lt;/li&gt;
+&lt;li&gt;Summary: automatic summarisation&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;implementationwork&quot;&gt;Implementation work&lt;/h2&gt;
+
+&lt;p&gt;We continued work on the simple GUI by adding buttons to the Glade GUI for
+jumping to the first and last pages and moving forward and backwards
+one page at a time. See PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/6&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/6.svg&quot; alt=&quot;project-renard/curie/pull/6&quot; id=&quot;project-renardcuriepull6&quot; /&gt;&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;p&gt;To speed up development, we skipped creating a binding for now and
+just used the &lt;code&gt;&amp;lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&amp;gt;&lt;/code&gt;mudraw&lt;code&gt;&amp;lt;/a&amp;gt;&lt;/code&gt;
+command to get the PDF page as a PNG image
+and &lt;code&gt;&amp;lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&amp;gt;pdfinfo&amp;lt;/a&amp;gt;&lt;/code&gt;
+command to get the number of pages in the PDF. The following is the
+result.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/curie-simple-mudraw-pdf-render.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-curie-simple-mudraw-pdf-render.png&quot; width=&quot;250&quot; height=&quot;220&quot; alt=&quot;curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;furtherreading&quot;&gt;Further reading&lt;/h2&gt;
 
@@ -213,7 +242,7 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Sun, 24 Jan 2016 04:46:37 +0000</pubDate>
+	<pubDate>Sun, 24 Jan 2016 04:46:38 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
