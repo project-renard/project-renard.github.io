@@ -16,7 +16,9 @@ that is necessary to support each of those.
     - back, forward
     - jump to page
     - history list (what was the last page I was at)
+
     [[!img gfx/sketch-page-canvas-layout.jpg alt="Sketch of layout for drawing multiple pages on the canvas" size="250x"]]
+
   - Reading order: may be embedded in the PDF or might require
     extraction
 - Metadata
