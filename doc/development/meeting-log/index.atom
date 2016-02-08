@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-08T01:43:11Z</updated>
+<updated>2016-02-08T01:47:50Z</updated>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-08T01:43:11Z</updated>
+	<updated>2016-02-08T01:47:50Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -73,9 +73,11 @@ extraction&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Binding example:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm&quot;&gt;Getting the compiler flags&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm&quot;&gt;Inline C code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -284,7 +286,7 @@ make HAVE_GLFW=no install
 
 
 	<updated>2016-02-04T21:13:31Z</updated>
-	<published>2016-01-24T05:15:38Z</published>
+	<published>2016-01-24T05:16:04Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
