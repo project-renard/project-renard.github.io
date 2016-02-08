@@ -5,20 +5,39 @@ look at the MuPDF API for the last remaining task. However, we should step back
 and take a look at where we are going before moving forward and why we are
 doing each thing.
 
+## Brainstorming
+
 First, we will look at UI functionality then move on to background processing
 that is necessary to support each of those.
 
-Table of contents:
-[[!toc]]
+- UI
+  - Display
+  - Navigation
+    - back, forward
+    - jump to page
+    - history list (what was the last page I was at)
+    [[!img gfx/sketch-page-canvas-layout.jpg alt="Sketch of layout for drawing multiple pages on the canvas" size="250x"]]
+  - Reading order: may be embedded in the PDF or might require
+    extraction
+- Metadata
+  - RDF database
+  - Printing: cover page with metadata and QR code
+  - Summary: automatic summarisation
 
-## UI
+## Implementation work
 
-- Display
+We continued work on the simple GUI by adding buttons to the Glade GUI for
+jumping to the first and last pages and moving forward and backwards
+one page at a time. See PR [[!template id=github item="project-renard/curie/pull/6"]].
 
-  
-- Navigation
+To speed up development, we skipped creating a binding for now and
+just used the `[[`mudraw`|http://mupdf.com/doc/browse/source/tools/mudraw.c]]`
+command to get the PDF page as a PNG image
+and `[[pdfinfo|https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc]]`
+command to get the number of pages in the PDF. The following is the
+result.
 
-
+[[!img gfx/curie-simple-mudraw-pdf-render.png alt="curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation" size="250x"]]
 
 ## Further reading
 
