@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-02-08T01:36:04Z</dcterms:modified>
+	<dcterms:modified>2016-02-08T01:38:22Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -29,14 +29,19 @@ doing each thing.&lt;/p&gt;
 that is necessary to support each of those.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;UI
+&lt;li&gt;&lt;p&gt;UI&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Display&lt;/li&gt;
 &lt;li&gt;Navigation&lt;/li&gt;
 &lt;li&gt;back, forward&lt;/li&gt;
 &lt;li&gt;jump to page&lt;/li&gt;
-&lt;li&gt;history list (what was the last page I was at)
-&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;history list (what was the last page I was at)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;Reading order: may be embedded in the PDF or might require
 extraction&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -242,7 +247,7 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Sun, 24 Jan 2016 04:46:38 +0000</pubDate>
+	<pubDate>Sun, 24 Jan 2016 04:46:39 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;

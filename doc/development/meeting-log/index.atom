@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-08T01:36:04Z</updated>
+<updated>2016-02-08T01:38:22Z</updated>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-02-08T01:36:04Z</updated>
+	<updated>2016-02-08T01:38:22Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -44,14 +44,19 @@ doing each thing.&lt;/p&gt;
 that is necessary to support each of those.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;UI
+&lt;li&gt;&lt;p&gt;UI&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Display&lt;/li&gt;
 &lt;li&gt;Navigation&lt;/li&gt;
 &lt;li&gt;back, forward&lt;/li&gt;
 &lt;li&gt;jump to page&lt;/li&gt;
-&lt;li&gt;history list (what was the last page I was at)
-&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;history list (what was the last page I was at)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;Reading order: may be embedded in the PDF or might require
 extraction&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -267,7 +272,7 @@ make HAVE_GLFW=no install
 
 
 	<updated>2016-02-04T21:13:31Z</updated>
-	<published>2016-01-24T04:46:38Z</published>
+	<published>2016-01-24T04:46:39Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
