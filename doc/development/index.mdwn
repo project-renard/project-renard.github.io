@@ -1,1 +1,25 @@
 [[!map pages="page(doc/development/*) and !doc/development/meeting-log/posts/*" show=title]]
+
+Issues by repo:
+
+<style>
+.waffle { border-collapse:collapse }
+.watffle thead,th,td { border: none; outline: none }
+</style>
+<table class="waffle">
+<thead> <th>Project</th> <th> Ready </th> <th> In progress </th> </thead>
+[[!template id="wafflebadgetabletr" repo="project-renard/roadmap"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/curie"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Alien-MuPDF"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Alien-pdf2htmlEX"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Alien-pdf2json"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Biblio-Document-Fetch"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Biblio-Document-Information-Extraction"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Biblio-Zotero-DB"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-Incunabula-Format-PDF"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-MuPDF"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/p5-PDF-pdf2json"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/pdf-extraction-experiment"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/tts-experiment"]]
+[[!template id="wafflebadgetabletr" repo="project-renard/project-renard.github.io"]]
+</table>

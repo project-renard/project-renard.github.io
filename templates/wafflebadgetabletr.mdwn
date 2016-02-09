@@ -1,0 +1,15 @@
+<tr>
+<td>
+    [[<TMPL_VAR repo>|https://github.com/<TMPL_VAR repo>]]
+</td>
+<td>
+    <a href="http://waffle.io/<TMPL_VAR repo>">
+        <img src="https://badge.waffle.io/<TMPL_VAR repo>.svg?label=ready&title=R" caption="Stories in Ready"/>
+    </a>
+</td>
+<td>
+    <a href="http://waffle.io/<TMPL_VAR repo>">
+        <img src="https://badge.waffle.io/<TMPL_VAR repo>.svg?label=in%20progress&title=IP" caption="Stories in In Progress"/>
+    </a>
+</td>
+</tr>
