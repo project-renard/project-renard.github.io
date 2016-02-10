@@ -1,5 +1,11 @@
 [[!map pages="page(doc/development/*) and !doc/development/meeting-log/posts/*" show=title]]
 
+Issues:
+
+- [[Ready|https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aproject-renard+label%3Aready]] 
+- [[In progress|https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Aproject-renard+label%3A%22in+progress%22]]
+- [[All issues|https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aproject-renard]]
+
 Issues by repo:
 
 <style>
