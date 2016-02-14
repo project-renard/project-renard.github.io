@@ -3,7 +3,7 @@
 - Assigned some tasks for further work on the GUI:
     - Stan: put the drawing area in a scrollable region [[!template id=github item="project-renard/curie/issues/7"]]
     - Chirag: Add a text field for selecting page by number [[!template id=github item="project-renard/curie/issues/8"]]
-    - Zaki: Set the window title to the PDF filename [[!template id=github item="project-renard/curie/issues/9"]]
+    - Zaki: Set the window title to the PDF filename [[!template id=github item="project-renard/curie/issues/9"]] with PR [[!template  id=github item="project-renard/curie/pull/10"]]
 
 - Added a section to the wiki for [[features|doc/development/feature]] that are
   found in other similar software that might be worth implementing.
