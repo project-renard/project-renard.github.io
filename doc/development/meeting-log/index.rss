@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-02-14T03:30:07Z</dcterms:modified>
+	<dcterms:modified>2016-02-14T03:31:22Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -24,7 +24,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Stan: put the drawing area in a scrollable region &lt;a href=&quot;https://github.com/project-renard/curie/issues/7&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/7.svg&quot; alt=&quot;project-renard/curie/issues/7&quot; id=&quot;project-renardcurieissues7&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Chirag: Add a text field for selecting page by number &lt;a href=&quot;https://github.com/project-renard/curie/issues/8&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/8.svg&quot; alt=&quot;project-renard/curie/issues/8&quot; id=&quot;project-renardcurieissues8&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Zaki: Set the window title to the PDF filename &lt;a href=&quot;https://github.com/project-renard/curie/issues/9&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/9.svg&quot; alt=&quot;project-renard/curie/issues/9&quot; id=&quot;project-renardcurieissues9&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Zaki: Set the window title to the PDF filename &lt;a href=&quot;https://github.com/project-renard/curie/issues/9&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/9.svg&quot; alt=&quot;project-renard/curie/issues/9&quot; id=&quot;project-renardcurieissues9&quot; /&gt;&lt;/a&gt;
+with PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/10&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/10.svg&quot; alt=&quot;project-renard/curie/pull/10&quot; id=&quot;project-renardcuriepull10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Added a section to the wiki for &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../feature/&quot;&gt;features&lt;/a&gt; that are
 found in other similar software that might be worth implementing.&lt;/p&gt;
@@ -176,7 +177,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
-	<pubDate>Sun, 31 Jan 2016 17:32:43 +0000</pubDate>
+	<pubDate>Sun, 31 Jan 2016 21:35:27 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
@@ -290,7 +291,7 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Sun, 31 Jan 2016 17:32:43 +0000</pubDate>
+	<pubDate>Sun, 31 Jan 2016 21:35:27 +0000</pubDate>
 	<dcterms:modified>2016-02-04T21:13:31Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
