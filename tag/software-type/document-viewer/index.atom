@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged software-type/document-viewer</title>
+<link href="http://project-renard.github.io//tag/software-type/document-viewer/"/>
+<link href="http://project-renard.github.io//tag/software-type/document-viewer/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//tag/software-type/document-viewer/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2016-02-15T21:32:56Z</updated>
+<entry>
+	<title>Evince</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/evince/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-02-15T21:32:56Z</updated>
+	<published>2016-02-11T20:03:42Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;File-formats: &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;, application/postscript, image/tiff, application/x-dvi, image/vnd.djvu, application/x-cbr&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

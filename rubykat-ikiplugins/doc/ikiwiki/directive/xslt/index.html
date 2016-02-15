@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>xslt</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">rubykat-ikiplugins</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">ikiwiki</a>/ 
+
+<a href="../">directive</a>/ 
+
+</span>
+<span class="title">
+xslt
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/rubykat-ikiplugins/doc/ikiwiki/directive/xslt.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../../../../doc/development/">Development</a></li>
+        <li><a href="../../../../../doc/survey/">Survey</a></li>
+        <li><a href="../../../../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>The <code>xslt</code> directive is supplied by the <a href="http://ikiwiki.info/plugins/contrib/xslt/">xslt</a> plugin.</p>
+
+<p>This directive processes an input XML data file with XSLT, and outputs the
+result in the page where the directive was called.</p>
+
+<pre><code>[[!xslt  file="data1.xml" stylesheet="style1.xsl"]]
+</code></pre>
+
+<p>There are two arguments to this directive.</p>
+
+<ul>
+<li><p><strong>file:</strong>
+The file which contains XML data to be processed. This file <em>must</em> have a <code>.xml</code> extension (<code>filename.xml</code>). This file is searched for using the usual IkiWiki mechanism, thus finding the file first in the same directory as the page, then in the directory above, and so on.</p></li>
+<li><p><strong>stylesheet:</strong>
+The file which contains XSLT stylesheet to apply to the XML data.  This file <em>must</em> have a <code>.xsl</code> extension (<code>filename.xsl</code>). This file is searched for using the usual IkiWiki mechanism, thus finding the file first in the same directory as the page, then in the directory above, and so on.</p></li>
+</ul>
+
+<p>It is expected that the XSLT stylesheet will output valid HTML markup.</p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../../../plugins/contrib/xslt/">plugins/contrib/xslt</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 10:16:30 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 10:16:30 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

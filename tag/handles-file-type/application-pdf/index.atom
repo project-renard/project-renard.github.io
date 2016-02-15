@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged handles-file-type/application-pdf</title>
+<link href="http://project-renard.github.io//tag/handles-file-type/application-pdf/"/>
+<link href="http://project-renard.github.io//tag/handles-file-type/application-pdf/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//tag/handles-file-type/application-pdf/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2016-02-04T01:42:09Z</updated>
+<entry>
+	<title>Mendeley</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-02-04T01:42:09Z</updated>
+	<published>2016-02-04T01:42:09Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
+
+&lt;p&gt;Features:
+- &lt;a href=&quot;http://project-renard.github.io//tag/handles-file-type/application-pdf/../../../doc/survey/feature/metadata-retrieval/&quot;&gt;Metadata retrieval&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Paperpile</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-02-04T01:42:09Z</updated>
+	<published>2016-02-04T01:42:09Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

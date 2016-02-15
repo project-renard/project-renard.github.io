@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>&#x22;&#x3C;TMPL_VAR</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Project Renard</a>/ 
+
+<a href="../">templates</a>/ 
+
+</span>
+<span class="title">
+&#x22;&#x3C;TMPL_VAR
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/templates/tool.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../doc/development/">Development</a></li>
+        <li><a href="../../doc/survey/">Survey</a></li>
+        <li><a href="../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p><TMPL_IF NAME="Logo">
+[[!img <span class="error">Error: bad image filename</span>]]
+</TMPL_IF>
+<TMPL_IF NAME="Homepage">
+- <span class="createlink">Homepage</span>
+</TMPL_IF>
+<TMPL_LOOP NAME="FileFormat_LOOP"><TMPL_IF __first__>- File-formats: </TMPL_IF><TMPL_VAR NAME="FileFormat"><TMPL_UNLESS __last__>, </TMPL_UNLESS></TMPL_LOOP></p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 09:32:56 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 09:32:56 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

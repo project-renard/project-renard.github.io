@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged software-type/document-viewer</title>
+<link>http://project-renard.github.io//tag/software-type/document-viewer/</link>
+<description>Project Renard</description>
+<item>
+
+	<title>Evince</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/evince/</link>
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 11 Feb 2016 20:03:42 +0000</pubDate>
+	<dcterms:modified>2016-02-15T21:32:56Z</dcterms:modified>
+
+	<description>&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;File-formats: &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;, application/postscript, image/tiff, application/x-dvi, image/vnd.djvu, application/x-cbr&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

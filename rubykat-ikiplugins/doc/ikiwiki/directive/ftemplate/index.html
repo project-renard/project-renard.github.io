@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ftemplate</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">rubykat-ikiplugins</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">ikiwiki</a>/ 
+
+<a href="../">directive</a>/ 
+
+</span>
+<span class="title">
+ftemplate
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../../../../doc/development/">Development</a></li>
+        <li><a href="../../../../../doc/survey/">Survey</a></li>
+        <li><a href="../../../../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>The <code>ftemplate</code> directive is supplied by the <a href="http://ikiwiki.info/plugins/contrib/ftemplate/">ftemplate</a> plugin.</p>
+
+<p>This is like the <span class="createlink">template</span> directive, with the addition
+that one does not have to provide all the values in the call to the template,
+because ftemplate can query structured data ("fields") using the
+<a href="../../../plugins/contrib/field/">field</a> plugin.</p>
+
+<p>Templates are files that can be filled out and inserted into pages in
+the wiki, by using the ftemplate directive. The directive has an id
+parameter that identifies the template to use.</p>
+
+<p>Additional parameters can be used to fill out the template, in
+addition to the "field" values.  Passed-in values override the
+"field" values.</p>
+
+<p>There are two places where template files can live.  One is in the /templates
+directory on the wiki.  These templates are wiki pages, and can be edited from
+the web like other wiki pages.</p>
+
+<p>The second place where template files can live is in the global
+templates directory (the same place where the page.tmpl template lives).
+This is a useful place to put template files if you want to prevent
+them being edited from the web, and you don't want to have to make
+them work as wiki pages.</p>
+
+<h3 id="examples">EXAMPLES</h3>
+
+<h4 id="example1">Example 1</h4>
+
+<p>PageA:</p>
+
+<pre><code>[[!meta  title="I Am Page A"]]
+[[!meta  description="A is for Apple."]]
+[[!meta  author="Fred Nurk"]]
+[[!ftemplate  id="mytemplate"]]
+</code></pre>
+
+<p>Template "mytemplate":</p>
+
+<pre><code># &lt;TMPL_VAR NAME="TITLE"&gt;
+by &lt;TMPL_VAR NAME="AUTHOR"&gt;
+
+**Summary:** &lt;TMPL_VAR NAME="DESCRIPTION"&gt;
+</code></pre>
+
+<p>This will give:</p>
+
+<pre><code>&lt;h1&gt;I Am Page A&lt;/h1&gt;
+&lt;p&gt;by Fred Nurk&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; A is for Apple.
+</code></pre>
+
+<h4 id="example2:overridingvalues">Example 2: Overriding values</h4>
+
+<p>PageB:</p>
+
+<pre><code>[[!meta  title="I Am Page B"]]
+[[!meta  description="B is for Banana."]]
+[[!meta  author="Fred Nurk"]]
+[[!ftemplate  id="mytemplate" title="Bananananananas"]]
+</code></pre>
+
+<p>This will give:</p>
+
+<pre><code>&lt;h1&gt;Bananananananas&lt;/h1&gt;
+&lt;p&gt;by Fred Nurk&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; B is for Banana.
+</code></pre>
+
+<h4 id="example3:loops">Example 3: Loops</h4>
+
+<p>(this example uses the <a href="../../../plugins/contrib/ymlfront/">ymlfront</a> plugin)</p>
+
+<p>Page C:</p>
+
+<pre><code>---
+BookAuthor: Georgette Heyer
+BookTitle: Black Sheep
+BookGenre:
+  - Historical
+  - Romance
+---
+[[ftemplate id="footemplate"]]
+
+I like this book.
+</code></pre>
+
+<p>Template "footemplate":</p>
+
+<pre><code># &lt;TMPL_VAR BOOKTITLE&gt;
+by &lt;TMPL_VAR BOOKAUTHOR&gt;
+
+&lt;TMPL_IF BOOKGENRE&gt;(
+&lt;TMPL_LOOP GENRE_LOOP&gt;&lt;TMPL_VAR BOOKGENRE&gt;
+&lt;TMPL_UNLESS __last__&gt;, &lt;/TMPL_UNLESS&gt;
+&lt;/TMPL_LOOP&gt;
+)&lt;/TMPL_IF&gt;
+</code></pre>
+
+<p>This will give:</p>
+
+<pre><code>&lt;h1&gt;Black Sheep&lt;/h1&gt;
+&lt;p&gt;by Georgette Heyer&lt;/p&gt;
+
+&lt;p&gt;(Historical, Romance)&lt;/p&gt;
+
+&lt;p&gt;I like this book.&lt;/p&gt;
+</code></pre>
+
+<h3 id="limitations">LIMITATIONS</h3>
+
+<p>One cannot query the values of fields on pages other than the current
+page.  If you want to do that, check out the <a href="../../../plugins/contrib/report/">report</a>
+plugin.</p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../../../plugins/contrib/ftemplate/">plugins/contrib/ftemplate</a>
+
+<a href="../report/">report</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 10:16:30 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 10:16:30 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

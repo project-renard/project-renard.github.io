@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged handles-file-type/application-pdf</title>
+<link>http://project-renard.github.io//tag/handles-file-type/application-pdf/</link>
+<description>Project Renard</description>
+<item>
+
+	<title>Mendeley</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mendeley/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/mendeley/</link>
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Thu, 04 Feb 2016 01:42:09 +0000</pubDate>
+	<dcterms:modified>2016-02-04T01:42:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
+
+&lt;p&gt;Features:
+- &lt;a href=&quot;http://project-renard.github.io//tag/handles-file-type/application-pdf/../../../doc/survey/feature/metadata-retrieval/&quot;&gt;Metadata retrieval&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Paperpile</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile/</link>
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Thu, 04 Feb 2016 01:42:09 +0000</pubDate>
+	<dcterms:modified>2016-02-04T01:42:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

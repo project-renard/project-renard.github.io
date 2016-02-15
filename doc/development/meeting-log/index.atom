@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>doc/development/meeting-log</title>
+<link href="http://project-renard.github.io//doc/development/meeting-log/"/>
+<link href="http://project-renard.github.io//doc/development/meeting-log/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//doc/development/meeting-log/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2016-02-14T03:31:22Z</updated>
+<entry>
+	<title>some project organisation</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/"/>
+
+
+
+
+
+	<updated>2016-02-14T03:31:22Z</updated>
+	<published>2016-02-14T03:30:07Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: put the drawing area in a scrollable region &lt;a href=&quot;https://github.com/project-renard/curie/issues/7&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/7.svg&quot; alt=&quot;project-renard/curie/issues/7&quot; id=&quot;project-renardcurieissues7&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Add a text field for selecting page by number &lt;a href=&quot;https://github.com/project-renard/curie/issues/8&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/8.svg&quot; alt=&quot;project-renard/curie/issues/8&quot; id=&quot;project-renardcurieissues8&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Zaki: Set the window title to the PDF filename &lt;a href=&quot;https://github.com/project-renard/curie/issues/9&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/9.svg&quot; alt=&quot;project-renard/curie/issues/9&quot; id=&quot;project-renardcurieissues9&quot; /&gt;&lt;/a&gt;
+with PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/10&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/10.svg&quot; alt=&quot;project-renard/curie/pull/10&quot; id=&quot;project-renardcuriepull10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Added a section to the wiki for &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../feature/&quot;&gt;features&lt;/a&gt; that are
+found in other similar software that might be worth implementing.&lt;/p&gt;
+
+&lt;p&gt;This will be supplemented with screenshots and links to example code.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Roadmap planning session</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/"/>
+
+
+
+
+
+	<updated>2016-02-08T01:47:50Z</updated>
+	<published>2016-02-05T18:09:21Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
+look at the MuPDF API for the last remaining task. However, we should step back
+and take a look at where we are going before moving forward and why we are
+doing each thing.&lt;/p&gt;
+
+&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
+
+&lt;p&gt;First, we will look at UI functionality then move on to background processing
+that is necessary to support each of those.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;UI&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Display&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;back, forward&lt;/li&gt;
+&lt;li&gt;jump to page&lt;/li&gt;
+&lt;li&gt;history list (what was the last page I was at)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reading order: may be embedded in the PDF or might require
+extraction&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Metadata&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RDF database&lt;/li&gt;
+&lt;li&gt;Printing: cover page with metadata and QR code&lt;/li&gt;
+&lt;li&gt;Summary: automatic summarisation&lt;/li&gt;
+&lt;li&gt;Example old paper from 1965: &lt;a href=&quot;http://dx.doi.org/10.1109/TBME.1965.4502337&quot;&gt;A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Note how the page layout was done manually&lt;/li&gt;
+&lt;li&gt;BibTeX &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX&quot;&gt;entry types table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Binding example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm&quot;&gt;Getting the compiler flags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm&quot;&gt;Inline C code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;implementationwork&quot;&gt;Implementation work&lt;/h2&gt;
+
+&lt;p&gt;We continued work on the simple GUI by adding buttons to the Glade GUI for
+jumping to the first and last pages and moving forward and backwards
+one page at a time. See PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/6&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/6.svg&quot; alt=&quot;project-renard/curie/pull/6&quot; id=&quot;project-renardcuriepull6&quot; /&gt;&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;p&gt;To speed up development, we skipped creating a binding for now and
+just used the
+&lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&gt;&lt;code&gt;mudraw&lt;/code&gt;&lt;/a&gt;
+command to get the PDF page as a PNG image
+and &lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&gt;&lt;code&gt;pdfinfo&lt;/code&gt;&lt;/a&gt;
+command to get the number of pages in the PDF. The following is the
+result.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/curie-simple-mudraw-pdf-render.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-curie-simple-mudraw-pdf-render.png&quot; width=&quot;250&quot; height=&quot;220&quot; alt=&quot;curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;furtherreading&quot;&gt;Further reading&lt;/h2&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;p&gt;These two books discuss and compare how people use books both on paper
+and on screens. There are many ideas in them both.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Marshall, Catherine C. &lt;a href=&quot;http://www.morganclaypool.com/doi/abs/10.2200/S00215ED1V01Y200907ICR009&quot;&gt;&quot;Reading and writing the electronic
+book.&quot;&lt;/a&gt;
+Synthesis lectures on information concepts, retrieval, and services 1.1 (2009):
+1-185.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dillon, Andrew. Designing usable electronic text: Ergonomic aspects of human
+information usage. CRC Press, 2004.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reviewarticles&quot;&gt;Review articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Koolen, Corina, Ray Siemens, and Alex Garnett. &lt;a href=&quot;http://src-online.ca/index.php/src/article/view/71&quot;&gt;&quot;Electronic Environments for
+Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011).&quot;&lt;/a&gt;
+Scholarly and Research Communication 3.4 (2012).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;researcharticles&quot;&gt;Research articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Hinckley, K., Bi, X., Pahud, M., Buxton, B. &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=2208327&quot;&gt;&quot;Informal information gathering
+techniques for active reading.&quot;&lt;/a&gt;
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
+ACM, 2012.&lt;/p&gt;
+
+&lt;p&gt;See this &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;video&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Willinsky, John, Alex Garnett, and Angela Pan Wong. &lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;&quot;Refurbishing the Camelot
+of Scholarship: How to Improve the Digital Contribution of the PDF Research
+Article.&quot;&lt;/a&gt; Journal of Electronic Publishing 15.1 (2012).&lt;/p&gt;
+
+&lt;p&gt;This one comes with a &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;demo PDF&lt;/a&gt;
+that demonstrates various aspects of what they would like to achieve
+which they compare with &lt;a href=&quot;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&quot;&gt;the article that they modified&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see, the authors opt to change the way PDFs are published, but
+clearly, we can&#39;t convince everyone to do that. So instead, we will need
+to be able to reformat documents our own way.&lt;/p&gt;
+
+&lt;p&gt;That will be the main contribution of Project Renard that nobody has
+done yet. I want to call it document resynthesis. I got the
+&quot;resynthesis&quot; name from a sound synthesis technique that takes existing
+sounds and takes the Fourier components and processes them in order to
+make new sounds.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Using Glade to build curie GUI</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/"/>
+
+
+
+
+
+	<updated>2016-02-04T21:13:31Z</updated>
+	<published>2016-02-04T01:42:09Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discuss Glade tutorial.&lt;/li&gt;
+&lt;li&gt;Start a simple GUI in Glade for &lt;strong&gt;curie&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;taskscompleted&quot;&gt;Tasks completed&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Glade tutorial&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tutorial code &lt;a href=&quot;https://github.com/zmughal/learning-gtk/tree/master/charter&quot;&gt;https://github.com/zmughal/learning-gtk/tree/master/charter&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are following this tutorial, note that there are changes that have occurred in GTK+3.0 since it was written.
+For example, the &quot;expose-event&quot; signal is now the &quot;draw&quot; signal: &lt;a href=&quot;https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11&quot;&gt;https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Look up callback signature:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html&quot;&gt;https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw&quot;&gt;https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Discuss the display of supplemental information along with document&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Knowledge Graph &lt;a href=&quot;https://en.wikipedia.org/wiki/Knowledge_Graph&quot;&gt;https://en.wikipedia.org/wiki/Knowledge_Graph&lt;/a&gt;: Google&#39;s infoboxes which show up on search.&lt;/li&gt;
+&lt;li&gt;SPARQL: query langauge for semantic web data.&lt;/li&gt;
+&lt;li&gt;Utopia &lt;a href=&quot;http://utopiadocs.com/&quot;&gt;http://utopiadocs.com/&lt;/a&gt;: a PDF reader that shows social
+information and retrieves from sources such as the Protein Data Bank.&lt;/li&gt;
+&lt;li&gt;Reflect: browser plugin for chemistry identifier lookup
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://epafilis.info/projects.html&quot;&gt;http://epafilis.info/projects.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://reflect.ws/&quot;&gt;http://reflect.ws/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html&quot;&gt;http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Design a GUI for displaying images of the document&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/6&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/6.svg&quot; alt=&quot;project-renard/curie/pull/6&quot; id=&quot;project-renardcuriepull6&quot; /&gt;&lt;/a&gt;
+(and progress images)&lt;/li&gt;
+&lt;li&gt;Examples
+&lt;ul&gt;
+&lt;li&gt;Anjuta: IDE with docking. Uses GDL &lt;a href=&quot;http://anjuta.org/&quot;&gt;http://anjuta.org/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Example of simple PDF viewer using Poppler &lt;a href=&quot;https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/&quot;&gt;https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Display a single image
+&lt;ul&gt;
+&lt;li&gt;Cairo for loading PNG
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cairographics.org/cookbook/perl_cairo_module/&quot;&gt;http://cairographics.org/cookbook/perl_cairo_module/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zetcode.com/gfx/cairo/cairoimages/&quot;&gt;http://zetcode.com/gfx/cairo/cairoimages/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;First attempt: draw a green colour on the whole drawing area:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-green-background-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-green-background-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with green colour&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Second attempt: draw an image read from a file on the drawing area:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/gfx/curie-image-peppers-drawingarea.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/250x-curie-image-peppers-drawingarea.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;curie GUI with image of peppers&quot; class=&quot;img right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PDF rendering using MuPDF library
+&lt;ul&gt;
+&lt;li&gt;Install MuPDF
+&lt;a href=&quot;http://mupdf.com/downloads/&quot;&gt;http://mupdf.com/downloads/&lt;/a&gt;
+&lt;pre&gt;
+mkdir build; cd build
+wget &#39;http://mupdf.com/downloads/mupdf-1.8-source.tar.gz&#39;
+tar xvvzf mupdf-1.8-source.tar.gz
+cd mupdf-1.8-source
+make HAVE_GLFW=no
+make HAVE_GLFW=no install
+&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Make a note of the OpenGL viewer flag at &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/3.svg&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/3&quot; id=&quot;project-renardp5-alien-mupdfissues3&quot; /&gt;&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Look into MuPDF API.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/overview&quot;&gt;http://mupdf.com/docs/overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mupdf.com/docs/&quot;&gt;http://mupdf.com/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See issue &lt;a href=&quot;https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/p5-Incunabula-Format-PDF/issues/1.svg&quot; alt=&quot;project-renard/p5-Incunabula-Format-PDF/issues/1&quot; id=&quot;project-renardp5-incunabula-format-pdfissues1&quot; /&gt;&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refactor GUI code.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Initial setup</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/"/>
+
+
+
+
+
+	<updated>2016-02-04T21:13:31Z</updated>
+	<published>2016-02-04T01:42:09Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Record all steps taken today to a post on the project-renard wiki.
+&lt;ul&gt;
+&lt;li&gt;That means that this EtherPad document will become a page on the wiki.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Choose a standard version of Perl 5 to work on. The code will not work on
+older versions. This is so that we can use modern features without worrying
+about backwards compatibility.&lt;/p&gt;
+
+&lt;p&gt;Perl v5.20 is a good choice right now. It supports method signatures as a
+built-in feature.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up GTK+ 3 on Linux so that it can run the &lt;strong&gt;curie&lt;/strong&gt; code.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is related to issue &quot;GTK+ Linux setup&quot; &lt;a href=&quot;https://github.com/project-renard/curie/issues/2&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/2.svg&quot; alt=&quot;project-renard/curie/issues/2&quot; id=&quot;project-renardcurieissues2&quot; /&gt;&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;taskscompleted&quot;&gt;Tasks completed&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install development packages for libgtk-3.0 &lt;a href=&quot;https://developer.gnome.org/gtk3/&quot;&gt;https://developer.gnome.org/gtk3/&lt;/a&gt; on Debian GNU/Linux.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install the dependencies on Debian by running:
+&lt;pre&gt;
+cd curie
+sudo xargs apt-get install \
+  -y --no-install-recommends \
+  &amp;lt; debian-packages
+&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;base&lt;/strong&gt;: Make sure the version of Perl 5 you have is v5.20 or greater.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you do not have that version of Perl 5, you can use &lt;code&gt;perlbrew&lt;/code&gt; to set it up.
+Follow the instructions at &lt;a href=&quot;http://perlbrew.pl/&quot;&gt;http://perlbrew.pl/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;base&lt;/strong&gt;: We will use cpanm to install the Perl modules that we need. It can be
+installed by running&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  perlbrew install-cpanm
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or if you do not have perlbrew, following the instructions at
+&lt;a href=&quot;https://github.com/miyagawa/cpanminus#installing-to-system-perl&quot;&gt;https://github.com/miyagawa/cpanminus#installing-to-system-perl&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+  cpan App::cpanminus
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Removed the Gtk3::Ex::PDFViewer code which was causing problems&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/3.svg&quot; alt=&quot;project-renard/curie/pull/3&quot; id=&quot;project-renardcuriepull3&quot; /&gt;&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install the Perl CPAN packages needed for Gtk3.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This can be done more easily by creating a &lt;code&gt;cpanfile&lt;/code&gt; which lists the requirements.&lt;/li&gt;
+&lt;li&gt;PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/4.svg&quot; alt=&quot;project-renard/curie/pull/4&quot; id=&quot;project-renardcuriepull4&quot; /&gt;&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that the &lt;code&gt;cpanfile&lt;/code&gt; is available, you can install the dependencies by running&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cpanm --installdeps .
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;curie&lt;/strong&gt;: Install and investigate the Glade UI designer.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Glade can be installed by running the commands:
+&lt;code&gt;
+sudo apt-get install --no-install-recommends glade
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is a Glade tutorial at &lt;a href=&quot;http://live.gnome.org/Glade/Tutorials&quot;&gt;http://live.gnome.org/Glade/Tutorials&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We need to see if Glade &lt;a href=&quot;https://glade.gnome.org/&quot;&gt;https://glade.gnome.org/&lt;/a&gt; can handle the docking widgets
+that are provided by libgdl &lt;a href=&quot;https://developer.gnome.org/gdl/&quot;&gt;https://developer.gnome.org/gdl/&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>
