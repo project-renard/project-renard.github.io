@@ -1,0 +1,9 @@
+[[!meta title="<TMPL_VAR NAME="name">"]]
+
+<TMPL_IF NAME="Logo">
+[[!img <TMPL_VAR NAME="Logo">]]
+</TMPL_IF>
+<TMPL_IF NAME="Homepage">
+- [[Homepage|<TMPL_VAR NAME="Homepage">]]
+</TMPL_IF>
+<TMPL_LOOP NAME="FileFormat_LOOP"><TMPL_IF __first__>- File-formats: </TMPL_IF><TMPL_VAR NAME="FileFormat"><TMPL_UNLESS __last__>, </TMPL_UNLESS></TMPL_LOOP>

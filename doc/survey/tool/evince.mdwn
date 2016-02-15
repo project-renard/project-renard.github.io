@@ -1,4 +1,18 @@
+---
+Name: Evince
+Homepage: https://wiki.gnome.org/Apps/Evince
+Logo: evince/gfx/evince-logo.png
+FileFormat:
+  - "[[application/pdf|doc/development/file-format/pdf]]"
+  - application/postscript
+  - image/tiff
+  - application/x-dvi
+  - image/vnd.djvu
+  - application/x-cbr
+---
 [[!meta title="Evince"]]
+
+[[!ftemplate id=tool]]
 
 [[Link|https://wiki.gnome.org/Apps/Evince]]
 
