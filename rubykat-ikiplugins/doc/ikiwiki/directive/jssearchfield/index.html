@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jssearchfield</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">rubykat-ikiplugins</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">ikiwiki</a>/ 
+
+<a href="../">directive</a>/ 
+
+</span>
+<span class="title">
+jssearchfield
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/rubykat-ikiplugins/doc/ikiwiki/directive/jssearchfield.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../../../../doc/development/">Development</a></li>
+        <li><a href="../../../../../doc/survey/">Survey</a></li>
+        <li><a href="../../../../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>The <code>jssearchfield</code> directive is supplied by the <a href="http://ikiwiki.info/plugins/contrib/jssearchfield/">jssearchfield</a> plugin.</p>
+
+<p>This enables one to search the structured data ("field" values) of
+multiple pages.  A search form is constructed, and the searching is
+done with Javascript, which means that the entire thing is self-contained.
+This depends on the <a href="http://ikiwiki.info/plugins/contrib/field/">plugins/contrib/field</a> plugin.</p>
+
+<p>The pages to search are selected by a PageSpec given by the "pages"
+parameter.
+The fields to search are given by the "fields" parameter.  By default,
+the field name is given, and the user can type the search parameter for
+that field into a text input field.</p>
+
+<h2 id="options">OPTIONS</h2>
+
+<p><strong>pages</strong>: A PageSpec to determine the pages to search through.</p>
+
+<p><strong>fields</strong>: The fields to put into the search form, and to display
+in the results.</p>
+
+<p><strong>tagfields</strong>: Display the given fields as a list of tags that can
+be selected from, rather than having a text input field.  Every distinct
+value of that field will be listed, so it is best used for things with
+short values, like "Author" rather than long ones like "Description".
+Note that "tagfields" must be a subset of "fields".</p>
+
+<p><strong>sort</strong>: A SortSpec to determine how the matching pages should be sorted; this is the "default" sort order that the results will be displayed in.
+The search form also gives the option of "random" sort, which will
+display the search results in random order.</p>
+
+<h2 id="searching">SEARCHING</h2>
+
+<p>The search form that is created by this directive contains the following:</p>
+
+<ul>
+<li>for each search field, a label, plus either a text input field, or a list of checkboxes with values next to them if the field is also a tagfield.  Note that the lists of checkboxes are initially hidden; one must click on the triangle next to the label to display them.</li>
+<li>a "sort" toggle. One can select either "default" or "random".</li>
+<li>A "Search!" button, to trigger the search if needed (see below)</li>
+<li>A "Reset" button, which will clear all the values.</li>
+</ul>
+
+<p>The searching is dynamic.  As soon as a value is changed, either by tabbing out of the text field, or by selecting or de-selecting a checkbox, the search
+results are updated.  Furthermore, for tagfields, the tagfield lists
+themselves are updated to reflect the current search results.</p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../../../plugins/contrib/jssearchfield/">plugins/contrib/jssearchfield</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

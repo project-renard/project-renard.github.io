@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged type/web</title>
+<link>http://project-renard.github.io//tag/type/web/</link>
+<description>Project Renard</description>
+<item>
+
+	<title>newpage</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/newpage/</guid>
+
+	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/newpage/</link>
+
+
+	<category>type/web</category>
+
+
+	<pubDate>Mon, 15 Feb 2016 21:01:20 +0000</pubDate>
+	<dcterms:modified>2016-02-15T21:01:20Z</dcterms:modified>
+
+	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
+
+&lt;p&gt;IkiWiki::Plugin::newpage - add a &quot;create new page&quot; form to actions&lt;/p&gt;
+
+&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# activate the plugin
+add_plugins =&amp;gt; [qw{goodstuff newpage ....}],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
+
+&lt;p&gt;This plugin adds a new action to the &quot;ACTIONS&quot; section of a page;
+a button labelled &quot;create&quot; and an input field next to it.&lt;/p&gt;
+
+&lt;p&gt;The common way of creating a new page is to edit a different page
+and add a link to the new page.  However, there are some situations
+where that is a nuisance; for example, where pages are listed using
+a [[!ikiwiki  plugins/map]] directive.  The newpage plugin enables
+one to simply type the name of the new page, click the &quot;create&quot; button,
+and one is then taken to the standard IkiWiki create-page form.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/newpage.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/newpage.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

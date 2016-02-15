@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>field</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">rubykat-ikiplugins</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">plugins</a>/ 
+
+<a href="../">contrib</a>/ 
+
+</span>
+<span class="title">
+field
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/rubykat-ikiplugins/doc/plugins/contrib/field.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../../../../doc/development/">Development</a></li>
+        <li><a href="../../../../../doc/survey/">Survey</a></li>
+        <li><a href="../../../../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>[[!template <span class="error">Error: failed to process template <span class="createlink">plugin</span> </span>]]</p>
+
+<div class="toc">
+	<ol>
+		<li class="L2"><a href="#index1h2">NAME</a>
+		</li>
+		<li class="L2"><a href="#index2h2">SYNOPSIS</a>
+		</li>
+		<li class="L2"><a href="#index3h2">DESCRIPTION</a>
+		</li>
+		<li class="L2"><a href="#index4h2">CONFIGURATION OPTIONS</a>
+		</li>
+		<li class="L2"><a href="#index5h2">PageSpec</a>
+		</li>
+		<li class="L2"><a href="#index6h2">SortSpec</a>
+		</li>
+		<li class="L2"><a href="#index7h2">FUNCTIONS</a>
+		</li>
+		<li class="L2"><a href="#index8h2">DOWNLOAD</a>
+		</li>
+	</ol>
+</div>
+
+<h2 id="name"><a name="index1h2"></a>NAME</h2>
+
+<p>IkiWiki::Plugin::field - front-end for per-page record fields.</p>
+
+<h2 id="synopsis"><a name="index2h2"></a>SYNOPSIS</h2>
+
+<pre><code># activate the plugin
+add_plugins =&gt; [qw{goodstuff field ....}],
+
+# simple registration
+field_register =&gt; [qw{meta}],
+
+# simple registration with priority
+field_register =&gt; {
+meta =&gt; 'last'
+foo =&gt; 'DD'
+},
+
+# allow the config to be queried as a field
+field_allow_config =&gt; 1,
+
+# flag certain fields as "tags"
+field_tags =&gt; {
+BookAuthor =&gt; '/books/authors',
+BookGenre =&gt; '/books/genres',
+MovieGenre =&gt; '/movies/genres',
+}
+</code></pre>
+
+<h2 id="description"><a name="index3h2"></a>DESCRIPTION</h2>
+
+<p>This plugin is meant to be used in conjunction with other plugins
+in order to provide a uniform interface to access per-page structured
+data, where each page is treated like a record, and the structured data
+are fields in that record.  This can include the meta-data for that page,
+such as the page title.</p>
+
+<p>Plugins can register a function which will return the value of a "field" for
+a given page.  This can be used in a few ways:</p>
+
+<ul>
+<li>In page templates; all registered fields will be passed to the page template in the "pagetemplate" processing.</li>
+<li>In PageSpecs; the "field" function can be used to match the value of a field in a page.</li>
+<li>In SortSpecs; the "field" function can be used for sorting pages by the value of a field in a page.</li>
+<li>By other plugins, using the field_get_value function, to get the value of a field for a page, and do with it what they will.</li>
+</ul>
+
+<h2 id="configurationoptions"><a name="index4h2"></a>CONFIGURATION OPTIONS</h2>
+
+<p>The following options can be set in the ikiwiki setup file.</p>
+
+<p><strong>field_allow_config</strong></p>
+
+<pre><code>field_allow_config =&gt; 1,
+</code></pre>
+
+<p>Allow the $config hash to be queried like any other field; the 
+keys of the config hash are the field names with a prefix of "CONFIG-".</p>
+
+<p><strong>field_register</strong></p>
+
+<pre><code>field_register =&gt; [qw{meta}],
+
+field_register =&gt; {
+meta =&gt; 'last'
+foo =&gt; 'DD'
+},
+</code></pre>
+
+<p>A hash of plugin-IDs to register.  The keys of the hash are the names of the
+plugins, and the values of the hash give the order of lookup of the field
+values.  The order can be 'first', 'last', 'middle', or an explicit order
+sequence between 'AA' and 'ZZ'.  If the simpler type of registration is used,
+then the order will be 'middle'.</p>
+
+<p>This assumes that the plugins in question store data in the %pagestatus hash
+using the ID of that plugin, and thus the field values are looked for there.</p>
+
+<p>This is the simplest form of registration, but the advantage is that it
+doesn't require the plugin to be modified in order for it to be
+registered with the "field" plugin.</p>
+
+<p><strong>field_tags</strong></p>
+
+<pre><code>field_tags =&gt; {
+BookAuthor =&gt; '/books/authors',
+BookGenre =&gt; '/books/genres',
+MovieGenre =&gt; '/movies/genres',
+}
+</code></pre>
+
+<p>A hash of fields and their associated pages.  This provides a faceted
+tagging system.</p>
+
+<p>The way this works is that a given field-name will be associated with a given
+page, and the values of that field will be linked to sub-pages of that page,
+the same way that the [[!tag  ]] directive does.</p>
+
+<p>This also provides a field with the suffix of <code>-tagpage</code> which gives
+the name of the page to which that field-value is linked.</p>
+
+<p>For example:</p>
+
+<pre><code>BookGenre: SF
+</code></pre>
+
+<p>will link to "/books/genres/SF", with a link-type of "bookgenre".</p>
+
+<p>If one was using a template, then the following template:</p>
+
+<pre><code>Genre: &lt;TMPL_VAR BOOKGENRE&gt;
+GenrePage: &lt;TMPL_VAR BOOKGENRE-TAGPAGE&gt;
+GenreLink: [[&lt;TMPL_VAR BOOKGENRE-TAGPAGE&gt;]]
+</code></pre>
+
+<p>would give:</p>
+
+<pre><code>Genre: SF
+GenrePage: /books/genres/SF
+GenreLink: &lt;a href="/books/genres/SF/"&gt;SF&lt;/a&gt;
+</code></pre>
+
+<h2 id="pagespec"><a name="index5h2"></a>PageSpec</h2>
+
+<p>The <code>field</code> plugin provides a few PageSpec functions to match values
+of fields for pages.</p>
+
+<ul>
+<li>field
+<ul>
+<li><strong>field(<em>name</em> <em>glob</em>)</strong></li>
+<li>field(bar Foo*) will match if the "bar" field starts with "Foo".</li>
+</ul></li>
+<li>destfield
+<ul>
+<li><strong>destfield(<em>name</em> <em>glob</em>)</strong></li>
+<li>as for "field" but matches against the destination page (i.e when the source page is being included in another page).</li>
+</ul></li>
+<li>field_item
+<ul>
+<li><strong>field_item(<em>name</em> <em>glob</em>)</strong></li>
+<li>field_item(bar Foo) will match if one of the values of the "bar" field is "Foo".</li>
+</ul></li>
+<li>destfield_item
+<ul>
+<li><strong>destfield_item(<em>name</em> <em>glob</em>)</strong></li>
+<li>as for "field_item" but matches against the destination page.</li>
+</ul></li>
+<li>field_null
+<ul>
+<li><strong>field_null(<em>name</em>)</strong></li>
+<li>matches if the field is null, that is, if there is no value for that field, or the value is empty.</li>
+</ul></li>
+<li>field_tagged
+<ul>
+<li><strong>field_tagged(<em>name</em> <em>glob</em>)</strong></li>
+<li>like <code>tagged</code>, but this uses the tag-bases and link-types defined in the <code>field_tags</code> configuration option.</li>
+</ul></li>
+<li>destfield_tagged
+<ul>
+<li><strong>destfield_tagged(<em>name</em> <em>glob</em>)</strong></li>
+<li>as for "field_tagged" but matches against the destination page.</li>
+</ul></li>
+</ul>
+
+<h2 id="sortspec"><a name="index6h2"></a>SortSpec</h2>
+
+<p>The "field" SortSpec function can be used to sort a page depending on the value of a field for that page.  This is used for directives that take sort parameters, such as <strong>inline</strong> or <strong>report</strong>.</p>
+
+<p>field(<em>name</em>)</p>
+
+<p>For example:</p>
+
+<p>sort="field(bar)" will sort by the value og the "bar" field.</p>
+
+<p>Additionally, the "field_natural" SortSpec function will use the
+Sort::Naturally module to do its comparison (though it will fail if that
+module is not installed).</p>
+
+<h2 id="functions"><a name="index7h2"></a>FUNCTIONS</h2>
+
+<h3 id="field_register"><a name="index1h3"></a>field_register</h3>
+
+<p>field_register(id=>$id);</p>
+
+<p>Register a plugin as having field data.  The above form is the simplest, where
+the field value is looked up in the %pagestatus hash under the plugin-id.</p>
+
+<p>Additional Options:</p>
+
+<p><strong>call=>&amp;myfunc</strong></p>
+
+<p>A reference to a function to call rather than just looking up the value in the
+%pagestatus hash.  It takes two arguments: the name of the field, and the name
+of the page.  It is expected to return (a) an array of the values of that field
+if "wantarray" is true, or (b) a concatenation of the values of that field
+if "wantarray" is not true, or (c) undef if there is no field by that name.</p>
+
+<pre><code>sub myfunc (&#036;&#036;) {
+my &#036;field = shift;
+my &#036;page = shift;
+
+...
+
+return (wantarray ? @values : &#036;value);
+}
+</code></pre>
+
+<p><strong>first=>1</strong></p>
+
+<p>Set this to be called first in the sequence of calls looking for values.  Since
+the first found value is the one which is returned, ordering is significant.
+This is equivalent to "order=>'first'".</p>
+
+<p><strong>last=>1</strong></p>
+
+<p>Set this to be called last in the sequence of calls looking for values.  Since
+the first found value is the one which is returned, ordering is significant.
+This is equivalent to "order=>'last'".</p>
+
+<p><strong>order=>$order</strong></p>
+
+<p>Set the explicit ordering in the sequence of calls looking for values.  Since
+the first found value is the one which is returned, ordering is significant.</p>
+
+<p>The values allowed for this are "first", "last", "middle", or a two-character
+ordering-sequence between 'AA' and 'ZZ'.</p>
+
+<h3 id="field_get_valuefieldpage"><a name="index2h3"></a>field_get_value($field, $page)</h3>
+
+<pre><code>my &#036;value = field_get_value(&#036;field, &#036;page);
+
+my &#036;value = field_get_value(&#036;field, &#036;page, foo=&gt;'bar');
+</code></pre>
+
+<p>Returns the value of the field for that page, or undef if none is found.
+It is also possible to override the value returned by passing in
+a value of your own.</p>
+
+<h2 id="download"><a name="index8h2"></a>DOWNLOAD</h2>
+
+<ul>
+<li>browse at GitHub: <a href="http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/field.pm">http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/field.pm</a></li>
+<li>git repo at git://github.com/rubykat/ikiplugins.git</li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="tags">
+Tags:
+
+<a href="../../../../../tag/type/meta/" rel="tag">type/meta</a>
+
+</div>
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../ftemplate/">ftemplate</a>
+
+<a href="../getfield/">getfield</a>
+
+<a href="../../../ikiwiki/directive/ftemplate/">ikiwiki/directive/ftemplate</a>
+
+<a href="../../../ikiwiki/directive/report/">ikiwiki/directive/report</a>
+
+<a href="../jssearchfield/">jssearchfield</a>
+
+<a href="../report/">report</a>
+
+<a href="../ymlfront/">ymlfront</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>getfield</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">rubykat-ikiplugins</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">plugins</a>/ 
+
+<a href="../">contrib</a>/ 
+
+</span>
+<span class="title">
+getfield
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/rubykat-ikiplugins/doc/plugins/contrib/getfield.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../doc/development/meeting-log/">Development meeting log</a></li>
+        <li><a href="../../../../../doc/development/">Development</a></li>
+        <li><a href="../../../../../doc/survey/">Survey</a></li>
+        <li><a href="../../../../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>[[!template <span class="error">Error: failed to process template <span class="createlink">plugin</span> </span>]]</p>
+
+<div class="toc">
+	<ol>
+		<li class="L2"><a href="#index1h2">NAME</a>
+		</li>
+		<li class="L2"><a href="#index2h2">SYNOPSIS</a>
+		</li>
+		<li class="L2"><a href="#index3h2">DESCRIPTION</a>
+		</li>
+		<li class="L2"><a href="#index4h2">DOWNLOAD</a>
+		</li>
+	</ol>
+</div>
+
+<h2 id="name"><a name="index1h2"></a>NAME</h2>
+
+<p>IkiWiki::Plugin::getfield - query the values of fields</p>
+
+<h2 id="synopsis"><a name="index2h2"></a>SYNOPSIS</h2>
+
+<pre><code># activate the plugin
+add_plugins =&gt; [qw{goodstuff getfield ....}],
+</code></pre>
+
+<h2 id="description"><a name="index3h2"></a>DESCRIPTION</h2>
+
+<p>This plugin provides a way of querying the meta-data (data fields) of a page
+inside the page content (rather than inside a template) This provides a way to
+use per-page structured data, where each page is treated like a record, and the
+structured data are fields in that record.  This can include the meta-data for
+that page, such as the page title.</p>
+
+<p>This plugin is meant to be used in conjunction with the <a href="../field/">field</a> plugin.</p>
+
+<h3 id="usage"><a name="index1h3"></a>USAGE</h3>
+
+<p>One can get the value of a field by using special markup in the page.
+This does not use directive markup, in order to make it easier to
+use the markup inside other directives.  There are four forms:</p>
+
+<ul>
+<li><p>{{$<em>fieldname</em>}}</p>
+
+<p>This queries the value of <em>fieldname</em> for the source page.</p>
+
+<p>For example:</p>
+
+<pre><code>[[!meta  title="My Long and Complicated Title With Potential For Spelling Mistakes"]]
+# {{&#036;title}}
+</code></pre>
+
+<p>When the page is processed, this will give you:</p>
+
+<pre><code>&lt;h1&gt;My Long and Complicated Title With Potential For Spelling Mistakes&lt;/h1&gt;
+</code></pre></li>
+<li><p>{{$<em>pagename</em>#<em>fieldname</em>}}</p>
+
+<p>This queries the value of <em>fieldname</em> for the page <em>pagename</em>.</p>
+
+<p>For example:</p>
+
+<p>On PageFoo:</p>
+
+<p>[[!meta  title="I Am Page Foo"]]</p>
+
+<p>Stuff about Foo.</p>
+
+<p>On PageBar:</p>
+
+<p>For more info, see [[{{$PageFoo#title}}|PageFoo]].</p>
+
+<p>When PageBar is displayed:</p>
+
+<p>&lt;p&gt;For more info, see &lt;a href="PageFoo"&gt;I Am Page Foo&lt;/a&gt;.&lt;/p&gt;</p></li>
+<li><p>{{+$<em>fieldname</em>+}}</p>
+
+<p>This queries the value of <em>fieldname</em> for the destination page; that is,
+the value when this page is included inside another page.</p>
+
+<p>For example:</p>
+
+<p>On PageA:</p>
+
+<pre><code>[[!meta  title="I Am Page A"]]
+# {{+&#036;title+}}
+
+
+Stuff about A.
+</code></pre>
+
+<p>On PageB:</p>
+
+<pre><code>[[!meta  title="I Am Page B"]]
+[[!inline  pagespec="PageA"]]
+</code></pre>
+
+<p>When PageA is displayed:</p>
+
+<pre><code>&lt;h1&gt;I Am Page A&lt;/h1&gt;
+&lt;p&gt;Stuff about A.&lt;/p&gt;
+</code></pre>
+
+<p>When PageB is displayed:</p>
+
+<pre><code>&lt;h1&gt;I Am Page B&lt;/h1&gt;
+&lt;p&gt;Stuff about A.&lt;/p&gt;
+</code></pre></li>
+<li><p>{{+$<em>pagename</em>#<em>fieldname</em>+}}</p>
+
+<p>This queries the value of <em>fieldname</em> for the page <em>pagename</em>; the
+only difference between this and {{$<em>pagename</em>#<em>fieldname</em>}} is
+that the full name of <em>pagename</em> is calculated relative to the
+destination page rather than the source page.</p>
+
+<p>I can't really think of a reason why this should be needed, but
+this format has been added for completeness.</p></li>
+</ul>
+
+<h3 id="escaping"><a name="index2h3"></a>Escaping</h3>
+
+<p>Getfield markup can be escaped by putting a backwards slash <code>\</code>
+in front of the markup.
+If that is done, then the markup is displayed as-is.</p>
+
+<h3 id="novaluefound"><a name="index3h3"></a>No Value Found</h3>
+
+<p>If no value is found for the given field, then the field name is returned.</p>
+
+<p>For example:</p>
+
+<p>On PageFoo:</p>
+
+<pre><code>[[!meta  title="Foo"]]
+My title is {{&#036;title}}.
+
+My description is {{&#036;description}}.
+</code></pre>
+
+<p>When PageFoo is displayed:</p>
+
+<pre><code>&lt;p&gt;My title is Foo.&lt;/p&gt;
+
+&lt;p&gt;My description is description.&lt;/p&gt;
+</code></pre>
+
+<p>This is because "description" hasn't been defined for that page.</p>
+
+<h3 id="moreexamples"><a name="index4h3"></a>More Examples</h3>
+
+<p>Listing all the sub-pages of the current page:</p>
+
+<pre><code>[[!map  pages="{{&#036;page}}/*"]]
+</code></pre>
+
+<h2 id="download"><a name="index4h2"></a>DOWNLOAD</h2>
+
+<ul>
+<li>browse at GitHub: <a href="http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm">http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm</a></li>
+<li>git repo at git://github.com/rubykat/ikiplugins.git</li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="tags">
+Tags:
+
+<a href="../../../../../tag/type/format/" rel="tag">type/format</a>
+
+<a href="../../../../../tag/type/meta/" rel="tag">type/meta</a>
+
+</div>
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../ymlfront/">ymlfront</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span>
+<!-- Created <span class="date">Mon 15 Feb 2016 09:01:20 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>
