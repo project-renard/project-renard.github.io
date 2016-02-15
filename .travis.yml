@@ -19,7 +19,7 @@ install:
     `git log -n 1 --format='commit %h - %s'`"
 script:
   #- set -e
-  - export PERL5LIB="./.ikiwiki-plugin"
+  - export PERL5LIB="./.ikiwiki-plugin:./rubykat-ikiplugins"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
