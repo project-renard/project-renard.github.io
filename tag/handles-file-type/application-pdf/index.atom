@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-04T01:42:09Z</updated>
+<updated>2016-02-16T16:45:24Z</updated>
 <entry>
 	<title>Mendeley</title>
 
@@ -35,11 +35,19 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-02-04T01:42:09Z</updated>
-	<published>2016-02-04T01:42:09Z</published>
+	<updated>2016-02-16T16:45:24Z</updated>
+	<published>2016-02-16T16:45:24Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+	&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
 PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
@@ -67,11 +75,19 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-02-04T01:42:09Z</updated>
-	<published>2016-02-04T01:42:09Z</published>
+	<updated>2016-02-16T16:45:24Z</updated>
+	<published>2016-02-16T16:45:24Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+	&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
 distributed as a Chrome extension. It is tightly integrated with Google Apps
 services such as Google Docs and Google Drive. This allows for easy cloud
 storage and sharing of bibliography information with collaborators from inside
