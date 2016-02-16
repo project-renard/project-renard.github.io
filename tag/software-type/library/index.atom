@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged software-type/library</title>
+<link href="http://project-renard.github.io//tag/software-type/library/"/>
+<link href="http://project-renard.github.io//tag/software-type/library/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//tag/software-type/library/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
+<updated>2016-02-16T20:36:58Z</updated>
+<entry>
+	<title>MuPDF</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-02-16T20:36:58Z</updated>
+	<published>2016-02-16T16:45:24Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Poppler</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/poppler/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/poppler/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-02-16T20:36:58Z</updated>
+	<published>2016-02-16T16:45:24Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>LibHaru</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/libharu/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-02-16T20:36:58Z</updated>
+	<published>2016-02-16T16:45:24Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>
