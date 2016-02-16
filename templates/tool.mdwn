@@ -1,4 +1,4 @@
-[[!meta title="<TMPL_VAR NAME="name">"]]
+[[!meta title="<TMPL_VAR NAME="Name">"]]
 
 <TMPL_IF NAME="Logo">
 [[!img <TMPL_VAR NAME="Logo">]]
