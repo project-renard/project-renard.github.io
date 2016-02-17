@@ -48,6 +48,7 @@ add_plugins:
 - txt
 - ymlfront
 - ftemplate
+- github
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
@@ -91,7 +92,7 @@ hardlink: 0
 # group for wrappers to run in
 #wrappergroup: ikiwiki
 # extra library and plugin directories
-libdirs: [ './.ikiwiki-plugin', './rubykat-ikiplugins' ]
+libdirs: [ './.ikiwiki-plugin', './rubykat-ikiplugins', './.ikiwiki-plugin-github' ]
 # extra library and plugin directory (searched after libdirs)
 libdir: /home/zaki/.ikiwiki
 # environment variables
@@ -417,3 +418,7 @@ tag_autocreate_commit: 1
 # typography plugin
 # Text::Typography attributes value
 #typographyattributes: 3
+
+github:
+ repo: project-renard/project-renard.github.io
+ branch: source

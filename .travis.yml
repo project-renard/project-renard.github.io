@@ -25,7 +25,7 @@ script:
   #- set -e
   - cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
   - cpanm -n YAML::Any YAML::XS Sort::Naturally
-  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugin:./rubykat-ikiplugins"
+  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugin:./rubykat-ikiplugins:./.ikiwiki-plugin-github"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
