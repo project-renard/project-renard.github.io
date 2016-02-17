@@ -5,6 +5,13 @@ use warnings;
 use strict;
 use IkiWiki 3.00;
 
+# github:
+#   repo: orgname/reponame
+#   branch: branchname
+# <branchname> is the branch that has the ikiwiki source
+#
+# TODO extract this information from the git plugin
+
 sub import {
 	hook(type => "pagetemplate", id => "skeleton", call => \&pagetemplate);
 }
