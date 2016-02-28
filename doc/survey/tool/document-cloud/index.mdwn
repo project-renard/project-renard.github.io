@@ -6,3 +6,18 @@ ExternalScreenshot: http://journalists.org/wp-content/uploads/2011/11/documentcl
 ---
 [[!ftemplate id=tool]]
 
+Components:
+
+- Platform:
+   - Description: The web application that pulls together all the components of DocumentCloud
+   - Source: <https://github.com/documentcloud/documentcloud>
+- Document viewer
+   - Description: Allows for the display of images and text from documents.
+   - Source: <https://github.com/documentcloud/document-viewer>
+- Notes
+    - Description: Provides a tool to highlight regions of the document images
+    - Source: <https://github.com/documentcloud/documentcloud-notes>
+- Visual Search
+    - Description: Search boxes with facets and autocompletion
+    - Homepage: <http://documentcloud.github.io/visualsearch/>
+    - Source: <https://github.com/documentcloud/visualsearch>
