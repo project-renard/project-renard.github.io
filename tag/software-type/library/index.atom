@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-16T20:36:58Z</updated>
+<updated>2016-03-02T05:32:36Z</updated>
 <entry>
 	<title>MuPDF</title>
 
@@ -61,13 +61,15 @@
 	<category term="software-type/library" />
 
 
-	<updated>2016-02-16T20:36:58Z</updated>
+	<updated>2016-03-02T05:32:36Z</updated>
 	<published>2016-02-16T16:45:24Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 
 	</content>
 
