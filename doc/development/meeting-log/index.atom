@@ -17,7 +17,32 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-02-15T01:22:15Z</updated>
+<updated>2016-03-06T21:30:50Z</updated>
+<entry>
+	<title>refactoring recent GUI additions</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/"/>
+
+
+
+
+
+	<updated>2016-03-06T21:30:50Z</updated>
+	<published>2016-03-06T21:30:50Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
+all of the work was performed on a single file, it is now necessary to start
+splitting off the code into different modules so that it is easier to work
+with.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Roadmap planning session</title>
 
@@ -29,8 +54,8 @@
 
 
 
-	<updated>2016-02-15T01:22:15Z</updated>
-	<published>2016-02-15T01:22:15Z</published>
+	<updated>2016-02-15T20:50:03Z</updated>
+	<published>2016-02-15T20:50:03Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
@@ -166,8 +191,8 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-02-15T01:22:15Z</updated>
-	<published>2016-02-15T01:22:15Z</published>
+	<updated>2016-02-15T20:50:03Z</updated>
+	<published>2016-02-15T20:50:03Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;ul&gt;
@@ -201,8 +226,8 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-02-15T01:22:15Z</updated>
-	<published>2016-02-15T01:22:15Z</published>
+	<updated>2016-02-15T20:50:03Z</updated>
+	<published>2016-02-15T20:50:03Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
@@ -320,8 +345,8 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-02-15T01:22:15Z</updated>
-	<published>2016-02-15T01:22:15Z</published>
+	<updated>2016-02-15T20:50:03Z</updated>
+	<published>2016-02-15T20:50:03Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
