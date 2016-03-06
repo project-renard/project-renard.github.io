@@ -16,12 +16,14 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-03-06T21:30:50Z</dcterms:modified>
+	<dcterms:modified>2016-03-06T22:54:08Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
 splitting off the code into different modules so that it is easier to work
 with.&lt;/p&gt;
+
+&lt;p&gt;Zaki: PR to refactor the script &lt;a href=&quot;https://github.com/project-renard/curie/issues/24&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/24.svg&quot; alt=&quot;project-renard/curie/issues/24&quot; id=&quot;project-renardcurieissues24&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 
 
@@ -35,8 +37,8 @@ with.&lt;/p&gt;
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
-	<pubDate>Mon, 15 Feb 2016 20:50:03 +0000</pubDate>
-	<dcterms:modified>2016-02-15T20:50:03Z</dcterms:modified>
+	<pubDate>Mon, 15 Feb 2016 20:57:45 +0000</pubDate>
+	<dcterms:modified>2016-02-15T20:57:45Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -167,8 +169,8 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
-	<pubDate>Mon, 15 Feb 2016 20:50:03 +0000</pubDate>
-	<dcterms:modified>2016-02-15T20:50:03Z</dcterms:modified>
+	<pubDate>Mon, 15 Feb 2016 20:57:45 +0000</pubDate>
+	<dcterms:modified>2016-02-15T20:57:45Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -197,8 +199,8 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
-	<pubDate>Mon, 15 Feb 2016 20:50:03 +0000</pubDate>
-	<dcterms:modified>2016-02-15T20:50:03Z</dcterms:modified>
+	<pubDate>Mon, 15 Feb 2016 20:57:45 +0000</pubDate>
+	<dcterms:modified>2016-02-15T20:57:45Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -311,8 +313,8 @@ make HAVE_GLFW=no install
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
-	<pubDate>Mon, 15 Feb 2016 20:50:03 +0000</pubDate>
-	<dcterms:modified>2016-02-15T20:50:03Z</dcterms:modified>
+	<pubDate>Mon, 15 Feb 2016 20:57:45 +0000</pubDate>
+	<dcterms:modified>2016-02-15T20:57:45Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
