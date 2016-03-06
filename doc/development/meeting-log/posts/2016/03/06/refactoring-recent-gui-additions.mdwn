@@ -1,0 +1,7 @@
+[[!meta title="refactoring recent GUI additions"]]
+
+The pull requests from the previous meeting were discussed and merged. Since
+all of the work was performed on a single file, it is now necessary to start
+splitting off the code into different modules so that it is easier to work
+with.
+
