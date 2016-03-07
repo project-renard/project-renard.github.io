@@ -7,3 +7,6 @@ splitting off the code into different modules so that it is easier to work
 with.
 
 Zaki: PR to refactor the script [[!template id=github item="project-renard/curie/issues/24"]]
+
+[[!img gfx/simple-gui-with-page-num-and-scrollbar.png caption="curie GUI with page number entry box and scrollbar" size="250x"]]
+
