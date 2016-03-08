@@ -10,3 +10,7 @@ Zaki: PR to refactor the script [[!template id=github item="project-renard/curie
 
 [[!img gfx/simple-gui-with-page-num-and-scrollbar.png caption="curie GUI with page number entry box and scrollbar" size="250x"]]
 
+
+- Stan: Show number of pages
+[[!template id=github item="project-renard/curie/issues/21"]]
+- Chirag: Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]]
