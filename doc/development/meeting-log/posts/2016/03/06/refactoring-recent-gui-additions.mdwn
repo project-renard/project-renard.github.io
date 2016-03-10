@@ -14,4 +14,4 @@ Zaki: PR to refactor the script [[!template id=github item="project-renard/curie
 - Stan: Show number of pages
 [[!template id=github item="project-renard/curie/issues/21"]]
 - Chirag: Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]]
-- Zaki: Work with PNG data in-memory: PR to create Cairo::ImageSurface in-memory [[!template id=github item="project-renard/curie/pull/30"]] which address issue [[!template id=github item="project-renard/curie/issues/25"]]
+- Zaki: Work with PNG data in-memory: PR to create Cairo::ImageSurface in-memory [[!template id=github item="project-renard/curie/pull/30"]] which addresses issue [[!template id=github item="project-renard/curie/issues/25"]]
