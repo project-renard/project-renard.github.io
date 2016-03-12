@@ -17,7 +17,30 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-10T20:34:28Z</updated>
+<updated>2016-03-12T01:12:49Z</updated>
+<entry>
+	<title>testing and planning features</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/"/>
+
+
+
+
+
+	<updated>2016-03-12T01:12:49Z</updated>
+	<published>2016-03-12T01:12:49Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>refactoring recent GUI additions</title>
 

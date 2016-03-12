@@ -8,6 +8,24 @@
 <description>Project Renard</description>
 <item>
 
+	<title>testing and planning features</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
+
+	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
+	<dcterms:modified>2016-03-12T01:12:49Z</dcterms:modified>
+
+	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>refactoring recent GUI additions</title>
 
 
