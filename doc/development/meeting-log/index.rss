@@ -16,10 +16,21 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2016-03-12T01:12:49Z</dcterms:modified>
+	<dcterms:modified>2016-03-13T18:33:32Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot; alt=&quot;project-renard/curie/pull/33&quot; id=&quot;project-renardcuriepull33&quot; /&gt;&lt;/a&gt;
+to address issue &lt;a href=&quot;https://github.com/https://github.com/project-renard/curie/issues/28&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/https://github.com/project-renard/curie/issues/28.svg&quot; alt=&quot;https://github.com/project-renard/curie/issues/28&quot; id=&quot;https:github.comproject-renardcurieissues28&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
 </description>
 
 
