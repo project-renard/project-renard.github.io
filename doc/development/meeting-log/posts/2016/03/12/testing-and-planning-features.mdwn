@@ -13,3 +13,11 @@ Adding Travis-CI support:
 
 - Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
   (issues are at [[!template id=github item="project-renard/curie/issues/34"]], [[!template id=github item="travis-ci/apt-package-whitelist/issues/2700"]]).
+
+Issues carried over from [[last week|meeting-log/posts/2016/03/06/refactoring-recent-gui-additions]]:
+
+- Stan: Show number of pages
+[[!template id=github item="project-renard/curie/issues/21"]]
+- Chirag: Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]]
+
+
