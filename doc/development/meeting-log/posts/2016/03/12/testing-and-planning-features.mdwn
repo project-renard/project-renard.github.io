@@ -4,7 +4,8 @@ We need to start testing the code and automatically running those tests using
 continuous integration.
 
 - Added [[test data repository|https://github.com/project-renard/test-data]].
-- Start adding unit tests in PR [[!template id=github item="project-renard/curie/pull/33"]] to address issue [[!template id=github item="https://github.com/project-renard/curie/issues/28"]]
+- Start adding unit tests in PR [[!template id=github item="project-renard/curie/pull/33"]] to address
+  issue [[!template id=github item="project-renard/curie/issues/28"]]
 
 Looked at a review of PDF metadata extraction [[doc|https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview]] (mirrored [[here|https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview]]) from this [[blog|http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html]].
 
