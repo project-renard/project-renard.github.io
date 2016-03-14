@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2016-03-14T07:32:24Z</dcterms:modified>
+	<dcterms:modified>2016-03-14T08:25:33Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -37,6 +37,14 @@ to address issue &lt;a href=&quot;https://github.com/https://github.com/project-
 (issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
 , &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: Show number of pages
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 
