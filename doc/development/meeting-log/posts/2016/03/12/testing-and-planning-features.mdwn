@@ -11,4 +11,5 @@ Looked at a review of PDF metadata extraction [[doc|https://docs.google.com/docu
 Adding Travis-CI support:
     - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard
 
-
+- Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+  (issues are at [[!template id=github item="project-renard/curie/issues/34"]], [[!template id=github item="travis-ci/apt-package-whitelist/issues/2700"]]).
