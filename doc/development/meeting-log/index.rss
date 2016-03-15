@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2016-03-14T08:47:55Z</dcterms:modified>
+	<dcterms:modified>2016-03-15T14:48:08Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -37,6 +37,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 &lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
 (issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
 , &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
 &lt;/ul&gt;
 

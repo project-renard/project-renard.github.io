@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-14T08:47:55Z</updated>
+<updated>2016-03-15T14:48:08Z</updated>
 <entry>
 	<title>testing and planning features</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-03-14T08:47:55Z</updated>
+	<updated>2016-03-15T14:48:08Z</updated>
 	<published>2016-03-12T01:12:49Z</published>
 
 	<content type="html" xml:lang="en">
@@ -52,6 +52,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 &lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
 (issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
 , &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
 &lt;/ul&gt;
 
