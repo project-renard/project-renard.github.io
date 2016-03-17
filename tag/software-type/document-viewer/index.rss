@@ -70,7 +70,7 @@
 
 
 	<pubDate>Tue, 16 Feb 2016 16:45:24 +0000</pubDate>
-	<dcterms:modified>2016-03-08T01:46:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-17T00:29:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -83,8 +83,14 @@
 
 &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;/&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
 &lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
 details features that have been proposed and completed.&lt;/p&gt;
+
+&lt;h1 id=&quot;menu&quot;&gt;Menu&lt;/h1&gt;
+
+&lt;p&gt;The complete list of menu items is available in the &lt;code&gt;&amp;lt;a href=&quot;https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui&quot;&amp;gt;evince-menus.ui&amp;lt;/a&amp;gt;&lt;/code&gt; file.&lt;/p&gt;
 </description>
 
 

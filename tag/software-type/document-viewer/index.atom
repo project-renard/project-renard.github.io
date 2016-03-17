@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-08T01:46:00Z</updated>
+<updated>2016-03-17T00:29:55Z</updated>
 <entry>
 	<title>UpLib</title>
 
@@ -93,7 +93,7 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-03-08T01:46:00Z</updated>
+	<updated>2016-03-17T00:29:55Z</updated>
 	<published>2016-02-16T16:45:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -108,8 +108,14 @@
 
 &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;/&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
 &lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
 details features that have been proposed and completed.&lt;/p&gt;
+
+&lt;h1 id=&quot;menu&quot;&gt;Menu&lt;/h1&gt;
+
+&lt;p&gt;The complete list of menu items is available in the &lt;code&gt;&amp;lt;a href=&quot;https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui&quot;&amp;gt;evince-menus.ui&amp;lt;/a&amp;gt;&lt;/code&gt; file.&lt;/p&gt;
 
 	</content>
 
