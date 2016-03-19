@@ -22,9 +22,22 @@
 	<pubDate>Sun, 21 Feb 2016 16:23:14 +0000</pubDate>
 	<dcterms:modified>2016-02-21T16:23:14Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -45,13 +58,31 @@
 	<pubDate>Fri, 19 Feb 2016 14:06:37 +0000</pubDate>
 	<dcterms:modified>2016-02-29T20:04:53Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -69,19 +100,73 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
 	<dcterms:modified>2016-03-17T00:29:55Z</dcterms:modified>
 
-	<description>&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;File-formats: &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;, application/postscript, image/tiff, application/x-dvi, image/vnd.djvu, application/x-cbr&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/tiff&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/x-dvi&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/x-cbr&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 

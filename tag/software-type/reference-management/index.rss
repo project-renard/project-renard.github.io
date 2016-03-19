@@ -24,9 +24,22 @@
 	<pubDate>Sun, 21 Feb 2016 00:52:25 +0000</pubDate>
 	<dcterms:modified>2016-02-21T00:52:25Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -47,13 +60,31 @@
 	<pubDate>Thu, 18 Feb 2016 13:32:32 +0000</pubDate>
 	<dcterms:modified>2016-02-18T13:40:56Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -71,16 +102,34 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -98,16 +147,34 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.docear.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.docear.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -125,16 +192,34 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -154,16 +239,34 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
 PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
@@ -189,16 +292,34 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
 distributed as a Chrome extension. It is tightly integrated with Google Apps
@@ -222,16 +343,34 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
@@ -249,16 +388,34 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Tue, 16 Feb 2016 16:58:58 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:58:58Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
+	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
 
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
 
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;&lt;/p&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
