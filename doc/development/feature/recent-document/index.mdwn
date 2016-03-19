@@ -1,0 +1,25 @@
+[[!meta title="Recently opened documents"]]
+
+This feature stores a list of files that have been recently opened.
+
+# freedesktop.org Desktop Bookmark Spec
+
+A standard for [[storing a list of recently used
+files|https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec/]] has
+been proposed by freedesktop.org. This list is stored using the
+[[XBEL format|http://pyxml.sourceforge.net/topics/xbel/]].
+The standard location for the data is `$XDG_USER_DATA/recently-used.xbel` which is often in
+`$HOME/.local/share/recently-used.xbel`. This standard is used by most GTK applications.
+
+# Tools
+
+## [[doc/survey/tool/evince]]
+
+When opening a new instance of Evince (with no arguments) or using the menu to
+select the "New Window" option, a canvas is shown that lays out thumbnails of
+recent documents along with their embedded PDF title metadata or filename if
+the metadata is not available. The number of documents shown on a single screen
+depends on the window size.
+
+[[!img doc/survey/tool/evince/gfx/recent-documents.png]]
+[[!img doc/survey/tool/evince/gfx/recent-documents-resize.png]]
