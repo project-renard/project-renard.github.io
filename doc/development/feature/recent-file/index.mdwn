@@ -1,0 +1,11 @@
+This feature stores a list of files that have been recently opened.
+
+# freedesktop.org Desktop Bookmark Spec
+
+A standard for [[storing a list of recently used
+files|https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec/]] has
+been proposed by freedesktop.org. This list is stored using the
+[[XBEL format|http://pyxml.sourceforge.net/topics/xbel/]].
+The standard location for the data is `$XDG_USER_DATA/recently-used.xbel` which is often in
+`$HOME/.local/share/recently-used.xbel`. This standard is used by most GTK applications.
+
