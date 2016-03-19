@@ -5,14 +5,14 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PDF file format</title>
+<title>recent-file</title>
 
 <link rel="stylesheet" href="../../../../style.css" type="text/css" />
 
 <link rel="stylesheet" href="../../../../local.css" type="text/css" />
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/file-format/pdf.mdwn" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/recent-file/index.mdwn" />
 
 
 
@@ -33,11 +33,11 @@
 
 <a href="../../">development</a>/ 
 
-<a href="../">file-format</a>/ 
+<a href="../">feature</a>/ 
 
 </span>
 <span class="title">
-PDF file format
+recent-file
 
 </span>
 </span>
@@ -48,13 +48,13 @@ PDF file format
 <div class="actions">
 <ul>
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/file-format/pdf.mdwn" rel="nofollow">Edit</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/recent-file/index.mdwn" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../../../../recentchanges/">RecentChanges</a></li>
 
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/file-format/pdf.mdwn">History</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/feature/recent-file/index.mdwn">History</a></li>
 
 
 
@@ -89,25 +89,16 @@ PDF file format
 <div id="pagebody">
 
 <div id="content">
-<h1 id="standard">Standard</h1>
+<p>This feature stores a list of files that have been recently opened.</p>
 
-<h1 id="metadata">Metadata</h1>
+<h1 id="freedesktop.orgdesktopbookmarkspec">freedesktop.org Desktop Bookmark Spec</h1>
 
-<h1 id="tools">Tools</h1>
-
-<h2 id="rendering">Rendering</h2>
-
-<p>...</p>
-
-<p>...</p>
-
-<h2 id="toolsformanipulation">Tools for manipulation</h2>
-
-<p>...</p>
-
-<h1 id="layoutanalysis">Layout analysis</h1>
-
-<p>...</p>
+<p>A standard for <a href="https://www.freedesktop.org/wiki/Specifications/desktop-bookmark-spec/">storing a list of recently used
+files</a> has
+been proposed by freedesktop.org. This list is stored using the
+<a href="http://pyxml.sourceforge.net/topics/xbel/">XBEL format</a>.
+The standard location for the data is <code>&#036;XDG_USER_DATA/recently-used.xbel</code> which is often in
+<code>&#036;HOME/.local/share/recently-used.xbel</code>. This standard is used by most GTK applications.</p>
 
 </div>
 
@@ -124,24 +115,14 @@ PDF file format
 
 
 
-<div id="backlinks">
-Links:
-
-<a href="../../../survey/tool/evince/">survey/tool/evince</a>
-
-<a href="../../../survey/tool/qpdf/">survey/tool/qpdf</a>
-
-
-</div>
-
 
 
 
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 17 Feb 2016 09:12:47 AM UTC</span>
-<!-- Created <span class="date">Wed 17 Feb 2016 09:12:47 AM UTC</span> -->
+Last edited <span class="date">Sat 19 Mar 2016 03:22:21 AM UTC</span>
+<!-- Created <span class="date">Sat 19 Mar 2016 03:22:21 AM UTC</span> -->
 </div>
 
 </div>
