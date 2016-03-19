@@ -1,14 +1,46 @@
 [[!meta title="<TMPL_VAR NAME="Name">"]]
 
+<div class="sidebar">
+<table>
 <TMPL_IF NAME="Logo">
-[[!img <TMPL_VAR NAME="Logo">]]
+<tr>
+    <td>
+    [[!img <TMPL_VAR NAME="Logo"> class="img fullwidth"]]
+    </td>
+</tr>
 </TMPL_IF>
 <TMPL_IF NAME="Homepage">
-- [[Homepage|<TMPL_VAR NAME="Homepage">]]
+<tr>
+    <td>
+[[Homepage|<TMPL_VAR NAME="Homepage">]]
+    </td>
+</tr>
 </TMPL_IF>
-<TMPL_LOOP NAME="FileFormat_LOOP"><TMPL_IF __first__>- File-formats: </TMPL_IF><TMPL_VAR NAME="FileFormat"><TMPL_UNLESS __last__>, </TMPL_UNLESS></TMPL_LOOP>
+
+<TMPL_LOOP NAME="FileFormat_LOOP">
+    <TMPL_IF __first__>
+    <tr>
+        <td>
+            File-formats:
+            <ul>
+    </TMPL_IF>
+                <li><TMPL_VAR NAME="FileFormat"></li>
+    <TMPL_IF __last__>
+            </ul>
+        </td>
+    </tr>
+    </TMPL_IF>
+</TMPL_LOOP>
 
 <TMPL_IF NAME="ExternalScreenshot">
-## Screenshot
-<img src="<TMPL_VAR NAME="ExternalScreenshot">"/>
+<tr>
+    <td>
+        <h2>Screenshot</h2>
+        <a href="<TMPL_VAR NAME="ExternalScreenshot">">
+            <img width="100%" src="<TMPL_VAR NAME="ExternalScreenshot">"/>
+        </a>
+    </td>
+</tr>
 </TMPL_IF>
+</table>
+</div>
