@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-19T02:23:57Z</updated>
+<updated>2016-03-19T20:29:57Z</updated>
 <entry>
 	<title>UpLib</title>
 
@@ -124,8 +124,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-03-19T02:23:57Z</updated>
-	<published>2016-02-17T09:12:47Z</published>
+	<updated>2016-03-19T20:29:57Z</updated>
+	<published>2016-02-16T20:50:42Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -198,9 +198,22 @@
 &lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
 details features that have been proposed and completed.&lt;/p&gt;
 
-&lt;h1 id=&quot;menu&quot;&gt;Menu&lt;/h1&gt;
+&lt;h1 id=&quot;menuandkeybindings&quot;&gt;Menu and Keybindings&lt;/h1&gt;
 
 &lt;p&gt;The complete list of menu items is available in the &lt;a href=&quot;https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui&quot;&gt;&lt;code&gt;evince-menus.ui&lt;/code&gt;&lt;/a&gt; file.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Shortcut&lt;/th&gt;
+    &lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.New Window&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;TODO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
 	</content>
 

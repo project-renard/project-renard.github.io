@@ -100,8 +100,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 17 Feb 2016 09:12:47 +0000</pubDate>
-	<dcterms:modified>2016-03-19T02:23:57Z</dcterms:modified>
+	<pubDate>Tue, 16 Feb 2016 20:50:42 +0000</pubDate>
+	<dcterms:modified>2016-03-19T20:29:57Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -173,9 +173,22 @@
 &lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
 details features that have been proposed and completed.&lt;/p&gt;
 
-&lt;h1 id=&quot;menu&quot;&gt;Menu&lt;/h1&gt;
+&lt;h1 id=&quot;menuandkeybindings&quot;&gt;Menu and Keybindings&lt;/h1&gt;
 
 &lt;p&gt;The complete list of menu items is available in the &lt;a href=&quot;https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui&quot;&gt;&lt;code&gt;evince-menus.ui&lt;/code&gt;&lt;/a&gt; file.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Shortcut&lt;/th&gt;
+    &lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.New Window&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;TODO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 </description>
 
 
