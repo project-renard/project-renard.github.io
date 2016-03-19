@@ -8,6 +8,112 @@
 <description>Project Renard</description>
 <item>
 
+	<title>zaki.mughal: change to local.css on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_660b2efd4dee96a2d1fe9e68637103e47792686f/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-660b2efd4dee96a2d1fe9e68637103e47792686f</link>
+
+	<pubDate>Sat, 19 Mar 2016 02:24:08 +0000</pubDate>
+	<dcterms:modified>2016-03-19T02:24:08Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-660b2efd4dee96a2d1fe9e68637103e47792686f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/660b2efd4dee96a2d1fe9e68637103e47792686f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;local.css
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:24:08 AM 03/19/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+CSS for fullwidth image needs to preserve aspect ratio&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 660b2efd4dee96a2d1fe9e68637103e47792686f --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>zaki.mughal: change to doc/survey/tool/evince on Project Renard</title>
+	<dcterms:creator>zaki.mughal</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_1ade55e9925aa17bb39283d589408099541bb4bc/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-1ade55e9925aa17bb39283d589408099541bb4bc</link>
+
+	<pubDate>Sat, 19 Mar 2016 02:23:57 +0000</pubDate>
+	<dcterms:modified>2016-03-19T02:23:57Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1ade55e9925aa17bb39283d589408099541bb4bc&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/1ade55e9925aa17bb39283d589408099541bb4bc&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/evince
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:23:57 AM 03/19/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix the formatting of link to code&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 1ade55e9925aa17bb39283d589408099541bb4bc --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>zaki.mughal: change to index local.css templates/tool on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
@@ -2538,7 +2644,7 @@ Travis-CI: move local::lib to install section&lt;br /&gt;
 </item>
 <item>
 
-	<title>zaki.mughal: change to doc/survey/tool/libharu doc/survey/tool/mupdf doc/survey/tool/poppler on Project Renard</title>
+	<title>zaki.mughal: change to .gitmodules .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md about doc/design doc/design/interaction doc/design/introduction  on Project Renard</title>
 	<dcterms:creator>zaki.mughal</dcterms:creator>
 
 
@@ -2559,14 +2665,37 @@ Travis-CI: move local::lib to install section&lt;br /&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/libharu
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitmodules
 
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/mupdf
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
 
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/poppler
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
 
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.enc
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.pub
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;README.md
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design/interaction
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/42a2263b2d0f6be6b98351d8b033db1fd09bbbe1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design/introduction
+
+
+...
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -2591,141 +2720,6 @@ Survey: tag the software as a library&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 42a2263b2d0f6be6b98351d8b033db1fd09bbbe1 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to tag/software-type/library on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_257a78e7036ceac1e5bf2b13b3e63881f206938f/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-257a78e7036ceac1e5bf2b13b3e63881f206938f</link>
-
-	<pubDate>Tue, 16 Feb 2016 20:36:14 +0000</pubDate>
-	<dcterms:modified>2016-02-16T20:36:14Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-257a78e7036ceac1e5bf2b13b3e63881f206938f&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/257a78e7036ceac1e5bf2b13b3e63881f206938f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;tag/software-type/library
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:36:14 PM 02/16/2016&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tag/software-type/library&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 257a78e7036ceac1e5bf2b13b3e63881f206938f --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>zaki.mughal: change to .gitmodules .ikiwiki-plugin/IkiWiki/Plugin/trail.pm .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md about doc/design doc/design/interaction doc/design/introduction  on Project Renard</title>
-	<dcterms:creator>zaki.mughal</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_0634d6daa6c5939cafeeeff760b0732d34d59594/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-0634d6daa6c5939cafeeeff760b0732d34d59594</link>
-
-	<pubDate>Tue, 16 Feb 2016 19:23:00 +0000</pubDate>
-	<dcterms:modified>2016-02-16T19:23:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-0634d6daa6c5939cafeeeff760b0732d34d59594&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitmodules
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugin/IkiWiki/Plugin/trail.pm
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.enc
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.pub
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;README.md
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;about
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design/interaction
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0634d6daa6c5939cafeeeff760b0732d34d59594&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/design/introduction
-
-
-...
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:23:00 PM 02/16/2016&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Show titles of tools&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 0634d6daa6c5939cafeeeff760b0732d34d59594 --&gt;
 </description>
 
 
