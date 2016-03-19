@@ -1,0 +1,21 @@
+[[!meta title="improving the GUI navigation and tests"]]
+
+## Tasks
+
+### Zaki
+
+- Create a table of Evince and Okular menus on the wiki
+-  Write GUI tests using mock document and xvfb [[!template id=github item="project-renard/curie/issues/35"]]
+
+### Stan
+
+- Show number of pages [[!template id=github item="project-renard/curie/issues/21"]]
+
+### Chirag
+
+- Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]] (PR at [[!template id=github item="project-renard/curie/pull/37"]]).
+
+### Zaki
+
+- Refactor Chirag's pull request (issue at [[!template id=github item="project-renard/curie/issues/38"]] and PR at [[!template id=github item="project-renard/curie/pull/39"]]).
+
