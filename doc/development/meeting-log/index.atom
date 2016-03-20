@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-19T20:29:28Z</updated>
+<updated>2016-03-20T06:33:25Z</updated>
 <entry>
 	<title>improving the GUI navigation and tests</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-03-19T20:29:28Z</updated>
+	<updated>2016-03-20T06:33:25Z</updated>
 	<published>2016-03-19T20:29:28Z</published>
 
 	<content type="html" xml:lang="en">
@@ -39,7 +39,9 @@
 
 &lt;ul&gt;
 &lt;li&gt;Create a table of Evince and Okular menus on the wiki&lt;/li&gt;
-&lt;li&gt;Write GUI tests using mock document and xvfb &lt;a href=&quot;https://github.com/project-renard/curie/issues/35&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/35.svg&quot; alt=&quot;project-renard/curie/issues/35&quot; id=&quot;project-renardcurieissues35&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Write GUI tests using mock document and xvfb &lt;a href=&quot;https://github.com/project-renard/curie/issues/35&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/35.svg&quot; alt=&quot;project-renard/curie/issues/35&quot; id=&quot;project-renardcurieissues35&quot; /&gt;&lt;/a&gt;
+(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/41&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/41.svg&quot; alt=&quot;project-renard/curie/pull/41&quot; id=&quot;project-renardcuriepull41&quot; /&gt;&lt;/a&gt;
+)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;stan&quot;&gt;Stan&lt;/h3&gt;
