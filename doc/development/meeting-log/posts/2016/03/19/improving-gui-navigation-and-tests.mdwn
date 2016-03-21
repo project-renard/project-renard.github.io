@@ -17,6 +17,9 @@
 
 - Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]] (PR at [[!template id=github item="project-renard/curie/pull/37"]]).
 
+[[!img gfx/curie-disable-first.png alt="Disable navigation buttons on first page" size="250x"]]
+[[!img gfx/curie-disable-last.png alt="Disable navigation buttons on last page" size="250x"]]
+
 ### Zaki
 
 - Refactor Chirag's pull request (issue at [[!template id=github item="project-renard/curie/issues/38"]] and PR at [[!template id=github item="project-renard/curie/pull/39"]]).
