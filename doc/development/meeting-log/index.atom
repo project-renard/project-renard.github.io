@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-20T18:57:19Z</updated>
+<updated>2016-03-21T00:16:18Z</updated>
 <entry>
 	<title>improving the GUI navigation and tests</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-03-20T18:57:19Z</updated>
+	<updated>2016-03-21T00:16:18Z</updated>
 	<published>2016-03-19T20:29:28Z</published>
 
 	<content type="html" xml:lang="en">
@@ -51,6 +51,8 @@
 (PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/43&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/43.svg&quot; alt=&quot;project-renard/curie/pull/43&quot; id=&quot;project-renardcuriepull43&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/number-of-pages-label.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-number-of-pages-label.png&quot; width=&quot;250&quot; height=&quot;196&quot; alt=&quot;GUI showing the label with the number of pages in a PDF document&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;chirag&quot;&gt;Chirag&lt;/h3&gt;
 
