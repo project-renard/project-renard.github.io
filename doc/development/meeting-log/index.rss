@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2016-03-21T00:16:18Z</dcterms:modified>
+	<dcterms:modified>2016-03-21T00:54:52Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -46,6 +46,9 @@
 (PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/37&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/37.svg&quot; alt=&quot;project-renard/curie/pull/37&quot; id=&quot;project-renardcuriepull37&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on first page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on last page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
 

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-21T00:16:18Z</updated>
+<updated>2016-03-21T00:54:52Z</updated>
 <entry>
 	<title>improving the GUI navigation and tests</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-03-21T00:16:18Z</updated>
+	<updated>2016-03-21T00:54:52Z</updated>
 	<published>2016-03-19T20:29:28Z</published>
 
 	<content type="html" xml:lang="en">
@@ -61,6 +61,9 @@
 (PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/37&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/37.svg&quot; alt=&quot;project-renard/curie/pull/37&quot; id=&quot;project-renardcuriepull37&quot; /&gt;&lt;/a&gt;
 ).&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on first page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on last page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
 

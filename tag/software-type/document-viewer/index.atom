@@ -60,56 +60,6 @@
 
 </entry>
 <entry>
-	<title>Utopia Documents</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-02-29T20:04:53Z</updated>
-	<published>2016-02-19T14:06:37Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -125,7 +75,7 @@
 
 
 	<updated>2016-03-19T20:29:57Z</updated>
-	<published>2016-02-18T13:40:56Z</published>
+	<published>2016-02-19T14:06:37Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -214,6 +164,56 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;TODO&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Utopia Documents</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-02-29T20:04:53Z</updated>
+	<published>2016-02-19T14:06:37Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 
