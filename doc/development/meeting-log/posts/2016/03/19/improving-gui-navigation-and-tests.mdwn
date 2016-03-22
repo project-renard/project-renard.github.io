@@ -32,3 +32,5 @@
 [[!img gfx/curie-perl-critic-fail-3.png caption="Travis-CI: Shows documentation spelling failure" size="250x"]]
 [[!img gfx/curie-perl-critic-success-4.png caption="Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing" size="250x"]]
 
+- Add a compatibility layer for GtkScrolledWindow when using a Gtk+ version less v3.8
+  (issue at [[!template id=github item="project-renard/curie/issues/42"]] and PR at [[!template id=github item="project-renard/curie/pull/48"]])
