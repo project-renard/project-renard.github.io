@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2016-03-21T00:54:52Z</dcterms:modified>
+	<dcterms:modified>2016-03-22T01:59:53Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -37,7 +37,7 @@
 ).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/number-of-pages-label.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-number-of-pages-label.png&quot; width=&quot;250&quot; height=&quot;196&quot; alt=&quot;GUI showing the label with the number of pages in a PDF document&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;GUI showing the label with the number of pages in a PDF document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/number-of-pages-label.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-number-of-pages-label.png&quot; width=&quot;250&quot; height=&quot;196&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;h3 id=&quot;chirag&quot;&gt;Chirag&lt;/h3&gt;
 
@@ -47,16 +47,29 @@
 ).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on first page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; alt=&quot;Disable navigation buttons on last page&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on first page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on last page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Refactor Chirag&#39;s pull request (issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/38&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/38.svg&quot; alt=&quot;project-renard/curie/issues/38&quot; id=&quot;project-renardcurieissues38&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;p&gt;Refactor Chirag&#39;s pull request (issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/38&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/38.svg&quot; alt=&quot;project-renard/curie/issues/38&quot; id=&quot;project-renardcurieissues38&quot; /&gt;&lt;/a&gt;
 and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/39&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/39.svg&quot; alt=&quot;project-renard/curie/pull/39&quot; id=&quot;project-renardcuriepull39&quot; /&gt;&lt;/a&gt;
-).&lt;/li&gt;
+).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check for errors using Perl::Critic and Test::Spelling. This can be used to check for irregular whitespace and spelling errors among other things
+(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/46&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/46.svg&quot; alt=&quot;project-renard/curie/issues/46&quot; id=&quot;project-renardcurieissues46&quot; /&gt;&lt;/a&gt;
+and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/47&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/47.svg&quot; alt=&quot;project-renard/curie/pull/47&quot; id=&quot;project-renardcuriepull47&quot; /&gt;&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows whitespace and code stricture failures&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-1.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-1.png&quot; width=&quot;250&quot; height=&quot;34&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Fix the stricture failures, but whitespace failures remain&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-2.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-2.png&quot; width=&quot;250&quot; height=&quot;27&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows documentation spelling failure&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-3.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-3.png&quot; width=&quot;250&quot; height=&quot;64&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-success-4.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-success-4.png&quot; width=&quot;250&quot; height=&quot;40&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 </description>
 
 
