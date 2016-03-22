@@ -11,16 +11,24 @@
 
 - Show number of pages [[!template id=github item="project-renard/curie/issues/21"]] (PR at [[!template id=github item="project-renard/curie/pull/43"]]).
 
-[[!img gfx/number-of-pages-label.png alt="GUI showing the label with the number of pages in a PDF document" size="250x"]]
+[[!img gfx/number-of-pages-label.png caption="GUI showing the label with the number of pages in a PDF document" size="250x"]]
 
 ### Chirag
 
 - Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]] (PR at [[!template id=github item="project-renard/curie/pull/37"]]).
 
-[[!img gfx/curie-disable-first.png alt="Disable navigation buttons on first page" size="250x"]]
-[[!img gfx/curie-disable-last.png alt="Disable navigation buttons on last page" size="250x"]]
+[[!img gfx/curie-disable-first.png caption="Disable navigation buttons on first page" size="250x"]]
+[[!img gfx/curie-disable-last.png caption="Disable navigation buttons on last page" size="250x"]]
 
 ### Zaki
 
 - Refactor Chirag's pull request (issue at [[!template id=github item="project-renard/curie/issues/38"]] and PR at [[!template id=github item="project-renard/curie/pull/39"]]).
+
+- Check for errors using Perl::Critic and Test::Spelling. This can be used to check for irregular whitespace and spelling errors among other things
+(issue at [[!template id=github item="project-renard/curie/issues/46"]] and PR at [[!template id=github item="project-renard/curie/pull/47"]])
+
+[[!img gfx/curie-perl-critic-fail-1.png caption="Travis-CI: Shows whitespace and code stricture failures" size="250x"]]
+[[!img gfx/curie-perl-critic-fail-2.png caption="Travis-CI: Fix the stricture failures, but whitespace failures remain" size="250x"]]
+[[!img gfx/curie-perl-critic-fail-3.png caption="Travis-CI: Shows documentation spelling failure" size="250x"]]
+[[!img gfx/curie-perl-critic-success-4.png caption="Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing" size="250x"]]
 
