@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2016-03-22T01:59:53Z</dcterms:modified>
+	<dcterms:modified>2016-03-22T23:09:16Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -70,6 +70,13 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/47&quot;
 &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows documentation spelling failure&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-3.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-3.png&quot; width=&quot;250&quot; height=&quot;64&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-success-4.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-success-4.png&quot; width=&quot;250&quot; height=&quot;40&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a compatibility layer for GtkScrolledWindow when using a Gtk+ version less v3.8
+(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/42&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/42.svg&quot; alt=&quot;project-renard/curie/issues/42&quot; id=&quot;project-renardcurieissues42&quot; /&gt;&lt;/a&gt;
+and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/48.svg&quot; alt=&quot;project-renard/curie/pull/48&quot; id=&quot;project-renardcuriepull48&quot; /&gt;&lt;/a&gt;
+)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 
 
