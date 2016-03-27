@@ -13,6 +13,8 @@
 
 [[!img gfx/number-of-pages-label.png caption="GUI showing the label with the number of pages in a PDF document" size="250x"]]
 
+and the corresponding unit tests (issue: [[!template id=git item="project-renard/curie/issues/45"]], PR: [[!template id=git item="project-renard/curie/pull/51"]])
+
 ### Chirag
 
 - Deactivate navigation buttons at start and end of document [[!template id=github item="project-renard/curie/issues/22"]] (PR at [[!template id=github item="project-renard/curie/pull/37"]]).
