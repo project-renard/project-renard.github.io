@@ -8,6 +8,41 @@
 <description>Project Renard</description>
 <item>
 
+	<title>week of 2016-04-02</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
+
+	<pubDate>Sat, 02 Apr 2016 16:47:49 +0000</pubDate>
+	<dcterms:modified>2016-04-02T16:47:49Z</dcterms:modified>
+
+	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
+&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot; alt=&quot;project-renard/devops/issues/4&quot; id=&quot;project-renarddevopsissues4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refactor tests
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Embed AbiWord
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot; alt=&quot;project-renard/curie/issues/57&quot; id=&quot;project-renardcurieissues57&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed Evince
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot; alt=&quot;project-renard/curie/issues/56&quot; id=&quot;project-renardcurieissues56&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>week of 2016-03-27</title>
 
 
