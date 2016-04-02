@@ -1,0 +1,19 @@
+[[!meta title="week of 2016-04-02"]]
+
+## Chirag
+
+- Work on the Vagrant setup: choose a better base box
+  [[!template id=github item="project-renard/devops/issues/4"]]
+- Refactor tests
+  [[!template id=github item="project-renard/curie/issues/58"]]
+- Add the final tests for the keybinding PR
+  [[!template id=github item="project-renard/curie/pull/52"]]
+
+## Zaki
+
+- Embed AbiWord
+  [[!template id=github item="project-renard/curie/issues/57"]]
+- Embed Evince
+  [[!template id=github item="project-renard/curie/issues/56"]]
+
+
