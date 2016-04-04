@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
 	<pubDate>Sat, 02 Apr 2016 16:47:49 +0000</pubDate>
-	<dcterms:modified>2016-04-02T16:47:49Z</dcterms:modified>
+	<dcterms:modified>2016-04-04T14:56:42Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
 
@@ -26,7 +26,10 @@
 &lt;li&gt;&lt;p&gt;Refactor tests
 &lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
-&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot; alt=&quot;project-renard/curie/issues/64&quot; id=&quot;project-renardcurieissues64&quot; /&gt;&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
