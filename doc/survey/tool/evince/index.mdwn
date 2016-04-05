@@ -32,7 +32,29 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
 <tr>
     <td>App.New Window</td>
     <td></td>
-    <td>TODO</td>
+    <td>
+    Creates a new window for opening documents.
+
+    [[`app_new_cb`|https://github.com/GNOME/evince/search?q=app_new_cb]]
+    </td>
+</tr>
+<tr>
+    <td>App.Help</td>
+    <td>F1</td>
+    <td>
+    Shows help for Evince.
+
+    [[`app_help_cb`|https://github.com/GNOME/evince/search?q=app_help_cb]]
+    </td>
+</tr>
+<tr>
+    <td>App.About</td>
+    <td></td>
+    <td>
+    Shows information about the application (license, authors, documenters, translators).
+
+    [[`app_about_cb`|https://github.com/GNOME/evince/search?q=app_about_cb]]
+    </td>
 </tr>
 </table>
 
