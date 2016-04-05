@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-03-19T20:29:57Z</updated>
+<updated>2016-04-05T22:18:43Z</updated>
 <entry>
 	<title>Evince</title>
 
@@ -33,8 +33,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-03-19T20:29:57Z</updated>
-	<published>2016-02-29T20:04:53Z</published>
+	<updated>2016-04-05T22:18:43Z</updated>
+	<published>2016-03-02T05:32:36Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -120,7 +120,29 @@ details features that have been proposed and completed.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;App.New Window&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
-    &lt;td&gt;TODO&lt;/td&gt;
+    &lt;td&gt;
+    Creates a new window for opening documents.
+
+    &lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;`app_new_cb`&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.Help&lt;/td&gt;
+    &lt;td&gt;F1&lt;/td&gt;
+    &lt;td&gt;
+    Shows help for Evince.
+
+    &lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_help_cb&quot;&gt;`app_help_cb`&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.About&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+    Shows information about the application (license, authors, documenters, translators).
+
+    &lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_about_cb&quot;&gt;`app_about_cb`&lt;/a&gt;
+    &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -144,8 +166,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-02-29T20:04:53Z</updated>
-	<published>2016-02-29T20:04:53Z</published>
+	<updated>2016-03-02T05:32:36Z</updated>
+	<published>2016-03-02T05:32:36Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -194,8 +216,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-02-29T20:04:53Z</updated>
-	<published>2016-02-29T20:04:53Z</published>
+	<updated>2016-03-02T05:32:36Z</updated>
+	<published>2016-03-02T05:32:36Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
