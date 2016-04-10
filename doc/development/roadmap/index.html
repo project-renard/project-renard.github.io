@@ -92,56 +92,136 @@ roadmap
 <ul>
 <li>Goal: Should be able to display documents
 <ul>
-<li>Specific types to be able to display</li>
-<li>PDF</li>
-<li>HTML</li>
-<li>EPUB</li>
-<li>XPS</li>
-<li>PostScript</li>
-<li>DjVu</li>
-<li>RTF</li>
-<li>OpenDocument</li>
-<li>Comic book archive (.cbr)</li>
-<li>Videos</li>
+<li>Specific types to be able to display
+    - PDF
+    - HTML
+    - EPUB
+    - XPS
+    - PostScript
+    - DjVu
+    - RTF
+    - OpenDocument
+    - OneNote
+    - Comic book archive (.cbr)
+    - Videos</li>
 </ul></li>
 <li>Goal: Should be able to annotate documents
 <ul>
-<li>Types of annotation targets</li>
-<li>Text (e.g., highlight text linearly or as a block)</li>
-<li>Images (e.g., highlight a region of an image)</li>
-<li>Link to annotations from other documents or annotations</li>
+<li>Types of annotation targets
+    - Document text (e.g., highlight text linearly or as a block)
+    - Document images (e.g., highlight a region of an image)
+    - Other annotations</li>
+<li>Link to annotations from other documents or annotations
+<ul>
 <li>Each annotation should have a unique identifier</li>
 <li>Linking can either be
 <ul>
 <li>a reference (e.g., "see figure 2 in [42") or</li>
-<li>a direct inclusion (e.g., inline display of the figure with a link
-to original document)</li>
+<li>a direct inclusion (e.g., inline display of the figure with a
+link to original document)</li>
+</ul></li>
 </ul></li>
 </ul></li>
 <li>Goal: Should be able to extract information from the document
 <ul>
-<li>Extraction of document structure</li>
-<li>Create a table of contents automatically</li>
-<li>Extraction of bibliographic metadata</li>
+<li>Extraction of document structure
+    - Create a table of contents automatically</li>
+<li>Extraction of bibliographic metadata
+<ul>
 <li>Extract the authors and title of the current document</li>
 <li>Extract the metadata from the References section
 <ul>
-<li>Allow for linking citation in the text (e.g., "in [42]" or "in Smith
-et al, 1999b") to the appropriate reference.</li>
+<li>Allow for linking citation in the text (e.g., "in [42]" or "in
+Smith et al, 1999b") to the appropriate reference.</li>
 </ul></li>
-<li>Extraction of text using optical character recognition</li>
+</ul></li>
+<li>Extraction of text using optical character recognition (OCR)</li>
 <li>Mathematical text should be extracted just as well as prose</li>
-<li>Extraction of text in RTL writing systems should be supported (bidi support)</li>
+<li>Extraction of text in RTL writing systems should be supported (bidi
+support)</li>
+</ul></li>
+<li>Goal: Should be able to search and organise documents
+<ul>
+<li>Full-text search</li>
+<li>Mark document as "To read", "Read", or "Do not read"</li>
+<li>Tagging and folders</li>
+<li>Projects and subprojects</li>
+<li>Faceted search over the bibliographic metadata</li>
+<li>Detect duplicates (sometimes from different sources)
+    - Note that sometimes what appears to the same document by the
+      title are two versions of the same document (e.g., preprint
+      versus journal article)</li>
 </ul></li>
 <li>Goal: should be able to share data
 <ul>
-<li>Data to share</li>
-<li>Documents</li>
-<li>Annotations</li>
+<li>Data to share
+    - Documents
+    - Annotations</li>
 <li>Share across all of a users devices</li>
-<li>Who to share with</li>
-<li>People on the same LAN</li>
-<li>Inside of groups (e.g., with everyone in a journal club)</li>
+<li>Who to share with
+    - People on the same LAN
+    - Inside of groups (e.g., with everyone in a journal club)</li>
+</ul></li>
+<li>Goal: Should be able to read text out loud
+<ul>
+<li>Should be able to read mathematical text</li>
+</ul></li>
+<li>Goal: Notetaking
+<ul>
+<li>Pen-based notetaking</li>
+<li>Handwriting recognition</li>
+<li>Draw notes on top of existing document
+    - Add space between lines or edges to draw more</li>
+</ul></li>
+<li>Goal: Security and privacy
+<ul>
+<li>Easily use Tor for all network access</li>
+<li>Public and private data can live side-by-side
+    - Fine-grained control (e.g., each annotation can be set to be
+      public or private)</li>
+</ul></li>
+<li>Goal: Retrieve documents from online
+<ul>
+<li>Specs
+    - Open Publication Distribution System
+    - SWORD
+    - OpenSearch
+    - OAI-PMH</li>
+<li>Download papers from sites that host papers (e.g., arXiv, PLOS)</li>
+<li>Search papers from</li>
+</ul></li>
+<li>Goal: Flexible document layout (reflowable)
+<ul>
+<li>Turn a two-column document into single column document</li>
+<li>Trim extra margins</li>
+<li>Look into readibility research</li>
+</ul></li>
+<li>Goal: Should be able to present from viewer
+<ul>
+<li>Many tools output PDFs that can be used to view slides.</li>
+<li>Presentations can show different things on each screen:
+    - Slides on the projector
+    - Speaker notes on the monitor</li>
+</ul></li>
+<li>Goal: Retrieve data that is related to the document being read
+<ul>
+<li>For example, look up articles in Wikipedia/Scholarpedia or look up words in the
+dictionary.</li>
+<li>Data such as properties of chemicals, 3D models of proteins, or gene
+pathways.</li>
+</ul></li>
+<li>Goal: Accessibility
+<ul>
+<li>Should be able to use by people with visual impairment (perhaps look at
+DAISY format)</li>
+</ul></li>
+<li>Goal: Keep data on how the user is using the software
+<ul>
+<li>This can be used to give suggestions if it comes across a similar usage.
+For example, if I implemented splitting a document window into panes to
+follow, say code on one page and description of the code on another,
+when I come back to that part, it can show a little tooltip to bring
+back that same view so the user does not have to configure it again.</li>
 </ul></li>
 </ul>
 
@@ -166,7 +246,7 @@ et al, 1999b") to the appropriate reference.</li>
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 10 Apr 2016 01:11:46 PM UTC</span>
+Last edited <span class="date">Sun 10 Apr 2016 07:25:44 PM UTC</span>
 <!-- Created <span class="date">Sun 10 Apr 2016 01:11:46 PM UTC</span> -->
 </div>
 
