@@ -1,44 +1,99 @@
 # Goals
 
 - Goal: Should be able to display documents
-  - Specific types to be able to display
-    - PDF
-    - HTML
-    - EPUB
-    - XPS
-    - PostScript
-    - DjVu
-    - RTF
-    - OpenDocument
-    - Comic book archive (.cbr)
-    - Videos
+      - Specific types to be able to display
+            - PDF
+            - HTML
+            - EPUB
+            - XPS
+            - PostScript
+            - DjVu
+            - RTF
+            - OpenDocument
+            - OneNote
+            - Comic book archive (.cbr)
+            - Videos
 - Goal: Should be able to annotate documents
-  - Types of annotation targets
-    - Text (e.g., highlight text linearly or as a block)
-    - Images (e.g., highlight a region of an image)
-  - Link to annotations from other documents or annotations
-    - Each annotation should have a unique identifier
-    - Linking can either be
-      - a reference (e.g., "see figure 2 in [42") or
-      - a direct inclusion (e.g., inline display of the figure with a link
-        to original document)
+      - Types of annotation targets
+            - Document text (e.g., highlight text linearly or as a block)
+            - Document images (e.g., highlight a region of an image)
+            - Other annotations
+      - Link to annotations from other documents or annotations
+        - Each annotation should have a unique identifier
+        - Linking can either be
+            - a reference (e.g., "see figure 2 in [42") or
+            - a direct inclusion (e.g., inline display of the figure with a
+              link to original document)
 - Goal: Should be able to extract information from the document
-  - Extraction of document structure
-    - Create a table of contents automatically
-  - Extraction of bibliographic metadata
-    - Extract the authors and title of the current document
-    - Extract the metadata from the References section
-      - Allow for linking citation in the text (e.g., "in [42]" or "in Smith
-        et al, 1999b") to the appropriate reference.
-  - Extraction of text using optical character recognition
-  - Mathematical text should be extracted just as well as prose
-  - Extraction of text in RTL writing systems should be supported (bidi support)
+      - Extraction of document structure
+            - Create a table of contents automatically
+      - Extraction of bibliographic metadata
+        - Extract the authors and title of the current document
+        - Extract the metadata from the References section
+            - Allow for linking citation in the text (e.g., "in [42]" or "in
+              Smith et al, 1999b") to the appropriate reference.
+      - Extraction of text using optical character recognition (OCR)
+      - Mathematical text should be extracted just as well as prose
+      - Extraction of text in RTL writing systems should be supported (bidi
+        support)
+- Goal: Should be able to search and organise documents
+      - Full-text search
+      - Mark document as "To read", "Read", or "Do not read"
+      - Tagging and folders
+      - Projects and subprojects
+      - Faceted search over the bibliographic metadata
+      - Detect duplicates (sometimes from different sources)
+            - Note that sometimes what appears to the same document by the
+              title are two versions of the same document (e.g., preprint
+              versus journal article)
 - Goal: should be able to share data
-  - Data to share
-    - Documents
-    - Annotations
-  - Share across all of a users devices
-  - Who to share with
-    - People on the same LAN
-    - Inside of groups (e.g., with everyone in a journal club)
-
+      - Data to share
+            - Documents
+            - Annotations
+      - Share across all of a users devices
+      - Who to share with
+            - People on the same LAN
+            - Inside of groups (e.g., with everyone in a journal club)
+- Goal: Should be able to read text out loud
+      - Should be able to read mathematical text
+- Goal: Notetaking
+      - Pen-based notetaking
+      - Handwriting recognition
+      - Draw notes on top of existing document
+            - Add space between lines or edges to draw more
+- Goal: Security and privacy
+      - Easily use Tor for all network access
+      - Public and private data can live side-by-side
+            - Fine-grained control (e.g., each annotation can be set to be
+              public or private)
+- Goal: Retrieve documents from online
+      - Specs
+            - Open Publication Distribution System
+            - SWORD
+            - OpenSearch
+            - OAI-PMH
+      - Download papers from sites that host papers (e.g., arXiv, PLOS)
+      - Search papers from
+- Goal: Flexible document layout (reflowable)
+      - Turn a two-column document into single column document
+      - Trim extra margins
+      - Look into readibility research
+- Goal: Should be able to present from viewer
+      - Many tools output PDFs that can be used to view slides.
+      - Presentations can show different things on each screen:
+            - Slides on the projector
+            - Speaker notes on the monitor
+- Goal: Retrieve data that is related to the document being read
+      - For example, look up articles in Wikipedia/Scholarpedia or look up words in the
+        dictionary.
+      - Data such as properties of chemicals, 3D models of proteins, or gene
+        pathways.
+- Goal: Accessibility
+      - Should be able to use by people with visual impairment (perhaps look at
+        DAISY format)
+- Goal: Keep data on how the user is using the software
+      - This can be used to give suggestions if it comes across a similar usage.
+        For example, if I implemented splitting a document window into panes to
+        follow, say code on one page and description of the code on another,
+        when I come back to that part, it can show a little tooltip to bring
+        back that same view so the user does not have to configure it again.
