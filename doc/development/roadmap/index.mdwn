@@ -1,0 +1,44 @@
+# Goals
+
+- Goal: Should be able to display documents
+  - Specific types to be able to display
+    - PDF
+    - HTML
+    - EPUB
+    - XPS
+    - PostScript
+    - DjVu
+    - RTF
+    - OpenDocument
+    - Comic book archive (.cbr)
+    - Videos
+- Goal: Should be able to annotate documents
+  - Types of annotation targets
+    - Text (e.g., highlight text linearly or as a block)
+    - Images (e.g., highlight a region of an image)
+  - Link to annotations from other documents or annotations
+    - Each annotation should have a unique identifier
+    - Linking can either be
+      - a reference (e.g., "see figure 2 in [42") or
+      - a direct inclusion (e.g., inline display of the figure with a link
+        to original document)
+- Goal: Should be able to extract information from the document
+  - Extraction of document structure
+    - Create a table of contents automatically
+  - Extraction of bibliographic metadata
+    - Extract the authors and title of the current document
+    - Extract the metadata from the References section
+      - Allow for linking citation in the text (e.g., "in [42]" or "in Smith
+        et al, 1999b") to the appropriate reference.
+  - Extraction of text using optical character recognition
+  - Mathematical text should be extracted just as well as prose
+  - Extraction of text in RTL writing systems should be supported (bidi support)
+- Goal: should be able to share data
+  - Data to share
+    - Documents
+    - Annotations
+  - Share across all of a users devices
+  - Who to share with
+    - People on the same LAN
+    - Inside of groups (e.g., with everyone in a journal club)
+
