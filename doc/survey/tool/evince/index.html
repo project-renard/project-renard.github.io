@@ -163,6 +163,8 @@ details features that have been proposed and completed.</p>
 
 <p>The complete list of menu items is available in the <a href="https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui"><code>evince-menus.ui</code></a> file.</p>
 
+<h3 id="applicationmenus">Application menus</h3>
+
 <table>
 <tr>
     <th>Name</th>
@@ -170,7 +172,7 @@ details features that have been proposed and completed.</p>
     <th>Description</th>
 </tr>
 <tr>
-    <td>App.New Window</td>
+    <td>App.New Window (app.new)</td>
     <td></td>
     <td>
     Creates a new window for opening documents.
@@ -179,7 +181,7 @@ details features that have been proposed and completed.</p>
     </td>
 </tr>
 <tr>
-    <td>App.Help</td>
+    <td>App.Help (app.help)</td>
     <td>F1</td>
     <td>
     Shows help for Evince.
@@ -188,12 +190,332 @@ details features that have been proposed and completed.</p>
     </td>
 </tr>
 <tr>
-    <td>App.About</td>
+    <td>App.About (app.about)</td>
     <td></td>
     <td>
     Shows information about the application (license, authors, documenters, translators).
 
     <a href="https://github.com/GNOME/evince/search?q=app_about_cb">`app_about_cb`</a>
+    </td>
+</tr>
+<tr>
+    <td>View._Continuous (win.continuous)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View._Dual (win.dual-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Side _Pane (win.show-side-pane)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View._Fullscreen (win.fullscreen)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Pre_sentation (win.presentation)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Rotate _Left (win.rotate-left)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Rotate _Right (win.rotate-right)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.First Page (win.go-first-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Previous Page (win.go-previous-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Next Page (win.go-next-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Last Page (win.go-last-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Zoom _In (win.zoom-in)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View.Zoom _Out (win.zoom-out)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View._Odd Pages Left (win.dual-odd-left)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View._Inverted Colors (win.inverted-colors)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View._Reload (win.reload)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Open… (win.open)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.Op_en a Copy (win.open-copy)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Save a Copy… (win.save-copy)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.Send _To… (win.send-to)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.Open Containing _Folder (win.open-containing-folder)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Print… (win.print)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.P_roperties… (win.show-properties)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Copy (win.copy)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.Select _All (win.select-all)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action.Save Current Settings as _Default (win.save-settings)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Add Bookmark (win.add-bookmark)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Action._Close (win.close)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Zoom.Fit Pa_ge (win.sizing-mode, fit-page)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Zoom.Fit _Width (win.sizing-mode, fit-width)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Zoom._Automatic (win.sizing-mode, automatic)</td>
+    <td></td>
+    <td>
+    </td>
+</tr>
+</table>
+
+<h3 id="viewpopupmenu">View popup menu</h3>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Shortcut</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td>View Popup._Open Link (win.open-link)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Copy Link Address (win.copy-link-address)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Go To (win.go-to-link)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Open in New _Window (win.open-link-new-window)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Previous Page (win.go-previous-page)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Next Page (win.go-next-page)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Reload (win.reload)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Auto_scroll (win.auto-scroll)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Copy (win.copy)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Select _All (win.select-all)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Save Image As… (win.save-image)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Copy _Image (win.copy-image)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Open Attachment (win.open-attachment)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup._Save Attachment As… (win.save-attachment)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Annotation Properties… (win.annot-properties)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Remove Annotation (win.remove-annot)</td>  
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>View Popup.Open Containing _Folder (win.open-containing-folder)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+</table>
+
+<h3 id="attachmentspopupmenu">Attachments popup menu</h3>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Shortcut</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td>Attachments Popup._Open Attachment (win.open-attachment)</td> 
+    <td></td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td>Attachments Popup._Save Attachment As… (win.save-attachment)</td> 
+    <td></td>
+    <td>
     </td>
 </tr>
 </table>
@@ -234,8 +556,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 05 Apr 2016 10:18:43 PM UTC</span>
-<!-- Created <span class="date">Mon 07 Mar 2016 03:12:24 AM UTC</span> -->
+Last edited <span class="date">Mon 11 Apr 2016 05:14:38 PM UTC</span>
+<!-- Created <span class="date">Mon 07 Mar 2016 03:17:45 AM UTC</span> -->
 </div>
 
 </div>
