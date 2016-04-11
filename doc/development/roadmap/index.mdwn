@@ -2,17 +2,17 @@
 
 - Goal: Should be able to display documents
       - Specific types to be able to display
-            - PDF
-            - HTML
-            - EPUB
-            - XPS
-            - PostScript
-            - DjVu
-            - RTF
-            - OpenDocument
-            - OneNote
-            - Comic book archive (.cbr)
-            - Videos
+          - PDF
+          - HTML
+          - EPUB
+          - XPS
+          - PostScript
+          - DjVu
+          - RTF
+          - OpenDocument
+          - OneNote
+          - Comic book archive (.cbr)
+          - Videos
 - Goal: Should be able to annotate documents
       - Types of annotation targets
             - Document text (e.g., highlight text linearly or as a block)
