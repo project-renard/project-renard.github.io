@@ -15,23 +15,23 @@
           - Videos
 - Goal: Should be able to annotate documents
       - Types of annotation targets
-            - Document text (e.g., highlight text linearly or as a block)
-            - Document images (e.g., highlight a region of an image)
-            - Other annotations
+          - Document text (e.g., highlight text linearly or as a block)
+          - Document images (e.g., highlight a region of an image)
+          - Other annotations
       - Link to annotations from other documents or annotations
         - Each annotation should have a unique identifier
         - Linking can either be
-            - a reference (e.g., "see figure 2 in [42") or
-            - a direct inclusion (e.g., inline display of the figure with a
-              link to original document)
+          - a reference (e.g., "see figure 2 in [42") or
+          - a direct inclusion (e.g., inline display of the figure with a
+            link to original document)
 - Goal: Should be able to extract information from the document
       - Extraction of document structure
-            - Create a table of contents automatically
+          - Create a table of contents automatically
       - Extraction of bibliographic metadata
         - Extract the authors and title of the current document
         - Extract the metadata from the References section
-            - Allow for linking citation in the text (e.g., "in [42]" or "in
-              Smith et al, 1999b") to the appropriate reference.
+          - Allow for linking citation in the text (e.g., "in [42]" or "in
+            Smith et al, 1999b") to the appropriate reference.
       - Extraction of text using optical character recognition (OCR)
       - Mathematical text should be extracted just as well as prose
       - Extraction of text in RTL writing systems should be supported (bidi
@@ -43,35 +43,35 @@
       - Projects and subprojects
       - Faceted search over the bibliographic metadata
       - Detect duplicates (sometimes from different sources)
-            - Note that sometimes what appears to the same document by the
-              title are two versions of the same document (e.g., preprint
-              versus journal article)
+          - Note that sometimes what appears to the same document by the
+            title are two versions of the same document (e.g., preprint
+            versus journal article)
 - Goal: should be able to share data
       - Data to share
-            - Documents
-            - Annotations
+          - Documents
+          - Annotations
       - Share across all of a users devices
       - Who to share with
-            - People on the same LAN
-            - Inside of groups (e.g., with everyone in a journal club)
+          - People on the same LAN
+          - Inside of groups (e.g., with everyone in a journal club)
 - Goal: Should be able to read text out loud
       - Should be able to read mathematical text
 - Goal: Notetaking
       - Pen-based notetaking
       - Handwriting recognition
       - Draw notes on top of existing document
-            - Add space between lines or edges to draw more
+          - Add space between lines or edges to draw more
 - Goal: Security and privacy
       - Easily use Tor for all network access
       - Public and private data can live side-by-side
-            - Fine-grained control (e.g., each annotation can be set to be
-              public or private)
+          - Fine-grained control (e.g., each annotation can be set to be
+            public or private)
 - Goal: Retrieve documents from online
       - Specs
-            - Open Publication Distribution System
-            - SWORD
-            - OpenSearch
-            - OAI-PMH
+          - Open Publication Distribution System
+          - SWORD
+          - OpenSearch
+          - OAI-PMH
       - Download papers from sites that host papers (e.g., arXiv, PLOS)
       - Search papers from
 - Goal: Flexible document layout (reflowable)
@@ -81,8 +81,8 @@
 - Goal: Should be able to present from viewer
       - Many tools output PDFs that can be used to view slides.
       - Presentations can show different things on each screen:
-            - Slides on the projector
-            - Speaker notes on the monitor
+          - Slides on the projector
+          - Speaker notes on the monitor
 - Goal: Retrieve data that is related to the document being read
       - For example, look up articles in Wikipedia/Scholarpedia or look up words in the
         dictionary.
