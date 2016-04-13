@@ -2,9 +2,10 @@
 
 Issues:
 
-- [[Ready|https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aproject-renard+label%3Aready]] 
+- [[Ready|https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Aproject-renard+label%3Aready]]
 - [[In progress|https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Aproject-renard+label%3A%22in+progress%22]]
-- [[All issues|https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Aproject-renard]]
+- [[All open issues|https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Aproject-renard]]
+- [[pr:requires-review|https://github.com/issues?q=user%3Aproject-renard+label%3Apr%3Arequires-review]]
 
 Issues by repo:
 
