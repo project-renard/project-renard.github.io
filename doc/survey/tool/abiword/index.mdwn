@@ -7,4 +7,6 @@ WikipediaEN: https://en.wikipedia.org/wiki/AbiWord
 ---
 [[!ftemplate id=tool]]
 
-[[AbiWidget|http://www.abisource.com/wiki/AbiWidget]] is an embeddable widget for Gtk+ programs.
+AbiWord is a word processor. It is written using Gtk+3 and provides an
+embeddable widget called [[AbiWidget|http://www.abisource.com/wiki/AbiWidget]]
+that can be loaded into other Gtk+3 applications.
