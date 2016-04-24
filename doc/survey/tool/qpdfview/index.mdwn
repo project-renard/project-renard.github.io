@@ -6,9 +6,11 @@ FileFormat:
   - application/postscript
   - image/vnd.djvu
 ExternalScreenshot: https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png
+Interface: tabbed
 ---
 [[!ftemplate id=tool]]
 
+This viewer is a document viewer that uses tabs to view multiple documents at once.
 
 
 [[!tag software-type/document-viewer]]
