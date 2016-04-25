@@ -1,0 +1,5 @@
+<div class="youtube">
+ <iframe width="445" height="364" 
+     style="border:thick ridge #222222;" allowfullscreen=""
+     src="http://www.youtube-nocookie.com/embed/<TMPL_VAR raw_v>?rel=0"></iframe>
+</div>
