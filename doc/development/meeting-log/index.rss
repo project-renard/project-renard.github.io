@@ -77,6 +77,52 @@
 </item>
 <item>
 
+	<title>testing and planning features</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
+
+	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
+
+	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot; alt=&quot;project-renard/curie/pull/33&quot; id=&quot;project-renardcuriepull33&quot; /&gt;&lt;/a&gt;
+to address
+issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot; alt=&quot;project-renard/curie/issues/28&quot; id=&quot;project-renardcurieissues28&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: Show number of pages
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>improving the GUI navigation and tests</title>
 
 
@@ -154,52 +200,6 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 </item>
 <item>
 
-	<title>testing and planning features</title>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
-
-	<pubDate>Sat, 19 Mar 2016 20:29:17 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
-
-	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
-continuous integration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot; alt=&quot;project-renard/curie/pull/33&quot; id=&quot;project-renardcuriepull33&quot; /&gt;&lt;/a&gt;
-to address
-issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot; alt=&quot;project-renard/curie/issues/28&quot; id=&quot;project-renardcurieissues28&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Adding Travis-CI support:
-    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
-(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Stan: Show number of pages
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>refactoring recent GUI additions</title>
 
 
@@ -208,7 +208,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -240,7 +240,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -270,7 +270,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -402,7 +402,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -516,7 +516,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-03-19T20:29:17Z</dcterms:modified>
+	<dcterms:modified>2016-03-19T20:29:28Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
