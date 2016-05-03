@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-03T07:10:12Z</updated>
+<updated>2016-05-03T18:04:53Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor (now with New Debugging Flavour!)</title>
 
@@ -29,13 +29,13 @@
 
 
 
-	<updated>2016-05-03T07:10:12Z</updated>
+	<updated>2016-05-03T18:04:53Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows,
+	&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
-require native libaries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
+require native libraries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
 can install the native libraries and link against them.&lt;/p&gt;
 
 &lt;p&gt;The following steps show how to install the dependencies along with how I ended
@@ -57,6 +57,17 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 &quot;&quot;&quot;]]&lt;/p&gt;
 
 &lt;h2 id=&quot;buildingonappveyor&quot;&gt;Building on Appveyor&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:portability&quot;&gt;&lt;p&gt;Portability is important to writing robust software and
+eventually curie will have an installer of Windows, so it is best to address
+any issues early through continuous integration.&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fnref:portability&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
 
 	</content>
 
@@ -117,8 +128,8 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
-	<published>2016-03-31T16:24:06Z</published>
+	<updated>2016-03-31T16:25:42Z</updated>
+	<published>2016-03-31T16:25:42Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -168,8 +179,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
-	<published>2016-03-31T16:24:06Z</published>
+	<updated>2016-03-31T16:25:42Z</updated>
+	<published>2016-03-31T16:25:42Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -204,8 +215,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
-	<published>2016-03-31T16:24:06Z</published>
+	<updated>2016-03-31T16:25:42Z</updated>
+	<published>2016-03-31T16:25:42Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -286,7 +297,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
+	<updated>2016-03-31T16:25:42Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -323,7 +334,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
+	<updated>2016-03-31T16:25:42Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -358,7 +369,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
+	<updated>2016-03-31T16:25:42Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -495,7 +506,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
+	<updated>2016-03-31T16:25:42Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -614,7 +625,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-03-31T16:24:06Z</updated>
+	<updated>2016-03-31T16:25:42Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">

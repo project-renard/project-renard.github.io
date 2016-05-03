@@ -107,9 +107,9 @@ meeting-log
 </div>
 
 <div class="inlinecontent">
-<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows,
+<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows<a href="#fn:portability" id="fnref:portability" class="footnote">1</a>,
 we need to build the various Perl dependencies. These Perl dependencies in turn
-require native libaries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
+require native libraries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
 can install the native libraries and link against them.</p>
 
 <p>The following steps show how to install the dependencies along with how I ended
@@ -131,6 +131,17 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 """]]</p>
 
 <h2 id="buildingonappveyor">Building on Appveyor</h2>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:portability"><p>Portability is important to writing robust software and
+eventually curie will have an installer of Windows, so it is best to address
+any issues early through continuous integration.<a href="#fnref:portability" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
 
 </div>
 
@@ -275,7 +286,7 @@ issue <a href="https://github.com/project-renard/curie/issues/28"><img src="http
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span>
+Posted <span class="date">Thu 31 Mar 2016 04:25:42 PM UTC</span>
 </span>
 
 
@@ -333,7 +344,7 @@ Posted <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span>
+Posted <span class="date">Thu 31 Mar 2016 04:25:42 PM UTC</span>
 </span>
 
 
@@ -437,7 +448,7 @@ and PR at <a href="https://github.com/project-renard/curie/pull/48"><img src="ht
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span>
+Posted <span class="date">Thu 31 Mar 2016 04:25:42 PM UTC</span>
 </span>
 
 
@@ -1038,8 +1049,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span>
-<!-- Created <span class="date">Thu 31 Mar 2016 04:24:06 PM UTC</span> -->
+Last edited <span class="date">Thu 31 Mar 2016 04:25:42 PM UTC</span>
+<!-- Created <span class="date">Thu 31 Mar 2016 04:25:42 PM UTC</span> -->
 </div>
 
 </div>
