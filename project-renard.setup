@@ -49,6 +49,7 @@ add_plugins:
 - ymlfront
 - ftemplate
 - github
+- format
 - highlight
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
