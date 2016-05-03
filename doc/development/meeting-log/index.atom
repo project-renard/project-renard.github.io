@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-03T03:47:24Z</updated>
+<updated>2016-05-03T04:17:36Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor (now with New Debugging Flavour!)</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-05-03T03:47:24Z</updated>
+	<updated>2016-05-03T04:17:36Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -51,7 +51,7 @@ into the &lt;code&gt;C:\msys64&lt;/code&gt; directory.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Use the pacman manager to update the package database and install the build toolchain:&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;[[[!format  shell
+&lt;p&gt;[[[!format  txt
 pacman -Syu
 pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
 ]]]&lt;/p&gt;
@@ -153,8 +153,8 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
-	<published>2016-03-22T01:59:53Z</published>
+	<updated>2016-03-22T23:09:16Z</updated>
+	<published>2016-03-22T23:09:16Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -205,7 +205,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<updated>2016-03-27T18:10:00Z</updated>
-	<published>2016-03-22T01:59:53Z</published>
+	<published>2016-03-22T23:09:16Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -286,7 +286,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
+	<updated>2016-03-22T23:09:16Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -323,7 +323,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
+	<updated>2016-03-22T23:09:16Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -358,7 +358,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
+	<updated>2016-03-22T23:09:16Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -495,7 +495,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
+	<updated>2016-03-22T23:09:16Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -614,7 +614,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-03-22T01:59:53Z</updated>
+	<updated>2016-03-22T23:09:16Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">
