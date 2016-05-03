@@ -1,8 +1,8 @@
 [[!meta title="Windows build with MSYS2: locally and on Appveyor (now with New Debugging Flavour!)"]]
 
-In order to build [[curie|https://github.com/project-renard/curie]] on Windows,
+In order to build [[curie|https://github.com/project-renard/curie]] on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
-require native libaries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
+require native libraries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
 can install the native libraries and link against them.
 
 The following steps show how to install the dependencies along with how I ended
@@ -24,3 +24,7 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 """]]
 
 ## Building on Appveyor
+
+[^portability]: Portability is important to writing robust software and
+eventually curie will have an installer of Windows, so it is best to address
+any issues early through continuous integration.
