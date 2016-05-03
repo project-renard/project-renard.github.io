@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2016-05-03T04:35:46Z</dcterms:modified>
+	<dcterms:modified>2016-05-03T07:10:12Z</dcterms:modified>
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -36,10 +36,10 @@ into the &lt;code&gt;C:\msys64&lt;/code&gt; directory.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Use the pacman manager to update the package database and install the build toolchain:&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;[[!format  shell
+&lt;p&gt;[[!format  sh &quot;&quot;&quot;
 pacman -Syu
 pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
-]]&lt;/p&gt;
+&quot;&quot;&quot;]]&lt;/p&gt;
 
 &lt;h2 id=&quot;buildingonappveyor&quot;&gt;Building on Appveyor&lt;/h2&gt;
 </description>
@@ -86,37 +86,6 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 </item>
 <item>
 
-	<title>week of 2016-03-27</title>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
-
-	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
-
-	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot; alt=&quot;project-renard/curie/pull/53&quot; id=&quot;project-renardcuriepull53&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot; alt=&quot;project-renard/curie/issues/31&quot; id=&quot;project-renardcurieissues31&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot; alt=&quot;project-renard/devops/issues/2&quot; id=&quot;project-renarddevopsissues2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot; alt=&quot;project-renard/devops/pull/3&quot; id=&quot;project-renarddevopspull3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot; alt=&quot;project-renard/curie/issues/27&quot; id=&quot;project-renardcurieissues27&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; id=&quot;project-renardproject-renard.github.ioissues5&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>testing and planning features</title>
 
 
@@ -124,8 +93,8 @@ pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make pat
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Sun, 27 Mar 2016 18:10:00 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -163,6 +132,37 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 </item>
 <item>
 
+	<title>week of 2016-03-27</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
+
+	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
+
+	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot; alt=&quot;project-renard/curie/pull/53&quot; id=&quot;project-renardcuriepull53&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot; alt=&quot;project-renard/curie/issues/31&quot; id=&quot;project-renardcurieissues31&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot; alt=&quot;project-renard/devops/issues/2&quot; id=&quot;project-renarddevopsissues2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot; alt=&quot;project-renard/devops/pull/3&quot; id=&quot;project-renarddevopspull3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot; alt=&quot;project-renard/curie/issues/27&quot; id=&quot;project-renardcurieissues27&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; id=&quot;project-renardproject-renard.github.ioissues5&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>improving the GUI navigation and tests</title>
 
 
@@ -170,8 +170,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
-	<pubDate>Sun, 27 Mar 2016 18:10:00 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -248,7 +248,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -280,7 +280,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -310,7 +310,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -442,7 +442,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -556,7 +556,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-03-27T18:10:00Z</dcterms:modified>
+	<dcterms:modified>2016-03-27T18:16:04Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
