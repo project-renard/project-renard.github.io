@@ -18,7 +18,7 @@ architecture) throughout.
 
 3. Use the pacman manager to update the package database and install the build toolchain:
 
-[[!format shell
+[[!format txt
 pacman -Syu
 pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
 ]]
