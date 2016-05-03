@@ -125,10 +125,9 @@ into the <code>C:\msys64</code> directory.</p></li>
 <li><p>Use the pacman manager to update the package database and install the build toolchain:</p></li>
 </ol>
 
-<p>[[!format  sh """
-pacman -Syu
-pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
-"""]]</p>
+<pre class="hl">pacman <span class="hl opt">-</span>Syu
+pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
+</pre>
 
 <h2 id="buildingonappveyor">Building on Appveyor</h2>
 
