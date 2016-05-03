@@ -49,6 +49,7 @@ add_plugins:
 - ymlfront
 - ftemplate
 - github
+- highlight
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
