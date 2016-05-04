@@ -128,17 +128,20 @@ architecture) throughout.</p>
    Use the <a href="https://www.archlinux.org/pacman/pacman.8.html">pacman</a> package
    manager to update the package database and install the build toolchain.
 
+   <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
 
    <span class="hl slc"># Install compiler and build configuration tools</span>
    pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
 
 </pre>
+   </p>
 </li>
 
 <li>
    Install the native dependencies.
 
+   <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gobject<span class="hl opt">-</span>introspection \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>cairo \
@@ -147,18 +150,22 @@ architecture) throughout.</p>
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>openssl
 
 </pre>
+   </p>
 </li>
 
 <li>
    Install Perl and cpanm
 
+   <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl
    <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
 
 </pre>
+   </p>
 
    However, we ecounter a problem with this last command.
 
+   <p>
    <pre>   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
    Checking if your kit is complete...
    Looks good
@@ -179,21 +186,27 @@ architecture) throughout.</p>
      MIYAGAWA/App-cpanminus-1.7040.tar.gz
      dmake -- NOT OK
    </pre>
+   </p>
 
    The important line here is
 
+   <p>
    <pre>   'pl2bat.bat' is not recognized as an internal or external command,
    </pre>
+   </p>
 
    It tries to using <code>pl2bat.bat</code> to install the <code>cpanm</code>
    script, but it is missing. Let's take a look:
 
+   <p>
    <pre>   $ which pl2bat.bat
    which: no pl2bat.bat in (...)
    </pre>
+   </p>
 
    OK, so it is not there. What about without the <code>.bat</code> extension?
 
+   <p>
    <pre>   # Where is pl2bat?
    $ which pl2bat
    /mingw64/bin/pl2bat
@@ -202,6 +215,7 @@ architecture) throughout.</p>
    $ head -1 $(which pl2bat)
    #!perl -w
    </pre>
+   </p>
 
    OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
 
@@ -221,24 +235,30 @@ architecture) throughout.</p>
    the conversion, but that file was not converted itself! To do that we find the
    path for the <code>pl2bat</code> file and run <code>pl2bat</code> on it.
 
+   <p>
    <pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
 
 </pre>
+   </p>
 
    We can then install <code>cpanm</code> as before and it works.
 
+   <p>
    <pre class="hl">   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
 
 </pre>
+   </p>
 </li>
 
 <li>
    Install the Perl dependencies for curie itself by running the following in a copy of the
    <code>curie</code> repository:
 
+   <p>
    <pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
 
 </pre>
+   </p>
 
    This reads the <code>cpanfile</code> which lists the Perl prerequisites for
    the project and installs everything needed to build, run, and test the code.
@@ -246,6 +266,7 @@ architecture) throughout.</p>
    But we hit an issue here when it attempts to install Gtk3 and in turn
    its dependency Glib.
 
+   <p>
    <pre>   $ cpanm -f Glib
    --&gt; Working on Glib
    Fetching http://www.cpan.org/authors/id/X/XA/XAOC/Glib-1.321.tar.gz ... OK
@@ -253,9 +274,11 @@ architecture) throughout.</p>
    Building and testing Glib-1.321 ... ! Installing Glib failed. See C:\msys64\...\build.log for details. Retry with --force to force install it.
    FAIL
    </pre>
+   </p>
 
    Let's take a closer look at what is happening with Glib by adding the <code>--verbose</code> flag:
 
+   <p>
    <pre>   $ cpanm --verbose Glib
    # [ redacted configuration output ]
    # [ redacted compilation output ]
@@ -304,6 +327,7 @@ architecture) throughout.</p>
    C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1ff8): undefined reference to `pcre_fullinfo'
    C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x2028): undefined reference to `pcre_fullinfo
    </pre>
+   </p>
 
    OK, that's a lot of errors. Seems that the linker phase (<code>ld</code>)
    has failed to find several function names in the <code>libglib-2.0.a</code> and
@@ -328,6 +352,7 @@ architecture) throughout.</p>
    flags to be for <code>libglib</code> and <code>libgobject</code> by using
    the <code>pkg-config</code> command:
 
+   <p>
    <pre>   # Find the name of the glib and gobject library packages
    $ pkg-config --list-all | grep glib\|gobject
    glib-2.0                            GLib - C Utility Library
@@ -337,6 +362,7 @@ architecture) throughout.</p>
    $ pkg-config --libs glib-2.0 gobject-2.0
    -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl
    </pre>
+   </p>
 
    OK, that looks reasonable. But we see the above errors refer to functions
    that are prefixed with <code>ffi_</code> and <code>pcre_</code>. The
@@ -349,14 +375,30 @@ architecture) throughout.</p>
    We can try to get the linker flags for static linking by adding the
    <code>--static</code> flag to <code>pkg-config</code>
 
+   <p>
    <pre>   # Get the static linker flags
    $ pkg-config --static --libs glib-2.0 gobject-2.0
    -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/../lib -LC:/msys64/mingw64/lib -lgobject-2.0 -lffi -lglib-2.0 -lintl -pthread -lws2_32 -lole32 -lwinmm -lshlwapi -lpcre -lintl -lpcre
-   """]
+   </pre>
+   </p>
 
    Ah, there we go! Let's compare this to what the Glib module uses when linking:
 
-   [[!format txt </pre>
+   <p>
+   <pre>   # Drop into the Glib installation directory
+   $ cpanm --look Glib
+
+   # Generate the Makefile
+   Glib-1.321 $ perl Makefile.PL verbose
+   # [ redacted output ]
+   Potential libraries are '-LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -pthread -lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32':
+   # [ redacted output ]
+   Result: "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
+   Generating a dmake-style Makefile
+   Writing Makefile for Glib
+   Writing MYMETA.yml and MYMETA.json
+   </pre>
+   </p>
 
    OK, wait, what's this? We get the list of dynamic linker flags where it says
    "Potential libraries", but when it says "Result:", a couple of those flags
@@ -365,7 +407,7 @@ architecture) throughout.</p>
    <code><a href="https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO">NOECHO</a></code>
    flag to see what is going on:
 
-
+   <p>
    <pre>   Glib-1.321 $ dmake NOECHO=''
    # [ redacted output ] 
    [ LD blib\arch\auto\Glib\Glib.dll ]
@@ -375,25 +417,30 @@ architecture) throughout.</p>
    Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version'
    # [ rest of the linker errors as before ]
    </pre>
+   </p>
 
    OK, so here we see that all the dynamic linker flags are using the full
    paths to the <code>.a</code> files. Let's take a look at how
    <code>Makefile.PL</code> passes on this information to the <code>Makefile</code>
 
+   <p>
    <pre>   Glib-1.321 $ grep libgobject-2.0.a Makefile
    EXTRALIBS = "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
    LDLOADLIBS = "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
    # EXTRALIBS =&gt; q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
    # LDLOADLIBS =&gt; q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
    </pre>]
+   </p>
 
-   So it appears that <code>ExtUtils::MakeMaker</code> is setting the EXTRALIB
-   and LDLOADLIBS variables. Let's try setting them ourselves to the output of
+   So it appears that <code>ExtUtils::MakeMaker</code> is setting the <code>EXTRALIBS</code>
+   and <code>LDLOADLIBS</code> variables. Let's try setting them ourselves to the output of
    <code>pkg-config</code>:
 
+   <p>
    <pre>   Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
    Glib-1.321 $ dmake NOECHO='' LDLOADLIBS="$GLIB_PKG_CONFIG" EXTRALIBS="$GLIB_PKG_CONFIG"
    </pre>
+   </p>
 
    It built successfully! This means that there is a problem with using the
    full path to the <code>.a</code> files. We need to see why
@@ -429,6 +476,7 @@ architecture) throughout.</p>
    So if we but <code>:nosearch</code> in the <a href="https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS">LIBS parameter</a> of the function
    that generates the <code>Makefile</code>, (i.e., <code>WriteMakefile</code>). Let's try that
 
+   <p>
    <pre>   $ cpanm --look Glib
    Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
    Glib-1.321 $ perl Makefile.PL LIBS=":nosearch $GLIB_PKG_CONFIG" verbose
@@ -438,6 +486,7 @@ architecture) throughout.</p>
    # [ remove extra output ]
    Glib-1.321 $ dmake NOECHO=''
    </pre>
+   </p>
 
    Hey, it's working!
 
@@ -454,9 +503,11 @@ architecture) throughout.</p>
    with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
    <code>:nosearch</code> into the <code>LIBS</code> parameter:
 
+   <p>
    <pre>   perl -Maliased=ExtUtils::MakeMaker,EUMM \
      -e 'my $i = EUMM-&gt;can("import"); no warnings "redefine"; *ExtUtils::MakeMaker::import = sub { &amp;$i; my $targ = caller; my $wm = $targ-&gt;can("WriteMakefile"); *{"${targ}::WriteMakefile"} = sub { my %args = @_; $args{LIBS} =~ s/^/:nosearch /; $wm-&gt;(%args) }; }; do "Makefile.PL" or die "Hack failed: $@"'
    </pre>
+   </p>
 
    Yes, that is one line and it does work!
 </li>
@@ -512,7 +563,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 04 May 2016 07:00:29 PM UTC</span>
+Last edited <span class="date">Wed 04 May 2016 07:09:11 PM UTC</span>
 <!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
 </div>
 
