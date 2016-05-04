@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-04T21:33:28Z</updated>
+<updated>2016-05-04T22:14:22Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-05-04T21:33:28Z</updated>
+	<updated>2016-05-04T22:14:22Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -44,6 +44,9 @@ are useful months later when I forget how or why I did things.&lt;/p&gt;
 
 &lt;p&gt;The following will be assuming 64-bit Windows (x86-64
 architecture) throughout.&lt;/p&gt;
+
+&lt;p&gt;For those who just want to see the final code, go to the PR
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/86&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;buildinglocally&quot;&gt;Building locally&lt;/h2&gt;
 
@@ -970,7 +973,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
 
 &lt;p&gt;&lt;/ol&gt;&lt;/p&gt;
 
-&lt;p&gt;The full pull request for this Appveyor configuration is available at
+&lt;p&gt;The full pull request for this Appveyor configuration is available
 &lt;a href=&quot;https://github.com/project-renard/curie/pull/86&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
@@ -1000,8 +1003,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
-	<published>2016-04-11T17:34:45Z</published>
+	<updated>2016-04-11T17:34:46Z</updated>
+	<published>2016-04-11T17:34:46Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -1043,8 +1046,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
-	<published>2016-04-11T17:34:45Z</published>
+	<updated>2016-04-11T17:34:46Z</updated>
+	<published>2016-04-11T17:34:46Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -1094,8 +1097,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
-	<published>2016-04-11T17:34:45Z</published>
+	<updated>2016-04-11T17:34:46Z</updated>
+	<published>2016-04-11T17:34:46Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1130,8 +1133,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
-	<published>2016-04-11T17:34:45Z</published>
+	<updated>2016-04-11T17:34:46Z</updated>
+	<published>2016-04-11T17:34:46Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1212,7 +1215,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
+	<updated>2016-04-11T17:34:46Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1249,7 +1252,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
+	<updated>2016-04-11T17:34:46Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1284,7 +1287,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
+	<updated>2016-04-11T17:34:46Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1421,7 +1424,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
+	<updated>2016-04-11T17:34:46Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1540,7 +1543,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-04-11T17:34:45Z</updated>
+	<updated>2016-04-11T17:34:46Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">
