@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2016-05-04T02:31:33Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T02:41:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -33,25 +33,32 @@ architecture) throughout.&lt;/p&gt;
 &lt;h2 id=&quot;buildinglocally&quot;&gt;Building locally&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Install &lt;a href=&quot;https://msys2.github.io/&quot;&gt;MSYS2&lt;/a&gt;. This is a straightforward install
-into the &lt;code&gt;C:\msys64&lt;/code&gt; directory.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Start the &quot;MinGW-w64 Win64 Shell&quot; from the Start Menu. This shell sets up
-the proper environment variables needed to use 64-bit libraries for the
-MinGW64 system.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Use the &lt;a href=&quot;https://www.archlinux.org/pacman/pacman.8.html&quot;&gt;pacman&lt;/a&gt; package
-manager to update the package database and install the build toolchain.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu
+&lt;li&gt;
+   Install [MSYS2](https://msys2.github.io/). This is a straightforward install
+   into the `C:\msys64` directory.
+&lt;/li&gt;
+
+&lt;li&gt;
+   Start the &quot;MinGW-w64 Win64 Shell&quot; from the Start Menu. This shell sets up
+   the proper environment variables needed to use 64-bit libraries for the
+   MinGW64 system.
+&lt;/li&gt;
+
+&lt;li&gt;
+   Use the &lt;a href=&quot;https://www.archlinux.org/pacman/pacman.8.html&quot;&gt;pacman&lt;/a&gt; package
+   manager to update the package database and install the build toolchain.
+
+   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu
    pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;toolchain autoconf automake libtool &lt;span class=&quot;hl kwc&quot;&gt;make patch&lt;/span&gt; mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;libtool
 
 &lt;/pre&gt;
+&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Install the native dependencies.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;
+   Install the native dependencies.
 
-&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
+   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gobject&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;introspection \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;cairo \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gtk3 \
@@ -59,20 +66,20 @@ manager to update the package database and install the build toolchain.&lt;/p&gt
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;openssl
 
 &lt;/pre&gt;
+&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Install Perl and cpanm&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;
+   Install Perl and cpanm
 
-&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl
+   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl
    &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
 
 &lt;/pre&gt;
 
-&lt;p&gt;However, we ecounter a problem with this last command. It tries to using
-   &lt;code&gt;pl2bat.bat&lt;/code&gt; to install the &lt;code&gt;cpanm&lt;/code&gt; script, but for some reason we see the following error:&lt;/p&gt;
+   However, we ecounter a problem with this last command. It tries to using
+   `pl2bat.bat` to install the `cpanm` script, but for some reason we see the following error:
 
-&lt;pre&gt;   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
+   &lt;pre&gt;   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
    Checking if your kit is complete...
    Looks good
    Generating a dmake-style Makefile
@@ -93,38 +100,41 @@ manager to update the package database and install the build toolchain.&lt;/p&gt
      dmake -- NOT OK
    &lt;/pre&gt;
 
-&lt;p&gt;The important line here is&lt;/p&gt;
+   The important line here is
 
-&lt;pre&gt;   &#39;pl2bat.bat&#39; is not recognized as an internal or external command,
+   &lt;pre&gt;   &#39;pl2bat.bat&#39; is not recognized as an internal or external command,
    &lt;/pre&gt;
 
-&lt;p&gt;The &lt;code&gt;pl2bat&lt;/code&gt; command is a tool that is used on Windows in order to allow for
+   The `pl2bat` command is a tool that is used on Windows in order to allow for
    running Perl scripts without having to specify that they must run under Perl.
-   So instead of having to type &lt;code&gt;perl myscript&lt;/code&gt; to run code in the &lt;code&gt;myscript&lt;/code&gt;
-   file, we can just type &lt;code&gt;myscript&lt;/code&gt; and run it as if it was just another
+   So instead of having to type `perl myscript` to run code in the `myscript`
+   file, we can just type `myscript` and run it as if it was just another
    executable. This works by wrapping the original code and placing it into a
-   Windows batch file that calls the Perl interpreter on the same file.&lt;/p&gt;
+   Windows batch file that calls the Perl interpreter on the same file.
 
-&lt;p&gt;It turns out that MSYS2 has the Perl script &lt;code&gt;pl2bat&lt;/code&gt; which does the conversion,
+   It turns out that MSYS2 has the Perl script `pl2bat` which does the conversion,
    but that file was not converted itself! To do that we find the path for the
-   &lt;code&gt;pl2bat&lt;/code&gt; file and run &lt;code&gt;pl2bat&lt;/code&gt; on it.&lt;/p&gt;
+   `pl2bat` file and run `pl2bat` on it.
 
-&lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
+   &lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
 
 &lt;/pre&gt;
 
-&lt;p&gt;We can then install &lt;code&gt;cpanm&lt;/code&gt; as before.&lt;/p&gt;
+   We can then install `cpanm` as before.
+&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Install the Perl dependencies for curie itself by running the following the
-&lt;code&gt;curie&lt;/code&gt; repository:&lt;/li&gt;
+&lt;li&gt;
+   Install the Perl dependencies for curie itself by running the following the
+   `curie` repository:
+
+   &lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;verbose &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
+
+&lt;/pre&gt;
+
+   This reads the `cpanfile` which lists the Perl prerequisites for the project.
+&lt;/li&gt;
+
 &lt;/ol&gt;
-
-&lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;verbose &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
-
-&lt;/pre&gt;
-
-&lt;p&gt;This reads the &lt;code&gt;cpanfile&lt;/code&gt; which lists the Perl prerequisites for the project.&lt;/p&gt;
 
 &lt;h2 id=&quot;buildingonappveyor&quot;&gt;Building on Appveyor&lt;/h2&gt;
 
@@ -151,8 +161,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
-	<pubDate>Tue, 05 Apr 2016 22:18:43 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
 
@@ -189,8 +199,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Tue, 05 Apr 2016 22:18:43 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -235,8 +245,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
 
-	<pubDate>Tue, 05 Apr 2016 22:18:43 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -266,8 +276,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
-	<pubDate>Tue, 05 Apr 2016 22:18:43 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -344,7 +354,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -376,7 +386,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -406,7 +416,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -538,7 +548,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -652,7 +662,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-04-05T22:18:43Z</dcterms:modified>
+	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 

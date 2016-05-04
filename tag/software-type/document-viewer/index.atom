@@ -92,64 +92,6 @@
 
 </entry>
 <entry>
-	<title>PDF.js</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-04-07T18:24:35Z</updated>
-	<published>2016-04-06T11:39:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -165,7 +107,7 @@
 
 
 	<updated>2016-04-13T12:57:45Z</updated>
-	<published>2016-04-05T22:18:43Z</published>
+	<published>2016-04-06T11:39:00Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -605,6 +547,64 @@ details features that have been proposed and completed.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>PDF.js</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-04-07T18:24:35Z</updated>
+	<published>2016-04-06T11:39:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Utopia Documents</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
@@ -619,8 +619,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-05T22:18:43Z</updated>
-	<published>2016-04-05T22:18:43Z</published>
+	<updated>2016-04-06T11:39:00Z</updated>
+	<published>2016-04-06T11:39:00Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -669,8 +669,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-05T22:18:43Z</updated>
-	<published>2016-04-05T22:18:43Z</published>
+	<updated>2016-04-06T11:39:00Z</updated>
+	<published>2016-04-06T11:39:00Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
