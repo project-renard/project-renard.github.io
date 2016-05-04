@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-04T21:17:42Z</updated>
+<updated>2016-05-04T21:26:27Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-05-04T21:17:42Z</updated>
+	<updated>2016-05-04T21:26:27Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -522,6 +522,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
 
+  &lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; off
 
   &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;
@@ -557,20 +558,15 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM Native deps&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gobject&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;introspection mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;cairo mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gtk3 mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;expat mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;openssl&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Information about the toolchain&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; perl&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a perl&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; perl &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;V&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;cp &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; gcc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a gcc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; gcc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; ld&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a ld&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; ld &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;V&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM Install via cpanfile&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;  )&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;  
 &lt;/pre&gt;
+  &lt;/p&gt;
 
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let&#39;s talk about what is new.
@@ -579,12 +575,14 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;li&gt;
   Let&#39;s start with the part that installs the dependencies:
 
+  &lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh
   export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;
   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
 &lt;/pre&gt;
+  &lt;/p&gt;
 
   First, we need to be in the directory for the project we want to build
   (stored in the &lt;code&gt;$APPVEYOR_BUILD_FOLDER&lt;/code&gt; environment variable).
@@ -610,6 +608,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
    This Perl module is only run when the script being run is the configuration
    step of &lt;code&gt;ExtUtils::MakeMaker&lt;/code&gt;:
 
+   &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;EUMMnosearch&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
    &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
@@ -651,6 +650,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
 &lt;/pre&gt;
+   &lt;/p&gt;
 
    There are a couple changes to the function that overrides &lt;code&gt;WriteMakefile&lt;/code&gt;.
 
@@ -760,7 +760,8 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;code&gt;gcc&lt;/code&gt;. To check this, I ran the following on Appveyor:
 
    &lt;p&gt;
-   &lt;pre&gt;   $ which -a cc; cc -v
+   &lt;pre&gt;   # Information about the toolchain
+   $ which -a cc; cc -v
    /usr/bin/cc
    /bin/cc
    /usr/bin/cc
@@ -850,8 +851,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
-	<published>2016-04-11T01:02:07Z</published>
+	<updated>2016-04-11T17:14:38Z</updated>
+	<published>2016-04-11T17:14:38Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -893,8 +894,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
-	<published>2016-04-11T01:02:07Z</published>
+	<updated>2016-04-11T17:14:38Z</updated>
+	<published>2016-04-11T17:14:38Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -944,8 +945,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
-	<published>2016-04-11T01:02:07Z</published>
+	<updated>2016-04-11T17:14:38Z</updated>
+	<published>2016-04-11T17:14:38Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -980,8 +981,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
-	<published>2016-04-11T01:02:07Z</published>
+	<updated>2016-04-11T17:14:38Z</updated>
+	<published>2016-04-11T17:14:38Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1062,7 +1063,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
+	<updated>2016-04-11T17:14:38Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1099,7 +1100,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
+	<updated>2016-04-11T17:14:38Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1134,7 +1135,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
+	<updated>2016-04-11T17:14:38Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1271,7 +1272,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
+	<updated>2016-04-11T17:14:38Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1390,7 +1391,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-04-11T01:02:07Z</updated>
+	<updated>2016-04-11T17:14:38Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">

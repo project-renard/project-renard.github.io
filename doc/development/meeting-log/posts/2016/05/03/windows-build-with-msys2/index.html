@@ -586,6 +586,7 @@ can only run commands every 20 minutes!</p>
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
 
+  <p>
   <pre class="hl">  &#64;<span class="hl kwb">echo</span> off
 
   <span class="hl kwb">cd</span> <span class="hl kwc">%APPVEYOR_BUILD_FOLDER%</span>
@@ -621,20 +622,15 @@ can only run commands every 20 minutes!</p>
 <span class="hl str">    REM Native deps</span>
 <span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gobject<span class="hl opt">-</span>introspection mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>cairo mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gtk3 mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>expat mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>openssl<span class="hl str">&quot;</span>
 <span class="hl str"></span>
-<span class="hl str">    REM Information about the toolchain</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">echo</span> perl<span class="hl opt">;</span> which <span class="hl opt">-</span>a perl<span class="hl opt">;</span> perl <span class="hl opt">-</span>V<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">echo</span> cc<span class="hl opt">;</span> which <span class="hl opt">-</span>a cc<span class="hl opt">;</span> cc <span class="hl opt">-</span>v<span class="hl str">&quot;</span>
 <span class="hl str">    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.</span>
 <span class="hl str">    bash -lc &quot;</span>cp <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">echo</span> cc<span class="hl opt">;</span> which <span class="hl opt">-</span>a cc<span class="hl opt">;</span> cc <span class="hl opt">-</span>v<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">echo</span> gcc<span class="hl opt">;</span> which <span class="hl opt">-</span>a gcc<span class="hl opt">;</span> gcc <span class="hl opt">-</span>v<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">echo</span> ld<span class="hl opt">;</span> which <span class="hl opt">-</span>a ld<span class="hl opt">;</span> ld <span class="hl opt">-</span>V<span class="hl str">&quot;</span>
 <span class="hl str"></span>
 <span class="hl str">    REM Install via cpanfile</span>
 <span class="hl str">    bash -lc &quot;</span><span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER<span class="hl opt">;</span> . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh<span class="hl opt">;</span> export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'<span class="hl opt">;</span> cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .<span class="hl str">&quot;</span>
 <span class="hl str">  )</span>
 <span class="hl str"></span>  
 </pre>
+  </p>
 
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let's talk about what is new.
@@ -643,12 +639,14 @@ can only run commands every 20 minutes!</p>
 <li>
   Let's start with the part that installs the dependencies:
 
+  <p>
   <pre class="hl">  <span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh
   export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'
   cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .
 
 </pre>
+  </p>
 
   First, we need to be in the directory for the project we want to build
   (stored in the <code>$APPVEYOR_BUILD_FOLDER</code> environment variable).
@@ -674,6 +672,7 @@ can only run commands every 20 minutes!</p>
    This Perl module is only run when the script being run is the configuration
    step of <code>ExtUtils::MakeMaker</code>:
 
+   <p>
    <pre class="hl">   <span class="hl kwa">package</span> <span class="hl kwd">EUMMnosearch</span><span class="hl opt">;</span>
 
    <span class="hl kwa">package</span> <span class="hl kwd">main</span><span class="hl opt">;</span>
@@ -715,6 +714,7 @@ can only run commands every 20 minutes!</p>
    <span class="hl num">1</span><span class="hl opt">;</span>
 
 </pre>
+   </p>
 
    There are a couple changes to the function that overrides <code>WriteMakefile</code>.
 
@@ -824,7 +824,8 @@ can only run commands every 20 minutes!</p>
    <code>gcc</code>. To check this, I ran the following on Appveyor:
 
    <p>
-   <pre>   $ which -a cc; cc -v
+   <pre>   # Information about the toolchain
+   $ which -a cc; cc -v
    /usr/bin/cc
    /bin/cc
    /usr/bin/cc
@@ -919,7 +920,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 04 May 2016 09:17:42 PM UTC</span>
+Last edited <span class="date">Wed 04 May 2016 09:26:27 PM UTC</span>
 <!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
 </div>
 

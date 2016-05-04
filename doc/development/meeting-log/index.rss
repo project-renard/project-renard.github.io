@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2016-05-04T21:17:42Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T21:26:27Z</dcterms:modified>
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -507,6 +507,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
 
+  &lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; off
 
   &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;
@@ -542,20 +543,15 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM Native deps&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gobject&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;introspection mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;cairo mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gtk3 mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;expat mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;openssl&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Information about the toolchain&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; perl&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a perl&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; perl &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;V&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;cp &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a cc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; gcc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a gcc&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; gcc &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; ld&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; which &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;a ld&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; ld &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;V&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    REM Install via cpanfile&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;  )&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;  
 &lt;/pre&gt;
+  &lt;/p&gt;
 
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let&#39;s talk about what is new.
@@ -564,12 +560,14 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;li&gt;
   Let&#39;s start with the part that installs the dependencies:
 
+  &lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh
   export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;
   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
 &lt;/pre&gt;
+  &lt;/p&gt;
 
   First, we need to be in the directory for the project we want to build
   (stored in the &lt;code&gt;$APPVEYOR_BUILD_FOLDER&lt;/code&gt; environment variable).
@@ -595,6 +593,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
    This Perl module is only run when the script being run is the configuration
    step of &lt;code&gt;ExtUtils::MakeMaker&lt;/code&gt;:
 
+   &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;EUMMnosearch&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
    &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
@@ -636,6 +635,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
 &lt;/pre&gt;
+   &lt;/p&gt;
 
    There are a couple changes to the function that overrides &lt;code&gt;WriteMakefile&lt;/code&gt;.
 
@@ -745,7 +745,8 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;code&gt;gcc&lt;/code&gt;. To check this, I ran the following on Appveyor:
 
    &lt;p&gt;
-   &lt;pre&gt;   $ which -a cc; cc -v
+   &lt;pre&gt;   # Information about the toolchain
+   $ which -a cc; cc -v
    /usr/bin/cc
    /bin/cc
    /usr/bin/cc
@@ -831,8 +832,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
-	<pubDate>Mon, 11 Apr 2016 01:02:07 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 17:14:38 +0000</pubDate>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
 
@@ -869,8 +870,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Mon, 11 Apr 2016 01:02:07 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 17:14:38 +0000</pubDate>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -915,8 +916,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
 
-	<pubDate>Mon, 11 Apr 2016 01:02:07 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 17:14:38 +0000</pubDate>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -946,8 +947,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
-	<pubDate>Mon, 11 Apr 2016 01:02:07 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 17:14:38 +0000</pubDate>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -1024,7 +1025,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -1056,7 +1057,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -1086,7 +1087,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -1218,7 +1219,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -1332,7 +1333,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-04-11T01:02:07Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T17:14:38Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
