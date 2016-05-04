@@ -1,4 +1,5 @@
 [[!meta title="Windows build with MSYS2: locally and on Appveyor"]]
+[[!meta author="zaki"]]
 
 In order to build [[curie|https://github.com/project-renard/curie]] on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
