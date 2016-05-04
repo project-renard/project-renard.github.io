@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:12:25Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:16:39Z</dcterms:modified>
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -372,13 +372,13 @@ architecture) throughout.&lt;/p&gt;
    going to the &lt;a href=&quot;https://metacpan.org/release/ExtUtils-MakeMaker&quot;&gt;distribution&#39;s page on MetaCPAN&lt;/a&gt;
    and typing the query &lt;code&gt;EXTRALIBS LDLOADLIBS&lt;/code&gt; in the search box:
 
-   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/500x-metacpan-search-eumm-highlight.png&quot; width=&quot;500&quot; height=&quot;511&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot; width=&quot;882&quot; height=&quot;901&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
    Looking at the results
    &lt;a href=&quot;https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&amp;search_type=modules&quot;&gt;results&lt;/a&gt;,
    we see &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::Liblist&quot;&gt;ExtUtils::Liblist&lt;/a&gt; and &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MM_Unix&quot;&gt;ExtUtils::MM_Unix&lt;/a&gt;.
 
-   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the results of the query for LIB Makefile variables&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/500x-metacpan-search-eumm-libs-results.png&quot; width=&quot;500&quot; height=&quot;245&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the results of the query for LIB Makefile variables&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot; width=&quot;937&quot; height=&quot;460&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
    The ExtUtils::Liblist looks promising. In &lt;a href=&quot;https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm&quot;&gt;version 7.14&lt;/a&gt; of the documentation, there&#39;s a section about the Win32
    behaviour:
@@ -436,7 +436,7 @@ architecture) throughout.&lt;/p&gt;
 &lt;li&gt;
    Rejoice! The curie code runs!
 
-   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the curie GUI with a test PDF open&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/500x-mingw64-curie.png&quot; width=&quot;500&quot; height=&quot;426&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the curie GUI with a test PDF open&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot; width=&quot;1090&quot; height=&quot;928&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
@@ -475,8 +475,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
-	<pubDate>Sun, 10 Apr 2016 19:25:44 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 01:00:24 +0000</pubDate>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
 
@@ -513,8 +513,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Sun, 10 Apr 2016 19:25:44 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 01:00:24 +0000</pubDate>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -559,8 +559,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
 
-	<pubDate>Sun, 10 Apr 2016 19:25:44 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 01:00:24 +0000</pubDate>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -590,8 +590,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
-	<pubDate>Sun, 10 Apr 2016 19:25:44 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<pubDate>Mon, 11 Apr 2016 01:00:24 +0000</pubDate>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -668,7 +668,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -700,7 +700,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -730,7 +730,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -862,7 +862,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -976,7 +976,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-04-10T19:25:44Z</dcterms:modified>
+	<dcterms:modified>2016-04-11T01:00:24Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
