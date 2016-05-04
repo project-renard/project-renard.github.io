@@ -1,4 +1,4 @@
-[[!meta title="Windows build with MSYS2: locally and on Appveyor (now with New Debugging Flavour!)"]]
+[[!meta title="Windows build with MSYS2: locally and on Appveyor"]]
 
 In order to build [[curie|https://github.com/project-renard/curie]] on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -34,7 +34,7 @@ architecture) throughout.
    <p>
    [[!format sh """
    pacman -Syu  # update
-   
+
    # Install compiler and build configuration tools
    pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
    """]]
@@ -251,7 +251,7 @@ architecture) throughout.
        archive). This indicates that this is a static library which means
        symbols such as function names get resolved at linking time through
        <em>static linking</em>.
-       
+
        We can also resolve symbols at runtime through <em>dynamic linking</em>.
        These files have the extension <code>.dll</code> on Windows.
      <dd>
@@ -322,7 +322,7 @@ architecture) throughout.
    <p>
    [[!format txt """
    Glib-1.321 $ dmake NOECHO=''
-   # [ redacted output ] 
+   # [ redacted output ]
    [ LD blib\arch\auto\Glib\Glib.dll ]
    g++ Glib.def -o blib\arch\auto\Glib\Glib.dll -mdll -s -L"C:\msys64\mingw64\lib\perl5\core_perl\CORE" -L"C:\msys64\mingw64\lib" Glib.o GError.o GUtils.o GLog.o GType.o GBoxed.o GObject.o GValue.o GClosure.o GSignal.o GMainLoop.o GIOChannel.o GParamSpec.o GKeyFile.o GOption.o GBookmarkFile.o GVariant.o gperl-gtypes.o   "C:\msys64\mingw64\lib\perl5\core_perl\CORE\libperl522.a" "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a" -Wl,--enable-auto-image-base
    Glib.o:Glib.c:(.text+0x156d): undefined reference to `__imp_glib_major_version'
@@ -367,8 +367,8 @@ architecture) throughout.
    and typing the query <code>EXTRALIBS LDLOADLIBS</code> in the search box:
 
    [[!img gfx/metacpan-search-eumm-highlight.png caption="Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field" ]]
-   
-   Looking at the results
+
+   Looking at the
    [[results|https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&search_type=modules]],
    we see [[ExtUtils::Liblist|https://metacpan.org/pod/ExtUtils::Liblist]] and [[ExtUtils::MM_Unix|https://metacpan.org/pod/ExtUtils::MM_Unix]].
 
@@ -412,7 +412,11 @@ architecture) throughout.
    have to open it up to find out what it is passing in to LIBS and copy that
    into the command line for the configuration step.
 
-   I popped into the <code>#toolchain</code> IRC channel on the
+   I did that anyway and installed Glib, Cairo, Glib::Object::Introspection,
+   Cairo::GObject, and XML::Parser by manually setting the flags for
+   <code>LIBS</code>.
+
+   I then popped into the <code>#toolchain</code> IRC channel on the
    <code>irc.perl.org</code> network to share what I had learned and ask
    if there was another way forward. After a quick convo with
    <code>[[mst|https://metacpan.org/author/MSTROUT]]++</code>, he came back
@@ -439,14 +443,372 @@ architecture) throughout.
 
 At this point, I was quite happy. Now I needed to reproduce these steps so that
 they can be used to test every set of changes to the codebase. I could do this
-with the Appveyor CI service. Little did I know that there was a lot more work
+with the Appveyor CI service for Windows. Little did I know that there was a lot more work
 coming my way.
 
 ## Building on Appveyor
 
-<li>
+In this section, it is easier to show parts of the Appveyor configuration and
+explain what each part is for rather than show how I debugged the
+configuration — mainly because it took me a little over 50 builds on Appveyor
+to figure out all the quirks of the system. Many of them were missteps on my
+part, but is hard to figure out where things go wrong on a remote system if you
+can only run commands every 20 minutes!
 
+
+<ol>
+<li>
+  After enabling the curie project on the [[Appveyor
+  website|https://www.appveyor.com/]], we need an <code>appveyor.yml</code>
+  configuration file with the commands needed for building the project.
+
+  I first search GitHub for other projects that used Appveyor with MSYS2 and
+  came across the <code>appveyor.yml</code> configuration file for
+  [[libosmscout|https://github.com/Framstag/libosmscout/blob/a53ab2b770a11e83f401b0a985aacb096769286c/appveyor.yml]].
+  It has support for compiling under both the MinGW64 GCC compiler and Microsoft's
+  MSVC2015 compiler. Right now, I just need the bits for MSYS2 MinGW64:
+
+  <p>
+  [[!format txt """
+  version: 1.0.{build}
+
+  environment:
+    matrix:
+    - COMPILER: msys2
+      PLATFORM: x64
+      MSYS2_ARCH: x86_64
+      MSYS2_DIR: msys64
+      MSYSTEM: MINGW64
+      BIT: 64
+
+  install:
+    # running under CI
+    - set CI_TESTING=1
+    - '%APPVEYOR_BUILD_FOLDER%\dev\ci\appveyor\install.bat'
+    - 'echo End intall at: & time /t'
+
+  build_script:
+    - 'echo Nothing to build'
+
+  test_script:
+    - '%APPVEYOR_BUILD_FOLDER%\dev\ci\appveyor\test.bat'
+  """]]
+  </p>
+
+  The important part here is the line
+
+  <p>
+  [[!format txt """
+    - '%APPVEYOR_BUILD_FOLDER%\dev\ci\appveyor\install.bat'
+  """]]
+  </p>
+
+  which tells Appveyor to run a batch file with more instructions.
+  The contents of this are
+
+  [[!format bat """
+  @echo off
+
+  cd %APPVEYOR_BUILD_FOLDER%
+
+  echo Compiler: %COMPILER%
+  echo Architecture: %MSYS2_ARCH%
+  echo Platform: %PLATFORM%
+  echo MSYS2 directory: %MSYS2_DIR%
+  echo MSYS2 system: %MSYSTEM%
+  echo Bits: %BIT%
+
+  REM Create a writeable TMPDIR
+  mkdir %APPVEYOR_BUILD_FOLDER%\tmp
+  set TMPDIR=%APPVEYOR_BUILD_FOLDER%\tmp
+
+  IF %COMPILER%==msys2 (
+    @echo on
+    SET "PATH=C:\%MSYS2_DIR%\%MSYSTEM%\bin;C:\%MSYS2_DIR%\usr\bin;%PATH%"
+    bash -lc "pacman -S --needed --noconfirm pacman-mirrors"
+    bash -lc "pacman -S --needed --noconfirm git"
+    REM Update
+    bash -lc "pacman -Syu --noconfirm"
+
+    REM build tools
+    bash -lc "pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool"
+
+    REM Set up perl
+    bash -lc "pacman -S --needed --noconfirm mingw-w64-x86_64-perl"
+    bash -lc "pl2bat $(which pl2bat)"
+    bash -lc "yes | cpan App::cpanminus"
+    bash -lc "cpanm --notest ExtUtils::MakeMaker"
+
+    REM Native deps
+    bash -lc "pacman -S --needed --noconfirm mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-cairo mingw-w64-x86_64-gtk3 mingw-w64-x86_64-expat mingw-w64-x86_64-openssl"
+
+    REM Information about the toolchain
+    bash -lc "echo perl; which -a perl; perl -V"
+    bash -lc "echo cc; which -a cc; cc -v"
+    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.
+    bash -lc "cp -pv /mingw64/bin/gcc /mingw64/bin/cc"
+    bash -lc "echo cc; which -a cc; cc -v"
+    bash -lc "echo gcc; which -a gcc; gcc -v"
+    bash -lc "echo ld; which -a ld; ld -V"
+
+    REM Install via cpanfile
+    bash -lc "cd $APPVEYOR_BUILD_FOLDER; . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh; export MAKEFLAGS='-j4 -P4'; cpanm --notest --installdeps ."
+  )
+  """]]
+
+  There is a lot here, but much of it is the same as discussed in the local
+  installation. Let's talk about what is new.
 </li>
+
+<li>
+  Let's start with the part that installs the dependencies:
+
+  [[!format bat """
+  cd $APPVEYOR_BUILD_FOLDER
+  . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh
+  export MAKEFLAGS='-j4 -P4'
+  cpanm --notest --installdeps .
+  """]]
+
+  First, we need to be in the directory for the project we want to build
+  (stored in the <code>$APPVEYOR_BUILD_FOLDER</code> environment variable).
+
+  Then we need to set a couple settings so that we can build with the
+  <code>:nosearch</code> setting from before. We do this by sourcing the
+  <code>EUMMnosearch.sh</code> shell script.
+</li>
+
+<li>
+   The <code>EUMMnosearch.sh</code> script loads that one-liner before by
+   turning that code into a Perl module that is loaded every time that Perl is
+   run. This can be accomplished by setting the <code>PERL5OPT</code> environment variable:
+
+   <p>
+   [[!format sh """
+   BUILD_DIR=`(cd $APPVEYOR_BUILD_FOLDER && pwd)`
+   export PERL5OPT="-I$BUILD_DIR/dev/ci/appveyor -MEUMMnosearch"
+   echo PERL5OPT=$PERL5OPT;
+   """]]
+   </p>
+
+   This Perl module is only run when the script being run is the configuration
+   step of <code>ExtUtils::MakeMaker</code>:
+
+   [[!format perl """
+   package EUMMnosearch;
+
+   package main;
+   # only run when we call the Makefile.PL script
+   if( $0 eq "Makefile.PL"  ) {
+       require ExtUtils::MakeMaker;
+
+       my $i = ExtUtils::MakeMaker->can("import");
+       no warnings "redefine";
+       *ExtUtils::MakeMaker::import = sub {
+           &$i;
+           my $targ = "main";
+           my $wm = $targ->can("WriteMakefile");
+           *{"${targ}::WriteMakefile"} = sub {
+               my %args = @_;
+               # Only apply :nosearch after lib linker directory
+               # for entire mingw64 system. This way XS modules
+               # that depend on other XS modules can compile
+               # statically using .a files.
+               $args{LIBS} =~ s,^(.*?)(\Q-LC:/msys64/mingw64/lib\E\s),$1 :nosearch $2,;
+
+               # Special case for expat (XML::Parser::Expat) because
+               # it does not use either of
+               #
+               #   - -L<libpath>
+               #   - pkg-config --libs expat
+               $args{LIBS} =~ s,(\Q-lexpat\E),:nosearch $1,;
+               print "LIBS: $args{LIBS}\n";
+               $wm->(%args);
+           };
+       };
+
+       do "Makefile.PL" or die "Hack failed: $@";
+
+       # we can exit now that we are done
+       exit 0;
+   }
+
+   1;
+   """]]
+
+   There are a couple changes to the function that overrides <code>WriteMakefile</code>.
+
+   First, we no longer stick <code>:nosearch</code> in front of all flags in
+   <code>LIBS</code>. Instead, we only stick it before we set the linker search path
+   to the <code>C:/msys64/mingw64/lib</code> directory. That way if there are some
+   non-system libraries that need to be compiled statically, they can still be
+   compiled statically. This happens in the case of Cairo::GObject where the
+   code needs to be linked against the compiled Perl code (called XS) for the
+   Cairo and GObject libraries so that it can access some helper functions
+   provided in those <code>.a</code> files. The rest of the linker flags need
+   to be compiled dynamically so we apply <code>:nosearch</code> to only the
+   reset.
+
+   Second, we insert a special case so that we can build XML::Parser::Expat.
+   Since the <code>LIBS</code> parameter is just set to <code>"-lexpat"</code>
+   in that module, there is no <code>-LC:/msys64/mingw64/lib</code> flag that
+   we can use to insert <code>:nosearch</code>. So we insert it just before to
+   set <code>LIBS</code> to <code>":nosearch -lexpat"</code> instead.
+</li>
+
+<li>
+   This all would work on a clean install of Windows with only MSYS2 installed.
+   However, Appveyor is not quite that.
+
+   I came across two more build errors that had nothing to do with MSYS2:
+
+   First, I had tried to install Net::SSLeay module which depends on the
+   <code>libopenssl</code> library. When I tried to install it, I got errors
+   about missing symbols. Everything else was linking properly, so I didn't get
+   why it would not link. I added a line to show me the libraries that the
+   build was using for <code>libopenssl</code>.
+
+   <p>
+   [[!format txt """
+   $ cpanm --verbose --configure-args verbose Net::SSLeay
+   Configuring Net-SSLeay-1.74 ... WARNING: can't open config file: /usr/local/ssl/openssl.cnf
+   *** Found OpenSSL-1.0.2e installed in C:\OpenSSL-Win32
+   *** Be sure to use the same compiler and options to compile your OpenSSL, perl,
+       and Net::SSLeay. Mixing and matching compilers is not supported.
+   """]]
+   </p>
+
+   It's looking for the SSL library in <code>C:\OpenSSL-Win32</code>. That's
+   not a MinGW64 path! I looked around in the Net::SSLeay code and saw that there was
+   <code>[[README.Win32|https://metacpan.org/source/MIKEM/Net-SSLeay-1.74/README.Win32]]</code>
+   file which says
+
+   <blockquote>
+   2. If your OpenSSL is installed in an unusual place, you can tell
+   Net-SSLeay where to find it with the OPENSSL_PREFIX environment
+   variable:
+   set OPENSSL_PREFIX=c:\OpenSSL-1.0.1c
+   perl Makefile.PL
+   make
+   .....
+   </blockquote>
+
+   In our case, we can use
+
+   <p>
+   [[!format sh """
+   export OPENSSL_PREFIX="/c/msys64/mingw64"
+   """]]
+   </p>
+
+   and Net::SSLeay builds properly.
+</li>
+
+<li>
+   Another issue that I hit was when I tried to install the
+   <code>Alien::MuPDF</code> dependency. This is a module that I wrote that
+   downloads and builds the MuPDF library. I was getting a very odd error from
+   the linker in this case:
+
+   <p>
+   [[!format txt """
+   $ cpanm --verbose Alien::MuPDF
+   # [ remove extra build output ]
+       CC build/release/platform/x11/pdfapp.o
+   windres platform/x11/win_res.rc build/release/platform/x11/win_res.o
+       LINK build/release/mupdf
+   build/release/platform/x11/win_main.o:win_main.c:(.text+0x2d79): undefined reference to `fz_argv_from_wargv'
+   build/release/platform/x11/win_main.o:win_main.c:(.text+0x2d79): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `fz_argv_from_wargv'
+   build/release/platform/x11/win_main.o:win_main.c:(.text+0x3174): undefined reference to `fz_free_argv'
+   build/release/platform/x11/win_main.o:win_main.c:(.text+0x3174): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `fz_free_argv'
+   collect2: error: ld returned 1 exit status
+   Makefile:303: recipe for target 'build/release/mupdf' failed
+   make: *** [build/release/mupdf] Error 1
+   External command (make HAVE_GLFW=no) failed! Error: 512
+    at ./Build line 58.
+   Failed
+   Build not completed at ./Build line 58.
+   ! Installing Alien::MuPDF failed. See C:\msys64\home\appveyor\.cpanm\work\1462215039.2780\build.log for details. Retry with --force to force install it.
+   Searching Modern::Perl (0) on cpanmetadb ...
+   FAIL
+   """]]
+   </p>
+
+   Now there are undefined references to files within the same project!
+
+   Since I was already suspicious that I could not trust the Appveyor
+   environment, I guessed that this might have to do with differences between
+   the compiler and the linker used.
+
+   To debug this, I tried to build the MuPDF library locally and noticed that
+   the C compiler used is <code>cc</code>. On properly set up systems,
+   <code>cc</code> is usually an alias for a specific C compiler such as
+   <code>gcc</code>. To check this, I ran the following on Appveyor:
+
+   <p>
+   [[!format txt """
+   $ which -a cc; cc -v
+   /usr/bin/cc
+   /bin/cc
+   /usr/bin/cc
+   Using built-in specs.
+   COLLECT_GCC=cc
+   COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/4.9.2/lto-wrapper.exe
+   Target: x86_64-pc-msys
+   Configured with: /msys_scripts/gcc/src/gcc-4.9.2/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --disable-multilib --with-tune=generic --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib
+   Thread model: posix
+   gcc version 4.9.2 (GCC)
+
+   $ which -a gcc; gcc -v
+   /mingw64/bin/gcc
+   /usr/bin/gcc
+   /bin/gcc
+   /MINGW64/bin/gcc
+   /usr/bin/gcc
+   Using built-in specs.
+   COLLECT_GCC=C:\msys64\mingw64\bin\gcc.exe
+   COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/lto-wrapper.exe
+   Target: x86_64-w64-mingw32
+   Configured with: ../gcc-5.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/5.3.0 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+   Thread model: posix
+   gcc version 5.3.0 (Rev1, Built by MSYS2 project)
+
+   $ which -a ld; ld -V
+   /mingw64/bin/ld
+   /usr/bin/ld
+   /bin/ld
+   /MINGW64/bin/ld
+   /usr/bin/ld
+   GNU ld (GNU Binutils) 2.25.1
+     Supported emulations:
+      i386pep
+      i386pe
+   """]]
+   </p>
+
+   Here we see that both <code>ld</code> and <code>gcc</code> are found under
+   the <code>/mingw64/bin</code>, but <code>cc</code> is found elsewhere and is
+   a different version altogether. The fix for this is simple, just copy
+   <code>gcc</code> to <code>cc</code>
+
+   <p>
+   [[!format sh """
+   cp -pv /mingw64/bin/gcc /mingw64/bin/cc
+   """]]
+   </p>
+
+   and then Alien::MuPDF compiles properly.
+</li>
+
+<li>
+  <strike>Write a post documenting your travails.</strike>
+  Happily use Appveyor to test all your code on Windows.
+</li>
+
+</ol>
+
+The full pull request for this Appveyor configuration is available at
+[[here|https://github.com/project-renard/curie/pull/86]].
 
 [^portability]: Portability is important to writing robust software and
 eventually curie will have an installer of Windows, so it is best to address
