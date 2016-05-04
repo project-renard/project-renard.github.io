@@ -99,11 +99,14 @@ Windows build with MSYS2: locally and on Appveyor (now with New Debugging Flavou
 <div id="content">
 <p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows<a href="#fn:portability" id="fnref:portability" class="footnote">1</a>,
 we need to build the various Perl dependencies. These Perl dependencies in turn
-require native libraries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
+require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.</p>
 
 <p>The following steps show how to install the dependencies along with how I ended
-up debugging the build. The following will be assuming 64-bit Windows (x86-64
+up debugging the build. I'm writing out this post in case the debugging steps
+are useful months later when I forget how or why I did things.</p>
+
+<p>The following will be assuming 64-bit Windows (x86-64
 architecture) throughout.</p>
 
 <h2 id="buildinglocally">Building locally</h2>
@@ -111,13 +114,96 @@ architecture) throughout.</p>
 <ol>
 <li><p>Install <a href="https://msys2.github.io/">MSYS2</a>. This is a straightforward install
 into the <code>C:\msys64</code> directory.</p></li>
-<li><p>Start the "MinGW-w64 Win64 Shell" from the Start Menu.</p></li>
-<li><p>Use the pacman manager to update the package database and install the build toolchain:</p></li>
+<li><p>Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
+the proper environment variables needed to use 64-bit libraries for the
+MinGW64 system.</p></li>
+<li><p>Use the <a href="https://www.archlinux.org/pacman/pacman.8.html">pacman</a> package
+manager to update the package database and install the build toolchain.</p></li>
 </ol>
 
-<pre class="hl">pacman <span class="hl opt">-</span>Syu
-pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
+<pre class="hl">   pacman <span class="hl opt">-</span>Syu
+   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
+
 </pre>
+
+<ol>
+<li>Install the native dependencies.</li>
+</ol>
+
+<pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
+       mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gobject<span class="hl opt">-</span>introspection \
+       mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>cairo \
+       mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gtk3 \
+       mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>expat \
+       mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>openssl
+
+</pre>
+
+<ol>
+<li>Install Perl and cpanm</li>
+</ol>
+
+<pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl
+   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
+
+</pre>
+
+<p>However, we ecounter a problem with this last command. It tries to using
+   <code>pl2bat.bat</code> to install the <code>cpanm</code> script, but for some reason we see the following error:</p>
+
+<pre>   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
+   Checking if your kit is complete...
+   Looks good
+   Generating a dmake-style Makefile
+   Writing Makefile for App::cpanminus
+   Writing MYMETA.yml and MYMETA.json
+     MIYAGAWA/App-cpanminus-1.7040.tar.gz
+     C:\msys64\mingw64\bin\perl.exe Makefile.PL -- OK
+   Running make for M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz
+   cp lib/App/cpanminus/fatscript.pm blib\lib\App\cpanminus\fatscript.pm
+   cp lib/App/cpanminus.pm blib\lib\App\cpanminus.pm
+   "C:\msys64\mingw64\bin\perl.exe" -MExtUtils::Command -e cp -- bin/cpanm blib\script\cpanm
+   pl2bat.bat blib\script\cpanm
+   'pl2bat.bat' is not recognized as an internal or external command,
+   operable program or batch file.
+   dmake:  Error code 129, while making 'blib\script\cpanm'
+   dmake:  'blib\script\cpanm' removed.
+     MIYAGAWA/App-cpanminus-1.7040.tar.gz
+     dmake -- NOT OK
+   </pre>
+
+<p>The important line here is</p>
+
+<pre>   'pl2bat.bat' is not recognized as an internal or external command,
+   </pre>
+
+<p>The <code>pl2bat</code> command is a tool that is used on Windows in order to allow for
+   running Perl scripts without having to specify that they must run under Perl.
+   So instead of having to type <code>perl myscript</code> to run code in the <code>myscript</code>
+   file, we can just type <code>myscript</code> and run it as if it was just another
+   executable. This works by wrapping the original code and placing it into a
+   Windows batch file that calls the Perl interpreter on the same file.</p>
+
+<p>It turns out that MSYS2 has the Perl script <code>pl2bat</code> which does the conversion,
+   but that file was not converted itself! To do that we find the path for the
+   <code>pl2bat</code> file and run <code>pl2bat</code> on it.</p>
+
+<pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
+
+</pre>
+
+<p>We can then install <code>cpanm</code> as before.</p>
+
+<ol>
+<li>Install the Perl dependencies for curie itself by running the following the
+<code>curie</code> repository:</li>
+</ol>
+
+<pre class="hl">   cpanm <span class="hl opt">--</span>verbose <span class="hl opt">--</span>installdeps .
+
+</pre>
+
+<p>This reads the <code>cpanfile</code> which lists the Perl prerequisites for the project.</p>
 
 <h2 id="buildingonappveyor">Building on Appveyor</h2>
 
@@ -153,7 +239,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 03 May 2016 06:04:53 PM UTC</span>
+Last edited <span class="date">Wed 04 May 2016 02:31:33 AM UTC</span>
 <!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
 </div>
 
