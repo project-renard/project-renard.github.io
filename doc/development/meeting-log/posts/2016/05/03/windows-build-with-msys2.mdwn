@@ -17,19 +17,25 @@ architecture) throughout.
 <ol>
 
 <li>
+   <p>
    Install [[MSYS2|https://msys2.github.io/]]. This is a straightforward install
    into the <code>C:\msys64</code> directory.
+   </p>
 </li>
 
 <li>
+   <p>
    Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
    the proper environment variables needed to use 64-bit libraries for the
    MinGW64 system.
+   </p>
 </li>
 
 <li>
+   <p>
    Use the [[pacman|https://www.archlinux.org/pacman/pacman.8.html]] package
    manager to update the package database and install the build toolchain.
+   </p>
 
    <p>
    [[!format sh """
@@ -42,7 +48,9 @@ architecture) throughout.
 </li>
 
 <li>
+   <p>
    Install the native dependencies.
+   </p>
 
    <p>
    [[!format sh """
@@ -57,7 +65,9 @@ architecture) throughout.
 </li>
 
 <li>
-   Install Perl and cpanm
+   <p>
+       Install Perl and cpanm
+   </p>
 
    <p>
    [[!format sh """
@@ -66,7 +76,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    However, we ecounter a problem with this last command.
+   </p>
 
    <p>
    [[!format txt """
@@ -92,7 +104,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    The important line here is
+   </p>
 
    <p>
    [[!format txt """
@@ -100,8 +114,10 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    It tries to using <code>pl2bat.bat</code> to install the <code>cpanm</code>
    script, but it is missing. Let's take a look:
+   </p>
 
    <p>
    [[!format txt """
@@ -110,7 +126,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, so it is not there. What about without the <code>.bat</code> extension?
+   </p>
 
    <p>
    [[!format txt """
@@ -124,23 +142,29 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
+   </p>
 
+   <p>
    <dl>
-	   <dt>Note about <code>pl2bat</code></dt>
-	   <dd>
-	   The <code>pl2bat</code> command is a tool that is used on Windows in order to allow for
-	   running Perl scripts without having to specify that they must run under Perl.
-	   So instead of having to type <code>perl myscript</code> to run code in the <code>myscript</code>
-	   file, we can just type <code>myscript</code> and run it as if it was just another
-	   executable. This works by wrapping the original code and placing it into a
-	   Windows batch file that calls the Perl interpreter on the same file.
-	   </dd>
+       <dt>Note about <code>pl2bat</code></dt>
+       <dd>
+       The <code>pl2bat</code> command is a tool that is used on Windows in order to allow for
+       running Perl scripts without having to specify that they must run under Perl.
+       So instead of having to type <code>perl myscript</code> to run code in the <code>myscript</code>
+       file, we can just type <code>myscript</code> and run it as if it was just another
+       executable. This works by wrapping the original code and placing it into a
+       Windows batch file that calls the Perl interpreter on the same file.
+       </dd>
    </dl>
+   </p>
 
+   <p>
    It turns out that MSYS2 has the Perl script <code>pl2bat</code> which does
    the conversion, but that file was not converted itself! To do that we find the
    path for the <code>pl2bat</code> file and run <code>pl2bat</code> on it.
+   </p>
 
    <p>
    [[!format sh """
@@ -148,7 +172,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    We can then install <code>cpanm</code> as before and it works.
+   </p>
 
    <p>
    [[!format sh """
@@ -158,8 +184,10 @@ architecture) throughout.
 </li>
 
 <li>
+   <p>
    Install the Perl dependencies for curie itself by running the following in a copy of the
    <code>curie</code> repository:
+   </p>
 
    <p>
    [[!format sh """
@@ -167,11 +195,15 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    This reads the <code>cpanfile</code> which lists the Perl prerequisites for
    the project and installs everything needed to build, run, and test the code.
+   </p>
 
+   <p>
    But we hit an issue here when it attempts to install Gtk3 and in turn
    its dependency Glib.
+   </p>
 
    <p>
    [[!format txt """
@@ -184,7 +216,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    Let's take a closer look at what is happening with Glib by adding the <code>--verbose</code> flag:
+   </p>
 
    <p>
    [[!format txt """
@@ -238,28 +272,38 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, that's a lot of errors. Seems that the linker phase (<code>ld</code>)
    has failed to find several function names in the <code>libglib-2.0.a</code> and
    <code>libgobject-2.0.a</code> library files.
+   </p>
 
+   <p>
    <dl>
      <dt>
        Note about library files on Windows
      </dt>
      <dd>
+       <p>
        We see that that library files above both end in the <code>.a</code> extension (for
        archive). This indicates that this is a static library which means
        symbols such as function names get resolved at linking time through
        <em>static linking</em>.
+       </p>
 
+       <p>
        We can also resolve symbols at runtime through <em>dynamic linking</em>.
        These files have the extension <code>.dll</code> on Windows.
+       </p>
      <dd>
    </dl>
+   </p>
 
+   <p>
    Let's take a look at what we expect the linker
    flags to be for <code>libglib</code> and <code>libgobject</code> by using
    the <code>pkg-config</code> command:
+   </p>
 
    <p>
    [[!format txt """
@@ -274,6 +318,7 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, that looks reasonable. But we see the above errors refer to functions
    that are prefixed with <code>ffi_</code> and <code>pcre_</code>. The
    convention for C libraries is that the prefix referse to the libraries that
@@ -281,9 +326,12 @@ architecture) throughout.
    (<code>-lffi -lpcre</code>). So when linker attempts static linking against
    the <code>.a</code> files, it does not know that the other libraries are
    needed.
+   </p>
 
+   <p>
    We can try to get the linker flags for static linking by adding the
    <code>--static</code> flag to <code>pkg-config</code>
+   </p>
 
    <p>
    [[!format txt """
@@ -293,7 +341,9 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    Ah, there we go! Let's compare this to what the Glib module uses when linking:
+   </p>
 
    <p>
    [[!format txt """
@@ -312,12 +362,14 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, wait, what's this? We get the list of dynamic linker flags where it says
    "Potential libraries", but when it says "Result:", a couple of those flags
    become paths to the corresponding <code>.a</code> files. Let's run
    <code>dmake</code> with the
    <code>[[NOECHO|https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO]]</code>
    flag to see what is going on:
+   </p>
 
    <p>
    [[!format txt """
@@ -332,9 +384,11 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    OK, so here we see that all the dynamic linker flags are using the full
    paths to the <code>.a</code> files. Let's take a look at how
    <code>Makefile.PL</code> passes on this information to the <code>Makefile</code>
+   </p>
 
    <p>
    [[!format txt """
@@ -346,9 +400,11 @@ architecture) throughout.
    """]]]
    </p>
 
+   <p>
    So it appears that <code>ExtUtils::MakeMaker</code> is setting the <code>EXTRALIBS</code>
    and <code>LDLOADLIBS</code> variables. Let's try setting them ourselves to the output of
    <code>pkg-config</code>:
+   </p>
 
    <p>
    [[!format txt """
@@ -357,23 +413,32 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    It built successfully! This means that there is a problem with using the
    full path to the <code>.a</code> files. We need to see why
    <code>EXTRALIBS</code> and <code>LDLOADLIBS</code> are being set the way
    they are.
+   </p>
 
+   <p>
    Let's search the distribution for documentation about these variables by
    going to the [[distribution's page on MetaCPAN|https://metacpan.org/release/ExtUtils-MakeMaker]]
    and typing the query <code>EXTRALIBS LDLOADLIBS</code> in the search box:
+   </p>
 
+   <p>
    [[!img gfx/metacpan-search-eumm-highlight.png caption="Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field" ]]
+   </p>
 
+   <p>
    Looking at the
    [[results|https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&search_type=modules]],
    we see [[ExtUtils::Liblist|https://metacpan.org/pod/ExtUtils::Liblist]] and [[ExtUtils::MM_Unix|https://metacpan.org/pod/ExtUtils::MM_Unix]].
+   </p>
 
    [[!img gfx/metacpan-search-eumm-libs-results.png caption="Screenshot of the results of the query for LIB Makefile variables" ]]
 
+   <p>
    The ExtUtils::Liblist looks promising. In [[version 7.14|https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm]] of the documentation, there's a section about the Win32
    behaviour:
    <blockquote>
@@ -382,14 +447,19 @@ architecture) throughout.
    using. If you are using GCC, it gets translated to <code>libfoo.a</code>, but
    for other win32 compilers, it becomes <code>foo.lib</code>.
    </blockquote>
+   </p>
 
+   <p>
    So the translation to full paths is a part of the design. Reading further, we see
    <blockquote>
    An entry that matches <code>/:nosearch/i</code> disables all searching for the libraries specified after it.
    </blockquote>
+   </p>
 
+   <p>
    So if we but <code>:nosearch</code> in the [[LIBS parameter|https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS]] of the function
    that generates the <code>Makefile</code>, (i.e., <code>WriteMakefile</code>). Let's try that
+   </p>
 
    <p>
    [[!format txt """
@@ -404,24 +474,32 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    Hey, it's working!
+   </p>
 
+   <p>
    So now we know that all we need is to put
    <code>:nosearch</code> in the <code>LIBS</code> parameter and it will build.
    But that's still problematic, because if I try to install any module, I will
    have to open it up to find out what it is passing in to LIBS and copy that
    into the command line for the configuration step.
+   </p>
 
+   <p>
    I did that anyway and installed Glib, Cairo, Glib::Object::Introspection,
    Cairo::GObject, and XML::Parser by manually setting the flags for
    <code>LIBS</code>.
+   </p>
 
+   <p>
    I then popped into the <code>#toolchain</code> IRC channel on the
    <code>irc.perl.org</code> network to share what I had learned and ask
    if there was another way forward. After a quick convo with
    <code>[[mst|https://metacpan.org/author/MSTROUT]]++</code>, he came back
    with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
    <code>:nosearch</code> into the <code>LIBS</code> parameter:
+   </p>
 
    <p>
    [[!format txt """
@@ -430,21 +508,27 @@ architecture) throughout.
    """]]
    </p>
 
+   <p>
    Yes, that is one line and it does work!
+   </p>
 </li>
 
 <li>
+   <p>
    Rejoice! The curie code runs!
+   </p>
 
    [[!img gfx/mingw64-curie.png caption="Screenshot of the curie GUI with a test PDF open" ]]
 </li>
 
 </ol>
 
+<p>
 At this point, I was quite happy. Now I needed to reproduce these steps so that
 they can be used to test every set of changes to the codebase. I could do this
 with the Appveyor CI service for Windows. Little did I know that there was a lot more work
 coming my way.
+</p>
 
 ## Building on Appveyor
 
@@ -458,15 +542,19 @@ can only run commands every 20 minutes!
 
 <ol>
 <li>
+  <p>
   After enabling the curie project on the [[Appveyor
   website|https://www.appveyor.com/]], we need an <code>appveyor.yml</code>
   configuration file with the commands needed for building the project.
+  </p>
 
+  <p>
   I first search GitHub for other projects that used Appveyor with MSYS2 and
   came across the <code>appveyor.yml</code> configuration file for
   [[libosmscout|https://github.com/Framstag/libosmscout/blob/a53ab2b770a11e83f401b0a985aacb096769286c/appveyor.yml]].
   It has support for compiling under both the MinGW64 GCC compiler and Microsoft's
   MSVC2015 compiler. Right now, I just need the bits for MSYS2 MinGW64:
+  </p>
 
   <p>
   [[!format txt """
@@ -495,7 +583,9 @@ can only run commands every 20 minutes!
   """]]
   </p>
 
+  <p>
   The important part here is the line
+  </p>
 
   <p>
   [[!format txt """
@@ -503,8 +593,10 @@ can only run commands every 20 minutes!
   """]]
   </p>
 
+  <p>
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
+  </p>
 
   <p>
   [[!format bat """
@@ -552,12 +644,16 @@ can only run commands every 20 minutes!
   """]]
   </p>
 
+  <p>
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let's talk about what is new.
+  </p>
 </li>
 
 <li>
+  <p>
   Let's start with the part that installs the dependencies:
+  </p>
 
   <p>
   [[!format bat """
@@ -568,18 +664,24 @@ can only run commands every 20 minutes!
   """]]
   </p>
 
+  <p>
   First, we need to be in the directory for the project we want to build
   (stored in the <code>$APPVEYOR_BUILD_FOLDER</code> environment variable).
+  </p>
 
+  <p>
   Then we need to set a couple settings so that we can build with the
   <code>:nosearch</code> setting from before. We do this by sourcing the
   <code>EUMMnosearch.sh</code> shell script.
+  </p>
 </li>
 
 <li>
+   <p>
    The <code>EUMMnosearch.sh</code> script loads that one-liner before by
    turning that code into a Perl module that is loaded every time that Perl is
    run. This can be accomplished by setting the <code>PERL5OPT</code> environment variable:
+   </p>
 
    <p>
    [[!format sh """
@@ -589,8 +691,10 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    This Perl module is only run when the script being run is the configuration
    step of <code>ExtUtils::MakeMaker</code>:
+   </p>
 
    <p>
    [[!format perl """
@@ -636,8 +740,11 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    There are a couple changes to the function that overrides <code>WriteMakefile</code>.
+   </p>
 
+   <p>
    First, we no longer stick <code>:nosearch</code> in front of all flags in
    <code>LIBS</code>. Instead, we only stick it before we set the linker search path
    to the <code>C:/msys64/mingw64/lib</code> directory. That way if there are some
@@ -648,25 +755,34 @@ can only run commands every 20 minutes!
    provided in those <code>.a</code> files. The rest of the linker flags need
    to be compiled dynamically so we apply <code>:nosearch</code> to only the
    reset.
+   </p>
 
+   <p>
    Second, we insert a special case so that we can build XML::Parser::Expat.
    Since the <code>LIBS</code> parameter is just set to <code>"-lexpat"</code>
    in that module, there is no <code>-LC:/msys64/mingw64/lib</code> flag that
    we can use to insert <code>:nosearch</code>. So we insert it just before to
    set <code>LIBS</code> to <code>":nosearch -lexpat"</code> instead.
+   </p>
 </li>
 
 <li>
+   <p>
    This all would work on a clean install of Windows with only MSYS2 installed.
    However, Appveyor is not quite that.
+   </p>
 
+   <p>
    I came across two more build errors that had nothing to do with MSYS2:
+   </p>
 
+   <p>
    First, I had tried to install Net::SSLeay module which depends on the
    <code>libopenssl</code> library. When I tried to install it, I got errors
    about missing symbols. Everything else was linking properly, so I didn't get
    why it would not link. I added a line to show me the libraries that the
    build was using for <code>libopenssl</code>.
+   </p>
 
    <p>
    [[!format txt """
@@ -678,6 +794,7 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    It's looking for the SSL library in <code>C:\OpenSSL-Win32</code>. That's
    not a MinGW64 path! I looked around in the Net::SSLeay code and saw that there was
    <code>[[README.Win32|https://metacpan.org/source/MIKEM/Net-SSLeay-1.74/README.Win32]]</code>
@@ -693,7 +810,9 @@ can only run commands every 20 minutes!
    .....
    </blockquote>
 
+   <p>
    In our case, we can use
+   </p>
 
    <p>
    [[!format sh """
@@ -701,14 +820,18 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    and Net::SSLeay builds properly.
+   </p>
 </li>
 
 <li>
+   <p>
    Another issue that I hit was when I tried to install the
    <code>Alien::MuPDF</code> dependency. This is a module that I wrote that
    downloads and builds the MuPDF library. I was getting a very odd error from
    the linker in this case:
+   </p>
 
    <p>
    [[!format txt """
@@ -734,16 +857,24 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
-   Now there are undefined references to files within the same project!
+   <p>
+   The <code>fz_</code> prefix is used for functions in the MuPDF library (also
+   known as <code>libfitz</code>).  This time there are undefined references to
+   files within the same project! Very curious!
+   </p>
 
+   <p>
    Since I was already suspicious that I could not trust the Appveyor
    environment, I guessed that this might have to do with differences between
    the compiler and the linker used.
+   </p>
 
+   <p>
    To debug this, I tried to build the MuPDF library locally and noticed that
    the C compiler used is <code>cc</code>. On properly set up systems,
    <code>cc</code> is usually an alias for a specific C compiler such as
    <code>gcc</code>. To check this, I ran the following on Appveyor:
+   </p>
 
    <p>
    [[!format txt """
@@ -787,10 +918,12 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    Here we see that both <code>ld</code> and <code>gcc</code> are found under
    the <code>/mingw64/bin</code>, but <code>cc</code> is found elsewhere and is
    a different version altogether. The fix for this is simple, just copy
    <code>gcc</code> to <code>cc</code>
+   </p>
 
    <p>
    [[!format sh """
@@ -798,12 +931,16 @@ can only run commands every 20 minutes!
    """]]
    </p>
 
+   <p>
    and then Alien::MuPDF compiles properly.
+   </p>
 </li>
 
 <li>
+  <p>
   <strike>Write a post documenting your travails.</strike>
   Happily use Appveyor to test all your code on Windows.
+  </p>
 </li>
 
 </ol>
