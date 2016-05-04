@@ -14,22 +14,31 @@ architecture) throughout.
 
 ## Building locally
 
-1. Install [MSYS2](https://msys2.github.io/). This is a straightforward install
-   into the `C:\msys64` directory.
+<ol>
 
-2. Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
+<li>
+   Install [MSYS2](https://msys2.github.io/). This is a straightforward install
+   into the `C:\msys64` directory.
+</li>
+
+<li>
+   Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
    the proper environment variables needed to use 64-bit libraries for the
    MinGW64 system.
+</li>
 
-3. Use the [[pacman|https://www.archlinux.org/pacman/pacman.8.html]] package
+<li>
+   Use the [[pacman|https://www.archlinux.org/pacman/pacman.8.html]] package
    manager to update the package database and install the build toolchain.
 
    [[!format sh """
    pacman -Syu
    pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
    """]]
+</li>
 
-4. Install the native dependencies.
+<li>
+   Install the native dependencies.
 
    [[!format sh """
    pacman -S --needed --noconfirm \
@@ -39,8 +48,10 @@ architecture) throughout.
        mingw-w64-x86_64-expat \
        mingw-w64-x86_64-openssl
    """]]
+</li>
 
-5. Install Perl and cpanm
+<li>
+   Install Perl and cpanm
 
    [[!format sh """
    pacman -S --needed --noconfirm mingw-w64-x86_64-perl
@@ -94,8 +105,10 @@ architecture) throughout.
    """]]
 
    We can then install `cpanm` as before.
+</li>
 
-6. Install the Perl dependencies for curie itself by running the following the
+<li>
+   Install the Perl dependencies for curie itself by running the following the
    `curie` repository:
 
    [[!format sh """
@@ -103,6 +116,9 @@ architecture) throughout.
    """]]
 
    This reads the `cpanfile` which lists the Perl prerequisites for the project.
+</li>
+
+</ol>
 
 ## Building on Appveyor
 
