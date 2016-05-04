@@ -366,13 +366,13 @@ architecture) throughout.
    going to the [[distribution's page on MetaCPAN|https://metacpan.org/release/ExtUtils-MakeMaker]]
    and typing the query <code>EXTRALIBS LDLOADLIBS</code> in the search box:
 
-   [[!img gfx/metacpan-search-eumm-highlight.png caption="Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field" size="250x" ]]
+   [[!img gfx/metacpan-search-eumm-highlight.png caption="Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field" size="500x" ]]
    
    Looking at the results
    [[results|https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&search_type=modules]],
    we see [[ExtUtils::Liblist|https://metacpan.org/pod/ExtUtils::Liblist]] and [[ExtUtils::MM_Unix|https://metacpan.org/pod/ExtUtils::MM_Unix]].
 
-   [[!img gfx/metacpan-search-eumm-libs-results.png caption="Screenshot of the results of the query for LIB Makefile variables" size="250x" ]]
+   [[!img gfx/metacpan-search-eumm-libs-results.png caption="Screenshot of the results of the query for LIB Makefile variables" size="500x" ]]
 
    The ExtUtils::Liblist looks promising. In [[version 7.14|https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm]] of the documentation, there's a section about the Win32
    behaviour:
@@ -432,7 +432,7 @@ architecture) throughout.
 <li>
    Rejoice! The curie code runs!
 
-   [[!img gfx/mingw64-curie.png caption="Screenshot of the curie GUI with a test PDF open" size="250x" ]]
+   [[!img gfx/mingw64-curie.png caption="Screenshot of the curie GUI with a test PDF open" size="500x" ]]
 </li>
 
 </ol>
