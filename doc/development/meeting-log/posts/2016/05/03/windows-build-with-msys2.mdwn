@@ -31,17 +31,20 @@ architecture) throughout.
    Use the [[pacman|https://www.archlinux.org/pacman/pacman.8.html]] package
    manager to update the package database and install the build toolchain.
 
+   <p>
    [[!format sh """
    pacman -Syu  # update
    
    # Install compiler and build configuration tools
    pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
    """]]
+   </p>
 </li>
 
 <li>
    Install the native dependencies.
 
+   <p>
    [[!format sh """
    pacman -S --needed --noconfirm \
        mingw-w64-x86_64-gobject-introspection \
@@ -50,18 +53,22 @@ architecture) throughout.
        mingw-w64-x86_64-expat \
        mingw-w64-x86_64-openssl
    """]]
+   </p>
 </li>
 
 <li>
    Install Perl and cpanm
 
+   <p>
    [[!format sh """
    pacman -S --needed --noconfirm mingw-w64-x86_64-perl
    yes | cpan App::cpanminus
    """]]
+   </p>
 
    However, we ecounter a problem with this last command.
 
+   <p>
    [[!format txt """
    Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
    Checking if your kit is complete...
@@ -83,23 +90,29 @@ architecture) throughout.
      MIYAGAWA/App-cpanminus-1.7040.tar.gz
      dmake -- NOT OK
    """]]
+   </p>
 
    The important line here is
 
+   <p>
    [[!format txt """
    'pl2bat.bat' is not recognized as an internal or external command,
    """]]
+   </p>
 
    It tries to using <code>pl2bat.bat</code> to install the <code>cpanm</code>
    script, but it is missing. Let's take a look:
 
+   <p>
    [[!format txt """
    $ which pl2bat.bat
    which: no pl2bat.bat in (...)
    """]]
+   </p>
 
    OK, so it is not there. What about without the <code>.bat</code> extension?
 
+   <p>
    [[!format txt """
    # Where is pl2bat?
    $ which pl2bat
@@ -109,6 +122,7 @@ architecture) throughout.
    $ head -1 $(which pl2bat)
    #!perl -w
    """]]
+   </p>
 
    OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
 
@@ -128,24 +142,30 @@ architecture) throughout.
    the conversion, but that file was not converted itself! To do that we find the
    path for the <code>pl2bat</code> file and run <code>pl2bat</code> on it.
 
+   <p>
    [[!format sh """
    pl2bat $(which pl2bat)
    """]]
+   </p>
 
    We can then install <code>cpanm</code> as before and it works.
 
+   <p>
    [[!format sh """
    yes | cpan App::cpanminus
    """ ]]
+   </p>
 </li>
 
 <li>
    Install the Perl dependencies for curie itself by running the following in a copy of the
    <code>curie</code> repository:
 
+   <p>
    [[!format sh """
    cpanm --installdeps .
    """]]
+   </p>
 
    This reads the <code>cpanfile</code> which lists the Perl prerequisites for
    the project and installs everything needed to build, run, and test the code.
@@ -153,6 +173,7 @@ architecture) throughout.
    But we hit an issue here when it attempts to install Gtk3 and in turn
    its dependency Glib.
 
+   <p>
    [[!format txt """
    $ cpanm -f Glib
    --> Working on Glib
@@ -161,9 +182,11 @@ architecture) throughout.
    Building and testing Glib-1.321 ... ! Installing Glib failed. See C:\msys64\...\build.log for details. Retry with --force to force install it.
    FAIL
    """]]
+   </p>
 
    Let's take a closer look at what is happening with Glib by adding the <code>--verbose</code> flag:
 
+   <p>
    [[!format txt """
    $ cpanm --verbose Glib
    # [ redacted configuration output ]
@@ -213,6 +236,7 @@ architecture) throughout.
    C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1ff8): undefined reference to `pcre_fullinfo'
    C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x2028): undefined reference to `pcre_fullinfo
    """]]
+   </p>
 
    OK, that's a lot of errors. Seems that the linker phase (<code>ld</code>)
    has failed to find several function names in the <code>libglib-2.0.a</code> and
@@ -237,6 +261,7 @@ architecture) throughout.
    flags to be for <code>libglib</code> and <code>libgobject</code> by using
    the <code>pkg-config</code> command:
 
+   <p>
    [[!format txt """
    # Find the name of the glib and gobject library packages
    $ pkg-config --list-all | grep glib\|gobject
@@ -247,6 +272,7 @@ architecture) throughout.
    $ pkg-config --libs glib-2.0 gobject-2.0
    -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl
    """]]
+   </p>
 
    OK, that looks reasonable. But we see the above errors refer to functions
    that are prefixed with <code>ffi_</code> and <code>pcre_</code>. The
@@ -259,14 +285,17 @@ architecture) throughout.
    We can try to get the linker flags for static linking by adding the
    <code>--static</code> flag to <code>pkg-config</code>
 
+   <p>
    [[!format txt """
    # Get the static linker flags
    $ pkg-config --static --libs glib-2.0 gobject-2.0
    -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/../lib -LC:/msys64/mingw64/lib -lgobject-2.0 -lffi -lglib-2.0 -lintl -pthread -lws2_32 -lole32 -lwinmm -lshlwapi -lpcre -lintl -lpcre
-   """]
+   """]]
+   </p>
 
    Ah, there we go! Let's compare this to what the Glib module uses when linking:
 
+   <p>
    [[!format txt """
    # Drop into the Glib installation directory
    $ cpanm --look Glib
@@ -281,6 +310,7 @@ architecture) throughout.
    Writing Makefile for Glib
    Writing MYMETA.yml and MYMETA.json
    """]]
+   </p>
 
    OK, wait, what's this? We get the list of dynamic linker flags where it says
    "Potential libraries", but when it says "Result:", a couple of those flags
@@ -289,7 +319,7 @@ architecture) throughout.
    <code>[[NOECHO|https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO]]</code>
    flag to see what is going on:
 
-
+   <p>
    [[!format txt """
    Glib-1.321 $ dmake NOECHO=''
    # [ redacted output ] 
@@ -300,11 +330,13 @@ architecture) throughout.
    Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version'
    # [ rest of the linker errors as before ]
    """]]
+   </p>
 
    OK, so here we see that all the dynamic linker flags are using the full
    paths to the <code>.a</code> files. Let's take a look at how
    <code>Makefile.PL</code> passes on this information to the <code>Makefile</code>
 
+   <p>
    [[!format txt """
    Glib-1.321 $ grep libgobject-2.0.a Makefile
    EXTRALIBS = "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
@@ -312,15 +344,18 @@ architecture) throughout.
    # EXTRALIBS => q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
    # LDLOADLIBS => q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
    """]]]
+   </p>
 
-   So it appears that <code>ExtUtils::MakeMaker</code> is setting the EXTRALIB
-   and LDLOADLIBS variables. Let's try setting them ourselves to the output of
+   So it appears that <code>ExtUtils::MakeMaker</code> is setting the <code>EXTRALIBS</code>
+   and <code>LDLOADLIBS</code> variables. Let's try setting them ourselves to the output of
    <code>pkg-config</code>:
 
+   <p>
    [[!format txt """
    Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
    Glib-1.321 $ dmake NOECHO='' LDLOADLIBS="$GLIB_PKG_CONFIG" EXTRALIBS="$GLIB_PKG_CONFIG"
    """]]
+   </p>
 
    It built successfully! This means that there is a problem with using the
    full path to the <code>.a</code> files. We need to see why
@@ -356,6 +391,7 @@ architecture) throughout.
    So if we but <code>:nosearch</code> in the [[LIBS parameter|https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS]] of the function
    that generates the <code>Makefile</code>, (i.e., <code>WriteMakefile</code>). Let's try that
 
+   <p>
    [[!format txt """
    $ cpanm --look Glib
    Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
@@ -366,6 +402,7 @@ architecture) throughout.
    # [ remove extra output ]
    Glib-1.321 $ dmake NOECHO=''
    """]]
+   </p>
 
    Hey, it's working!
 
@@ -382,10 +419,12 @@ architecture) throughout.
    with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
    <code>:nosearch</code> into the <code>LIBS</code> parameter:
 
+   <p>
    [[!format txt """
    perl -Maliased=ExtUtils::MakeMaker,EUMM \
      -e 'my $i = EUMM->can("import"); no warnings "redefine"; *ExtUtils::MakeMaker::import = sub { &$i; my $targ = caller; my $wm = $targ->can("WriteMakefile"); *{"${targ}::WriteMakefile"} = sub { my %args = @_; $args{LIBS} =~ s/^/:nosearch /; $wm->(%args) }; }; do "Makefile.PL" or die "Hack failed: $@"'
    """]]
+   </p>
 
    Yes, that is one line and it does work!
 </li>
