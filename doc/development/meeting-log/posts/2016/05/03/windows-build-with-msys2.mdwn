@@ -506,6 +506,7 @@ can only run commands every 20 minutes!
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
 
+  <p>
   [[!format bat """
   @echo off
 
@@ -542,19 +543,14 @@ can only run commands every 20 minutes!
     REM Native deps
     bash -lc "pacman -S --needed --noconfirm mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-cairo mingw-w64-x86_64-gtk3 mingw-w64-x86_64-expat mingw-w64-x86_64-openssl"
 
-    REM Information about the toolchain
-    bash -lc "echo perl; which -a perl; perl -V"
-    bash -lc "echo cc; which -a cc; cc -v"
     REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.
     bash -lc "cp -pv /mingw64/bin/gcc /mingw64/bin/cc"
-    bash -lc "echo cc; which -a cc; cc -v"
-    bash -lc "echo gcc; which -a gcc; gcc -v"
-    bash -lc "echo ld; which -a ld; ld -V"
 
     REM Install via cpanfile
     bash -lc "cd $APPVEYOR_BUILD_FOLDER; . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh; export MAKEFLAGS='-j4 -P4'; cpanm --notest --installdeps ."
   )
   """]]
+  </p>
 
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let's talk about what is new.
@@ -563,12 +559,14 @@ can only run commands every 20 minutes!
 <li>
   Let's start with the part that installs the dependencies:
 
+  <p>
   [[!format bat """
   cd $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh
   export MAKEFLAGS='-j4 -P4'
   cpanm --notest --installdeps .
   """]]
+  </p>
 
   First, we need to be in the directory for the project we want to build
   (stored in the <code>$APPVEYOR_BUILD_FOLDER</code> environment variable).
@@ -594,6 +592,7 @@ can only run commands every 20 minutes!
    This Perl module is only run when the script being run is the configuration
    step of <code>ExtUtils::MakeMaker</code>:
 
+   <p>
    [[!format perl """
    package EUMMnosearch;
 
@@ -635,6 +634,7 @@ can only run commands every 20 minutes!
 
    1;
    """]]
+   </p>
 
    There are a couple changes to the function that overrides <code>WriteMakefile</code>.
 
@@ -747,6 +747,7 @@ can only run commands every 20 minutes!
 
    <p>
    [[!format txt """
+   # Information about the toolchain
    $ which -a cc; cc -v
    /usr/bin/cc
    /bin/cc
