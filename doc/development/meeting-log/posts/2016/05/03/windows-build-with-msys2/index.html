@@ -114,8 +114,8 @@ architecture) throughout.</p>
 <ol>
 
 <li>
-   Install [MSYS2](https://msys2.github.io/). This is a straightforward install
-   into the `C:\msys64` directory.
+   Install <a href="https://msys2.github.io/">MSYS2</a>. This is a straightforward install
+   into the <code>C:\msys64</code> directory.
 </li>
 
 <li>
@@ -128,7 +128,9 @@ architecture) throughout.</p>
    Use the <a href="https://www.archlinux.org/pacman/pacman.8.html">pacman</a> package
    manager to update the package database and install the build toolchain.
 
-   <pre class="hl">   pacman <span class="hl opt">-</span>Syu
+   <pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
+
+   <span class="hl slc"># Install compiler and build configuration tools</span>
    pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
 
 </pre>
@@ -155,8 +157,7 @@ architecture) throughout.</p>
 
 </pre>
 
-   However, we ecounter a problem with this last command. It tries to using
-   `pl2bat.bat` to install the `cpanm` script, but for some reason we see the following error:
+   However, we ecounter a problem with this last command.
 
    <pre>   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
    Checking if your kit is complete...
@@ -184,38 +185,300 @@ architecture) throughout.</p>
    <pre>   'pl2bat.bat' is not recognized as an internal or external command,
    </pre>
 
-   The `pl2bat` command is a tool that is used on Windows in order to allow for
-   running Perl scripts without having to specify that they must run under Perl.
-   So instead of having to type `perl myscript` to run code in the `myscript`
-   file, we can just type `myscript` and run it as if it was just another
-   executable. This works by wrapping the original code and placing it into a
-   Windows batch file that calls the Perl interpreter on the same file.
+   It tries to using <code>pl2bat.bat</code> to install the <code>cpanm</code>
+   script, but it is missing. Let's take a look:
 
-   It turns out that MSYS2 has the Perl script `pl2bat` which does the conversion,
-   but that file was not converted itself! To do that we find the path for the
-   `pl2bat` file and run `pl2bat` on it.
+   <pre>   $ which pl2bat.bat
+   which: no pl2bat.bat in (...)
+   </pre>
+
+   OK, so it is not there. What about without the <code>.bat</code> extension?
+
+   <pre>   # Where is pl2bat?
+   $ which pl2bat
+   /mingw64/bin/pl2bat
+
+   # What does the beginning of the file look like.
+   $ head -1 $(which pl2bat)
+   #!perl -w
+   </pre>
+
+   OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
+
+   <dl>
+       <dt>Note about <code>pl2bat</code></dt>
+       <dd>
+       The <code>pl2bat</code> command is a tool that is used on Windows in order to allow for
+       running Perl scripts without having to specify that they must run under Perl.
+       So instead of having to type <code>perl myscript</code> to run code in the <code>myscript</code>
+       file, we can just type <code>myscript</code> and run it as if it was just another
+       executable. This works by wrapping the original code and placing it into a
+       Windows batch file that calls the Perl interpreter on the same file.
+       </dd>
+   </dl>
+
+   It turns out that MSYS2 has the Perl script <code>pl2bat</code> which does
+   the conversion, but that file was not converted itself! To do that we find the
+   path for the <code>pl2bat</code> file and run <code>pl2bat</code> on it.
 
    <pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
 
 </pre>
 
-   We can then install `cpanm` as before.
+   We can then install <code>cpanm</code> as before and it works.
+
+   <pre class="hl">   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
+
+</pre>
 </li>
 
 <li>
-   Install the Perl dependencies for curie itself by running the following the
-   `curie` repository:
+   Install the Perl dependencies for curie itself by running the following in a copy of the
+   <code>curie</code> repository:
 
-   <pre class="hl">   cpanm <span class="hl opt">--</span>verbose <span class="hl opt">--</span>installdeps .
+   <pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
 
 </pre>
 
-   This reads the `cpanfile` which lists the Perl prerequisites for the project.
+   This reads the <code>cpanfile</code> which lists the Perl prerequisites for
+   the project and installs everything needed to build, run, and test the code.
+
+   But we hit an issue here when it attempts to install Gtk3 and in turn
+   its dependency Glib.
+
+   <pre>   $ cpanm -f Glib
+   --&gt; Working on Glib
+   Fetching http://www.cpan.org/authors/id/X/XA/XAOC/Glib-1.321.tar.gz ... OK
+   Configuring Glib-1.321 ... OK
+   Building and testing Glib-1.321 ... ! Installing Glib failed. See C:\msys64\...\build.log for details. Retry with --force to force install it.
+   FAIL
+   </pre>
+
+   Let's take a closer look at what is happening with Glib by adding the <code>--verbose</code> flag:
+
+   <pre>   $ cpanm --verbose Glib
+   # [ redacted configuration output ]
+   # [ redacted compilation output ]
+   [ LD blib\arch\auto\Glib\Glib.dll ]
+   Glib.o:Glib.c:(.text+0x156d): undefined reference to `__imp_glib_major_version'
+   Glib.o:Glib.c:(.text+0x15a3): undefined reference to `__imp_glib_minor_version'
+   Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version'
+   Glib.o:Glib.c:(.text+0x15e8): undefined reference to `__imp_glib_micro_version'
+   Glib.o:Glib.c:(.text+0x1603): undefined reference to `__imp_glib_minor_version'
+   Glib.o:Glib.c:(.text+0x160a): undefined reference to `__imp_glib_micro_version'
+   GUtils.o:GUtils.c:(.text+0x573): undefined reference to `__imp_glib_micro_version'
+   GUtils.o:GUtils.c:(.text+0x583): undefined reference to `__imp_glib_minor_version'
+   GUtils.o:GUtils.c:(.text+0x593): undefined reference to `__imp_glib_major_version'
+   GParamSpec.o:GParamSpec.c:(.text+0x2ee4): undefined reference to `__imp_g_param_spec_types'
+   GParamSpec.o:GParamSpec.c:(.text+0x3032): undefined reference to `__imp_g_param_spec_types'
+   GParamSpec.o:GParamSpec.c:(.text+0x3152): undefined reference to `__imp_g_param_spec_types'
+   GParamSpec.o:GParamSpec.c:(.text+0x3292): undefined reference to `__imp_g_param_spec_types'
+   GParamSpec.o:GParamSpec.c:(.text+0x3347): undefined reference to `__imp_g_param_spec_types'
+   GParamSpec.o:GParamSpec.c:(.text+0x3422): more undefined references to `__imp_g_param_spec_types' follow
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x222e): undefined reference to `ffi_prep_cif'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x224e): undefined reference to `ffi_call'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x2607): undefined reference to `ffi_prep_cif'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x262f): undefined reference to `ffi_call'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_void[.refptr.ffi_type_void]+0x0): undefined reference to `ffi_type_void'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_uint64[.refptr.ffi_type_uint64]+0x0): undefined reference to `ffi_type_uint64'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_sint64[.refptr.ffi_type_sint64]+0x0): undefined reference to `ffi_type_sint64'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_double[.refptr.ffi_type_double]+0x0): undefined reference to `ffi_type_double'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_float[.refptr.ffi_type_float]+0x0): undefined reference to `ffi_type_float'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_pointer[.refptr.ffi_type_pointer]+0x0): undefined reference to `ffi_type_pointer'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_uint32[.refptr.ffi_type_uint32]+0x0): undefined reference to `ffi_type_uint32'
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_sint32[.refptr.ffi_type_sint32]+0x0): undefined reference to `ffi_type_sint32'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gmain.o):(.text+0x25c8): undefined reference to `__imp_timeGetTime'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gmain.o):(.text+0x2608): undefined reference to `__imp_timeGetTime'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1a6): undefined reference to `pcre_get_stringtable_entries'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x231): undefined reference to `pcre_get_stringnumber'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0xa36): undefined reference to `pcre_exec'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x132f): undefined reference to `pcre_compile2'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x134d): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x13c9): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1b44): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1d9c): undefined reference to `pcre_study'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1e9d): undefined reference to `pcre_config'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1eb4): undefined reference to `pcre_config'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1f98): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1fc8): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1ff8): undefined reference to `pcre_fullinfo'
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x2028): undefined reference to `pcre_fullinfo
+   </pre>
+
+   OK, that's a lot of errors. Seems that the linker phase (<code>ld</code>)
+   has failed to find several function names in the <code>libglib-2.0.a</code> and
+   <code>libgobject-2.0.a</code> library files.
+
+   <dl>
+     <dt>
+       Note about library files on Windows
+     </dt>
+     <dd>
+       We see that that library files above both end in the <code>.a</code> extension (for
+       archive). This indicates that this is a static library which means
+       symbols such as function names get resolved at linking time through
+       <em>static linking</em>.
+
+       We can also resolve symbols at runtime through <em>dynamic linking</em>.
+       These files have the extension <code>.dll</code> on Windows.
+     <dd>
+   </dl>
+
+   Let's take a look at what we expect the linker
+   flags to be for <code>libglib</code> and <code>libgobject</code> by using
+   the <code>pkg-config</code> command:
+
+   <pre>   # Find the name of the glib and gobject library packages
+   $ pkg-config --list-all | grep glib\|gobject
+   glib-2.0                            GLib - C Utility Library
+   gobject-2.0                         GObject - GLib Type, Object, Parameter and Signal Library
+
+   # Get the linker flags
+   $ pkg-config --libs glib-2.0 gobject-2.0
+   -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl
+   </pre>
+
+   OK, that looks reasonable. But we see the above errors refer to functions
+   that are prefixed with <code>ffi_</code> and <code>pcre_</code>. The
+   convention for C libraries is that the prefix referse to the libraries that
+   the functions came from. But we don't see any flags for those libraries
+   (<code>-lffi -lpcre</code>). So when linker attempts static linking against
+   the <code>.a</code> files, it does not know that the other libraries are
+   needed.
+
+   We can try to get the linker flags for static linking by adding the
+   <code>--static</code> flag to <code>pkg-config</code>
+
+   <pre>   # Get the static linker flags
+   $ pkg-config --static --libs glib-2.0 gobject-2.0
+   -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/../lib -LC:/msys64/mingw64/lib -lgobject-2.0 -lffi -lglib-2.0 -lintl -pthread -lws2_32 -lole32 -lwinmm -lshlwapi -lpcre -lintl -lpcre
+   """]
+
+   Ah, there we go! Let's compare this to what the Glib module uses when linking:
+
+   [[!format txt </pre>
+
+   OK, wait, what's this? We get the list of dynamic linker flags where it says
+   "Potential libraries", but when it says "Result:", a couple of those flags
+   become paths to the corresponding <code>.a</code> files. Let's run
+   <code>dmake</code> with the
+   <code><a href="https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO">NOECHO</a></code>
+   flag to see what is going on:
+
+
+   <pre>   Glib-1.321 $ dmake NOECHO=''
+   # [ redacted output ] 
+   [ LD blib\arch\auto\Glib\Glib.dll ]
+   g++ Glib.def -o blib\arch\auto\Glib\Glib.dll -mdll -s -L"C:\msys64\mingw64\lib\perl5\core_perl\CORE" -L"C:\msys64\mingw64\lib" Glib.o GError.o GUtils.o GLog.o GType.o GBoxed.o GObject.o GValue.o GClosure.o GSignal.o GMainLoop.o GIOChannel.o GParamSpec.o GKeyFile.o GOption.o GBookmarkFile.o GVariant.o gperl-gtypes.o   "C:\msys64\mingw64\lib\perl5\core_perl\CORE\libperl522.a" "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a" -Wl,--enable-auto-image-base
+   Glib.o:Glib.c:(.text+0x156d): undefined reference to `__imp_glib_major_version'
+   Glib.o:Glib.c:(.text+0x15a3): undefined reference to `__imp_glib_minor_version'
+   Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version'
+   # [ rest of the linker errors as before ]
+   </pre>
+
+   OK, so here we see that all the dynamic linker flags are using the full
+   paths to the <code>.a</code> files. Let's take a look at how
+   <code>Makefile.PL</code> passes on this information to the <code>Makefile</code>
+
+   <pre>   Glib-1.321 $ grep libgobject-2.0.a Makefile
+   EXTRALIBS = "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
+   LDLOADLIBS = "C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"
+   # EXTRALIBS =&gt; q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
+   # LDLOADLIBS =&gt; q["C:\msys64\mingw64\lib\libgobject-2.0.a" "C:\msys64\mingw64\lib\libglib-2.0.a" "C:\msys64\mingw64\lib\libintl.a" "C:\msys64\mingw64\lib\libgthread-2.0.a"]
+   </pre>]
+
+   So it appears that <code>ExtUtils::MakeMaker</code> is setting the EXTRALIB
+   and LDLOADLIBS variables. Let's try setting them ourselves to the output of
+   <code>pkg-config</code>:
+
+   <pre>   Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
+   Glib-1.321 $ dmake NOECHO='' LDLOADLIBS="$GLIB_PKG_CONFIG" EXTRALIBS="$GLIB_PKG_CONFIG"
+   </pre>
+
+   It built successfully! This means that there is a problem with using the
+   full path to the <code>.a</code> files. We need to see why
+   <code>EXTRALIBS</code> and <code>LDLOADLIBS</code> are being set the way
+   they are.
+
+   Let's search the distribution for documentation about these variables by
+   going to the <a href="https://metacpan.org/release/ExtUtils-MakeMaker">distribution's page on MetaCPAN</a>
+   and typing the query <code>EXTRALIBS LDLOADLIBS</code> in the search box:
+
+   <table class="img"><caption>Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field</caption><tr><td><a href="../gfx/metacpan-search-eumm-highlight.png"><img src="./250x-metacpan-search-eumm-highlight.png" width="250" height="255" class="img" /></a></td></tr></table>
+
+   Looking at the results
+   <a href="https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&search_type=modules">results</a>,
+   we see <a href="https://metacpan.org/pod/ExtUtils::Liblist">ExtUtils::Liblist</a> and <a href="https://metacpan.org/pod/ExtUtils::MM_Unix">ExtUtils::MM_Unix</a>.
+
+   <table class="img"><caption>Screenshot of the results of the query for LIB Makefile variables</caption><tr><td><a href="../gfx/metacpan-search-eumm-libs-results.png"><img src="./250x-metacpan-search-eumm-libs-results.png" width="250" height="123" class="img" /></a></td></tr></table>
+
+   The ExtUtils::Liblist looks promising. In <a href="https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm">version 7.14</a> of the documentation, there's a section about the Win32
+   behaviour:
+   <blockquote>
+   An entry of the form <code>-lfoo</code> specifies the library <code>foo</code>,
+   which may be spelled differently depending on what kind of compiler you are
+   using. If you are using GCC, it gets translated to <code>libfoo.a</code>, but
+   for other win32 compilers, it becomes <code>foo.lib</code>.
+   </blockquote>
+
+   So the translation to full paths is a part of the design. Reading further, we see
+   <blockquote>
+   An entry that matches <code>/:nosearch/i</code> disables all searching for the libraries specified after it.
+   </blockquote>
+
+   So if we but <code>:nosearch</code> in the <a href="https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS">LIBS parameter</a> of the function
+   that generates the <code>Makefile</code>, (i.e., <code>WriteMakefile</code>). Let's try that
+
+   <pre>   $ cpanm --look Glib
+   Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
+   Glib-1.321 $ perl Makefile.PL LIBS=":nosearch $GLIB_PKG_CONFIG" verbose
+   # [ remove extra output ]
+   Potential libraries are ':nosearch -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl -lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32':
+   Result: "-LC:\msys64\mingw64\lib" "-lgobject-2.0" "-lglib-2.0" "-lintl" "-lmoldname" "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lcomdlg32" "-ladvapi32" "-lshell32" "-lole32" "-loleaut32" "-lnetapi32" "-luuid" "-lws2_32" "-lmpr" "-lwinmm" "-lversion" "-lodbc32" "-lodbccp32" "-lcomctl32"
+   # [ remove extra output ]
+   Glib-1.321 $ dmake NOECHO=''
+   </pre>
+
+   Hey, it's working!
+
+   So now we know that all we need is to put
+   <code>:nosearch</code> in the <code>LIBS</code> parameter and it will build.
+   But that's still problematic, because if I try to install any module, I will
+   have to open it up to find out what it is passing in to LIBS and copy that
+   into the command line for the configuration step.
+
+   I popped into the <code>#toolchain</code> IRC channel on the
+   <code>irc.perl.org</code> network to share what I had learned and ask
+   if there was another way forward. After a quick convo with
+   <code><a href="https://metacpan.org/author/MSTROUT">mst</a>++</code>, he came back
+   with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
+   <code>:nosearch</code> into the <code>LIBS</code> parameter:
+
+   <pre>   perl -Maliased=ExtUtils::MakeMaker,EUMM \
+     -e 'my $i = EUMM-&gt;can("import"); no warnings "redefine"; *ExtUtils::MakeMaker::import = sub { &amp;$i; my $targ = caller; my $wm = $targ-&gt;can("WriteMakefile"); *{"${targ}::WriteMakefile"} = sub { my %args = @_; $args{LIBS} =~ s/^/:nosearch /; $wm-&gt;(%args) }; }; do "Makefile.PL" or die "Hack failed: $@"'
+   </pre>
+
+   Yes, that is one line and it does work!
+</li>
+
+<li>
+   Rejoice! The curie code runs!
+
+   <table class="img"><caption>Screenshot of the curie GUI with a test PDF open</caption><tr><td><a href="../gfx/mingw64-curie.png"><img src="./250x-mingw64-curie.png" width="250" height="200" class="img" /></a></td></tr></table>
 </li>
 
 </ol>
 
+<p>At this point, I was quite happy. Now I needed to reproduce these steps so that
+they can be used to test every set of changes to the codebase. I could do this
+with the Appveyor CI service. Little did I know that there was a lot more work
+coming my way.</p>
+
 <h2 id="buildingonappveyor">Building on Appveyor</h2>
+
+<p><li></p>
+
+<p></li></p>
 
 <div class="footnotes">
 <hr />
@@ -249,7 +512,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 04 May 2016 02:41:31 AM UTC</span>
+Last edited <span class="date">Wed 04 May 2016 07:00:29 PM UTC</span>
 <!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
 </div>
 

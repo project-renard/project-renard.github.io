@@ -16,7 +16,7 @@
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2016-05-04T02:41:31Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:00:29Z</dcterms:modified>
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -35,8 +35,8 @@ architecture) throughout.&lt;/p&gt;
 &lt;ol&gt;
 
 &lt;li&gt;
-   Install [MSYS2](https://msys2.github.io/). This is a straightforward install
-   into the `C:\msys64` directory.
+   Install &lt;a href=&quot;https://msys2.github.io/&quot;&gt;MSYS2&lt;/a&gt;. This is a straightforward install
+   into the &lt;code&gt;C:\msys64&lt;/code&gt; directory.
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -49,7 +49,9 @@ architecture) throughout.&lt;/p&gt;
    Use the &lt;a href=&quot;https://www.archlinux.org/pacman/pacman.8.html&quot;&gt;pacman&lt;/a&gt; package
    manager to update the package database and install the build toolchain.
 
-   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu
+   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
+
+   &lt;span class=&quot;hl slc&quot;&gt;# Install compiler and build configuration tools&lt;/span&gt;
    pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;toolchain autoconf automake libtool &lt;span class=&quot;hl kwc&quot;&gt;make patch&lt;/span&gt; mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;libtool
 
 &lt;/pre&gt;
@@ -76,8 +78,7 @@ architecture) throughout.&lt;/p&gt;
 
 &lt;/pre&gt;
 
-   However, we ecounter a problem with this last command. It tries to using
-   `pl2bat.bat` to install the `cpanm` script, but for some reason we see the following error:
+   However, we ecounter a problem with this last command.
 
    &lt;pre&gt;   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
    Checking if your kit is complete...
@@ -105,38 +106,300 @@ architecture) throughout.&lt;/p&gt;
    &lt;pre&gt;   &#39;pl2bat.bat&#39; is not recognized as an internal or external command,
    &lt;/pre&gt;
 
-   The `pl2bat` command is a tool that is used on Windows in order to allow for
-   running Perl scripts without having to specify that they must run under Perl.
-   So instead of having to type `perl myscript` to run code in the `myscript`
-   file, we can just type `myscript` and run it as if it was just another
-   executable. This works by wrapping the original code and placing it into a
-   Windows batch file that calls the Perl interpreter on the same file.
+   It tries to using &lt;code&gt;pl2bat.bat&lt;/code&gt; to install the &lt;code&gt;cpanm&lt;/code&gt;
+   script, but it is missing. Let&#39;s take a look:
 
-   It turns out that MSYS2 has the Perl script `pl2bat` which does the conversion,
-   but that file was not converted itself! To do that we find the path for the
-   `pl2bat` file and run `pl2bat` on it.
+   &lt;pre&gt;   $ which pl2bat.bat
+   which: no pl2bat.bat in (...)
+   &lt;/pre&gt;
+
+   OK, so it is not there. What about without the &lt;code&gt;.bat&lt;/code&gt; extension?
+
+   &lt;pre&gt;   # Where is pl2bat?
+   $ which pl2bat
+   /mingw64/bin/pl2bat
+
+   # What does the beginning of the file look like.
+   $ head -1 $(which pl2bat)
+   #!perl -w
+   &lt;/pre&gt;
+
+   OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
+
+   &lt;dl&gt;
+       &lt;dt&gt;Note about &lt;code&gt;pl2bat&lt;/code&gt;&lt;/dt&gt;
+       &lt;dd&gt;
+       The &lt;code&gt;pl2bat&lt;/code&gt; command is a tool that is used on Windows in order to allow for
+       running Perl scripts without having to specify that they must run under Perl.
+       So instead of having to type &lt;code&gt;perl myscript&lt;/code&gt; to run code in the &lt;code&gt;myscript&lt;/code&gt;
+       file, we can just type &lt;code&gt;myscript&lt;/code&gt; and run it as if it was just another
+       executable. This works by wrapping the original code and placing it into a
+       Windows batch file that calls the Perl interpreter on the same file.
+       &lt;/dd&gt;
+   &lt;/dl&gt;
+
+   It turns out that MSYS2 has the Perl script &lt;code&gt;pl2bat&lt;/code&gt; which does
+   the conversion, but that file was not converted itself! To do that we find the
+   path for the &lt;code&gt;pl2bat&lt;/code&gt; file and run &lt;code&gt;pl2bat&lt;/code&gt; on it.
 
    &lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
 
 &lt;/pre&gt;
 
-   We can then install `cpanm` as before.
+   We can then install &lt;code&gt;cpanm&lt;/code&gt; as before and it works.
+
+   &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
+
+&lt;/pre&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-   Install the Perl dependencies for curie itself by running the following the
-   `curie` repository:
+   Install the Perl dependencies for curie itself by running the following in a copy of the
+   &lt;code&gt;curie&lt;/code&gt; repository:
 
-   &lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;verbose &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
+   &lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
 &lt;/pre&gt;
 
-   This reads the `cpanfile` which lists the Perl prerequisites for the project.
+   This reads the &lt;code&gt;cpanfile&lt;/code&gt; which lists the Perl prerequisites for
+   the project and installs everything needed to build, run, and test the code.
+
+   But we hit an issue here when it attempts to install Gtk3 and in turn
+   its dependency Glib.
+
+   &lt;pre&gt;   $ cpanm -f Glib
+   --&amp;gt; Working on Glib
+   Fetching http://www.cpan.org/authors/id/X/XA/XAOC/Glib-1.321.tar.gz ... OK
+   Configuring Glib-1.321 ... OK
+   Building and testing Glib-1.321 ... ! Installing Glib failed. See C:\msys64\...\build.log for details. Retry with --force to force install it.
+   FAIL
+   &lt;/pre&gt;
+
+   Let&#39;s take a closer look at what is happening with Glib by adding the &lt;code&gt;--verbose&lt;/code&gt; flag:
+
+   &lt;pre&gt;   $ cpanm --verbose Glib
+   # [ redacted configuration output ]
+   # [ redacted compilation output ]
+   [ LD blib\arch\auto\Glib\Glib.dll ]
+   Glib.o:Glib.c:(.text+0x156d): undefined reference to `__imp_glib_major_version&#39;
+   Glib.o:Glib.c:(.text+0x15a3): undefined reference to `__imp_glib_minor_version&#39;
+   Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version&#39;
+   Glib.o:Glib.c:(.text+0x15e8): undefined reference to `__imp_glib_micro_version&#39;
+   Glib.o:Glib.c:(.text+0x1603): undefined reference to `__imp_glib_minor_version&#39;
+   Glib.o:Glib.c:(.text+0x160a): undefined reference to `__imp_glib_micro_version&#39;
+   GUtils.o:GUtils.c:(.text+0x573): undefined reference to `__imp_glib_micro_version&#39;
+   GUtils.o:GUtils.c:(.text+0x583): undefined reference to `__imp_glib_minor_version&#39;
+   GUtils.o:GUtils.c:(.text+0x593): undefined reference to `__imp_glib_major_version&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x2ee4): undefined reference to `__imp_g_param_spec_types&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x3032): undefined reference to `__imp_g_param_spec_types&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x3152): undefined reference to `__imp_g_param_spec_types&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x3292): undefined reference to `__imp_g_param_spec_types&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x3347): undefined reference to `__imp_g_param_spec_types&#39;
+   GParamSpec.o:GParamSpec.c:(.text+0x3422): more undefined references to `__imp_g_param_spec_types&#39; follow
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x222e): undefined reference to `ffi_prep_cif&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x224e): undefined reference to `ffi_call&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x2607): undefined reference to `ffi_prep_cif&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.text+0x262f): undefined reference to `ffi_call&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_void[.refptr.ffi_type_void]+0x0): undefined reference to `ffi_type_void&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_uint64[.refptr.ffi_type_uint64]+0x0): undefined reference to `ffi_type_uint64&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_sint64[.refptr.ffi_type_sint64]+0x0): undefined reference to `ffi_type_sint64&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_double[.refptr.ffi_type_double]+0x0): undefined reference to `ffi_type_double&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_float[.refptr.ffi_type_float]+0x0): undefined reference to `ffi_type_float&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_pointer[.refptr.ffi_type_pointer]+0x0): undefined reference to `ffi_type_pointer&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_uint32[.refptr.ffi_type_uint32]+0x0): undefined reference to `ffi_type_uint32&#39;
+   C:\msys64\mingw64\lib\libgobject-2.0.a(libgobject_2_0_la-gclosure.o):(.rdata$.refptr.ffi_type_sint32[.refptr.ffi_type_sint32]+0x0): undefined reference to `ffi_type_sint32&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gmain.o):(.text+0x25c8): undefined reference to `__imp_timeGetTime&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gmain.o):(.text+0x2608): undefined reference to `__imp_timeGetTime&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1a6): undefined reference to `pcre_get_stringtable_entries&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x231): undefined reference to `pcre_get_stringnumber&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0xa36): undefined reference to `pcre_exec&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x132f): undefined reference to `pcre_compile2&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x134d): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x13c9): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1b44): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1d9c): undefined reference to `pcre_study&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1e9d): undefined reference to `pcre_config&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1eb4): undefined reference to `pcre_config&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1f98): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1fc8): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x1ff8): undefined reference to `pcre_fullinfo&#39;
+   C:\msys64\mingw64\lib\libglib-2.0.a(libglib_2_0_la-gregex.o):(.text+0x2028): undefined reference to `pcre_fullinfo
+   &lt;/pre&gt;
+
+   OK, that&#39;s a lot of errors. Seems that the linker phase (&lt;code&gt;ld&lt;/code&gt;)
+   has failed to find several function names in the &lt;code&gt;libglib-2.0.a&lt;/code&gt; and
+   &lt;code&gt;libgobject-2.0.a&lt;/code&gt; library files.
+
+   &lt;dl&gt;
+     &lt;dt&gt;
+       Note about library files on Windows
+     &lt;/dt&gt;
+     &lt;dd&gt;
+       We see that that library files above both end in the &lt;code&gt;.a&lt;/code&gt; extension (for
+       archive). This indicates that this is a static library which means
+       symbols such as function names get resolved at linking time through
+       &lt;em&gt;static linking&lt;/em&gt;.
+
+       We can also resolve symbols at runtime through &lt;em&gt;dynamic linking&lt;/em&gt;.
+       These files have the extension &lt;code&gt;.dll&lt;/code&gt; on Windows.
+     &lt;dd&gt;
+   &lt;/dl&gt;
+
+   Let&#39;s take a look at what we expect the linker
+   flags to be for &lt;code&gt;libglib&lt;/code&gt; and &lt;code&gt;libgobject&lt;/code&gt; by using
+   the &lt;code&gt;pkg-config&lt;/code&gt; command:
+
+   &lt;pre&gt;   # Find the name of the glib and gobject library packages
+   $ pkg-config --list-all | grep glib\|gobject
+   glib-2.0                            GLib - C Utility Library
+   gobject-2.0                         GObject - GLib Type, Object, Parameter and Signal Library
+
+   # Get the linker flags
+   $ pkg-config --libs glib-2.0 gobject-2.0
+   -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl
+   &lt;/pre&gt;
+
+   OK, that looks reasonable. But we see the above errors refer to functions
+   that are prefixed with &lt;code&gt;ffi_&lt;/code&gt; and &lt;code&gt;pcre_&lt;/code&gt;. The
+   convention for C libraries is that the prefix referse to the libraries that
+   the functions came from. But we don&#39;t see any flags for those libraries
+   (&lt;code&gt;-lffi -lpcre&lt;/code&gt;). So when linker attempts static linking against
+   the &lt;code&gt;.a&lt;/code&gt; files, it does not know that the other libraries are
+   needed.
+
+   We can try to get the linker flags for static linking by adding the
+   &lt;code&gt;--static&lt;/code&gt; flag to &lt;code&gt;pkg-config&lt;/code&gt;
+
+   &lt;pre&gt;   # Get the static linker flags
+   $ pkg-config --static --libs glib-2.0 gobject-2.0
+   -LC:/msys64/mingw64/lib -LC:/msys64/mingw64/lib/../lib -LC:/msys64/mingw64/lib -lgobject-2.0 -lffi -lglib-2.0 -lintl -pthread -lws2_32 -lole32 -lwinmm -lshlwapi -lpcre -lintl -lpcre
+   &quot;&quot;&quot;]
+
+   Ah, there we go! Let&#39;s compare this to what the Glib module uses when linking:
+
+   [[!format txt &lt;/pre&gt;
+
+   OK, wait, what&#39;s this? We get the list of dynamic linker flags where it says
+   &quot;Potential libraries&quot;, but when it says &quot;Result:&quot;, a couple of those flags
+   become paths to the corresponding &lt;code&gt;.a&lt;/code&gt; files. Let&#39;s run
+   &lt;code&gt;dmake&lt;/code&gt; with the
+   &lt;code&gt;&lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO&quot;&gt;NOECHO&lt;/a&gt;&lt;/code&gt;
+   flag to see what is going on:
+
+
+   &lt;pre&gt;   Glib-1.321 $ dmake NOECHO=&#39;&#39;
+   # [ redacted output ] 
+   [ LD blib\arch\auto\Glib\Glib.dll ]
+   g++ Glib.def -o blib\arch\auto\Glib\Glib.dll -mdll -s -L&quot;C:\msys64\mingw64\lib\perl5\core_perl\CORE&quot; -L&quot;C:\msys64\mingw64\lib&quot; Glib.o GError.o GUtils.o GLog.o GType.o GBoxed.o GObject.o GValue.o GClosure.o GSignal.o GMainLoop.o GIOChannel.o GParamSpec.o GKeyFile.o GOption.o GBookmarkFile.o GVariant.o gperl-gtypes.o   &quot;C:\msys64\mingw64\lib\perl5\core_perl\CORE\libperl522.a&quot; &quot;C:\msys64\mingw64\lib\libgobject-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libglib-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libintl.a&quot; &quot;C:\msys64\mingw64\lib\libgthread-2.0.a&quot; -Wl,--enable-auto-image-base
+   Glib.o:Glib.c:(.text+0x156d): undefined reference to `__imp_glib_major_version&#39;
+   Glib.o:Glib.c:(.text+0x15a3): undefined reference to `__imp_glib_minor_version&#39;
+   Glib.o:Glib.c:(.text+0x15b1): undefined reference to `__imp_glib_micro_version&#39;
+   # [ rest of the linker errors as before ]
+   &lt;/pre&gt;
+
+   OK, so here we see that all the dynamic linker flags are using the full
+   paths to the &lt;code&gt;.a&lt;/code&gt; files. Let&#39;s take a look at how
+   &lt;code&gt;Makefile.PL&lt;/code&gt; passes on this information to the &lt;code&gt;Makefile&lt;/code&gt;
+
+   &lt;pre&gt;   Glib-1.321 $ grep libgobject-2.0.a Makefile
+   EXTRALIBS = &quot;C:\msys64\mingw64\lib\libgobject-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libglib-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libintl.a&quot; &quot;C:\msys64\mingw64\lib\libgthread-2.0.a&quot;
+   LDLOADLIBS = &quot;C:\msys64\mingw64\lib\libgobject-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libglib-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libintl.a&quot; &quot;C:\msys64\mingw64\lib\libgthread-2.0.a&quot;
+   # EXTRALIBS =&amp;gt; q[&quot;C:\msys64\mingw64\lib\libgobject-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libglib-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libintl.a&quot; &quot;C:\msys64\mingw64\lib\libgthread-2.0.a&quot;]
+   # LDLOADLIBS =&amp;gt; q[&quot;C:\msys64\mingw64\lib\libgobject-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libglib-2.0.a&quot; &quot;C:\msys64\mingw64\lib\libintl.a&quot; &quot;C:\msys64\mingw64\lib\libgthread-2.0.a&quot;]
+   &lt;/pre&gt;]
+
+   So it appears that &lt;code&gt;ExtUtils::MakeMaker&lt;/code&gt; is setting the EXTRALIB
+   and LDLOADLIBS variables. Let&#39;s try setting them ourselves to the output of
+   &lt;code&gt;pkg-config&lt;/code&gt;:
+
+   &lt;pre&gt;   Glib-1.321 $ export GLIB_PKG_CONFIG=&quot;$(pkg-config --libs gobject-2.0 glib-2.0)&quot;
+   Glib-1.321 $ dmake NOECHO=&#39;&#39; LDLOADLIBS=&quot;$GLIB_PKG_CONFIG&quot; EXTRALIBS=&quot;$GLIB_PKG_CONFIG&quot;
+   &lt;/pre&gt;
+
+   It built successfully! This means that there is a problem with using the
+   full path to the &lt;code&gt;.a&lt;/code&gt; files. We need to see why
+   &lt;code&gt;EXTRALIBS&lt;/code&gt; and &lt;code&gt;LDLOADLIBS&lt;/code&gt; are being set the way
+   they are.
+
+   Let&#39;s search the distribution for documentation about these variables by
+   going to the &lt;a href=&quot;https://metacpan.org/release/ExtUtils-MakeMaker&quot;&gt;distribution&#39;s page on MetaCPAN&lt;/a&gt;
+   and typing the query &lt;code&gt;EXTRALIBS LDLOADLIBS&lt;/code&gt; in the search box:
+
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/250x-metacpan-search-eumm-highlight.png&quot; width=&quot;250&quot; height=&quot;255&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+   Looking at the results
+   &lt;a href=&quot;https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&amp;search_type=modules&quot;&gt;results&lt;/a&gt;,
+   we see &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::Liblist&quot;&gt;ExtUtils::Liblist&lt;/a&gt; and &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MM_Unix&quot;&gt;ExtUtils::MM_Unix&lt;/a&gt;.
+
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the results of the query for LIB Makefile variables&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/250x-metacpan-search-eumm-libs-results.png&quot; width=&quot;250&quot; height=&quot;123&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+   The ExtUtils::Liblist looks promising. In &lt;a href=&quot;https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm&quot;&gt;version 7.14&lt;/a&gt; of the documentation, there&#39;s a section about the Win32
+   behaviour:
+   &lt;blockquote&gt;
+   An entry of the form &lt;code&gt;-lfoo&lt;/code&gt; specifies the library &lt;code&gt;foo&lt;/code&gt;,
+   which may be spelled differently depending on what kind of compiler you are
+   using. If you are using GCC, it gets translated to &lt;code&gt;libfoo.a&lt;/code&gt;, but
+   for other win32 compilers, it becomes &lt;code&gt;foo.lib&lt;/code&gt;.
+   &lt;/blockquote&gt;
+
+   So the translation to full paths is a part of the design. Reading further, we see
+   &lt;blockquote&gt;
+   An entry that matches &lt;code&gt;/:nosearch/i&lt;/code&gt; disables all searching for the libraries specified after it.
+   &lt;/blockquote&gt;
+
+   So if we but &lt;code&gt;:nosearch&lt;/code&gt; in the &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS&quot;&gt;LIBS parameter&lt;/a&gt; of the function
+   that generates the &lt;code&gt;Makefile&lt;/code&gt;, (i.e., &lt;code&gt;WriteMakefile&lt;/code&gt;). Let&#39;s try that
+
+   &lt;pre&gt;   $ cpanm --look Glib
+   Glib-1.321 $ export GLIB_PKG_CONFIG=&quot;$(pkg-config --libs gobject-2.0 glib-2.0)&quot;
+   Glib-1.321 $ perl Makefile.PL LIBS=&quot;:nosearch $GLIB_PKG_CONFIG&quot; verbose
+   # [ remove extra output ]
+   Potential libraries are &#39;:nosearch -LC:/msys64/mingw64/lib -lgobject-2.0 -lglib-2.0 -lintl -lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32&#39;:
+   Result: &quot;-LC:\msys64\mingw64\lib&quot; &quot;-lgobject-2.0&quot; &quot;-lglib-2.0&quot; &quot;-lintl&quot; &quot;-lmoldname&quot; &quot;-lkernel32&quot; &quot;-luser32&quot; &quot;-lgdi32&quot; &quot;-lwinspool&quot; &quot;-lcomdlg32&quot; &quot;-ladvapi32&quot; &quot;-lshell32&quot; &quot;-lole32&quot; &quot;-loleaut32&quot; &quot;-lnetapi32&quot; &quot;-luuid&quot; &quot;-lws2_32&quot; &quot;-lmpr&quot; &quot;-lwinmm&quot; &quot;-lversion&quot; &quot;-lodbc32&quot; &quot;-lodbccp32&quot; &quot;-lcomctl32&quot;
+   # [ remove extra output ]
+   Glib-1.321 $ dmake NOECHO=&#39;&#39;
+   &lt;/pre&gt;
+
+   Hey, it&#39;s working!
+
+   So now we know that all we need is to put
+   &lt;code&gt;:nosearch&lt;/code&gt; in the &lt;code&gt;LIBS&lt;/code&gt; parameter and it will build.
+   But that&#39;s still problematic, because if I try to install any module, I will
+   have to open it up to find out what it is passing in to LIBS and copy that
+   into the command line for the configuration step.
+
+   I popped into the &lt;code&gt;#toolchain&lt;/code&gt; IRC channel on the
+   &lt;code&gt;irc.perl.org&lt;/code&gt; network to share what I had learned and ask
+   if there was another way forward. After a quick convo with
+   &lt;code&gt;&lt;a href=&quot;https://metacpan.org/author/MSTROUT&quot;&gt;mst&lt;/a&gt;++&lt;/code&gt;, he came back
+   with a one-liner that wrapped the &lt;code&gt;WriteMakefile&lt;/code&gt; function and inserted
+   &lt;code&gt;:nosearch&lt;/code&gt; into the &lt;code&gt;LIBS&lt;/code&gt; parameter:
+
+   &lt;pre&gt;   perl -Maliased=ExtUtils::MakeMaker,EUMM \
+     -e &#39;my $i = EUMM-&amp;gt;can(&quot;import&quot;); no warnings &quot;redefine&quot;; *ExtUtils::MakeMaker::import = sub { &amp;amp;$i; my $targ = caller; my $wm = $targ-&amp;gt;can(&quot;WriteMakefile&quot;); *{&quot;${targ}::WriteMakefile&quot;} = sub { my %args = @_; $args{LIBS} =~ s/^/:nosearch /; $wm-&amp;gt;(%args) }; }; do &quot;Makefile.PL&quot; or die &quot;Hack failed: $@&quot;&#39;
+   &lt;/pre&gt;
+
+   Yes, that is one line and it does work!
+&lt;/li&gt;
+
+&lt;li&gt;
+   Rejoice! The curie code runs!
+
+   &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the curie GUI with a test PDF open&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/windows-build-with-msys2/250x-mingw64-curie.png&quot; width=&quot;250&quot; height=&quot;200&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
 
+&lt;p&gt;At this point, I was quite happy. Now I needed to reproduce these steps so that
+they can be used to test every set of changes to the codebase. I could do this
+with the Appveyor CI service. Little did I know that there was a lot more work
+coming my way.&lt;/p&gt;
+
 &lt;h2 id=&quot;buildingonappveyor&quot;&gt;Building on Appveyor&lt;/h2&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr /&gt;
@@ -161,8 +424,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
-	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<pubDate>Sat, 09 Apr 2016 02:10:13 +0000</pubDate>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
 
@@ -199,8 +462,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<pubDate>Sat, 09 Apr 2016 02:10:13 +0000</pubDate>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -245,8 +508,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
 
-	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<pubDate>Sat, 09 Apr 2016 02:10:13 +0000</pubDate>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -276,8 +539,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
-	<pubDate>Wed, 06 Apr 2016 11:39:00 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<pubDate>Sat, 09 Apr 2016 02:10:13 +0000</pubDate>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
 
@@ -354,7 +617,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -386,7 +649,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -416,7 +679,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -548,7 +811,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
@@ -662,7 +925,7 @@ make HAVE_GLFW=no install
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/24/initial-setup/</link>
 
 	<pubDate>Sun, 24 Jan 2016 04:45:06 +0000</pubDate>
-	<dcterms:modified>2016-04-06T11:39:00Z</dcterms:modified>
+	<dcterms:modified>2016-04-09T02:10:13Z</dcterms:modified>
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
