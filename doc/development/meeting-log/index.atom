@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-04T21:26:27Z</updated>
+<updated>2016-05-04T21:33:28Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-05-04T21:26:27Z</updated>
+	<updated>2016-05-04T21:33:28Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -50,19 +50,25 @@ architecture) throughout.&lt;/p&gt;
 &lt;ol&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Install &lt;a href=&quot;https://msys2.github.io/&quot;&gt;MSYS2&lt;/a&gt;. This is a straightforward install
    into the &lt;code&gt;C:\msys64&lt;/code&gt; directory.
+   &lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Start the &quot;MinGW-w64 Win64 Shell&quot; from the Start Menu. This shell sets up
    the proper environment variables needed to use 64-bit libraries for the
    MinGW64 system.
+   &lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Use the &lt;a href=&quot;https://www.archlinux.org/pacman/pacman.8.html&quot;&gt;pacman&lt;/a&gt; package
    manager to update the package database and install the build toolchain.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
@@ -75,7 +81,9 @@ architecture) throughout.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Install the native dependencies.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
@@ -90,7 +98,9 @@ architecture) throughout.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-   Install Perl and cpanm
+   &lt;p&gt;
+       Install Perl and cpanm
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl
@@ -99,7 +109,9 @@ architecture) throughout.&lt;/p&gt;
 &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    However, we ecounter a problem with this last command.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
@@ -124,15 +136,19 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    The important line here is
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   &#39;pl2bat.bat&#39; is not recognized as an internal or external command,
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    It tries to using &lt;code&gt;pl2bat.bat&lt;/code&gt; to install the &lt;code&gt;cpanm&lt;/code&gt;
    script, but it is missing. Let&#39;s take a look:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   $ which pl2bat.bat
@@ -140,7 +156,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, so it is not there. What about without the &lt;code&gt;.bat&lt;/code&gt; extension?
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   # Where is pl2bat?
@@ -153,8 +171,11 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    &lt;dl&gt;
        &lt;dt&gt;Note about &lt;code&gt;pl2bat&lt;/code&gt;&lt;/dt&gt;
        &lt;dd&gt;
@@ -166,10 +187,13 @@ architecture) throughout.&lt;/p&gt;
        Windows batch file that calls the Perl interpreter on the same file.
        &lt;/dd&gt;
    &lt;/dl&gt;
+   &lt;/p&gt;
 
+   &lt;p&gt;
    It turns out that MSYS2 has the Perl script &lt;code&gt;pl2bat&lt;/code&gt; which does
    the conversion, but that file was not converted itself! To do that we find the
    path for the &lt;code&gt;pl2bat&lt;/code&gt; file and run &lt;code&gt;pl2bat&lt;/code&gt; on it.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
@@ -177,7 +201,9 @@ architecture) throughout.&lt;/p&gt;
 &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    We can then install &lt;code&gt;cpanm&lt;/code&gt; as before and it works.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
@@ -187,8 +213,10 @@ architecture) throughout.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Install the Perl dependencies for curie itself by running the following in a copy of the
    &lt;code&gt;curie&lt;/code&gt; repository:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
@@ -196,11 +224,15 @@ architecture) throughout.&lt;/p&gt;
 &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    This reads the &lt;code&gt;cpanfile&lt;/code&gt; which lists the Perl prerequisites for
    the project and installs everything needed to build, run, and test the code.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    But we hit an issue here when it attempts to install Gtk3 and in turn
    its dependency Glib.
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   $ cpanm -f Glib
@@ -212,7 +244,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    Let&#39;s take a closer look at what is happening with Glib by adding the &lt;code&gt;--verbose&lt;/code&gt; flag:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   $ cpanm --verbose Glib
@@ -265,28 +299,38 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, that&#39;s a lot of errors. Seems that the linker phase (&lt;code&gt;ld&lt;/code&gt;)
    has failed to find several function names in the &lt;code&gt;libglib-2.0.a&lt;/code&gt; and
    &lt;code&gt;libgobject-2.0.a&lt;/code&gt; library files.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    &lt;dl&gt;
      &lt;dt&gt;
        Note about library files on Windows
      &lt;/dt&gt;
      &lt;dd&gt;
+       &lt;p&gt;
        We see that that library files above both end in the &lt;code&gt;.a&lt;/code&gt; extension (for
        archive). This indicates that this is a static library which means
        symbols such as function names get resolved at linking time through
        &lt;em&gt;static linking&lt;/em&gt;.
+       &lt;/p&gt;
 
+       &lt;p&gt;
        We can also resolve symbols at runtime through &lt;em&gt;dynamic linking&lt;/em&gt;.
        These files have the extension &lt;code&gt;.dll&lt;/code&gt; on Windows.
+       &lt;/p&gt;
      &lt;dd&gt;
    &lt;/dl&gt;
+   &lt;/p&gt;
 
+   &lt;p&gt;
    Let&#39;s take a look at what we expect the linker
    flags to be for &lt;code&gt;libglib&lt;/code&gt; and &lt;code&gt;libgobject&lt;/code&gt; by using
    the &lt;code&gt;pkg-config&lt;/code&gt; command:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   # Find the name of the glib and gobject library packages
@@ -300,6 +344,7 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, that looks reasonable. But we see the above errors refer to functions
    that are prefixed with &lt;code&gt;ffi_&lt;/code&gt; and &lt;code&gt;pcre_&lt;/code&gt;. The
    convention for C libraries is that the prefix referse to the libraries that
@@ -307,9 +352,12 @@ architecture) throughout.&lt;/p&gt;
    (&lt;code&gt;-lffi -lpcre&lt;/code&gt;). So when linker attempts static linking against
    the &lt;code&gt;.a&lt;/code&gt; files, it does not know that the other libraries are
    needed.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    We can try to get the linker flags for static linking by adding the
    &lt;code&gt;--static&lt;/code&gt; flag to &lt;code&gt;pkg-config&lt;/code&gt;
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   # Get the static linker flags
@@ -318,7 +366,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    Ah, there we go! Let&#39;s compare this to what the Glib module uses when linking:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   # Drop into the Glib installation directory
@@ -336,12 +386,14 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, wait, what&#39;s this? We get the list of dynamic linker flags where it says
    &quot;Potential libraries&quot;, but when it says &quot;Result:&quot;, a couple of those flags
    become paths to the corresponding &lt;code&gt;.a&lt;/code&gt; files. Let&#39;s run
    &lt;code&gt;dmake&lt;/code&gt; with the
    &lt;code&gt;&lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO&quot;&gt;NOECHO&lt;/a&gt;&lt;/code&gt;
    flag to see what is going on:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   Glib-1.321 $ dmake NOECHO=&#39;&#39;
@@ -355,9 +407,11 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    OK, so here we see that all the dynamic linker flags are using the full
    paths to the &lt;code&gt;.a&lt;/code&gt; files. Let&#39;s take a look at how
    &lt;code&gt;Makefile.PL&lt;/code&gt; passes on this information to the &lt;code&gt;Makefile&lt;/code&gt;
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   Glib-1.321 $ grep libgobject-2.0.a Makefile
@@ -368,9 +422,11 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;]
    &lt;/p&gt;
 
+   &lt;p&gt;
    So it appears that &lt;code&gt;ExtUtils::MakeMaker&lt;/code&gt; is setting the &lt;code&gt;EXTRALIBS&lt;/code&gt;
    and &lt;code&gt;LDLOADLIBS&lt;/code&gt; variables. Let&#39;s try setting them ourselves to the output of
    &lt;code&gt;pkg-config&lt;/code&gt;:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   Glib-1.321 $ export GLIB_PKG_CONFIG=&quot;$(pkg-config --libs gobject-2.0 glib-2.0)&quot;
@@ -378,23 +434,32 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    It built successfully! This means that there is a problem with using the
    full path to the &lt;code&gt;.a&lt;/code&gt; files. We need to see why
    &lt;code&gt;EXTRALIBS&lt;/code&gt; and &lt;code&gt;LDLOADLIBS&lt;/code&gt; are being set the way
    they are.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    Let&#39;s search the distribution for documentation about these variables by
    going to the &lt;a href=&quot;https://metacpan.org/release/ExtUtils-MakeMaker&quot;&gt;distribution&#39;s page on MetaCPAN&lt;/a&gt;
    and typing the query &lt;code&gt;EXTRALIBS LDLOADLIBS&lt;/code&gt; in the search box:
+   &lt;/p&gt;
 
+   &lt;p&gt;
    &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-highlight.png&quot; width=&quot;882&quot; height=&quot;901&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+   &lt;/p&gt;
 
+   &lt;p&gt;
    Looking at the
    &lt;a href=&quot;https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&amp;search_type=modules&quot;&gt;results&lt;/a&gt;,
    we see &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::Liblist&quot;&gt;ExtUtils::Liblist&lt;/a&gt; and &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MM_Unix&quot;&gt;ExtUtils::MM_Unix&lt;/a&gt;.
+   &lt;/p&gt;
 
    &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the results of the query for LIB Makefile variables&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/metacpan-search-eumm-libs-results.png&quot; width=&quot;937&quot; height=&quot;460&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
+   &lt;p&gt;
    The ExtUtils::Liblist looks promising. In &lt;a href=&quot;https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm&quot;&gt;version 7.14&lt;/a&gt; of the documentation, there&#39;s a section about the Win32
    behaviour:
    &lt;blockquote&gt;
@@ -403,14 +468,19 @@ architecture) throughout.&lt;/p&gt;
    using. If you are using GCC, it gets translated to &lt;code&gt;libfoo.a&lt;/code&gt;, but
    for other win32 compilers, it becomes &lt;code&gt;foo.lib&lt;/code&gt;.
    &lt;/blockquote&gt;
+   &lt;/p&gt;
 
+   &lt;p&gt;
    So the translation to full paths is a part of the design. Reading further, we see
    &lt;blockquote&gt;
    An entry that matches &lt;code&gt;/:nosearch/i&lt;/code&gt; disables all searching for the libraries specified after it.
    &lt;/blockquote&gt;
+   &lt;/p&gt;
 
+   &lt;p&gt;
    So if we but &lt;code&gt;:nosearch&lt;/code&gt; in the &lt;a href=&quot;https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS&quot;&gt;LIBS parameter&lt;/a&gt; of the function
    that generates the &lt;code&gt;Makefile&lt;/code&gt;, (i.e., &lt;code&gt;WriteMakefile&lt;/code&gt;). Let&#39;s try that
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   $ cpanm --look Glib
@@ -424,24 +494,32 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    Hey, it&#39;s working!
+   &lt;/p&gt;
 
+   &lt;p&gt;
    So now we know that all we need is to put
    &lt;code&gt;:nosearch&lt;/code&gt; in the &lt;code&gt;LIBS&lt;/code&gt; parameter and it will build.
    But that&#39;s still problematic, because if I try to install any module, I will
    have to open it up to find out what it is passing in to LIBS and copy that
    into the command line for the configuration step.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    I did that anyway and installed Glib, Cairo, Glib::Object::Introspection,
    Cairo::GObject, and XML::Parser by manually setting the flags for
    &lt;code&gt;LIBS&lt;/code&gt;.
+   &lt;/p&gt;
 
+   &lt;p&gt;
    I then popped into the &lt;code&gt;#toolchain&lt;/code&gt; IRC channel on the
    &lt;code&gt;irc.perl.org&lt;/code&gt; network to share what I had learned and ask
    if there was another way forward. After a quick convo with
    &lt;code&gt;&lt;a href=&quot;https://metacpan.org/author/MSTROUT&quot;&gt;mst&lt;/a&gt;++&lt;/code&gt;, he came back
    with a one-liner that wrapped the &lt;code&gt;WriteMakefile&lt;/code&gt; function and inserted
    &lt;code&gt;:nosearch&lt;/code&gt; into the &lt;code&gt;LIBS&lt;/code&gt; parameter:
+   &lt;/p&gt;
 
    &lt;p&gt;
    &lt;pre&gt;   perl -Maliased=ExtUtils::MakeMaker,EUMM \
@@ -449,21 +527,27 @@ architecture) throughout.&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+   &lt;p&gt;
    Yes, that is one line and it does work!
+   &lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
+   &lt;p&gt;
    Rejoice! The curie code runs!
+   &lt;/p&gt;
 
    &lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Screenshot of the curie GUI with a test PDF open&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/05/03/gfx/mingw64-curie.png&quot; width=&quot;1090&quot; height=&quot;928&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
 
-&lt;p&gt;At this point, I was quite happy. Now I needed to reproduce these steps so that
+&lt;p&gt;
+At this point, I was quite happy. Now I needed to reproduce these steps so that
 they can be used to test every set of changes to the codebase. I could do this
 with the Appveyor CI service for Windows. Little did I know that there was a lot more work
-coming my way.&lt;/p&gt;
+coming my way.
+&lt;/p&gt;
 
 &lt;h2 id=&quot;buildingonappveyor&quot;&gt;Building on Appveyor&lt;/h2&gt;
 
@@ -474,19 +558,24 @@ to figure out all the quirks of the system. Many of them were missteps on my
 part, but is hard to figure out where things go wrong on a remote system if you
 can only run commands every 20 minutes!&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;
+&lt;p&gt;&lt;ol&gt;
+&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
   After enabling the curie project on the &lt;a href=&quot;https://www.appveyor.com/&quot;&gt;Appveyor
   website&lt;/a&gt;, we need an &lt;code&gt;appveyor.yml&lt;/code&gt;
   configuration file with the commands needed for building the project.
+  &lt;/p&gt;
 
+&lt;p&gt;
   I first search GitHub for other projects that used Appveyor with MSYS2 and
   came across the &lt;code&gt;appveyor.yml&lt;/code&gt; configuration file for
   &lt;a href=&quot;https://github.com/Framstag/libosmscout/blob/a53ab2b770a11e83f401b0a985aacb096769286c/appveyor.yml&quot;&gt;libosmscout&lt;/a&gt;.
   It has support for compiling under both the MinGW64 GCC compiler and Microsoft&#39;s
   MSVC2015 compiler. Right now, I just need the bits for MSYS2 MinGW64:
+  &lt;/p&gt;
 
-  &lt;p&gt;
+&lt;p&gt;
   &lt;pre&gt;  version: 1.0.{build}
 
   environment:
@@ -512,17 +601,21 @@ can only run commands every 20 minutes!&lt;/p&gt;
   &lt;/pre&gt;
   &lt;/p&gt;
 
+&lt;p&gt;
   The important part here is the line
+  &lt;/p&gt;
 
-  &lt;p&gt;
+&lt;p&gt;
   &lt;pre&gt;    - &#39;%APPVEYOR_BUILD_FOLDER%\dev\ci\appveyor\install.bat&#39;
   &lt;/pre&gt;
   &lt;/p&gt;
 
+&lt;p&gt;
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
+  &lt;/p&gt;
 
-  &lt;p&gt;
+&lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; off
 
   &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;
@@ -568,14 +661,20 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;/pre&gt;
   &lt;/p&gt;
 
+&lt;p&gt;
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let&#39;s talk about what is new.
-&lt;/li&gt;
+  &lt;/p&gt;
 
-&lt;li&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
   Let&#39;s start with the part that installs the dependencies:
+  &lt;/p&gt;
 
-  &lt;p&gt;
+&lt;p&gt;
   &lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh
   export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;
@@ -584,20 +683,28 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;/pre&gt;
   &lt;/p&gt;
 
+&lt;p&gt;
   First, we need to be in the directory for the project we want to build
   (stored in the &lt;code&gt;$APPVEYOR_BUILD_FOLDER&lt;/code&gt; environment variable).
+  &lt;/p&gt;
 
+&lt;p&gt;
   Then we need to set a couple settings so that we can build with the
   &lt;code&gt;:nosearch&lt;/code&gt; setting from before. We do this by sourcing the
   &lt;code&gt;EUMMnosearch.sh&lt;/code&gt; shell script.
-&lt;/li&gt;
+  &lt;/p&gt;
 
-&lt;li&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
    The &lt;code&gt;EUMMnosearch.sh&lt;/code&gt; script loads that one-liner before by
    turning that code into a Perl module that is loaded every time that Perl is
    run. This can be accomplished by setting the &lt;code&gt;PERL5OPT&lt;/code&gt; environment variable:
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   BUILD_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`(cd $APPVEYOR_BUILD_FOLDER &amp;amp;&amp;amp; pwd)`&lt;/span&gt;
    &lt;span class=&quot;hl kwb&quot;&gt;export&lt;/span&gt; PERL5OPT&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;-I$BUILD_DIR/dev/ci/appveyor -MEUMMnosearch&amp;quot;&lt;/span&gt;
    &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; PERL5OPT&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$PERL5OPT&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
@@ -605,10 +712,12 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;
    This Perl module is only run when the script being run is the configuration
    step of &lt;code&gt;ExtUtils::MakeMaker&lt;/code&gt;:
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;EUMMnosearch&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
    &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
@@ -652,8 +761,11 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;
    There are a couple changes to the function that overrides &lt;code&gt;WriteMakefile&lt;/code&gt;.
+   &lt;/p&gt;
 
+&lt;p&gt;
    First, we no longer stick &lt;code&gt;:nosearch&lt;/code&gt; in front of all flags in
    &lt;code&gt;LIBS&lt;/code&gt;. Instead, we only stick it before we set the linker search path
    to the &lt;code&gt;C:/msys64/mingw64/lib&lt;/code&gt; directory. That way if there are some
@@ -664,27 +776,38 @@ can only run commands every 20 minutes!&lt;/p&gt;
    provided in those &lt;code&gt;.a&lt;/code&gt; files. The rest of the linker flags need
    to be compiled dynamically so we apply &lt;code&gt;:nosearch&lt;/code&gt; to only the
    reset.
+   &lt;/p&gt;
 
+&lt;p&gt;
    Second, we insert a special case so that we can build XML::Parser::Expat.
    Since the &lt;code&gt;LIBS&lt;/code&gt; parameter is just set to &lt;code&gt;&quot;-lexpat&quot;&lt;/code&gt;
    in that module, there is no &lt;code&gt;-LC:/msys64/mingw64/lib&lt;/code&gt; flag that
    we can use to insert &lt;code&gt;:nosearch&lt;/code&gt;. So we insert it just before to
    set &lt;code&gt;LIBS&lt;/code&gt; to &lt;code&gt;&quot;:nosearch -lexpat&quot;&lt;/code&gt; instead.
-&lt;/li&gt;
+   &lt;/p&gt;
 
-&lt;li&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
    This all would work on a clean install of Windows with only MSYS2 installed.
    However, Appveyor is not quite that.
+   &lt;/p&gt;
 
+&lt;p&gt;
    I came across two more build errors that had nothing to do with MSYS2:
+   &lt;/p&gt;
 
+&lt;p&gt;
    First, I had tried to install Net::SSLeay module which depends on the
    &lt;code&gt;libopenssl&lt;/code&gt; library. When I tried to install it, I got errors
    about missing symbols. Everything else was linking properly, so I didn&#39;t get
    why it would not link. I added a line to show me the libraries that the
    build was using for &lt;code&gt;libopenssl&lt;/code&gt;.
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre&gt;   $ cpanm --verbose --configure-args verbose Net::SSLeay
    Configuring Net-SSLeay-1.74 ... WARNING: can&#39;t open config file: /usr/local/ssl/openssl.cnf
    *** Found OpenSSL-1.0.2e installed in C:OpenSSL-Win32
@@ -693,12 +816,13 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;&lt;p&gt;
    It&#39;s looking for the SSL library in &lt;code&gt;C:OpenSSL-Win32&lt;/code&gt;. That&#39;s
    not a MinGW64 path! I looked around in the Net::SSLeay code and saw that there was
    &lt;code&gt;&lt;a href=&quot;https://metacpan.org/source/MIKEM/Net-SSLeay-1.74/README.Win32&quot;&gt;README.Win32&lt;/a&gt;&lt;/code&gt;
-   file which says
+   file which says&lt;/p&gt;
 
-   &lt;blockquote&gt;
+&lt;blockquote&gt;
    2. If your OpenSSL is installed in an unusual place, you can tell
    Net-SSLeay where to find it with the OPENSSL_PREFIX environment
    variable:
@@ -708,24 +832,32 @@ can only run commands every 20 minutes!&lt;/p&gt;
    .....
    &lt;/blockquote&gt;
 
+&lt;p&gt;
    In our case, we can use
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwb&quot;&gt;export&lt;/span&gt; OPENSSL_PREFIX&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;/c/msys64/mingw64&amp;quot;&lt;/span&gt;
 
 &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;
    and Net::SSLeay builds properly.
-&lt;/li&gt;
+   &lt;/p&gt;
 
-&lt;li&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
    Another issue that I hit was when I tried to install the
    &lt;code&gt;Alien::MuPDF&lt;/code&gt; dependency. This is a module that I wrote that
    downloads and builds the MuPDF library. I was getting a very odd error from
    the linker in this case:
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre&gt;   $ cpanm --verbose Alien::MuPDF
    # [ remove extra build output ]
        CC build/release/platform/x11/pdfapp.o
@@ -748,18 +880,26 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
-   Now there are undefined references to files within the same project!
+&lt;p&gt;
+   The &lt;code&gt;fz_&lt;/code&gt; prefix is used for functions in the MuPDF library (also
+   known as &lt;code&gt;libfitz&lt;/code&gt;).  This time there are undefined references to
+   files within the same project! Very curious!
+   &lt;/p&gt;
 
+&lt;p&gt;
    Since I was already suspicious that I could not trust the Appveyor
    environment, I guessed that this might have to do with differences between
    the compiler and the linker used.
+   &lt;/p&gt;
 
+&lt;p&gt;
    To debug this, I tried to build the MuPDF library locally and noticed that
    the C compiler used is &lt;code&gt;cc&lt;/code&gt;. On properly set up systems,
    &lt;code&gt;cc&lt;/code&gt; is usually an alias for a specific C compiler such as
    &lt;code&gt;gcc&lt;/code&gt;. To check this, I ran the following on Appveyor:
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre&gt;   # Information about the toolchain
    $ which -a cc; cc -v
    /usr/bin/cc
@@ -800,26 +940,35 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;
    Here we see that both &lt;code&gt;ld&lt;/code&gt; and &lt;code&gt;gcc&lt;/code&gt; are found under
    the &lt;code&gt;/mingw64/bin&lt;/code&gt;, but &lt;code&gt;cc&lt;/code&gt; is found elsewhere and is
    a different version altogether. The fix for this is simple, just copy
    &lt;code&gt;gcc&lt;/code&gt; to &lt;code&gt;cc&lt;/code&gt;
+   &lt;/p&gt;
 
-   &lt;p&gt;
+&lt;p&gt;
    &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc
 
 &lt;/pre&gt;
    &lt;/p&gt;
 
+&lt;p&gt;
    and then Alien::MuPDF compiles properly.
-&lt;/li&gt;
+   &lt;/p&gt;
 
-&lt;li&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;/p&gt;
+
+&lt;p&gt;
   &lt;strike&gt;Write a post documenting your travails.&lt;/strike&gt;
   Happily use Appveyor to test all your code on Windows.
-&lt;/li&gt;
+  &lt;/p&gt;
 
-&lt;/ol&gt;
+&lt;p&gt;&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/ol&gt;&lt;/p&gt;
 
 &lt;p&gt;The full pull request for this Appveyor configuration is available at
 &lt;a href=&quot;https://github.com/project-renard/curie/pull/86&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -851,8 +1000,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
-	<published>2016-04-11T17:14:38Z</published>
+	<updated>2016-04-11T17:34:45Z</updated>
+	<published>2016-04-11T17:34:45Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -894,8 +1043,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
-	<published>2016-04-11T17:14:38Z</published>
+	<updated>2016-04-11T17:34:45Z</updated>
+	<published>2016-04-11T17:34:45Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -945,8 +1094,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
-	<published>2016-04-11T17:14:38Z</published>
+	<updated>2016-04-11T17:34:45Z</updated>
+	<published>2016-04-11T17:34:45Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -981,8 +1130,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
-	<published>2016-04-11T17:14:38Z</published>
+	<updated>2016-04-11T17:34:45Z</updated>
+	<published>2016-04-11T17:34:45Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1063,7 +1212,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
+	<updated>2016-04-11T17:34:45Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1100,7 +1249,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
+	<updated>2016-04-11T17:34:45Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1135,7 +1284,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
+	<updated>2016-04-11T17:34:45Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1272,7 +1421,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
+	<updated>2016-04-11T17:34:45Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1391,7 +1540,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-04-11T17:14:38Z</updated>
+	<updated>2016-04-11T17:34:45Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">

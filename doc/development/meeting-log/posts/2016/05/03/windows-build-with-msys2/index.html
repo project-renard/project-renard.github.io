@@ -114,19 +114,25 @@ architecture) throughout.</p>
 <ol>
 
 <li>
+   <p>
    Install <a href="https://msys2.github.io/">MSYS2</a>. This is a straightforward install
    into the <code>C:\msys64</code> directory.
+   </p>
 </li>
 
 <li>
+   <p>
    Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
    the proper environment variables needed to use 64-bit libraries for the
    MinGW64 system.
+   </p>
 </li>
 
 <li>
+   <p>
    Use the <a href="https://www.archlinux.org/pacman/pacman.8.html">pacman</a> package
    manager to update the package database and install the build toolchain.
+   </p>
 
    <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
@@ -139,7 +145,9 @@ architecture) throughout.</p>
 </li>
 
 <li>
+   <p>
    Install the native dependencies.
+   </p>
 
    <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
@@ -154,7 +162,9 @@ architecture) throughout.</p>
 </li>
 
 <li>
-   Install Perl and cpanm
+   <p>
+       Install Perl and cpanm
+   </p>
 
    <p>
    <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl
@@ -163,7 +173,9 @@ architecture) throughout.</p>
 </pre>
    </p>
 
+   <p>
    However, we ecounter a problem with this last command.
+   </p>
 
    <p>
    <pre>   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
@@ -188,15 +200,19 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    The important line here is
+   </p>
 
    <p>
    <pre>   'pl2bat.bat' is not recognized as an internal or external command,
    </pre>
    </p>
 
+   <p>
    It tries to using <code>pl2bat.bat</code> to install the <code>cpanm</code>
    script, but it is missing. Let's take a look:
+   </p>
 
    <p>
    <pre>   $ which pl2bat.bat
@@ -204,7 +220,9 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, so it is not there. What about without the <code>.bat</code> extension?
+   </p>
 
    <p>
    <pre>   # Where is pl2bat?
@@ -217,8 +235,11 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, so it does exist and is a Perl script. We just need it be a Windows batch file.
+   </p>
 
+   <p>
    <dl>
        <dt>Note about <code>pl2bat</code></dt>
        <dd>
@@ -230,10 +251,13 @@ architecture) throughout.</p>
        Windows batch file that calls the Perl interpreter on the same file.
        </dd>
    </dl>
+   </p>
 
+   <p>
    It turns out that MSYS2 has the Perl script <code>pl2bat</code> which does
    the conversion, but that file was not converted itself! To do that we find the
    path for the <code>pl2bat</code> file and run <code>pl2bat</code> on it.
+   </p>
 
    <p>
    <pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
@@ -241,7 +265,9 @@ architecture) throughout.</p>
 </pre>
    </p>
 
+   <p>
    We can then install <code>cpanm</code> as before and it works.
+   </p>
 
    <p>
    <pre class="hl">   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
@@ -251,8 +277,10 @@ architecture) throughout.</p>
 </li>
 
 <li>
+   <p>
    Install the Perl dependencies for curie itself by running the following in a copy of the
    <code>curie</code> repository:
+   </p>
 
    <p>
    <pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
@@ -260,11 +288,15 @@ architecture) throughout.</p>
 </pre>
    </p>
 
+   <p>
    This reads the <code>cpanfile</code> which lists the Perl prerequisites for
    the project and installs everything needed to build, run, and test the code.
+   </p>
 
+   <p>
    But we hit an issue here when it attempts to install Gtk3 and in turn
    its dependency Glib.
+   </p>
 
    <p>
    <pre>   $ cpanm -f Glib
@@ -276,7 +308,9 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    Let's take a closer look at what is happening with Glib by adding the <code>--verbose</code> flag:
+   </p>
 
    <p>
    <pre>   $ cpanm --verbose Glib
@@ -329,28 +363,38 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, that's a lot of errors. Seems that the linker phase (<code>ld</code>)
    has failed to find several function names in the <code>libglib-2.0.a</code> and
    <code>libgobject-2.0.a</code> library files.
+   </p>
 
+   <p>
    <dl>
      <dt>
        Note about library files on Windows
      </dt>
      <dd>
+       <p>
        We see that that library files above both end in the <code>.a</code> extension (for
        archive). This indicates that this is a static library which means
        symbols such as function names get resolved at linking time through
        <em>static linking</em>.
+       </p>
 
+       <p>
        We can also resolve symbols at runtime through <em>dynamic linking</em>.
        These files have the extension <code>.dll</code> on Windows.
+       </p>
      <dd>
    </dl>
+   </p>
 
+   <p>
    Let's take a look at what we expect the linker
    flags to be for <code>libglib</code> and <code>libgobject</code> by using
    the <code>pkg-config</code> command:
+   </p>
 
    <p>
    <pre>   # Find the name of the glib and gobject library packages
@@ -364,6 +408,7 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, that looks reasonable. But we see the above errors refer to functions
    that are prefixed with <code>ffi_</code> and <code>pcre_</code>. The
    convention for C libraries is that the prefix referse to the libraries that
@@ -371,9 +416,12 @@ architecture) throughout.</p>
    (<code>-lffi -lpcre</code>). So when linker attempts static linking against
    the <code>.a</code> files, it does not know that the other libraries are
    needed.
+   </p>
 
+   <p>
    We can try to get the linker flags for static linking by adding the
    <code>--static</code> flag to <code>pkg-config</code>
+   </p>
 
    <p>
    <pre>   # Get the static linker flags
@@ -382,7 +430,9 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    Ah, there we go! Let's compare this to what the Glib module uses when linking:
+   </p>
 
    <p>
    <pre>   # Drop into the Glib installation directory
@@ -400,12 +450,14 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, wait, what's this? We get the list of dynamic linker flags where it says
    "Potential libraries", but when it says "Result:", a couple of those flags
    become paths to the corresponding <code>.a</code> files. Let's run
    <code>dmake</code> with the
    <code><a href="https://metacpan.org/pod/ExtUtils::MakeMaker#NOECHO">NOECHO</a></code>
    flag to see what is going on:
+   </p>
 
    <p>
    <pre>   Glib-1.321 $ dmake NOECHO=''
@@ -419,9 +471,11 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    OK, so here we see that all the dynamic linker flags are using the full
    paths to the <code>.a</code> files. Let's take a look at how
    <code>Makefile.PL</code> passes on this information to the <code>Makefile</code>
+   </p>
 
    <p>
    <pre>   Glib-1.321 $ grep libgobject-2.0.a Makefile
@@ -432,9 +486,11 @@ architecture) throughout.</p>
    </pre>]
    </p>
 
+   <p>
    So it appears that <code>ExtUtils::MakeMaker</code> is setting the <code>EXTRALIBS</code>
    and <code>LDLOADLIBS</code> variables. Let's try setting them ourselves to the output of
    <code>pkg-config</code>:
+   </p>
 
    <p>
    <pre>   Glib-1.321 $ export GLIB_PKG_CONFIG="$(pkg-config --libs gobject-2.0 glib-2.0)"
@@ -442,23 +498,32 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    It built successfully! This means that there is a problem with using the
    full path to the <code>.a</code> files. We need to see why
    <code>EXTRALIBS</code> and <code>LDLOADLIBS</code> are being set the way
    they are.
+   </p>
 
+   <p>
    Let's search the distribution for documentation about these variables by
    going to the <a href="https://metacpan.org/release/ExtUtils-MakeMaker">distribution's page on MetaCPAN</a>
    and typing the query <code>EXTRALIBS LDLOADLIBS</code> in the search box:
+   </p>
 
+   <p>
    <table class="img"><caption>Screenshot of the ExtUtils-MakeMaker page highlighting the Search Distribution field</caption><tr><td><a href="../gfx/metacpan-search-eumm-highlight.png"><img src="../gfx/metacpan-search-eumm-highlight.png" width="882" height="901" class="img" /></a></td></tr></table>
+   </p>
 
+   <p>
    Looking at the
    <a href="https://metacpan.org/search?q=dist%3AExtUtils-MakeMaker+EXTRALIBS+LDLOADLIBS&search_type=modules">results</a>,
    we see <a href="https://metacpan.org/pod/ExtUtils::Liblist">ExtUtils::Liblist</a> and <a href="https://metacpan.org/pod/ExtUtils::MM_Unix">ExtUtils::MM_Unix</a>.
+   </p>
 
    <table class="img"><caption>Screenshot of the results of the query for LIB Makefile variables</caption><tr><td><a href="../gfx/metacpan-search-eumm-libs-results.png"><img src="../gfx/metacpan-search-eumm-libs-results.png" width="937" height="460" class="img" /></a></td></tr></table>
 
+   <p>
    The ExtUtils::Liblist looks promising. In <a href="https://metacpan.org/pod/release/BINGOS/ExtUtils-MakeMaker-7.14/lib/ExtUtils/Liblist.pm">version 7.14</a> of the documentation, there's a section about the Win32
    behaviour:
    <blockquote>
@@ -467,14 +532,19 @@ architecture) throughout.</p>
    using. If you are using GCC, it gets translated to <code>libfoo.a</code>, but
    for other win32 compilers, it becomes <code>foo.lib</code>.
    </blockquote>
+   </p>
 
+   <p>
    So the translation to full paths is a part of the design. Reading further, we see
    <blockquote>
    An entry that matches <code>/:nosearch/i</code> disables all searching for the libraries specified after it.
    </blockquote>
+   </p>
 
+   <p>
    So if we but <code>:nosearch</code> in the <a href="https://metacpan.org/pod/ExtUtils::MakeMaker#LIBS">LIBS parameter</a> of the function
    that generates the <code>Makefile</code>, (i.e., <code>WriteMakefile</code>). Let's try that
+   </p>
 
    <p>
    <pre>   $ cpanm --look Glib
@@ -488,24 +558,32 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    Hey, it's working!
+   </p>
 
+   <p>
    So now we know that all we need is to put
    <code>:nosearch</code> in the <code>LIBS</code> parameter and it will build.
    But that's still problematic, because if I try to install any module, I will
    have to open it up to find out what it is passing in to LIBS and copy that
    into the command line for the configuration step.
+   </p>
 
+   <p>
    I did that anyway and installed Glib, Cairo, Glib::Object::Introspection,
    Cairo::GObject, and XML::Parser by manually setting the flags for
    <code>LIBS</code>.
+   </p>
 
+   <p>
    I then popped into the <code>#toolchain</code> IRC channel on the
    <code>irc.perl.org</code> network to share what I had learned and ask
    if there was another way forward. After a quick convo with
    <code><a href="https://metacpan.org/author/MSTROUT">mst</a>++</code>, he came back
    with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
    <code>:nosearch</code> into the <code>LIBS</code> parameter:
+   </p>
 
    <p>
    <pre>   perl -Maliased=ExtUtils::MakeMaker,EUMM \
@@ -513,21 +591,27 @@ architecture) throughout.</p>
    </pre>
    </p>
 
+   <p>
    Yes, that is one line and it does work!
+   </p>
 </li>
 
 <li>
+   <p>
    Rejoice! The curie code runs!
+   </p>
 
    <table class="img"><caption>Screenshot of the curie GUI with a test PDF open</caption><tr><td><a href="../gfx/mingw64-curie.png"><img src="../gfx/mingw64-curie.png" width="1090" height="928" class="img" /></a></td></tr></table>
 </li>
 
 </ol>
 
-<p>At this point, I was quite happy. Now I needed to reproduce these steps so that
+<p>
+At this point, I was quite happy. Now I needed to reproduce these steps so that
 they can be used to test every set of changes to the codebase. I could do this
 with the Appveyor CI service for Windows. Little did I know that there was a lot more work
-coming my way.</p>
+coming my way.
+</p>
 
 <h2 id="buildingonappveyor">Building on Appveyor</h2>
 
@@ -538,19 +622,24 @@ to figure out all the quirks of the system. Many of them were missteps on my
 part, but is hard to figure out where things go wrong on a remote system if you
 can only run commands every 20 minutes!</p>
 
-<ol>
-<li>
+<p><ol>
+<li></p>
+
+<p>
   After enabling the curie project on the <a href="https://www.appveyor.com/">Appveyor
   website</a>, we need an <code>appveyor.yml</code>
   configuration file with the commands needed for building the project.
+  </p>
 
+<p>
   I first search GitHub for other projects that used Appveyor with MSYS2 and
   came across the <code>appveyor.yml</code> configuration file for
   <a href="https://github.com/Framstag/libosmscout/blob/a53ab2b770a11e83f401b0a985aacb096769286c/appveyor.yml">libosmscout</a>.
   It has support for compiling under both the MinGW64 GCC compiler and Microsoft's
   MSVC2015 compiler. Right now, I just need the bits for MSYS2 MinGW64:
+  </p>
 
-  <p>
+<p>
   <pre>  version: 1.0.{build}
 
   environment:
@@ -576,17 +665,21 @@ can only run commands every 20 minutes!</p>
   </pre>
   </p>
 
+<p>
   The important part here is the line
+  </p>
 
-  <p>
+<p>
   <pre>    - '%APPVEYOR_BUILD_FOLDER%\dev\ci\appveyor\install.bat'
   </pre>
   </p>
 
+<p>
   which tells Appveyor to run a batch file with more instructions.
   The contents of this are
+  </p>
 
-  <p>
+<p>
   <pre class="hl">  &#64;<span class="hl kwb">echo</span> off
 
   <span class="hl kwb">cd</span> <span class="hl kwc">%APPVEYOR_BUILD_FOLDER%</span>
@@ -632,14 +725,20 @@ can only run commands every 20 minutes!</p>
 </pre>
   </p>
 
+<p>
   There is a lot here, but much of it is the same as discussed in the local
   installation. Let's talk about what is new.
-</li>
+  </p>
 
-<li>
+<p></li></p>
+
+<p><li></p>
+
+<p>
   Let's start with the part that installs the dependencies:
+  </p>
 
-  <p>
+<p>
   <pre class="hl">  <span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh
   export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'
@@ -648,20 +747,28 @@ can only run commands every 20 minutes!</p>
 </pre>
   </p>
 
+<p>
   First, we need to be in the directory for the project we want to build
   (stored in the <code>$APPVEYOR_BUILD_FOLDER</code> environment variable).
+  </p>
 
+<p>
   Then we need to set a couple settings so that we can build with the
   <code>:nosearch</code> setting from before. We do this by sourcing the
   <code>EUMMnosearch.sh</code> shell script.
-</li>
+  </p>
 
-<li>
+<p></li></p>
+
+<p><li></p>
+
+<p>
    The <code>EUMMnosearch.sh</code> script loads that one-liner before by
    turning that code into a Perl module that is loaded every time that Perl is
    run. This can be accomplished by setting the <code>PERL5OPT</code> environment variable:
+   </p>
 
-   <p>
+<p>
    <pre class="hl">   BUILD_DIR<span class="hl opt">=</span><span class="hl str">`(cd $APPVEYOR_BUILD_FOLDER &amp;&amp; pwd)`</span>
    <span class="hl kwb">export</span> PERL5OPT<span class="hl opt">=</span><span class="hl str">&quot;-I$BUILD_DIR/dev/ci/appveyor -MEUMMnosearch&quot;</span>
    <span class="hl kwb">echo</span> PERL5OPT<span class="hl opt">=</span><span class="hl kwd">$PERL5OPT</span><span class="hl opt">;</span>
@@ -669,10 +776,12 @@ can only run commands every 20 minutes!</p>
 </pre>
    </p>
 
+<p>
    This Perl module is only run when the script being run is the configuration
    step of <code>ExtUtils::MakeMaker</code>:
+   </p>
 
-   <p>
+<p>
    <pre class="hl">   <span class="hl kwa">package</span> <span class="hl kwd">EUMMnosearch</span><span class="hl opt">;</span>
 
    <span class="hl kwa">package</span> <span class="hl kwd">main</span><span class="hl opt">;</span>
@@ -716,8 +825,11 @@ can only run commands every 20 minutes!</p>
 </pre>
    </p>
 
+<p>
    There are a couple changes to the function that overrides <code>WriteMakefile</code>.
+   </p>
 
+<p>
    First, we no longer stick <code>:nosearch</code> in front of all flags in
    <code>LIBS</code>. Instead, we only stick it before we set the linker search path
    to the <code>C:/msys64/mingw64/lib</code> directory. That way if there are some
@@ -728,27 +840,38 @@ can only run commands every 20 minutes!</p>
    provided in those <code>.a</code> files. The rest of the linker flags need
    to be compiled dynamically so we apply <code>:nosearch</code> to only the
    reset.
+   </p>
 
+<p>
    Second, we insert a special case so that we can build XML::Parser::Expat.
    Since the <code>LIBS</code> parameter is just set to <code>"-lexpat"</code>
    in that module, there is no <code>-LC:/msys64/mingw64/lib</code> flag that
    we can use to insert <code>:nosearch</code>. So we insert it just before to
    set <code>LIBS</code> to <code>":nosearch -lexpat"</code> instead.
-</li>
+   </p>
 
-<li>
+<p></li></p>
+
+<p><li></p>
+
+<p>
    This all would work on a clean install of Windows with only MSYS2 installed.
    However, Appveyor is not quite that.
+   </p>
 
+<p>
    I came across two more build errors that had nothing to do with MSYS2:
+   </p>
 
+<p>
    First, I had tried to install Net::SSLeay module which depends on the
    <code>libopenssl</code> library. When I tried to install it, I got errors
    about missing symbols. Everything else was linking properly, so I didn't get
    why it would not link. I added a line to show me the libraries that the
    build was using for <code>libopenssl</code>.
+   </p>
 
-   <p>
+<p>
    <pre>   $ cpanm --verbose --configure-args verbose Net::SSLeay
    Configuring Net-SSLeay-1.74 ... WARNING: can't open config file: /usr/local/ssl/openssl.cnf
    *** Found OpenSSL-1.0.2e installed in C:OpenSSL-Win32
@@ -757,12 +880,13 @@ can only run commands every 20 minutes!</p>
    </pre>
    </p>
 
+<p><p>
    It's looking for the SSL library in <code>C:OpenSSL-Win32</code>. That's
    not a MinGW64 path! I looked around in the Net::SSLeay code and saw that there was
    <code><a href="https://metacpan.org/source/MIKEM/Net-SSLeay-1.74/README.Win32">README.Win32</a></code>
-   file which says
+   file which says</p>
 
-   <blockquote>
+<blockquote>
    2. If your OpenSSL is installed in an unusual place, you can tell
    Net-SSLeay where to find it with the OPENSSL_PREFIX environment
    variable:
@@ -772,24 +896,32 @@ can only run commands every 20 minutes!</p>
    .....
    </blockquote>
 
+<p>
    In our case, we can use
+   </p>
 
-   <p>
+<p>
    <pre class="hl">   <span class="hl kwb">export</span> OPENSSL_PREFIX<span class="hl opt">=</span><span class="hl str">&quot;/c/msys64/mingw64&quot;</span>
 
 </pre>
    </p>
 
+<p>
    and Net::SSLeay builds properly.
-</li>
+   </p>
 
-<li>
+<p></li></p>
+
+<p><li></p>
+
+<p>
    Another issue that I hit was when I tried to install the
    <code>Alien::MuPDF</code> dependency. This is a module that I wrote that
    downloads and builds the MuPDF library. I was getting a very odd error from
    the linker in this case:
+   </p>
 
-   <p>
+<p>
    <pre>   $ cpanm --verbose Alien::MuPDF
    # [ remove extra build output ]
        CC build/release/platform/x11/pdfapp.o
@@ -812,18 +944,26 @@ can only run commands every 20 minutes!</p>
    </pre>
    </p>
 
-   Now there are undefined references to files within the same project!
+<p>
+   The <code>fz_</code> prefix is used for functions in the MuPDF library (also
+   known as <code>libfitz</code>).  This time there are undefined references to
+   files within the same project! Very curious!
+   </p>
 
+<p>
    Since I was already suspicious that I could not trust the Appveyor
    environment, I guessed that this might have to do with differences between
    the compiler and the linker used.
+   </p>
 
+<p>
    To debug this, I tried to build the MuPDF library locally and noticed that
    the C compiler used is <code>cc</code>. On properly set up systems,
    <code>cc</code> is usually an alias for a specific C compiler such as
    <code>gcc</code>. To check this, I ran the following on Appveyor:
+   </p>
 
-   <p>
+<p>
    <pre>   # Information about the toolchain
    $ which -a cc; cc -v
    /usr/bin/cc
@@ -864,26 +1004,35 @@ can only run commands every 20 minutes!</p>
    </pre>
    </p>
 
+<p>
    Here we see that both <code>ld</code> and <code>gcc</code> are found under
    the <code>/mingw64/bin</code>, but <code>cc</code> is found elsewhere and is
    a different version altogether. The fix for this is simple, just copy
    <code>gcc</code> to <code>cc</code>
+   </p>
 
-   <p>
+<p>
    <pre class="hl">   <span class="hl kwc">cp</span> <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc
 
 </pre>
    </p>
 
+<p>
    and then Alien::MuPDF compiles properly.
-</li>
+   </p>
 
-<li>
+<p></li></p>
+
+<p><li></p>
+
+<p>
   <strike>Write a post documenting your travails.</strike>
   Happily use Appveyor to test all your code on Windows.
-</li>
+  </p>
 
-</ol>
+<p></li></p>
+
+<p></ol></p>
 
 <p>The full pull request for this Appveyor configuration is available at
 <a href="https://github.com/project-renard/curie/pull/86">here</a>.</p>
@@ -920,7 +1069,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 04 May 2016 09:26:27 PM UTC</span>
+Last edited <span class="date">Wed 04 May 2016 09:33:28 PM UTC</span>
 <!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
 </div>
 
