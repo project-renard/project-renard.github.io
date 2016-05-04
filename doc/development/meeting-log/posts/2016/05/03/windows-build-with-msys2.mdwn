@@ -12,6 +12,9 @@ are useful months later when I forget how or why I did things.
 The following will be assuming 64-bit Windows (x86-64
 architecture) throughout.
 
+For those who just want to see the final code, go to the PR
+[[here|https://github.com/project-renard/curie/pull/86]].
+
 ## Building locally
 
 <ol>
@@ -945,7 +948,7 @@ can only run commands every 20 minutes!
 
 </ol>
 
-The full pull request for this Appveyor configuration is available at
+The full pull request for this Appveyor configuration is available
 [[here|https://github.com/project-renard/curie/pull/86]].
 
 [^portability]: Portability is important to writing robust software and
