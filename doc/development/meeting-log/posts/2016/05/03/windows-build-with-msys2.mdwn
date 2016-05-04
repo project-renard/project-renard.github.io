@@ -2,11 +2,14 @@
 
 In order to build [[curie|https://github.com/project-renard/curie]] on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
-require native libraries such as Gtk+ 3 and Glib. Using the MSYS2 package manager, we
+require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.
 
 The following steps show how to install the dependencies along with how I ended
-up debugging the build. The following will be assuming 64-bit Windows (x86-64
+up debugging the build. I'm writing out this post in case the debugging steps
+are useful months later when I forget how or why I did things.
+
+The following will be assuming 64-bit Windows (x86-64
 architecture) throughout.
 
 ## Building locally
@@ -14,14 +17,92 @@ architecture) throughout.
 1. Install [MSYS2](https://msys2.github.io/). This is a straightforward install
    into the `C:\msys64` directory.
 
-2. Start the "MinGW-w64 Win64 Shell" from the Start Menu.
+2. Start the "MinGW-w64 Win64 Shell" from the Start Menu. This shell sets up
+   the proper environment variables needed to use 64-bit libraries for the
+   MinGW64 system.
 
-3. Use the pacman manager to update the package database and install the build toolchain:
+3. Use the [[pacman|https://www.archlinux.org/pacman/pacman.8.html]] package
+   manager to update the package database and install the build toolchain.
 
-[[!format sh """
-pacman -Syu
-pacman -S --needed mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
-"""]]
+   [[!format sh """
+   pacman -Syu
+   pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool
+   """]]
+
+4. Install the native dependencies.
+
+   [[!format sh """
+   pacman -S --needed --noconfirm \
+       mingw-w64-x86_64-gobject-introspection \
+       mingw-w64-x86_64-cairo \
+       mingw-w64-x86_64-gtk3 \
+       mingw-w64-x86_64-expat \
+       mingw-w64-x86_64-openssl
+   """]]
+
+5. Install Perl and cpanm
+
+   [[!format sh """
+   pacman -S --needed --noconfirm mingw-w64-x86_64-perl
+   yes | cpan App::cpanminus
+   """]]
+
+   However, we ecounter a problem with this last command. It tries to using
+   `pl2bat.bat` to install the `cpanm` script, but for some reason we see the following error:
+
+   [[!format txt """
+   Configuring M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz with Makefile.PL
+   Checking if your kit is complete...
+   Looks good
+   Generating a dmake-style Makefile
+   Writing Makefile for App::cpanminus
+   Writing MYMETA.yml and MYMETA.json
+     MIYAGAWA/App-cpanminus-1.7040.tar.gz
+     C:\msys64\mingw64\bin\perl.exe Makefile.PL -- OK
+   Running make for M/MI/MIYAGAWA/App-cpanminus-1.7040.tar.gz
+   cp lib/App/cpanminus/fatscript.pm blib\lib\App\cpanminus\fatscript.pm
+   cp lib/App/cpanminus.pm blib\lib\App\cpanminus.pm
+   "C:\msys64\mingw64\bin\perl.exe" -MExtUtils::Command -e cp -- bin/cpanm blib\script\cpanm
+   pl2bat.bat blib\script\cpanm
+   'pl2bat.bat' is not recognized as an internal or external command,
+   operable program or batch file.
+   dmake:  Error code 129, while making 'blib\script\cpanm'
+   dmake:  'blib\script\cpanm' removed.
+     MIYAGAWA/App-cpanminus-1.7040.tar.gz
+     dmake -- NOT OK
+   """]]
+
+   The important line here is
+
+   [[!format txt """
+   'pl2bat.bat' is not recognized as an internal or external command,
+   """]]
+
+   The `pl2bat` command is a tool that is used on Windows in order to allow for
+   running Perl scripts without having to specify that they must run under Perl.
+   So instead of having to type `perl myscript` to run code in the `myscript`
+   file, we can just type `myscript` and run it as if it was just another
+   executable. This works by wrapping the original code and placing it into a
+   Windows batch file that calls the Perl interpreter on the same file.
+
+   It turns out that MSYS2 has the Perl script `pl2bat` which does the conversion,
+   but that file was not converted itself! To do that we find the path for the
+   `pl2bat` file and run `pl2bat` on it.
+
+   [[!format sh """
+   pl2bat $(which pl2bat)
+   """]]
+
+   We can then install `cpanm` as before.
+
+6. Install the Perl dependencies for curie itself by running the following the
+   `curie` repository:
+
+   [[!format sh """
+   cpanm --verbose --installdeps .
+   """]]
+
+   This reads the `cpanfile` which lists the Perl prerequisites for the project.
 
 ## Building on Appveyor
 
