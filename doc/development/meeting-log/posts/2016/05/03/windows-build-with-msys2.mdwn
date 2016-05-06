@@ -500,7 +500,7 @@ For those who just want to see the final code, go to the PR
    I then popped into the <code>#toolchain</code> IRC channel on the
    <code>irc.perl.org</code> network to share what I had learned and ask
    if there was another way forward. After a quick convo with
-   <code>[[mst|https://metacpan.org/author/MSTROUT]]++</code>, he came back
+   <code>[[mst|http://shadow.cat/blog/matt-s-trout/]]++</code>, he came back
    with a one-liner that wrapped the <code>WriteMakefile</code> function and inserted
    <code>:nosearch</code> into the <code>LIBS</code> parameter:
    </p>
