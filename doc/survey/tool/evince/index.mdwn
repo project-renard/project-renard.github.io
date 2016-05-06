@@ -58,6 +58,8 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
     Shows information about the application (license, authors, documenters, translators).
 
     <tt>[[app_about_cb|https://github.com/GNOME/evince/search?q=app_about_cb]]</tt>
+
+    [[!img gfx/menu-app-about.png size="250x"]]
     </td>
 </tr>
 <tr>
@@ -384,6 +386,20 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
 </tr>
 </table>
 
+
+[[!img gfx/search.gif caption="Searching a document" size="250x"]]
+
+[[!img gfx/annotations.gif ]]
+
+[[!img gfx/fullscreen.gif ]]
+
+[[!img gfx/menu-app-about.png ]]
+
+[[!img gfx/page-number-and-history.gif ]]
+
+[[!img gfx/search.gif ]]
+
+[[!img gfx/view-and-sidebar.gif ]]
 
 
 
