@@ -37,9 +37,9 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
     <td>
     Creates a new window for opening documents.
 
-    [[!img gfx/menu-app-new.gif ]]
+    See code for <tt>[[app_new_cb|https://github.com/GNOME/evince/search?q=app_new_cb]]</tt>.
 
-    <tt>[[app_new_cb|https://github.com/GNOME/evince/search?q=app_new_cb]]</tt>
+    [[!img gfx/menu-app-new.gif size="250x"]]
     </td>
 </tr>
 <tr>
