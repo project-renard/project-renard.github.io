@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-05T23:26:48Z</updated>
+<updated>2016-05-06T01:07:45Z</updated>
 <entry>
 	<title>qpdfview</title>
 
@@ -106,8 +106,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-05T23:26:48Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-05-06T01:07:45Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -198,9 +198,9 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;
     Creates a new window for opening documents.
 
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot; width=&quot;1284&quot; height=&quot;890&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
+    See code for &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;app_new_cb&lt;/a&gt;&lt;/tt&gt;.
 
-    &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;app_new_cb&lt;/a&gt;&lt;/tt&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/250x-menu-app-new.gif&quot; width=&quot;250&quot; height=&quot;173&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -565,8 +565,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/library" />
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -621,8 +621,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -671,8 +671,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-04T23:55:16Z</updated>
+<updated>2016-05-06T17:21:33Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -31,7 +31,7 @@
 
 
 
-	<updated>2016-05-04T23:55:16Z</updated>
+	<updated>2016-05-06T17:21:33Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -521,7 +521,7 @@ architecture) throughout.&lt;/p&gt;
    I then popped into the &lt;code&gt;#toolchain&lt;/code&gt; IRC channel on the
    &lt;code&gt;irc.perl.org&lt;/code&gt; network to share what I had learned and ask
    if there was another way forward. After a quick convo with
-   &lt;code&gt;&lt;a href=&quot;https://metacpan.org/author/MSTROUT&quot;&gt;mst&lt;/a&gt;++&lt;/code&gt;, he came back
+   &lt;code&gt;&lt;a href=&quot;http://shadow.cat/blog/matt-s-trout/&quot;&gt;mst&lt;/a&gt;++&lt;/code&gt;, he came back
    with a one-liner that wrapped the &lt;code&gt;WriteMakefile&lt;/code&gt; function and inserted
    &lt;code&gt;:nosearch&lt;/code&gt; into the &lt;code&gt;LIBS&lt;/code&gt; parameter:
    &lt;/p&gt;
@@ -1005,8 +1005,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -1048,8 +1048,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -1099,8 +1099,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1135,8 +1135,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
-	<published>2016-04-11T17:34:49Z</published>
+	<updated>2016-04-11T17:34:51Z</updated>
+	<published>2016-04-11T17:34:51Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1217,7 +1217,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
+	<updated>2016-04-11T17:34:51Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1254,7 +1254,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
+	<updated>2016-04-11T17:34:51Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1289,7 +1289,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
+	<updated>2016-04-11T17:34:51Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1426,7 +1426,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
+	<updated>2016-04-11T17:34:51Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1545,7 +1545,7 @@ make HAVE_GLFW=no install
 
 
 
-	<updated>2016-04-11T17:34:49Z</updated>
+	<updated>2016-04-11T17:34:51Z</updated>
 	<published>2016-01-24T04:45:06Z</published>
 
 	<content type="html" xml:lang="en">
