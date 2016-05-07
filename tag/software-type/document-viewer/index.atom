@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-07T04:07:21Z</updated>
+<updated>2016-05-07T04:13:47Z</updated>
 <entry>
 	<title>qpdfview</title>
 
@@ -106,8 +106,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-07T04:07:21Z</updated>
-	<published>2016-04-11T17:40:11Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-04-12T22:50:32Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -176,8 +176,9 @@
 &lt;/div&gt;
 
 &lt;p&gt;&lt;style&gt;
-img .sshot {
-  width: 250px;
+.sshot {
+  width: 400px;
+  height: auto;
 }
 &lt;/style&gt;&lt;/p&gt;
 
@@ -606,8 +607,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/library" />
 
 
-	<updated>2016-04-11T17:40:11Z</updated>
-	<published>2016-04-11T17:40:11Z</published>
+	<updated>2016-04-12T22:50:32Z</updated>
+	<published>2016-04-12T22:50:32Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -662,8 +663,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:40:11Z</updated>
-	<published>2016-04-11T17:40:11Z</published>
+	<updated>2016-04-12T22:50:32Z</updated>
+	<published>2016-04-12T22:50:32Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -712,8 +713,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:40:11Z</updated>
-	<published>2016-04-11T17:40:11Z</published>
+	<updated>2016-04-12T22:50:32Z</updated>
+	<published>2016-04-12T22:50:32Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
