@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-06T23:41:28Z</updated>
+<updated>2016-05-07T03:41:29Z</updated>
 <entry>
 	<title>qpdfview</title>
 
@@ -106,8 +106,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-04-11T17:34:53Z</published>
+	<updated>2016-05-07T03:41:29Z</updated>
+	<published>2016-04-11T17:34:54Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -175,10 +175,30 @@
 &lt;/table&gt;
 &lt;/div&gt;
 
+&lt;p&gt;img .sshot {
+  width: 250px;
+}&lt;/p&gt;
+
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 
 &lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
 details features that have been proposed and completed.&lt;/p&gt;
+
+&lt;h1 id=&quot;behaviour&quot;&gt;Behaviour&lt;/h1&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Searching a document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot; width=&quot;1918&quot; height=&quot;1004&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot; width=&quot;904&quot; height=&quot;827&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;menuandkeybindings&quot;&gt;Menu and Keybindings&lt;/h1&gt;
 
@@ -196,31 +216,48 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;App.New Window (&lt;tt&gt;app.new&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
-    Creates a new window for opening documents.
+        &lt;p&gt;
+        Creates a new window for opening documents.
+        &lt;/p&gt;
 
-    See code for &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;app_new_cb&lt;/a&gt;&lt;/tt&gt;.
+        &lt;p&gt;
+        See code for &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;app_new_cb&lt;/a&gt;&lt;/tt&gt;.
+        &lt;/p&gt;
 
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/250x-menu-app-new.gif&quot; width=&quot;250&quot; height=&quot;173&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;
+        &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot; width=&quot;1284&quot; height=&quot;890&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;App.Help (&lt;tt&gt;app.help&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;F1&lt;/td&gt;
     &lt;td&gt;
-    Shows help for Evince.
+        &lt;p&gt;
+        Shows help for Evince.
+        &lt;/p&gt;
 
-    &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_help_cb&quot;&gt;app_help_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;p&gt;
+        &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_help_cb&quot;&gt;app_help_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;App.About (&lt;tt&gt;app.about&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
-    Shows information about the application (license, authors, documenters, translators).
+        &lt;p&gt;
+        Shows information about the application (license, authors, documenters, translators).
+        &lt;/p&gt;
 
-    &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_about_cb&quot;&gt;app_about_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;p&gt;
+        &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_about_cb&quot;&gt;app_about_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;/p&gt;
 
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/250x-menu-app-about.png&quot; width=&quot;250&quot; height=&quot;229&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;
+        &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot; width=&quot;904&quot; height=&quot;827&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
+
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -545,20 +582,6 @@ details features that have been proposed and completed.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Searching a document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/250x-search.gif&quot; width=&quot;250&quot; height=&quot;229&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot; width=&quot;1918&quot; height=&quot;1004&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot; width=&quot;904&quot; height=&quot;827&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
 	</content>
 
 
@@ -581,8 +604,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/library" />
 
 
-	<updated>2016-04-11T17:34:53Z</updated>
-	<published>2016-04-11T17:34:53Z</published>
+	<updated>2016-04-11T17:34:54Z</updated>
+	<published>2016-04-11T17:34:54Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -637,8 +660,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:34:53Z</updated>
-	<published>2016-04-11T17:34:53Z</published>
+	<updated>2016-04-11T17:34:54Z</updated>
+	<published>2016-04-11T17:34:54Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -687,8 +710,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-11T17:34:53Z</updated>
-	<published>2016-04-11T17:34:53Z</published>
+	<updated>2016-04-11T17:34:54Z</updated>
+	<published>2016-04-11T17:34:54Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
