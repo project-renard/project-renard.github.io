@@ -15,8 +15,9 @@ WikipediaEN: https://en.wikipedia.org/wiki/Evince
 [[!ftemplate id=tool]]
 
 <style>
-img .sshot {
-  width: 250px;
+.sshot {
+  width: 400px;
+  height: auto;
 }
 </style>
 
