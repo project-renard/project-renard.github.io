@@ -14,10 +14,32 @@ WikipediaEN: https://en.wikipedia.org/wiki/Evince
 ---
 [[!ftemplate id=tool]]
 
+img .sshot {
+  width: 250px;
+}
+
 # Summary
 
 Evince has a [[roadmap|https://wiki.gnome.org/Apps/Evince/Roadmap]] which
 details features that have been proposed and completed.
+
+# Behaviour
+
+
+[[!img gfx/search.gif caption="Searching a document" class="sshot" ]]
+
+[[!img gfx/annotations.gif class="sshot" ]]
+
+[[!img gfx/fullscreen.gif class="sshot" ]]
+
+[[!img gfx/menu-app-about.png class="sshot" ]]
+
+[[!img gfx/page-number-and-history.gif class="sshot" ]]
+
+[[!img gfx/search.gif class="sshot" ]]
+
+[[!img gfx/view-and-sidebar.gif class="sshot" ]]
+
 
 # Menu and Keybindings
 
@@ -35,31 +57,48 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
     <td>App.New Window (<tt>app.new</tt>)</td>
     <td></td>
     <td>
-    Creates a new window for opening documents.
+        <p>
+        Creates a new window for opening documents.
+        </p>
 
-    See code for <tt>[[app_new_cb|https://github.com/GNOME/evince/search?q=app_new_cb]]</tt>.
+        <p>
+        See code for <tt>[[app_new_cb|https://github.com/GNOME/evince/search?q=app_new_cb]]</tt>.
+        </p>
 
-    [[!img gfx/menu-app-new.gif size="250x"]]
+        <p>
+        [[!img gfx/menu-app-new.gif class="sshot" ]]
+        </p>
     </td>
 </tr>
 <tr>
     <td>App.Help (<tt>app.help</tt>)</td>
     <td>F1</td>
     <td>
-    Shows help for Evince.
+        <p>
+        Shows help for Evince.
+        </p>
 
-    <tt>[[app_help_cb|https://github.com/GNOME/evince/search?q=app_help_cb]]</tt>
+        <p>
+        <tt>[[app_help_cb|https://github.com/GNOME/evince/search?q=app_help_cb]]</tt>
+        </p>
     </td>
 </tr>
 <tr>
     <td>App.About (<tt>app.about</tt>)</td>
     <td></td>
     <td>
-    Shows information about the application (license, authors, documenters, translators).
+        <p>
+        Shows information about the application (license, authors, documenters, translators).
+        </p>
 
-    <tt>[[app_about_cb|https://github.com/GNOME/evince/search?q=app_about_cb]]</tt>
+        <p>
+        <tt>[[app_about_cb|https://github.com/GNOME/evince/search?q=app_about_cb]]</tt>
+        </p>
 
-    [[!img gfx/menu-app-about.png size="250x"]]
+        <p>
+        [[!img gfx/menu-app-about.png class="sshot" ]]
+        </p>
+
     </td>
 </tr>
 <tr>
@@ -385,22 +424,6 @@ The complete list of menu items is available in the [[`evince-menus.ui`|https://
     </td>
 </tr>
 </table>
-
-
-[[!img gfx/search.gif caption="Searching a document" size="250x"]]
-
-[[!img gfx/annotations.gif ]]
-
-[[!img gfx/fullscreen.gif ]]
-
-[[!img gfx/menu-app-about.png ]]
-
-[[!img gfx/page-number-and-history.gif ]]
-
-[[!img gfx/search.gif ]]
-
-[[!img gfx/view-and-sidebar.gif ]]
-
 
 
 [[!tag software-type/document-viewer]]
