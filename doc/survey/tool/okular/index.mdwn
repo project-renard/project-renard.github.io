@@ -1,0 +1,16 @@
+---
+Name: Okular
+Homepage: https://okular.kde.org/
+ExternalScreenshot: https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png
+WikipediaEN: https://en.wikipedia.org/wiki/Okular
+---
+[[!ftemplate id=tool]]
+
+
+To install, run:
+
+[[!format sh """
+sudo apt-get install --no-install-recommends okular jovie
+"""]]
+
+[[!tag software-type/document-viewer]]
