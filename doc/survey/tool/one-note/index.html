@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Evince</title>
+		<link rel="stylesheet" href="../../../../style.css" type="text/css" />
+		<link rel="stylesheet" href="../../../../local.css" type="text/css" />
+		<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/survey/tool/evince/index.mdwn" />
+	</head>
+	<body>
+		<div class="page">
+			<div class="pageheader">
+				<div class="header">
+					<span>
+						<span class="parentlinks">
+							<a href="../../../../">Project Renard</a>/ 
+							<a href="../../../">doc</a>/ 
+							<a href="../../">survey</a>/ 
+							<a href="../">tool</a>/ 
+						</span>
+						<span class="title">
+							One Note 
+						</span>
+					</span>
+
+				</div>
+
+
+				<div class="actions">
+					<ul>
+						<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/survey/tool/one-note/index.mdwn" rel="nofollow">Edit</a></li>
+						<li><a href="../../../../recentchanges/">RecentChanges</a></li>
+						<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/survey/tool/one-note/index.mdwn">History</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li><a href="../../../">Documentation</a></li>
+					<ul>
+						<li><a href="../../../development/meeting-log/">Development meeting log</a></li>
+						<li><a href="../../../development/">Development</a></li>
+						<li><a href="../../">Survey</a></li>
+						<li><a href="../../../design/">Design</a></li>
+					</ul>
+					<li><a href="../../../../about/">About</a></li>
+				</ul>
+
+			</div>
+			<div id="pagebody">
+				<div id="content">
+					<div class="sidebar">
+						<table>
+							<tr>
+								<td>
+									<a href="./gfx/one-note-logo.png"><img src="./gfx/one-note-logo.png" width="256" height="256" class="img fullwidth" /></a>
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+									<a href="https://www.onenote.com/">Homepage</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									File-formats:
+									<ul>
+										<li><a href="../../../development/file-format/pdf/">application/pdf</a></li>
+										<li>application/postscript</li>
+										<li>image/tiff</li>
+										<li>application/x-dvi</li>
+										<li>image/vnd.djvu</li>
+										<li>application/x-cbr</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2>Screenshot</h2>
+									<a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png">
+										<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png"/>
+									</a>
+								</td>
+							</tr>
+
+						</table>
+					</div>
+
+					<p><style>
+.sshot {
+	width: 400px;
+	height: auto;
+}
+					</style></p>
+					<h1 id="summary">Summary</h1>
+					<p>One Note has a <a href="https://fasttrack.microsoft.com/roadmap">roadmap</a> which can be accessed through the link and then selecting the filter for One Note.</p>
+					<p>https://dev.onenote.com/</p>
+					<p>It also has a <a href="https://onenote.uservoice.com"/>suggestion box</a></p>
+					<h1 id="behaviour">Behaviour</h1>
+					<table class="img"><caption>Searching a document</caption><tr><td><a href="./gfx/search.gif"><img src="./gfx/search.gif" width="950" height="872" class="sshot" /></a></td></tr></table>
+					<p><a href="./gfx/annotations.gif"><img src="./gfx/annotations.gif" width="950" height="872" class="sshot" /></a></p>
+					<p><a href="./gfx/fullscreen.gif"><img src="./gfx/fullscreen.gif" width="1918" height="1004" class="sshot" /></a></p>
+					<p><a href="./gfx/menu-app-about.png"><img src="./gfx/menu-app-about.png" width="904" height="827" class="sshot" /></a></p>
+					<p><a href="./gfx/page-number-and-history.gif"><img src="./gfx/page-number-and-history.gif" width="950" height="872" class="sshot" /></a></p>
+					<p><a href="./gfx/search.gif"><img src="./gfx/search.gif" width="950" height="872" class="sshot" /></a></p>
+					<p><a href="./gfx/view-and-sidebar.gif"><img src="./gfx/view-and-sidebar.gif" width="950" height="872" class="sshot" /></a></p>
+					<p><a href="./gfx/properties.gif"><img src="./gfx/properties.gif" width="950" height="872" class="sshot" /></a></p>
+					<h1 id="menuandkeybindings">Menu and Keybindings</h1>
+					<p>The complete list of menu items is available in the <a href="https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui"><code>evince-menus.ui</code></a> file.</p>
+
+					<h3 id="applicationmenus">Application menus</h3>
+
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Shortcut</th>
+							<th>Description</th>
+						</tr>
+						<tr>
+							<td>App.New Window (<tt>app.new</tt>)</td>
+							<td></td>
+							<td>
+								<p>
+								Creates a new window for opening documents.
+								</p>
+
+								<p>
+								See code for <tt><a href="https://github.com/GNOME/evince/search?q=app_new_cb">app_new_cb</a></tt>.
+								</p>
+
+								<p>
+								<a href="./gfx/menu-app-new.gif"><img src="./gfx/menu-app-new.gif" width="1284" height="890" class="sshot" /></a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>App.Help (<tt>app.help</tt>)</td>
+							<td>F1</td>
+							<td>
+								<p>
+								Shows help for Evince.
+								</p>
+
+								<p>
+								<tt><a href="https://github.com/GNOME/evince/search?q=app_help_cb">app_help_cb</a></tt>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>App.About (<tt>app.about</tt>)</td>
+							<td></td>
+							<td>
+								<p>
+								Shows information about the application (license, authors, documenters, translators).
+								</p>
+
+								<p>
+								<tt><a href="https://github.com/GNOME/evince/search?q=app_about_cb">app_about_cb</a></tt>
+								</p>
+
+								<p>
+								<a href="./gfx/menu-app-about.png"><img src="./gfx/menu-app-about.png" width="904" height="827" class="sshot" /></a>
+								</p>
+
+							</td>
+						</tr>
+						<tr>
+							<td>View._Continuous (<tt>win.continuous</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View._Dual (<tt>win.dual-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Side _Pane (<tt>win.show-side-pane</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View._Fullscreen (<tt>win.fullscreen</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Pre_sentation (<tt>win.presentation</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Rotate _Left (<tt>win.rotate-left</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Rotate _Right (<tt>win.rotate-right</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.First Page (<tt>win.go-first-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Previous Page (<tt>win.go-previous-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Next Page (<tt>win.go-next-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Last Page (<tt>win.go-last-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Zoom _In (<tt>win.zoom-in</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View.Zoom _Out (<tt>win.zoom-out</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View._Odd Pages Left (<tt>win.dual-odd-left</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View._Inverted Colors (<tt>win.inverted-colors</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View._Reload (<tt>win.reload</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Open… (<tt>win.open</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.Op_en a Copy (<tt>win.open-copy</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Save a Copy… (<tt>win.save-copy</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.Send _To… (<tt>win.send-to</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.Open Containing _Folder (<tt>win.open-containing-folder</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Print… (<tt>win.print</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.P_roperties… (<tt>win.show-properties</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Copy (<tt>win.copy</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.Select _All (<tt>win.select-all</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action.Save Current Settings as _Default (<tt>win.save-settings</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Add Bookmark (<tt>win.add-bookmark</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Action._Close (<tt>win.close</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Zoom.Fit Pa_ge (<tt>win.sizing-mode, fit-page</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Zoom.Fit _Width (<tt>win.sizing-mode, fit-width</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Zoom._Automatic (<tt>win.sizing-mode, automatic</tt>)</td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+					</table>
+
+					<h3 id="viewpopupmenu">View popup menu</h3>
+
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Shortcut</th>
+							<th>Description</th>
+						</tr>
+						<tr>
+							<td>View Popup._Open Link (<tt>win.open-link</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Copy Link Address (<tt>win.copy-link-address</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Go To (<tt>win.go-to-link</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Open in New _Window (<tt>win.open-link-new-window</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Previous Page (<tt>win.go-previous-page</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Next Page (<tt>win.go-next-page</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Reload (<tt>win.reload</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Auto_scroll (<tt>win.auto-scroll</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Copy (<tt>win.copy</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Select _All (<tt>win.select-all</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Save Image As… (<tt>win.save-image</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Copy _Image (<tt>win.copy-image</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Open Attachment (<tt>win.open-attachment</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup._Save Attachment As… (<tt>win.save-attachment</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Annotation Properties… (<tt>win.annot-properties</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Remove Annotation (<tt>win.remove-annot</tt>)</td>  
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>View Popup.Open Containing _Folder (<tt>win.open-containing-folder</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+					</table>
+
+					<h3 id="attachmentspopupmenu">Attachments popup menu</h3>
+
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Shortcut</th>
+							<th>Description</th>
+						</tr>
+						<tr>
+							<td>Attachments Popup._Open Attachment (<tt>win.open-attachment</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td>Attachments Popup._Save Attachment As… (<tt>win.save-attachment</tt>)</td> 
+							<td></td>
+							<td>
+							</td>
+						</tr>
+					</table>
+
+				</div>
+
+
+
+
+
+			</div>
+
+			<div id="footer" class="pagefooter">
+
+				<div id="pageinfo">
+
+
+					<div class="tags">
+						Tags:
+
+						<a href="../../../../tag/software-type/document-viewer/" rel="tag">software-type/document-viewer</a>
+
+					</div>
+
+
+
+					<div id="backlinks">
+						Links:
+
+						<a href="../../../development/feature/recent-document/">development/feature/recent-document</a>
+
+
+					</div>
+
+
+
+
+
+
+					<div class="pagedate">
+						Last edited <span class="date">Sat 07 May 2016 04:20:16 AM UTC</span>
+						<!-- Created <span class="date">Wed 13 Apr 2016 12:57:45 PM UTC</span> -->
+					</div>
+
+				</div>
+
+
+				<!-- from Project Renard -->
+			</div>
+
+		</div>
+
+	</body>
+</html>
