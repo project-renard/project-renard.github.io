@@ -13,4 +13,17 @@ To install, run:
 sudo apt-get install --no-install-recommends okular jovie
 """]]
 
+TODO:
+
+- Show menus
+
+- Show the zoom level
+
+- Show continuous, single page, facing page, overview, trim margin
+
+- Show sidebar operation
+
+- Show selection: region selection (text and image), text selection, table selection
+
+
 [[!tag software-type/document-viewer]]
