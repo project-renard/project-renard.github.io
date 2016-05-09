@@ -20,7 +20,7 @@
 
 
 	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
-	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
+	<dcterms:modified>2016-05-09T02:33:48Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -52,6 +52,16 @@
 
 &lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
 &lt;/pre&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 
 
@@ -137,7 +147,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 13 Apr 2016 12:57:45 +0000</pubDate>
+	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
 	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -635,8 +645,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/library</category>
 
 
-	<pubDate>Wed, 13 Apr 2016 12:57:45 +0000</pubDate>
-	<dcterms:modified>2016-04-13T12:57:45Z</dcterms:modified>
+	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
+	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -686,8 +696,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 13 Apr 2016 12:57:45 +0000</pubDate>
-	<dcterms:modified>2016-04-13T12:57:45Z</dcterms:modified>
+	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
+	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -731,8 +741,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 13 Apr 2016 12:57:45 +0000</pubDate>
-	<dcterms:modified>2016-04-13T12:57:45Z</dcterms:modified>
+	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
+	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;

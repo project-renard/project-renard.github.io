@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-07T22:43:46Z</updated>
+<updated>2016-05-09T02:33:48Z</updated>
 <entry>
 	<title>Okular</title>
 
@@ -33,7 +33,7 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-07T22:43:46Z</updated>
+	<updated>2016-05-09T02:33:48Z</updated>
 	<published>2016-05-07T22:43:46Z</published>
 
 	<content type="html" xml:lang="en">
@@ -67,6 +67,16 @@
 
 &lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
 &lt;/pre&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 	</content>
 
@@ -162,7 +172,7 @@
 
 
 	<updated>2016-05-07T04:20:16Z</updated>
-	<published>2016-04-13T12:57:45Z</published>
+	<published>2016-04-14T15:42:10Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -664,8 +674,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/library" />
 
 
-	<updated>2016-04-13T12:57:45Z</updated>
-	<published>2016-04-13T12:57:45Z</published>
+	<updated>2016-04-14T15:42:10Z</updated>
+	<published>2016-04-14T15:42:10Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -720,8 +730,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-13T12:57:45Z</updated>
-	<published>2016-04-13T12:57:45Z</published>
+	<updated>2016-04-14T15:42:10Z</updated>
+	<published>2016-04-14T15:42:10Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -770,8 +780,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-04-13T12:57:45Z</updated>
-	<published>2016-04-13T12:57:45Z</published>
+	<updated>2016-04-14T15:42:10Z</updated>
+	<published>2016-04-14T15:42:10Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
