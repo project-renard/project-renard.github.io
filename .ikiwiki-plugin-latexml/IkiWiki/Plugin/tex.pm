@@ -48,10 +48,10 @@ sub latexml {
     my $DoXML = 1;
 
     # latexml;
-    my $latexml =  ($DoXML == 0)? "true": "/usr/local/bin/latexml";
+    my $latexml =  ($DoXML == 0)? "true": "/usr/bin/latexml";
 
     # latexmlpost binary
-    my $latexmlpost = "/usr/local/bin/latexmlpost";
+    my $latexmlpost = "/usr/bin/latexmlpost";
 
     my $latexmlc = "/usr/bin/latexmlc";
 
