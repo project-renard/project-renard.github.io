@@ -68,74 +68,6 @@
 </item>
 <item>
 
-	<title>qpdfview</title>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 22 Apr 2016 13:08:50 +0000</pubDate>
-	<dcterms:modified>2016-04-24T01:23:54Z</dcterms:modified>
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>Evince</title>
 
 
@@ -147,7 +79,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
+	<pubDate>Mon, 25 Apr 2016 21:10:01 +0000</pubDate>
 	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -632,6 +564,74 @@ details features that have been proposed and completed.&lt;/p&gt;
 </item>
 <item>
 
+	<title>qpdfview</title>
+
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Mon, 25 Apr 2016 21:10:01 +0000</pubDate>
+	<dcterms:modified>2016-04-25T21:10:01Z</dcterms:modified>
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>PDF.js</title>
 
 
@@ -645,8 +645,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
-	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
+	<pubDate>Mon, 25 Apr 2016 21:10:01 +0000</pubDate>
+	<dcterms:modified>2016-04-25T21:10:01Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -696,8 +696,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
-	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
+	<pubDate>Mon, 25 Apr 2016 21:10:01 +0000</pubDate>
+	<dcterms:modified>2016-04-25T21:10:01Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
@@ -741,8 +741,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 14 Apr 2016 15:42:10 +0000</pubDate>
-	<dcterms:modified>2016-04-14T15:42:10Z</dcterms:modified>
+	<pubDate>Mon, 25 Apr 2016 21:10:01 +0000</pubDate>
+	<dcterms:modified>2016-04-25T21:10:01Z</dcterms:modified>
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
