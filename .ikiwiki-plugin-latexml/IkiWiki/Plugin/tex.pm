@@ -51,9 +51,9 @@ sub latexml {
     my $latexml =  ($DoXML == 0)? "true": "/usr/bin/latexml";
 
     # latexmlpost binary
-    my $latexmlpost = "/usr/bin/latexmlpost";
+    my $latexmlpost = "latexmlpost";
 
-    my $latexmlc = "/usr/bin/latexmlc";
+    my $latexmlc = "latexmlc";
 
     if($DoTmp == 1)
     {
