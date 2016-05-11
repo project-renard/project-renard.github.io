@@ -71,11 +71,25 @@ sub latexml {
     }
     else
     {
-	open(PFH, ">$config{srcdir}/$directories$ProblemFile") or die "$ProblemFile not writable";
-	printf(PFH "%s",$content);
-	close(PFH);
+	my $target_file_plain = "$config{srcdir}/$directories$ProblemFile";
+	my $target_file_indexpages = "$config{srcdir}/$directories$pname/index.tex";
+
+	my $target_file;
+	my $target_file_name;
+	my $target_file_dir;
+	for my $file ($target_file_plain, $target_file_indexpages) {
+		if( -r $file ) {
+			$target_file = $file;
+			$target_file_dir = dirname( $target_file );
+			$target_file_name = basename( $target_file );
+			last;
+		}
+	}
+	#open(PFH, ">$config{srcdir}/$directories$ProblemFile") or die "$ProblemFile not writable";
+	#printf(PFH "%s",$content);
+	#close(PFH);
 	
-	$result = decode_utf8(`cd $config{srcdir}/$directories; $latexmlc --post --embed --nodefaultresources $ProblemFile`);
+	$result = decode_utf8(`cd $target_file_dir; $latexmlc --post --embed --nodefaultresources $target_file_name`);
 
         debug("result-: $result");
 
