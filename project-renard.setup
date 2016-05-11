@@ -51,6 +51,7 @@ add_plugins:
 - github
 - format
 - highlight
+- tex
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
@@ -94,7 +95,7 @@ hardlink: 0
 # group for wrappers to run in
 #wrappergroup: ikiwiki
 # extra library and plugin directories
-libdirs: [ './.ikiwiki-plugin', './rubykat-ikiplugins', './.ikiwiki-plugin-github' ]
+libdirs: [ './.ikiwiki-plugin', './rubykat-ikiplugins', './.ikiwiki-plugin-github', './.ikiwiki-plugin-latexml' ]
 # extra library and plugin directory (searched after libdirs)
 libdir: /home/zaki/.ikiwiki
 # environment variables
