@@ -75,7 +75,7 @@ sub latexml {
 	printf(PFH "%s",$content);
 	close(PFH);
 	
-	$result = decode_utf8(`cd $config{srcdir}/$directories; $latexmlc --post --local $ProblemFile`);
+	$result = decode_utf8(`cd $config{srcdir}/$directories; $latexmlc --post --embed --nodefaultresources $ProblemFile`);
 
         debug("result-: $result");
 
