@@ -18,3 +18,10 @@ URI normalisation
 
 - remove proxies `s/.ezprox.lib.uh.edu//`
 - link DOIs to what they redirect to
+
+Standards
+
+- [[Dublin Core|https://en.wikipedia.org/wiki/Dublin_Core]]
+- [[FRBR|https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records]]
+- [[SKOS|https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System]]
+    - [[Tematres vocabular server|http://www.vocabularyserver.com/]]
