@@ -1,6 +1,8 @@
 ---
 Name: DjVuLibre
 Homepage: http://djvu.sourceforge.net/
+FileFormat:
+  - image/vnd.djvu
 WikipediaEN: https://en.wikipedia.org/wiki/DjVu
 ExternalScreenshot: http://djvu.sourceforge.net/images/screendumps/shot07-l.jpg
 ---
