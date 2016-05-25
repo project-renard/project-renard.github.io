@@ -2,6 +2,7 @@
 package IkiWiki::Plugin::ymlfront;
 use warnings;
 use strict;
+use Encode qw{encode};
 =head1 NAME
 
 IkiWiki::Plugin::ymlfront - add YAML-format data to a page
@@ -83,8 +84,8 @@ sub getsetup () {
 }
 
 sub checkconfig () {
-    eval {use YAML::Any};
-    eval {use YAML} if $@;
+    eval {require YAML::Any; import YAML::Any;};
+    eval {require YAML; import YAML;} if $@;
     if ($@)
     {
 	return error ("ymlfront: failed to use YAML::Any or YAML");
@@ -351,7 +352,7 @@ sub extract_yml {
 	$yml_str =~ s/\{\{\$page\}\}/$page/sg;
 
 	my $ydata;
-	eval {$ydata = Load($yml_str);};
+	eval {$ydata = Load(encode('UTF-8', $yml_str));};
 	if ($@)
 	{
 	    debug("ymlfront: Load of $page data failed: $@");
@@ -382,7 +383,7 @@ sub parse_yml {
 	$yml_str =~ s/\{\{\$page\}\}/$page/sg;
 
 	my $ydata;
-	eval {$ydata = Load($yml_str);};
+	eval {$ydata = Load(encode('UTF-8', $yml_str));};
 	if ($@)
 	{
 	    debug("ymlfront parse: Load of $page data failed: $@");
