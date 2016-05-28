@@ -101,6 +101,62 @@ meeting-log
 
 <span class="header">
 
+<a href="./posts/2016/05/28/interface-design/">Interface design meeting</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<h2 id="interface">Interface</h2>
+
+<h3 id="reviewthecurrentone">Review the current one</h3>
+
+<h3 id="makesomedrawings">Make some drawings</h3>
+
+<p>[ TODO insert pictures from other interfaces ]</p>
+
+<h2 id="devops">Devops</h2>
+
+<h3 id="addingsupportformac">Adding support for Mac</h3>
+
+<h3 id="windowsinstaller">Windows installer</h3>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Sat 28 May 2016 02:46:43 AM UTC</span>
+</span>
+
+
+
+
+
+
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/05/28/interface-design.mdwn" rel="nofollow">Edit</a></li>
+
+
+
+
+</ul>
+</div>
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
 <a href="./posts/2016/04/02/week-of-2016-04-02/">week of 2016-04-02</a>
 
 </span>
@@ -135,7 +191,7 @@ meeting-log
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
 </span>
 
 
@@ -208,7 +264,7 @@ issue <a href="https://github.com/project-renard/curie/issues/28"><img src="http
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
 </span>
 
 
@@ -1210,7 +1266,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
 </span>
 
 
@@ -1268,7 +1324,7 @@ Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
 </span>
 
 
@@ -1372,7 +1428,7 @@ and PR at <a href="https://github.com/project-renard/curie/pull/48"><img src="ht
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
 </span>
 
 
@@ -1813,133 +1869,6 @@ Posted <span class="date">Sat 30 Jan 2016 11:23:38 PM UTC</span>
 </div>
 
 </div>
-<div class="inlinepage">
-
-<div class="inlineheader">
-
-<span class="header">
-
-<a href="./posts/2016/01/24/initial-setup/">Initial setup</a>
-
-</span>
-</div>
-
-<div class="inlinecontent">
-<h2 id="agenda">Agenda</h2>
-
-<ul>
-<li>Record all steps taken today to a post on the project-renard wiki.
-<ul>
-<li>That means that this EtherPad document will become a page on the wiki.</li>
-</ul></li>
-<li><p>Choose a standard version of Perl 5 to work on. The code will not work on
-older versions. This is so that we can use modern features without worrying
-about backwards compatibility.</p>
-
-<p>Perl v5.20 is a good choice right now. It supports method signatures as a
-built-in feature.</p></li>
-<li><p>Set up GTK+ 3 on Linux so that it can run the <strong>curie</strong> code.</p>
-
-<ul>
-<li>This is related to issue "GTK+ Linux setup" <a href="https://github.com/project-renard/curie/issues/2"><img src="https://github-shields.com/github/project-renard/curie/issues/2.svg" alt="project-renard/curie/issues/2" id="project-renardcurieissues2" /></a>
-.</li>
-</ul></li>
-</ul>
-
-<h2 id="taskscompleted">Tasks completed</h2>
-
-<ul>
-<li><p><strong>curie</strong>: Install development packages for libgtk-3.0 <a href="https://developer.gnome.org/gtk3/">https://developer.gnome.org/gtk3/</a> on Debian GNU/Linux.</p>
-
-<ul>
-<li>Install the dependencies on Debian by running:
-<pre>
-cd curie
-sudo xargs apt-get install \
-  -y --no-install-recommends \
-  &lt; debian-packages
-</pre></li>
-</ul></li>
-<li><p><strong>base</strong>: Make sure the version of Perl 5 you have is v5.20 or greater.</p>
-
-<ul>
-<li>If you do not have that version of Perl 5, you can use <code>perlbrew</code> to set it up.
-Follow the instructions at <a href="http://perlbrew.pl/">http://perlbrew.pl/</a>.</li>
-</ul></li>
-<li><p><strong>base</strong>: We will use cpanm to install the Perl modules that we need. It can be
-installed by running</p>
-
-<p><code>
-  perlbrew install-cpanm
-</code></p>
-
-<p>or if you do not have perlbrew, following the instructions at
-<a href="https://github.com/miyagawa/cpanminus#installing-to-system-perl">https://github.com/miyagawa/cpanminus#installing-to-system-perl</a>:</p>
-
-<p><code>
-  cpan App::cpanminus
-</code></p></li>
-<li><p><strong>curie</strong>: Removed the Gtk3::Ex::PDFViewer code which was causing problems</p>
-
-<ul>
-<li>PR <a href="https://github.com/project-renard/curie/pull/3"><img src="https://github-shields.com/github/project-renard/curie/pull/3.svg" alt="project-renard/curie/pull/3" id="project-renardcuriepull3" /></a>
-.</li>
-</ul></li>
-<li><p><strong>curie</strong>: Install the Perl CPAN packages needed for Gtk3.</p>
-
-<ul>
-<li>This can be done more easily by creating a <code>cpanfile</code> which lists the requirements.</li>
-<li>PR <a href="https://github.com/project-renard/curie/pull/4"><img src="https://github-shields.com/github/project-renard/curie/pull/4.svg" alt="project-renard/curie/pull/4" id="project-renardcuriepull4" /></a>
-.</li>
-<li><p>Now that the <code>cpanfile</code> is available, you can install the dependencies by running</p>
-
-<p><code>
-cpanm --installdeps .
-</code></p></li>
-</ul></li>
-<li><p><strong>curie</strong>: Install and investigate the Glade UI designer.</p>
-
-<ul>
-<li><p>Glade can be installed by running the commands:
-<code>
-sudo apt-get install --no-install-recommends glade
-</code></p></li>
-<li><p>There is a Glade tutorial at <a href="http://live.gnome.org/Glade/Tutorials">http://live.gnome.org/Glade/Tutorials</a>.</p></li>
-<li><p>We need to see if Glade <a href="https://glade.gnome.org/">https://glade.gnome.org/</a> can handle the docking widgets
-that are provided by libgdl <a href="https://developer.gnome.org/gdl/">https://developer.gnome.org/gdl/</a>.</p></li>
-</ul></li>
-</ul>
-
-</div>
-
-<div class="inlinefooter">
-
-<span class="pagedate">
-Posted <span class="date">Sun 24 Jan 2016 04:45:06 AM UTC</span>
-</span>
-
-
-
-
-
-
-
-
-<div class="actions">
-<ul>
-
-<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/01/24/initial-setup.mdwn" rel="nofollow">Edit</a></li>
-
-
-
-
-</ul>
-</div>
-
-
-</div>
-
-</div>
 
 
 </div>
@@ -1973,8 +1902,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
-<!-- Created <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span> -->
+Last edited <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span>
+<!-- Created <span class="date">Tue 03 May 2016 04:17:36 AM UTC</span> -->
 </div>
 
 </div>
