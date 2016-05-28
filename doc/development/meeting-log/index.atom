@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-28T17:45:07Z</updated>
+<updated>2016-05-28T19:41:04Z</updated>
 <entry>
 	<title>Interface design meeting</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2016-05-28T17:45:07Z</updated>
+	<updated>2016-05-28T19:41:04Z</updated>
 	<published>2016-05-28T02:46:43Z</published>
 
 	<content type="html" xml:lang="en">
@@ -37,21 +37,21 @@
 
 &lt;h3 id=&quot;reviewthecurrentone&quot;&gt;Review the current one&lt;/h3&gt;
 
-&lt;p&gt;Zaki: Menu works on branch : https://github.com/project-renard/curie/pull/89&lt;/p&gt;
+&lt;p&gt;Zaki: Menu works on branch : &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;https://github.com/project-renard/curie/pull/89&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Chirag: Continuing work on the keybindings: https://github.com/project-renard/curie/pull/52&lt;/p&gt;
+&lt;p&gt;Chirag: Continuing work on the keybindings: &lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;https://github.com/project-renard/curie/pull/52&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Stan: Status bar: move to another milestone: https://github.com/project-renard/curie/pull/53&lt;/p&gt;
+&lt;p&gt;Stan: Status bar: move to another milestone: &lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;https://github.com/project-renard/curie/pull/53&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;nextsteps&quot;&gt;Next steps&lt;/h3&gt;
 
-&lt;p&gt;Stan: Drag and drop https://github.com/project-renard/curie/pull/89&lt;/p&gt;
+&lt;p&gt;Stan: Drag and drop &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;https://github.com/project-renard/curie/pull/89&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Chirag: documentation https://github.com/project-renard/curie/pull/98&lt;/p&gt;
+&lt;p&gt;Chirag: documentation &lt;a href=&quot;https://github.com/project-renard/curie/pull/98&quot;&gt;https://github.com/project-renard/curie/pull/98&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Zaki: Split out general code from the menu PR :  https://github.com/project-renard/curie/pull/89&lt;/p&gt;
+&lt;p&gt;Zaki: Split out general code from the menu PR :  &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;https://github.com/project-renard/curie/pull/89&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Stan: GTK icon and color theming: https://github.com/project-renard/curie/issues/32&lt;/p&gt;
+&lt;p&gt;Stan: GTK icon and color theming: &lt;a href=&quot;https://github.com/project-renard/curie/issues/32&quot;&gt;https://github.com/project-renard/curie/issues/32&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;devops&quot;&gt;Devops&lt;/h2&gt;
 
@@ -59,21 +59,21 @@
 
 &lt;p&gt;Newer GTK+&lt;/p&gt;
 
-&lt;p&gt;https://github.com/project-renard/devops/issues/14&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/14&quot;&gt;https://github.com/project-renard/devops/issues/14&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;addingsupportformac&quot;&gt;Adding support for Mac&lt;/h3&gt;
 
 &lt;p&gt;Chirag: tried to run on Mac natively (with homebrew), but keybindings did not work. Will address with the keybindings pull request.&lt;/p&gt;
 
-&lt;p&gt;https://github.com/project-renard/curie/pull/52&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;https://github.com/project-renard/curie/pull/52&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;windowsinstaller&quot;&gt;Windows installer&lt;/h3&gt;
 
-&lt;p&gt;https://metacpan.org/pod/Perl::Dist::WiX&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/pod/Perl::Dist::WiX&quot;&gt;https://metacpan.org/pod/Perl::Dist::WiX&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;http://wixtoolset.org/&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://wixtoolset.org/&quot;&gt;http://wixtoolset.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&quot;&gt;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
@@ -91,8 +91,8 @@
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
-	<published>2016-05-03T04:35:46Z</published>
+	<updated>2016-05-03T07:08:13Z</updated>
+	<published>2016-05-03T07:08:13Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -134,8 +134,8 @@
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
-	<published>2016-05-03T04:35:46Z</published>
+	<updated>2016-05-03T07:08:13Z</updated>
+	<published>2016-05-03T07:08:13Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -188,7 +188,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<updated>2016-05-06T17:21:33Z</updated>
-	<published>2016-05-03T04:35:46Z</published>
+	<published>2016-05-03T07:08:13Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
@@ -1161,8 +1161,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
-	<published>2016-05-03T04:35:46Z</published>
+	<updated>2016-05-03T07:08:13Z</updated>
+	<published>2016-05-03T07:08:13Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1197,8 +1197,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
-	<published>2016-05-03T04:35:46Z</published>
+	<updated>2016-05-03T07:08:13Z</updated>
+	<published>2016-05-03T07:08:13Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1279,7 +1279,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
+	<updated>2016-05-03T07:08:13Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1316,7 +1316,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
+	<updated>2016-05-03T07:08:13Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1351,7 +1351,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
+	<updated>2016-05-03T07:08:13Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 	<content type="html" xml:lang="en">
@@ -1488,7 +1488,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-05-03T04:35:46Z</updated>
+	<updated>2016-05-03T07:08:13Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 	<content type="html" xml:lang="en">
