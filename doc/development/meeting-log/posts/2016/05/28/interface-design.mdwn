@@ -4,15 +4,44 @@
 
 ### Review the current one
 
-### Make some drawings
+Zaki: Menu works on branch : https://github.com/project-renard/curie/pull/89
 
-[ TODO insert pictures from other interfaces ]
- 
+Chirag: Continuing work on the keybindings: https://github.com/project-renard/curie/pull/52
+
+Stan: Status bar: move to another milestone: https://github.com/project-renard/curie/pull/53
+
+### Next steps
+
+Stan: Drag and drop https://github.com/project-renard/curie/pull/89
+
+Chirag: documentation https://github.com/project-renard/curie/pull/98
+
+Zaki: Split out general code from the menu PR :  https://github.com/project-renard/curie/pull/89
+
+ Stan: GTK icon and color theming: https://github.com/project-renard/curie/issues/32
+
 
 ## Devops
 
+### Vagrant on Travis-CI
+
+Newer GTK+
+
+https://github.com/project-renard/devops/issues/14
+
 ### Adding support for Mac
 
+Chirag: tried to run on Mac natively (with homebrew), but keybindings did not work. Will address with the keybindings pull request.
+
+https://github.com/project-renard/curie/pull/52
+
 ### Windows installer
+
+https://metacpan.org/pod/Perl::Dist::WiX
+
+http://wixtoolset.org/
+
+https://github.com/project-renard/curie/issues/1#issuecomment-221646498
+
 
 
