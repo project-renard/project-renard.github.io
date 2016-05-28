@@ -31,7 +31,7 @@ Newer GTK+
 
 ### Adding support for Mac
 
-Chirag: tried to run on Mac natively (with homebrew), but keybindings did not work. Will address with the keybindings pull request.
+Chirag: tried to run on Mac natively (with XQuartz for the display and homebrew to install), but keybindings did not work. Will address with the keybindings pull request.
 
 <https://github.com/project-renard/curie/pull/52>
 
