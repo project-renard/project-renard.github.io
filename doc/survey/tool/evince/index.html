@@ -168,21 +168,95 @@ details features that have been proposed and completed.</p>
 
 <h1 id="behaviour">Behaviour</h1>
 
-<table class="img"><caption>Searching a document</caption><tr><td><a href="./gfx/search.gif"><img src="./gfx/search.gif" width="950" height="872" class="sshot" /></a></td></tr></table>
+<h2 id="pagenavigation">Page navigation</h2>
 
-<p><a href="./gfx/annotations.gif"><img src="./gfx/annotations.gif" width="950" height="872" class="sshot" /></a></p>
+<p>Evince provides a text field in the toolbar where the user can type a page
+number to jump to.  This page number text field is combined with a drop-down
+menu which searches the document's table of contents so that the user can also
+type a section number (for example, "3.10").</p>
 
-<p><a href="./gfx/fullscreen.gif"><img src="./gfx/fullscreen.gif" width="1918" height="1004" class="sshot" /></a></p>
-
-<p><a href="./gfx/menu-app-about.png"><img src="./gfx/menu-app-about.png" width="904" height="827" class="sshot" /></a></p>
+<p>Evince keeps track of the page history as the user jumps to different pages in
+the document. This way they can use the arrows in the toolbar to move between
+different pages in the book ("previous page" and "next page"). Note however,
+that this history is a stack, so jumping back then navigating elsewhere removes
+what used to be stored as the "next page".</p>
 
 <p><a href="./gfx/page-number-and-history.gif"><img src="./gfx/page-number-and-history.gif" width="950" height="872" class="sshot" /></a></p>
 
-<p><a href="./gfx/search.gif"><img src="./gfx/search.gif" width="950" height="872" class="sshot" /></a></p>
+<h2 id="searching">Searching</h2>
+
+<p>The following animation shows how Evince searches a document. Note that the
+searching is done incrementally rather than all at once. This way, the results
+are returned quickly and the remain interactive. The search results are shown
+in a sidebar where the matching context and page number is shown.</p>
+
+<p>Clicking on one of the results takes you to that page. Also note that the
+matching text is highlighted on top of the page rendered page.</p>
+
+<table class="img"><caption>Searching a document</caption><tr><td><a href="./gfx/search.gif"><img src="./gfx/search.gif" width="950" height="872" class="sshot" /></a></td></tr></table>
+
+<h2 id="annotations">Annotations</h2>
+
+<p>Annotations in Evince are of two types:</p>
+
+<ul>
+<li>text annotation</li>
+<li>highlight annotation</li>
+</ul>
+
+<p>Both kinds of annotations can have text associated with them.  Clicking on the
+target for the annotation bring up an overlay window where the user can
+type a short note. Evince gives control over the colour and font settings for
+each annotation by using a colour picker and font selection widgets.</p>
+
+<p>Text annotations are icons that are added to the document. The user can choose
+from a selection of icons to display in order to have different kinds of
+annotations. These icons can be repositioned to different places on the page.</p>
+
+<p>Highlight annotations mark the text on the page by adding a marker
+on top of the text which begins at one character position and ends at another
+character position. The user can choose from different kinds of highlights such
+as "highlight" (which is transparent colour marker over the text like a
+highlighter) and underline (which is a line marker which runs at the baseline
+of the text).</p>
+
+<table class="img"><caption>Creating an annotation</caption><tr><td><a href="./gfx/annotations.gif"><img src="./gfx/annotations.gif" width="950" height="872" class="sshot" /></a></td></tr></table>
+
+<h2 id="sidebarandviews">Sidebar and views</h2>
+
+<p>The sidebar allows for seeing</p>
+
+<ul>
+<li><p>Thumbails: small images of the pages in the document</p></li>
+<li><p>Outline: table of contents tree menu that is stored in the document itself.
+Clicking on items in the outline jump to the associated location in the document.</p></li>
+<li><p>Bookmarks: user-created locations that point to specific pages in the
+document. They are stored separate from the document. These can be added,
+removed, and renamed.</p></li>
+<li><p>Annotations: shows the page number associated with annotations that have been
+added to the document.</p></li>
+</ul>
+
+<p>There are several options for changing the view. They are also shown in the
+image below, but are described more in the appropriate menu section of this
+page.</p>
 
 <p><a href="./gfx/view-and-sidebar.gif"><img src="./gfx/view-and-sidebar.gif" width="950" height="872" class="sshot" /></a></p>
 
+<h2 id="documentproperties">Document properties</h2>
+
+<p>The document properties shows metadata about the document such as page size and
+also has a tab that can used to see fonts that may be embedded in the document.</p>
+
 <p><a href="./gfx/properties.gif"><img src="./gfx/properties.gif" width="950" height="872" class="sshot" /></a></p>
+
+<h2 id="fullscreen">Fullscreen</h2>
+
+<p>Evince can be made full screen. In this mode, most of the interface is hidden.
+The grey background and the scrollbar are still visible. The toolbar is hidden
+until the mouse is hovered near the top of the screen.</p>
+
+<p><a href="./gfx/fullscreen.gif"><img src="./gfx/fullscreen.gif" width="1918" height="1004" class="sshot" /></a></p>
 
 <h1 id="menuandkeybindings">Menu and Keybindings</h1>
 
@@ -248,186 +322,279 @@ details features that have been proposed and completed.</p>
     <td>View._Continuous (<tt>win.continuous</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View._Dual (<tt>win.dual-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Side _Pane (<tt>win.show-side-pane</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View._Fullscreen (<tt>win.fullscreen</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Pre_sentation (<tt>win.presentation</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Rotate _Left (<tt>win.rotate-left</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Rotate _Right (<tt>win.rotate-right</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.First Page (<tt>win.go-first-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Previous Page (<tt>win.go-previous-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Next Page (<tt>win.go-next-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Last Page (<tt>win.go-last-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Zoom _In (<tt>win.zoom-in</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View.Zoom _Out (<tt>win.zoom-out</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View._Odd Pages Left (<tt>win.dual-odd-left</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View._Inverted Colors (<tt>win.inverted-colors</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View._Reload (<tt>win.reload</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Open… (<tt>win.open</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.Op_en a Copy (<tt>win.open-copy</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Save a Copy… (<tt>win.save-copy</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.Send _To… (<tt>win.send-to</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.Open Containing _Folder (<tt>win.open-containing-folder</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Print… (<tt>win.print</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.P_roperties… (<tt>win.show-properties</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Copy (<tt>win.copy</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.Select _All (<tt>win.select-all</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action.Save Current Settings as _Default (<tt>win.save-settings</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Add Bookmark (<tt>win.add-bookmark</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Action._Close (<tt>win.close</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Zoom.Fit Pa_ge (<tt>win.sizing-mode, fit-page</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Zoom.Fit _Width (<tt>win.sizing-mode, fit-width</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Zoom._Automatic (<tt>win.sizing-mode, automatic</tt>)</td>
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 </table>
@@ -444,102 +611,153 @@ details features that have been proposed and completed.</p>
     <td>View Popup._Open Link (<tt>win.open-link</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Copy Link Address (<tt>win.copy-link-address</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Go To (<tt>win.go-to-link</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Open in New _Window (<tt>win.open-link-new-window</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Previous Page (<tt>win.go-previous-page</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Next Page (<tt>win.go-next-page</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Reload (<tt>win.reload</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Auto_scroll (<tt>win.auto-scroll</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Copy (<tt>win.copy</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Select _All (<tt>win.select-all</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Save Image As… (<tt>win.save-image</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Copy _Image (<tt>win.copy-image</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Open Attachment (<tt>win.open-attachment</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup._Save Attachment As… (<tt>win.save-attachment</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Annotation Properties… (<tt>win.annot-properties</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Remove Annotation (<tt>win.remove-annot</tt>)</td>  
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>View Popup.Open Containing _Folder (<tt>win.open-containing-folder</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 </table>
@@ -556,12 +774,18 @@ details features that have been proposed and completed.</p>
     <td>Attachments Popup._Open Attachment (<tt>win.open-attachment</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 <tr>
     <td>Attachments Popup._Save Attachment As… (<tt>win.save-attachment</tt>)</td> 
     <td></td>
     <td>
+        <p>
+        TODO
+        </p>
     </td>
 </tr>
 </table>
@@ -602,8 +826,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Sat 07 May 2016 04:20:16 AM UTC</span>
-<!-- Created <span class="date">Tue 03 May 2016 05:25:18 PM UTC</span> -->
+Last edited <span class="date">Sat 28 May 2016 05:29:23 AM UTC</span>
+<!-- Created <span class="date">Tue 03 May 2016 06:04:53 PM UTC</span> -->
 </div>
 
 </div>

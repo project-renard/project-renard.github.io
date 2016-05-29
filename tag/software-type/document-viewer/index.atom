@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20120202ubuntu1">ikiwiki</generator>
-<updated>2016-05-09T02:33:48Z</updated>
+<updated>2016-05-28T05:29:23Z</updated>
 <entry>
 	<title>Okular</title>
 
@@ -98,8 +98,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-07T04:20:16Z</updated>
-	<published>2016-05-03T17:25:18Z</published>
+	<updated>2016-05-28T05:29:23Z</updated>
+	<published>2016-05-03T18:04:53Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -181,21 +181,95 @@ details features that have been proposed and completed.&lt;/p&gt;
 
 &lt;h1 id=&quot;behaviour&quot;&gt;Behaviour&lt;/h1&gt;
 
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Searching a document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&quot;pagenavigation&quot;&gt;Page navigation&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Evince provides a text field in the toolbar where the user can type a page
+number to jump to.  This page number text field is combined with a drop-down
+menu which searches the document&#39;s table of contents so that the user can also
+type a section number (for example, &quot;3.10&quot;).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot; width=&quot;1918&quot; height=&quot;1004&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot; width=&quot;904&quot; height=&quot;827&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Evince keeps track of the page history as the user jumps to different pages in
+the document. This way they can use the arrows in the toolbar to move between
+different pages in the book (&quot;previous page&quot; and &quot;next page&quot;). Note however,
+that this history is a stack, so jumping back then navigating elsewhere removes
+what used to be stored as the &quot;next page&quot;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;searching&quot;&gt;Searching&lt;/h2&gt;
+
+&lt;p&gt;The following animation shows how Evince searches a document. Note that the
+searching is done incrementally rather than all at once. This way, the results
+are returned quickly and the remain interactive. The search results are shown
+in a sidebar where the matching context and page number is shown.&lt;/p&gt;
+
+&lt;p&gt;Clicking on one of the results takes you to that page. Also note that the
+matching text is highlighted on top of the page rendered page.&lt;/p&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Searching a document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;annotations&quot;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations in Evince are of two types:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;text annotation&lt;/li&gt;
+&lt;li&gt;highlight annotation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both kinds of annotations can have text associated with them.  Clicking on the
+target for the annotation bring up an overlay window where the user can
+type a short note. Evince gives control over the colour and font settings for
+each annotation by using a colour picker and font selection widgets.&lt;/p&gt;
+
+&lt;p&gt;Text annotations are icons that are added to the document. The user can choose
+from a selection of icons to display in order to have different kinds of
+annotations. These icons can be repositioned to different places on the page.&lt;/p&gt;
+
+&lt;p&gt;Highlight annotations mark the text on the page by adding a marker
+on top of the text which begins at one character position and ends at another
+character position. The user can choose from different kinds of highlights such
+as &quot;highlight&quot; (which is transparent colour marker over the text like a
+highlighter) and underline (which is a line marker which runs at the baseline
+of the text).&lt;/p&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Creating an annotation&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;sidebarandviews&quot;&gt;Sidebar and views&lt;/h2&gt;
+
+&lt;p&gt;The sidebar allows for seeing&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Thumbails: small images of the pages in the document&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Outline: table of contents tree menu that is stored in the document itself.
+Clicking on items in the outline jump to the associated location in the document.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bookmarks: user-created locations that point to specific pages in the
+document. They are stored separate from the document. These can be added,
+removed, and renamed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Annotations: shows the page number associated with annotations that have been
+added to the document.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are several options for changing the view. They are also shown in the
+image below, but are described more in the appropriate menu section of this
+page.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;documentproperties&quot;&gt;Document properties&lt;/h2&gt;
+
+&lt;p&gt;The document properties shows metadata about the document such as page size and
+also has a tab that can used to see fonts that may be embedded in the document.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/properties.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/properties.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fullscreen&quot;&gt;Fullscreen&lt;/h2&gt;
+
+&lt;p&gt;Evince can be made full screen. In this mode, most of the interface is hidden.
+The grey background and the scrollbar are still visible. The toolbar is hidden
+until the mouse is hovered near the top of the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot; width=&quot;1918&quot; height=&quot;1004&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;menuandkeybindings&quot;&gt;Menu and Keybindings&lt;/h1&gt;
 
@@ -261,186 +335,279 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;View._Continuous (&lt;tt&gt;win.continuous&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View._Dual (&lt;tt&gt;win.dual-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Side _Pane (&lt;tt&gt;win.show-side-pane&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View._Fullscreen (&lt;tt&gt;win.fullscreen&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Pre_sentation (&lt;tt&gt;win.presentation&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Rotate _Left (&lt;tt&gt;win.rotate-left&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Rotate _Right (&lt;tt&gt;win.rotate-right&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.First Page (&lt;tt&gt;win.go-first-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Previous Page (&lt;tt&gt;win.go-previous-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Next Page (&lt;tt&gt;win.go-next-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Last Page (&lt;tt&gt;win.go-last-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Zoom _In (&lt;tt&gt;win.zoom-in&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View.Zoom _Out (&lt;tt&gt;win.zoom-out&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View._Odd Pages Left (&lt;tt&gt;win.dual-odd-left&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View._Inverted Colors (&lt;tt&gt;win.inverted-colors&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View._Reload (&lt;tt&gt;win.reload&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Open… (&lt;tt&gt;win.open&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.Op_en a Copy (&lt;tt&gt;win.open-copy&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Save a Copy… (&lt;tt&gt;win.save-copy&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.Send _To… (&lt;tt&gt;win.send-to&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.Open Containing _Folder (&lt;tt&gt;win.open-containing-folder&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Print… (&lt;tt&gt;win.print&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.P_roperties… (&lt;tt&gt;win.show-properties&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Copy (&lt;tt&gt;win.copy&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.Select _All (&lt;tt&gt;win.select-all&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action.Save Current Settings as _Default (&lt;tt&gt;win.save-settings&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Add Bookmark (&lt;tt&gt;win.add-bookmark&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Action._Close (&lt;tt&gt;win.close&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Zoom.Fit Pa_ge (&lt;tt&gt;win.sizing-mode, fit-page&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Zoom.Fit _Width (&lt;tt&gt;win.sizing-mode, fit-width&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Zoom._Automatic (&lt;tt&gt;win.sizing-mode, automatic&lt;/tt&gt;)&lt;/td&gt;
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -457,102 +624,153 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;View Popup._Open Link (&lt;tt&gt;win.open-link&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Copy Link Address (&lt;tt&gt;win.copy-link-address&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Go To (&lt;tt&gt;win.go-to-link&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Open in New _Window (&lt;tt&gt;win.open-link-new-window&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Previous Page (&lt;tt&gt;win.go-previous-page&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Next Page (&lt;tt&gt;win.go-next-page&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Reload (&lt;tt&gt;win.reload&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Auto_scroll (&lt;tt&gt;win.auto-scroll&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Copy (&lt;tt&gt;win.copy&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Select _All (&lt;tt&gt;win.select-all&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Save Image As… (&lt;tt&gt;win.save-image&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Copy _Image (&lt;tt&gt;win.copy-image&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Open Attachment (&lt;tt&gt;win.open-attachment&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup._Save Attachment As… (&lt;tt&gt;win.save-attachment&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Annotation Properties… (&lt;tt&gt;win.annot-properties&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Remove Annotation (&lt;tt&gt;win.remove-annot&lt;/tt&gt;)&lt;/td&gt;  
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;View Popup.Open Containing _Folder (&lt;tt&gt;win.open-containing-folder&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -569,12 +787,18 @@ details features that have been proposed and completed.&lt;/p&gt;
     &lt;td&gt;Attachments Popup._Open Attachment (&lt;tt&gt;win.open-attachment&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
     &lt;td&gt;Attachments Popup._Save Attachment As… (&lt;tt&gt;win.save-attachment&lt;/tt&gt;)&lt;/td&gt; 
     &lt;td&gt;&lt;/td&gt;
     &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -599,8 +823,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-03T17:25:18Z</updated>
-	<published>2016-05-03T17:25:18Z</published>
+	<updated>2016-05-03T18:04:53Z</updated>
+	<published>2016-05-03T18:04:53Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -674,8 +898,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/library" />
 
 
-	<updated>2016-05-03T17:25:18Z</updated>
-	<published>2016-05-03T17:25:18Z</published>
+	<updated>2016-05-03T18:04:53Z</updated>
+	<published>2016-05-03T18:04:53Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -730,8 +954,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-03T17:25:18Z</updated>
-	<published>2016-05-03T17:25:18Z</published>
+	<updated>2016-05-03T18:04:53Z</updated>
+	<published>2016-05-03T18:04:53Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
@@ -780,8 +1004,8 @@ details features that have been proposed and completed.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-03T17:25:18Z</updated>
-	<published>2016-05-03T17:25:18Z</published>
+	<updated>2016-05-03T18:04:53Z</updated>
+	<published>2016-05-03T18:04:53Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
