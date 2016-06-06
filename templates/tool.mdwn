@@ -16,6 +16,13 @@
     </td>
 </tr>
 </TMPL_IF>
+<TMPL_IF NAME="SurveySourceCode">
+<tr>
+    <td>
+[[Mirrored source code|<TMPL_VAR NAME="SurveySourceCode">]]
+    </td>
+</tr>
+</TMPL_IF>
 
 <TMPL_LOOP NAME="FileFormat_LOOP">
     <TMPL_IF __first__>
