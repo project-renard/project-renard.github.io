@@ -12,7 +12,12 @@
 <link rel="stylesheet" href="../local.css" type="text/css" />
 
 
+
+
 <link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/shortcuts.mdwn" />
+
+
+
 
 
 
@@ -35,6 +40,8 @@ shortcuts
 
 </span>
 </span>
+
+
 
 </div>
 
@@ -62,7 +69,13 @@ shortcuts
 
 
 
+
+
+
+
+
 </div>
+
 
 
 <div class="sidebar">
@@ -80,6 +93,7 @@ shortcuts
 </div>
 
 
+
 <div id="pagebody">
 
 <div id="content">
@@ -90,7 +104,7 @@ shortcuts
 <pre><code>[[!google  foo]]
 [[!wikipedia  War_of_1812]]
 [[!debbug  12345]]
-Check the [[!cia  ikiwiki desc="CIA page for %s"]].
+Check the [[!google  ikiwiki desc="google search for %s"]].
 </code></pre>
 
 <p>This page controls what shortcut links the wiki supports.</p>
@@ -100,7 +114,7 @@ Check the [[!cia  ikiwiki desc="CIA page for %s"]].
 <li>shortcut archive points to <i>http://web.archive.org/*/%S</i></li>
 <li>shortcut gmap points to <i>https://maps.google.com/maps?q=%s</i></li>
 <li>shortcut gmsg points to <i>https://groups.google.com/groups?selm=%s</i></li>
-<li>shortcut wikipedia points to <i>https://en.wikipedia.org/wiki/%s</i></li>
+<li>shortcut wikipedia points to <i>https://en.wikipedia.org/wiki/%W</i></li>
 <li>shortcut wikitravel points to <i>https://wikitravel.org/en/%s</i></li>
 <li>shortcut wiktionary points to <i>https://en.wiktionary.org/wiki/%s</i></li>
 <li>shortcut debbug points to <i>http://bugs.debian.org/%S</i></li>
@@ -141,8 +155,6 @@ Check the [[!cia  ikiwiki desc="CIA page for %s"]].
 <li>shortcut perldoc points to <i>http://perldoc.perl.org/search.html?q=%s</i></li>
 <li>shortcut whois points to <i>http://reports.internic.net/cgi/whois?whois_nic=%s&amp;type=domain</i></li>
 <li>shortcut cve points to <i>https://cve.mitre.org/cgi-bin/cvename.cgi?name=%s</i></li>
-<li>shortcut cia points to <i>http://cia.vc/stats/project/%s</i></li>
-<li>shortcut ciauser points to <i>http://cia.vc/stats/user/%s</i></li>
 <li>shortcut flickr points to <i>https://secure.flickr.com/photos/%s</i></li>
 <li>shortcut man points to <i>http://linux.die.net/man/%s</i></li>
 <li>shortcut ohloh points to <i>https://www.ohloh.net/p/%s</i></li>
@@ -157,8 +169,10 @@ Check the [[!cia  ikiwiki desc="CIA page for %s"]].
 <p>To add a new shortcut, use the <code>shortcut</code>
 <a href="../ikiwiki/directive/">directive</a>. In the url, "%s" is replaced with the
 text passed to the named shortcut, after <a href="https://en.wikipedia.org/wiki/url%5Fencoding">url encoding</a>
-it, and '%S' is replaced with the raw, non-encoded text. The optional
-<code>desc</code> parameter controls the description of the link.</p>
+it, and '%S' is replaced with the raw, non-encoded text. 
+Additionally, <code>%W</code> is replaced with the text encoded just right for
+Wikipedia. The optional <code>desc</code> parameter controls the description of
+the link.</p>
 
 <p>Remember that the <code>name</code> you give the shortcut will become a new
 <a href="../ikiwiki/directive/">directive</a>.  Avoid using a <code>name</code> that conflicts
@@ -176,11 +190,16 @@ ikiwiki will include your shortcut in the standard underlay.</p>
 
 
 
+
+
 </div>
 
 <div id="footer" class="pagefooter">
 
 <div id="pageinfo">
+
+
+
 
 
 
@@ -199,8 +218,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 14 Feb 2012 04:21:43 PM UTC</span>
-<!-- Created <span class="date">Tue 14 Feb 2012 04:21:43 PM UTC</span> -->
+Last edited <span class="date">Wed 04 Sep 2013 10:10:46 PM UTC</span>
+<!-- Created <span class="date">Wed 04 Sep 2013 10:10:46 PM UTC</span> -->
 </div>
 
 </div>

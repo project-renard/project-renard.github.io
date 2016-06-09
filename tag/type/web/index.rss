@@ -5,22 +5,25 @@
 <channel>
 <title>pages tagged type/web</title>
 <link>http://project-renard.github.io//tag/type/web/</link>
+
 <description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 09 Jun 2016 06:23:43 +0000</pubDate>
 <item>
-
 	<title>newpage</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/newpage/</guid>
 
 	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/newpage/</link>
 
 
+
 	<category>type/web</category>
 
 
-	<pubDate>Tue, 07 Jun 2016 00:51:02 +0000</pubDate>
-	<dcterms:modified>2016-06-07T00:51:02Z</dcterms:modified>
+	<pubDate>Thu, 09 Jun 2016 06:23:43 +0000</pubDate>
+	<dcterms:modified>2016-06-09T06:23:43Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
 

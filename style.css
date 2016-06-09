@@ -58,7 +58,8 @@ nav {
 	border-bottom: 1px solid #000;
 }
 
-.inlinecontent {
+.inlinecontent,
+.inlineenclosure {
 	margin-top: .4em;
 }
 
@@ -202,6 +203,13 @@ div.recentchanges {
 	margin-top: 1em;
 }
 
+.archivepagedate {
+	font-style: italic;
+}
+.archivepage {
+	margin-bottom: 1em;
+}
+
 .error {
 	color: #C00;
 }
@@ -275,6 +283,7 @@ div.progress-done {
 @media print {
 	.actions { display: none; }
 	.tags { display: none; }
+	.trails { display: none; }
 	.feedbutton { display: none; }
 	#searchform { display: none; }
 	.blogform, #blogform { display: none; }
@@ -315,6 +324,7 @@ div.progress-done {
 .popup .paren,
 .popup .expand {
 	display: none;
+	text-align: left;
 }
 .popup:hover .balloon,
 .popup:focus .balloon {
@@ -501,6 +511,45 @@ a.openid_large_btn:focus {
 .fileupload-content .ui-progressbar-value {
 	background: url(ikiwiki/images/pbar-ani.gif);
 }
+
+.trails {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.trail {
+	display: block;
+	clear: both;
+	position: relative;
+}
+
+.trailprev {
+	display: block;
+	text-align: left;
+	position: absolute;
+	top: 0%;
+	left: 3%;
+	width: 30%;
+}
+
+.trailup {
+	display: block;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.trailnext {
+	display: block;
+	text-align: right;
+	position: absolute;
+	top: 0%;
+	width: 30%;
+	right: 3%;
+}
+
+.trailsep {
+	display: none;
+}
 /*    bzed theme for ikiwiki
  *
  *    Copyright (C) 2010 Bernd Zeimetz
@@ -646,7 +695,7 @@ p,fieldset,table,pre {
  * Copyright (C) 2010 Bernd Zeimetz
  * Licensed under same license as ikiwiki: GPL v2 or later */
 
-.page, .pageheader, .sidebar, #content, #comments, .inlinepage, .recentchanges, .pageheader .actions ul, #pagebody {
+.page, .pageheader, .sidebar, #content, #enclosure, #comments, .inlinepage, .recentchanges, .pageheader .actions ul, #pagebody {
 	border: none;
 }
 
@@ -700,14 +749,15 @@ body {
 	font-weight: bold;
 }
 
-.pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span, .pageheader #otherlanguages ul li {
+.pageheader .header .title, .pageheader .header .parentlinks, .pageheader .actions ul li, .pageheader .header span, .pageheader #otherlanguages ul li, .pageheader .trailprev, .pageheader .trailnext, .pageheader .trailup {
 	padding: 0.25em 0.25em 0.25em 0.25em;
 	background-image: url('background_darkness.png');
 	background-repeat: repeat;
 	color: white;
 }
 
-.pageheader .header span a, .pageheader .actions ul li a, .pageheader .header .parentlinks a, .pageheader #otherlanguages ul li a {
+.pageheader .header span a, .pageheader .actions ul li a, .pageheader .header .parentlinks a, .pageheader #otherlanguages ul li a, .pageheader a, .pageheader .trail a {
+	font-weight: bold;
 	color: white;
 	text-decoration: none;
 }
@@ -725,7 +775,7 @@ body {
 	clear: none;
 }
 
-#content a, #comments a, .sidebar a {
+#content a, #enclosure a, #comments a, .sidebar a {
 	color: #315485;
 	text-decoration: none;
 	font-weight: bold;
@@ -773,7 +823,7 @@ body {
 	.pageheader .header span a, .pageheader .actions ul li a, .pageheader .header .parentlinks a {
 		color #315485;
 	}
-	#content, #comments, #pagebody {
+	#content, #enclosure, #comments, #pagebody {
 		margin-right: 0;
 		*margin-right: 0;
 		border-right: none;
@@ -797,10 +847,12 @@ html, body {
 	background-color: #f2d98d;
 }
 
-#content a:hover, #comments a:hover, .sidebar a:hover,
-#content a:visited:hover, #comments a:visited:hover, .sidebar a:visited:hover {
+#content a:hover, #enclosure a:hover, #comments a:hover, .sidebar a:hover,
+#content a:visited:hover, #enclosure a:visited:hover, #comments a:visited:hover,
+.sidebar a:visited:hover {
     color: red;
 }
-#content a:visited, #comments a:visited, .sidebar a:visited {
+#content a:visited, #enclosure a:visited, #comments a:visited,
+.sidebar a:visited {
     color: #37485e;
 }

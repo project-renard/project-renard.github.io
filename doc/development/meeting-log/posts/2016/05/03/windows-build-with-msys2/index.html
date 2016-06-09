@@ -12,11 +12,24 @@
 <link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
 
 
+
+
 <link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2.mdwn" />
 
 
 
 <meta name="author" content="zaki" />
+
+
+<link rel="prev" href="../../../03/19/improving-gui-navigation-and-tests/" title="improving the GUI navigation and tests" />
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../../04/02/week-of-2016-04-02/" title="week of 2016-04-02" />
+
+
+
+
 </head>
 <body>
 
@@ -50,6 +63,8 @@ Windows build with MSYS2: locally and on Appveyor
 </span>
 </span>
 
+
+
 </div>
 
 
@@ -76,7 +91,35 @@ Windows build with MSYS2: locally and on Appveyor
 
 
 
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../03/19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../../04/02/week-of-2016-04-02/">week of 2016-04-02</a>
+<span class="trailarrow">→</span>
+</span>
+
 </div>
+</div>
+
+
+
+
+</div>
+
 
 
 <div class="sidebar">
@@ -92,6 +135,7 @@ Windows build with MSYS2: locally and on Appveyor
 </ul>
 
 </div>
+
 
 
 <div id="pagebody">
@@ -138,12 +182,12 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
 
    <span class="hl slc"># Install compiler and build configuration tools</span>
    pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool
 
-</pre>
+</pre></div>
    </p>
 </li>
 
@@ -153,14 +197,14 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gobject<span class="hl opt">-</span>introspection \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>cairo \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gtk3 \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>expat \
        mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>openssl
 
-</pre>
+</pre></div>
    </p>
 </li>
 
@@ -170,10 +214,10 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl
    <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
 
-</pre>
+</pre></div>
    </p>
 
    <p>
@@ -263,9 +307,9 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
+   <div class="highlight-sh"><pre class="hl">   pl2bat $<span class="hl opt">(</span><span class="hl kwc">which</span> pl2bat<span class="hl opt">)</span>
 
-</pre>
+</pre></div>
    </p>
 
    <p>
@@ -273,9 +317,9 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
+   <div class="highlight-sh"><pre class="hl">   <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
 
-</pre>
+</pre></div>
    </p>
 </li>
 
@@ -286,9 +330,9 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
+   <div class="highlight-sh"><pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
 
-</pre>
+</pre></div>
    </p>
 
    <p>
@@ -683,7 +727,7 @@ can only run commands every 20 minutes!</p>
   </p>
 
 <p>
-  <pre class="hl">  &#64;<span class="hl kwb">echo</span> off
+  <div class="highlight-bat"><pre class="hl">  &#64;<span class="hl kwb">echo</span> off
 
   <span class="hl kwb">cd</span> <span class="hl kwc">%APPVEYOR_BUILD_FOLDER%</span>
 
@@ -725,7 +769,7 @@ can only run commands every 20 minutes!</p>
 <span class="hl str">    bash -lc &quot;</span><span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER<span class="hl opt">;</span> . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh<span class="hl opt">;</span> export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'<span class="hl opt">;</span> cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .<span class="hl str">&quot;</span>
 <span class="hl str">  )</span>
 <span class="hl str"></span>  
-</pre>
+</pre></div>
   </p>
 
 <p>
@@ -742,12 +786,12 @@ can only run commands every 20 minutes!</p>
   </p>
 
 <p>
-  <pre class="hl">  <span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER
+  <div class="highlight-bat"><pre class="hl">  <span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh
   export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'
   cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .
 
-</pre>
+</pre></div>
   </p>
 
 <p>
@@ -772,11 +816,11 @@ can only run commands every 20 minutes!</p>
    </p>
 
 <p>
-   <pre class="hl">   BUILD_DIR<span class="hl opt">=</span><span class="hl str">`(cd $APPVEYOR_BUILD_FOLDER &amp;&amp; pwd)`</span>
+   <div class="highlight-sh"><pre class="hl">   BUILD_DIR<span class="hl opt">=</span><span class="hl str">`(cd $APPVEYOR_BUILD_FOLDER &amp;&amp; pwd)`</span>
    <span class="hl kwb">export</span> PERL5OPT<span class="hl opt">=</span><span class="hl str">&quot;-I$BUILD_DIR/dev/ci/appveyor -MEUMMnosearch&quot;</span>
    <span class="hl kwb">echo</span> PERL5OPT<span class="hl opt">=</span><span class="hl kwd">$PERL5OPT</span><span class="hl opt">;</span>
 
-</pre>
+</pre></div>
    </p>
 
 <p>
@@ -785,15 +829,15 @@ can only run commands every 20 minutes!</p>
    </p>
 
 <p>
-   <pre class="hl">   <span class="hl kwa">package</span> <span class="hl kwd">EUMMnosearch</span><span class="hl opt">;</span>
+   <div class="highlight-perl"><pre class="hl">   <span class="hl kwa">package</span> EUMMnosearch<span class="hl opt">;</span>
 
-   <span class="hl kwa">package</span> <span class="hl kwd">main</span><span class="hl opt">;</span>
+   <span class="hl kwa">package</span> main<span class="hl opt">;</span>
    <span class="hl slc"># only run when we call the Makefile.PL script</span>
-   <span class="hl kwa">if</span><span class="hl opt">(</span> <span class="hl kwb">$0</span> <span class="hl kwa">eq</span> <span class="hl str">&quot;Makefile.PL&quot;</span>  <span class="hl opt">) {</span>
-       require ExtUtils<span class="hl opt">::</span><span class="hl kwd">MakeMaker</span><span class="hl opt">;</span>
+   <span class="hl kwa">if</span><span class="hl opt">(</span> <span class="hl kwb">$0</span> <span class="hl kwc">eq</span> <span class="hl str">&quot;Makefile.PL&quot;</span>  <span class="hl opt">) {</span>
+       <span class="hl kwa">require</span> ExtUtils<span class="hl opt">::</span>MakeMaker<span class="hl opt">;</span>
 
        <span class="hl kwc">my</span> <span class="hl kwb">$i</span> <span class="hl opt">=</span> ExtUtils<span class="hl opt">::</span>MakeMaker<span class="hl opt">-&gt;</span><span class="hl kwd">can</span><span class="hl opt">(</span><span class="hl str">&quot;import&quot;</span><span class="hl opt">);</span>
-       no warnings <span class="hl str">&quot;redefine&quot;</span><span class="hl opt">;</span>
+       <span class="hl kwa">no</span> warnings <span class="hl str">&quot;redefine&quot;</span><span class="hl opt">;</span>
        <span class="hl opt">*</span>ExtUtils<span class="hl opt">::</span>MakeMaker<span class="hl opt">::</span>import <span class="hl opt">=</span> <span class="hl kwa">sub</span> <span class="hl opt">{</span>
            <span class="hl opt">&amp;</span><span class="hl kwb">$i</span><span class="hl opt">;</span>
            <span class="hl kwc">my</span> <span class="hl kwb">$targ</span> <span class="hl opt">=</span> <span class="hl str">&quot;main&quot;</span><span class="hl opt">;</span>
@@ -804,7 +848,7 @@ can only run commands every 20 minutes!</p>
                <span class="hl slc"># for entire mingw64 system. This way XS modules</span>
                <span class="hl slc"># that depend on other XS modules can compile</span>
                <span class="hl slc"># statically using .a files.</span>
-               <span class="hl kwb">$args</span><span class="hl opt">{</span>LIBS<span class="hl opt">} =~</span> s<span class="hl opt">,^(.*</span>?<span class="hl opt">)(</span>\Q<span class="hl opt">-</span>LC<span class="hl opt">:</span><span class="hl kwc">/msys64/</span>mingw64<span class="hl opt">/</span>lib\E\s<span class="hl opt">),</span><span class="hl kwb">$1</span> <span class="hl opt">:</span>nosearch <span class="hl kwb">$2</span><span class="hl opt">,;</span>
+               <span class="hl kwb">$args</span><span class="hl opt">{</span>LIBS<span class="hl opt">} =~</span> s<span class="hl opt">,^(.*</span>?<span class="hl opt">)(</span>\Q<span class="hl opt">-</span>LC<span class="hl opt">:</span><span class="hl kwd">/msys64/mi</span>ngw<span class="hl num">64</span><span class="hl opt">/</span>lib\E\s<span class="hl opt">),</span><span class="hl kwb">$1</span> <span class="hl opt">:</span>nosearch <span class="hl kwb">$2</span><span class="hl opt">,;</span>
 
                <span class="hl slc"># Special case for expat (XML::Parser::Expat) because</span>
                <span class="hl slc"># it does not use either of</span>
@@ -817,15 +861,15 @@ can only run commands every 20 minutes!</p>
            <span class="hl opt">};</span>
        <span class="hl opt">};</span>
 
-       <span class="hl kwa">do</span> <span class="hl str">&quot;Makefile.PL&quot;</span> <span class="hl kwa">or</span> die <span class="hl str">&quot;Hack failed: $&#64;&quot;</span><span class="hl opt">;</span>
+       <span class="hl kwa">do</span> <span class="hl str">&quot;Makefile.PL&quot;</span> <span class="hl kwc">or die</span> <span class="hl str">&quot;Hack failed: $&#64;&quot;</span><span class="hl opt">;</span>
 
        <span class="hl slc"># we can exit now that we are done</span>
-       exit <span class="hl num">0</span><span class="hl opt">;</span>
+       <span class="hl kwa">exit</span> <span class="hl num">0</span><span class="hl opt">;</span>
    <span class="hl opt">}</span>
 
    <span class="hl num">1</span><span class="hl opt">;</span>
 
-</pre>
+</pre></div>
    </p>
 
 <p>
@@ -904,9 +948,9 @@ can only run commands every 20 minutes!</p>
    </p>
 
 <p>
-   <pre class="hl">   <span class="hl kwb">export</span> OPENSSL_PREFIX<span class="hl opt">=</span><span class="hl str">&quot;/c/msys64/mingw64&quot;</span>
+   <div class="highlight-sh"><pre class="hl">   <span class="hl kwb">export</span> OPENSSL_PREFIX<span class="hl opt">=</span><span class="hl str">&quot;/c/msys64/mingw64&quot;</span>
 
-</pre>
+</pre></div>
    </p>
 
 <p>
@@ -1015,9 +1059,9 @@ can only run commands every 20 minutes!</p>
    </p>
 
 <p>
-   <pre class="hl">   <span class="hl kwc">cp</span> <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc
+   <div class="highlight-sh"><pre class="hl">   <span class="hl kwc">cp</span> <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc
 
-</pre>
+</pre></div>
    </p>
 
 <p>
@@ -1057,11 +1101,38 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 
 
+
+
 </div>
 
 <div id="footer" class="pagefooter">
 
 <div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../03/19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../../04/02/week-of-2016-04-02/">week of 2016-04-02</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
 
 
 
@@ -1073,7 +1144,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 
 <div class="pagedate">
 Last edited <span class="date">Fri 06 May 2016 05:21:33 PM UTC</span>
-<!-- Created <span class="date">Wed 04 May 2016 07:01:03 PM UTC</span> -->
+<!-- Created <span class="date">Wed 04 May 2016 07:09:11 PM UTC</span> -->
 </div>
 
 </div>

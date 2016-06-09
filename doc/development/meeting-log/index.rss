@@ -5,18 +5,21 @@
 <channel>
 <title>doc/development/meeting-log</title>
 <link>http://project-renard.github.io//doc/development/meeting-log/</link>
+
 <description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 31 May 2016 02:51:26 +0000</pubDate>
 <item>
-
 	<title>Interface design meeting</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/</link>
 
+
 	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
 	<dcterms:modified>2016-05-31T02:51:26Z</dcterms:modified>
+
 
 	<description>&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
 
@@ -64,54 +67,16 @@
 
 </item>
 <item>
-
-	<title>week of 2016-04-02</title>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
-
-	<pubDate>Wed, 04 May 2016 19:01:03 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
-
-	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
-&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot; alt=&quot;project-renard/devops/issues/4&quot; id=&quot;project-renarddevopsissues4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Refactor tests
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
-&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot; alt=&quot;project-renard/curie/issues/64&quot; id=&quot;project-renardcurieissues64&quot; /&gt;&lt;/a&gt;
-)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Embed AbiWord
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot; alt=&quot;project-renard/curie/issues/57&quot; id=&quot;project-renardcurieissues57&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Embed Evince
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot; alt=&quot;project-renard/curie/issues/56&quot; id=&quot;project-renardcurieissues56&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>testing and planning features</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
 
-	<pubDate>Wed, 04 May 2016 19:01:03 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+
+	<pubDate>Wed, 04 May 2016 19:09:11 +0000</pubDate>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
 continuous integration.&lt;/p&gt;
@@ -148,17 +113,95 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 </item>
 <item>
+	<title>improving the GUI navigation and tests</title>
 
-	<title>zaki: Windows build with MSYS2: locally and on Appveyor</title>
-	<dcterms:creator>zaki</dcterms:creator>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</guid>
 
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
+
+
+	<pubDate>Wed, 04 May 2016 19:09:11 +0000</pubDate>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
+
+	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
+
+&lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a table of Evince and Okular menus on the wiki&lt;/li&gt;
+&lt;li&gt;Write GUI tests using mock document and xvfb &lt;a href=&quot;https://github.com/project-renard/curie/issues/35&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/35.svg&quot; alt=&quot;project-renard/curie/issues/35&quot; id=&quot;project-renardcurieissues35&quot; /&gt;&lt;/a&gt;
+(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/41&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/41.svg&quot; alt=&quot;project-renard/curie/pull/41&quot; id=&quot;project-renardcuriepull41&quot; /&gt;&lt;/a&gt;
+)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stan&quot;&gt;Stan&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Show number of pages &lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;
+(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/43&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/43.svg&quot; alt=&quot;project-renard/curie/pull/43&quot; id=&quot;project-renardcuriepull43&quot; /&gt;&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;GUI showing the label with the number of pages in a PDF document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/number-of-pages-label.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-number-of-pages-label.png&quot; width=&quot;250&quot; height=&quot;196&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;and the corresponding unit tests (issue: [[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;git&lt;/span&gt; &lt;/span&gt;]], PR: [[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;git&lt;/span&gt; &lt;/span&gt;]])&lt;/p&gt;
+
+&lt;h3 id=&quot;chirag&quot;&gt;Chirag&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;
+(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/37&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/37.svg&quot; alt=&quot;project-renard/curie/pull/37&quot; id=&quot;project-renardcuriepull37&quot; /&gt;&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on first page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on last page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Refactor Chirag&#39;s pull request (issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/38&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/38.svg&quot; alt=&quot;project-renard/curie/issues/38&quot; id=&quot;project-renardcurieissues38&quot; /&gt;&lt;/a&gt;
+and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/39&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/39.svg&quot; alt=&quot;project-renard/curie/pull/39&quot; id=&quot;project-renardcuriepull39&quot; /&gt;&lt;/a&gt;
+).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check for errors using Perl::Critic and Test::Spelling. This can be used to check for irregular whitespace and spelling errors among other things
+(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/46&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/46.svg&quot; alt=&quot;project-renard/curie/issues/46&quot; id=&quot;project-renardcurieissues46&quot; /&gt;&lt;/a&gt;
+and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/47&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/47.svg&quot; alt=&quot;project-renard/curie/pull/47&quot; id=&quot;project-renardcuriepull47&quot; /&gt;&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows whitespace and code stricture failures&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-1.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-1.png&quot; width=&quot;250&quot; height=&quot;34&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Fix the stricture failures, but whitespace failures remain&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-2.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-2.png&quot; width=&quot;250&quot; height=&quot;27&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows documentation spelling failure&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-3.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-3.png&quot; width=&quot;250&quot; height=&quot;64&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-success-4.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-success-4.png&quot; width=&quot;250&quot; height=&quot;40&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a compatibility layer for GtkScrolledWindow when using a Gtk+ version less v3.8
+(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/42&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/42.svg&quot; alt=&quot;project-renard/curie/issues/42&quot; id=&quot;project-renardcurieissues42&quot; /&gt;&lt;/a&gt;
+and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/48.svg&quot; alt=&quot;project-renard/curie/pull/48&quot; id=&quot;project-renardcuriepull48&quot; /&gt;&lt;/a&gt;
+)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/</link>
 
-	<pubDate>Wed, 04 May 2016 19:01:03 +0000</pubDate>
+	<dc:creator>zaki</dc:creator>
+
+
+	<pubDate>Wed, 04 May 2016 19:09:11 +0000</pubDate>
 	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
@@ -201,12 +244,12 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
 
    &lt;span class=&quot;hl slc&quot;&gt;# Install compiler and build configuration tools&lt;/span&gt;
    pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;toolchain autoconf automake libtool &lt;span class=&quot;hl kwc&quot;&gt;make patch&lt;/span&gt; mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;libtool
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 &lt;/li&gt;
 
@@ -216,14 +259,14 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gobject&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;introspection \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;cairo \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gtk3 \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;expat \
        mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;openssl
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 &lt;/li&gt;
 
@@ -233,10 +276,10 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl
    &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
@@ -326,9 +369,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;which&lt;/span&gt; pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
@@ -336,9 +379,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 &lt;/li&gt;
 
@@ -349,9 +392,9 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
@@ -746,7 +789,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
   &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;pre class=&quot;hl&quot;&gt;  &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; off
+  &lt;div class=&quot;highlight-bat&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;  &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; off
 
   &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;
 
@@ -788,7 +831,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;  )&lt;/span&gt;
 &lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;  
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
   &lt;/p&gt;
 
 &lt;p&gt;
@@ -805,12 +848,12 @@ can only run commands every 20 minutes!&lt;/p&gt;
   &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
+  &lt;div class=&quot;highlight-bat&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh
   export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;
   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
   &lt;/p&gt;
 
 &lt;p&gt;
@@ -835,11 +878,11 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   BUILD_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`(cd $APPVEYOR_BUILD_FOLDER &amp;amp;&amp;amp; pwd)`&lt;/span&gt;
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   BUILD_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`(cd $APPVEYOR_BUILD_FOLDER &amp;amp;&amp;amp; pwd)`&lt;/span&gt;
    &lt;span class=&quot;hl kwb&quot;&gt;export&lt;/span&gt; PERL5OPT&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;-I$BUILD_DIR/dev/ci/appveyor -MEUMMnosearch&amp;quot;&lt;/span&gt;
    &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; PERL5OPT&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$PERL5OPT&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
@@ -848,15 +891,15 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;EUMMnosearch&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+   &lt;div class=&quot;highlight-perl&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; EUMMnosearch&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
-   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;hl kwa&quot;&gt;package&lt;/span&gt; main&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
    &lt;span class=&quot;hl slc&quot;&gt;# only run when we call the Makefile.PL script&lt;/span&gt;
-   &lt;span class=&quot;hl kwa&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;eq&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Makefile.PL&amp;quot;&lt;/span&gt;  &lt;span class=&quot;hl opt&quot;&gt;) {&lt;/span&gt;
-       require ExtUtils&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;MakeMaker&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;hl kwa&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;eq&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Makefile.PL&amp;quot;&lt;/span&gt;  &lt;span class=&quot;hl opt&quot;&gt;) {&lt;/span&gt;
+       &lt;span class=&quot;hl kwa&quot;&gt;require&lt;/span&gt; ExtUtils&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;MakeMaker&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
        &lt;span class=&quot;hl kwc&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;$i&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt; ExtUtils&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;MakeMaker&lt;span class=&quot;hl opt&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;import&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;);&lt;/span&gt;
-       no warnings &lt;span class=&quot;hl str&quot;&gt;&amp;quot;redefine&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;hl kwa&quot;&gt;no&lt;/span&gt; warnings &lt;span class=&quot;hl str&quot;&gt;&amp;quot;redefine&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
        &lt;span class=&quot;hl opt&quot;&gt;*&lt;/span&gt;ExtUtils&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;MakeMaker&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;import &lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;{&lt;/span&gt;
            &lt;span class=&quot;hl opt&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
            &lt;span class=&quot;hl kwc&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;$targ&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
@@ -867,7 +910,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
                &lt;span class=&quot;hl slc&quot;&gt;# for entire mingw64 system. This way XS modules&lt;/span&gt;
                &lt;span class=&quot;hl slc&quot;&gt;# that depend on other XS modules can compile&lt;/span&gt;
                &lt;span class=&quot;hl slc&quot;&gt;# statically using .a files.&lt;/span&gt;
-               &lt;span class=&quot;hl kwb&quot;&gt;$args&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;{&lt;/span&gt;LIBS&lt;span class=&quot;hl opt&quot;&gt;} =~&lt;/span&gt; s&lt;span class=&quot;hl opt&quot;&gt;,^(.*&lt;/span&gt;?&lt;span class=&quot;hl opt&quot;&gt;)(&lt;/span&gt;\Q&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;LC&lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;/msys64/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;lib\E\s&lt;span class=&quot;hl opt&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt;nosearch &lt;span class=&quot;hl kwb&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,;&lt;/span&gt;
+               &lt;span class=&quot;hl kwb&quot;&gt;$args&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;{&lt;/span&gt;LIBS&lt;span class=&quot;hl opt&quot;&gt;} =~&lt;/span&gt; s&lt;span class=&quot;hl opt&quot;&gt;,^(.*&lt;/span&gt;?&lt;span class=&quot;hl opt&quot;&gt;)(&lt;/span&gt;\Q&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;LC&lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;/msys64/mi&lt;/span&gt;ngw&lt;span class=&quot;hl num&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;lib\E\s&lt;span class=&quot;hl opt&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt;nosearch &lt;span class=&quot;hl kwb&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,;&lt;/span&gt;
 
                &lt;span class=&quot;hl slc&quot;&gt;# Special case for expat (XML::Parser::Expat) because&lt;/span&gt;
                &lt;span class=&quot;hl slc&quot;&gt;# it does not use either of&lt;/span&gt;
@@ -880,15 +923,15 @@ can only run commands every 20 minutes!&lt;/p&gt;
            &lt;span class=&quot;hl opt&quot;&gt;};&lt;/span&gt;
        &lt;span class=&quot;hl opt&quot;&gt;};&lt;/span&gt;
 
-       &lt;span class=&quot;hl kwa&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Makefile.PL&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;or&lt;/span&gt; die &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Hack failed: $&amp;#64;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;hl kwa&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Makefile.PL&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;or die&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;Hack failed: $&amp;#64;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
        &lt;span class=&quot;hl slc&quot;&gt;# we can exit now that we are done&lt;/span&gt;
-       exit &lt;span class=&quot;hl num&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;hl kwa&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;hl num&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
    &lt;span class=&quot;hl opt&quot;&gt;}&lt;/span&gt;
 
    &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
@@ -967,9 +1010,9 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwb&quot;&gt;export&lt;/span&gt; OPENSSL_PREFIX&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;/c/msys64/mingw64&amp;quot;&lt;/span&gt;
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwb&quot;&gt;export&lt;/span&gt; OPENSSL_PREFIX&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;/c/msys64/mingw64&amp;quot;&lt;/span&gt;
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
@@ -1078,9 +1121,9 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
-   &lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc
 
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
@@ -1118,16 +1161,54 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 </item>
 <item>
+	<title>week of 2016-04-02</title>
 
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
+
+
+	<pubDate>Wed, 04 May 2016 19:09:11 +0000</pubDate>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
+
+	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
+&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot; alt=&quot;project-renard/devops/issues/4&quot; id=&quot;project-renarddevopsissues4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refactor tests
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot; alt=&quot;project-renard/curie/issues/64&quot; id=&quot;project-renardcurieissues64&quot; /&gt;&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Embed AbiWord
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot; alt=&quot;project-renard/curie/issues/57&quot; id=&quot;project-renardcurieissues57&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed Evince
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot; alt=&quot;project-renard/curie/issues/56&quot; id=&quot;project-renardcurieissues56&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>week of 2016-03-27</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
 
-	<pubDate>Wed, 04 May 2016 19:01:03 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+
+	<pubDate>Wed, 04 May 2016 19:09:11 +0000</pubDate>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1149,93 +1230,16 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 </item>
 <item>
-
-	<title>improving the GUI navigation and tests</title>
-
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
-
-	<pubDate>Wed, 04 May 2016 19:01:03 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
-
-	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
-
-&lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create a table of Evince and Okular menus on the wiki&lt;/li&gt;
-&lt;li&gt;Write GUI tests using mock document and xvfb &lt;a href=&quot;https://github.com/project-renard/curie/issues/35&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/35.svg&quot; alt=&quot;project-renard/curie/issues/35&quot; id=&quot;project-renardcurieissues35&quot; /&gt;&lt;/a&gt;
-(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/41&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/41.svg&quot; alt=&quot;project-renard/curie/pull/41&quot; id=&quot;project-renardcuriepull41&quot; /&gt;&lt;/a&gt;
-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;stan&quot;&gt;Stan&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Show number of pages &lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;
-(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/43&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/43.svg&quot; alt=&quot;project-renard/curie/pull/43&quot; id=&quot;project-renardcuriepull43&quot; /&gt;&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;GUI showing the label with the number of pages in a PDF document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/number-of-pages-label.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-number-of-pages-label.png&quot; width=&quot;250&quot; height=&quot;196&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;p&gt;and the corresponding unit tests (issue: [[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;git&lt;/span&gt; &lt;/span&gt;]], PR: [[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;git&lt;/span&gt; &lt;/span&gt;]])&lt;/p&gt;
-
-&lt;h3 id=&quot;chirag&quot;&gt;Chirag&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;
-(PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/37&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/37.svg&quot; alt=&quot;project-renard/curie/pull/37&quot; id=&quot;project-renardcuriepull37&quot; /&gt;&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on first page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-first.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-first.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Disable navigation buttons on last page&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-disable-last.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-disable-last.png&quot; width=&quot;250&quot; height=&quot;197&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h3 id=&quot;zaki&quot;&gt;Zaki&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Refactor Chirag&#39;s pull request (issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/38&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/38.svg&quot; alt=&quot;project-renard/curie/issues/38&quot; id=&quot;project-renardcurieissues38&quot; /&gt;&lt;/a&gt;
-and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/39&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/39.svg&quot; alt=&quot;project-renard/curie/pull/39&quot; id=&quot;project-renardcuriepull39&quot; /&gt;&lt;/a&gt;
-).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Check for errors using Perl::Critic and Test::Spelling. This can be used to check for irregular whitespace and spelling errors among other things
-(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/46&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/46.svg&quot; alt=&quot;project-renard/curie/issues/46&quot; id=&quot;project-renardcurieissues46&quot; /&gt;&lt;/a&gt;
-and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/47&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/47.svg&quot; alt=&quot;project-renard/curie/pull/47&quot; id=&quot;project-renardcuriepull47&quot; /&gt;&lt;/a&gt;
-)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows whitespace and code stricture failures&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-1.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-1.png&quot; width=&quot;250&quot; height=&quot;34&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Fix the stricture failures, but whitespace failures remain&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-2.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-2.png&quot; width=&quot;250&quot; height=&quot;27&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows documentation spelling failure&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-fail-3.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-fail-3.png&quot; width=&quot;250&quot; height=&quot;64&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/gfx/curie-perl-critic-success-4.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/19/improving-gui-navigation-and-tests/250x-curie-perl-critic-success-4.png&quot; width=&quot;250&quot; height=&quot;40&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add a compatibility layer for GtkScrolledWindow when using a Gtk+ version less v3.8
-(issue at &lt;a href=&quot;https://github.com/project-renard/curie/issues/42&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/42.svg&quot; alt=&quot;project-renard/curie/issues/42&quot; id=&quot;project-renardcurieissues42&quot; /&gt;&lt;/a&gt;
-and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/48.svg&quot; alt=&quot;project-renard/curie/pull/48&quot; id=&quot;project-renardcuriepull48&quot; /&gt;&lt;/a&gt;
-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>refactoring recent GUI additions</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</link>
 
+
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
 all of the work was performed on a single file, it is now necessary to start
@@ -1258,16 +1262,16 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 </item>
 <item>
-
 	<title>some project organisation</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
 
+
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
@@ -1288,16 +1292,16 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Roadmap planning session</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</link>
 
+
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
 look at the MuPDF API for the last remaining task. However, we should step back
@@ -1420,16 +1424,16 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>Using Glade to build curie GUI</title>
-
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</guid>
 
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui/</link>
 
+
 	<pubDate>Sat, 30 Jan 2016 23:23:38 +0000</pubDate>
-	<dcterms:modified>2016-05-04T19:01:03Z</dcterms:modified>
+	<dcterms:modified>2016-05-04T19:09:11Z</dcterms:modified>
+
 
 	<description>&lt;h2 id=&quot;agenda&quot;&gt;Agenda&lt;/h2&gt;
 
