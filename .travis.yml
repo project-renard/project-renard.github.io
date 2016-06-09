@@ -1,4 +1,6 @@
-sudo: false
+os: linux
+dist: trusty
+sudo: required
 cache:
   directories:
   # local::lib caching
