@@ -17,120 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-06-09T06:23:43Z</updated>
-<entry>
-	<title>ftemplate</title>
-
-	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</id>
-
-	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/"/>
-
-
-
-
-
-
-	<category term="type/format" />
-
-	<category term="type/meta" />
-
-
-	<updated>2016-06-09T06:23:43Z</updated>
-	<published>2016-06-09T06:23:43Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
-
-&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
-
-&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
-that one does not have to provide all the values in the call to the template,
-because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
-plugin.&lt;/p&gt;
-
-&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;IkiWiki
-IkiWiki::Plugin::field
-HTML::Template
-Encode
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>report</title>
-
-	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/</id>
-
-	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/"/>
-
-
-
-
-
-
-	<category term="type/format" />
-
-	<category term="type/meta" />
-
-
-	<updated>2016-06-09T06:23:43Z</updated>
-	<published>2016-06-09T06:23:43Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
-
-&lt;p&gt;IkiWiki::Plugin::report - Produce templated reports from page field data.&lt;/p&gt;
-
-&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/ikiwiki/directive/report/&quot;&gt;report&lt;/a&gt; directive.  This enables
-one to report on the structured data (&quot;field&quot; values) of multiple pages; the
-output is formatted via a template.  This depends on the
-&lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
-
-&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;# activate the plugin
-add_plugins =&amp;gt; [qw{goodstuff report ....}],
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;IkiWiki
-IkiWiki::Plugin::field
-HTML::Template
-Encode
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
+<updated>2016-06-09T06:39:03Z</updated>
 <entry>
 	<title>getfield</title>
 
@@ -148,8 +35,8 @@ Encode
 	<category term="type/meta" />
 
 
-	<updated>2016-06-09T06:23:43Z</updated>
-	<published>2016-06-09T06:23:43Z</published>
+	<updated>2016-06-09T06:39:03Z</updated>
+	<published>2016-06-09T06:39:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -308,6 +195,119 @@ My description is {{&amp;#036;description}}.
 
 </entry>
 <entry>
+	<title>report</title>
+
+	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/</id>
+
+	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/"/>
+
+
+
+
+
+
+	<category term="type/format" />
+
+	<category term="type/meta" />
+
+
+	<updated>2016-06-09T06:39:03Z</updated>
+	<published>2016-06-09T06:39:03Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;p&gt;IkiWiki::Plugin::report - Produce templated reports from page field data.&lt;/p&gt;
+
+&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/ikiwiki/directive/report/&quot;&gt;report&lt;/a&gt; directive.  This enables
+one to report on the structured data (&quot;field&quot; values) of multiple pages; the
+output is formatted via a template.  This depends on the
+&lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
+
+&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# activate the plugin
+add_plugins =&amp;gt; [qw{goodstuff report ....}],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;IkiWiki
+IkiWiki::Plugin::field
+HTML::Template
+Encode
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>ftemplate</title>
+
+	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</id>
+
+	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/"/>
+
+
+
+
+
+
+	<category term="type/format" />
+
+	<category term="type/meta" />
+
+
+	<updated>2016-06-09T06:39:03Z</updated>
+	<published>2016-06-09T06:39:03Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
+
+&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
+that one does not have to provide all the values in the call to the template,
+because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/format/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
+plugin.&lt;/p&gt;
+
+&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;IkiWiki
+IkiWiki::Plugin::field
+HTML::Template
+Encode
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>pod</title>
 
 	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/pod/</id>
@@ -322,8 +322,8 @@ My description is {{&amp;#036;description}}.
 	<category term="type/format" />
 
 
-	<updated>2016-06-09T06:23:43Z</updated>
-	<published>2016-06-09T06:23:43Z</published>
+	<updated>2016-06-09T06:39:03Z</updated>
+	<published>2016-06-09T06:39:03Z</published>
 
 
 	<content type="html" xml:lang="en">
