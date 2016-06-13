@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Thu, 09 Jun 2016 06:33:29 +0000</pubDate>
 <item>
-	<title>Nitro Reader</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
@@ -41,11 +41,11 @@
 
 </item>
 <item>
-	<title>SumatraPDF</title>
+	<title>Nitro Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
 
 
 
@@ -179,19 +179,19 @@
 
 </item>
 <item>
-	<title>Utopia Documents</title>
+	<title>UpLib</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 04 May 2016 21:17:42 +0000</pubDate>
-	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
+	<pubDate>Wed, 04 May 2016 21:26:27 +0000</pubDate>
+	<dcterms:modified>2016-05-04T21:26:27Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -200,14 +200,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -215,14 +208,6 @@
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -242,7 +227,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 04 May 2016 21:17:42 +0000</pubDate>
+	<pubDate>Wed, 04 May 2016 21:26:27 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -952,43 +937,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>UpLib</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Wed, 04 May 2016 21:17:42 +0000</pubDate>
-	<dcterms:modified>2016-05-04T21:17:42Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>qpdfview</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
@@ -1000,8 +948,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 04 May 2016 21:17:42 +0000</pubDate>
-	<dcterms:modified>2016-05-04T21:17:42Z</dcterms:modified>
+	<pubDate>Wed, 04 May 2016 21:26:27 +0000</pubDate>
+	<dcterms:modified>2016-05-04T21:26:27Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1071,7 +1019,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/library</category>
 
 
-	<pubDate>Wed, 04 May 2016 21:17:42 +0000</pubDate>
+	<pubDate>Wed, 04 May 2016 21:26:27 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -1101,6 +1049,58 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
         &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
             &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Utopia Documents</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Wed, 04 May 2016 21:26:27 +0000</pubDate>
+	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
