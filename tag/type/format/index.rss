@@ -8,70 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 13 Jun 2016 11:07:47 +0000</pubDate>
-<item>
-	<title>pod</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/pod/</guid>
-
-	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/pod/</link>
-
-
-
-	<category>type/format</category>
-
-
-	<pubDate>Mon, 13 Jun 2016 11:07:47 +0000</pubDate>
-	<dcterms:modified>2016-06-13T11:07:47Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
-
-&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
-
-&lt;p&gt;IkiWiki::Plugin::pod - process pages written in POD format.&lt;/p&gt;
-
-&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
-
-&lt;p&gt;In the ikiwiki setup file, enable this plugin by adding it to the
-list of active plugins.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff pod ....}],
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
-
-&lt;p&gt;IkiWiki::Plugin::pod is an IkiWiki plugin enabling ikiwiki to
-process pages written in POD (&lt;a href=&quot;http://en.wikipedia.org/wiki/Plain_Old_Documentation&quot;&gt;Plain Old Documentation&lt;/a&gt;) format.
-This will treat files with a &lt;code&gt;.pod&lt;/code&gt; or &lt;code&gt;.pm&lt;/code&gt; extension as files
-which contain POD markup.&lt;/p&gt;
-
-&lt;h2 id=&quot;options&quot;&gt;OPTIONS&lt;/h2&gt;
-
-&lt;p&gt;The following options can be set in the ikiwiki setup file.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;pod_index:&lt;/strong&gt; If true, this will generate an index (table of contents) for the page.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pod_toplink:&lt;/strong&gt; The label to be used for links back to the top of the page.  If this is empty, then no top-links will be generated.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;IkiWiki
-Pod::Xhtml
-IO::String
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/pod.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/pod.pm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
+<pubDate>Wed, 15 Jun 2016 05:59:12 +0000</pubDate>
 <item>
 	<title>getfield</title>
 
@@ -86,8 +23,8 @@ IO::String
 	<category>type/meta</category>
 
 
-	<pubDate>Mon, 13 Jun 2016 11:07:47 +0000</pubDate>
-	<dcterms:modified>2016-06-13T11:07:47Z</dcterms:modified>
+	<pubDate>Wed, 15 Jun 2016 05:59:12 +0000</pubDate>
+	<dcterms:modified>2016-06-15T05:59:12Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
@@ -243,6 +180,69 @@ My description is {{&amp;#036;description}}.
 
 </item>
 <item>
+	<title>pod</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/pod/</guid>
+
+	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/pod/</link>
+
+
+
+	<category>type/format</category>
+
+
+	<pubDate>Wed, 15 Jun 2016 05:59:12 +0000</pubDate>
+	<dcterms:modified>2016-06-15T05:59:12Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
+
+&lt;p&gt;IkiWiki::Plugin::pod - process pages written in POD format.&lt;/p&gt;
+
+&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
+
+&lt;p&gt;In the ikiwiki setup file, enable this plugin by adding it to the
+list of active plugins.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff pod ....}],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
+
+&lt;p&gt;IkiWiki::Plugin::pod is an IkiWiki plugin enabling ikiwiki to
+process pages written in POD (&lt;a href=&quot;http://en.wikipedia.org/wiki/Plain_Old_Documentation&quot;&gt;Plain Old Documentation&lt;/a&gt;) format.
+This will treat files with a &lt;code&gt;.pod&lt;/code&gt; or &lt;code&gt;.pm&lt;/code&gt; extension as files
+which contain POD markup.&lt;/p&gt;
+
+&lt;h2 id=&quot;options&quot;&gt;OPTIONS&lt;/h2&gt;
+
+&lt;p&gt;The following options can be set in the ikiwiki setup file.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;pod_index:&lt;/strong&gt; If true, this will generate an index (table of contents) for the page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pod_toplink:&lt;/strong&gt; The label to be used for links back to the top of the page.  If this is empty, then no top-links will be generated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;IkiWiki
+Pod::Xhtml
+IO::String
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/pod.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/pod.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>report</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/</guid>
@@ -256,8 +256,8 @@ My description is {{&amp;#036;description}}.
 	<category>type/meta</category>
 
 
-	<pubDate>Mon, 13 Jun 2016 11:07:47 +0000</pubDate>
-	<dcterms:modified>2016-06-13T11:07:47Z</dcterms:modified>
+	<pubDate>Wed, 15 Jun 2016 05:59:12 +0000</pubDate>
+	<dcterms:modified>2016-06-15T05:59:12Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
@@ -307,8 +307,8 @@ Encode
 	<category>type/meta</category>
 
 
-	<pubDate>Mon, 13 Jun 2016 11:07:47 +0000</pubDate>
-	<dcterms:modified>2016-06-13T11:07:47Z</dcterms:modified>
+	<pubDate>Wed, 15 Jun 2016 05:59:12 +0000</pubDate>
+	<dcterms:modified>2016-06-15T05:59:12Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
