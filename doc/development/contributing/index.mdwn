@@ -1,7 +1,19 @@
 ## Reading material
 
 - Modern::Perl
+
+### Testing
+
 - Test::Most, Test::More, prove, TAP
+
+### Release managment
+
 - Dist::Zilla
+
+### Documentation
+
 - perlpod, Pod::Weaver
+
+### Devops
+
 - Vagrant
