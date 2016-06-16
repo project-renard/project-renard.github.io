@@ -17,13 +17,13 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-06-16T22:11:41Z</updated>
+<updated>2016-06-16T22:18:52Z</updated>
 <entry>
-	<title>getfield</title>
+	<title>ftemplate</title>
 
-	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/getfield/</id>
+	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</id>
 
-	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/getfield/"/>
+	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/"/>
 
 
 
@@ -35,334 +35,37 @@
 	<category term="type/meta" />
 
 
-	<updated>2016-06-16T22:11:41Z</updated>
-	<published>2016-06-16T22:11:41Z</published>
+	<updated>2016-06-16T22:18:52Z</updated>
+	<published>2016-06-16T22:18:52Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
 
-&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
+&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
 
-&lt;p&gt;IkiWiki::Plugin::getfield - query the values of fields&lt;/p&gt;
+&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
+that one does not have to provide all the values in the call to the template,
+because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
+plugin.&lt;/p&gt;
 
-&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
+&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;# activate the plugin
-add_plugins =&amp;gt; [qw{goodstuff getfield ....}],
+&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
-
-&lt;p&gt;This plugin provides a way of querying the meta-data (data fields) of a page
-inside the page content (rather than inside a template) This provides a way to
-use per-page structured data, where each page is treated like a record, and the
-structured data are fields in that record.  This can include the meta-data for
-that page, such as the page title.&lt;/p&gt;
-
-&lt;p&gt;This plugin is meant to be used in conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
-
-&lt;h3 id=&quot;usage&quot;&gt;USAGE&lt;/h3&gt;
-
-&lt;p&gt;One can get the value of a field by using special markup in the page.
-This does not use directive markup, in order to make it easier to
-use the markup inside other directives.  There are four forms:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;{{$&lt;em&gt;fieldname&lt;/em&gt;}}&lt;/p&gt;
-
-&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the source page.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;My Long and Complicated Title With Potential For Spelling Mistakes&quot;]]
-# {{&amp;#036;title}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When the page is processed, this will give you:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;My Long and Complicated Title With Potential For Spelling Mistakes&amp;lt;/h1&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;{{$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;}}&lt;/p&gt;
-
-&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the page &lt;em&gt;pagename&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;On PageFoo:&lt;/p&gt;
-
-&lt;p&gt;[[!meta  title=&quot;I Am Page Foo&quot;]]&lt;/p&gt;
-
-&lt;p&gt;Stuff about Foo.&lt;/p&gt;
-
-&lt;p&gt;On PageBar:&lt;/p&gt;
-
-&lt;p&gt;For more info, see [[{{$PageFoo#title}}|PageFoo]].&lt;/p&gt;
-
-&lt;p&gt;When PageBar is displayed:&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;p&amp;gt;For more info, see &amp;lt;a href=&quot;PageFoo&quot;&amp;gt;I Am Page Foo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;{{+$&lt;em&gt;fieldname&lt;/em&gt;+}}&lt;/p&gt;
-
-&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the destination page; that is,
-the value when this page is included inside another page.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;On PageA:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;I Am Page A&quot;]]
-# {{+&amp;#036;title+}}
-
-
-Stuff about A.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;On PageB:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;I Am Page B&quot;]]
-[[!inline  pagespec=&quot;PageA&quot;]]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When PageA is displayed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;I Am Page A&amp;lt;/h1&amp;gt;
-&amp;lt;p&amp;gt;Stuff about A.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When PageB is displayed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;I Am Page B&amp;lt;/h1&amp;gt;
-&amp;lt;p&amp;gt;Stuff about A.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;{{+$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;+}}&lt;/p&gt;
-
-&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the page &lt;em&gt;pagename&lt;/em&gt;; the
-only difference between this and {{$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;}} is
-that the full name of &lt;em&gt;pagename&lt;/em&gt; is calculated relative to the
-destination page rather than the source page.&lt;/p&gt;
-
-&lt;p&gt;I can&#39;t really think of a reason why this should be needed, but
-this format has been added for completeness.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;escaping&quot;&gt;Escaping&lt;/h3&gt;
-
-&lt;p&gt;Getfield markup can be escaped by putting a backwards slash &lt;code&gt;\&lt;/code&gt;
-in front of the markup.
-If that is done, then the markup is displayed as-is.&lt;/p&gt;
-
-&lt;h3 id=&quot;novaluefound&quot;&gt;No Value Found&lt;/h3&gt;
-
-&lt;p&gt;If no value is found for the given field, then the field name is returned.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;On PageFoo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;Foo&quot;]]
-My title is {{&amp;#036;title}}.
-
-My description is {{&amp;#036;description}}.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When PageFoo is displayed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;My title is Foo.&amp;lt;/p&amp;gt;
-
-&amp;lt;p&amp;gt;My description is description.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is because &quot;description&quot; hasn&#39;t been defined for that page.&lt;/p&gt;
-
-&lt;h3 id=&quot;moreexamples&quot;&gt;More Examples&lt;/h3&gt;
-
-&lt;p&gt;Listing all the sub-pages of the current page:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[!map  pages=&quot;{{&amp;#036;page}}/*&quot;]]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>ymlfront</title>
-
-	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ymlfront/</id>
-
-	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ymlfront/"/>
-
-
-
-
-
-
-	<category term="type/meta" />
-
-
-	<updated>2016-06-16T22:11:41Z</updated>
-	<published>2016-06-16T22:11:41Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
-
-&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
-
-&lt;p&gt;IkiWiki::Plugin::ymlfront - add YAML-format data to a page&lt;/p&gt;
-
-&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;# activate the plugin
-add_plugins =&amp;gt; [qw{goodstuff ymlfront ....}],
-
-# configure the plugin
-ymlfront_delim =&amp;gt; [qw(--YAML-- --YAML--)],
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
-
-&lt;p&gt;This plugin provides a way of adding arbitrary meta-data (data fields) to any
-page by prefixing the page with a YAML-format document.  This also provides
-the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ymlfront/&quot;&gt;ymlfront&lt;/a&gt; directive, which enables one to put
-YAML-formatted data inside a standard IkiWiki &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/&quot;&gt;directive&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is a way to create per-page structured data, where each page is
-treated like a record, and the structured data are fields in that record.  This
-can include the meta-data for that page, such as the page title.&lt;/p&gt;
-
-&lt;p&gt;This plugin is meant to be used in conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
-
-&lt;h2 id=&quot;details&quot;&gt;DETAILS&lt;/h2&gt;
-
-&lt;p&gt;There are three formats for adding YAML data to a page.  These formats
-should not be mixed - the result is undefined.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;ymlfront directive&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ymlfront/&quot;&gt;ymlfront&lt;/a&gt; for more information.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;default YAML-compatible delimiter&lt;/p&gt;
-
-&lt;p&gt;By default, the YAML-format data in a page is placed at the start of
-the page and delimited by lines containing precisely three dashes.
-This is what YAML itself uses to delimit multiple documents.
-The &quot;normal&quot; content of the page then follows.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: Foo does not work
-Urgency: High
-Status: Assigned
-AssignedTo: Fred Nurk
-Version: 1.2.3
----
-When running on the Sprongle system, the Foo function returns incorrect data.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;What will normally be displayed is everything following the second line of dashes.  That will be htmlized using the page-type of the page-file.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;user-defined delimiter&lt;/p&gt;
-
-&lt;p&gt;Instead of using the default &quot;---&quot; delimiter, the user can define,
-in the configuration file, the &lt;strong&gt;ymlfront_delim&lt;/strong&gt; value, which is an
-array containing two strings. The first string defines the markup for
-the start of the YAML data, and the second string defines the markip
-for the end of the YAML data. These two strings can be the same, or
-they can be different. In this case, the YAML data section is not
-required to be at the start of the page, but as with the default, it
-is expected that only one data section will be on the page.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;--YAML--
-title: Foo does not work
-Urgency: High
-Status: Assigned
-AssignedTo: Fred Nurk
-Version: 1.2.3
---YAML--
-When running on the Sprongle system, the Foo function returns incorrect data.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;What will normally be displayed is everything outside the delimiters,
-both before and after.  That will be htmlized using the page-type of the page-file.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;accessingthedata&quot;&gt;Accessing the Data&lt;/h3&gt;
-
-&lt;p&gt;There are a few ways to access the given YAML data.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/getfield/&quot;&gt;getfield&lt;/a&gt; plugin&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;getfield&lt;/strong&gt; plugin can display the data as individual variable values.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: Foo does not work
-Urgency: High
-Status: Assigned
-AssignedTo: Fred Nurk
-Version: 1.2.3
----
-# {{&amp;#036;title}}
-
-
-**Urgency:** {{&amp;#036;Urgency}}\\
-**Status:** {{&amp;#036;Status}}\\
-**Assigned To:** {{&amp;#036;AssignedTo}}\\
-**Version:** {{&amp;#036;Version}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;When running on the Sprongle system, the Foo function returns incorrect data.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; plugin&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;ftemplate&lt;/strong&gt; plugin is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; plugin, but it is also aware of &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; values.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: Foo does not work
-Urgency: High
-Status: Assigned
-AssignedTo: Fred Nurk
-Version: 1.2.3
----
-[[!ftemplate  id=&quot;bug_display_template&quot;]]
-
-
-When running on the Sprongle system, the Foo function returns incorrect data.
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/report/&quot;&gt;report&lt;/a&gt; plugin&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;report&lt;/strong&gt; plugin is like the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; plugin, but it reports on multiple pages, rather than just the current page.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;write your own plugin&lt;/p&gt;
-
-&lt;p&gt;In conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin, you can write your own plugin to access the data.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;IkiWiki
 IkiWiki::Plugin::field
-YAML::Any
+HTML::Template
+Encode
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ymlfront.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ymlfront.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -386,8 +89,8 @@ YAML::Any
 	<category term="type/meta" />
 
 
-	<updated>2016-06-16T22:11:41Z</updated>
-	<published>2016-06-16T22:11:41Z</published>
+	<updated>2016-06-16T22:18:52Z</updated>
+	<published>2016-06-16T22:18:52Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -645,11 +348,11 @@ a value of your own.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>ftemplate</title>
+	<title>getfield</title>
 
-	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</id>
+	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/getfield/</id>
 
-	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/"/>
+	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/getfield/"/>
 
 
 
@@ -661,37 +364,157 @@ a value of your own.&lt;/p&gt;
 	<category term="type/meta" />
 
 
-	<updated>2016-06-16T22:11:41Z</updated>
-	<published>2016-06-16T22:11:41Z</published>
+	<updated>2016-06-16T22:18:52Z</updated>
+	<published>2016-06-16T22:18:52Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
 
-&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
+&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
 
-&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
-that one does not have to provide all the values in the call to the template,
-because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
-plugin.&lt;/p&gt;
+&lt;p&gt;IkiWiki::Plugin::getfield - query the values of fields&lt;/p&gt;
 
-&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
+&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
+&lt;pre&gt;&lt;code&gt;# activate the plugin
+add_plugins =&amp;gt; [qw{goodstuff getfield ....}],
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;IkiWiki
-IkiWiki::Plugin::field
-HTML::Template
-Encode
+&lt;p&gt;This plugin provides a way of querying the meta-data (data fields) of a page
+inside the page content (rather than inside a template) This provides a way to
+use per-page structured data, where each page is treated like a record, and the
+structured data are fields in that record.  This can include the meta-data for
+that page, such as the page title.&lt;/p&gt;
+
+&lt;p&gt;This plugin is meant to be used in conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;USAGE&lt;/h3&gt;
+
+&lt;p&gt;One can get the value of a field by using special markup in the page.
+This does not use directive markup, in order to make it easier to
+use the markup inside other directives.  There are four forms:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;{{$&lt;em&gt;fieldname&lt;/em&gt;}}&lt;/p&gt;
+
+&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the source page.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;My Long and Complicated Title With Potential For Spelling Mistakes&quot;]]
+# {{&amp;#036;title}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the page is processed, this will give you:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;My Long and Complicated Title With Potential For Spelling Mistakes&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;{{$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;}}&lt;/p&gt;
+
+&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the page &lt;em&gt;pagename&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;On PageFoo:&lt;/p&gt;
+
+&lt;p&gt;[[!meta  title=&quot;I Am Page Foo&quot;]]&lt;/p&gt;
+
+&lt;p&gt;Stuff about Foo.&lt;/p&gt;
+
+&lt;p&gt;On PageBar:&lt;/p&gt;
+
+&lt;p&gt;For more info, see [[{{$PageFoo#title}}|PageFoo]].&lt;/p&gt;
+
+&lt;p&gt;When PageBar is displayed:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;p&amp;gt;For more info, see &amp;lt;a href=&quot;PageFoo&quot;&amp;gt;I Am Page Foo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;{{+$&lt;em&gt;fieldname&lt;/em&gt;+}}&lt;/p&gt;
+
+&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the destination page; that is,
+the value when this page is included inside another page.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;On PageA:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;I Am Page A&quot;]]
+# {{+&amp;#036;title+}}
+
+
+Stuff about A.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On PageB:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;I Am Page B&quot;]]
+[[!inline  pagespec=&quot;PageA&quot;]]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When PageA is displayed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;I Am Page A&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Stuff about A.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When PageB is displayed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;I Am Page B&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Stuff about A.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;{{+$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;+}}&lt;/p&gt;
+
+&lt;p&gt;This queries the value of &lt;em&gt;fieldname&lt;/em&gt; for the page &lt;em&gt;pagename&lt;/em&gt;; the
+only difference between this and {{$&lt;em&gt;pagename&lt;/em&gt;#&lt;em&gt;fieldname&lt;/em&gt;}} is
+that the full name of &lt;em&gt;pagename&lt;/em&gt; is calculated relative to the
+destination page rather than the source page.&lt;/p&gt;
+
+&lt;p&gt;I can&#39;t really think of a reason why this should be needed, but
+this format has been added for completeness.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;escaping&quot;&gt;Escaping&lt;/h3&gt;
+
+&lt;p&gt;Getfield markup can be escaped by putting a backwards slash &lt;code&gt;\&lt;/code&gt;
+in front of the markup.
+If that is done, then the markup is displayed as-is.&lt;/p&gt;
+
+&lt;h3 id=&quot;novaluefound&quot;&gt;No Value Found&lt;/h3&gt;
+
+&lt;p&gt;If no value is found for the given field, then the field name is returned.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;On PageFoo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[!meta  title=&quot;Foo&quot;]]
+My title is {{&amp;#036;title}}.
+
+My description is {{&amp;#036;description}}.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When PageFoo is displayed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;My title is Foo.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;My description is description.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is because &quot;description&quot; hasn&#39;t been defined for that page.&lt;/p&gt;
+
+&lt;h3 id=&quot;moreexamples&quot;&gt;More Examples&lt;/h3&gt;
+
+&lt;p&gt;Listing all the sub-pages of the current page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[!map  pages=&quot;{{&amp;#036;page}}/*&quot;]]
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/getfield.pm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -717,8 +540,8 @@ Encode
 	<category term="type/meta" />
 
 
-	<updated>2016-06-16T22:11:41Z</updated>
-	<published>2016-06-16T22:11:41Z</published>
+	<updated>2016-06-16T22:18:52Z</updated>
+	<published>2016-06-16T22:18:52Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -749,6 +572,183 @@ Encode
 
 &lt;ul&gt;
 &lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/report.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>ymlfront</title>
+
+	<id>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ymlfront/</id>
+
+	<link href="http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ymlfront/"/>
+
+
+
+
+
+
+	<category term="type/meta" />
+
+
+	<updated>2016-06-16T22:18:52Z</updated>
+	<published>2016-06-16T22:18:52Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;h2 id=&quot;name&quot;&gt;NAME&lt;/h2&gt;
+
+&lt;p&gt;IkiWiki::Plugin::ymlfront - add YAML-format data to a page&lt;/p&gt;
+
+&lt;h2 id=&quot;synopsis&quot;&gt;SYNOPSIS&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# activate the plugin
+add_plugins =&amp;gt; [qw{goodstuff ymlfront ....}],
+
+# configure the plugin
+ymlfront_delim =&amp;gt; [qw(--YAML-- --YAML--)],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h2&gt;
+
+&lt;p&gt;This plugin provides a way of adding arbitrary meta-data (data fields) to any
+page by prefixing the page with a YAML-format document.  This also provides
+the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ymlfront/&quot;&gt;ymlfront&lt;/a&gt; directive, which enables one to put
+YAML-formatted data inside a standard IkiWiki &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/&quot;&gt;directive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a way to create per-page structured data, where each page is
+treated like a record, and the structured data are fields in that record.  This
+can include the meta-data for that page, such as the page title.&lt;/p&gt;
+
+&lt;p&gt;This plugin is meant to be used in conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin.&lt;/p&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;DETAILS&lt;/h2&gt;
+
+&lt;p&gt;There are three formats for adding YAML data to a page.  These formats
+should not be mixed - the result is undefined.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ymlfront directive&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ymlfront/&quot;&gt;ymlfront&lt;/a&gt; for more information.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;default YAML-compatible delimiter&lt;/p&gt;
+
+&lt;p&gt;By default, the YAML-format data in a page is placed at the start of
+the page and delimited by lines containing precisely three dashes.
+This is what YAML itself uses to delimit multiple documents.
+The &quot;normal&quot; content of the page then follows.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: Foo does not work
+Urgency: High
+Status: Assigned
+AssignedTo: Fred Nurk
+Version: 1.2.3
+---
+When running on the Sprongle system, the Foo function returns incorrect data.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What will normally be displayed is everything following the second line of dashes.  That will be htmlized using the page-type of the page-file.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;user-defined delimiter&lt;/p&gt;
+
+&lt;p&gt;Instead of using the default &quot;---&quot; delimiter, the user can define,
+in the configuration file, the &lt;strong&gt;ymlfront_delim&lt;/strong&gt; value, which is an
+array containing two strings. The first string defines the markup for
+the start of the YAML data, and the second string defines the markip
+for the end of the YAML data. These two strings can be the same, or
+they can be different. In this case, the YAML data section is not
+required to be at the start of the page, but as with the default, it
+is expected that only one data section will be on the page.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;--YAML--
+title: Foo does not work
+Urgency: High
+Status: Assigned
+AssignedTo: Fred Nurk
+Version: 1.2.3
+--YAML--
+When running on the Sprongle system, the Foo function returns incorrect data.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What will normally be displayed is everything outside the delimiters,
+both before and after.  That will be htmlized using the page-type of the page-file.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;accessingthedata&quot;&gt;Accessing the Data&lt;/h3&gt;
+
+&lt;p&gt;There are a few ways to access the given YAML data.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/getfield/&quot;&gt;getfield&lt;/a&gt; plugin&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;getfield&lt;/strong&gt; plugin can display the data as individual variable values.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: Foo does not work
+Urgency: High
+Status: Assigned
+AssignedTo: Fred Nurk
+Version: 1.2.3
+---
+# {{&amp;#036;title}}
+
+
+**Urgency:** {{&amp;#036;Urgency}}\\
+**Status:** {{&amp;#036;Status}}\\
+**Assigned To:** {{&amp;#036;AssignedTo}}\\
+**Version:** {{&amp;#036;Version}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When running on the Sprongle system, the Foo function returns incorrect data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; plugin&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;ftemplate&lt;/strong&gt; plugin is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; plugin, but it is also aware of &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; values.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: Foo does not work
+Urgency: High
+Status: Assigned
+AssignedTo: Fred Nurk
+Version: 1.2.3
+---
+[[!ftemplate  id=&quot;bug_display_template&quot;]]
+
+
+When running on the Sprongle system, the Foo function returns incorrect data.
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/report/&quot;&gt;report&lt;/a&gt; plugin&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;report&lt;/strong&gt; plugin is like the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; plugin, but it reports on multiple pages, rather than just the current page.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;write your own plugin&lt;/p&gt;
+
+&lt;p&gt;In conjunction with the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt; plugin, you can write your own plugin to access the data.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;IkiWiki
+IkiWiki::Plugin::field
+YAML::Any
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ymlfront.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ymlfront.pm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
 &lt;/ul&gt;
 
