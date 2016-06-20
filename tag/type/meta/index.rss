@@ -8,57 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-<item>
-	<title>ftemplate</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</guid>
-
-	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</link>
-
-
-
-	<category>type/format</category>
-
-	<category>type/meta</category>
-
-
-	<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-	<dcterms:modified>2016-06-16T22:18:52Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
-
-&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
-
-&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
-that one does not have to provide all the values in the call to the template,
-because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
-plugin.&lt;/p&gt;
-
-&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;IkiWiki
-IkiWiki::Plugin::field
-HTML::Template
-Encode
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
+<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
 <item>
 	<title>field</title>
 
@@ -71,8 +21,8 @@ Encode
 	<category>type/meta</category>
 
 
-	<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-	<dcterms:modified>2016-06-16T22:18:52Z</dcterms:modified>
+	<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
+	<dcterms:modified>2016-06-20T07:40:11Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
@@ -340,8 +290,8 @@ a value of your own.&lt;/p&gt;
 	<category>type/meta</category>
 
 
-	<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-	<dcterms:modified>2016-06-16T22:18:52Z</dcterms:modified>
+	<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
+	<dcterms:modified>2016-06-20T07:40:11Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
@@ -497,6 +447,56 @@ My description is {{&amp;#036;description}}.
 
 </item>
 <item>
+	<title>ftemplate</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</guid>
+
+	<link>http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/ftemplate/</link>
+
+
+
+	<category>type/format</category>
+
+	<category>type/meta</category>
+
+
+	<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
+	<dcterms:modified>2016-06-20T07:40:11Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
+
+&lt;p&gt;This plugin provides the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/ikiwiki/directive/ftemplate/&quot;&gt;ftemplate&lt;/a&gt; directive.&lt;/p&gt;
+
+&lt;p&gt;This is like the &lt;span class=&quot;createlink&quot;&gt;template&lt;/span&gt; directive, with the addition
+that one does not have to provide all the values in the call to the template,
+because ftemplate can query structured data (&quot;fields&quot;) using the &lt;a href=&quot;http://project-renard.github.io//tag/type/meta/../../../rubykat-ikiplugins/doc/plugins/contrib/field/&quot;&gt;field&lt;/a&gt;
+plugin.&lt;/p&gt;
+
+&lt;h2 id=&quot;activatetheplugin&quot;&gt;Activate the plugin&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;add_plugins =&amp;gt; [qw{goodstuff ftemplate ....}],
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;PREREQUISITES&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;IkiWiki
+IkiWiki::Plugin::field
+HTML::Template
+Encode
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;DOWNLOAD&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;browse at GitHub: &lt;a href=&quot;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&quot;&gt;http://github.com/rubykat/ikiplugins/blob/master/IkiWiki/Plugin/ftemplate.pm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git repo at git://github.com/rubykat/ikiplugins.git&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>report</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//rubykat-ikiplugins/doc/plugins/contrib/report/</guid>
@@ -510,8 +510,8 @@ My description is {{&amp;#036;description}}.
 	<category>type/meta</category>
 
 
-	<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-	<dcterms:modified>2016-06-16T22:18:52Z</dcterms:modified>
+	<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
+	<dcterms:modified>2016-06-20T07:40:11Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;
@@ -559,8 +559,8 @@ Encode
 	<category>type/meta</category>
 
 
-	<pubDate>Thu, 16 Jun 2016 22:18:52 +0000</pubDate>
-	<dcterms:modified>2016-06-16T22:18:52Z</dcterms:modified>
+	<pubDate>Mon, 20 Jun 2016 07:40:11 +0000</pubDate>
+	<dcterms:modified>2016-06-20T07:40:11Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!template &lt;span class=&quot;error&quot;&gt;Error: failed to process template &lt;span class=&quot;createlink&quot;&gt;plugin&lt;/span&gt; &lt;/span&gt;]]&lt;/p&gt;

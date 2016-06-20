@@ -212,107 +212,6 @@
 
 </entry>
 <entry>
-	<title>UpLib</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-05-06T01:07:45Z</updated>
-	<published>2016-05-06T01:07:45Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Utopia Documents</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-05-06T01:07:45Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>PDF.js</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
@@ -330,7 +229,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-06T01:07:45Z</published>
+	<published>2016-05-06T17:21:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -387,8 +286,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-06T01:07:45Z</updated>
-	<published>2016-05-06T01:07:45Z</published>
+	<updated>2016-05-06T17:21:33Z</updated>
+	<published>2016-05-06T17:21:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -448,6 +347,107 @@
 
 </entry>
 <entry>
+	<title>Utopia Documents</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-06-06T02:24:40Z</updated>
+	<published>2016-05-06T17:21:33Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>UpLib</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-05-06T17:21:33Z</updated>
+	<published>2016-05-06T17:21:33Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -463,7 +463,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-06T01:07:45Z</published>
+	<published>2016-05-06T17:21:33Z</published>
 
 
 	<content type="html" xml:lang="en">
