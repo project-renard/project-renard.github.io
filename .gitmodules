@@ -1,3 +1,9 @@
 [submodule "rubykat-ikiplugins"]
-	path = rubykat-ikiplugins
+	path = .ikiwiki-plugins/rubykat-ikiplugins
 	url = https://github.com/rubykat/ikiplugins.git
+[submodule "p5-IkiWiki-Plugin-tex"]
+	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-tex
+	url = git@github.com:zmughal/p5-IkiWiki-Plugin-tex.git
+[submodule "p5-IkiWiki-Plugin-github"]
+	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-github
+	url = git@github.com:zmughal/p5-IkiWiki-Plugin-github.git
