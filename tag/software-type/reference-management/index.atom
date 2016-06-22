@@ -17,24 +17,26 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-05-06T23:41:28Z</updated>
+<updated>2016-05-07T04:13:47Z</updated>
 <entry>
-	<title>EndNote</title>
+	<title>Paperpile</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -44,7 +46,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -56,14 +58,20 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 
@@ -71,22 +79,24 @@
 
 </entry>
 <entry>
-	<title>JabRef</title>
+	<title>Mendeley</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -96,7 +106,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -108,8 +118,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -117,57 +127,11 @@
 &lt;/table&gt;
 &lt;/div&gt;
 
-	</content>
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
-
-
-</entry>
-<entry>
-	<title>Zotero</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;Features:
+- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
 
 	</content>
 
@@ -191,8 +155,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -234,8 +198,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -272,6 +236,110 @@
 
 </entry>
 <entry>
+	<title>EndNote</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Qiqqa</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Docear</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/docear/</id>
@@ -286,8 +354,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -340,24 +408,22 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </entry>
 <entry>
-	<title>Paperpile</title>
+	<title>Zotero</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -367,7 +433,7 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -379,66 +445,8 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Qiqqa</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -452,24 +460,22 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Mendeley</title>
+	<title>JabRef</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-06T23:41:28Z</updated>
-	<published>2016-05-06T23:41:28Z</published>
+	<updated>2016-05-07T04:13:47Z</updated>
+	<published>2016-05-07T04:13:47Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -479,7 +485,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -491,20 +497,14 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
-PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
-
-&lt;p&gt;Features:
-- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
 
 	</content>
 
