@@ -8,53 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-<item>
-	<title>Qiqqa</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qiqqa/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qiqqa/</link>
-
-
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
+<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
 <item>
 	<title>EndNote</title>
 
@@ -67,8 +21,8 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -102,6 +56,52 @@
 
 </item>
 <item>
+	<title>JabRef</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/jabref/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/jabref/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Zotero</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/zotero/</guid>
@@ -113,8 +113,8 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -148,6 +148,91 @@
 
 </item>
 <item>
+	<title>Paperpile (older version)</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Papers</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Docear</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/docear/</guid>
@@ -159,8 +244,8 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -210,91 +295,6 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </item>
 <item>
-	<title>JabRef</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/jabref/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/jabref/</link>
-
-
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Paperpile (older version)</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Paperpile</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
@@ -308,8 +308,8 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -349,19 +349,19 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Papers</title>
+	<title>Qiqqa</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qiqqa/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/qiqqa/</link>
 
 
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -370,7 +370,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -382,8 +382,8 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -408,8 +408,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Fri, 06 May 2016 17:21:33 +0000</pubDate>
-	<dcterms:modified>2016-05-06T17:21:33Z</dcterms:modified>
+	<pubDate>Fri, 06 May 2016 23:41:28 +0000</pubDate>
+	<dcterms:modified>2016-05-06T23:41:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
