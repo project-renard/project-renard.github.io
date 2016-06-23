@@ -1,10 +1,13 @@
 <ul>
 	<li>[[Documentation|doc]]</li>
 	<ul>
-        <li>[[Development meeting log|doc/development/meeting-log]]</li>
-        <li>[[Development|doc/development]]</li>
-        <li>[[Survey|doc/survey]]</li>
-        <li>[[Design|doc/design]]</li>
+		<li>[[User|doc/user]]</li>
+		<li>[[Development|doc/development]]</li>
+		<ul>
+			<li>[[Development meeting log|doc/development/meeting-log]]</li>
+		</ul>
+		<li>[[Survey|doc/survey]]</li>
+		<li>[[Design|doc/design]]</li>
 	</ul>
 	<li>[[About|about]]</li>
 </ul>
