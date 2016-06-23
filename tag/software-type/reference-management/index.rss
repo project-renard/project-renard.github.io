@@ -8,21 +8,23 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
+<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
 <item>
-	<title>JabRef</title>
+	<title>Paperpile</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/jabref/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/jabref/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile/</link>
 
 
+
+	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -31,7 +33,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -43,34 +45,38 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>Paperpile (older version)</title>
+	<title>Papers</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
 
 
-
-	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -79,7 +85,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -87,6 +93,15 @@
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -106,8 +121,8 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -157,6 +172,45 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </item>
 <item>
+	<title>Paperpile (older version)</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Qiqqa</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qiqqa/</guid>
@@ -168,8 +222,8 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -203,21 +257,19 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </item>
 <item>
-	<title>Paperpile</title>
+	<title>JabRef</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/jabref/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/jabref/</link>
 
 
-
-	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -226,7 +278,7 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -238,20 +290,14 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
 </description>
 
 
@@ -268,8 +314,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -303,52 +349,6 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Papers</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
-
-
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Zotero</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/zotero/</guid>
@@ -360,8 +360,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -408,8 +408,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 07 May 2016 04:20:16 +0000</pubDate>
-	<dcterms:modified>2016-05-07T04:20:16Z</dcterms:modified>
+	<pubDate>Sat, 07 May 2016 22:43:46 +0000</pubDate>
+	<dcterms:modified>2016-05-07T22:43:46Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
