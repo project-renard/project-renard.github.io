@@ -51,7 +51,7 @@ add_plugins:
 - github
 - format
 - highlight
-- tex
+- tex4ht
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files

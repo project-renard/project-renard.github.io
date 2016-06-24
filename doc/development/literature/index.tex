@@ -1,9 +1,24 @@
 \documentclass{article}
 
 \usepackage{hyperref}
-\usepackage[authoryear]{natbib}
+
+\usepackage{natbib}
 \bibliographystyle{plainnat}
-% TODO usebib or bibentry package needed to print inline citations
+\usepackage{bibentry}
+\nobibliography*
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {{{
+\usepackage{usebib}
+%% prints out the info for a citation key:
+%%     \printarticle{Author00}
+\newcommand{\printarticle}[1]{\citeauthor{#1}, ``\usebibentry{#1}{title}'' (\usebibentry{#1}{year})}
+\newcommand{\paracite}[1]{\paragraph{\usebibentry{#1}{title}~\citet{#1}}}
+% \bibentry{#1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }}}
+
+\bibinput{biblio}
+
+\def\printindex{}
 
 \begin{document}
 
@@ -12,12 +27,12 @@
 \item \url{http://worrydream.com/MediaForThinkingTheUnthinkable/}
 \item \url{http://worrydream.com/MagicInk/}
 \item \url{http://worrydream.com/TheHumaneRepresentationOfThought/note.html}
-\item \url{https://www.youtube.com/watch?v=YyIQKBzIuBY}, \url{http://www.tele-task.de/archive/video/flash/14029/}
+\item \url{https://www.youtube.com/watch?v=YyIQKBzIuBY}, \href{http://www.tele-task.de/archive/video/flash/14029/}{HPI}
 \end{itemize}
 
 \section{Design of electronic books}
 
-\paragraph{Reading and writing the electronic book~\cite{marshall2009reading}}
+\paracite{marshall2009reading}
 
 \section{Software engineering}
 
