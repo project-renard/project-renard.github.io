@@ -10,60 +10,6 @@
 <generator>ikiwiki</generator>
 <pubDate>Wed, 11 May 2016 05:25:01 +0000</pubDate>
 <item>
-	<title>Paperpile</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Wed, 11 May 2016 05:25:01 +0000</pubDate>
-	<dcterms:modified>2016-05-11T05:25:01Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Paperpile (older version)</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
@@ -152,6 +98,60 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
 - &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Paperpile</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile/</link>
+
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Wed, 11 May 2016 05:25:01 +0000</pubDate>
+	<dcterms:modified>2016-05-11T05:25:01Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 </description>
 
 
