@@ -19,6 +19,7 @@ addons:
       - tex4ht
       - biber
       - texlive-bibtex-extra
+      - texlive-latex-base
 install:
   - openssl aes-256-cbc -K $encrypted_4f43c47a058e_key -iv $encrypted_4f43c47a058e_iv -in .travisdeploykey.enc -out .travisdeploykey -d
   - chmod go-rwx .travisdeploykey
