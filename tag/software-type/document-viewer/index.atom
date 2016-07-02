@@ -145,6 +145,81 @@
 
 </entry>
 <entry>
+	<title>qpdfview</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-05-11T06:27:07Z</updated>
+	<published>2016-05-11T06:27:07Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Okular</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/okular/</id>
@@ -159,8 +234,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-11T06:08:20Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
+	<updated>2016-05-11T06:27:07Z</updated>
+	<published>2016-05-11T06:27:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -212,64 +287,6 @@
 
 </entry>
 <entry>
-	<title>Utopia Documents</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -285,7 +302,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
+	<published>2016-05-11T06:27:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -997,11 +1014,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>qpdfview</title>
+	<title>Utopia Documents</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
 
 
 
@@ -1011,8 +1028,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-11T06:08:20Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
+	<updated>2016-06-06T02:24:40Z</updated>
+	<published>2016-05-11T06:27:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1022,32 +1039,17 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
 
 
 
@@ -1055,16 +1057,14 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
 
 	</content>
 
@@ -1089,7 +1089,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
+	<published>2016-05-11T06:27:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1146,8 +1146,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-11T06:08:20Z</updated>
-	<published>2016-05-11T06:08:20Z</published>
+	<updated>2016-05-11T06:27:07Z</updated>
+	<published>2016-05-11T06:27:07Z</published>
 
 
 	<content type="html" xml:lang="en">
