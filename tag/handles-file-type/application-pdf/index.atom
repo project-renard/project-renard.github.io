@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-05-11T06:27:07Z</updated>
+<updated>2016-05-11T06:47:52Z</updated>
 <entry>
 	<title>Paperpile</title>
 
@@ -35,8 +35,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-11T06:27:07Z</updated>
-	<published>2016-05-11T06:27:07Z</published>
+	<updated>2016-05-11T06:47:52Z</updated>
+	<published>2016-05-11T06:47:52Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -79,51 +79,6 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-05-11T06:27:07Z</updated>
-	<published>2016-05-11T06:27:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Mendeley</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
@@ -140,8 +95,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-05-11T06:27:07Z</updated>
-	<published>2016-05-11T06:27:07Z</published>
+	<updated>2016-05-11T06:47:52Z</updated>
+	<published>2016-05-11T06:47:52Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -177,6 +132,51 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
 - &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Paperpile (older version)</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-05-11T06:47:52Z</updated>
+	<published>2016-05-11T06:47:52Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 
