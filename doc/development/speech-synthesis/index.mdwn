@@ -1,0 +1,30 @@
+# Compare engines
+
+## Precomposed characters
+
+Check if the following two words give different output in a speech synthesis
+engine:
+
+1. "finish"  (normal text)
+2. "ﬁnish" (with ﬁ precomposed ligature)
+
+They should be *the same* if the engine knows about Unicode normalisation. I
+did a quick check over the TTS engines/voices that I have access to
+(☒: different, ☑: same):
+
+- ☒ Festival [[voice_nitech_us_awb_arctic_hts|http://hts.sp.nitech.ac.jp/?Release%20Archive]] (on GNU/Linux)
+- ☒ [[Microsoft Zira Mobile|https://en.wikipedia.org/wiki/Microsoft_text-to-speech_voices#Windows_10]] (on Win 10)
+- ☒ [[Microsoft Mark Mobile|https://en.wikipedia.org/wiki/Microsoft_text-to-speech_voices#Windows_10]] (on Win 10)
+- ☑ [[Ivona|https://www.ivona.com/]] Amy UK English (on Android)
+- ☒ [[Bing Translator's TTS|http://www.bing.com/translator/]] (on the Web)
+- ☑ [[Google Translate's TTS|https://translate.google.com/]] (on the Web)
+- ☑ [[VoiceOver Alex|http://www.apple.com/accessibility/osx/voiceover/]] (on Mac OS X).
+
+Here is a [[list of pre-composed Latin characters|https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode]].
+
+----
+
+# API
+
+- SAPI 5
+- [[Speech Synthesis Manager|https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/Introduction/Introduction.html]]
