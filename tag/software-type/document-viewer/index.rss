@@ -118,43 +118,6 @@
 
 </item>
 <item>
-	<title>UpLib</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
-	<dcterms:modified>2016-05-19T04:33:37Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Utopia Documents</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
@@ -166,7 +129,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
 	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
 
 
@@ -220,7 +183,7 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -261,75 +224,6 @@
 
 </item>
 <item>
-	<title>qpdfview</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
-	<dcterms:modified>2016-05-19T04:33:37Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Evince</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
@@ -341,7 +235,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -1062,8 +956,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Thu, 19 May 2016 04:33:37 +0000</pubDate>
-	<dcterms:modified>2016-05-19T04:33:37Z</dcterms:modified>
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
+	<dcterms:modified>2016-05-19T23:10:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1107,6 +1001,112 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>UpLib</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
+	<dcterms:modified>2016-05-19T23:10:53Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>qpdfview</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 19 May 2016 23:10:53 +0000</pubDate>
+	<dcterms:modified>2016-05-19T23:10:53Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
 </description>
 
 
