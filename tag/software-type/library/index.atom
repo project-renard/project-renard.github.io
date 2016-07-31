@@ -19,6 +19,109 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2016-06-09T06:33:29Z</updated>
 <entry>
+	<title>PDF.js</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-06-09T06:33:29Z</updated>
+	<published>2016-05-20T01:03:42Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>MuPDF</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-05-20T01:03:42Z</updated>
+	<published>2016-05-20T01:03:42Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Poppler</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/poppler/</id>
@@ -33,8 +136,8 @@
 	<category term="software-type/library" />
 
 
-	<updated>2016-05-19T23:10:53Z</updated>
-	<published>2016-05-19T23:10:53Z</published>
+	<updated>2016-05-20T01:03:42Z</updated>
+	<published>2016-05-20T01:03:42Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -78,8 +181,8 @@
 	<category term="software-type/library" />
 
 
-	<updated>2016-05-19T23:10:53Z</updated>
-	<published>2016-05-19T23:10:53Z</published>
+	<updated>2016-05-20T01:03:42Z</updated>
+	<published>2016-05-20T01:03:42Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -97,109 +200,6 @@
 
 
 
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>MuPDF</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
-
-
-
-
-
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-05-19T23:10:53Z</updated>
-	<published>2016-05-19T23:10:53Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>PDF.js</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-19T23:10:53Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
