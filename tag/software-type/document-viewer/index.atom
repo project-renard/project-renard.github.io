@@ -162,7 +162,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
+	<published>2016-05-25T23:40:31Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -219,8 +219,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-24T18:44:40Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
+	<updated>2016-05-25T23:40:31Z</updated>
+	<published>2016-05-25T23:40:31Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -272,124 +272,6 @@
 
 </entry>
 <entry>
-	<title>qpdfview</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-05-24T18:44:40Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>UpLib</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-05-24T18:44:40Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -405,7 +287,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
+	<published>2016-05-25T23:40:31Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1132,7 +1014,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-05-24T18:44:40Z</published>
+	<published>2016-05-25T23:40:31Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1168,6 +1050,124 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>UpLib</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-05-25T23:40:31Z</updated>
+	<published>2016-05-25T23:40:31Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>qpdfview</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-05-25T23:40:31Z</updated>
+	<published>2016-05-25T23:40:31Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
 
 	</content>
 
