@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Thu, 09 Jun 2016 06:33:29 +0000</pubDate>
 <item>
-	<title>SumatraPDF</title>
+	<title>Nitro Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
 
 
 
@@ -41,11 +41,11 @@
 
 </item>
 <item>
-	<title>Nitro Reader</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
@@ -131,7 +131,7 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -172,67 +172,6 @@
 
 </item>
 <item>
-	<title>Okular</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
-	<dcterms:modified>2016-05-25T23:40:31Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Evince</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
@@ -244,7 +183,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -965,7 +904,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
 	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
 
 
@@ -1017,8 +956,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
-	<dcterms:modified>2016-05-25T23:40:31Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
+	<dcterms:modified>2016-05-28T02:46:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1043,6 +982,67 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
+	<title>Okular</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
+	<dcterms:modified>2016-05-28T02:46:43Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>qpdfview</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
@@ -1054,8 +1054,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Wed, 25 May 2016 23:40:31 +0000</pubDate>
-	<dcterms:modified>2016-05-25T23:40:31Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
+	<dcterms:modified>2016-05-28T02:46:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
