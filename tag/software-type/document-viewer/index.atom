@@ -145,66 +145,6 @@
 
 </entry>
 <entry>
-	<title>PDF.js</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -220,7 +160,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
+	<published>2016-05-28T17:45:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -932,107 +872,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Utopia Documents</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>UpLib</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-05-28T02:46:43Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Okular</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/okular/</id>
@@ -1047,8 +886,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-28T02:46:43Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
+	<updated>2016-05-28T17:45:07Z</updated>
+	<published>2016-05-28T17:45:07Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1100,6 +939,167 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>UpLib</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-05-28T17:45:07Z</updated>
+	<published>2016-05-28T17:45:07Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>PDF.js</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-06-09T06:33:29Z</updated>
+	<published>2016-05-28T17:45:07Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Utopia Documents</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/utopia-documents/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-06-06T02:24:40Z</updated>
+	<published>2016-05-28T17:45:07Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>qpdfview</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
@@ -1114,8 +1114,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-05-28T02:46:43Z</updated>
-	<published>2016-05-28T02:46:43Z</published>
+	<updated>2016-05-28T17:45:07Z</updated>
+	<published>2016-05-28T17:45:07Z</published>
 
 
 	<content type="html" xml:lang="en">
