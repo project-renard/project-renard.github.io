@@ -10,60 +10,6 @@
 <generator>ikiwiki</generator>
 <pubDate>Thu, 09 Jun 2016 06:33:29 +0000</pubDate>
 <item>
-	<title>PDF.js</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Sat, 28 May 2016 17:45:07 +0000</pubDate>
-	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>MuPDF</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
@@ -75,8 +21,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 28 May 2016 17:45:07 +0000</pubDate>
-	<dcterms:modified>2016-05-28T17:45:07Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 19:41:04 +0000</pubDate>
+	<dcterms:modified>2016-05-28T19:41:04Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -112,8 +58,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 28 May 2016 17:45:07 +0000</pubDate>
-	<dcterms:modified>2016-05-28T17:45:07Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 19:41:04 +0000</pubDate>
+	<dcterms:modified>2016-05-28T19:41:04Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -151,8 +97,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 28 May 2016 17:45:07 +0000</pubDate>
-	<dcterms:modified>2016-05-28T17:45:07Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 19:41:04 +0000</pubDate>
+	<dcterms:modified>2016-05-28T19:41:04Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -169,6 +115,60 @@
 
 
 
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>PDF.js</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Sat, 28 May 2016 19:41:04 +0000</pubDate>
+	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
