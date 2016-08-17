@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Thu, 09 Jun 2016 06:33:29 +0000</pubDate>
 <item>
-	<title>SumatraPDF</title>
+	<title>Nitro Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
 
 
 
@@ -41,11 +41,11 @@
 
 </item>
 <item>
-	<title>Nitro Reader</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
@@ -118,6 +118,58 @@
 
 </item>
 <item>
+	<title>Utopia Documents</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
+	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>UpLib</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
@@ -129,8 +181,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
-	<dcterms:modified>2016-05-28T20:10:31Z</dcterms:modified>
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
+	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -155,6 +207,136 @@
 
 </item>
 <item>
+	<title>Okular</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
+	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>qpdfview</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
+	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Evince</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
@@ -166,7 +348,7 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -876,75 +1058,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>qpdfview</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
-	<dcterms:modified>2016-05-28T20:10:31Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>PDF.js</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
@@ -958,7 +1071,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
+	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -988,119 +1101,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
         &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
             &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Okular</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
-	<dcterms:modified>2016-05-28T20:10:31Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Utopia Documents</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Sat, 28 May 2016 20:10:31 +0000</pubDate>
-	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
