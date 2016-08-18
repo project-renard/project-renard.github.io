@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
+<pubDate>Tue, 31 May 2016 02:50:56 +0000</pubDate>
 <item>
 	<title>Mendeley</title>
 
@@ -23,8 +23,8 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
-	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
+	<pubDate>Tue, 31 May 2016 02:50:56 +0000</pubDate>
+	<dcterms:modified>2016-05-31T02:50:56Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -64,45 +64,6 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Paperpile (older version)</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
-	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Paperpile</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
@@ -116,8 +77,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Sat, 28 May 2016 05:29:23 +0000</pubDate>
-	<dcterms:modified>2016-05-28T05:29:23Z</dcterms:modified>
+	<pubDate>Tue, 31 May 2016 02:50:56 +0000</pubDate>
+	<dcterms:modified>2016-05-31T02:50:56Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -152,6 +113,45 @@ distributed as a Chrome extension. It is tightly integrated with Google Apps
 services such as Google Docs and Google Drive. This allows for easy cloud
 storage and sharing of bibliography information with collaborators from inside
 a real-time collaborative editor.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Paperpile (older version)</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Tue, 31 May 2016 02:50:56 +0000</pubDate>
+	<dcterms:modified>2016-05-31T02:50:56Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
