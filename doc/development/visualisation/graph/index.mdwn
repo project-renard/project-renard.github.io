@@ -8,6 +8,10 @@
 ## Software
 
 - GraphViz
+  - Supplies a C library for creating and generating layouts.
+  - [[http://www.graphviz.org/Documentation.php|Documentation]]
+    - [[http://www.graphviz.org/pdf/Agraph.pdf|Cgraph library tutorial]]
+    - [[http://www.graphviz.org/doc/libguide/libguide.pdf|Using Graphviz as a library (cgraph version)]]
 - NetworkX
 - <http://www.ogdf.net/doku.php>
 - <http://tulip.labri.fr/TulipDrupal/>
