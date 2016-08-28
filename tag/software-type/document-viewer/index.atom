@@ -93,11 +93,11 @@
 
 </entry>
 <entry>
-	<title>Foxit Reader</title>
+	<title>PDF.js</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/foxit-reader/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/foxit-reader/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
 
 
 
@@ -105,6 +105,8 @@
 
 
 	<category term="software-type/document-viewer" />
+
+	<category term="software-type/library" />
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
@@ -115,10 +117,16 @@
 	&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -130,14 +138,89 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>qpdfview</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2016-06-07T00:50:21Z</updated>
+	<published>2016-06-07T00:50:21Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
 
 	</content>
 
@@ -160,7 +243,7 @@
 
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
+	<published>2016-06-07T00:50:21Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -872,11 +955,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>PDF.js</title>
+	<title>Foxit Reader</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/foxit-reader/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/foxit-reader/"/>
 
 
 
@@ -885,27 +968,19 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 	<category term="software-type/document-viewer" />
 
-	<category term="software-type/library" />
-
 
 	<updated>2016-06-09T06:33:29Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
+	<published>2016-06-07T00:50:21Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -917,8 +992,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -946,8 +1021,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
+	<updated>2016-06-07T00:50:21Z</updated>
+	<published>2016-06-07T00:50:21Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -999,11 +1074,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>qpdfview</title>
+	<title>UpLib</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/qpdfview/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/qpdfview/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
 
 
 
@@ -1013,8 +1088,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
+	<updated>2016-06-07T00:50:21Z</updated>
+	<published>2016-06-07T00:50:21Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1024,7 +1099,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1032,41 +1107,9 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
 
 	</content>
 
@@ -1088,8 +1131,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
+	<updated>2016-06-07T00:50:21Z</updated>
+	<published>2016-06-07T00:50:21Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1122,49 +1165,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>UpLib</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2016-06-06T02:24:40Z</updated>
-	<published>2016-06-06T02:24:40Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
 
 &lt;/table&gt;
 &lt;/div&gt;
