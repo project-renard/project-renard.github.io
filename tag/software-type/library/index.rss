@@ -10,6 +10,45 @@
 <generator>ikiwiki</generator>
 <pubDate>Thu, 09 Jun 2016 06:33:29 +0000</pubDate>
 <item>
+	<title>Poppler</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Mon, 06 Jun 2016 02:24:40 +0000</pubDate>
+	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>PDF.js</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
@@ -23,7 +62,7 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 31 May 2016 16:07:22 +0000</pubDate>
+	<pubDate>Mon, 06 Jun 2016 02:24:40 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -75,8 +114,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 31 May 2016 16:07:22 +0000</pubDate>
-	<dcterms:modified>2016-05-31T16:07:22Z</dcterms:modified>
+	<pubDate>Mon, 06 Jun 2016 02:24:40 +0000</pubDate>
+	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -101,45 +140,6 @@
 
 </item>
 <item>
-	<title>Poppler</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Tue, 31 May 2016 16:07:22 +0000</pubDate>
-	<dcterms:modified>2016-05-31T16:07:22Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>MuPDF</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
@@ -151,8 +151,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 31 May 2016 16:07:22 +0000</pubDate>
-	<dcterms:modified>2016-05-31T16:07:22Z</dcterms:modified>
+	<pubDate>Mon, 06 Jun 2016 02:24:40 +0000</pubDate>
+	<dcterms:modified>2016-06-06T02:24:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
