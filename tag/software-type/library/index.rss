@@ -23,7 +23,7 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 07 Jun 2016 00:50:21 +0000</pubDate>
+	<pubDate>Thu, 09 Jun 2016 06:18:37 +0000</pubDate>
 	<dcterms:modified>2016-06-09T06:33:29Z</dcterms:modified>
 
 
@@ -75,8 +75,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 07 Jun 2016 00:50:21 +0000</pubDate>
-	<dcterms:modified>2016-06-07T00:50:21Z</dcterms:modified>
+	<pubDate>Thu, 09 Jun 2016 06:18:37 +0000</pubDate>
+	<dcterms:modified>2016-06-09T06:18:37Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -86,43 +86,6 @@
 &lt;tr&gt;
     &lt;td&gt;
 &lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>LibHaru</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Tue, 07 Jun 2016 00:50:21 +0000</pubDate>
-	<dcterms:modified>2016-06-07T00:50:21Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -149,8 +112,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Tue, 07 Jun 2016 00:50:21 +0000</pubDate>
-	<dcterms:modified>2016-06-07T00:50:21Z</dcterms:modified>
+	<pubDate>Thu, 09 Jun 2016 06:18:37 +0000</pubDate>
+	<dcterms:modified>2016-06-09T06:18:37Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -172,6 +135,43 @@
 &lt;/div&gt;
 
 &lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>LibHaru</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Thu, 09 Jun 2016 06:18:37 +0000</pubDate>
+	<dcterms:modified>2016-06-09T06:18:37Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
