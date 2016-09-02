@@ -1,0 +1,12 @@
+[[!map pages="* and ! */* " show=title]]
+
+- Parsey and SyntaxNet
+  - Google Research Blog
+    - [[Announcing SyntaxNet: The World’s Most Accurate Parser Goes Open Source|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]]
+    - [[Meet Parsey’s Cousins: Syntax for 40 languages, plus new SyntaxNet capabilities|https://research.googleblog.com/2016/08/meet-parseys-cousins-syntax-for-40.html]]
+
+- Question answering
+  - [[GitHub - brmson/yodaqa: A Question Answering system built on top of the Apache UIMA framework.|https://github.com/brmson/yodaqa]]
+  - [[openQA - Open Question Answering Framework|http://openqa.aksw.org/]]
+  - [[Quepy: A Python framework to transform natural language questions to queries.|http://quepy.machinalis.com/]]
+  - [[GitHub - bwbaugh/causeofwhy: The goal of this project is to implement a Question Answering (QA) system that answers causal type questions. We use Wikipedia as a knowledge base, extracting answers to user questions from the articles.|https://github.com/bwbaugh/causeofwhy]]
