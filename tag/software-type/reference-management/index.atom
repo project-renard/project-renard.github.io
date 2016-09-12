@@ -78,51 +78,6 @@
 
 </entry>
 <entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Paperpile</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
@@ -139,8 +94,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -183,11 +138,11 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Qiqqa</title>
+	<title>EndNote</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
 
 
 
@@ -197,8 +152,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -208,7 +163,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -220,8 +175,60 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Zotero</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -249,8 +256,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -303,6 +310,110 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </entry>
 <entry>
+	<title>Qiqqa</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Papers</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Mendeley</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
@@ -319,8 +430,8 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -363,110 +474,6 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>EndNote</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Papers</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>JabRef</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
@@ -481,8 +488,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -519,22 +526,24 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Zotero</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-06-22T06:34:01Z</updated>
-	<published>2016-06-22T06:34:01Z</published>
+	<updated>2016-06-22T06:52:53Z</updated>
+	<published>2016-06-22T06:52:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -544,7 +553,7 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -552,15 +561,6 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
