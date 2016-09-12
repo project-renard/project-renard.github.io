@@ -21,7 +21,7 @@
       - Link to annotations from other documents or annotations
         - Each annotation should have a unique identifier
         - Linking can either be
-          - a reference (e.g., "see figure 2 in [42") or
+          - a reference (e.g., "see figure 2 in [42]") or
           - a direct inclusion (e.g., inline display of the figure with a
             link to original document)
 - Goal: Should be able to extract information from the document
