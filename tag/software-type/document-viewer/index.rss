@@ -8,7 +8,44 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+<item>
+	<title>UpLib</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
 <item>
 	<title>PDF.js</title>
 
@@ -23,8 +60,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -64,67 +101,6 @@
 
 </item>
 <item>
-	<title>Okular</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
 	<title>qpdfview</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
@@ -136,8 +112,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -194,19 +170,19 @@
 
 </item>
 <item>
-	<title>UpLib</title>
+	<title>Utopia Documents</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -215,7 +191,14 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -223,6 +206,14 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -242,8 +233,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -277,6 +268,67 @@
 
 </item>
 <item>
+	<title>Okular</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Evince</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
@@ -288,8 +340,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -998,37 +1050,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Nitro Reader</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>SumatraPDF</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
@@ -1040,8 +1061,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1060,50 +1081,29 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Utopia Documents</title>
+	<title>Nitro Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 09:24:13 +0000</pubDate>
+	<dcterms:modified>2016-06-24T09:24:13Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
