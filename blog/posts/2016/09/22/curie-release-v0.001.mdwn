@@ -1,7 +1,21 @@
 [[!meta title="Curie release v0.001"]]
 [[!meta author="zaki"]]
-[[!meta description="The first release of the Curie document reader"]]
+[[!meta link="/blog/posts/2016/09/22/gfx/curie-v0.001-ways-of-colouring.png" rel="image_src"]]
+[[!meta description="The first release of the Curie document reader.
+[[!img gfx/curie-v0.001-ways-of-colouring.png]]
+"]]
 
-TODO
+[[!img gfx/curie-v0.001-ways-of-colouring.png caption="""Curie GUI displaying an exerpt from [[Ways of coloring: Comparative color vision as a case study for cognitive science|http://dx.doi.org/10.1017/S0140525X00067248]]"""]]
+
+Curie, named after Marie Curie, is the first released component of Project
+Renard. It is an application for reading and navigating documents.
+This first release is a typical document reader. It allows for
+
+  - opening PDF files,
+  - moving between pages using buttons,
+  - moving to a specific page number, and
+  - navigation via an outline if the PDF file contains one.
+
+
 
 [[!tag release]]
