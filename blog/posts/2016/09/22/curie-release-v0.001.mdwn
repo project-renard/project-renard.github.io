@@ -1,11 +1,11 @@
 [[!meta title="Curie release v0.001"]]
 [[!meta author="zaki"]]
 [[!meta link="/blog/posts/2016/09/22/gfx/curie-v0.001-ways-of-colouring.png" rel="image_src"]]
-[[!meta description_img="/blog/posts/2016/09/22/gfx/curie-v0.001-ways-of-colouring.png"]]
-[[!meta description="The first release of the Curie document reader."]]
+[[!meta description="The Curie document reader says 'Hello, world!'."]]
 
-<iframe src="https://player.vimeo.com/video/183896234" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/183896234">Project Renard Curie v0.001 release demo</a> from <a href="https://vimeo.com/zmughal">Zaki Mughal</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+[[!img gfx/curie-v0.001-ways-of-colouring.png caption="""Curie GUI displaying an exerpt from [[Ways of coloring: Comparative color vision as a case study for cognitive science|http://dx.doi.org/10.1017/S0140525X00067248]]"""
+size="400x"
+]]
 
 Curie, named after Marie Curie, is the first released component of Project
 Renard. It is an application for reading and navigating documents.
@@ -16,9 +16,10 @@ This first release is a typical document reader. It allows for
   - moving to a specific page number, and
   - navigation via an outline if the PDF file contains one.
 
-[[!img gfx/curie-v0.001-ways-of-colouring.png caption="""Curie GUI displaying an exerpt from [[Ways of coloring: Comparative color vision as a case study for cognitive science|http://dx.doi.org/10.1017/S0140525X00067248]]"""
-size="400x"
-]]
+Watch the video below for a demo:
+
+<iframe src="https://player.vimeo.com/video/183896234" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/183896234">Project Renard Curie v0.001 release demo</a> from <a href="https://vimeo.com/zmughal">Zaki Mughal</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 [[!tag release]]
