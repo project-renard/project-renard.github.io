@@ -8,7 +8,274 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+<item>
+	<title>PDF.js</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Okular</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>qpdfview</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>UpLib</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Foxit Reader</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Evince</title>
 
@@ -21,8 +288,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -731,74 +998,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>SumatraPDF</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>UpLib</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Nitro Reader</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
@@ -810,8 +1009,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -830,62 +1029,32 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Okular</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
 
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
 
 
@@ -902,8 +1071,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:36 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:36Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -932,175 +1101,6 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
         &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
             &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Foxit Reader</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>qpdfview</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>PDF.js</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
