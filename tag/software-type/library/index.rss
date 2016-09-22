@@ -8,38 +8,30 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 24 Jun 2016 06:19:32 +0000</pubDate>
+<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
 <item>
-	<title>PDF.js</title>
+	<title>Poppler</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
 
 
-
-	<category>software-type/document-viewer</category>
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:32 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:32Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -47,18 +39,11 @@
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
@@ -75,8 +60,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:32 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:32Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -112,8 +97,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:32 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:32Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -138,28 +123,36 @@
 
 </item>
 <item>
-	<title>Poppler</title>
+	<title>PDF.js</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
 
 
+
+	<category>software-type/document-viewer</category>
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:32 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:32Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -168,10 +161,17 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 

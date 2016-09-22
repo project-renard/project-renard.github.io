@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>Blog</title>
+<link>http://project-renard.github.io//blog/</link>
+
+<description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 22 Sep 2016 19:16:08 +0000</pubDate>
+<item>
+	<title>Curie release v0.001</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//blog/posts/2016/09/22/curie-release-v0.001/</guid>
+
+	<link>http://project-renard.github.io//blog/posts/2016/09/22/curie-release-v0.001/</link>
+
+	<dc:creator>zaki</dc:creator>
+
+
+
+	<category>release</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 19:16:08 +0000</pubDate>
+	<dcterms:modified>2016-09-22T19:16:08Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;TODO&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
