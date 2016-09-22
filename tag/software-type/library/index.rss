@@ -8,7 +8,44 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
+<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+<item>
+	<title>MuPDF</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Poppler</title>
 
@@ -21,8 +58,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -49,80 +86,6 @@
 
 </item>
 <item>
-	<title>LibHaru</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>MuPDF</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>PDF.js</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
@@ -136,8 +99,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 24 Jun 2016 06:19:33 +0000</pubDate>
-	<dcterms:modified>2016-06-24T06:19:33Z</dcterms:modified>
+	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -169,6 +132,43 @@
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>LibHaru</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Fri, 24 Jun 2016 06:19:35 +0000</pubDate>
+	<dcterms:modified>2016-06-24T06:19:35Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
 
 &lt;/table&gt;
 &lt;/div&gt;
