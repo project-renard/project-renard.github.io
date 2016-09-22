@@ -1,0 +1,5 @@
+Here is a full list of posts to this [[section|/blog]].
+
+[[!inline pages="page(blog/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*"
+template=inlinepage
+archive=yes feedshow=10 quick=yes]]

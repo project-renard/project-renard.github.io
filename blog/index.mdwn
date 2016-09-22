@@ -1,0 +1,10 @@
+[[!meta title="Blog"]]
+
+[[!if test="enabled(sidebar)" then="""
+[[!sidebar]]
+""" else="""
+[[!inline pages=sidebar raw=yes]]
+"""]]
+
+[[!inline pages="page(blog/posts/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*" show="10"
+actions=yes rootpage="posts" trail=yes]]
