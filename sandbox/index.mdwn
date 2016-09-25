@@ -41,7 +41,7 @@ Formatting is in Markdown.
    behind the latest version?
 
 6. Is there any remote desktop protocol for a headless VM? I'm using
-   a OS X Vagrant box <https://atlas.hashicorp.com/AndrewDry…/boxes/vagrant-box-osx>. All
+   a OS X Vagrant box <https://atlas.hashicorp.com/AndrewDryga/boxes/vagrant-box-osx>. All
    my GUI tests work fine, but I can't see the GUI. I need to be able
    to start it from the terminal --- VNC would be great.
 
