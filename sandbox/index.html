@@ -145,15 +145,16 @@ to start it from the terminal --- VNC would be great.</p></li>
 </ol>
 
 <blockquote>
-  <p>osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes</p>
+  <p>```
+  osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes</p>
   
   <p>then do
   host $ vagrant ssh -- -L5908:localhost:5900</p>
   
   <p>host $ xvnc4viewer :8
-  [password: secret]</p>
-  
-  <p>via <a href="http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc">http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc</a></p>
+  [password: secret]
+  ```
+  via <a href="http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc">http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc</a></p>
 </blockquote>
 
 <hr />
@@ -192,8 +193,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 25 Sep 2016 08:31:35 PM UTC</span>
-<!-- Created <span class="date">Fri 29 Jul 2016 08:19:01 AM UTC</span> -->
+Last edited <span class="date">Mon 26 Sep 2016 06:57:26 PM UTC</span>
+<!-- Created <span class="date">Sat 30 Jul 2016 05:10:40 PM UTC</span> -->
 </div>
 
 </div>

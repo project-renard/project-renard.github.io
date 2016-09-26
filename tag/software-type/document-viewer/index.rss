@@ -8,21 +8,52 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
+<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
 <item>
-	<title>Utopia Documents</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>UpLib</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -31,14 +62,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -46,14 +70,6 @@
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -73,8 +89,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -121,8 +137,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -173,8 +189,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -223,75 +239,6 @@
 
 </item>
 <item>
-	<title>qpdfview</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Evince</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
@@ -303,8 +250,8 @@
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1013,6 +960,127 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
+	<title>Utopia Documents</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>qpdfview</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Nitro Reader</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
@@ -1024,81 +1092,13 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
+	<pubDate>Sat, 30 Jul 2016 17:10:40 +0000</pubDate>
+	<dcterms:modified>2016-07-30T17:10:40Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>SumatraPDF</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>UpLib</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 29 Jul 2016 08:19:01 +0000</pubDate>
-	<dcterms:modified>2016-07-29T08:19:01Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
