@@ -123,7 +123,22 @@ Sandbox
 <ol>
 <li><p>Which package format is preferred for distributing a GUI
 application for non-developers? What's the technical difference
-between .dmg, .pkg, and .app?</p></li>
+between .dmg, .pkg, and .app?</p>
+
+<ul>
+<li>.dmg is a disk image,</li>
+<li>.pkg is an installer+archive, and</li>
+<li><p>.app is a directory w/ a particular structure that macOS expects applications to have/use</p></li>
+<li><p>.app is the application itself</p></li>
+<li>use .dmg if you want to distribute an app and don't need installation scripts</li>
+<li>use .pkg if you need installation scripts</li>
+<li>common pattern: put .app inside .dmg along with a shortcut that can be
+dragged to Applications</li>
+<li>PostgreSQL distributes as a .dmg for standalone installation and a .zip
+for inclusion in other projects <a href="https://www.postgresql.org/download/macosx/">https://www.postgresql.org/download/macosx/</a>.</li>
+<li>Use <code>hdiutil</code> to create .dmg <a href="https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory">https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory</a>.</li>
+<li>Or this tool that creates icons <a href="https://github.com/andreyvit/create-dmg">https://github.com/andreyvit/create-dmg</a>.</li>
+</ul></li>
 <li><p>Has anyone here turned homebrew formulae into a package? I'm
 using timsutton/brew-pkg for .pkg right now and it doesn't appear to
 work properly in this VM that I have (not all files are in the
@@ -133,7 +148,9 @@ deps.</p></li>
 don't get affected by the rest of the system libraries? Or should I
 relocate the homebrew prefix before installing and install there?</p></li>
 <li><p>What about if the application is a script with many libraries?
-This seems like it would help <a href="http://sveinbjorn.org/platypus">http://sveinbjorn.org/platypus</a>.</p></li>
+This seems like it would help <a href="http://sveinbjorn.org/platypus">http://sveinbjorn.org/platypus</a>.</p>
+
+<p>This script uses Platypus for Perl <a href="https://github.com/miyagawa/perl-app-builder/blob/master/perl-app-builder.pl">https://github.com/miyagawa/perl-app-builder/blob/master/perl-app-builder.pl</a>.</p></li>
 <li><p>Does it matter which version of macOS I build the package on?
 Will that effect my ability to distribute it to older versions of
 macOS? Which macOS version does it make sense to target? N releases
@@ -193,8 +210,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 26 Sep 2016 06:57:26 PM UTC</span>
-<!-- Created <span class="date">Sat 30 Jul 2016 05:10:40 PM UTC</span> -->
+Last edited <span class="date">Tue 27 Sep 2016 04:05:19 PM UTC</span>
+<!-- Created <span class="date">Mon 01 Aug 2016 07:33:19 PM UTC</span> -->
 </div>
 
 </div>
