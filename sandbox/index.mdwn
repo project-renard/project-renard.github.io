@@ -34,6 +34,7 @@ Formatting is in Markdown.
    - PostgreSQL distributes as a .dmg for standalone installation and a .zip
      for inclusion in other projects <https://www.postgresql.org/download/macosx/>.
    - Use `hdiutil` to create .dmg <https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory>.
+   - Or this tool that creates icons <https://github.com/andreyvit/create-dmg>.
 
 2. Has anyone here turned homebrew formulae into a package? I'm
    using timsutton/brew-pkg for .pkg right now and it doesn't appear to
@@ -47,6 +48,8 @@ Formatting is in Markdown.
 
 4. What about if the application is a script with many libraries?
    This seems like it would help <http://sveinbjorn.org/platypus>.
+
+   This script uses Platypus for Perl <https://github.com/miyagawa/perl-app-builder/blob/master/perl-app-builder.pl>.
 
 5. Does it matter which version of macOS I build the package on?
    Will that effect my ability to distribute it to older versions of
