@@ -22,6 +22,19 @@ Formatting is in Markdown.
    application for non-developers? What's the technical difference
    between .dmg, .pkg, and .app?
 
+   - .dmg is a disk image,
+   - .pkg is an installer+archive, and
+   - .app is a directory w/ a particular structure that macOS expects applications to have/use
+
+   - .app is the application itself
+   - use .dmg if you want to distribute an app and don't need installation scripts
+   - use .pkg if you need installation scripts
+   - common pattern: put .app inside .dmg along with a shortcut that can be
+     dragged to Applications
+   - PostgreSQL distributes as a .dmg for standalone installation and a .zip
+     for inclusion in other projects <https://www.postgresql.org/download/macosx/>.
+   - Use `hdiutil` to create .dmg <https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory>.
+
 2. Has anyone here turned homebrew formulae into a package? I'm
    using timsutton/brew-pkg for .pkg right now and it doesn't appear to
    work properly in this VM that I have (not all files are in the
