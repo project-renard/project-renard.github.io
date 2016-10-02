@@ -147,21 +147,20 @@ behind the latest version?</p></li>
 <li><p>Is there any remote desktop protocol for a headless VM? I'm using
 a OS X Vagrant box <a href="https://atlas.hashicorp.com/AndrewDryga/boxes/vagrant-box-osx">https://atlas.hashicorp.com/AndrewDryga/boxes/vagrant-box-osx</a>. All
 my GUI tests work fine, but I can't see the GUI. I need to be able
-to start it from the terminal --- VNC would be great.</p></li>
-</ol>
+to start it from the terminal --- VNC would be great.</p>
 
-<blockquote>
-  <p>```
-  osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes</p>
-  
-  <p>then do
-  host $ vagrant ssh -- -L5908:localhost:5900</p>
-  
-  <p>host $ xvnc4viewer :8
-  [password: secret]
-  ```
-  via <a href="http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc">http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc</a></p>
-</blockquote>
+<p>```
+osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes</p>
+
+<p>then do
+host $ vagrant ssh -- -L5908:localhost:5900</p>
+
+<p>host $ xvnc4viewer :8
+[password: secret]
+```</p>
+
+<p>via <a href="http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc">http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc</a></p></li>
+</ol>
 
 </div>
 
@@ -189,7 +188,7 @@ to start it from the terminal --- VNC would be great.</p></li>
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 02 Oct 2016 03:25:02 AM UTC</span>
+Last edited <span class="date">Sun 02 Oct 2016 05:21:53 PM UTC</span>
 <!-- Created <span class="date">Sun 02 Oct 2016 03:25:02 AM UTC</span> -->
 </div>
 
