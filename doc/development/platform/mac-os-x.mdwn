@@ -45,13 +45,14 @@
    my GUI tests work fine, but I can't see the GUI. I need to be able
    to start it from the terminal --- VNC would be great.
 
-> ```
-> osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes
-> 
-> then do
-> host $ vagrant ssh -- -L5908:localhost:5900
->
-> host $ xvnc4viewer :8
-> [password: secret]
-> ```
-> via <http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc>
+   ```
+   osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes
+   
+   then do
+   host $ vagrant ssh -- -L5908:localhost:5900
+   
+   host $ xvnc4viewer :8
+   [password: secret]
+   ```
+
+   via <http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc>
