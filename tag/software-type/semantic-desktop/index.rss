@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged software-type/semantic-desktop</title>
+<link>http://project-renard.github.io//tag/software-type/semantic-desktop/</link>
+
+<description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 04 Oct 2016 12:35:33 +0000</pubDate>
+<item>
+	<title>DeepaMehta</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/deepamehta/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/deepamehta/</link>
+
+
+
+	<category>software-type/semantic-desktop</category>
+
+
+	<pubDate>Tue, 04 Oct 2016 12:35:33 +0000</pubDate>
+	<dcterms:modified>2016-10-04T12:35:33Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.deepamehta.de/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

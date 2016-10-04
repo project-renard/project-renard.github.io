@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged software-type/semantic-desktop</title>
+<link href="http://project-renard.github.io//tag/software-type/semantic-desktop/"/>
+<link href="http://project-renard.github.io//tag/software-type/semantic-desktop/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//tag/software-type/semantic-desktop/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2016-10-04T12:35:33Z</updated>
+<entry>
+	<title>DeepaMehta</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/deepamehta/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/deepamehta/"/>
+
+
+
+
+
+
+	<category term="software-type/semantic-desktop" />
+
+
+	<updated>2016-10-04T12:35:33Z</updated>
+	<published>2016-10-04T12:35:33Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.deepamehta.de/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>
