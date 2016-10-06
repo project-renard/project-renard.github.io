@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 04 Oct 2016 12:35:33 +0000</pubDate>
+<pubDate>Thu, 06 Oct 2016 20:09:10 +0000</pubDate>
 <item>
 	<title>DeepaMehta</title>
 
@@ -22,7 +22,7 @@
 
 
 	<pubDate>Tue, 04 Oct 2016 12:35:33 +0000</pubDate>
-	<dcterms:modified>2016-10-04T12:35:33Z</dcterms:modified>
+	<dcterms:modified>2016-10-06T20:09:10Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -51,6 +51,15 @@
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Provides a web-interface for navigating a graph.&lt;/li&gt;
+&lt;li&gt;Allows for the creation of plugins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;/h1&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
 </description>
 
 
