@@ -5,5 +5,11 @@ ExternalScreenshot: http://www.deepamehta.de/sites/default/files/swe-book-800.pn
 ---
 [[!ftemplate id=tool]]
 
+- Provides a web-interface for navigating a graph.
+- Allows for the creation of plugins
+
+# Plugins
+
+TODO
 
 [[!tag software-type/semantic-desktop]]
