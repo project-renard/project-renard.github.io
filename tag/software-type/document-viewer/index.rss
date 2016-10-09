@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
 <item>
-	<title>UpLib</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
@@ -28,12 +28,6 @@
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
 &lt;table&gt;
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -85,91 +79,6 @@
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>PDF.js</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
-	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Nitro Reader</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
-	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -1012,6 +921,37 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
+	<title>Nitro Reader</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
+	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>qpdfview</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
@@ -1081,11 +1021,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>SumatraPDF</title>
+	<title>UpLib</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
 
 
 
@@ -1100,10 +1040,70 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 &lt;table&gt;
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>PDF.js</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
+	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;

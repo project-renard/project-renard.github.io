@@ -10,37 +10,6 @@
 <generator>ikiwiki</generator>
 <pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
 <item>
-	<title>Microsoft Word</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/microsoft-word/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/microsoft-word/</link>
-
-
-
-	<category>software-type/word-processor</category>
-
-
-	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
-	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>AbiWord</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/abiword/</guid>
@@ -92,6 +61,37 @@
 &lt;p&gt;AbiWord is a word processor. It is written using Gtk+3 and provides an
 embeddable widget called &lt;a href=&quot;http://www.abisource.com/wiki/AbiWidget&quot;&gt;AbiWidget&lt;/a&gt;
 that can be loaded into other Gtk+3 applications.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Microsoft Word</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/microsoft-word/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/microsoft-word/</link>
+
+
+
+	<category>software-type/word-processor</category>
+
+
+	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
+	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 

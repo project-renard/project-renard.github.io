@@ -19,6 +19,49 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2016-08-28T18:07:38Z</updated>
 <entry>
+	<title>LibHaru</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/libharu/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-08-28T18:07:38Z</updated>
+	<published>2016-08-28T18:07:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Poppler</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/poppler/</id>
@@ -57,6 +100,49 @@
 &lt;/div&gt;
 
 &lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>MuPDF</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2016-08-28T18:07:38Z</updated>
+	<published>2016-08-28T18:07:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 
@@ -114,92 +200,6 @@
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>LibHaru</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/libharu/"/>
-
-
-
-
-
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>MuPDF</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
-
-
-
-
-
-
-	<category term="software-type/library" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
 
 &lt;/table&gt;
 &lt;/div&gt;
