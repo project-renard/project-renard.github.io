@@ -138,16 +138,18 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Papers</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
@@ -163,7 +165,7 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -171,15 +173,6 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -242,11 +235,11 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Zotero</title>
+	<title>Papers</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
 
 
 
@@ -267,7 +260,7 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -279,8 +272,60 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>JabRef</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-08-28T18:07:38Z</updated>
+	<published>2016-08-28T18:07:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -406,18 +451,16 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Paperpile (older version)</title>
+	<title>Zotero</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
@@ -433,7 +476,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -441,6 +484,15 @@ a real-time collaborative editor.&lt;/p&gt;
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -512,58 +564,6 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 &lt;p&gt;Docear&#39;s mindmapping component is based upon the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freeplane/&quot;&gt;Freeplane&lt;/a&gt; tool which in
 turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>JabRef</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
 
 	</content>
 
