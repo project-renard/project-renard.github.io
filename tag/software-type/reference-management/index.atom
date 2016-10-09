@@ -78,56 +78,11 @@
 
 </entry>
 <entry>
-	<title>Paperpile (older version)</title>
+	<title>Qiqqa</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Docear</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/docear/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/docear/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
 
 
 
@@ -148,7 +103,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.docear.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -160,8 +115,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -169,21 +124,57 @@
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;youtube&quot;&gt;
- &lt;iframe width=&quot;445&quot; height=&quot;364&quot; 
-     style=&quot;border:thick ridge #222222;&quot; allowfullscreen=&quot;&quot;
-     src=&quot;http://project-renard.github.io//www.youtube-nocookie.com/embed/yDAfcSHxjbM?rel=0&quot;&gt;&lt;/iframe&gt;
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>JabRef</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-08-28T18:07:38Z</updated>
+	<published>2016-08-28T18:07:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Docear is a tool that combines reference management with mind mapping.&lt;/p&gt;
-
-&lt;p&gt;It works by taking annotations created on PDFs using a separate viewer program
-and allowing those annotations to be inserted into a mindmap along with other
-notes.  This allows for organising notes into an outline coupled with direct
-links to the papers which need to be cited.&lt;/p&gt;
-
-&lt;p&gt;Docear&#39;s mindmapping component is based upon the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freeplane/&quot;&gt;Freeplane&lt;/a&gt; tool which in
-turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
 
 	</content>
 
@@ -303,58 +294,6 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Zotero</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>EndNote</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
@@ -407,11 +346,11 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>JabRef</title>
+	<title>Zotero</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
 
 
 
@@ -432,7 +371,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -444,8 +383,8 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -459,11 +398,11 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Qiqqa</title>
+	<title>Docear</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/docear/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/docear/"/>
 
 
 
@@ -484,7 +423,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.docear.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -496,14 +435,30 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.docear.org/wp-content/uploads/2013/08/img_521cbea60cd22.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;div class=&quot;youtube&quot;&gt;
+ &lt;iframe width=&quot;445&quot; height=&quot;364&quot; 
+     style=&quot;border:thick ridge #222222;&quot; allowfullscreen=&quot;&quot;
+     src=&quot;http://project-renard.github.io//www.youtube-nocookie.com/embed/yDAfcSHxjbM?rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Docear is a tool that combines reference management with mind mapping.&lt;/p&gt;
+
+&lt;p&gt;It works by taking annotations created on PDFs using a separate viewer program
+and allowing those annotations to be inserted into a mindmap along with other
+notes.  This allows for organising notes into an outline coupled with direct
+links to the papers which need to be cited.&lt;/p&gt;
+
+&lt;p&gt;Docear&#39;s mindmapping component is based upon the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freeplane/&quot;&gt;Freeplane&lt;/a&gt; tool which in
+turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/reference-management/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
 
 	</content>
 
@@ -564,6 +519,51 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
 - &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Paperpile (older version)</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-08-28T18:07:38Z</updated>
+	<published>2016-08-28T18:07:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 

@@ -10,45 +10,6 @@
 <generator>ikiwiki</generator>
 <pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
 <item>
-	<title>Paperpile (older version)</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
-	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Paperpile</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile/</guid>
@@ -152,6 +113,45 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
 - &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Paperpile (older version)</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+
+
+
+	<category>handles-file-type/application-pdf</category>
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Sun, 28 Aug 2016 18:07:38 +0000</pubDate>
+	<dcterms:modified>2016-08-28T18:07:38Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
