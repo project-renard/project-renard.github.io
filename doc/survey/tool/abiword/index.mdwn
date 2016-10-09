@@ -3,6 +3,7 @@ Name: AbiWord
 Homepage: http://abisource.com/
 Logo: gfx/AbiWord.svg
 ExternalScreenshot: http://abisource.com/screenshots/abi-win32.jpg
+Source: https://github.com/AbiWord/abiword
 WikipediaEN: https://en.wikipedia.org/wiki/AbiWord
 ---
 [[!ftemplate id=tool]]
@@ -10,5 +11,24 @@ WikipediaEN: https://en.wikipedia.org/wiki/AbiWord
 AbiWord is a word processor. It is written using Gtk+3 and provides an
 embeddable widget called [[AbiWidget|http://www.abisource.com/wiki/AbiWidget]]
 that can be loaded into other Gtk+3 applications.
+
+It can be extended with plugins that can extend functionality. These can
+be used to add more import/export file formats.
+
+## Description
+
+- [[Screenshots of the GUI|http://abisource.com/help/en-US/tutorial/window.html]]
+- Spell-checking can use [[aspell|http://aspell.net/]], [[ispell|https://en.wikipedia.org/wiki/Ispell]], or [[enchant|http://www.abisource.com/projects/enchant/]]
+- [[Menus|http://abisource.com/help/en-US/interface/index.html]] are described in the manual
+- Bidirectional text support
+- AbiSource also hosts [[several related projects|http://abisource.com/projects/]].
+  - In particular, the [[Link Grammar|http://abisource.com/projects/link-grammar/]] natural langage parser.
+  - An unmaintained library for pen input: [[libstylus|http://abisource.com/projects/libstylus/]]
+- Collaborative editing: [[AbiCollab|http://www.abisource.com/wiki/AbiCollab]]
+
+## Ideas
+
+- Some project ideas can be found under the [[Summer of Code|http://www.abisource.com/wiki/Category:Summer_of_Code]] pages on the AbiSource wiki.
+- Others can be found as enhancement bug reports on the [[bug tracker|http://bugzilla.abisource.com/]].
 
 [[!tag software-type/word-processor]]
