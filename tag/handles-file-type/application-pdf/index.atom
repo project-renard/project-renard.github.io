@@ -17,13 +17,13 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-08-28T18:07:38Z</updated>
+<updated>2016-09-02T17:08:33Z</updated>
 <entry>
-	<title>Paperpile</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
@@ -35,8 +35,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
+	<updated>2016-09-02T17:08:33Z</updated>
+	<published>2016-09-02T17:08:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -46,7 +46,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -54,24 +54,9 @@
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 
@@ -95,8 +80,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
+	<updated>2016-09-02T17:08:33Z</updated>
+	<published>2016-09-02T17:08:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -139,11 +124,11 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Paperpile (older version)</title>
+	<title>Paperpile</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
 
 
 
@@ -155,8 +140,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
+	<updated>2016-09-02T17:08:33Z</updated>
+	<published>2016-09-02T17:08:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -166,7 +151,7 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -175,8 +160,23 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 

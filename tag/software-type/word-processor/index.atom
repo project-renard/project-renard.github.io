@@ -17,44 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-08-28T18:07:38Z</updated>
-<entry>
-	<title>Microsoft Word</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/microsoft-word/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/microsoft-word/"/>
-
-
-
-
-
-
-	<category term="software-type/word-processor" />
-
-
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
+<updated>2016-10-09T23:19:46Z</updated>
 <entry>
 	<title>AbiWord</title>
 
@@ -70,8 +33,8 @@
 	<category term="software-type/word-processor" />
 
 
-	<updated>2016-08-28T18:07:38Z</updated>
-	<published>2016-08-28T18:07:38Z</published>
+	<updated>2016-10-09T23:19:46Z</updated>
+	<published>2016-09-02T17:08:33Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -111,6 +74,68 @@
 &lt;p&gt;AbiWord is a word processor. It is written using Gtk+3 and provides an
 embeddable widget called &lt;a href=&quot;http://www.abisource.com/wiki/AbiWidget&quot;&gt;AbiWidget&lt;/a&gt;
 that can be loaded into other Gtk+3 applications.&lt;/p&gt;
+
+&lt;p&gt;It can be extended with plugins that can extend functionality. These can
+be used to add more import/export file formats.&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://abisource.com/help/en-US/tutorial/window.html&quot;&gt;Screenshots of the GUI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spell-checking can use &lt;a href=&quot;http://aspell.net/&quot;&gt;aspell&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Ispell&quot;&gt;ispell&lt;/a&gt;, or &lt;a href=&quot;http://www.abisource.com/projects/enchant/&quot;&gt;enchant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://abisource.com/help/en-US/interface/index.html&quot;&gt;Menus&lt;/a&gt; are described in the manual&lt;/li&gt;
+&lt;li&gt;Bidirectional text support&lt;/li&gt;
+&lt;li&gt;AbiSource also hosts &lt;a href=&quot;http://abisource.com/projects/&quot;&gt;several related projects&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;In particular, the &lt;a href=&quot;http://abisource.com/projects/link-grammar/&quot;&gt;Link Grammar&lt;/a&gt; natural langage parser.&lt;/li&gt;
+&lt;li&gt;An unmaintained library for pen input: &lt;a href=&quot;http://abisource.com/projects/libstylus/&quot;&gt;libstylus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Collaborative editing: &lt;a href=&quot;http://www.abisource.com/wiki/AbiCollab&quot;&gt;AbiCollab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ideas&quot;&gt;Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Some project ideas can be found under the &lt;a href=&quot;http://www.abisource.com/wiki/Category:Summer_of_Code&quot;&gt;Summer of Code&lt;/a&gt; pages on the AbiSource wiki.&lt;/li&gt;
+&lt;li&gt;Others can be found as enhancement bug reports on the &lt;a href=&quot;http://bugzilla.abisource.com/&quot;&gt;bug tracker&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Microsoft Word</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/microsoft-word/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/microsoft-word/"/>
+
+
+
+
+
+
+	<category term="software-type/word-processor" />
+
+
+	<updated>2016-09-02T17:08:33Z</updated>
+	<published>2016-09-02T17:08:33Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 
