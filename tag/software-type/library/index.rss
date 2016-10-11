@@ -8,46 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 03 Sep 2016 20:08:58 +0000</pubDate>
-<item>
-	<title>Poppler</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Sat, 03 Sep 2016 20:08:58 +0000</pubDate>
-	<dcterms:modified>2016-09-03T20:08:58Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
-</description>
-
-
-</item>
+<pubDate>Mon, 05 Sep 2016 01:02:41 +0000</pubDate>
 <item>
 	<title>PDF.js</title>
 
@@ -62,8 +23,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 03 Sep 2016 20:08:58 +0000</pubDate>
-	<dcterms:modified>2016-09-03T20:08:58Z</dcterms:modified>
+	<pubDate>Mon, 05 Sep 2016 01:02:41 +0000</pubDate>
+	<dcterms:modified>2016-09-05T01:02:41Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -103,19 +64,19 @@
 
 </item>
 <item>
-	<title>LibHaru</title>
+	<title>MuPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 03 Sep 2016 20:08:58 +0000</pubDate>
-	<dcterms:modified>2016-09-03T20:08:58Z</dcterms:modified>
+	<pubDate>Mon, 05 Sep 2016 01:02:41 +0000</pubDate>
+	<dcterms:modified>2016-09-05T01:02:41Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -124,7 +85,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -140,19 +101,19 @@
 
 </item>
 <item>
-	<title>MuPDF</title>
+	<title>Poppler</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 03 Sep 2016 20:08:58 +0000</pubDate>
-	<dcterms:modified>2016-09-03T20:08:58Z</dcterms:modified>
+	<pubDate>Mon, 05 Sep 2016 01:02:41 +0000</pubDate>
+	<dcterms:modified>2016-09-05T01:02:41Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -161,7 +122,46 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>LibHaru</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Mon, 05 Sep 2016 01:02:41 +0000</pubDate>
+	<dcterms:modified>2016-09-05T01:02:41Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+&lt;table&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
