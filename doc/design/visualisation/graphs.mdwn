@@ -5,6 +5,11 @@ cluttered. A computer can easily render a graph with many edges, but a human
 does not necessarily understand the information displayed. See [][#schraefel:2006]
 for discussion of the *Big Fat Graph* used in the semantic web.
 
+See also the discussion at <https://github.com/ipfs/dataviz/issues/4>. It talks about the software behind
+  - <https://github.com/nodesphere>,
+  - <https://github.com/core-network>,
+  - <http://dstack.org/learn-more/>.
+
 ## Large tree structure visualisation
 
 ### Resources

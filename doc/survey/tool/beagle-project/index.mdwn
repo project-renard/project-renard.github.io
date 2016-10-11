@@ -1,2 +1,87 @@
-- [[Project page|http://burntfen.com/projects/beagle/]]
-- Planning site: [[voyage|https://github.com/BeagleLab/voyage]]
+---
+Name: Beagle
+Status: Planning
+Audience: Researchers
+SoftwareForm: Browser extension (Chrome)
+Homepage: http://burntfen.com/projects/beagle/
+# from <http://burntfen.com/assets/img/projects/beagle.jpg>
+Logo: gfx/beagle.jpg
+SourceCode: https://github.com/BeagleLab/beagle
+ProgrammingLanguage: JavaScript
+---
+[[!ftemplate id=tool]]
+
+The idea behind Beagle is to create a browser plugin (like a Chrome extension)
+that can be used to share information between researchers and present that
+information alongside websites for research articles.
+
+It makes uses of other existing JS tools and web APIs such as pdf.js and Open Annotator.
+
+# Plan
+
+Planning site: [[voyage|https://github.com/BeagleLab/voyage]].
+
+- Download and save paper on current page
+  - Add data to search results (PubMed, Google Scholar)
+  - Downloading versus "starring"
+- Get paper metdata
+  - Metadata IDs: DOI, ISBN
+  - Retrieve all DOIs from a paper and allow for choosing which one is the actual DOI for that paper
+  - Generate citation: BibTeX, RIS, etc.
+  - From `<meta>`: <https://www.npmjs.com/package/protocol-parser>, <https://github.com/BeagleLab/voyage/issues/7>
+- Recording items on the page
+  - Taking a screenshot
+  - Highlighting text
+  - Annotating anything that has been highlighted
+  - Pinpoint to a line
+  - hypothes.is integration: <https://github.com/hypothesis/pdf.js-hypothes.is>
+  - Extract paper logical structure: abstract, headings, sections
+- APIs to work with
+  - [[Scopus|https://en.wikipedia.org/wiki/Scopus]]
+  - CrossRef
+  - PLoS
+    - Article Level Metrics API
+    - Search API
+  - Altmetrics
+  - Google Scholar (but avoid [[EULA problems|http://stackoverflow.com/a/7587994]]
+    - Maybe just link to pre-filled Google Scholar Search
+    - Cited by...
+  - PubMed
+    - <https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/>
+  - CiteSeer
+  - Mendeley
+  - ArXiv
+  - <http://sciencewise.info/faq>
+  - Zotero
+  - CiteULike
+  - <http://paperity.org/>
+  - <https://plot.ly/api/>
+  - <https://dev.evernote.com/doc/>
+  - <https://openaccessbutton.org/>
+  - Google Contacts API for sharing
+- Accounts: Figshare, ORCID, Slack, ResearchGate
+- Have conversation threads
+  - By sharing individual annotations, people can add to a conversation around it.
+  - The annotations and conversation threads can be linked to.
+  - Use Markdown or WYSIWYG editor
+- NLP: keyword analysis, NER, scientific terms lookup, article summarisation
+- Send PDFs and annotations to people (title, URL, attachment)
+- Some ideas from <http://jbenet.github.io/sci-nav/>.
+- Recommendation and science of science
+  - <https://github.com/titipata/science_concierge>, <http://www.scholarfy.net/>,
+  - <https://github.com/sciosci>, <http://kordinglab.com/about/>, [[meta-science analysis|http://www.nature.com/nature/journal/v489/n7415/full/489201a.html]]
+- Privacy: private, groups, public
+  - Like Google+ circles
+  - Idea: use colour codes to make it easy to distinguish.
+- Social feed for trending papers, paper suggestions, paper associations
+- Access supplementary data
+  - <http://escholarship.org/uc/item/9kf081vf>
+  - On PLOS and FigShare
+  - <https://www.dataone.org/>
+  - <http://www.re3data.org/>
+- Citation graph
+  - MS has released data <http://www.microsoft.com/en-us/research/announcing-the-microsoft-academic-graph-let-the-research-begin/>
+  - Graph of researchers <https://github.com/BeagleLab/voyage/issues/42>, <http://www.knowledgelab.org/news/detail/1.4_million_in_grants_awarded_to_metaknowledge_projects>
+    - <https://www.genealogy.math.ndsu.nodak.edu/>
+    - <http://neurotree.org/neurotree/>
+    - <http://academictree.org/>

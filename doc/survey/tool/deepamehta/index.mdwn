@@ -1,7 +1,11 @@
 ---
 Name: DeepaMehta
 Homepage: http://www.deepamehta.de/
+Status: Active
+SourceCode: https://github.com/jri/deepamehta
 ExternalScreenshot: http://www.deepamehta.de/sites/default/files/swe-book-800.png
+Logo: gfx/deepamehta-logo.png
+ProgrammingLanguage: Java
 ---
 [[!ftemplate id=tool]]
 

@@ -1,8 +1,19 @@
 ---
 Name: Chandler
+Status: Inactive
+Homepage: http://chandlerproject.org/
+SoftwareForm: Desktop GUI
+# From <http://jeffrey.skyhouseconsulting.com/pycon2008/chandler.png>
+Logo: gfx/chandler.png
+SourceCode: https://github.com/owenmorris/chandler
+WikipediaEN: https://en.wikipedia.org/wiki/Chandler_%28software%29
+ProgrammingLanguage: Python
+ExternalScreenshot: https://upload.wikimedia.org/wikipedia/commons/b/b8/Chandler_calendar_screenshot.png
 ---
 [[!ftemplate id=tool]]
 
 
 - Discussed in the book [[Dreaming in Code|http://www.dreamingincode.com/]]
 - [[YouTube channel|https://www.youtube.com/user/thechandlerproject]]
+- Mirrors of source at <https://github.com/project-renard-survey/chandler-1>, <https://github.com/project-renard-survey/chandler>.
+- [[Presentation|http://jeffrey.skyhouseconsulting.com/pycon2008/]] describing the project from Pycon2008

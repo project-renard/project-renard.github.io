@@ -1,7 +1,20 @@
 [[!meta title="<TMPL_VAR NAME="Name">"]]
 
 <div class="sidebar">
+
 <table>
+<TMPL_IF NAME="Name">
+<tr>
+    <td>
+    <center>
+        <h3>
+            <TMPL_VAR NAME="Name">
+        </h3>
+    </center>
+    </td>
+</tr>
+</TMPL_IF>
+
 <TMPL_IF NAME="Logo">
 <tr>
     <td>
@@ -13,6 +26,20 @@
 <tr>
     <td>
 [[Homepage|<TMPL_VAR NAME="Homepage">]]
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="ProgrammingLanguage">
+<tr>
+    <td>
+<b>Programming language:</b> <TMPL_VAR NAME="ProgrammingLanguage">
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="SourceCode">
+<tr>
+    <td>
+[[Source code|<TMPL_VAR NAME="SourceCode">]]
     </td>
 </tr>
 </TMPL_IF>
@@ -49,5 +76,62 @@
     </td>
 </tr>
 </TMPL_IF>
+
+<TMPL_IF NAME="AlternativeTo">
+<tr>
+    <td>
+[[AlternativeTo|<TMPL_VAR NAME="AlternativeTo">]]
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Audience">
+<tr>
+    <td>
+Audience: <TMPL_VAR NAME="Audience">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Interface">
+<tr>
+    <td>
+Interface: <TMPL_VAR NAME="Interface">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="SoftwareForm">
+<tr>
+    <td>
+Software form: <TMPL_VAR NAME="SoftwareForm">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Runs">
+<tr>
+    <td>
+Runs: <TMPL_VAR NAME="Runs">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Status">
+<tr>
+    <td>
+Status: <TMPL_VAR NAME="Status">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="WikipediaEN">
+<tr>
+    <td>
+Wikipedia (en): <TMPL_VAR NAME="WikipediaEN">
+    </td>
+</tr>
+</TMPL_IF>
+
 </table>
 </div>
