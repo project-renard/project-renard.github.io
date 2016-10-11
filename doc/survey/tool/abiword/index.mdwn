@@ -2,13 +2,15 @@
 Name: AbiWord
 Status: Active
 Runs: true
-Established: true
+EstablishedForDistribution: true
 Audience: General
 Homepage: http://abisource.com/
+SoftwareForm: Desktop GUI
 Logo: gfx/AbiWord.svg
 ExternalScreenshot: http://abisource.com/screenshots/abi-win32.jpg
-Source: https://github.com/AbiWord/abiword
+SourceCode: https://github.com/AbiWord/abiword
 WikipediaEN: https://en.wikipedia.org/wiki/AbiWord
+ProgrammingLanguage: C++
 ---
 [[!ftemplate id=tool]]
 
