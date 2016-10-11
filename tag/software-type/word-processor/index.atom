@@ -19,6 +19,79 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2016-10-11T00:59:11Z</updated>
 <entry>
+	<title>Microsoft Word</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/microsoft-word/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/microsoft-word/"/>
+
+
+
+
+
+
+	<category term="software-type/word-processor" />
+
+
+	<updated>2016-09-07T01:35:57Z</updated>
+	<published>2016-09-07T01:35:57Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Microsoft Word
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/microsoft-word/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>AbiWord</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/abiword/</id>
@@ -34,12 +107,25 @@
 
 
 	<updated>2016-10-11T00:59:11Z</updated>
-	<published>2016-09-06T04:07:11Z</published>
+	<published>2016-09-07T01:35:57Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;div class=&quot;sidebar&quot;&gt;
+
 &lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            AbiWord
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
 
 &lt;tr&gt;
     &lt;td&gt;
@@ -51,6 +137,20 @@
 &lt;tr&gt;
     &lt;td&gt;
 &lt;a href=&quot;http://abisource.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; C++
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/AbiWord/abiword&quot;&gt;Source code&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -67,6 +167,51 @@
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Audience: General
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Desktop GUI
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Runs: 1
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Status: Active
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Wikipedia (en): https://en.wikipedia.org/wiki/AbiWord
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;/table&gt;
 &lt;/div&gt;
@@ -99,43 +244,6 @@ be used to add more import/export file formats.&lt;/p&gt;
 &lt;li&gt;Some project ideas can be found under the &lt;a href=&quot;http://www.abisource.com/wiki/Category:Summer_of_Code&quot;&gt;Summer of Code&lt;/a&gt; pages on the AbiSource wiki.&lt;/li&gt;
 &lt;li&gt;Others can be found as enhancement bug reports on the &lt;a href=&quot;http://bugzilla.abisource.com/&quot;&gt;bug tracker&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Microsoft Word</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/microsoft-word/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/microsoft-word/"/>
-
-
-
-
-
-
-	<category term="software-type/word-processor" />
-
-
-	<updated>2016-09-06T04:07:11Z</updated>
-	<published>2016-09-06T04:07:11Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-&lt;table&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
 
 	</content>
 

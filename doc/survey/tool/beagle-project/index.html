@@ -5,7 +5,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>beagle-project</title>
+<title>Beagle</title>
 
 <link rel="stylesheet" href="../../../../style.css" type="text/css" />
 
@@ -42,7 +42,7 @@
 
 </span>
 <span class="title">
-beagle-project
+Beagle
 
 </span>
 </span>
@@ -107,9 +107,183 @@ beagle-project
 <div id="pagebody">
 
 <div id="content">
+<div class="sidebar">
+
+<table>
+
+<tr>
+    <td>
+    <center>
+        <h3>
+            Beagle
+        </h3>
+    </center>
+    </td>
+</tr>
+
+
+
+<tr>
+    <td>
+    <a href="./gfx/beagle.jpg"><img src="./gfx/beagle.jpg" width="600" height="600" class="img fullwidth" /></a>
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+<a href="http://burntfen.com/projects/beagle/">Homepage</a>
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+<b>Programming language:</b> JavaScript
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+<a href="https://github.com/BeagleLab/beagle">Source code</a>
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+    <td>
+Audience: Researchers
+    </td>
+</tr>
+
+
+
+
+
+<tr>
+    <td>
+Software form: Browser extension (Chrome)
+    </td>
+</tr>
+
+
+
+
+
+<tr>
+    <td>
+Status: Planning
+    </td>
+</tr>
+
+
+
+
+</table>
+</div>
+
+<p>The idea behind Beagle is to create a browser plugin (like a Chrome extension)
+that can be used to share information between researchers and present that
+information alongside websites for research articles.</p>
+
+<p>It makes uses of other existing JS tools and web APIs such as pdf.js and Open Annotator.</p>
+
+<h1 id="plan">Plan</h1>
+
+<p>Planning site: <a href="https://github.com/BeagleLab/voyage">voyage</a>.</p>
+
 <ul>
-<li><a href="http://burntfen.com/projects/beagle/">Project page</a></li>
-<li>Planning site: <a href="https://github.com/BeagleLab/voyage">voyage</a></li>
+<li>Download and save paper on current page
+<ul>
+<li>Add data to search results (PubMed, Google Scholar)</li>
+<li>Downloading versus "starring"</li>
+</ul></li>
+<li>Get paper metdata
+<ul>
+<li>Metadata IDs: DOI, ISBN</li>
+<li>Retrieve all DOIs from a paper and allow for choosing which one is the actual DOI for that paper</li>
+<li>Generate citation: BibTeX, RIS, etc.</li>
+<li>From <code>&lt;meta&gt;</code>: <a href="https://www.npmjs.com/package/protocol-parser">https://www.npmjs.com/package/protocol-parser</a>, <a href="https://github.com/BeagleLab/voyage/issues/7">https://github.com/BeagleLab/voyage/issues/7</a></li>
+</ul></li>
+<li>Recording items on the page
+<ul>
+<li>Taking a screenshot</li>
+<li>Highlighting text</li>
+<li>Annotating anything that has been highlighted</li>
+<li>Pinpoint to a line</li>
+<li>hypothes.is integration: <a href="https://github.com/hypothesis/pdf.js-hypothes.is">https://github.com/hypothesis/pdf.js-hypothes.is</a></li>
+<li>Extract paper logical structure: abstract, headings, sections</li>
+</ul></li>
+<li>APIs to work with
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Scopus">Scopus</a></li>
+<li>CrossRef</li>
+<li>PLoS</li>
+<li>Article Level Metrics API</li>
+<li>Search API</li>
+<li>Altmetrics</li>
+<li>Google Scholar (but avoid <a href="http://stackoverflow.com/a/7587994">EULA problems</a></li>
+<li>Maybe just link to pre-filled Google Scholar Search</li>
+<li>Cited by...</li>
+<li>PubMed</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/">https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/</a></li>
+<li>CiteSeer</li>
+<li>Mendeley</li>
+<li>ArXiv</li>
+<li><a href="http://sciencewise.info/faq">http://sciencewise.info/faq</a></li>
+<li>Zotero</li>
+<li>CiteULike</li>
+<li><a href="http://paperity.org/">http://paperity.org/</a></li>
+<li><a href="https://plot.ly/api/">https://plot.ly/api/</a></li>
+<li><a href="https://dev.evernote.com/doc/">https://dev.evernote.com/doc/</a></li>
+<li><a href="https://openaccessbutton.org/">https://openaccessbutton.org/</a></li>
+<li>Google Contacts API for sharing</li>
+</ul></li>
+<li>Accounts: Figshare, ORCID, Slack, ResearchGate</li>
+<li>Have conversation threads
+<ul>
+<li>By sharing individual annotations, people can add to a conversation around it.</li>
+<li>The annotations and conversation threads can be linked to.</li>
+<li>Use Markdown or WYSIWYG editor</li>
+</ul></li>
+<li>NLP: keyword analysis, NER, scientific terms lookup, article summarisation</li>
+<li>Send PDFs and annotations to people (title, URL, attachment)</li>
+<li>Some ideas from <a href="http://jbenet.github.io/sci-nav/">http://jbenet.github.io/sci-nav/</a>.</li>
+<li>Recommendation and science of science
+<ul>
+<li><a href="https://github.com/titipata/science_concierge">https://github.com/titipata/science_concierge</a>, <a href="http://www.scholarfy.net/">http://www.scholarfy.net/</a>,</li>
+<li><a href="https://github.com/sciosci">https://github.com/sciosci</a>, <a href="http://kordinglab.com/about/">http://kordinglab.com/about/</a>, <a href="http://www.nature.com/nature/journal/v489/n7415/full/489201a.html">meta-science analysis</a></li>
+</ul></li>
+<li>Privacy: private, groups, public
+<ul>
+<li>Like Google+ circles</li>
+<li>Idea: use colour codes to make it easy to distinguish.</li>
+</ul></li>
+<li>Social feed for trending papers, paper suggestions, paper associations</li>
+<li>Access supplementary data
+<ul>
+<li><a href="http://escholarship.org/uc/item/9kf081vf">http://escholarship.org/uc/item/9kf081vf</a></li>
+<li>On PLOS and FigShare</li>
+<li><a href="https://www.dataone.org/">https://www.dataone.org/</a></li>
+<li><a href="http://www.re3data.org/">http://www.re3data.org/</a></li>
+</ul></li>
+<li>Citation graph
+<ul>
+<li>MS has released data <a href="http://www.microsoft.com/en-us/research/announcing-the-microsoft-academic-graph-let-the-research-begin/">http://www.microsoft.com/en-us/research/announcing-the-microsoft-academic-graph-let-the-research-begin/</a></li>
+<li>Graph of researchers <a href="https://github.com/BeagleLab/voyage/issues/42">https://github.com/BeagleLab/voyage/issues/42</a>, <a href="http://www.knowledgelab.org/news/detail/1.4_million_in_grants_awarded_to_metaknowledge_projects">http://www.knowledgelab.org/news/detail/1.4_million_in_grants_awarded_to_metaknowledge_projects</a></li>
+<li><a href="https://www.genealogy.math.ndsu.nodak.edu/">https://www.genealogy.math.ndsu.nodak.edu/</a></li>
+<li><a href="http://neurotree.org/neurotree/">http://neurotree.org/neurotree/</a></li>
+<li><a href="http://academictree.org/">http://academictree.org/</a></li>
+</ul></li>
 </ul>
 
 </div>
@@ -138,8 +312,8 @@ beagle-project
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 06 Sep 2016 04:07:11 AM UTC</span>
-<!-- Created <span class="date">Tue 06 Sep 2016 04:07:11 AM UTC</span> -->
+Last edited <span class="date">Tue 11 Oct 2016 03:05:42 AM UTC</span>
+<!-- Created <span class="date">Wed 07 Sep 2016 01:35:57 AM UTC</span> -->
 </div>
 
 </div>
