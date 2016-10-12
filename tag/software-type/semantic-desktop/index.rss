@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 11 Oct 2016 03:05:42 +0000</pubDate>
+<pubDate>Wed, 12 Oct 2016 01:00:28 +0000</pubDate>
 <item>
 	<title>DeepaMehta</title>
 
@@ -22,7 +22,7 @@
 
 
 	<pubDate>Tue, 04 Oct 2016 12:35:33 +0000</pubDate>
-	<dcterms:modified>2016-10-11T03:05:42Z</dcterms:modified>
+	<dcterms:modified>2016-10-12T01:00:28Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -90,7 +90,19 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Web application
+    &lt;/td&gt;
+&lt;/tr&gt;
 
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Runs: 1
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -109,6 +121,22 @@ Status: Active
 &lt;ul&gt;
 &lt;li&gt;Provides a web-interface for navigating a graph.&lt;/li&gt;
 &lt;li&gt;Allows for the creation of plugins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Example use cases: &lt;a href=&quot;https://www.deepamehta.de/en/content/show-cases&quot;&gt;https://www.deepamehta.de/en/content/show-cases&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;GIS tool: &lt;a href=&quot;http://www.kiezatlas.de/&quot;&gt;KiezAtlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Audio data: &lt;a href=&quot;https://www.deepamehta.de/content/soundsets-associative-audiolibrary&quot;&gt;Soundsets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ideas&quot;&gt;Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://trac.deepamehta.de/wiki/Brainstorming&quot;&gt;Brainstorming&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;/h1&gt;
