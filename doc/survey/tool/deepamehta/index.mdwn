@@ -2,6 +2,9 @@
 Name: DeepaMehta
 Homepage: http://www.deepamehta.de/
 Status: Active
+EstablishedForDistribution: false
+Runs: true
+SoftwareForm: Web application
 SourceCode: https://github.com/jri/deepamehta
 ExternalScreenshot: http://www.deepamehta.de/sites/default/files/swe-book-800.png
 Logo: gfx/deepamehta-logo.png
@@ -11,6 +14,16 @@ ProgrammingLanguage: Java
 
 - Provides a web-interface for navigating a graph.
 - Allows for the creation of plugins
+
+## Features
+
+- Example use cases: <https://www.deepamehta.de/en/content/show-cases>
+  - GIS tool: [[KiezAtlas|http://www.kiezatlas.de/]]
+  - Audio data: [[Soundsets|https://www.deepamehta.de/content/soundsets-associative-audiolibrary]]
+
+## Ideas
+
+- [[Brainstorming|https://trac.deepamehta.de/wiki/Brainstorming]]
 
 # Plugins
 
