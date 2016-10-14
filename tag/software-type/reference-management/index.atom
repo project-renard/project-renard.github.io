@@ -17,170 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-09-08T16:23:03Z</updated>
-<entry>
-	<title>Qiqqa</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Qiqqa
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Qiqqa
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Paperpile (older version)
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
+<updated>2016-09-09T15:50:43Z</updated>
 <entry>
 	<title>ReadCube</title>
 
@@ -196,8 +33,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Qiqqa
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -249,16 +86,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Qiqqa
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/ReadCube
+&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;
@@ -270,6 +115,110 @@ Wikipedia (en): https://en.wikipedia.org/wiki/ReadCube
 &lt;li&gt;Article metrics&lt;/li&gt;
 &lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
 &lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Paperpile</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Paperpile
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Paperpile&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 
@@ -291,8 +240,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/ReadCube
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -344,16 +293,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/ReadCube
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/EndNote
+&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;
@@ -365,22 +322,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/EndNote
 
 </entry>
 <entry>
-	<title>JabRef</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -392,7 +351,7 @@ Wikipedia (en): https://en.wikipedia.org/wiki/EndNote
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            JabRef
+            Paperpile (older version)
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -403,31 +362,11 @@ Wikipedia (en): https://en.wikipedia.org/wiki/EndNote
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -445,9 +384,16 @@ Wikipedia (en): https://en.wikipedia.org/wiki/EndNote
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
+
+Runs: unknown
+
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
+
+
+
 
 
 &lt;/table&gt;
@@ -459,11 +405,11 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
 
 </entry>
 <entry>
-	<title>Papers</title>
+	<title>Qiqqa</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
 
 
 
@@ -473,8 +419,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -486,7 +432,7 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Papers
+            Qiqqa
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -497,7 +443,7 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -511,8 +457,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -526,16 +472,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/JabRef
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Papers_(software)
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Qiqqa&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;
@@ -561,8 +515,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Papers_(software)
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -614,16 +568,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Papers_(software)
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Zotero
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Zotero&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;
@@ -649,8 +611,8 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Zotero
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -708,16 +670,24 @@ Wikipedia (en): https://en.wikipedia.org/wiki/Zotero
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Docear
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Docear&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;
@@ -745,24 +715,22 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 </entry>
 <entry>
-	<title>Paperpile</title>
+	<title>JabRef</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -774,7 +742,7 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Paperpile
+            JabRef
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -785,10 +753,16 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -799,8 +773,8 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -814,6 +788,79 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/JabRef&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Papers</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Papers
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
 
 
 
@@ -821,19 +868,44 @@ turn was forked from the &lt;a href=&quot;http://project-renard.github.io//tag/s
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Paperpile
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 
@@ -857,8 +929,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -910,16 +982,24 @@ a real-time collaborative editor.&lt;/p&gt;
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
 
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/Mendeley
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
 
 
 &lt;/table&gt;

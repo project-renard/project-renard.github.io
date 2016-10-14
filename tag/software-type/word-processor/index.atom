@@ -33,8 +33,8 @@
 	<category term="software-type/word-processor" />
 
 
-	<updated>2016-09-08T16:23:03Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<updated>2016-09-09T15:50:43Z</updated>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -77,6 +77,14 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 
 
@@ -107,7 +115,7 @@
 
 
 	<updated>2016-10-11T00:59:11Z</updated>
-	<published>2016-09-08T16:23:03Z</published>
+	<published>2016-09-09T15:50:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -189,13 +197,13 @@ Software form: Desktop GUI
 &lt;/tr&gt;
 
 
-
 &lt;tr&gt;
     &lt;td&gt;
-Runs: 1
+
+Runs: yes
+
     &lt;/td&gt;
 &lt;/tr&gt;
-
 
 
 &lt;tr&gt;
@@ -208,7 +216,15 @@ Status: Active
 
 &lt;tr&gt;
     &lt;td&gt;
-Wikipedia (en): https://en.wikipedia.org/wiki/AbiWord
+&lt;a href=&quot;https://en.wikipedia.org/wiki/AbiWord&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Established for distribution: 1
     &lt;/td&gt;
 &lt;/tr&gt;
 

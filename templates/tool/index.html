@@ -212,13 +212,15 @@ Software form: <TMPL_VAR NAME="SoftwareForm">
 </tr>
 </TMPL_IF>
 
-<TMPL_IF NAME="Runs">
 <tr>
     <td>
-Runs: <TMPL_VAR NAME="Runs">
+<TMPL_IF NAME="Runs">
+Runs: yes
+<TMPL_ELSE>
+Runs: unknown
+</TMPL_IF>
     </td>
 </tr>
-</TMPL_IF>
 
 <TMPL_IF NAME="Status">
 <tr>
@@ -231,7 +233,15 @@ Status: <TMPL_VAR NAME="Status">
 <TMPL_IF NAME="WikipediaEN">
 <tr>
     <td>
-Wikipedia (en): <TMPL_VAR NAME="WikipediaEN">
+<span class="createlink">Wikipedia (en)</span>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="EstablishedForDistribution">
+<tr>
+    <td>
+Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
     </td>
 </tr>
 </TMPL_IF>
@@ -265,8 +275,8 @@ Wikipedia (en): <TMPL_VAR NAME="WikipediaEN">
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 11 Oct 2016 03:05:42 AM UTC</span>
-<!-- Created <span class="date">Thu 08 Sep 2016 04:23:03 PM UTC</span> -->
+Last edited <span class="date">Fri 14 Oct 2016 06:47:34 PM UTC</span>
+<!-- Created <span class="date">Fri 09 Sep 2016 03:50:43 PM UTC</span> -->
 </div>
 
 </div>
