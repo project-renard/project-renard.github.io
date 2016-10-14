@@ -109,13 +109,15 @@ Software form: <TMPL_VAR NAME="SoftwareForm">
 </tr>
 </TMPL_IF>
 
-<TMPL_IF NAME="Runs">
 <tr>
     <td>
-Runs: <TMPL_VAR NAME="Runs">
+<TMPL_IF NAME="Runs">
+Runs: yes
+<TMPL_ELSE>
+Runs: unknown
+</TMPL_IF>
     </td>
 </tr>
-</TMPL_IF>
 
 <TMPL_IF NAME="Status">
 <tr>
@@ -128,7 +130,15 @@ Status: <TMPL_VAR NAME="Status">
 <TMPL_IF NAME="WikipediaEN">
 <tr>
     <td>
-Wikipedia (en): <TMPL_VAR NAME="WikipediaEN">
+[[Wikipedia (en)|<TMPL_VAR NAME="WikipediaEN">]]
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="EstablishedForDistribution">
+<tr>
+    <td>
+Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
     </td>
 </tr>
 </TMPL_IF>
