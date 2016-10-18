@@ -7,3 +7,11 @@ technologies that are needed, but nobody has yet integrated them in a way that
 creates a unified experience. This experience needs to incorparate everything
 from information seeking to filing documents and ideas into a always-available database
 to linking disparate thoughts into a mental model in order to make sense of it all.
+
+## [[Blog|blog]]
+
+[[!inline pages="page(blog/posts/*/*/*/*) and !*/Discussion and !tagged(draft) and !*/gfx and !*/gfx/*"
+show="12"
+sort="-meta(date) -age title"
+template=inlinepage
+archive=yes feeds=yes]]
