@@ -8,23 +8,21 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 18 Sep 2016 23:54:21 +0000</pubDate>
+<pubDate>Wed, 21 Sep 2016 18:33:35 +0000</pubDate>
 <item>
-	<title>PDF.js</title>
+	<title>LibHaru</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
 
 
-
-	<category>software-type/document-viewer</category>
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 18 Sep 2016 23:54:21 +0000</pubDate>
-	<dcterms:modified>2016-09-18T23:54:21Z</dcterms:modified>
+	<pubDate>Wed, 21 Sep 2016 18:33:35 +0000</pubDate>
+	<dcterms:modified>2016-09-21T18:33:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -35,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            PDF.js
+            LibHaru
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -43,16 +41,10 @@
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -63,22 +55,7 @@
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -100,7 +77,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -125,8 +102,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 18 Sep 2016 23:54:21 +0000</pubDate>
-	<dcterms:modified>2016-09-18T23:54:21Z</dcterms:modified>
+	<pubDate>Wed, 21 Sep 2016 18:33:35 +0000</pubDate>
+	<dcterms:modified>2016-09-21T18:33:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -208,8 +185,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 18 Sep 2016 23:54:21 +0000</pubDate>
-	<dcterms:modified>2016-09-18T23:54:21Z</dcterms:modified>
+	<pubDate>Wed, 21 Sep 2016 18:33:35 +0000</pubDate>
+	<dcterms:modified>2016-09-21T18:33:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -278,19 +255,21 @@ Runs: unknown
 
 </item>
 <item>
-	<title>LibHaru</title>
+	<title>PDF.js</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
 
 
+
+	<category>software-type/document-viewer</category>
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 18 Sep 2016 23:54:21 +0000</pubDate>
-	<dcterms:modified>2016-09-18T23:54:21Z</dcterms:modified>
+	<pubDate>Wed, 21 Sep 2016 18:33:35 +0000</pubDate>
+	<dcterms:modified>2016-09-21T18:33:35Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -301,7 +280,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            LibHaru
+            PDF.js
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -309,10 +288,16 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -323,7 +308,22 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -345,7 +345,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
