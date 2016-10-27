@@ -102,13 +102,13 @@
 # Project plan
 
 - The document viewer should have typical document viewer features.
-  - Navigation
-    - DONE Move one page at a time.
-    - DONE Move to start and end of document.
-    - DONE Move to a specific page number.
-  - Zooming
-    - TODO Zoom to preset zoom levels.
-    - TODO Zoom to a specific zoom multiplier
-  - Be able to see an overview of document
-    - DONE Display table of contents
-    - TODO Display pages as thumbnail images
+    - Navigation
+        - DONE Move one page at a time.
+        - DONE Move to start and end of document.
+        - DONE Move to a specific page number.
+    - Zooming
+        - TODO Zoom to preset zoom levels.
+        - TODO Zoom to a specific zoom multiplier
+    - Be able to see an overview of document
+        - DONE Display table of contents
+        - TODO Display pages as thumbnail images
