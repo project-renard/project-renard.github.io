@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>&#x22;&#x3C;TMPL_VAR</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/templates/tool.mdwn" />
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Project Renard</a>/ 
+
+<a href="../">templates</a>/ 
+
+</span>
+<span class="title">
+&#x22;&#x3C;TMPL_VAR
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/templates/tool.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/templates/tool.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../blog/">Blog</a></li>
+    <li><a href="../../doc/">Documentation</a></li>
+    <ul>
+        <li><a href="../../doc/user/">User</a></li>
+        <li><a href="../../doc/development/">Development</a></li>
+        <ul>
+            <li><a href="../../doc/development/meeting-log/">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../doc/survey/">Survey</a></li>
+        <li><a href="../../doc/design/">Design</a></li>
+    </ul>
+    <li><a href="../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<div class="sidebar">
+
+<table>
+<TMPL_IF NAME="Name">
+<tr>
+    <td>
+    <center>
+        <h3>
+            <TMPL_VAR NAME="Name">
+        </h3>
+    </center>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Logo">
+<tr>
+    <td>
+    [[!img <span class="error">Error: bad image filename</span>]]
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="Homepage">
+<tr>
+    <td>
+<span class="createlink">Homepage</span>
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="ProgrammingLanguage">
+<tr>
+    <td>
+<b>Programming language:</b> <TMPL_VAR NAME="ProgrammingLanguage">
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="SourceCode">
+<tr>
+    <td>
+<span class="createlink">Source code</span>
+    </td>
+</tr>
+</TMPL_IF>
+<TMPL_IF NAME="SurveySourceCode">
+<tr>
+    <td>
+<span class="createlink">Mirrored source code</span>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_LOOP NAME="FileFormat_LOOP">
+    <TMPL_IF __first__>
+    <tr>
+        <td>
+            File-formats:
+            <ul>
+    </TMPL_IF>
+                <li><TMPL_VAR NAME="FileFormat"></li>
+    <TMPL_IF __last__>
+            </ul>
+        </td>
+    </tr>
+    </TMPL_IF>
+</TMPL_LOOP>
+
+<TMPL_IF NAME="ExternalScreenshot">
+<tr>
+    <td>
+        <h2>Screenshot</h2>
+        <a href="<TMPL_VAR NAME="ExternalScreenshot">">
+            <img width="100%" src="<TMPL_VAR NAME="ExternalScreenshot">"/>
+        </a>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="AlternativeTo">
+<tr>
+    <td>
+<span class="createlink">AlternativeTo</span>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Audience">
+<tr>
+    <td>
+Audience: <TMPL_VAR NAME="Audience">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="Interface">
+<tr>
+    <td>
+Interface: <TMPL_VAR NAME="Interface">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="SoftwareForm">
+<tr>
+    <td>
+Software form: <TMPL_VAR NAME="SoftwareForm">
+    </td>
+</tr>
+</TMPL_IF>
+
+<tr>
+    <td>
+<TMPL_IF NAME="Runs">
+Runs: yes
+<TMPL_ELSE>
+Runs: unknown
+</TMPL_IF>
+    </td>
+</tr>
+
+<TMPL_IF NAME="Status">
+<tr>
+    <td>
+Status: <TMPL_VAR NAME="Status">
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="WikipediaEN">
+<tr>
+    <td>
+<span class="createlink">Wikipedia (en)</span>
+    </td>
+</tr>
+</TMPL_IF>
+
+<TMPL_IF NAME="EstablishedForDistribution">
+<tr>
+    <td>
+Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
+    </td>
+</tr>
+</TMPL_IF>
+
+</table>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Fri 14 Oct 2016 06:47:34 PM UTC</span>
+<!-- Created <span class="date">Thu 22 Sep 2016 09:01:17 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

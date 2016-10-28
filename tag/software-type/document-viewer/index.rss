@@ -1,0 +1,1524 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged software-type/document-viewer</title>
+<link>http://project-renard.github.io//tag/software-type/document-viewer/</link>
+
+<description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+<item>
+	<title>qpdfview</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            qpdfview
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Interface: tabbed
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>SumatraPDF</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            SumatraPDF
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/sumatra-pdf/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Evince</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/evince/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/evince/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Evince
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/evince-logo.png&quot; width=&quot;256&quot; height=&quot;256&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/tiff&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/x-dvi&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/x-cbr&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Evince_3.14.1.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/evince/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Evince&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;style&gt;
+.sshot {
+  width: 400px;
+  height: auto;
+}
+&lt;/style&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Evince has a &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince/Roadmap&quot;&gt;roadmap&lt;/a&gt; which
+details features that have been proposed and completed.&lt;/p&gt;
+
+&lt;h1 id=&quot;behaviour&quot;&gt;Behaviour&lt;/h1&gt;
+
+&lt;h2 id=&quot;pagenavigation&quot;&gt;Page navigation&lt;/h2&gt;
+
+&lt;p&gt;Evince provides a text field in the toolbar where the user can type a page
+number to jump to.  This page number text field is combined with a drop-down
+menu which searches the document&#39;s table of contents so that the user can also
+type a section number (for example, &quot;3.10&quot;).&lt;/p&gt;
+
+&lt;p&gt;Evince keeps track of the page history as the user jumps to different pages in
+the document. This way they can use the arrows in the toolbar to move between
+different pages in the book (&quot;previous page&quot; and &quot;next page&quot;). Note however,
+that this history is a stack, so jumping back then navigating elsewhere removes
+what used to be stored as the &quot;next page&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/page-number-and-history.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;searching&quot;&gt;Searching&lt;/h2&gt;
+
+&lt;p&gt;The following animation shows how Evince searches a document. Note that the
+searching is done incrementally rather than all at once. This way, the results
+are returned quickly and the remain interactive. The search results are shown
+in a sidebar where the matching context and page number is shown.&lt;/p&gt;
+
+&lt;p&gt;Clicking on one of the results takes you to that page. Also note that the
+matching text is highlighted on top of the page rendered page.&lt;/p&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Searching a document&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/search.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;annotations&quot;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations in Evince are of two types:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;text annotation&lt;/li&gt;
+&lt;li&gt;highlight annotation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both kinds of annotations can have text associated with them.  Clicking on the
+target for the annotation bring up an overlay window where the user can
+type a short note. Evince gives control over the colour and font settings for
+each annotation by using a colour picker and font selection widgets.&lt;/p&gt;
+
+&lt;p&gt;Text annotations are icons that are added to the document. The user can choose
+from a selection of icons to display in order to have different kinds of
+annotations. These icons can be repositioned to different places on the page.&lt;/p&gt;
+
+&lt;p&gt;Highlight annotations mark the text on the page by adding a marker
+on top of the text which begins at one character position and ends at another
+character position. The user can choose from different kinds of highlights such
+as &quot;highlight&quot; (which is transparent colour marker over the text like a
+highlighter) and underline (which is a line marker which runs at the baseline
+of the text).&lt;/p&gt;
+
+&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Creating an annotation&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/annotations.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;sidebarandviews&quot;&gt;Sidebar and views&lt;/h2&gt;
+
+&lt;p&gt;The sidebar allows for seeing&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Thumbails: small images of the pages in the document&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Outline: table of contents tree menu that is stored in the document itself.
+Clicking on items in the outline jump to the associated location in the document.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bookmarks: user-created locations that point to specific pages in the
+document. They are stored separate from the document. These can be added,
+removed, and renamed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Annotations: shows the page number associated with annotations that have been
+added to the document.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are several options for changing the view. They are also shown in the
+image below, but are described more in the appropriate menu section of this
+page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/view-and-sidebar.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;documentproperties&quot;&gt;Document properties&lt;/h2&gt;
+
+&lt;p&gt;The document properties shows metadata about the document such as page size and
+also has a tab that can used to see fonts that may be embedded in the document.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/properties.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/properties.gif&quot; width=&quot;950&quot; height=&quot;872&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fullscreen&quot;&gt;Fullscreen&lt;/h2&gt;
+
+&lt;p&gt;Evince can be made full screen. In this mode, most of the interface is hidden.
+The grey background and the scrollbar are still visible. The toolbar is hidden
+until the mouse is hovered near the top of the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/fullscreen.gif&quot; width=&quot;1918&quot; height=&quot;1004&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;menuandkeybindings&quot;&gt;Menu and Keybindings&lt;/h1&gt;
+
+&lt;p&gt;The complete list of menu items is available in the &lt;a href=&quot;https://github.com/GNOME/evince/blob/master/shell/evince-menus.ui&quot;&gt;&lt;code&gt;evince-menus.ui&lt;/code&gt;&lt;/a&gt; file.&lt;/p&gt;
+
+&lt;h3 id=&quot;applicationmenus&quot;&gt;Application menus&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Shortcut&lt;/th&gt;
+    &lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.New Window (&lt;tt&gt;app.new&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        Creates a new window for opening documents.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        See code for &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_new_cb&quot;&gt;app_new_cb&lt;/a&gt;&lt;/tt&gt;.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-new.gif&quot; width=&quot;1284&quot; height=&quot;890&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.Help (&lt;tt&gt;app.help&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;F1&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        Shows help for Evince.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_help_cb&quot;&gt;app_help_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;App.About (&lt;tt&gt;app.about&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        Shows information about the application (license, authors, documenters, translators).
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        &lt;tt&gt;&lt;a href=&quot;https://github.com/GNOME/evince/search?q=app_about_cb&quot;&gt;app_about_cb&lt;/a&gt;&lt;/tt&gt;
+        &lt;/p&gt;
+
+        &lt;p&gt;
+        &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/evince/gfx/menu-app-about.png&quot; width=&quot;904&quot; height=&quot;827&quot; class=&quot;sshot&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Continuous (&lt;tt&gt;win.continuous&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Dual (&lt;tt&gt;win.dual-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Side _Pane (&lt;tt&gt;win.show-side-pane&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Fullscreen (&lt;tt&gt;win.fullscreen&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Pre_sentation (&lt;tt&gt;win.presentation&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Rotate _Left (&lt;tt&gt;win.rotate-left&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Rotate _Right (&lt;tt&gt;win.rotate-right&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.First Page (&lt;tt&gt;win.go-first-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Previous Page (&lt;tt&gt;win.go-previous-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Next Page (&lt;tt&gt;win.go-next-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Last Page (&lt;tt&gt;win.go-last-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Zoom _In (&lt;tt&gt;win.zoom-in&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View.Zoom _Out (&lt;tt&gt;win.zoom-out&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Odd Pages Left (&lt;tt&gt;win.dual-odd-left&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Inverted Colors (&lt;tt&gt;win.inverted-colors&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View._Reload (&lt;tt&gt;win.reload&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Open… (&lt;tt&gt;win.open&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.Op_en a Copy (&lt;tt&gt;win.open-copy&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Save a Copy… (&lt;tt&gt;win.save-copy&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.Send _To… (&lt;tt&gt;win.send-to&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.Open Containing _Folder (&lt;tt&gt;win.open-containing-folder&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Print… (&lt;tt&gt;win.print&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.P_roperties… (&lt;tt&gt;win.show-properties&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Copy (&lt;tt&gt;win.copy&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.Select _All (&lt;tt&gt;win.select-all&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action.Save Current Settings as _Default (&lt;tt&gt;win.save-settings&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Add Bookmark (&lt;tt&gt;win.add-bookmark&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Action._Close (&lt;tt&gt;win.close&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Zoom.Fit Pa_ge (&lt;tt&gt;win.sizing-mode, fit-page&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Zoom.Fit _Width (&lt;tt&gt;win.sizing-mode, fit-width&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Zoom._Automatic (&lt;tt&gt;win.sizing-mode, automatic&lt;/tt&gt;)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;viewpopupmenu&quot;&gt;View popup menu&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Shortcut&lt;/th&gt;
+    &lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Open Link (&lt;tt&gt;win.open-link&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Copy Link Address (&lt;tt&gt;win.copy-link-address&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Go To (&lt;tt&gt;win.go-to-link&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Open in New _Window (&lt;tt&gt;win.open-link-new-window&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Previous Page (&lt;tt&gt;win.go-previous-page&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Next Page (&lt;tt&gt;win.go-next-page&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Reload (&lt;tt&gt;win.reload&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Auto_scroll (&lt;tt&gt;win.auto-scroll&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Copy (&lt;tt&gt;win.copy&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Select _All (&lt;tt&gt;win.select-all&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Save Image As… (&lt;tt&gt;win.save-image&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Copy _Image (&lt;tt&gt;win.copy-image&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Open Attachment (&lt;tt&gt;win.open-attachment&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup._Save Attachment As… (&lt;tt&gt;win.save-attachment&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Annotation Properties… (&lt;tt&gt;win.annot-properties&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Remove Annotation (&lt;tt&gt;win.remove-annot&lt;/tt&gt;)&lt;/td&gt;  
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;View Popup.Open Containing _Folder (&lt;tt&gt;win.open-containing-folder&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;attachmentspopupmenu&quot;&gt;Attachments popup menu&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Shortcut&lt;/th&gt;
+    &lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Attachments Popup._Open Attachment (&lt;tt&gt;win.open-attachment&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Attachments Popup._Save Attachment As… (&lt;tt&gt;win.save-attachment&lt;/tt&gt;)&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;
+        &lt;p&gt;
+        TODO
+        &lt;/p&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Okular</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Okular
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Okular&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>PDF.js</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            PDF.js
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Utopia Documents</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Utopia Documents
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Utopia_Documents&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>UpLib</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            UpLib
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Foxit Reader</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Foxit Reader
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/foxit-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Foxit_Reader&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Nitro Reader</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Thu, 22 Sep 2016 21:01:17 +0000</pubDate>
+	<dcterms:modified>2016-09-22T21:01:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Nitro Reader
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/nitro-pdf-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

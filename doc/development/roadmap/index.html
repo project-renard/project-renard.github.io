@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>roadmap</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/roadmap/index.mdwn" />
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">Project Renard</a>/ 
+
+<a href="../../">doc</a>/ 
+
+<a href="../">development</a>/ 
+
+</span>
+<span class="title">
+roadmap
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/roadmap/index.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/roadmap/index.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../blog/">Blog</a></li>
+    <li><a href="../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../user/">User</a></li>
+        <li><a href="../">Development</a></li>
+        <ul>
+            <li><a href="../meeting-log/">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../survey/">Survey</a></li>
+        <li><a href="../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<h1 id="goals">Goals</h1>
+
+<ul>
+<li>Goal: Should be able to display documents
+<ul>
+<li>Specific types to be able to display
+<ul>
+<li>PDF</li>
+<li>HTML</li>
+<li>EPUB</li>
+<li>XPS</li>
+<li>PostScript</li>
+<li>DjVu</li>
+<li>RTF</li>
+<li>OpenDocument</li>
+<li>OneNote</li>
+<li>Comic book archive (.cbr)</li>
+<li>Videos</li>
+</ul></li>
+</ul></li>
+<li>Goal: Should be able to annotate documents
+<ul>
+<li>Types of annotation targets
+<ul>
+<li>Document text (e.g., highlight text linearly or as a block)</li>
+<li>Document images (e.g., highlight a region of an image)</li>
+<li>Other annotations</li>
+</ul></li>
+<li>Link to annotations from other documents or annotations
+<ul>
+<li>Each annotation should have a unique identifier</li>
+<li>Linking can either be
+<ul>
+<li>a reference (e.g., "see figure 2 in [42]") or</li>
+<li>a direct inclusion (e.g., inline display of the figure with a
+link to original document)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Goal: Should be able to extract information from the document
+<ul>
+<li>Extraction of document structure
+<ul>
+<li>Create a table of contents automatically</li>
+</ul></li>
+<li>Extraction of bibliographic metadata
+<ul>
+<li>Extract the authors and title of the current document</li>
+<li>Extract the metadata from the References section
+<ul>
+<li>Allow for linking citation in the text (e.g., "in [42]" or "in
+Smith et al, 1999b") to the appropriate reference.</li>
+</ul></li>
+</ul></li>
+<li>Extraction of text using optical character recognition (OCR)</li>
+<li>Mathematical text should be extracted just as well as prose</li>
+<li>Extraction of text in RTL writing systems should be supported (bidi
+support)</li>
+</ul></li>
+<li>Goal: Should be able to search and organise documents
+<ul>
+<li>Full-text search</li>
+<li>Mark document as "To read", "Read", or "Do not read"</li>
+<li>Tagging and folders</li>
+<li>Projects and subprojects</li>
+<li>Faceted search over the bibliographic metadata</li>
+<li>Detect duplicates (sometimes from different sources)
+<ul>
+<li>Note that sometimes what appears to the same document by the
+title are two versions of the same document (e.g., preprint
+versus journal article)</li>
+</ul></li>
+</ul></li>
+<li>Goal: should be able to share data
+<ul>
+<li>Data to share
+<ul>
+<li>Documents</li>
+<li>Annotations</li>
+</ul></li>
+<li>Share across all of a users devices</li>
+<li>Who to share with
+<ul>
+<li>People on the same LAN</li>
+<li>Inside of groups (e.g., with everyone in a journal club)</li>
+</ul></li>
+</ul></li>
+<li>Goal: Should be able to read text out loud
+<ul>
+<li>Should be able to read mathematical text</li>
+</ul></li>
+<li>Goal: Notetaking
+<ul>
+<li>Pen-based notetaking</li>
+<li>Handwriting recognition</li>
+<li>Draw notes on top of existing document
+<ul>
+<li>Add space between lines or edges to draw more</li>
+</ul></li>
+</ul></li>
+<li>Goal: Security and privacy
+<ul>
+<li>Easily use Tor for all network access</li>
+<li>Public and private data can live side-by-side
+<ul>
+<li>Fine-grained control (e.g., each annotation can be set to be
+public or private)</li>
+</ul></li>
+</ul></li>
+<li>Goal: Retrieve documents from online
+<ul>
+<li>Specs
+<ul>
+<li>Open Publication Distribution System</li>
+<li>SWORD</li>
+<li>OpenSearch</li>
+<li>OAI-PMH</li>
+</ul></li>
+<li>Download papers from sites that host papers (e.g., arXiv, PLOS)</li>
+<li>Search papers from Google Scholar, PubMed</li>
+</ul></li>
+<li>Goal: Flexible document layout (reflowable)
+<ul>
+<li>Turn a two-column document into single column document</li>
+<li>Trim extra margins</li>
+<li>Look into readibility research</li>
+</ul></li>
+<li>Goal: Should be able to present from viewer
+<ul>
+<li>Many tools output PDFs that can be used to view slides.</li>
+<li>Presentations can show different things on each screen:
+<ul>
+<li>Slides on the projector</li>
+<li>Speaker notes on the monitor</li>
+</ul></li>
+</ul></li>
+<li>Goal: Retrieve data that is related to the document being read
+<ul>
+<li>For example, look up articles in Wikipedia/Scholarpedia or look up words in the
+dictionary.</li>
+<li>Data such as properties of chemicals, 3D models of proteins, or gene
+pathways.</li>
+</ul></li>
+<li>Goal: Accessibility
+<ul>
+<li>Should be able to use by people with visual impairment (perhaps look at
+DAISY format)</li>
+</ul></li>
+<li>Goal: Keep data on how the user is using the software
+<ul>
+<li>This can be used to give suggestions if it comes across a similar usage.
+For example, if I implemented splitting a document window into panes to
+follow, say code on one page and description of the code on another,
+when I come back to that part, it can show a little tooltip to bring
+back that same view so the user does not have to configure it again.
+<ul>
+<li>Be able to store the current view state and restore on another device.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h1 id="projectplan">Project plan</h1>
+
+<ul>
+<li>The document viewer should have typical document viewer features.
+<ul>
+<li>Navigation
+<ul>
+<li>DONE Move one page at a time.</li>
+<li>DONE Move to start and end of document.</li>
+<li>DONE Move to a specific page number.</li>
+</ul></li>
+<li>Zooming
+<ul>
+<li>TODO Zoom to preset zoom levels.</li>
+<li>TODO Zoom to a specific zoom multiplier</li>
+</ul></li>
+<li>Be able to see an overview of document
+<ul>
+<li>DONE Display table of contents</li>
+<li>TODO Display pages as thumbnail images</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Thu 27 Oct 2016 11:42:19 PM UTC</span>
+<!-- Created <span class="date">Thu 22 Sep 2016 09:01:17 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>
