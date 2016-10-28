@@ -36,7 +36,7 @@ install:
   - cpanm -n YAML::Any YAML::XS Sort::Naturally LaTeXML
 script:
   #- set -e
-  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex"
+  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
