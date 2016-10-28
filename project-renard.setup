@@ -95,7 +95,10 @@ hardlink: 0
 # group for wrappers to run in
 #wrappergroup: ikiwiki
 # extra library and plugin directories
-libdirs: [ './.ikiwiki-plugins/rubykat-ikiplugins', './.ikiwiki-plugins/p5-IkiWiki-Plugin-github', './.ikiwiki-plugins/p5-IkiWiki-Plugin-tex' ]
+libdirs:
+- './.ikiwiki-plugins/rubykat-ikiplugins'
+- './.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib'
+- './.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib'
 # extra library and plugin directory (searched after libdirs)
 libdir: /home/zaki/.ikiwiki
 # environment variables
