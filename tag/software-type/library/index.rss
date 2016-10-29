@@ -8,7 +8,88 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 26 Sep 2016 18:57:26 +0000</pubDate>
+<pubDate>Tue, 27 Sep 2016 16:01:31 +0000</pubDate>
+<item>
+	<title>LibHaru</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Tue, 27 Sep 2016 16:01:31 +0000</pubDate>
+	<dcterms:modified>2016-09-27T16:01:31Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            LibHaru
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
 <item>
 	<title>PDF.js</title>
 
@@ -23,8 +104,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Mon, 26 Sep 2016 18:57:26 +0000</pubDate>
-	<dcterms:modified>2016-09-26T18:57:26Z</dcterms:modified>
+	<pubDate>Tue, 27 Sep 2016 16:01:31 +0000</pubDate>
+	<dcterms:modified>2016-09-27T16:01:31Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -114,168 +195,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>MuPDF</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Mon, 26 Sep 2016 18:57:26 +0000</pubDate>
-	<dcterms:modified>2016-09-26T18:57:26Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            MuPDF
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>LibHaru</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Mon, 26 Sep 2016 18:57:26 +0000</pubDate>
-	<dcterms:modified>2016-09-26T18:57:26Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            LibHaru
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Poppler</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
@@ -287,8 +206,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Mon, 26 Sep 2016 18:57:26 +0000</pubDate>
-	<dcterms:modified>2016-09-26T18:57:26Z</dcterms:modified>
+	<pubDate>Tue, 27 Sep 2016 16:01:31 +0000</pubDate>
+	<dcterms:modified>2016-09-27T16:01:31Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -354,6 +273,87 @@ Runs: unknown
 &lt;/div&gt;
 
 &lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>MuPDF</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Tue, 27 Sep 2016 16:01:31 +0000</pubDate>
+	<dcterms:modified>2016-09-27T16:01:31Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            MuPDF
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
