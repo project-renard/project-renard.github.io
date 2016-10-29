@@ -22,6 +22,7 @@ addons:
       - texlive-latex-base
       - texlive-latex-extra
       - texlive-latex-recommended
+      - tj3
 install:
   - openssl aes-256-cbc -K $encrypted_4f43c47a058e_key -iv $encrypted_4f43c47a058e_iv -in .travisdeploykey.enc -out .travisdeploykey -d
   - chmod go-rwx .travisdeploykey
@@ -36,7 +37,7 @@ install:
   - cpanm -n YAML::Any YAML::XS Sort::Naturally LaTeXML
 script:
   #- set -e
-  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib"
+  - export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler/lib"
   - ikiwiki --rebuild --setup project-renard.setup --url 'http://project-renard.github.io/'
   - git clone --bare -b master git@github.com:project-renard/project-renard.github.io.git _site/.git
   - cd _site
