@@ -3,10 +3,10 @@
 	url = https://github.com/rubykat/ikiplugins.git
 [submodule "p5-IkiWiki-Plugin-tex"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-tex
-	url = https://github.com/zmughal/p5-IkiWiki-Plugin-tex.git
+	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-tex.git
 [submodule "p5-IkiWiki-Plugin-github"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-github
-	url = https://github.com/zmughal/p5-IkiWiki-Plugin-github.git
+	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-github.git
 [submodule ".ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler
 	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-taskjuggler.git
