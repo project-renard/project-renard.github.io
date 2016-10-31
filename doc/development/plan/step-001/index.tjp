@@ -1,4 +1,4 @@
-project your_project_id "Curie"  2016-10-20-0:00--0500 +4m {
+project your_project_id "PR step 001"  2016-10-20-0:00--0500 +4m {
   # Hide the clock time. Only show the date.
   timeformat "%Y-%m-%d"
   # Use US format for numbers
@@ -51,7 +51,7 @@ resource s1 "System 1" {
   rate 600.0
 }
 
-task project "Project" {
+task curie "Curie" {
   task m0_002 "milestone v0.002" {
   }
   task m0_003 "milestone v0.003" {
