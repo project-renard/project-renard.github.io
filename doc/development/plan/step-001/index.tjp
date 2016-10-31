@@ -60,19 +60,20 @@ task curie "Curie" {
   task m0_004 "milestone v0.004" {
     depends !m0_003
   }
-  task deliveries "Deliveries" {
-    task "Release v0.002" {
-      depends !!m0_002
-      end 2016-10-31
-    }
-    task "Release v0.003" {
-      depends !!m0_003
-      end 2016-11-14
-    }
-    task "Release v0.004" {
-      depends !!m0_004
-      end 2016-11-28
-    }
+}
+
+task deliveries "Deliveries" {
+  task "Curie release v0.002" {
+    depends curie.m0_002
+    end 2016-10-31
+  }
+  task "Curie release v0.003" {
+    depends curie.m0_003
+    end 2016-11-14
+  }
+  task "Curie release v0.004" {
+    depends curie.m0_004
+    end 2016-11-28
   }
 }
 
@@ -106,7 +107,7 @@ macro TaskTip [
 
 textreport frame "" {
   header -8<-
-    == TaskJuggler Project Template ==
+    == Project Renard Step 001 ==
     <[navigator id="navbar"]>
   ->8-
   footer "----"
@@ -200,6 +201,6 @@ taskreport deliveries "" {
   headline "Project Deliverables"
   columns bsi { title 'WBS' }, name, start, end, note { width 150 }, complete,
           chart { ${TaskTip} }
-  taskroot project.deliveries
+  taskroot deliveries
   hideresource 1
 }
