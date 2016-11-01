@@ -9,7 +9,7 @@ project your_project_id "PR step 001"  2016-10-20-0:00--0500 +4m {
   # the project reports. If not specified, the current day will be
   # used, but this will likely be outside of the project range, so it
   # can't be seen in the reports.
-  now 2011-11-01
+  #now 2016-10-20
   currency "USD"
 
   # You can define multiple scenarios here if you need them.
@@ -24,6 +24,8 @@ project your_project_id "PR step 001"  2016-10-20-0:00--0500 +4m {
   #extend task {
   #  reference spec "Link to Wiki page"
   #}
+
+  timingresolution 15min
 }
 
 copyright "Project Renard"
@@ -38,40 +40,75 @@ flags important, hidden
 rate 400.0
 
 # This is a set of example resources.
-resource r1 "Resource 1"
-resource t1 "Team 1" {
-  managers r1
-  resource r2 "Resource 2"
-  resource r3 "Resource 3"
-}
-
-# This is a resource that does not do any work.
-resource s1 "System 1" {
-  efficiency 0.0
-  rate 600.0
+resource dev "Developers" {
+  resource helen "Helen Bach" {
+    limits { dailymax 1h }
+  }
+  resource stan "Stanislav Yotov" {
+    limits { dailymax 1h }
+  }
+  resource zaki "Zaki Mughal" {
+    limits { dailymax 1h }
+  }
 }
 
 task curie "Curie" {
-  task m0_002 "milestone v0.002" {
+  task nav "Navigation" {
+    task zoom "Zoom" {
+      allocate zaki { persistent }
+      task mupdf_zoom "Add zoom parameter to MuPDF calls" {
+        effort 30min
+        actual:start 2016-10-24
+        actual:effort 1h
+      }
+      task menu "Zoom using menu" {
+        effort 1h
+        actual:start 2016-10-24
+        actual:effort 1h
+        depends !mupdf_zoom
+      }
+      task entry "Zoom using text entry" {
+        depends !mupdf_zoom
+        task "Place text entry in GUI" {
+          effort 1h
+        }
+        task "Hook up text-entry callbacks" {
+          effort 1h
+          note "Validate input"
+        }
+      }
+    }
   }
-  task m0_003 "milestone v0.003" {
+
+  task m0_002 "v0.002" {
+    depends curie.nav.zoom.menu
+    actual:complete 0
+  }
+  task m0_003 "v0.003" {
     depends !m0_002
+    depends curie.nav.zoom.entry
+    actual:complete 0
   }
-  task m0_004 "milestone v0.004" {
+  task m0_004 "v0.004" {
     depends !m0_003
+    actual:complete 0
   }
 }
 
 task deliveries "Deliveries" {
+  allocate zaki { persistent } # release manager
   task "Curie release v0.002" {
+    milestone
     depends curie.m0_002
     end 2016-10-31
   }
   task "Curie release v0.003" {
+    milestone
     depends curie.m0_003
     end 2016-11-14
   }
   task "Curie release v0.004" {
+    milestone
     depends curie.m0_004
     end 2016-11-28
   }
@@ -113,7 +150,11 @@ textreport frame "" {
   footer "----"
   textreport index "Overview" {
     formats html
-    center '<[report id="overview"]>'
+    center -8<-
+      <[report id="overview.plan"]>
+      ----
+      <[report id="overview.actual"]>
+    ->8-
   }
 
   textreport "Status" {
@@ -133,13 +174,15 @@ textreport frame "" {
     formats html
     center '<[report id="deliveries"]>'
   }
+
+  textreport "Resource Graph" {
+    formats html
+    center '<[report id="resourceGraph"]>'
+  }
 }
 
 # A traditional Gantt chart with a project overview.
 taskreport overview "" {
-  header -8<-
-    === Original Project Plan ===
-  ->8-
   columns bsi { title 'WBS' },
           name, start, end, effort,
           chart { ${TaskTip} }
@@ -149,17 +192,30 @@ taskreport overview "" {
   loadunit days
   hideresource 1
   caption 'All effort values are in man days.'
+  taskreport plan "Original Project Plan" {
+    header -8<-
+      === Original Project Plan ===
+    ->8-
+    scenarios plan
+  }
+  taskreport actual "Actual Project Plan" {
+    header -8<-
+      === Actual Project Plan ===
+    ->8-
+    scenarios actual
+  }
 }
 
 # Macro to set the background color of a cell according to the alert
 # level of the task.
 macro AlertColor [
-  cellcolor plan.alert = 0 "#00D000" # green
-  cellcolor plan.alert = 1 "#D0D000" # yellow
-  cellcolor plan.alert = 2 "#D00000" # red
+  cellcolor actual.alert = 0 "#00D000" # green
+  cellcolor actual.alert = 1 "#D0D000" # yellow
+  cellcolor actual.alert = 2 "#D00000" # red
 ]
 
 taskreport status "" {
+  scenarios actual
   columns bsi { width 50 title 'WBS' }, name { width 150 },
           start { width 100 }, end { width 100 },
           effort { width 100 },
@@ -179,20 +235,20 @@ taskreport status "" {
     journalmode status_up
     journalattributes headline, author, date, summary, details
     hidetask ~hasalert(0)
-    sorttasks alert.down, plan.end.up
+    sorttasks alert.down, actual.end.up
     period %{${now} - 1w} +1w
   }
   taskreport completed "" {
     headline "Already completed tasks"
-    hidetask ~(plan.end <= ${now})
+    hidetask ~(actual.end <= ${now})
   }
   taskreport ongoing "" {
     headline "Ongoing tasks"
-    hidetask ~((plan.start <= ${now}) & (plan.end > ${now}))
+    hidetask ~((actual.start <= ${now}) & (actual.end > ${now}))
   }
   taskreport future "" {
     headline "Future tasks"
-    hidetask ~(plan.start > ${now})
+    hidetask ~(actual.start > ${now})
   }
 }
 
@@ -203,4 +259,23 @@ taskreport deliveries "" {
           chart { ${TaskTip} }
   taskroot deliveries
   hideresource 1
+}
+
+taskreport csvreport "OverviewAsCSV" {
+  formats csv
+  columns id, name, start, end, duration, resources, effort, children, precursors
+  sorttasks tree
+  loadunit months
+}
+
+# A graph showing resource allocation. It identifies whether each
+# resource is under- or over-allocated for.
+resourcereport resourceGraph "" {
+  scenarios actual
+  headline "Resource Allocation Graph"
+  columns no, name, effort, rate, weekly { ${TaskTip} }
+  loadunit shortauto
+  # We only like to show leaf tasks for leaf resources.
+  hidetask ~(isleaf() & isleaf_())
+  sorttasks plan.start.up
 }
