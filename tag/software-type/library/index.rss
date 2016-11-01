@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 06 Oct 2016 01:20:55 +0000</pubDate>
+<pubDate>Fri, 07 Oct 2016 04:39:52 +0000</pubDate>
 <item>
 	<title>LibHaru</title>
 
@@ -21,8 +21,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 06 Oct 2016 01:20:55 +0000</pubDate>
-	<dcterms:modified>2016-10-06T01:20:55Z</dcterms:modified>
+	<pubDate>Fri, 07 Oct 2016 04:39:52 +0000</pubDate>
+	<dcterms:modified>2016-10-07T04:39:52Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -91,19 +91,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Poppler</title>
+	<title>MuPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 06 Oct 2016 01:20:55 +0000</pubDate>
-	<dcterms:modified>2016-10-06T01:20:55Z</dcterms:modified>
+	<pubDate>Fri, 07 Oct 2016 04:39:52 +0000</pubDate>
+	<dcterms:modified>2016-10-07T04:39:52Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -114,7 +114,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Poppler
+            MuPDF
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -125,7 +125,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -158,7 +158,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -167,8 +167,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
@@ -187,8 +185,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 06 Oct 2016 01:20:55 +0000</pubDate>
-	<dcterms:modified>2016-10-06T01:20:55Z</dcterms:modified>
+	<pubDate>Fri, 07 Oct 2016 04:39:52 +0000</pubDate>
+	<dcterms:modified>2016-10-07T04:39:52Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -278,19 +276,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>MuPDF</title>
+	<title>Poppler</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Thu, 06 Oct 2016 01:20:55 +0000</pubDate>
-	<dcterms:modified>2016-10-06T01:20:55Z</dcterms:modified>
+	<pubDate>Fri, 07 Oct 2016 04:39:52 +0000</pubDate>
+	<dcterms:modified>2016-10-07T04:39:52Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -301,7 +299,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            MuPDF
+            Poppler
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -312,7 +310,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -345,7 +343,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -354,6 +352,8 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
