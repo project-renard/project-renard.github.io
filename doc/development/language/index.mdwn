@@ -1,4 +1,4 @@
-[[!map pages="* and ! */* " show=title]]
+[[!map pages="doc/development/language/* and ! */* " show=title]]
 
 - Parsey and SyntaxNet
   - Google Research Blog
@@ -10,3 +10,11 @@
   - [[openQA - Open Question Answering Framework|http://openqa.aksw.org/]]
   - [[Quepy: A Python framework to transform natural language questions to queries.|http://quepy.machinalis.com/]]
   - [[GitHub - bwbaugh/causeofwhy: The goal of this project is to implement a Question Answering (QA) system that answers causal type questions. We use Wikipedia as a knowledge base, extracting answers to user questions from the articles.|https://github.com/bwbaugh/causeofwhy]]
+
+# SVG
+
+You can embed text strings in multiple languages inside of SVG. It can be made to display the one used by the system.
+
+Example: <https://commons.wikimedia.org/wiki/File:SystemLanguage.svg>.
+
+I was looking into this because this diagram on Wikipedia was using the German "pyruvat" instead of the English "pyruvate" <https://en.wikipedia.org/wiki/File:Phosphotransferase_system.svg> via <https://en.wikipedia.org/wiki/PEP_group_translocation>.
