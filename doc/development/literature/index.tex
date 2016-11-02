@@ -2,17 +2,41 @@
 
 \usepackage{hyperref}
 
+\newif\ifusenatbib
+%\usenatbibtrue
+\usenatbibfalse
+
+\ifusenatbib
 \usepackage{natbib}
 \bibliographystyle{plainnat}
 \usepackage{bibentry}
 \nobibliography*
+\else
+\usepackage[style=authoryear-comp,natbib=true]{biblatex}
+\bibliography{biblio}
+\fi
+
+\newcommand{\htmlanchorstart}[1]{%
+	\ifx\HCode\Undef%
+		\empty%
+	\else%
+		\HCode{<a id="#1"></a>}%
+	\fi%
+}
+\newcommand{\htmlanchorend}[1]{%
+	\ifx\HCode\Undef%
+		\empty%
+	\else%
+		\HCode{<a href="\##1">&para;</a>}%
+	\fi%
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {{{
 \usepackage{usebib}
 %% prints out the info for a citation key:
 %%     \printarticle{Author00}
 \newcommand{\printarticle}[1]{\citeauthor{#1}, ``\usebibentry{#1}{title}'' (\usebibentry{#1}{year})}
-\newcommand{\paracite}[1]{\paragraph{\usebibentry{#1}{title}~\citet{#1}}}
+\newcommand{\paracite}[1]{\paragraph{\htmlanchorstart{bibentry:#1}\usebibentry{#1}{title}~\citet{#1}}\label{bibentry:#1}\htmlanchorend{bibentry:#1}}
 % \bibentry{#1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }}}
 
@@ -52,6 +76,10 @@ Lisa D. Harper looks at sensemaking models as a way to understand academic
 workflows.
 
 
-\bibliography{biblio}
+\ifusenatbib
+	\bibliography{biblio}
+\else
+	\printbibliography
+\fi
 
 \end{document}
