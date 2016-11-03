@@ -1,4 +1,4 @@
-project your_project_id "PR step 001"  2016-10-20-0:00--0500 +4m {
+project your_project_id "PR step 001"  2016-11-01-0:00--0500 +4m {
   # Hide the clock time. Only show the date.
   timeformat "%Y-%m-%d"
   # Use US format for numbers
@@ -9,23 +9,31 @@ project your_project_id "PR step 001"  2016-10-20-0:00--0500 +4m {
   # the project reports. If not specified, the current day will be
   # used, but this will likely be outside of the project range, so it
   # can't be seen in the reports.
-  #now 2016-10-20
+  now 2016-11-01
   currency "USD"
 
   # You can define multiple scenarios here if you need them.
   scenario plan "Plan" {
     scenario actual "Actual"
   }
+  trackingscenario actual
 
   # You can define your own attributes for tasks and resources. This
   # is handy to capture additional information about the project that
   # is not directly impacting the project schedule but you like to
   # keep in one place.
-  #extend task {
-  #  reference spec "Link to Wiki page"
-  #}
+  extend task {
+    reference Spec "Link to Wiki page"
+    reference GH "Link to GitHub"
+  }
+  extend resource {
+    reference GH "Link to GitHub"
+  }
 
   timingresolution 15min
+
+  # Work all day, work all night
+  workinghours mon - sun 9:00 - 12:00, 17:00 - 22:00
 }
 
 copyright "Project Renard"
@@ -42,33 +50,70 @@ rate 400.0
 # This is a set of example resources.
 resource dev "Developers" {
   resource helen "Helen Bach" {
-    limits { dailymax 1h }
+    limits {
+      dailymax 1h
+      weeklymax 10h
+    }
+    GH "https://github.com/helenbach"
   }
   resource stan "Stanislav Yotov" {
-    limits { dailymax 1h }
+    limits {
+      dailymax 1h
+      weeklymax 10h
+    }
+    GH "https://github.com/StayerX"
   }
   resource zaki "Zaki Mughal" {
-    limits { dailymax 1h }
+    limits {
+      dailymax 1h
+      weeklymax 10h
+    }
+    GH "https://github.com/zmughal"
+  }
+}
+
+task data "Data" {
+  task format "Format" {
+    task pdf "PDF" {
+      task mutool "mutool" {
+        task zoom "Add zoom parameter to MuPDF calls" {
+          allocate zaki
+          effort 30min
+          actual:start 2016-11-02
+          actual:effort 1h
+        }
+      }
+      task mupdf "mupdf" {
+        task xs "XS bindings" {
+          allocate zaki,helen
+          effort 15h
+        }
+      }
+    }
+  }
+  task model "Model" {
+    task refactor_201611 "Refactor views into view-models" {
+      allocate zaki
+      effort 2h
+    }
+    task viewports "Viewports" {
+      depends data.format.pdf.mupdf.xs, data.model.refactor_201611
+      note "For rendering only part of a page"
+    }
   }
 }
 
 task curie "Curie" {
   task nav "Navigation" {
     task zoom "Zoom" {
+      depends data.format.pdf.mutool.zoom
       allocate zaki { persistent }
-      task mupdf_zoom "Add zoom parameter to MuPDF calls" {
-        effort 30min
-        actual:start 2016-10-24
-        actual:effort 1h
-      }
       task menu "Zoom using menu" {
         effort 1h
-        actual:start 2016-10-24
+        actual:start 2016-11-02
         actual:effort 1h
-        depends !mupdf_zoom
       }
       task entry "Zoom using text entry" {
-        depends !mupdf_zoom
         task "Place text entry in GUI" {
           effort 1h
         }
@@ -77,12 +122,33 @@ task curie "Curie" {
           note "Validate input"
         }
       }
+      task viewport "Zoom using viewports" {
+        allocate stan
+        depends data.model.viewports
+        effort 3h
+      }
+    }
+    task outline "Outline" {
+      task position "Specific page position" {
+        allocate helen
+        effort 4h
+        depends data.format.pdf.mupdf.xs, data.model.refactor_201611
+      }
+    }
+  }
+
+  task build "Build" {
+    task mac "macOS" {
+      task dmg "Build script to create DMG for curie" {
+        allocate zaki
+        effort 7h
+      }
     }
   }
 
   task m0_002 "v0.002" {
-    depends curie.nav.zoom.menu
-    actual:complete 0
+    depends deliveries.start,!nav.zoom.menu,!build.mac.dmg
+    #actual:complete 0
   }
   task m0_003 "v0.003" {
     depends !m0_002
@@ -91,26 +157,32 @@ task curie "Curie" {
   }
   task m0_004 "v0.004" {
     depends !m0_003
+    depends curie.nav.outline.position
     actual:complete 0
   }
 }
 
 task deliveries "Deliveries" {
   allocate zaki { persistent } # release manager
+  task start "Project start" {
+    milestone
+    start ${projectstart}
+  }
   task "Curie release v0.002" {
     milestone
     depends curie.m0_002
-    end 2016-10-31
+    #actual:complete 0
+    maxend 2016-11-14
   }
   task "Curie release v0.003" {
     milestone
     depends curie.m0_003
-    end 2016-11-14
+    maxend 2016-11-28
   }
   task "Curie release v0.004" {
     milestone
     depends curie.m0_004
-    end 2016-11-28
+    maxend 2016-12-14
   }
 }
 
@@ -152,7 +224,12 @@ textreport frame "" {
     formats html
     center -8<-
       <[report id="overview.plan"]>
-      ----
+    ->8-
+  }
+
+  textreport index_actual "Overview (actual)" {
+    formats html
+    center -8<-
       <[report id="overview.actual"]>
     ->8-
   }
@@ -185,7 +262,7 @@ textreport frame "" {
 taskreport overview "" {
   columns bsi { title 'WBS' },
           name, start, end, effort,
-          chart { ${TaskTip} }
+          chart { scale day width 1200 ${TaskTip} }
   # For this report we like to have the abbreviated weekday in front
   # of the date. %a is the tag for this.
   timeformat "%a %Y-%m-%d"
@@ -256,16 +333,9 @@ taskreport status "" {
 taskreport deliveries "" {
   headline "Project Deliverables"
   columns bsi { title 'WBS' }, name, start, end, note { width 150 }, complete,
-          chart { ${TaskTip} }
+          chart { width 800 ${TaskTip} }
   taskroot deliveries
   hideresource 1
-}
-
-taskreport csvreport "OverviewAsCSV" {
-  formats csv
-  columns id, name, start, end, duration, resources, effort, children, precursors
-  sorttasks tree
-  loadunit months
 }
 
 # A graph showing resource allocation. It identifies whether each
@@ -273,9 +343,16 @@ taskreport csvreport "OverviewAsCSV" {
 resourcereport resourceGraph "" {
   scenarios actual
   headline "Resource Allocation Graph"
-  columns no, name, effort, rate, weekly { ${TaskTip} }
+  columns no, name, effort, daily { width 800 ${TaskTip} }
   loadunit shortauto
   # We only like to show leaf tasks for leaf resources.
   hidetask ~(isleaf() & isleaf_())
-  sorttasks plan.start.up
+  sorttasks start.up
+}
+
+taskreport csvreport "OverviewAsCSV" {
+  formats csv
+  columns id, name, start, end, duration, resources, effort, children, precursors
+  sorttasks tree
+  loadunit months
 }
