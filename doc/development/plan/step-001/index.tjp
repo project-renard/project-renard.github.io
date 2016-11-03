@@ -72,6 +72,11 @@ resource dev "Developers" {
   }
 }
 
+task start "Project start" {
+  milestone
+  start ${projectstart}
+}
+
 task data "Data" {
   task format "Format" {
     task pdf "PDF" {
@@ -146,42 +151,41 @@ task curie "Curie" {
     }
   }
 
-  task m0_002 "v0.002" {
-    depends deliveries.start,!nav.zoom.menu,!build.mac.dmg
-    #actual:complete 0
-  }
-  task m0_003 "v0.003" {
-    depends !m0_002
-    depends curie.nav.zoom.entry
-    actual:complete 0
-  }
-  task m0_004 "v0.004" {
-    depends !m0_003
-    depends curie.nav.outline.position
-    actual:complete 0
+  task milestone "Milestone" {
+    task m0_002 "v0.002" {
+      depends start
+      depends !!nav.zoom.menu,!!build.mac.dmg
+      #actual:complete 0
+    }
+    task m0_003 "v0.003" {
+      depends !m0_002
+      depends !!nav.zoom.entry
+      actual:complete 0
+    }
+    task m0_004 "v0.004" {
+      depends !m0_003
+      depends !!nav.outline.position
+      actual:complete 0
+    }
   }
 }
 
 task deliveries "Deliveries" {
   allocate zaki { persistent } # release manager
-  task start "Project start" {
-    milestone
-    start ${projectstart}
-  }
   task "Curie release v0.002" {
     milestone
-    depends curie.m0_002
+    depends curie.milestone.m0_002
     #actual:complete 0
     maxend 2016-11-14
   }
   task "Curie release v0.003" {
     milestone
-    depends curie.m0_003
+    depends curie.milestone.m0_003
     maxend 2016-11-28
   }
   task "Curie release v0.004" {
     milestone
-    depends curie.m0_004
+    depends curie.milestone.m0_004
     maxend 2016-12-14
   }
 }
