@@ -17,140 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-10-09T01:36:27Z</updated>
-<entry>
-	<title>testing and planning features</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/"/>
-
-
-
-
-
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;We need to start testing the code and automatically running those tests using
-continuous integration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot; alt=&quot;project-renard/curie/pull/33&quot; id=&quot;project-renardcuriepull33&quot; /&gt;&lt;/a&gt;
-to address
-issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot; alt=&quot;project-renard/curie/issues/28&quot; id=&quot;project-renardcurieissues28&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Adding Travis-CI support:
-    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
-(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Stan: Show number of pages
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>week of 2016-03-27</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/"/>
-
-
-
-
-
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot; alt=&quot;project-renard/curie/pull/53&quot; id=&quot;project-renardcuriepull53&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot; alt=&quot;project-renard/curie/issues/31&quot; id=&quot;project-renardcurieissues31&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot; alt=&quot;project-renard/devops/issues/2&quot; id=&quot;project-renarddevopsissues2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot; alt=&quot;project-renard/devops/pull/3&quot; id=&quot;project-renarddevopspull3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot; alt=&quot;project-renard/curie/issues/27&quot; id=&quot;project-renardcurieissues27&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; id=&quot;project-renardproject-renard.github.ioissues5&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>week of 2016-04-02</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/"/>
-
-
-
-
-
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
-&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot; alt=&quot;project-renard/devops/issues/4&quot; id=&quot;project-renarddevopsissues4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Refactor tests
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
-&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot; alt=&quot;project-renard/curie/issues/64&quot; id=&quot;project-renardcurieissues64&quot; /&gt;&lt;/a&gt;
-)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Embed AbiWord
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot; alt=&quot;project-renard/curie/issues/57&quot; id=&quot;project-renardcurieissues57&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Embed Evince
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot; alt=&quot;project-renard/curie/issues/56&quot; id=&quot;project-renardcurieissues56&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
+<updated>2016-10-09T23:13:14Z</updated>
 <entry>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -164,8 +31,8 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1139,8 +1006,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1222,8 +1089,8 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
-	<published>2016-10-09T01:36:27Z</published>
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1275,6 +1142,139 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 </entry>
 <entry>
+	<title>week of 2016-04-02</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/"/>
+
+
+
+
+
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
+&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot; alt=&quot;project-renard/devops/issues/4&quot; id=&quot;project-renarddevopsissues4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refactor tests
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot; alt=&quot;project-renard/curie/issues/58&quot; id=&quot;project-renardcurieissues58&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot; alt=&quot;project-renard/curie/issues/64&quot; id=&quot;project-renardcurieissues64&quot; /&gt;&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Embed AbiWord
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot; alt=&quot;project-renard/curie/issues/57&quot; id=&quot;project-renardcurieissues57&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed Evince
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot; alt=&quot;project-renard/curie/issues/56&quot; id=&quot;project-renardcurieissues56&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>testing and planning features</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/"/>
+
+
+
+
+
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot; alt=&quot;project-renard/curie/pull/33&quot; id=&quot;project-renardcuriepull33&quot; /&gt;&lt;/a&gt;
+to address
+issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot; alt=&quot;project-renard/curie/issues/28&quot; id=&quot;project-renardcurieissues28&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot; alt=&quot;project-renard/curie/issues/34&quot; id=&quot;project-renardcurieissues34&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; id=&quot;travis-ciapt-package-whitelistissues2700&quot; /&gt;&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; id=&quot;travis-ciapt-package-whitelistissues2702&quot; /&gt;&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: Show number of pages
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot; alt=&quot;project-renard/curie/issues/21&quot; id=&quot;project-renardcurieissues21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot; alt=&quot;project-renard/curie/issues/22&quot; id=&quot;project-renardcurieissues22&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>week of 2016-03-27</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/"/>
+
+
+
+
+
+	<updated>2016-10-09T23:13:14Z</updated>
+	<published>2016-10-09T23:13:14Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot; alt=&quot;project-renard/curie/issues/40&quot; id=&quot;project-renardcurieissues40&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot; alt=&quot;project-renard/curie/pull/53&quot; id=&quot;project-renardcuriepull53&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot; alt=&quot;project-renard/curie/issues/31&quot; id=&quot;project-renardcurieissues31&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot; alt=&quot;project-renard/curie/pull/52&quot; id=&quot;project-renardcuriepull52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot; alt=&quot;project-renard/devops/issues/2&quot; id=&quot;project-renarddevopsissues2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot; alt=&quot;project-renard/devops/pull/3&quot; id=&quot;project-renarddevopspull3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot; alt=&quot;project-renard/curie/issues/27&quot; id=&quot;project-renardcurieissues27&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;&lt;img src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; id=&quot;project-renardproject-renard.github.ioissues5&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>refactoring recent GUI additions</title>
 
 	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/06/refactoring-recent-gui-additions/</id>
@@ -1285,7 +1285,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
+	<updated>2016-10-09T23:13:14Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 
@@ -1323,7 +1323,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
+	<updated>2016-10-09T23:13:14Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 
@@ -1359,7 +1359,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
+	<updated>2016-10-09T23:13:14Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 
@@ -1497,7 +1497,7 @@ make new sounds.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2016-10-09T01:36:27Z</updated>
+	<updated>2016-10-09T23:13:14Z</updated>
 	<published>2016-01-30T23:23:38Z</published>
 
 
