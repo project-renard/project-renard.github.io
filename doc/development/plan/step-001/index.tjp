@@ -127,6 +127,10 @@ task curie "Curie" {
           note "Validate input"
         }
       }
+      task scrollwheel "Zoom using scrollwheel" {
+        effort 2h
+        GH "https://github.com/project-renard/curie/issues/15"
+      }
       task viewport "Zoom using viewports" {
         allocate stan
         depends data.model.viewports
@@ -140,6 +144,9 @@ task curie "Curie" {
         depends data.format.pdf.mupdf.xs, data.model.refactor_201611
       }
     }
+    task rotate "Rotate page" {
+      GH "https://github.com/project-renard/curie/issues/16"
+    }
   }
 
   task build "Build" {
@@ -148,6 +155,16 @@ task curie "Curie" {
         allocate zaki
         effort 7h
       }
+    }
+  }
+
+  task data "Data" {
+    task recent "Recently opened files" {
+      note "Save paths to recently opened files"
+      GH "https://github.com/project-renard/curie/issues/12"
+    }
+    task display_pdf_metadata "Add dialog that shows PDF metadata" {
+      GH "https://github.com/project-renard/curie/issues/13"
     }
   }
 
