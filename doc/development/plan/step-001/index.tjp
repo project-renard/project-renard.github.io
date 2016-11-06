@@ -148,7 +148,6 @@ task curie "Curie" {
       GH "https://github.com/project-renard/curie/issues/16"
     }
   }
-
   task build "Build" {
     task mac "macOS" {
       task dmg "Build script to create DMG for curie" {
@@ -157,7 +156,6 @@ task curie "Curie" {
       }
     }
   }
-
   task data "Data" {
     task recent "Recently opened files" {
       note "Save paths to recently opened files"
@@ -165,6 +163,25 @@ task curie "Curie" {
     }
     task display_pdf_metadata "Add dialog that shows PDF metadata" {
       GH "https://github.com/project-renard/curie/issues/13"
+    }
+  }
+  task render "Render" {
+    task pdf_text "Render PDF as text" {
+      effort 2h
+      allocate helen
+      GH "https://github.com/project-renard/curie/issues/17"
+    }
+    task pdf_html "Render PDF as HTML" {
+      effort 2h
+      allocate helen
+      GH "https://github.com/project-renard/curie/issues/18"
+    }
+  }
+  task ui "UI" {
+    task dnd_files "Drag and drop for opening files" {
+      effort 2h
+      allocate stan
+      GH "https://github.com/project-renard/curie/issues/19"
     }
   }
 
