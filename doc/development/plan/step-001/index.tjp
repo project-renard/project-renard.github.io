@@ -390,7 +390,7 @@ resourcereport resourceGraph "" {
 
 taskreport csvreport "OverviewAsCSV" {
   formats csv
-  columns id, name, start, end, duration, resources, effort, children, precursors
+  columns id, name, start, end, duration, resources, effort, children, precursors, GH
   sorttasks tree
   loadunit months
 }
