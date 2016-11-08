@@ -71,6 +71,9 @@ resource dev "Developers" {
     GH "https://github.com/zmughal"
   }
 }
+macro AllocateAnyDeveloper [
+  allocate helen { alternative stan, zaki }
+]
 
 task start "Project start" {
   milestone
@@ -90,7 +93,7 @@ task data "Data" {
       }
       task mupdf "mupdf" {
         task xs "XS bindings" {
-          allocate zaki,helen
+          allocate helen,stan,zaki # everyone should learn this
           effort 15h
         }
       }
@@ -102,7 +105,9 @@ task data "Data" {
       effort 2h
     }
     task viewports "Viewports" {
-      depends data.format.pdf.mupdf.xs, data.model.refactor_201611
+      effort 2h
+      ${AllocateAnyDeveloper}
+      depends !!format.pdf.mupdf.xs, !refactor_201611
       note "For rendering only part of a page"
     }
     task split_201612 "Split view models into separate packages" {
@@ -138,14 +143,14 @@ task curie "Curie" {
         GH "https://github.com/project-renard/curie/issues/15"
       }
       task viewport "Zoom using viewports" {
-        allocate stan
+        ${AllocateAnyDeveloper}
         depends data.model.viewports
         effort 3h
       }
     }
     task outline "Outline" {
       task position "Specific page position" {
-        allocate helen
+        ${AllocateAnyDeveloper}
         effort 4h
         depends data.format.pdf.mupdf.xs, data.model.refactor_201611
       }
@@ -164,22 +169,26 @@ task curie "Curie" {
   }
   task data "Data" {
     task recent "Recently opened files" {
+      ${AllocateAnyDeveloper}
+      effort 2h
       note "Save paths to recently opened files"
       GH "https://github.com/project-renard/curie/issues/12"
     }
     task display_pdf_metadata "Add dialog that shows PDF metadata" {
+      ${AllocateAnyDeveloper}
+      effort 1h
       GH "https://github.com/project-renard/curie/issues/13"
     }
   }
   task render "Render" {
     task pdf_text "Render PDF as text" {
+      ${AllocateAnyDeveloper}
       effort 2h
-      allocate helen
       GH "https://github.com/project-renard/curie/issues/17"
     }
     task pdf_html "Render PDF as HTML" {
       effort 2h
-      allocate helen
+      ${AllocateAnyDeveloper}
       GH "https://github.com/project-renard/curie/issues/18"
     }
   }
@@ -195,6 +204,7 @@ task curie "Curie" {
       GH "https://github.com/project-renard/curie/issues/27"
     }
     task theming "GTK+ icon and color theming" {
+      effort 2h
       allocate zaki
       depends !!build.mac
       GH "https://github.com/project-renard/curie/issues/32"
@@ -223,7 +233,7 @@ task curie "Curie" {
     }
     task m0_004 "v0.004" {
       depends !m0_003
-      depends !!nav.outline.position
+      depends !!nav.outline.position,!!nav.zoom.viewport,data.model.split_201612
       actual:complete 0
     }
   }
