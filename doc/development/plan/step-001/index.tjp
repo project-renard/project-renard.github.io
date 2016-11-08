@@ -335,6 +335,7 @@ textreport frame "" {
 taskreport overview "" {
   columns bsi { title 'WBS' },
           name, start, end, effort,
+          GH,
           chart { scale day width 1200 ${TaskTip} }
   # For this report we like to have the abbreviated weekday in front
   # of the date. %a is the tag for this.
@@ -371,6 +372,7 @@ taskreport status "" {
           effort { width 100 },
           alert { tooltip plan.journal
                           != '' "<-query attribute='journal'->" width 150 },
+          GH,
           status { width 150 }
 
   taskreport dashboard "" {
@@ -405,7 +407,7 @@ taskreport status "" {
 # A list of all tasks with the percentage completed for each task
 taskreport deliveries "" {
   headline "Project Deliverables"
-  columns bsi { title 'WBS' }, name, start, end, note { width 150 }, complete,
+  columns bsi { title 'WBS' }, name, start, end, note { width 150 }, complete, GH,
           chart { width 800 ${TaskTip} }
   taskroot deliveries
   hideresource 1
@@ -416,7 +418,7 @@ taskreport deliveries "" {
 resourcereport resourceGraph "" {
   scenarios actual
   headline "Resource Allocation Graph"
-  columns no, name, effort, daily { width 800 ${TaskTip} }
+  columns no, name, effort, GH, daily { width 800 ${TaskTip} }
   loadunit shortauto
   # We only like to show leaf tasks for leaf resources.
   hidetask ~(isleaf() & isleaf_())
