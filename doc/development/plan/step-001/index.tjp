@@ -98,11 +98,17 @@ task data "Data" {
         }
       }
     }
+    task odt "OpenDocument text" {
+      task write "Write support" {
+        GH "https://github.com/project-renard/curie/issues/55"
+      }
+    }
   }
   task model "Model" {
     task refactor_201611 "Refactor views into view-models" {
       allocate zaki
       effort 2h
+      GH "https://github.com/project-renard/curie/issues/150"
     }
     task viewports "Viewports" {
       effort 2h
@@ -147,16 +153,30 @@ task curie "Curie" {
         depends data.model.viewports
         effort 3h
       }
+      task "Pinch to zoom" {
+        effort 2h
+        depends !!!ui.canvas
+        GH "https://github.com/project-renard/curie/issues/106"
+      }
     }
     task outline "Outline" {
       task position "Specific page position" {
         ${AllocateAnyDeveloper}
         effort 4h
         depends data.format.pdf.mupdf.xs, data.model.refactor_201611
+        GH "https://github.com/project-renard/curie/issues/149"
       }
     }
     task rotate "Rotate page" {
       GH "https://github.com/project-renard/curie/issues/16"
+    }
+    task "PDF hyperlinks" {
+      GH "https://github.com/project-renard/curie/issues/79"
+    }
+    task scroll "Scrolling" {
+      task page_tb "Create methods for scrolling to top/bottom of the page" {
+        GH "https://github.com/project-renard/curie/issues/54"
+      }
     }
   }
   task build "Build" {
@@ -165,6 +185,27 @@ task curie "Curie" {
         allocate zaki
         effort 7h
       }
+      task "Make sure that icons are available on macOS" {
+        GH "https://github.com/project-renard/curie/issues/165"
+      }
+    }
+    task "Unix packaging" {
+      GH "https://github.com/project-renard/curie/issues/97"
+    }
+    task "GTK+ Mac OS X setup" {
+      GH "https://github.com/project-renard/curie/issues/102"
+    }
+    task "Packaging meta-issue" {
+      GH "https://github.com/project-renard/curie/issues/109"
+    }
+    task "GPG keys for packaging" {
+      GH "https://github.com/project-renard/curie/issues/121"
+    }
+    task "Appveyor: 32-bit build" {
+      GH "https://github.com/project-renard/curie/issues/88"
+    }
+    task "Signed code certificate" {
+      GH "https://github.com/project-renard/curie/issues/93"
     }
   }
   task data "Data" {
@@ -179,6 +220,9 @@ task curie "Curie" {
       effort 1h
       GH "https://github.com/project-renard/curie/issues/13"
     }
+    task "Be able to open files inside of archives" {
+      GH "https://github.com/project-renard/curie/issues/82"
+    }
   }
   task render "Render" {
     task pdf_text "Render PDF as text" {
@@ -191,6 +235,12 @@ task curie "Curie" {
       ${AllocateAnyDeveloper}
       GH "https://github.com/project-renard/curie/issues/18"
     }
+    task abiword "Abiword" {
+      task embed "Embed Abiword" {
+        depends data.format.odt.write
+        GH "https://github.com/project-renard/curie/issues/57"
+      }
+    }
   }
   task ui "UI" {
     task dnd_files "Drag and drop for opening files" {
@@ -198,7 +248,10 @@ task curie "Curie" {
       allocate stan
       GH "https://github.com/project-renard/curie/issues/19"
     }
-    task canvas "Render to canvas so that copy-and-paste works" {
+    task copy_paste "Copy and paste" {
+      depends !canvas,!!render.pdf_text
+    }
+    task canvas "Render to canvas" {
       effort 3h
       allocate zaki
       GH "https://github.com/project-renard/curie/issues/27"
@@ -206,11 +259,44 @@ task curie "Curie" {
     task theming "GTK+ icon and color theming" {
       effort 2h
       allocate zaki
-      depends !!build.mac
+      depends !!build.mac.dmg
       GH "https://github.com/project-renard/curie/issues/32"
     }
     task presentation_mode "Presentation mode" {
+      effort 3h
       GH "https://github.com/project-renard/curie/issues/36"
+      ${AllocateAnyDeveloper}
+    }
+    task translation "Translations" {
+      task gettext "gettext integration" {
+        GH "https://github.com/project-renard/curie/issues/44"
+      }
+    }
+    task "Dual page display" {
+      GH "https://github.com/project-renard/curie/issues/94"
+    }
+  }
+
+  task nlp "Natural language processing" {
+    task "Use ParsCit on the plain text" {
+      GH "https://github.com/project-renard/curie/issues/76"
+    }
+    task "Query online translation services" {
+      GH "https://github.com/project-renard/curie/issues/80"
+    }
+    task "Query local and online dictionaries" {
+      GH "https://github.com/project-renard/curie/issues/81"
+    }
+    task "Speech recognition feedback system" {
+      GH "https://github.com/project-renard/curie/issues/169"
+    }
+    task "Rudimentary speech synthesis" {
+      GH "https://github.com/project-renard/curie/issues/148"
+    }
+  }
+  task misc "Miscellaneous" {
+    task "Plot using R to Cairo device" {
+      GH "https://github.com/project-renard/curie/issues/66"
     }
   }
 
@@ -218,17 +304,51 @@ task curie "Curie" {
     task status_bar_GH40 "The status bar is too wide" {
       GH "https://github.com/project-renard/curie/issues/40"
     }
+    task "Track MSYS2 pl2bat issue" {
+      GH "https://github.com/project-renard/curie/issues/119"
+    }
+    task "Track issue between Function::Parameters, Return::Type, and Devel::Cover" {
+      GH "https://github.com/project-renard/curie/issues/120"
+    }
+    task "Track PAR GUI output capture issue" {
+      GH "https://github.com/project-renard/curie/issues/128"
+    }
+    task "Track PAR XSLoader issue on MSYS2/MinGW64" {
+      GH "https://github.com/project-renard/curie/issues/122"
+    }
+    task "Figure out why Gtk3 can not load 'libcairo-gobject.2.dylib' on macOS" {
+      GH "https://github.com/project-renard/curie/issues/167"
+    }
+    task "Fix focus for the text field and page drawing area" {
+      GH "https://github.com/project-renard/curie/issues/101"
+    }
   }
 
+  task qa  "Quality assurance" {
+    task "Gather feedback on GUI" {
+      GH "https://github.com/project-renard/curie/issues/123"
+    }
+    task "Make sure that FileChooserDialog shows consistent interface" {
+      GH "https://github.com/project-renard/curie/issues/166"
+    }
+    task "Dump version numbers of libraries used" {
+      GH "https://github.com/project-renard/curie/issues/168"
+    }
+    task "Ensure that the application menu is at the top bar" {
+      GH "https://github.com/project-renard/curie/issues/160"
+    }
+    task "Figure out how to run curie tests on release" {
+      GH "https://github.com/project-renard/curie/issues/130"
+    }
+  }
   task milestone "Milestone" {
     task m0_002 "v0.002" {
-      depends start
       depends !!nav.zoom.menu,!!build.mac.dmg
       #actual:complete 0
     }
     task m0_003 "v0.003" {
       depends !m0_002
-      depends !!nav.zoom.entry
+      depends !!nav.zoom.entry,!!ui.theming
       actual:complete 0
     }
     task m0_004 "v0.004" {
@@ -243,6 +363,7 @@ task deliveries "Deliveries" {
   allocate zaki { persistent } # release manager
   task "Curie release v0.002" {
     milestone
+    depends start
     depends curie.milestone.m0_002
     #actual:complete 0
     maxend 2016-11-14
@@ -340,9 +461,9 @@ taskreport overview "" {
   # For this report we like to have the abbreviated weekday in front
   # of the date. %a is the tag for this.
   timeformat "%a %Y-%m-%d"
-  loadunit days
+  loadunit hours
   hideresource 1
-  caption 'All effort values are in man days.'
+  caption 'All effort values are in man hours.'
   taskreport plan "Original Project Plan" {
     header -8<-
       === Original Project Plan ===
