@@ -103,6 +103,8 @@ task data "Data" {
         GH "https://github.com/project-renard/curie/issues/55"
       }
     }
+    task epub "ePub" {
+    }
   }
   task model "Model" {
     task refactor_201611 "Refactor views into view-models" {
