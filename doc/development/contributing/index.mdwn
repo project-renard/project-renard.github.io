@@ -26,4 +26,9 @@
 - <https://github.com/kevinphilp/Perl-gtk3-Tutorial>
 - <https://github.com/dave-theunsub/gtk3-perl-demos>
 - <http://gtk2-perl.sourceforge.net/doc/>
--<https://github.com/Programmica/perl-gtk3-examples>
+- <https://github.com/Programmica/perl-gtk3-examples>
+
+In order to see the documentation for Glib-based libraries (such as Gtk) in a Perl-friendly way,
+the [[Glib::Object::Introspection|https://p3rl.org/Glib::Object::Introspection]]
+package comes with called `perli11ndoc` that shows all the available classes that can be used
+for that library using Perl syntax.
