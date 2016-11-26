@@ -64,3 +64,5 @@ In order to see the documentation for Glib-based libraries (such as Gtk) in a Pe
 the [[Glib::Object::Introspection|https://p3rl.org/Glib::Object::Introspection]]
 package comes with called `perli11ndoc` that shows all the available classes that can be used
 for that library using Perl syntax.
+
+[[!img gfx/perli11ndoc.png caption="The perli11ndoc tool showing documentation from Gtk3's AccelGroup class."]]
