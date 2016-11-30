@@ -1,4 +1,4 @@
-[[!map pages="page(doc/development/*) and !doc/development/meeting-log/posts/*" show=title]]
+[[!map pages="page(doc/development/*) and !doc/development/*/* and !doc/development/meeting-log/posts/*" show=title]]
 
 Issues:
 
