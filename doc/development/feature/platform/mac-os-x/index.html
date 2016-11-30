@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mac OS X</title>
+
+<link rel="stylesheet" href="../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/platform/mac-os-x.mdwn" />
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../">Project Renard</a>/ 
+
+<a href="../../../../">doc</a>/ 
+
+<a href="../../../">development</a>/ 
+
+<a href="../../">feature</a>/ 
+
+<a href="../">platform</a>/ 
+
+</span>
+<span class="title">
+Mac OS X
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/platform/mac-os-x.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/feature/platform/mac-os-x.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../user/">User</a></li>
+        <li><a href="../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../meeting-log/">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../survey/">Survey</a></li>
+        <li><a href="../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<h2 id="macosxquestions">Mac OS X questions</h2>
+
+<ol>
+<li><p>Which package format is preferred for distributing a GUI
+application for non-developers? What's the technical difference
+between .dmg, .pkg, and .app?</p>
+
+<ul>
+<li>.dmg is a disk image,</li>
+<li>.pkg is an installer+archive, and</li>
+<li><p>.app is a directory w/ a particular structure that macOS expects applications to have/use</p></li>
+<li><p>.app is the application itself</p></li>
+<li>use .dmg if you want to distribute an app and don't need installation scripts</li>
+<li>use .pkg if you need installation scripts</li>
+<li>common pattern: put .app inside .dmg along with a shortcut that can be
+dragged to Applications</li>
+<li>PostgreSQL distributes as a .dmg for standalone installation and a .zip
+for inclusion in other projects <a href="https://www.postgresql.org/download/macosx/">https://www.postgresql.org/download/macosx/</a>.</li>
+<li>Use <code>hdiutil</code> to create .dmg <a href="https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory">https://apple.stackexchange.com/questions/48414/how-do-i-create-a-dmg-file-from-a-directory</a>.</li>
+<li>Or this tool that creates icons <a href="https://github.com/andreyvit/create-dmg">https://github.com/andreyvit/create-dmg</a>.</li>
+</ul></li>
+<li><p>Has anyone here turned homebrew formulae into a package? I'm
+using timsutton/brew-pkg for .pkg right now and it doesn't appear to
+work properly in this VM that I have (not all files are in the
+archive) and doesn't distinguish between build-time and run-time
+deps.</p></li>
+<li><p>Do any of those formats work under their own prefix so that they
+don't get affected by the rest of the system libraries? Or should I
+relocate the homebrew prefix before installing and install there?</p></li>
+<li><p>What about if the application is a script with many libraries?
+This seems like it would help <a href="http://sveinbjorn.org/platypus">http://sveinbjorn.org/platypus</a>.</p>
+
+<p>This script uses Platypus for Perl <a href="https://github.com/miyagawa/perl-app-builder/blob/master/perl-app-builder.pl">https://github.com/miyagawa/perl-app-builder/blob/master/perl-app-builder.pl</a>.</p></li>
+<li><p>Does it matter which version of macOS I build the package on?
+Will that effect my ability to distribute it to older versions of
+macOS? Which macOS version does it make sense to target? N releases
+behind the latest version?</p></li>
+<li><p>Is there any remote desktop protocol for a headless VM? I'm using
+a OS X Vagrant box <a href="https://atlas.hashicorp.com/AndrewDryga/boxes/vagrant-box-osx">https://atlas.hashicorp.com/AndrewDryga/boxes/vagrant-box-osx</a>. All
+my GUI tests work fine, but I can't see the GUI. I need to be able
+to start it from the terminal --- VNC would be great.</p>
+
+<p>```
+osx-guest $ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers -clientopts -setvncpw -vncpw secret -setvnclegacy -vnclegacy yes</p>
+
+<p>then do
+host $ vagrant ssh -- -L5908:localhost:5900</p>
+
+<p>host $ xvnc4viewer :8
+[password: secret]
+```</p>
+
+<p>via <a href="http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc">http://serverfault.com/questions/120559/vnc-viewer-not-connecting-to-mac-from-pc</a></p></li>
+</ol>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 29 Nov 2016 09:29:57 PM UTC</span>
+<!-- Created <span class="date">Tue 29 Nov 2016 09:29:57 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

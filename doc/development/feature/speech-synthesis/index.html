@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>speech-synthesis</title>
+
+<link rel="stylesheet" href="../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/speech-synthesis/index.mdwn" />
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../">Project Renard</a>/ 
+
+<a href="../../../">doc</a>/ 
+
+<a href="../../">development</a>/ 
+
+<a href="../">feature</a>/ 
+
+</span>
+<span class="title">
+speech-synthesis
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/feature/speech-synthesis/index.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/feature/speech-synthesis/index.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../blog/">Blog</a></li>
+    <li><a href="../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../user/">User</a></li>
+        <li><a href="../../">Development</a></li>
+        <ul>
+            <li><a href="../../meeting-log/">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../survey/">Survey</a></li>
+        <li><a href="../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<h1 id="compareengines">Compare engines</h1>
+
+<h2 id="precomposedcharacters">Precomposed characters</h2>
+
+<p>Check if the following two words give different output in a speech synthesis
+engine:</p>
+
+<ol>
+<li>"finish"  (normal text)</li>
+<li>"ﬁnish" (with ﬁ precomposed ligature)</li>
+</ol>
+
+<p>They should be <em>the same</em> if the engine knows about Unicode normalisation. I
+did a quick check over the TTS engines/voices that I have access to
+(☒: different, ☑: same):</p>
+
+<ul>
+<li>☒ Festival <a href="http://hts.sp.nitech.ac.jp/?Release%20Archive">voice_nitech_us_awb_arctic_hts</a> (on GNU/Linux)</li>
+<li>☒ <a href="https://en.wikipedia.org/wiki/Microsoft_text-to-speech_voices#Windows_10">Microsoft Zira Mobile</a> (on Win 10)</li>
+<li>☒ <a href="https://en.wikipedia.org/wiki/Microsoft_text-to-speech_voices#Windows_10">Microsoft Mark Mobile</a> (on Win 10)</li>
+<li>☑ <a href="https://www.ivona.com/">Ivona</a> Amy UK English (on Android)</li>
+<li>☒ <a href="http://www.bing.com/translator/">Bing Translator's TTS</a> (on the Web)</li>
+<li>☑ <a href="https://translate.google.com/">Google Translate's TTS</a> (on the Web)</li>
+<li>☑ <a href="http://www.apple.com/accessibility/osx/voiceover/">VoiceOver Alex</a> (on Mac OS X).</li>
+</ul>
+
+<p>Here is a <a href="https://en.wikipedia.org/wiki/List_of_precomposed_Latin_characters_in_Unicode">list of pre-composed Latin characters</a>.</p>
+
+<hr />
+
+<h1 id="api">API</h1>
+
+<ul>
+<li><a href="https://msdn.microsoft.com/en-us/library/ee125663(v=vs.85).aspx">SAPI 5.4</a></li>
+<li><a href="https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/Introduction/Introduction.html">Speech Synthesis Manager</a></li>
+<li>MBROLA</li>
+</ul>
+
+<hr />
+
+<p>Need a way to identify abbreviations and the context it is in. For example, Ala
+can be either Alabama or Alanine depending on what is being talked about.</p>
+
+<p>See <a href="../language/english/">english</a> for more information about abbreviations.</p>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 29 Nov 2016 09:29:57 PM UTC</span>
+<!-- Created <span class="date">Tue 29 Nov 2016 09:29:57 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>
