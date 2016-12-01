@@ -66,3 +66,7 @@ package comes with called `perli11ndoc` that shows all the available classes tha
 for that library using Perl syntax.
 
 [[!img gfx/perli11ndoc.png caption="The perli11ndoc tool showing documentation from Gtk3's AccelGroup class."]]
+
+### Creating Perl bindings
+
+- <https://github.com/Perl-XS/notes/blob/master/Resources.md>
