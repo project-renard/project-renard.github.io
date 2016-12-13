@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged software-type/semantic-desktop</title>
+<link>http://project-renard.github.io//tag/software-type/semantic-desktop/</link>
+
+<description>Project Renard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 04 Nov 2016 12:59:15 +0000</pubDate>
+<item>
+	<title>DeepaMehta</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/deepamehta/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/deepamehta/</link>
+
+
+
+	<category>software-type/semantic-desktop</category>
+
+
+	<pubDate>Fri, 04 Nov 2016 12:59:15 +0000</pubDate>
+	<dcterms:modified>2016-11-04T12:59:15Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            DeepaMehta
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/semantic-desktop/../../../doc/survey/tool/deepamehta/gfx/deepamehta-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/semantic-desktop/../../../doc/survey/tool/deepamehta/gfx/deepamehta-logo.png&quot; width=&quot;164&quot; height=&quot;175&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.deepamehta.de/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/jri/deepamehta&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.deepamehta.de/sites/default/files/swe-book-800.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Web application
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: yes
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Status: Active
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Provides a web-interface for navigating a graph.&lt;/li&gt;
+&lt;li&gt;Allows for the creation of plugins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Example use cases: &lt;a href=&quot;https://www.deepamehta.de/en/content/show-cases&quot;&gt;https://www.deepamehta.de/en/content/show-cases&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;GIS tool: &lt;a href=&quot;http://www.kiezatlas.de/&quot;&gt;KiezAtlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Audio data: &lt;a href=&quot;https://www.deepamehta.de/content/soundsets-associative-audiolibrary&quot;&gt;Soundsets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ideas&quot;&gt;Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://trac.deepamehta.de/wiki/Brainstorming&quot;&gt;Brainstorming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;/h1&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
