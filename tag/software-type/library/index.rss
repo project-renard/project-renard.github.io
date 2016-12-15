@@ -8,21 +8,21 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 05 Nov 2016 23:10:28 +0000</pubDate>
+<pubDate>Sun, 06 Nov 2016 16:09:16 +0000</pubDate>
 <item>
-	<title>LibHaru</title>
+	<title>Poppler</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 05 Nov 2016 23:10:28 +0000</pubDate>
-	<dcterms:modified>2016-11-05T23:10:28Z</dcterms:modified>
+	<pubDate>Sun, 06 Nov 2016 16:09:16 +0000</pubDate>
+	<dcterms:modified>2016-11-06T16:09:16Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -33,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            LibHaru
+            Poppler
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -44,7 +44,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -77,7 +77,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -86,6 +86,8 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
@@ -102,8 +104,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 05 Nov 2016 23:10:28 +0000</pubDate>
-	<dcterms:modified>2016-11-05T23:10:28Z</dcterms:modified>
+	<pubDate>Sun, 06 Nov 2016 16:09:16 +0000</pubDate>
+	<dcterms:modified>2016-11-06T16:09:16Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -185,8 +187,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 05 Nov 2016 23:10:28 +0000</pubDate>
-	<dcterms:modified>2016-11-05T23:10:28Z</dcterms:modified>
+	<pubDate>Sun, 06 Nov 2016 16:09:16 +0000</pubDate>
+	<dcterms:modified>2016-11-06T16:09:16Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -276,19 +278,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Poppler</title>
+	<title>LibHaru</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 05 Nov 2016 23:10:28 +0000</pubDate>
-	<dcterms:modified>2016-11-05T23:10:28Z</dcterms:modified>
+	<pubDate>Sun, 06 Nov 2016 16:09:16 +0000</pubDate>
+	<dcterms:modified>2016-11-06T16:09:16Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -299,7 +301,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Poppler
+            LibHaru
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -310,7 +312,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -343,7 +345,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -352,8 +354,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
