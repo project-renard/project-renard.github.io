@@ -3,7 +3,7 @@ Name: Evince
 Homepage: https://wiki.gnome.org/Apps/Evince
 Logo: evince/gfx/evince-logo.png
 FileFormat:
-  - "[[application/pdf|doc/development/file-format/pdf]]"
+  - "[[application/pdf|doc/development/feature/file-format/pdf]]"
   - application/postscript
   - image/tiff
   - application/x-dvi

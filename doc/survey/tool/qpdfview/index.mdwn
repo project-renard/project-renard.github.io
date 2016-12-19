@@ -2,7 +2,7 @@
 Name: qpdfview
 Homepage: https://launchpad.net/qpdfview
 FileFormat:
-  - "[[application/pdf|doc/development/file-format/pdf]]"
+  - "[[application/pdf|doc/development/feature/file-format/pdf]]"
   - application/postscript
   - image/vnd.djvu
 ExternalScreenshot: https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png
