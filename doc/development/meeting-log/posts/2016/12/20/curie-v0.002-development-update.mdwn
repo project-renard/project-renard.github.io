@@ -1,0 +1,103 @@
+[[!meta title="Curie v0.002 development update"]]
+[[!meta author="zaki"]]
+[[!meta description="DESCRIPTION"]]
+
+<style>
+.sshot {
+  width: 400px;
+  height: auto;
+}
+</style>
+
+Work on the next release of Curie is continuing. This report covers what has
+been completed and the tasks that still remain before it can be released:
+
+[[!toc levels=2]]
+
+# DONE
+
+- **Feature**:
+  Added a menu for choosing the zoom level for the current document
+  ([[!template id=github item="project-renard/curie/issues/14"]], [[!template id=github item="project-renard/curie/pull/161"]]).
+  This is available in [[`Renard::Curie v0.001_01`|https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.001_01]].
+
+  [[!img gfx/zoom-level-menu.gif class="sshot"]]
+
+- **Feature**:
+  Using the `--version` command line argument prints out the version number so
+  that it is possible to check that Curie is installed properly without running
+  the full GUI. This is available in [[`Renard::Curie v0.001_01`|https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.001_01]]
+  ([[!template id=github item="project-renard/curie/issues/157"]], [[!template id=github item="project-renard/curie/pull/159"]]).
+
+- **Build**:
+  Using the [[`homebrew-sqitch`|https://github.com/theory/homebrew-sqitch]] tap as a template,
+  a tap for installing a Curie and its dependencies was created at
+  [[`homebrew-project-renard`|https://github.com/project-renard/homebrew-project-renard]].
+  
+  To use it, you must run
+  
+        $ brew tap project-renard/project-renard
+        # installs the latest stable release of curie:
+        $ brew install curie
+  
+  Or if you would like to get the latest changes:
+  
+        # installs curie from the master branch
+        $ brew install curie --HEAD
+  
+  ([[!template id=github item="project-renard/homebrew-project-renard/issues/1"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/pull/2"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/issues/3"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/pull/4"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/issues/5"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/issues/6"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/issues/7"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/pull/8"]],
+  [[!template id=github item="project-renard/homebrew-project-renard/pull/10"]])
+
+- **Build**:
+  Remove extra Homebrew dependencies so that the Travis-CI build does not install anything that isn't needed
+  ([[!template id=github item="project-renard/curie/pull/162"]]).
+
+- **Fix**:
+  Only use the `monospace` property on newer versions of Gtk+ since it does not
+  exist on Gtk+ < v3.16 ([[!template id=github item="project-renard/curie/pull/163"]]).
+
+- **Fix**:
+  Fix the `Alien::MuPDF` tests so that `MuPDF v1.10` can be installed.
+  This is available in [[`Alien::MuPDF v0.007`|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007]]
+  ([[!template id=github item="project-renard/p5-Alien-MuPDF/issues/22"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/23"]]).
+
+- **Fix**:
+  The release of `MuPDF v1.10` changed the format of the PDF outline output for the `mutool` utility.
+  Curie needed to updated to take this change into account
+  ([[!template id=github item="project-renard/curie/issues/172"]], [[!template id=github item="project-renard/curie/pull/173"]]).
+
+- **Feature**:
+  Add a flag `--short-version` that only prints out the version of Curie. This
+  is so that it is easy for other tools to get the installed version without
+  having to parse it out
+  ([[!template id=github item="project-renard/curie/issues/174"]], [[!template id=github item="project-renard/curie/pull/175"]]).
+
+
+# TODO
+
+- **Feature**:
+  The user should be able to drag-and drop files onto the Curie workspace in order to open them
+  ([[!template id=github item="project-renard/curie/issues/19"]],
+  [[!template id=github item="project-renard/curie/pull/170"]]).
+
+- **Feature**:
+  The user should be able to set the zoom level for the current document by using
+  `Ctrl+Scrollwheel`:
+    - `Ctrl+Scroll Up` should zoom in
+    - `Ctrl+Scroll Down` should zoom out
+  
+  ([[!template id=github item="project-renard/curie/issues/15"]],
+  [[!template id=github item="project-renard/curie/pull/171"]]).
+
+- **Build**:
+  The user should be able to install on macOS by opening a `.dmg` file and
+  dragging the `Project Renard.app` into the `Applications` folder
+  ([[!template id=github item="project-renard/release/issues/6"]],
+  [[!template id=github item="project-renard/curie/issues/102"]]).
