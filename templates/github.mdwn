@@ -1,1 +1,3 @@
-[![<TMPL_VAR item>](https://github-shields.com/github/<TMPL_VAR item>.svg)](https://github.com/<TMPL_VAR item>)
+<a href="https://github.com/<TMPL_VAR item>">
+  <img class="github-shield" style="vertical-align: middle;" alt="<TMPL_VAR item>" src="https://github-shields.com/github/<TMPL_VAR item>.svg"/>
+</a>
