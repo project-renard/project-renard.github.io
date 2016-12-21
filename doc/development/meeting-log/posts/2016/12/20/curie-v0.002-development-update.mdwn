@@ -99,6 +99,6 @@ been completed and the tasks that still remain before it can be released:
 
 - **Build**:
   The user should be able to install on macOS by opening a `.dmg` file and
-  dragging the `Project Renard.app` into the `Applications` folder
+  dragging the `Project-Renard.app` into the `Applications` folder
   ([[!template id=github item="project-renard/release/issues/6"]],
   [[!template id=github item="project-renard/curie/issues/102"]]).
