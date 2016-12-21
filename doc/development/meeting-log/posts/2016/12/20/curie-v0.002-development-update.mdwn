@@ -15,7 +15,7 @@ been completed and the tasks that still remain before it can be released:
 
 [[!toc levels=2]]
 
-# DONE
+# Tasks completed
 
 - **Feature**:
   Added a menu for choosing the zoom level for the current document
@@ -81,7 +81,7 @@ been completed and the tasks that still remain before it can be released:
   ([[!template id=github item="project-renard/curie/issues/174"]], [[!template id=github item="project-renard/curie/pull/175"]]).
 
 
-# TODO
+# Tasks in progress
 
 - **Feature**:
   The user should be able to drag-and drop files onto the Curie workspace in order to open them
@@ -102,3 +102,15 @@ been completed and the tasks that still remain before it can be released:
   dragging the `Project-Renard.app` into the `Applications` folder
   ([[!template id=github item="project-renard/release/issues/6"]],
   [[!template id=github item="project-renard/curie/issues/102"]]).
+
+# Tasks remaining
+
+- **Build**:
+  Place the Gtk+ icons and theme in the appropriate folders for the build so
+  that they can be used by Curie
+  ([[!template id=github item="project-renard/curie/issues/32"]]).
+
+- **Feature**:
+  Switch to using a native FileChooserDialog so that the interface is consistent
+  on all platforms
+  ([[!template id=github item="project-renard/curie/issues/166"]]).
