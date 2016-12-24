@@ -10,19 +10,19 @@
 <generator>ikiwiki</generator>
 <pubDate>Mon, 19 Dec 2016 00:02:56 +0000</pubDate>
 <item>
-	<title>UpLib</title>
+	<title>qpdfview</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -33,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            UpLib
+            qpdfview
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -44,7 +44,131 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/feature/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Interface: tabbed
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+
+&lt;p&gt;From the site:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.&lt;/p&gt;
+  
+  &lt;p&gt;Current features include:
+  * Outline, properties and thumbnail panes
+  * Scale, rotate and fit
+  * Fullscreen and presentation views
+  * Continuous and multiple-page layouts
+  * Search for text
+  * Configurable tool bars
+  * Configurable keyboard shortcuts
+  * Persistent per-file settings
+  * SyncTeX support
+  * Rudimentary annotation support (with Poppler version 0.20.1 or higher)
+  * Rudimentary form support
+  * Support for PostScript and DjVu documents&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+
+
+</item>
+<item>
+	<title>SumatraPDF</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            SumatraPDF
+        &lt;/h3&gt;
+    &lt;/center&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -56,6 +180,15 @@
 
 
 
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/sumatra-pdf/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -85,19 +218,21 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Utopia Documents</title>
+	<title>PDF.js</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
+	<category>software-type/library</category>
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -108,7 +243,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Utopia Documents
+            PDF.js
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -116,21 +251,21 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -139,13 +274,19 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -167,7 +308,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Utopia_Documents&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -192,7 +333,7 @@ Runs: unknown
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
 	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
 
 
@@ -963,8 +1104,8 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1027,19 +1168,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Foxit Reader</title>
+	<title>Utopia Documents</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1050,7 +1191,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Foxit Reader
+            Utopia Documents
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1061,12 +1202,18 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -1075,19 +1222,13 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/foxit-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -1109,7 +1250,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Foxit_Reader&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Utopia_Documents&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1118,31 +1259,24 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&quot;connectedpdf&quot;&gt;ConnectedPDF&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Online services&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://cloud.connectedpdf.com/appstore/app-list&quot;&gt;App store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
 
 
 </item>
 <item>
-	<title>qpdfview</title>
+	<title>UpLib</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/uplib/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/uplib/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1153,7 +1287,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            qpdfview
+            UpLib
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1164,131 +1298,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/feature/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Interface: tabbed
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-
-&lt;p&gt;From the site:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.&lt;/p&gt;
-  
-  &lt;p&gt;Current features include:
-  * Outline, properties and thumbnail panes
-  * Scale, rotate and fit
-  * Fullscreen and presentation views
-  * Continuous and multiple-page layouts
-  * Search for text
-  * Configurable tool bars
-  * Configurable keyboard shortcuts
-  * Persistent per-file settings
-  * SyncTeX support
-  * Rudimentary annotation support (with Poppler version 0.20.1 or higher)
-  * Rudimentary form support
-  * Support for PostScript and DjVu documents&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-
-
-</item>
-<item>
-	<title>SumatraPDF</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            SumatraPDF
-        &lt;/h3&gt;
-    &lt;/center&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1300,15 +1310,6 @@ Runs: unknown
 
 
 
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/sumatra-pdf/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -1349,8 +1350,8 @@ Runs: unknown
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1443,21 +1444,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>PDF.js</title>
+	<title>Foxit Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/pdf.js/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
-	<category>software-type/library</category>
 
-
-	<pubDate>Fri, 25 Nov 2016 19:24:57 +0000</pubDate>
-	<dcterms:modified>2016-11-25T19:24:57Z</dcterms:modified>
+	<pubDate>Sat, 26 Nov 2016 04:27:34 +0000</pubDate>
+	<dcterms:modified>2016-11-26T04:27:34Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1468,7 +1467,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            PDF.js
+            Foxit Reader
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1476,16 +1475,10 @@ Runs: unknown
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1499,8 +1492,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -1509,7 +1502,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+&lt;a href=&quot;http://alternativeto.net/software/foxit-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1533,7 +1526,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Foxit_Reader&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1542,6 +1535,13 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&quot;connectedpdf&quot;&gt;ConnectedPDF&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Online services&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.connectedpdf.com/appstore/app-list&quot;&gt;App store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 
 
