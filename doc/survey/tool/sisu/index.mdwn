@@ -1,0 +1,13 @@
+---
+Name: SiSU
+Homepage: http://www.sisudoc.org/
+Status: Active
+EstablishedForDistribution: true
+Runs: true
+SoftwareForm: Web application, Command line
+WikipediaEN: https://en.wikipedia.org/wiki/SiSU
+SourceCode: http://git.sisudoc.org/gitweb/?p=code/sisu.git;a=summary
+ProgrammingLanguage: Ruby
+---
+[[!ftemplate id=tool]]
+
