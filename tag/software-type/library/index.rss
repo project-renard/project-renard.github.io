@@ -10,6 +10,89 @@
 <generator>ikiwiki</generator>
 <pubDate>Sat, 24 Dec 2016 18:58:34 +0000</pubDate>
 <item>
+	<title>Poppler</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Mon, 28 Nov 2016 17:51:14 +0000</pubDate>
+	<dcterms:modified>2016-11-28T17:51:14Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Poppler
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>LibHaru</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
@@ -21,7 +104,7 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 26 Nov 2016 07:06:47 +0000</pubDate>
+	<pubDate>Mon, 28 Nov 2016 17:51:14 +0000</pubDate>
 	<dcterms:modified>2016-12-24T18:58:34Z</dcterms:modified>
 
 
@@ -93,89 +176,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Poppler</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Sat, 26 Nov 2016 07:06:47 +0000</pubDate>
-	<dcterms:modified>2016-11-26T07:06:47Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Poppler
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>PDF.js</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
@@ -189,8 +189,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 26 Nov 2016 07:06:47 +0000</pubDate>
-	<dcterms:modified>2016-11-26T07:06:47Z</dcterms:modified>
+	<pubDate>Mon, 28 Nov 2016 17:51:14 +0000</pubDate>
+	<dcterms:modified>2016-11-28T17:51:14Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -291,8 +291,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 26 Nov 2016 07:06:47 +0000</pubDate>
-	<dcterms:modified>2016-11-26T07:06:47Z</dcterms:modified>
+	<pubDate>Mon, 28 Nov 2016 17:51:14 +0000</pubDate>
+	<dcterms:modified>2016-11-28T17:51:14Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
