@@ -18,3 +18,10 @@ You can embed text strings in multiple languages inside of SVG. It can be made t
 Example: <https://commons.wikimedia.org/wiki/File:SystemLanguage.svg>.
 
 I was looking into this because this diagram on Wikipedia was using the German "pyruvat" instead of the English "pyruvate" <https://en.wikipedia.org/wiki/File:Phosphotransferase_system.svg> via <https://en.wikipedia.org/wiki/PEP_group_translocation>.
+
+# Libraries
+
+- NLTK
+- spaCy
+- Stanford CoreNLP
+- GATE
