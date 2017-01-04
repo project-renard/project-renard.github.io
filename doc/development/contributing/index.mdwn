@@ -54,6 +54,12 @@ information.
 
 ### Learning GTK
 
+GTK+ is the cross-platform GUI toolkit that we use. Instead of writing the GUI
+code entirely by hand, much of layout is done interactively using the
+[[Glade|https://glade.gnome.org/]] designer.
+
+How to use Glade.
+
 - <https://github.com/zmughal/learning-gtk>
 - <https://github.com/MaxPerl/perl-Gtk3-Tutorial>
 - <https://developer.gnome.org/gnome-devel-demos/stable/>
