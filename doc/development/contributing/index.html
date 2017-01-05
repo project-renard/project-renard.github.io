@@ -106,15 +106,19 @@ contributing
 
 <div id="content">
 <div class="toc">
-	<ol>
-		<li class="L2"><a href="#index1h2">Reading material</a>
-		</li>
-	</ol>
+<ol>
+	<li class="L1"><a href="#index1h1">Perl basics</a>
+	</li>
+	<li class="L1"><a href="#index2h1">GTK</a>
+	</li>
+	<li class="L1"><a href="#index3h1">Creating Perl bindings</a>
+	</li>
+</ol>
 </div>
 
-<h2 id="readingmaterial"><a name="index1h2"></a>Reading material</h2>
+<h1 id="perlbasics"><a name="index1h1"></a>Perl basics</h1>
 
-<h3 id="standardmodules"><a name="index1h3"></a>Standard modules</h3>
+<h2 id="standardmodules"><a name="index1h2"></a>Standard modules</h2>
 
 <ul>
 <li><a href="https://p3rl.org/Modern::Perl">Modern::Perl</a></li>
@@ -122,7 +126,7 @@ contributing
 <li><a href="https://p3rl.org/Type::Tiny">Type::Tiny</a></li>
 </ul>
 
-<h3 id="testing"><a name="index2h3"></a>Testing</h3>
+<h2 id="testing"><a name="index2h2"></a>Testing</h2>
 
 <p>Testing in Perl uses a format called the <a href="http://testanything.org/">Test Anything Protocol</a> (or TAP).
 This is a simple text-based format that outputs test results in a standard way
@@ -146,44 +150,64 @@ By default, test files are just Perl scripts that have the extension <code>.t</c
 <a href="https://p3rl.org/Test::Most">Test::Most</a> and <a href="https://p3rl.org/Test::More">Test::More</a>.
 These contain functions for checking for expected conditions in the test code.</p>
 
-<h3 id="releasemanagment"><a name="index3h3"></a>Release managment</h3>
+<h3 id="releasemanagment"><a name="index1h3"></a>Release managment</h3>
 
 <p>In order to make releases, we use <a href="https://p3rl.org/Dist::Zilla">Dist::Zilla</a>.
 This is a tool that can extended to do many maintenance tasks such as
 listing all the dependencies of the code or testing for spelling errors in
 documentation.</p>
 
-<h3 id="documentation"><a name="index4h3"></a>Documentation</h3>
+<h3 id="documentation"><a name="index2h3"></a>Documentation</h3>
 
 <p>Perl documentation is written in a format called <a href="https://p3rl.org/perlpod">POD</a>.
 It has a simple syntax that can be converted to many other formats such as HTML or manpages.
 That syntax can be extended by using <a href="https://p3rl.org/Pod::Weaver">Pod::Weaver</a>
 which acts as a preprocessor that can add additional directives to POD.</p>
 
-<h3 id="devops"><a name="index5h3"></a>Devops</h3>
+<h3 id="devops"><a name="index3h3"></a>Devops</h3>
 
 <p>We use virtual machines to test the code under different environments. These
 virtual machines are configured by using <a href="https://www.vagrantup.com/">Vagrant</a>.
 See the <a href="https://github.com/project-renard/devops">devops</a> repository for more
 information.</p>
 
-<h3 id="learninggtk"><a name="index6h3"></a>Learning GTK</h3>
+<h1 id="gtk"><a name="index2h1"></a>GTK</h1>
 
 <p>GTK+ is the cross-platform GUI toolkit that we use. Instead of writing the GUI
 code entirely by hand, much of layout is done interactively using the
 <a href="https://glade.gnome.org/">Glade</a> designer.</p>
 
-<p>How to use Glade.</p>
+<p>GTK+ is a C library. Despite being written in C, it is written in an
+object-oriented style by using the <code>glib</code> C library.
+This has the advantage that bindings to a <code>glib</code>-based library can be easily
+created for languages like Perl, by using something called the
+<a href="https://wiki.gnome.org/action/show/Projects/GObjectIntrospection">GObject Introspection</a> layer.
+This is how the Perl bindings to GTK+ are also provided by providing access to that layer using the
+<a href="https://p3rl.org/Glib::Object::Introspection">Glib::Object::Introspection</a> package as part of the
+<a href="http://gtk2-perl.sourceforge.net/doc/">GTK-Perl</a> project.</p>
 
-<ul>
-<li><a href="https://github.com/zmughal/learning-gtk">https://github.com/zmughal/learning-gtk</a></li>
-<li><a href="https://github.com/MaxPerl/perl-Gtk3-Tutorial">https://github.com/MaxPerl/perl-Gtk3-Tutorial</a></li>
-<li><a href="https://developer.gnome.org/gnome-devel-demos/stable/">https://developer.gnome.org/gnome-devel-demos/stable/</a></li>
-<li><a href="https://github.com/kevinphilp/Perl-gtk3-Tutorial">https://github.com/kevinphilp/Perl-gtk3-Tutorial</a></li>
-<li><a href="https://github.com/dave-theunsub/gtk3-perl-demos">https://github.com/dave-theunsub/gtk3-perl-demos</a></li>
-<li><a href="http://gtk2-perl.sourceforge.net/doc/">http://gtk2-perl.sourceforge.net/doc/</a></li>
-<li><a href="https://github.com/Programmica/perl-gtk3-examples">https://github.com/Programmica/perl-gtk3-examples</a></li>
-</ul>
+<h2 id="learninggtk"><a name="index3h2"></a>Learning GTK+</h2>
+
+<p>If you want to learn how to use Glade, see the <a href="https://github.com/zmughal/learning-gtk/tree/master/charter">Charter example</a>
+at this repository <a href="https://github.com/zmughal/learning-gtk">https://github.com/zmughal/learning-gtk</a>. The code is based
+off a tutorial written using C, but if you compare the Perl code to the C code,
+you can see that it is not that much different. This is because most of the GUI
+defintion is in the Glade XML file which can be shared by both the C version
+and the Perl version.</p>
+
+<p>Gnome also hosts several tutorials on how to write GTK+ complete applications
+<em>without</em> using Glade, most of which are written in C:
+<a href="https://developer.gnome.org/gnome-devel-demos/stable/">https://developer.gnome.org/gnome-devel-demos/stable/</a>.
+One of those tutorials has been translated into Perl and is available here:
+<a href="https://github.com/MaxPerl/perl-Gtk3-Tutorial">https://github.com/MaxPerl/perl-Gtk3-Tutorial</a>.</p>
+
+<p>If you are trying to figure out how to use a specific widget and having trouble
+with the Perl syntax, you may want to look at the following examples that showcase individual widgets:
+  - <a href="https://github.com/kevinphilp/Perl-gtk3-Tutorial">https://github.com/kevinphilp/Perl-gtk3-Tutorial</a>
+  - <a href="https://github.com/dave-theunsub/gtk3-perl-demos">https://github.com/dave-theunsub/gtk3-perl-demos</a>
+  - <a href="https://github.com/Programmica/perl-gtk3-examples">https://github.com/Programmica/perl-gtk3-examples</a></p>
+
+<h2 id="gtkdocumentation"><a name="index4h2"></a>GTK+ documentation</h2>
 
 <p>In order to see the documentation for Glib-based libraries (such as Gtk) in a Perl-friendly way,
 the <a href="https://p3rl.org/Glib::Object::Introspection">Glib::Object::Introspection</a>
@@ -192,7 +216,7 @@ for that library using Perl syntax.</p>
 
 <table class="img"><caption>The perli11ndoc tool showing documentation from Gtk3's AccelGroup class.</caption><tr><td><a href="./gfx/perli11ndoc.png"><img src="./gfx/perli11ndoc.png" width="593" height="389" class="img" /></a></td></tr></table>
 
-<h3 id="creatingperlbindings"><a name="index7h3"></a>Creating Perl bindings</h3>
+<h1 id="creatingperlbindings"><a name="index3h1"></a>Creating Perl bindings</h1>
 
 <ul>
 <li><a href="https://github.com/Perl-XS/notes/blob/master/Resources.md">https://github.com/Perl-XS/notes/blob/master/Resources.md</a></li>
@@ -224,8 +248,8 @@ for that library using Perl syntax.</p>
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 04 Jan 2017 05:25:19 PM UTC</span>
-<!-- Created <span class="date">Wed 30 Nov 2016 08:26:56 PM UTC</span> -->
+Last edited <span class="date">Thu 05 Jan 2017 01:29:01 AM UTC</span>
+<!-- Created <span class="date">Thu 01 Dec 2016 04:38:50 AM UTC</span> -->
 </div>
 
 </div>
