@@ -1,14 +1,14 @@
 [[!toc]]
 
-## Reading material
+# Perl basics
 
-### Standard modules
+## Standard modules
 
 - [[Modern::Perl|https://p3rl.org/Modern::Perl]]
 - [[Moo|https://p3rl.org/Moo]]
 - [[Type::Tiny|https://p3rl.org/Type::Tiny]]
 
-### Testing
+## Testing
 
 Testing in Perl uses a format called the [[Test Anything Protocol|http://testanything.org/]] (or TAP).
 This is a simple text-based format that outputs test results in a standard way
@@ -52,21 +52,43 @@ virtual machines are configured by using [[Vagrant|https://www.vagrantup.com/]].
 See the [[devops|https://github.com/project-renard/devops]] repository for more
 information.
 
-### Learning GTK
+# GTK
 
 GTK+ is the cross-platform GUI toolkit that we use. Instead of writing the GUI
 code entirely by hand, much of layout is done interactively using the
 [[Glade|https://glade.gnome.org/]] designer.
 
-How to use Glade.
+GTK+ is a C library. Despite being written in C, it is written in an
+object-oriented style by using the `glib` C library.
+This has the advantage that bindings to a `glib`-based library can be easily
+created for languages like Perl, by using something called the
+[[GObject Introspection|https://wiki.gnome.org/action/show/Projects/GObjectIntrospection]] layer.
+This is how the Perl bindings to GTK+ are also provided by providing access to that layer using the
+[[Glib::Object::Introspection|https://p3rl.org/Glib::Object::Introspection]] package as part of the
+[[GTK-Perl|http://gtk2-perl.sourceforge.net/doc/]] project.
 
-- <https://github.com/zmughal/learning-gtk>
-- <https://github.com/MaxPerl/perl-Gtk3-Tutorial>
-- <https://developer.gnome.org/gnome-devel-demos/stable/>
-- <https://github.com/kevinphilp/Perl-gtk3-Tutorial>
-- <https://github.com/dave-theunsub/gtk3-perl-demos>
-- <http://gtk2-perl.sourceforge.net/doc/>
-- <https://github.com/Programmica/perl-gtk3-examples>
+## Learning GTK+
+
+If you want to learn how to use Glade, see the [[Charter example|https://github.com/zmughal/learning-gtk/tree/master/charter]]
+at this repository <https://github.com/zmughal/learning-gtk>. The code is based
+off a tutorial written using C, but if you compare the Perl code to the C code,
+you can see that it is not that much different. This is because most of the GUI
+defintion is in the Glade XML file which can be shared by both the C version
+and the Perl version.
+
+Gnome also hosts several tutorials on how to write GTK+ complete applications
+*without* using Glade, most of which are written in C:
+<https://developer.gnome.org/gnome-devel-demos/stable/>.
+One of those tutorials has been translated into Perl and is available here:
+<https://github.com/MaxPerl/perl-Gtk3-Tutorial>.
+
+If you are trying to figure out how to use a specific widget and having trouble
+with the Perl syntax, you may want to look at the following examples that showcase individual widgets:
+  - <https://github.com/kevinphilp/Perl-gtk3-Tutorial>
+  - <https://github.com/dave-theunsub/gtk3-perl-demos>
+  - <https://github.com/Programmica/perl-gtk3-examples>
+
+## GTK+ documentation
 
 In order to see the documentation for Glib-based libraries (such as Gtk) in a Perl-friendly way,
 the [[Glib::Object::Introspection|https://p3rl.org/Glib::Object::Introspection]]
@@ -75,6 +97,6 @@ for that library using Perl syntax.
 
 [[!img gfx/perli11ndoc.png caption="The perli11ndoc tool showing documentation from Gtk3's AccelGroup class."]]
 
-### Creating Perl bindings
+# Creating Perl bindings
 
 - <https://github.com/Perl-XS/notes/blob/master/Resources.md>
