@@ -87,19 +87,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Okular</title>
+	<title>Utopia Documents</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -110,7 +110,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Okular
+            Utopia Documents
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -121,12 +121,18 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -135,8 +141,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -163,7 +169,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Okular&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Utopia_Documents&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -172,21 +178,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
 
 
@@ -203,7 +194,7 @@ Runs: unknown
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
 	<dcterms:modified>2017-01-06T03:36:06Z</dcterms:modified>
 
 
@@ -273,19 +264,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>qpdfview</title>
+	<title>SumatraPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -296,140 +287,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            qpdfview
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-    &lt;tr&gt;
-        &lt;td&gt;
-            File-formats:
-            &lt;ul&gt;
-
-                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/feature/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
-
-
-
-                &lt;li&gt;application/postscript&lt;/li&gt;
-
-
-
-                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Interface: tabbed
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
-
-&lt;p&gt;From the site:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.&lt;/p&gt;
-  
-  &lt;p&gt;Current features include:
-  * Outline, properties and thumbnail panes
-  * Scale, rotate and fit
-  * Fullscreen and presentation views
-  * Continuous and multiple-page layouts
-  * Search for text
-  * Configurable tool bars
-  * Configurable keyboard shortcuts
-  * Persistent per-file settings
-  * SyncTeX support
-  * Rudimentary annotation support (with Poppler version 0.20.1 or higher)
-  * Rudimentary form support
-  * Support for PostScript and DjVu documents&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Nitro Reader</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
-
-
-
-	<category>software-type/document-viewer</category>
-
-
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Nitro Reader
+            SumatraPDF
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -449,7 +307,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/nitro-pdf-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
+&lt;a href=&quot;http://alternativeto.net/software/sumatra-pdf/&quot;&gt;AlternativeTo&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -492,7 +350,7 @@ Runs: unknown
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
 	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
 
 
@@ -1252,19 +1110,19 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </item>
 <item>
-	<title>SumatraPDF</title>
+	<title>Foxit Reader</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/sumatrapdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/sumatrapdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1275,9 +1133,18 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            SumatraPDF
+            Foxit Reader
         &lt;/h3&gt;
     &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1288,14 +1155,20 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 
-
-
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/sumatra-pdf/&quot;&gt;AlternativeTo&lt;/a&gt;
+&lt;a href=&quot;http://alternativeto.net/software/foxit-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1317,29 +1190,42 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Foxit_Reader&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&quot;connectedpdf&quot;&gt;ConnectedPDF&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Online services&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.connectedpdf.com/appstore/app-list&quot;&gt;App store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 
 
 </item>
 <item>
-	<title>Utopia Documents</title>
+	<title>qpdfview</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/utopia-documents/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qpdfview/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/utopia-documents/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/qpdfview/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-19T00:02:56Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1350,7 +1236,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Utopia Documents
+            qpdfview
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1361,19 +1247,34 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://utopiadocs.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://launchpad.net/qpdfview&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/utopia-documents-mirror&quot;&gt;Mirrored source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
+
+
+    &lt;tr&gt;
+        &lt;td&gt;
+            File-formats:
+            &lt;ul&gt;
+
+                &lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/development/feature/file-format/pdf/&quot;&gt;application/pdf&lt;/a&gt;&lt;/li&gt;
+
+
+
+                &lt;li&gt;application/postscript&lt;/li&gt;
+
+
+
+                &lt;li&gt;image/vnd.djvu&lt;/li&gt;
+
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
 
 
 
@@ -1381,8 +1282,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://utopiadocs.com/wp-content/themes/utopia/images/slide-intro.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/2/26/Qpdfview_screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -1393,6 +1294,12 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+Interface: tabbed
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 
 
@@ -1407,17 +1314,33 @@ Runs: unknown
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Utopia_Documents&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This viewer is a document viewer that uses tabs to view multiple documents at once.&lt;/p&gt;
+
+&lt;p&gt;From the site:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It uses Poppler for PDF support, libspectre for PS support, DjVuLibre for DjVu support, CUPS for printing support and the Qt toolkit for its interface.&lt;/p&gt;
+  
+  &lt;p&gt;Current features include:
+  * Outline, properties and thumbnail panes
+  * Scale, rotate and fit
+  * Fullscreen and presentation views
+  * Continuous and multiple-page layouts
+  * Search for text
+  * Configurable tool bars
+  * Configurable keyboard shortcuts
+  * Persistent per-file settings
+  * SyncTeX support
+  * Rudimentary annotation support (with Poppler version 0.20.1 or higher)
+  * Rudimentary form support
+  * Support for PostScript and DjVu documents&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
 
 
@@ -1436,8 +1359,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1527,19 +1450,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Foxit Reader</title>
+	<title>Okular</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/foxit-reader/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/okular/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/foxit-reader/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/okular/</link>
 
 
 
 	<category>software-type/document-viewer</category>
 
 
-	<pubDate>Sat, 10 Dec 2016 19:59:03 +0000</pubDate>
-	<dcterms:modified>2016-12-10T19:59:03Z</dcterms:modified>
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -1550,7 +1473,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Foxit Reader
+            Okular
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1561,7 +1484,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.foxitsoftware.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1575,19 +1498,13 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/8/8b/Foxit_Reader_6_Screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/foxit-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -1609,7 +1526,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Foxit_Reader&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Okular&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1619,12 +1536,95 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;connectedpdf&quot;&gt;ConnectedPDF&lt;/h2&gt;
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Online services&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://cloud.connectedpdf.com/appstore/app-list&quot;&gt;App store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Nitro Reader</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/nitro-reader/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/nitro-reader/</link>
+
+
+
+	<category>software-type/document-viewer</category>
+
+
+	<pubDate>Mon, 12 Dec 2016 08:29:43 +0000</pubDate>
+	<dcterms:modified>2016-12-12T08:29:43Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Nitro Reader
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/nitro-pdf-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
