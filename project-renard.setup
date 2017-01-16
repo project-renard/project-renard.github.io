@@ -51,6 +51,8 @@ add_plugins:
 - github
 - format
 - highlight
+#- html
+#- underlay
 - tex4ht
 - taskjuggler
 # plugins to disable
