@@ -19,11 +19,11 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2016-12-20T02:57:15Z</updated>
 <entry>
-	<title>Mendeley</title>
+	<title>Paperpile</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
 
 
 
@@ -48,7 +48,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Mendeley
+            Paperpile
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -59,7 +59,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -73,8 +73,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -101,7 +101,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Paperpile&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -111,11 +111,11 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
-PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
-
-&lt;p&gt;Features:
-- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
 
 	</content>
 
@@ -322,23 +322,21 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Paperpile</title>
+	<title>JabRef</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-13T12:17:53Z</updated>
+	<updated>2016-12-20T02:57:15Z</updated>
 	<published>2016-12-13T12:17:53Z</published>
 
 
@@ -351,7 +349,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Paperpile
+            JabRef
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -362,11 +360,23 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/JabRef/jabref&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -376,8 +386,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -404,7 +414,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Paperpile&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/JabRef&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -414,11 +424,7 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
+&lt;p&gt;JabRef works with BibTeX format references.&lt;/p&gt;
 
 	</content>
 
@@ -543,21 +549,23 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>JabRef</title>
+	<title>Mendeley</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-20T02:57:15Z</updated>
+	<updated>2016-12-13T12:17:53Z</updated>
 	<published>2016-12-13T12:17:53Z</published>
 
 
@@ -570,7 +578,7 @@ links to the papers which need to be cited.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            JabRef
+            Mendeley
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -581,23 +589,11 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/JabRef/jabref&quot;&gt;Source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -607,8 +603,8 @@ links to the papers which need to be cited.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -635,7 +631,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/JabRef&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -645,7 +641,107 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;JabRef works with BibTeX format references.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
+
+&lt;p&gt;Features:
+- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Zotero</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2016-12-13T12:17:53Z</updated>
+	<published>2016-12-13T12:17:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Zotero
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Zotero&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 
 	</content>
 
@@ -817,102 +913,6 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Zotero</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/zotero/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/zotero/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-12-13T12:17:53Z</updated>
-	<published>2016-12-13T12:17:53Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Zotero
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Zotero&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
