@@ -100,3 +100,10 @@ for that library using Perl syntax.
 # Creating Perl bindings
 
 - <https://github.com/Perl-XS/notes/blob/master/Resources.md>
+
+# Developing on Windows
+
+TODO Under construction
+
+For now, read over <https://project-renard.github.io/doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2/>
+and try out <https://github.com/MaxPerl/perl-Gtk3-windows-installer>.
