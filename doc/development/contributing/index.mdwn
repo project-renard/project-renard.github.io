@@ -31,6 +31,8 @@ In order to actually write the tests, look over the documentation for
 [[Test::Most|https://p3rl.org/Test::Most]] and [[Test::More|https://p3rl.org/Test::More]].
 These contain functions for checking for expected conditions in the test code.
 
+[[!template id=youtube v="KAE3qrxBdXs"]]
+
 ### Release managment
 
 In order to make releases, we use [[Dist::Zilla|https://p3rl.org/Dist::Zilla]].
