@@ -94,81 +94,6 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>TheBrain</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
-
-
-
-
-
-
-	<category term="software-type/mind-mapping" />
-
-
-	<updated>2017-01-21T03:33:31Z</updated>
-	<published>2017-01-21T03:33:31Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            TheBrain
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>ThinkMap</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/thinkmap/</id>
@@ -210,6 +135,81 @@ Runs: unknown
 &lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>TheBrain</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2017-01-21T03:33:31Z</updated>
+	<published>2017-01-21T03:33:31Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            TheBrain
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
 
 
 
@@ -331,11 +331,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Freeplane</title>
+	<title>FreeMind</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/freeplane/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/freemind/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/freeplane/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/freemind/"/>
 
 
 
@@ -345,7 +345,7 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-01-19T17:24:10Z</updated>
+	<updated>2016-12-29T23:56:44Z</updated>
 	<published>2016-12-29T23:56:44Z</published>
 
 
@@ -358,7 +358,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Freeplane
+            FreeMind
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -369,7 +369,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -389,8 +389,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;/&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -417,7 +417,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Freeplane&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -426,8 +426,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/mind-mapping/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
 
 	</content>
 
@@ -554,11 +552,11 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>FreeMind</title>
+	<title>Freeplane</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/freemind/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/freeplane/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/freemind/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/freeplane/"/>
 
 
 
@@ -568,7 +566,7 @@ links to the papers which need to be cited.&lt;/p&gt;
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2016-12-29T23:56:44Z</updated>
+	<updated>2017-01-19T17:24:10Z</updated>
 	<published>2016-12-29T23:56:44Z</published>
 
 
@@ -581,7 +579,7 @@ links to the papers which need to be cited.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            FreeMind
+            Freeplane
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -592,7 +590,7 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -612,8 +610,8 @@ links to the papers which need to be cited.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
+        &lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -640,7 +638,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Freeplane&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -649,6 +647,8 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;Forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/mind-mapping/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
 
 	</content>
 
