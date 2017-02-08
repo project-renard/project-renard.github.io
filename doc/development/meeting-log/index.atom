@@ -1050,153 +1050,6 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 </entry>
 <entry>
-	<title>testing and planning features</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/"/>
-
-
-
-
-
-	<updated>2016-12-29T23:56:44Z</updated>
-	<published>2016-12-29T23:56:44Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;We need to start testing the code and automatically running those tests using
-continuous integration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/33&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot;/&gt;
-&lt;/a&gt;
-to address
-issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/28&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot;/&gt;
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Adding Travis-CI support:
-    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
-(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/34&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot;/&gt;
-&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot;/&gt;
-&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot;/&gt;
-&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Stan: Show number of pages
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/21&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/22&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Interface design meeting</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/"/>
-
-
-
-
-
-	<updated>2016-12-29T23:56:44Z</updated>
-	<published>2016-12-29T23:56:44Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
-
-&lt;h3 id=&quot;reviewthecurrentone&quot;&gt;Review the current one&lt;/h3&gt;
-
-&lt;p&gt;Zaki: Menu works on branch : &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/89&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/89.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Chirag: Continuing work on the keybindings: &lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Stan: Status bar: move to another milestone: &lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nextsteps&quot;&gt;Next steps&lt;/h3&gt;
-
-&lt;p&gt;Stan: Drag and drop &lt;a href=&quot;https://github.com/project-renard/curie/issues/19&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/19&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/19.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Chirag: documentation &lt;a href=&quot;https://github.com/project-renard/curie/pull/98&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/98&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/98.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Zaki: Split out general code from the menu PR :  &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/89&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/89.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Stan: GTK icon and color theming: &lt;a href=&quot;https://github.com/project-renard/curie/issues/32&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/32&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/32.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;devops&quot;&gt;Devops&lt;/h2&gt;
-
-&lt;h3 id=&quot;vagrantontravis-ci&quot;&gt;Vagrant on Travis-CI&lt;/h3&gt;
-
-&lt;p&gt;Newer GTK+&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/14&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/14&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/14.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;addingsupportformac&quot;&gt;Adding support for Mac&lt;/h3&gt;
-
-&lt;p&gt;Chirag: tried to run on Mac natively (with XQuartz for the display and homebrew to install), but keybindings did not work. Will address with the keybindings pull request.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;windowsinstaller&quot;&gt;Windows installer&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://metacpan.org/pod/Perl::Dist::WiX&quot;&gt;https://metacpan.org/pod/Perl::Dist::WiX&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://wixtoolset.org/&quot;&gt;http://wixtoolset.org/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&quot;&gt;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&lt;/a&gt;&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>improving the GUI navigation and tests</title>
 
 	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</id>
@@ -1350,6 +1203,153 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 &lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;
   &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot;/&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>testing and planning features</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/"/>
+
+
+
+
+
+	<updated>2016-12-29T23:56:44Z</updated>
+	<published>2016-12-29T23:56:44Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/33&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot;/&gt;
+&lt;/a&gt;
+to address
+issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/28&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot;/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/34&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot;/&gt;
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: Show number of pages
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/21&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/22&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Interface design meeting</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/"/>
+
+
+
+
+
+	<updated>2016-12-29T23:56:44Z</updated>
+	<published>2016-12-29T23:56:44Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
+
+&lt;h3 id=&quot;reviewthecurrentone&quot;&gt;Review the current one&lt;/h3&gt;
+
+&lt;p&gt;Zaki: Menu works on branch : &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/89&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/89.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chirag: Continuing work on the keybindings: &lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stan: Status bar: move to another milestone: &lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nextsteps&quot;&gt;Next steps&lt;/h3&gt;
+
+&lt;p&gt;Stan: Drag and drop &lt;a href=&quot;https://github.com/project-renard/curie/issues/19&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/19&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/19.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chirag: documentation &lt;a href=&quot;https://github.com/project-renard/curie/pull/98&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/98&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/98.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaki: Split out general code from the menu PR :  &lt;a href=&quot;https://github.com/project-renard/curie/pull/89&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/89&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/89.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stan: GTK icon and color theming: &lt;a href=&quot;https://github.com/project-renard/curie/issues/32&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/32&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/32.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;devops&quot;&gt;Devops&lt;/h2&gt;
+
+&lt;h3 id=&quot;vagrantontravis-ci&quot;&gt;Vagrant on Travis-CI&lt;/h3&gt;
+
+&lt;p&gt;Newer GTK+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/14&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/14&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/14.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;addingsupportformac&quot;&gt;Adding support for Mac&lt;/h3&gt;
+
+&lt;p&gt;Chirag: tried to run on Mac natively (with XQuartz for the display and homebrew to install), but keybindings did not work. Will address with the keybindings pull request.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;windowsinstaller&quot;&gt;Windows installer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/pod/Perl::Dist::WiX&quot;&gt;https://metacpan.org/pod/Perl::Dist::WiX&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wixtoolset.org/&quot;&gt;http://wixtoolset.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&quot;&gt;https://github.com/project-renard/curie/issues/1#issuecomment-221646498&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 

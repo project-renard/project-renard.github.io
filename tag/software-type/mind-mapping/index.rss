@@ -10,75 +10,6 @@
 <generator>ikiwiki</generator>
 <pubDate>Sat, 21 Jan 2017 03:33:31 +0000</pubDate>
 <item>
-	<title>Coggle</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/coggle/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/coggle/</link>
-
-
-
-	<category>software-type/mind-mapping</category>
-
-
-	<pubDate>Sat, 21 Jan 2017 03:33:31 +0000</pubDate>
-	<dcterms:modified>2017-01-21T03:33:31Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Coggle
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>ThinkMap</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thinkmap/</guid>
@@ -223,6 +154,75 @@ Runs: unknown
 
 </item>
 <item>
+	<title>Coggle</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/coggle/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/coggle/</link>
+
+
+
+	<category>software-type/mind-mapping</category>
+
+
+	<pubDate>Sat, 21 Jan 2017 03:33:31 +0000</pubDate>
+	<dcterms:modified>2017-01-21T03:33:31Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Coggle
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Cmap</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/cmap/</guid>
@@ -287,102 +287,6 @@ Runs: unknown
 
 
 
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>FreeMind</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/freemind/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/freemind/</link>
-
-
-
-	<category>software-type/mind-mapping</category>
-
-
-	<pubDate>Thu, 29 Dec 2016 23:56:44 +0000</pubDate>
-	<dcterms:modified>2016-12-29T23:56:44Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            FreeMind
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -600,6 +504,102 @@ Runs: unknown
 &lt;/div&gt;
 
 &lt;p&gt;Forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/mind-mapping/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>FreeMind</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/freemind/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/freemind/</link>
+
+
+
+	<category>software-type/mind-mapping</category>
+
+
+	<pubDate>Thu, 29 Dec 2016 23:56:44 +0000</pubDate>
+	<dcterms:modified>2016-12-29T23:56:44Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            FreeMind
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
 </description>
 
 
