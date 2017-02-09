@@ -54,6 +54,8 @@ virtual machines are configured by using [[Vagrant|https://www.vagrantup.com/]].
 See the [[devops|https://github.com/project-renard/devops]] repository for more
 information.
 
+- Devel::REPL (TODO)
+
 # GTK
 
 GTK+ is the cross-platform GUI toolkit that we use. Instead of writing the GUI
