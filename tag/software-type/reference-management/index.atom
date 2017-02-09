@@ -19,22 +19,24 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2017-01-19T17:24:10Z</updated>
 <entry>
-	<title>Papers</title>
+	<title>Paperpile</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -46,7 +48,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Papers
+            Paperpile
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -57,7 +59,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -71,8 +73,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -99,7 +101,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Paperpile&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -108,6 +110,212 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
+distributed as a Chrome extension. It is tightly integrated with Google Apps
+services such as Google Docs and Google Drive. This allows for easy cloud
+storage and sharing of bibliography information with collaborators from inside
+a real-time collaborative editor.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>EndNote</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            EndNote
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Mendeley</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Mendeley
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
+
+&lt;p&gt;Features:
+- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
 
 	</content>
 
@@ -132,7 +340,7 @@ Runs: unknown
 
 
 	<updated>2017-01-19T17:24:10Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -234,6 +442,109 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>ReadCube</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/readcube/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/readcube/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ReadCube
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Article metrics&lt;/li&gt;
+&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>JabRef</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
@@ -248,8 +559,8 @@ links to the papers which need to be cited.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -344,11 +655,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Paperpile</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
@@ -360,8 +671,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -373,7 +684,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Paperpile
+            Paperpile (older version)
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -384,7 +695,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://paperpile.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -394,15 +705,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://d36wwddjd21ld7.cloudfront.net/resources/website/images/screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -423,114 +725,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Paperpile&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://paperpile.com/&quot;&gt;Paperpile&lt;/a&gt; is a reference management software that is
-distributed as a Chrome extension. It is tightly integrated with Google Apps
-services such as Google Docs and Google Drive. This allows for easy cloud
-storage and sharing of bibliography information with collaborators from inside
-a real-time collaborative editor.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>EndNote</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            EndNote
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -544,24 +738,22 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Mendeley</title>
+	<title>Papers</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/mendeley/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
 
 
 
 
-	<category term="handles-file-type/application-pdf" />
+
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -573,7 +765,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Mendeley
+            Papers
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -584,7 +776,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -598,8 +790,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -626,7 +818,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -635,12 +827,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
-PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
-
-&lt;p&gt;Features:
-- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
 
 	</content>
 
@@ -662,8 +848,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -758,8 +944,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
+	<updated>2017-01-01T02:03:08Z</updated>
+	<published>2017-01-01T02:03:08Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -833,192 +1019,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Paperpile (older version)
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>ReadCube</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/readcube/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/readcube/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2016-12-31T02:33:13Z</updated>
-	<published>2016-12-31T02:33:13Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            ReadCube
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Article metrics&lt;/li&gt;
-&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
-&lt;/ul&gt;
 
 	</content>
 
