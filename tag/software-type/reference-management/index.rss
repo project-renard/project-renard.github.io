@@ -23,7 +23,7 @@
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
 	<dcterms:modified>2017-01-19T17:24:10Z</dcterms:modified>
 
 
@@ -123,6 +123,103 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </item>
 <item>
+	<title>ReadCube</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/readcube/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/readcube/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ReadCube
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Article metrics&lt;/li&gt;
+&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Zotero</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/zotero/</guid>
@@ -134,8 +231,8 @@ links to the papers which need to be cited.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -213,19 +310,21 @@ Runs: unknown
 
 </item>
 <item>
-	<title>EndNote</title>
+	<title>Paperpile (older version)</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/endnote/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/endnote/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
 
 
+
+	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -236,7 +335,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            EndNote
+            Paperpile (older version)
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -247,7 +346,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -257,15 +356,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -286,12 +376,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -316,8 +400,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -412,8 +496,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -504,8 +588,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -589,19 +673,19 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </item>
 <item>
-	<title>ReadCube</title>
+	<title>EndNote</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/readcube/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/endnote/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/readcube/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/endnote/</link>
 
 
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -612,7 +696,7 @@ a real-time collaborative editor.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            ReadCube
+            EndNote
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -623,7 +707,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -637,8 +721,8 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -665,7 +749,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -674,13 +758,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Article metrics&lt;/li&gt;
-&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
-&lt;/ul&gt;
 </description>
 
 
@@ -697,8 +774,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -790,83 +867,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Paperpile (older version)</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Paperpile (older version)
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Papers</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
@@ -878,8 +878,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 26 Dec 2016 00:37:25 +0000</pubDate>
-	<dcterms:modified>2016-12-26T00:37:25Z</dcterms:modified>
+	<pubDate>Mon, 26 Dec 2016 06:35:53 +0000</pubDate>
+	<dcterms:modified>2016-12-26T06:35:53Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
