@@ -17,13 +17,74 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-02-09T04:35:52Z</updated>
+<updated>2017-02-12T03:21:26Z</updated>
+<entry>
+	<title>change to local.css on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_10642d2dcbcc3367ecf08b72dacd6e51973288a1/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-10642d2dcbcc3367ecf08b72dacd6e51973288a1"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2017-02-12T03:21:26Z</updated>
+	<published>2017-02-12T03:21:26Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-10642d2dcbcc3367ecf08b72dacd6e51973288a1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/10642d2dcbcc3367ecf08b72dacd6e51973288a1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;local.css
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:21:26 AM 02/12/2017&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update CSS to show footnotes with brackets&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 10642d2dcbcc3367ecf08b72dacd6e51973288a1 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/contributing on Project Renard</title>
 
-	<id>http://project-renard.github.io//recentchanges/change_4cb54ad0e2caaf45a38466fa7f6f3db57e7384ee/</id>
+	<id>http://project-renard.github.io//recentchanges/change_abd338784a2d48cbbffd4a569d9475c7c2423d33/</id>
 
-	<link href="http://project-renard.github.io/recentchanges/#change-4cb54ad0e2caaf45a38466fa7f6f3db57e7384ee"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-abd338784a2d48cbbffd4a569d9475c7c2423d33"/>
 
 	<author><name>zaki.mughal</name></author>
 
@@ -42,12 +103,12 @@
 
 
 
-&lt;div id=&quot;change-4cb54ad0e2caaf45a38466fa7f6f3db57e7384ee&quot; class=&quot;metadata&quot;&gt;
+&lt;div id=&quot;change-abd338784a2d48cbbffd4a569d9475c7c2423d33&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/4cb54ad0e2caaf45a38466fa7f6f3db57e7384ee&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/abd338784a2d48cbbffd4a569d9475c7c2423d33&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
 
 
 &lt;/span&gt;
@@ -72,251 +133,7 @@ Update index.mdwn&lt;br /&gt;
 
 &lt;/div&gt;
 
-&lt;!-- 4cb54ad0e2caaf45a38466fa7f6f3db57e7384ee --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2 on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_249ae97225ec882abbb9b0d4ce24acdba2cb8a4b/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-249ae97225ec882abbb9b0d4ce24acdba2cb8a4b"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-09T00:15:09Z</updated>
-	<published>2017-02-09T00:15:09Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-249ae97225ec882abbb9b0d4ce24acdba2cb8a4b&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/249ae97225ec882abbb9b0d4ce24acdba2cb8a4b&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:15:09 AM 02/09/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update windows-build-with-msys2.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 249ae97225ec882abbb9b0d4ce24acdba2cb8a4b --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2 on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_0710c7bb0a561cbb1fbe819cb93617e183702ee4/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-0710c7bb0a561cbb1fbe819cb93617e183702ee4"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:16:52Z</updated>
-	<published>2017-02-08T23:16:52Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-0710c7bb0a561cbb1fbe819cb93617e183702ee4&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/0710c7bb0a561cbb1fbe819cb93617e183702ee4&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:16:52 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update windows-build-with-msys2.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 0710c7bb0a561cbb1fbe819cb93617e183702ee4 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2 on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_62ff6cccdb45db60a9af5438a36f471788852be1/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-62ff6cccdb45db60a9af5438a36f471788852be1"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:16:08Z</updated>
-	<published>2017-02-08T23:16:08Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-62ff6cccdb45db60a9af5438a36f471788852be1&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/62ff6cccdb45db60a9af5438a36f471788852be1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:16:08 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update windows-build-with-msys2.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 62ff6cccdb45db60a9af5438a36f471788852be1 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2 on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_c1a3c6b7e2427777d75d5b9342a0fdb733020acf/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-c1a3c6b7e2427777d75d5b9342a0fdb733020acf"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:15:14Z</updated>
-	<published>2017-02-08T23:15:14Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-c1a3c6b7e2427777d75d5b9342a0fdb733020acf&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c1a3c6b7e2427777d75d5b9342a0fdb733020acf&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:15:14 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update windows-build-with-msys2.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- c1a3c6b7e2427777d75d5b9342a0fdb733020acf --&gt;
+&lt;!-- abd338784a2d48cbbffd4a569d9475c7c2423d33 --&gt;
 
 	</content>
 
@@ -326,9 +143,9 @@ Update windows-build-with-msys2.mdwn&lt;br /&gt;
 <entry>
 	<title>change to doc/development/contributing on Project Renard</title>
 
-	<id>http://project-renard.github.io//recentchanges/change_677406b351afdb95a3f1b1fafee157ab071a1d9d/</id>
+	<id>http://project-renard.github.io//recentchanges/change_bba6583f2d35f14935db21f7616d515290a76246/</id>
 
-	<link href="http://project-renard.github.io/recentchanges/#change-677406b351afdb95a3f1b1fafee157ab071a1d9d"/>
+	<link href="http://project-renard.github.io/recentchanges/#change-bba6583f2d35f14935db21f7616d515290a76246"/>
 
 	<author><name>yotov.st</name></author>
 
@@ -347,12 +164,12 @@ Update windows-build-with-msys2.mdwn&lt;br /&gt;
 
 
 
-&lt;div id=&quot;change-677406b351afdb95a3f1b1fafee157ab071a1d9d&quot; class=&quot;metadata&quot;&gt;
+&lt;div id=&quot;change-bba6583f2d35f14935db21f7616d515290a76246&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/677406b351afdb95a3f1b1fafee157ab071a1d9d&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/bba6583f2d35f14935db21f7616d515290a76246&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
 
 
 &lt;/span&gt;
@@ -377,190 +194,7 @@ Update index.mdwn&lt;br /&gt;
 
 &lt;/div&gt;
 
-&lt;!-- 677406b351afdb95a3f1b1fafee157ab071a1d9d --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/contributing on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_2ba2fe6474556de325c2ce97046c57ba154f9e34/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-2ba2fe6474556de325c2ce97046c57ba154f9e34"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:12:47Z</updated>
-	<published>2017-02-08T23:12:47Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-2ba2fe6474556de325c2ce97046c57ba154f9e34&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/2ba2fe6474556de325c2ce97046c57ba154f9e34&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:12:47 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update index.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 2ba2fe6474556de325c2ce97046c57ba154f9e34 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/contributing on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_c76c0f1840c2603ff08d7f284462cf19438ac1bf/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-c76c0f1840c2603ff08d7f284462cf19438ac1bf"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:11:58Z</updated>
-	<published>2017-02-08T23:11:58Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-c76c0f1840c2603ff08d7f284462cf19438ac1bf&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c76c0f1840c2603ff08d7f284462cf19438ac1bf&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/contributing
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:11:58 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Updated format to make it easier to locate the posible actions.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- c76c0f1840c2603ff08d7f284462cf19438ac1bf --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2 on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_6efa7bfe34485114a35d684972696d0540dd35fd/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-6efa7bfe34485114a35d684972696d0540dd35fd"/>
-
-	<author><name>yotov.st</name></author>
-
-
-
-
-
-	<updated>2017-02-08T23:10:39Z</updated>
-	<published>2017-02-08T23:10:39Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-6efa7bfe34485114a35d684972696d0540dd35fd&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/6efa7bfe34485114a35d684972696d0540dd35fd&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/meeting-log/posts/2016/05/03/windows-build-with-msys2
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-yotov.st
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:10:39 PM 02/08/2017&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Added &amp;#91;&amp;#93; arround link and removed some extra lines&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 6efa7bfe34485114a35d684972696d0540dd35fd --&gt;
+&lt;!-- bba6583f2d35f14935db21f7616d515290a76246 --&gt;
 
 	</content>
 
@@ -3023,7 +2657,7 @@ Add NIH info&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to .gitignore .gitmodules .ikiwiki-plugins/p5-IkiWiki-Plugin-github .ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler .ikiwiki-plugins/p5-IkiWiki-Plugin-tex .ikiwiki-plugins/rubykat-ikiplugins .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md  on Project Renard</title>
+	<title>change to doc/development/feature/language on Project Renard</title>
 
 	<id>http://project-renard.github.io//recentchanges/change_535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7/</id>
 
@@ -3051,37 +2685,8 @@ Add NIH info&lt;br /&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
 
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitignore
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/feature/language
 
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitmodules
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-github
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-tex
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/rubykat-ikiplugins
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.enc
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.pub
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;README.md
-
-
-...
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -3106,6 +2711,404 @@ Add links to NLP libraries&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 535d1b5db0a5fdb94b5ba1f444d4460792bfc2f7 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/development/feature/language on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_80c2c1777ff4a56f2d80c0026fa0242ced7c74c0/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-80c2c1777ff4a56f2d80c0026fa0242ced7c74c0"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-31T02:33:13Z</updated>
+	<published>2016-12-31T02:33:13Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-80c2c1777ff4a56f2d80c0026fa0242ced7c74c0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/80c2c1777ff4a56f2d80c0026fa0242ced7c74c0&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/feature/language
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:33:13 AM 12/31/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add NLP libraries&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 80c2c1777ff4a56f2d80c0026fa0242ced7c74c0 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/development/feature/file-format/djvu doc/survey/tool/djvulibre on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_43be3715aedaf8a0e510157a4d1a7626bce43bac/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-43be3715aedaf8a0e510157a4d1a7626bce43bac"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-29T23:56:44Z</updated>
+	<published>2016-12-29T23:56:44Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-43be3715aedaf8a0e510157a4d1a7626bce43bac&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/43be3715aedaf8a0e510157a4d1a7626bce43bac&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/feature/file-format/djvu
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/43be3715aedaf8a0e510157a4d1a7626bce43bac&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/djvulibre
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:56:44 PM 12/29/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+add info about DjVu format&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 43be3715aedaf8a0e510157a4d1a7626bce43bac --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/survey/tool/djvulibre on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_531a6083f718efe4db879b4ebd93f0eb8d3c4523/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-531a6083f718efe4db879b4ebd93f0eb8d3c4523"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-28T14:39:42Z</updated>
+	<published>2016-12-28T14:39:42Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-531a6083f718efe4db879b4ebd93f0eb8d3c4523&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/531a6083f718efe4db879b4ebd93f0eb8d3c4523&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/djvulibre
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:39:42 PM 12/28/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add info about djvulibre&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 531a6083f718efe4db879b4ebd93f0eb8d3c4523 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/survey/tool/sisu on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_1d3cb7dc52da6435e804271971c83d2d562d2574/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-1d3cb7dc52da6435e804271971c83d2d562d2574"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-27T07:05:10Z</updated>
+	<published>2016-12-27T07:05:10Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-1d3cb7dc52da6435e804271971c83d2d562d2574&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/1d3cb7dc52da6435e804271971c83d2d562d2574&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/sisu
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:05:10 AM 12/27/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add SiSU&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 1d3cb7dc52da6435e804271971c83d2d562d2574 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/survey/tool/evernote on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_77f8fa77a39acdf04213b00f087ca59fe6572cf8/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-77f8fa77a39acdf04213b00f087ca59fe6572cf8"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-26T06:35:53Z</updated>
+	<published>2016-12-26T06:35:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-77f8fa77a39acdf04213b00f087ca59fe6572cf8&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/77f8fa77a39acdf04213b00f087ca59fe6572cf8&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/evernote
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:35:53 AM 12/26/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add Evernote platforms&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 77f8fa77a39acdf04213b00f087ca59fe6572cf8 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .gitignore .gitmodules .ikiwiki-plugins/p5-IkiWiki-Plugin-github .ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler .ikiwiki-plugins/p5-IkiWiki-Plugin-tex .ikiwiki-plugins/rubykat-ikiplugins .travis.yml .travisdeploykey.enc .travisdeploykey.pub README.md  on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_93544de23ff9fdde479b3f6858083cace104a7be/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-93544de23ff9fdde479b3f6858083cace104a7be"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2016-12-26T00:37:25Z</updated>
+	<published>2016-12-26T00:37:25Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-93544de23ff9fdde479b3f6858083cace104a7be&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitignore
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.gitmodules
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-github
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-tex
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/rubykat-ikiplugins
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.enc
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travisdeploykey.pub
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/93544de23ff9fdde479b3f6858083cace104a7be&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//recentchanges/../wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;README.md
+
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:37:25 AM 12/26/2016&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add Evernote tag&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 93544de23ff9fdde479b3f6858083cace104a7be --&gt;
 
 	</content>
 

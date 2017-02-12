@@ -27,3 +27,15 @@
 	padding-left: 3px;
 	font-family: Georgia;
 }
+
+a.footnote:before {
+	content: "[";
+}
+a.footnote:after {
+	content: "]";
+}
+a.footnote {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
