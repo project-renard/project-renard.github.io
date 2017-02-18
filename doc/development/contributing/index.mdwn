@@ -101,6 +101,10 @@ for that library using Perl syntax.
 
 [[!img gfx/perli11ndoc.png caption="The perli11ndoc tool showing documentation from Gtk3's AccelGroup class."]]
 
+## Debuggging GTK
+
+Use `GTK_DEBUG="interactive"` (see <https://developer.gnome.org/gtk3/stable/gtk-running.html>).
+
 # Creating Perl bindings
 
 - <https://github.com/Perl-XS/notes/blob/master/Resources.md>
