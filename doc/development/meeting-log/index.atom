@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-01-02T04:15:22Z</updated>
+<updated>2017-01-03T01:34:25Z</updated>
 <entry>
 	<title>improving the GUI navigation and tests</title>
 
@@ -29,8 +29,8 @@
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -136,8 +136,8 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -219,8 +219,8 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1184,52 +1184,55 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 </entry>
 <entry>
-	<title>week of 2016-03-27</title>
+	<title>week of 2016-04-02</title>
 
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</id>
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</id>
 
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/"/>
-
-
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/"/>
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+
+
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/40&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot;/&gt;
+	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
+&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/4&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refactor tests
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/58&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/64&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot;/&gt;
+&lt;/a&gt;
+)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/2&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/pull/3&quot; src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/27&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Embed AbiWord
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/57&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Embed Evince
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/56&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 	</content>
 
@@ -1247,8 +1250,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1303,55 +1306,52 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 </entry>
 <entry>
-	<title>week of 2016-04-02</title>
+	<title>week of 2016-03-27</title>
 
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</id>
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</id>
 
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/"/>
-
-
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/"/>
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
-	<published>2017-01-02T04:15:22Z</published>
+
+
+	<updated>2017-01-03T01:34:25Z</updated>
+	<published>2017-01-03T01:34:25Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Work on the Vagrant setup: choose a better base box
-&lt;a href=&quot;https://github.com/project-renard/devops/issues/4&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/4&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/4.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Refactor tests
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/58&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/58&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/58.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add the final tests for the keybinding PR
-&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
+	&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/40&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot;/&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;(how to to simulate key press events: &lt;a href=&quot;https://github.com/project-renard/curie/issues/64&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/64&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/64.svg&quot;/&gt;
-&lt;/a&gt;
-)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;zaki&quot;&gt;Zaki&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Embed AbiWord
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/57&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/57&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/57.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Embed Evince
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/56&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/56&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/56.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/2&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/pull/3&quot; src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/27&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
@@ -1371,7 +1371,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
+	<updated>2017-01-03T01:34:25Z</updated>
 	<published>2016-12-20T23:57:59Z</published>
 
 
@@ -1589,7 +1589,7 @@ on all platforms
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
+	<updated>2017-01-03T01:34:25Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 
@@ -1637,7 +1637,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
+	<updated>2017-01-03T01:34:25Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 
@@ -1681,7 +1681,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 
-	<updated>2017-01-02T04:15:22Z</updated>
+	<updated>2017-01-03T01:34:25Z</updated>
 	<published>2016-02-05T18:09:21Z</published>
 
 
