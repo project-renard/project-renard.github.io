@@ -8,21 +8,21 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 06 Jan 2017 03:36:06 +0000</pubDate>
+<pubDate>Fri, 06 Jan 2017 21:06:43 +0000</pubDate>
 <item>
-	<title>MuPDF</title>
+	<title>LibHaru</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 06 Jan 2017 03:36:06 +0000</pubDate>
-	<dcterms:modified>2017-01-06T03:36:06Z</dcterms:modified>
+	<pubDate>Fri, 06 Jan 2017 21:06:43 +0000</pubDate>
+	<dcterms:modified>2017-01-06T21:06:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -33,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            MuPDF
+            LibHaru
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -44,7 +44,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -77,7 +77,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -86,6 +86,8 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
 </description>
 
 
@@ -102,8 +104,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 06 Jan 2017 03:36:06 +0000</pubDate>
-	<dcterms:modified>2017-01-06T03:36:06Z</dcterms:modified>
+	<pubDate>Fri, 06 Jan 2017 21:06:43 +0000</pubDate>
+	<dcterms:modified>2017-01-06T21:06:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -187,8 +189,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 06 Jan 2017 03:36:06 +0000</pubDate>
-	<dcterms:modified>2017-01-06T03:36:06Z</dcterms:modified>
+	<pubDate>Fri, 06 Jan 2017 21:06:43 +0000</pubDate>
+	<dcterms:modified>2017-01-06T21:06:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -278,19 +280,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>LibHaru</title>
+	<title>MuPDF</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/mupdf/</link>
 
 
 
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 06 Jan 2017 03:36:06 +0000</pubDate>
-	<dcterms:modified>2017-01-06T03:36:06Z</dcterms:modified>
+	<pubDate>Fri, 06 Jan 2017 21:06:43 +0000</pubDate>
+	<dcterms:modified>2017-01-06T21:06:43Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -301,7 +303,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            LibHaru
+            MuPDF
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -312,7 +314,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -345,7 +347,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -354,8 +356,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
 </description>
 
 
