@@ -7,6 +7,10 @@ Feel free to add information below that will be placed in other parts of the wik
 
 Formatting is in Markdown.
 
+---
+
+`Alien::MuPDF` requires the Debian package `libssl1.0-dev` to build. This is because it is not yet (as of mupdf 1.10a) compatible with the OpenSSL v1.1 API.
+
 -------
 
 - <http://zeitgeist-project.com/>
