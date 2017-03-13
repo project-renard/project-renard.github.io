@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Sun, 12 Feb 2017 17:47:08 +0000</pubDate>
 <item>
-	<title>TheBrain</title>
+	<title>Coggle</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thebrain/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/coggle/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/thebrain/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/coggle/</link>
 
 
 
@@ -22,7 +22,7 @@
 
 
 	<pubDate>Sat, 21 Jan 2017 03:33:31 +0000</pubDate>
-	<dcterms:modified>2017-02-12T17:47:08Z</dcterms:modified>
+	<dcterms:modified>2017-01-21T03:33:31Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -33,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            TheBrain
+            Coggle
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -41,12 +41,6 @@
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -74,12 +68,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -166,11 +154,11 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Coggle</title>
+	<title>TheBrain</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/coggle/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thebrain/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/coggle/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/thebrain/</link>
 
 
 
@@ -178,7 +166,7 @@ Runs: unknown
 
 
 	<pubDate>Sat, 21 Jan 2017 03:33:31 +0000</pubDate>
-	<dcterms:modified>2017-01-21T03:33:31Z</dcterms:modified>
+	<dcterms:modified>2017-02-12T17:47:08Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -189,7 +177,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Coggle
+            TheBrain
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -197,6 +185,93 @@ Runs: unknown
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Cmap</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/cmap/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/cmap/</link>
+
+
+
+	<category>software-type/mind-mapping</category>
+
+
+	<pubDate>Thu, 19 Jan 2017 17:22:55 +0000</pubDate>
+	<dcterms:modified>2017-01-19T17:22:55Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Cmap
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -248,7 +323,7 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Wed, 18 Jan 2017 20:32:41 +0000</pubDate>
+	<pubDate>Thu, 19 Jan 2017 17:22:55 +0000</pubDate>
 	<dcterms:modified>2017-01-19T17:24:10Z</dcterms:modified>
 
 
@@ -348,81 +423,6 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Cmap</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/cmap/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/cmap/</link>
-
-
-
-	<category>software-type/mind-mapping</category>
-
-
-	<pubDate>Wed, 18 Jan 2017 20:32:41 +0000</pubDate>
-	<dcterms:modified>2017-01-18T20:32:41Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Cmap
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Freeplane</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/freeplane/</guid>
@@ -434,7 +434,7 @@ Runs: unknown
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 18 Jan 2017 20:32:41 +0000</pubDate>
+	<pubDate>Thu, 19 Jan 2017 17:22:55 +0000</pubDate>
 	<dcterms:modified>2017-01-19T17:24:10Z</dcterms:modified>
 
 
@@ -532,8 +532,8 @@ Runs: unknown
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 18 Jan 2017 20:32:41 +0000</pubDate>
-	<dcterms:modified>2017-01-18T20:32:41Z</dcterms:modified>
+	<pubDate>Thu, 19 Jan 2017 17:22:55 +0000</pubDate>
+	<dcterms:modified>2017-01-19T17:22:55Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
