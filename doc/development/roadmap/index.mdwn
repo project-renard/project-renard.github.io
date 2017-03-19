@@ -98,6 +98,9 @@
         when I come back to that part, it can show a little tooltip to bring
         back that same view so the user does not have to configure it again.
        - Be able to store the current view state and restore on another device.
+- Goal: Have multiple user profiles that can be used simultaneously.
+       - This allows for using the application for different purposes and
+         keeping the data segregated.
 
 # Project plan
 
