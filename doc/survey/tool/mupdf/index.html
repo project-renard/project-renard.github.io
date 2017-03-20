@@ -169,6 +169,19 @@ Runs: unknown
 </table>
 </div>
 
+<p>MuPDF is a library that for parsing and rendering several page-based document
+formats including PDF, XPS, and ePub. It contains both a graphics library
+called Fitz along with document-specific renderers that use Fitz as their
+rendering engine.</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>MuPDF uses the prefix <code>fz_</code> (short for Fitz) as the namespace for its symbols.</p>
+
+<p>Since MuPDF is written in C, it does not have language-level exception handling
+support. Instead it implements library-specific macros that provide <code>try ...
+catch</code> catch functionality, namely <code>fz_try ... fz_catch</code>.</p>
+
 </div>
 
 
@@ -199,6 +212,8 @@ Tags:
 <div id="backlinks">
 Links:
 
+<a href="../../../development/contributing/">development/contributing</a>
+
 <a href="../../pdf-rendering/">pdf-rendering</a>
 
 
@@ -210,8 +225,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 24 Jan 2017 06:23:55 PM UTC</span>
-<!-- Created <span class="date">Tue 24 Jan 2017 06:23:55 PM UTC</span> -->
+Last edited <span class="date">Mon 20 Mar 2017 04:55:19 AM UTC</span>
+<!-- Created <span class="date">Fri 27 Jan 2017 12:54:07 PM UTC</span> -->
 </div>
 
 </div>
