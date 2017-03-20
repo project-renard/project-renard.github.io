@@ -119,14 +119,19 @@ There are five approaches to writing bindings for Perl:
     - The standard approach to writing bindings.
 	- Automatically generates C code that allows for setup of Perl API calls.
 
-- Writing bindings using Inline::C code that gets converted to XS then C (static).
-    - A simple way to automatically generate XS code without having to learn XS syntax.
+- Writing bindings using [[Inline::C|https://p3rl.org/Inline::C]] code that
+  gets converted to XS then C (static).
+	- A simple way to automatically generate XS code without having to learn XS
+      syntax.
 
-- Writing bindings using [[FFI::Platypus|https://p3rl.org/FFI::Platypus]] ([[`libffi`|https://sourceware.org/libffi/]]) to call functions dynamically.
+- Writing bindings using [[FFI::Platypus|https://p3rl.org/FFI::Platypus]]
+  ([[`libffi`|https://sourceware.org/libffi/]]-based) to call functions
+  dynamically.
     - A modern approach that avoids having to write C.
 
 - Automatically generating XS bindings using [[SWIG|http://www.swig.org/]].
-    - Common among very large libraries that need to create bindings for multiple languages at once.
+	- Common among very large libraries that need to create bindings for
+      multiple languages at once.
 
 ## Perl internals and XS
 
