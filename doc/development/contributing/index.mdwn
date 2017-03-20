@@ -107,7 +107,19 @@ Use `GTK_DEBUG="interactive"` (see <https://developer.gnome.org/gtk3/stable/gtk-
 
 # Creating Perl bindings
 
+## Using XS
+
 - <https://github.com/Perl-XS/notes/blob/master/Resources.md>
+- <https://www.lemoda.net/xs/xs-intro/>
+
+## Using Inline
+
+- Inline::C <https://metacpan.org/pod/Inline::C>
+
+# Specific notes about third-party libraries
+
+- [[MuPDF|doc/survey/tool/mupdf]]
+
 
 # Developing on Windows
 
