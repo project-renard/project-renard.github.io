@@ -107,19 +107,53 @@ Use `GTK_DEBUG="interactive"` (see <https://developer.gnome.org/gtk3/stable/gtk-
 
 # Creating Perl bindings
 
-## Using XS
+There are five approaches to writing bindings for Perl:
+
+- Writing bindings in C code that links into the Perl interpreter and uses the
+  [[Perl API|https://p3rl.org/perlapi]].
+    - Rarely done.
+    - Full control of interpreter internals.
+
+- Writing bindings using a Perl-specific DSL called
+  [[XS|https://p3rl.org/perlxs]] that gets converted to C code (static).
+    - The standard approach to writing bindings.
+	- Automatically generates C code that allows for setup of Perl API calls.
+
+- Writing bindings using Inline::C code that gets converted to XS then C (static).
+    - A simple way to automatically generate XS code without having to learn XS syntax.
+
+- Writing bindings using [[FFI::Platypus|https://p3rl.org/FFI::Platypus]] ([[`libffi`|https://sourceware.org/libffi/]]) to call functions dynamically.
+    - A modern approach that avoids having to write C.
+
+- Automatically generating XS bindings using [[SWIG|http://www.swig.org/]].
+    - Common among very large libraries that need to create bindings for multiple languages at once.
+
+## Perl internals and XS
+
+Adding native library bindings
 
 - <https://github.com/Perl-XS/notes/blob/master/Resources.md>
 - <https://www.lemoda.net/xs/xs-intro/>
+- <http://perldoc.perl.org/index-internals.html>
 
 ## Using Inline
+
+[[Inline|https://p3rl.org/Inline]] is a module that allows for creating
+interfaces to other languages including C, Python, and Java. It simplifies
+the binding process so that all that is often needed to create a binding is a
+snippet of code that is included within the Perl code that automatically gets
+wrapped when the Perl code is loaded.
+
+In order to release code to other systems that do not have `Inline` installed,
+there is [[Inline::Module|https://p3rl.org/Inline::Module]] which automatically
+includes a copy of the `Inline` module code necessary to build the
+`Inline`-based distribution.
 
 - Inline::C <https://metacpan.org/pod/Inline::C>
 
 # Specific notes about third-party libraries
 
 - [[MuPDF|doc/survey/tool/mupdf]]
-
 
 # Developing on Windows
 
