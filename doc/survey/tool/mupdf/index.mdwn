@@ -18,5 +18,22 @@ Since MuPDF is written in C, it does not have language-level exception handling
 support. Instead it implements library-specific macros that provide `try ...
 catch` catch functionality, namely `fz_try ... fz_catch`.
 
+When writing bindings to accomodate for this
+
+- <http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1>
+- <http://mupdf.com/docs/>
+
+Example of other programs that have bindings:
+
+koreader
+
+- <https://github.com/koreader/koreader-base/blob/master/ffi/mupdf.lua>
+- <https://github.com/koreader/koreader-base/blob/master/ffi-cdecl/mupdf_decl.c>
+- <https://github.com/koreader/koreader-base/blob/master/wrap-mupdf.h>
+- <https://github.com/koreader/koreader-base/blob/master/ffi/mupdf_h.lua>
+
+PyMuPDF
+
+- <https://github.com/rk700/PyMuPDF>
 
 [[!tag software-type/library]]
