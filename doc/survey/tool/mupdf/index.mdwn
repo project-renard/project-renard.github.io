@@ -5,4 +5,18 @@ WikipediaEN: https://en.wikipedia.org/wiki/MuPDF
 ---
 [[!ftemplate id=tool]]
 
+MuPDF is a library that for parsing and rendering several page-based document
+formats including PDF, XPS, and ePub. It contains both a graphics library
+called Fitz along with document-specific renderers that use Fitz as their
+rendering engine.
+
+# Notes
+
+MuPDF uses the prefix `fz_` (short for Fitz) as the namespace for its symbols.
+
+Since MuPDF is written in C, it does not have language-level exception handling
+support. Instead it implements library-specific macros that provide `try ...
+catch` catch functionality, namely `fz_try ... fz_catch`.
+
+
 [[!tag software-type/library]]
