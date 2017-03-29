@@ -2,12 +2,12 @@
 
 - Goal: Should be able to display documents
       - Specific types to be able to display
-          - PDF
+          - [[PDF|doc/development/feature/file-format/pdf]]
           - HTML
           - EPUB
           - XPS
           - PostScript
-          - DjVu
+          - [[DjVu|doc/development/feature/file-format/djvu]]
           - RTF
           - OpenDocument
           - OneNote
