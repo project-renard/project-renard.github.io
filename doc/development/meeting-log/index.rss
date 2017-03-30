@@ -8,54 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-<item>
-	<title>week of 2016-03-27</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
-
-
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/40&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/2&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/pull/3&quot; src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/27&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-
-
-</item>
+<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
 <item>
 	<title>Windows build with MSYS2: locally and on Appveyor</title>
 
@@ -66,8 +19,8 @@
 	<dc:creator>zaki</dc:creator>
 
 
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
@@ -1028,6 +981,113 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 </item>
 <item>
+	<title>week of 2016-03-27</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27/</link>
+
+
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/40&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/40.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/53&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/53&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/53.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/31&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/31.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/pull/52&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/52&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/52.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/issues/2&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/issues/2&quot; src=&quot;https://github-shields.com/github/project-renard/devops/issues/2.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/devops/pull/3&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/devops/pull/3&quot; src=&quot;https://github-shields.com/github/project-renard/devops/pull/3.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/27&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/27&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/27.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/issues/5&quot;&gt;
+  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/project-renard.github.io/issues/5&quot; src=&quot;https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>testing and planning features</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
+
+
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
+continuous integration.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/33&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot;/&gt;
+&lt;/a&gt;
+to address
+issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/28&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot;/&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/34&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot;/&gt;
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Stan: Show number of pages
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/21&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/22&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
 	<title>improving the GUI navigation and tests</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</guid>
@@ -1035,8 +1095,8 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests/</link>
 
 
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1136,8 +1196,8 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/04/02/week-of-2016-04-02/</link>
 
 
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -1186,8 +1246,8 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/05/28/interface-design/</link>
 
 
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<pubDate>Mon, 06 Feb 2017 15:58:31 +0000</pubDate>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
@@ -1254,66 +1314,6 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 </item>
 <item>
-	<title>testing and planning features</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features/</link>
-
-
-	<pubDate>Fri, 03 Feb 2017 04:22:26 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
-continuous integration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&quot;https://github.com/project-renard/test-data&quot;&gt;test data repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Start adding unit tests in PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/33&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/33&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/33.svg&quot;/&gt;
-&lt;/a&gt;
-to address
-issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/28&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/28.svg&quot;/&gt;
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looked at a review of PDF metadata extraction &lt;a href=&quot;https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview&quot;&gt;doc&lt;/a&gt; (mirrored &lt;a href=&quot;https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview&quot;&gt;here&lt;/a&gt;) from this &lt;a href=&quot;http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Adding Travis-CI support:
-    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
-(issues are at &lt;a href=&quot;https://github.com/project-renard/curie/issues/34&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/34&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/34.svg&quot;/&gt;
-&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2700&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2700&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg&quot;/&gt;
-&lt;/a&gt;
-, &lt;a href=&quot;https://github.com/travis-ci/apt-package-whitelist/issues/2702&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;travis-ci/apt-package-whitelist/issues/2702&quot; src=&quot;https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg&quot;/&gt;
-&lt;/a&gt;
-).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Issues carried over from &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/03/06/refactoring-recent-gui-additions/&quot;&gt;last week&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Stan: Show number of pages
-&lt;a href=&quot;https://github.com/project-renard/curie/issues/21&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/21&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/21.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chirag: Deactivate navigation buttons at start and end of document &lt;a href=&quot;https://github.com/project-renard/curie/issues/22&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/22&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/22.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Curie v0.002 development update</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/12/20/curie-v0.002-development-update/</guid>
@@ -1324,7 +1324,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<pubDate>Tue, 20 Dec 2016 23:57:59 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;style&gt;
@@ -1536,7 +1536,7 @@ on all platforms
 
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
@@ -1578,7 +1578,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;ul&gt;
@@ -1616,7 +1616,7 @@ found in other similar software that might be worth implementing.&lt;/p&gt;
 
 
 	<pubDate>Fri, 05 Feb 2016 18:09:21 +0000</pubDate>
-	<dcterms:modified>2017-02-03T04:22:26Z</dcterms:modified>
+	<dcterms:modified>2017-02-06T15:58:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
