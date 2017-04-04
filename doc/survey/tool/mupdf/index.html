@@ -182,7 +182,8 @@ rendering engine.</p>
 support. Instead it implements library-specific macros that provide <code>try ...
 catch</code> catch functionality, namely <code>fz_try ... fz_catch</code>.</p>
 
-<p>When writing bindings to accomodate for this</p>
+<p>When writing bindings to accomodate for this it is necessary to create wrappers
+so that exceptions in MuPDF are translated to exceptions in the host language.</p>
 
 <ul>
 <li><a href="http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1">http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1</a></li>
@@ -249,8 +250,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 20 Mar 2017 07:23:22 PM UTC</span>
-<!-- Created <span class="date">Tue 07 Feb 2017 07:57:22 PM UTC</span> -->
+Last edited <span class="date">Tue 04 Apr 2017 08:40:55 PM UTC</span>
+<!-- Created <span class="date">Wed 08 Feb 2017 05:12:40 PM UTC</span> -->
 </div>
 
 </div>
