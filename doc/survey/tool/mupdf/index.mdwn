@@ -12,6 +12,8 @@ rendering engine.
 
 # Notes
 
+Documentation for the library is at: <http://mupdf.com/docs/>.
+
 MuPDF uses the prefix `fz_` (short for Fitz) as the namespace for its symbols.
 
 Since MuPDF is written in C, it does not have language-level exception handling
@@ -22,7 +24,6 @@ When writing bindings to accomodate for this it is necessary to create wrappers
 so that exceptions in MuPDF are translated to exceptions in the host language.
 
 - <http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1>
-- <http://mupdf.com/docs/>
 
 Example of other programs that have bindings:
 
