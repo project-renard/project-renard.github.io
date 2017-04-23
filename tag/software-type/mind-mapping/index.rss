@@ -8,103 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-<item>
-	<title>FreeMind</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/freemind/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/freemind/</link>
-
-
-
-	<category>software-type/mind-mapping</category>
-
-
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            FreeMind
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
+<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
 <item>
 	<title>Freeplane</title>
 
@@ -117,8 +21,8 @@ Runs: unknown
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -204,19 +108,19 @@ Runs: unknown
 
 </item>
 <item>
-	<title>TheBrain</title>
+	<title>FreeMind</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thebrain/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/freemind/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/thebrain/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/freemind/</link>
 
 
 
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -227,7 +131,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            TheBrain
+            FreeMind
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -238,7 +142,14 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://freemind.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -248,6 +159,14 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Freemind-0.9x_Screenshoot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -271,84 +190,9 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/FreeMind&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Cmap</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/cmap/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/cmap/</link>
-
-
-
-	<category>software-type/mind-mapping</category>
-
-
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Cmap
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
 
 
 
@@ -373,8 +217,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -473,19 +317,19 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </item>
 <item>
-	<title>ThinkMap</title>
+	<title>Cmap</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thinkmap/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/cmap/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/thinkmap/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/cmap/</link>
 
 
 
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -496,7 +340,7 @@ links to the papers which need to be cited.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            ThinkMap
+            Cmap
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -507,7 +351,7 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -548,6 +392,87 @@ Runs: unknown
 
 </item>
 <item>
+	<title>TheBrain</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thebrain/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/thebrain/</link>
+
+
+
+	<category>software-type/mind-mapping</category>
+
+
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            TheBrain
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Coggle</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/coggle/</guid>
@@ -559,8 +484,8 @@ Runs: unknown
 	<category>software-type/mind-mapping</category>
 
 
-	<pubDate>Wed, 22 Feb 2017 00:04:50 +0000</pubDate>
-	<dcterms:modified>2017-02-22T00:04:50Z</dcterms:modified>
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -579,6 +504,81 @@ Runs: unknown
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>ThinkMap</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/thinkmap/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/thinkmap/</link>
+
+
+
+	<category>software-type/mind-mapping</category>
+
+
+	<pubDate>Fri, 24 Feb 2017 04:10:32 +0000</pubDate>
+	<dcterms:modified>2017-02-24T04:10:32Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ThinkMap
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
