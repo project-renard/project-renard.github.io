@@ -55,6 +55,7 @@ add_plugins:
 #- underlay
 - tex4ht
 - taskjuggler
+- plantuml
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
@@ -103,6 +104,7 @@ libdirs:
 - './.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib'
 - './.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib'
 - './.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler/lib'
+- './.ikiwiki-plugins/ikiwiki-uml'
 # extra library and plugin directory (searched after libdirs)
 libdir: /home/zaki/.ikiwiki
 # environment variables

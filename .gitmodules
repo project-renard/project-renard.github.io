@@ -10,3 +10,7 @@
 [submodule ".ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler
 	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-taskjuggler.git
+[submodule ".ikiwiki-plugins/ikiwiki-uml"]
+	path = .ikiwiki-plugins/ikiwiki-uml
+	url = https://github.com/ikiwiki-tavi/ikiwiki-uml.git
+	branch = include
