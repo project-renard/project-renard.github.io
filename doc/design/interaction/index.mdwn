@@ -1,9 +1,24 @@
 [[!meta title="Interaction"]]
 
+
+# Views
+
+**Page range**: a page range indicates the which pages an operation is applied upon.
+
+**Transformation**: (scale, rotate, shear, crop).
+
+**Continuous**: a continuous view puts all the pages.
+
+**Columns**: number of items to show in each row.
+
+**Alignment**: left, center, right; horizontal, vertical.
+
+
 [[!uml src="
   Alice -> Bob: Authentication Request
-  Bob --> Alice: Authentication Response
+  Bob --> Alice: Authentication Respons
 
   Alice -> Bob: Another authentication Request
   Alice <-- Bob: another authentication Response
+
 "]]
