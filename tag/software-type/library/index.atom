@@ -19,138 +19,6 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2017-04-16T19:44:28Z</updated>
 <entry>
-	<title>MuPDF</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
-
-
-
-
-
-
-	<category term="software-type/library" />
-
-
-	<updated>2017-04-16T19:44:28Z</updated>
-	<published>2017-03-10T04:43:02Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            MuPDF
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;MuPDF is a library that for parsing and rendering several page-based document
-formats including &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/development/feature/file-format/pdf/&quot;&gt;PDF&lt;/a&gt;, XPS, and ePub. It contains both a graphics library
-called Fitz along with document-specific renderers that use Fitz as their
-rendering engine.&lt;/p&gt;
-
-&lt;p&gt;This library is used by&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/sumatrapdf/&quot;&gt;SumatraPDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;notes&quot;&gt;Notes&lt;/h1&gt;
-
-&lt;p&gt;Documentation for the library is at: &lt;a href=&quot;http://mupdf.com/docs/&quot;&gt;http://mupdf.com/docs/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;MuPDF uses the prefix &lt;code&gt;fz_&lt;/code&gt; (short for Fitz) as the namespace for its symbols.&lt;/p&gt;
-
-&lt;p&gt;Since MuPDF is written in C, it does not have language-level exception handling
-support. Instead it implements library-specific macros that provide &lt;code&gt;try ...
-catch&lt;/code&gt; catch functionality, namely &lt;code&gt;fz_try ... fz_catch&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;When writing bindings to accomodate for this it is necessary to create wrappers
-so that exceptions in MuPDF are translated to exceptions in the host language.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1&quot;&gt;http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example of other programs that have bindings:&lt;/p&gt;
-
-&lt;p&gt;koreader&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf.lua&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf.lua&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi-cdecl/mupdf_decl.c&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi-cdecl/mupdf_decl.c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/wrap-mupdf.h&quot;&gt;https://github.com/koreader/koreader-base/blob/master/wrap-mupdf.h&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf_h.lua&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf_h.lua&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;PyMuPDF&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rk700/PyMuPDF&quot;&gt;https://github.com/rk700/PyMuPDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>LibHaru</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
@@ -432,6 +300,138 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>MuPDF</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/mupdf/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/mupdf/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2017-04-16T19:44:28Z</updated>
+	<published>2017-03-10T04:43:02Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            MuPDF
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://mupdf.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/MuPDF&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;MuPDF is a library that for parsing and rendering several page-based document
+formats including &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/development/feature/file-format/pdf/&quot;&gt;PDF&lt;/a&gt;, XPS, and ePub. It contains both a graphics library
+called Fitz along with document-specific renderers that use Fitz as their
+rendering engine.&lt;/p&gt;
+
+&lt;p&gt;This library is used by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/sumatrapdf/&quot;&gt;SumatraPDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;notes&quot;&gt;Notes&lt;/h1&gt;
+
+&lt;p&gt;Documentation for the library is at: &lt;a href=&quot;http://mupdf.com/docs/&quot;&gt;http://mupdf.com/docs/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MuPDF uses the prefix &lt;code&gt;fz_&lt;/code&gt; (short for Fitz) as the namespace for its symbols.&lt;/p&gt;
+
+&lt;p&gt;Since MuPDF is written in C, it does not have language-level exception handling
+support. Instead it implements library-specific macros that provide &lt;code&gt;try ...
+catch&lt;/code&gt; catch functionality, namely &lt;code&gt;fz_try ... fz_catch&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When writing bindings to accomodate for this it is necessary to create wrappers
+so that exceptions in MuPDF are translated to exceptions in the host language.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1&quot;&gt;http://www.freelists.org/post/luajit/FFI-and-setjmplongjmp,1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Example of other programs that have bindings:&lt;/p&gt;
+
+&lt;p&gt;koreader&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf.lua&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf.lua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi-cdecl/mupdf_decl.c&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi-cdecl/mupdf_decl.c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/wrap-mupdf.h&quot;&gt;https://github.com/koreader/koreader-base/blob/master/wrap-mupdf.h&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf_h.lua&quot;&gt;https://github.com/koreader/koreader-base/blob/master/ffi/mupdf_h.lua&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PyMuPDF&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rk700/PyMuPDF&quot;&gt;https://github.com/rk700/PyMuPDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 	</content>
 
