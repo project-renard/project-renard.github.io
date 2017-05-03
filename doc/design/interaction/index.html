@@ -113,7 +113,7 @@ Interaction
 
 
 <div class="sidebar">
-<h3 id="tableofcontents:">Table of contents:</h3>
+<h3 id="tableofcontents:"><a name="index1h3"></a>Table of contents:</h3>
 
 <ol>
 <li><a href="../introduction/">Introduction</a></li>
@@ -129,7 +129,36 @@ Interaction
 <div id="pagebody">
 
 <div id="content">
-<h1 id="views">Views</h1>
+<div class="toc">
+		<ol>
+			<li class="L3"><a href="#index1h3">Table of contents:</a>
+			</li>
+			<li class="L3"><a href="#index1h1">Views</a>
+			</li>
+			<li class="L3"><a href="#index1h2">Definitions</a>
+			</li>
+			<li class="L3"><a href="#index2h2">Grid</a>
+			</li>
+			<li class="L3"><a href="#index2h3">Page order</a>
+			</li>
+			<li class="L3"><a href="#index3h3">Layout</a>
+			</li>
+			<li class="L3"><a href="#index4h3">Alignment</a>
+			</li>
+			<li class="L3"><a href="#index5h3">Algorithm</a>
+			</li>
+			<li class="L3"><a href="#index6h3">Page sequence</a>
+			</li>
+			<li class="L3"><a href="#index7h3">Page order</a>
+			</li>
+			<li class="L3"><a href="#index8h3">Transformations</a>
+			</li>
+		</ol>
+</div>
+
+<h1 id="views"><a name="index1h1"></a>Views</h1>
+
+<h2 id="definitions"><a name="index1h2"></a>Definitions</h2>
 
 <p><strong>Page range</strong>: a page range indicates the which pages an operation is applied upon.</p>
 
@@ -140,6 +169,147 @@ Interaction
 <p><strong>Columns</strong>: number of items to show in each row.</p>
 
 <p><strong>Alignment</strong>: left, center, right; horizontal, vertical.</p>
+
+<h2 id="grid"><a name="index2h2"></a>Grid</h2>
+
+<p>View is made up of a grid. A grid has rows and columns.</p>
+
+<pre>+---+---+---+
+|   |   |   |  row 1
++---+---+---+
+|   |   |   |  row 2
++---+---+---+
+  c   c   c 
+  o   o   o 
+  l   l   l 
+
+  1   2   3 </pre>
+
+<h3 id="pageorder"><a name="index2h3"></a>Page order</h3>
+
+<p>These rows and columns can be filled in certain ways:</p>
+
+<ul>
+<li>left-to-right-then-left-to-right</li>
+</ul>
+
+<pre>+---+---+---+
+| 1 | 2 | 3 |
++---+---+---+
+| 4 | 5 | 6 |
++---+---+---+</pre>
+
+<ul>
+<li>right-to-left-then-right-to-left</li>
+</ul>
+
+<pre>+---+---+---+
+| 3 | 2 | 1 |
++---+---+---+
+| 6 | 5 | 4 |
++---+---+---+</pre>
+
+<h3 id="layout"><a name="index3h3"></a>Layout</h3>
+
+<p>The grid can have a defined number of columns and defined number of rows that
+will be used for layout. This can be in the form of</p>
+
+<ul>
+<li>Defined rows, Defined columns</li>
+</ul>
+
+<p>Example: Rows: 2, Columns: 3, Total Pages: 11</p>
+
+<pre>View 1                     View 2
++---+---+---+              +---+---+---+
+| 1 | 2 | 3 |              | 7 | 8 | 9 |
++---+---+---+              +---+---+---+
+| 4 | 5 | 6 |              |10 |11 | - |
++---+---+---+              +---+---+---+</pre>
+
+<ul>
+<li>Undefined rows, Defined columns</li>
+</ul>
+
+<p>Example: Rows: undefined, Columns: 3, Total Pages: 11</p>
+
+<pre>View
++---+---+---+
+| 1 | 2 | 3 |
++---+---+---+
+| 4 | 5 | 6 |
++---+---+---+
+| 7 | 8 | 9 |
++---+---+---+
+|10 |11 | - |
++---+---+---+</pre>
+
+<ul>
+<li>Defined rows, Undefined columns</li>
+</ul>
+
+<p>Example: Rows: 2, Columns: undefined, Total Pages: 11</p>
+
+<pre>View
++---+---+---+---+---+---+
+| 1 | 2 | 3 | 4 | 5 | 6 |
++---+---+---+---+---+---+
+| 7 | 8 | 9 |10 |11 | - |
++---+---+---+---+---+---+</pre>
+
+<p>This provides a generalisable approach to rectangular layout that can
+incorporate the idea of continuous pages and how many pages should be fit into
+the current view.</p>
+
+<h3 id="alignment"><a name="index4h3"></a>Alignment</h3>
+
+<p>The grid approach offers two places where alignment can occur:</p>
+
+<ol>
+<li>Within each cell of the grid: this is only important if the page size changes within the view.</li>
+<li>With respect to the parent widget: this requires computing the size of the entire grid.</li>
+</ol>
+
+<h3 id="algorithm"><a name="index5h3"></a>Algorithm</h3>
+
+<pre>PageRange_start &lt;- start of pages to render
+PageRange_end   &lt;- end of pages to render
+
+G_r &lt;- number of rows in grid
+G_d &lt;- number of rows in grid
+
+if defined(G_r) and defined(G_d) then
+    # We need to split into views
+    NumOfPagesPerView &lt;- G_r * G_d
+    NumberOfViews &lt;- ceil( ( PageRange_end - PageRange_start + 1 ) / NumOfPagesPerView )
+    for k ∈ [0, NumberOfViews)
+        View[ k ] &lt;- Grid( G,
+                            ( k * NumOfPagesPerView ) + PageRange_start,
+                            min( ( (k+1) * NumOfPagesPerView ) + PageRange_start - 1 , PageRange_end )
+                     )
+    end
+else
+    View &lt;- Grid(G, PageRange_start, PageRange_end )
+end
+
+define Grid( Grid, P_start, P_end )
+Intercell_width &lt;- length between columns
+Intercell_height &lt;-  length between rows
+GridWidth &lt;- ...
+
+end</pre>
+
+<h3 id="pagesequence"><a name="index6h3"></a>Page sequence</h3>
+
+<p>Finite / infinite</p>
+
+<h3 id="pageorder"><a name="index7h3"></a>Page order</h3>
+
+<h3 id="transformations"><a name="index8h3"></a>Transformations</h3>
+
+<h4 id="globaltransformation"><a name="index1h4"></a>Global transformation</h4>
+
+<h4 id="pagetransformation"><a name="index2h4"></a>Page transformation</h4>
 
 <p><img src="./uml-bf3c9c824f72c39ebcc7c0284b33acfb912a6535.svg" /></p>
 
@@ -201,8 +371,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Sat 29 Apr 2017 04:35:17 PM UTC</span>
-<!-- Created <span class="date">Wed 08 Mar 2017 03:23:17 AM UTC</span> -->
+Last edited <span class="date">Wed 03 May 2017 02:55:23 PM UTC</span>
+<!-- Created <span class="date">Fri 10 Mar 2017 04:43:02 AM UTC</span> -->
 </div>
 
 </div>
