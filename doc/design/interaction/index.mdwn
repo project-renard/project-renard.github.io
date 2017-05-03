@@ -1,7 +1,10 @@
 [[!meta title="Interaction"]]
 
+[[!toc]]
 
 # Views
+
+## Definitions
 
 **Page range**: a page range indicates the which pages an operation is applied upon.
 
@@ -12,6 +15,154 @@
 **Columns**: number of items to show in each row.
 
 **Alignment**: left, center, right; horizontal, vertical.
+
+## Grid
+
+View is made up of a grid. A grid has rows and columns.
+
+[[!format txt """
++---+---+---+
+|   |   |   |  row 1
++---+---+---+
+|   |   |   |  row 2
++---+---+---+
+  c   c   c 
+  o   o   o 
+  l   l   l 
+            
+  1   2   3 
+"""]]
+
+
+### Page order
+
+These rows and columns can be filled in certain ways:
+
+- left-to-right-then-left-to-right
+
+[[!format txt """
++---+---+---+
+| 1 | 2 | 3 |
++---+---+---+
+| 4 | 5 | 6 |
++---+---+---+
+"""]]
+
+- right-to-left-then-right-to-left
+
+[[!format txt """
++---+---+---+
+| 3 | 2 | 1 |
++---+---+---+
+| 6 | 5 | 4 |
++---+---+---+
+"""]]
+
+### Layout
+
+The grid can have a defined number of columns and defined number of rows that
+will be used for layout. This can be in the form of
+
+- Defined rows, Defined columns
+
+Example: Rows: 2, Columns: 3, Total Pages: 11
+
+[[!format txt """
+View 1                     View 2
++---+---+---+              +---+---+---+
+| 1 | 2 | 3 |              | 7 | 8 | 9 |
++---+---+---+              +---+---+---+
+| 4 | 5 | 6 |              |10 |11 | - |
++---+---+---+              +---+---+---+
+"""]]
+
+- Undefined rows, Defined columns
+
+Example: Rows: undefined, Columns: 3, Total Pages: 11
+
+[[!format txt """
+View
++---+---+---+
+| 1 | 2 | 3 |
++---+---+---+
+| 4 | 5 | 6 |
++---+---+---+
+| 7 | 8 | 9 |
++---+---+---+
+|10 |11 | - |
++---+---+---+
+"""]]
+
+- Defined rows, Undefined columns
+
+Example: Rows: 2, Columns: undefined, Total Pages: 11
+
+[[!format txt """
+View
++---+---+---+---+---+---+
+| 1 | 2 | 3 | 4 | 5 | 6 |
++---+---+---+---+---+---+
+| 7 | 8 | 9 |10 |11 | - |
++---+---+---+---+---+---+
+"""]]
+
+
+This provides a generalisable approach to rectangular layout that can
+incorporate the idea of continuous pages and how many pages should be fit into
+the current view.
+
+### Alignment
+
+The grid approach offers two places where alignment can occur:
+
+  1. Within each cell of the grid: this is only important if the page size changes within the view.
+  2. With respect to the parent widget: this requires computing the size of the entire grid.
+
+### Algorithm
+
+[[!format txt """
+PageRange_start <- start of pages to render
+PageRange_end   <- end of pages to render
+
+G_r <- number of rows in grid
+G_d <- number of rows in grid
+
+if defined(G_r) and defined(G_d) then
+    # We need to split into views
+    NumOfPagesPerView <- G_r * G_d
+    NumberOfViews <- ceil( ( PageRange_end - PageRange_start + 1 ) / NumOfPagesPerView )
+    for k ∈ [0, NumberOfViews)
+        View[ k ] <- Grid( G,
+                            ( k * NumOfPagesPerView ) + PageRange_start,
+                            min( ( (k+1) * NumOfPagesPerView ) + PageRange_start - 1 , PageRange_end )
+                     )
+    end
+else
+    View <- Grid(G, PageRange_start, PageRange_end )
+end
+
+define Grid( Grid, P_start, P_end )
+Intercell_width <- length between columns
+Intercell_height <-  length between rows
+GridWidth <- ...
+
+end
+"""]]
+
+
+### Page sequence
+
+Finite / infinite
+
+### Page order
+
+### Transformations
+
+#### Global transformation
+
+#### Page transformation
+
+
 
 
 [[!uml src="
