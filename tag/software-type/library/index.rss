@@ -21,8 +21,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 10 Mar 2017 04:43:02 +0000</pubDate>
-	<dcterms:modified>2017-03-10T04:43:02Z</dcterms:modified>
+	<pubDate>Sat, 11 Mar 2017 02:03:15 +0000</pubDate>
+	<dcterms:modified>2017-03-11T02:03:15Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -93,89 +93,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Poppler</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Fri, 10 Mar 2017 04:43:02 +0000</pubDate>
-	<dcterms:modified>2017-03-10T04:43:02Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Poppler
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>PDF.js</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/pdf.js/</guid>
@@ -189,8 +106,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 10 Mar 2017 04:43:02 +0000</pubDate>
-	<dcterms:modified>2017-03-10T04:43:02Z</dcterms:modified>
+	<pubDate>Sat, 11 Mar 2017 02:03:15 +0000</pubDate>
+	<dcterms:modified>2017-03-11T02:03:15Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -291,7 +208,7 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Fri, 10 Mar 2017 04:43:02 +0000</pubDate>
+	<pubDate>Sat, 11 Mar 2017 02:03:15 +0000</pubDate>
 	<dcterms:modified>2017-04-16T19:44:28Z</dcterms:modified>
 
 
@@ -401,6 +318,89 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/rk700/PyMuPDF&quot;&gt;https://github.com/rk700/PyMuPDF&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Poppler</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/poppler/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Sat, 11 Mar 2017 02:03:15 +0000</pubDate>
+	<dcterms:modified>2017-03-11T02:03:15Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Poppler
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 </description>
 
 
