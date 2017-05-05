@@ -121,31 +121,30 @@ The grid approach offers two places where alignment can occur:
 ### Algorithm
 
 [[!format txt """
-PageRange_start <- start of pages to render
-PageRange_end   <- end of pages to render
+PageRange_start ← start of pages to render
+PageRange_end   ← end of pages to render
 
-G_r <- number of rows in grid
-G_d <- number of rows in grid
+G_r ← number of rows in grid
+G_d ← number of rows in grid
 
 if defined(G_r) and defined(G_d) then
     # We need to split into views
-    NumOfPagesPerView <- G_r * G_d
-    NumberOfViews <- ceil( ( PageRange_end - PageRange_start + 1 ) / NumOfPagesPerView )
+    NumOfPagesPerView ← G_r × G_d
+    NumberOfViews ← ceil( ( PageRange_end - PageRange_start + 1 ) ÷ NumOfPagesPerView )
     for k ∈ [0, NumberOfViews)
-        View[ k ] <- Grid( G,
+        View[ k ] ← Grid( G,
                             ( k * NumOfPagesPerView ) + PageRange_start,
-                            min( ( (k+1) * NumOfPagesPerView ) + PageRange_start - 1 , PageRange_end )
+                            min( ( (k + 1) × NumOfPagesPerView ) + PageRange_start - 1 , PageRange_end )
                      )
     end
 else
-    View <- Grid(G, PageRange_start, PageRange_end )
+    View ← Grid(G, PageRange_start, PageRange_end )
 end
 
 define Grid( Grid, P_start, P_end )
-Intercell_width <- length between columns
-Intercell_height <-  length between rows
-GridWidth <- ...
-
+    Intercell_width ← length between columns
+    Intercell_height ←  length between rows
+    GridWidth ← …
 end
 """]]
 
