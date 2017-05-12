@@ -17,7 +17,167 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-05-02T19:41:09Z</updated>
+<updated>2017-05-12T23:11:37Z</updated>
+<entry>
+	<title>Catching up with milestones</title>
+
+	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2017/05/13/catching-up-with-milestones/</id>
+
+	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2017/05/13/catching-up-with-milestones/"/>
+
+
+
+
+
+	<updated>2017-05-12T23:11:37Z</updated>
+	<published>2017-05-13T18:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;&lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000&quot;&gt;Meeting time&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;agenda&quot;&gt;Agenda&lt;/h1&gt;
+
+&lt;h2 id=&quot;curie&quot;&gt;Curie&lt;/h2&gt;
+
+&lt;h3 id=&quot;releasecuriev0.002&quot;&gt;Release Curie v0.002&lt;/h3&gt;
+
+&lt;p&gt;The release of &lt;a href=&quot;https://github.com/project-renard/curie/milestone/6&quot;&gt;Curie v0.002&lt;/a&gt; is coming up
+(&lt;a href=&quot;https://waffle.io/project-renard/roadmap?milestone=curie%20v0.002&quot;&gt;Waffle board&lt;/a&gt;,
+&lt;a href=&quot;https://waffle.io/project-renard/roadmap/metrics/burndown?milestone=curie%20v0.002&quot;&gt;Waffle burndown&lt;/a&gt;).
+The following is a summary of what needs to be done to finish up this release
+as a continuation of the &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/12/20/curie-v0.002-development-update/&quot;&gt;previous meeting log&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt;:
+The user should be able to drag-and drop files onto the Curie workspace in order to open them
+(&lt;a href=&quot;https://github.com/project-renard/curie/issues/19&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/19&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/19.svg&quot;/&gt;
+&lt;/a&gt;
+,
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/170&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/170&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/170.svg&quot;/&gt;
+&lt;/a&gt;
+).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Before release&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Summarise the changes to Curie made since v0.001_01: 
+&lt;ul&gt;
+&lt;li&gt;Commits &lt;a href=&quot;https://github.com/project-renard/curie/compare/v0.001_01...master&quot;&gt;v0.001_01..master&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After release&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Update &lt;a href=&quot;https://github.com/project-renard/homebrew-project-renard&quot;&gt;homebrew formula&lt;/a&gt; to Curie v0.002.&lt;/li&gt;
+&lt;li&gt;Update &lt;a href=&quot;https://github.com/project-renard/release&quot;&gt;release submodule&lt;/a&gt; to Curie v0.002.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;releasecuriev0.003&quot;&gt;Release Curie v0.003&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/project-renard/curie/milestone/2&quot;&gt;Curie v0.003&lt;/a&gt;
+milestone&#39;s tasks will be finished by Zaki since it requires a number of
+refactoring steps that need to be done in one go.&lt;/p&gt;
+
+&lt;h3 id=&quot;taskremaining&quot;&gt;Task remaining&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TODO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;releasecuriev0.004&quot;&gt;Release Curie v0.004&lt;/h3&gt;
+
+&lt;p&gt;The tasks of the &lt;a href=&quot;https://github.com/project-renard/curie/milestone/3&quot;&gt;Curie v0.004&lt;/a&gt;
+milestone will be completed in parallel with the Curie v0.003
+milestone.&lt;/p&gt;
+
+&lt;h3 id=&quot;taskremaining&quot;&gt;Task remaining&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TODO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mupdf&quot;&gt;MuPDF&lt;/h2&gt;
+
+&lt;h3 id=&quot;tasksdone&quot;&gt;Tasks done&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Alien::MuPDF has been switched over to using &lt;code&gt;alienfile&lt;/code&gt;:
+&lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/31&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/31.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/pull/34&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/pull/34&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/34.svg&quot;/&gt;
+&lt;/a&gt;
+.
+Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_02&quot;&gt;Alien::MuPDF v0.007_02&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
+&lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/32&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/32&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/32.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/pull/33&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/pull/33&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/33.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01&quot;&gt;Alien::MuPDF v0.007_01&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting &lt;code&gt;XCFLAGS=-fPIC&lt;/code&gt;.
+&lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/24&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/24&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/24.svg&quot;/&gt;
+&lt;/a&gt;
+, &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/pull/25&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/pull/25&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/25.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01&quot;&gt;Alien::MuPDF v0.007_01&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start of MuPDF bindings using Inline::C: &lt;a href=&quot;https://github.com/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;releaseengineering&quot;&gt;Release engineering&lt;/h2&gt;
+
+&lt;h3 id=&quot;tasksdone&quot;&gt;Tasks done&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
+See &lt;a href=&quot;https://github.com/project-renard/devops/commit/ff97e4bcd037e1c973ad098c85923a95ee686105&quot;&gt;commit&lt;/a&gt;
+and discussion at &lt;a href=&quot;https://github.com/pjcj/Devel--Cover/issues/164&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;pjcj/Devel--Cover/issues/164&quot; src=&quot;https://github-shields.com/github/pjcj/Devel--Cover/issues/164.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Custom theme should be included in the release: see notes at &lt;a href=&quot;https://github.com/project-renard/curie/issues/32&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/32&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/32.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Simplify the CI installation and release building by converting
+from shell-scripts to Perl.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Curie v0.002 development update</title>
 
@@ -31,7 +191,7 @@
 
 
 
-	<updated>2017-03-14T21:12:45Z</updated>
+	<updated>2017-03-15T15:37:13Z</updated>
 	<published>2016-12-20T23:57:59Z</published>
 
 
@@ -1595,7 +1755,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2017-03-14T21:12:45Z</updated>
+	<updated>2017-03-15T15:37:13Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 
@@ -1643,7 +1803,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2017-03-14T21:12:45Z</updated>
+	<updated>2017-03-15T15:37:13Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 
@@ -1669,146 +1829,6 @@ with PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/10&quot;&g
 found in other similar software that might be worth implementing.&lt;/p&gt;
 
 &lt;p&gt;This will be supplemented with screenshots and links to example code.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Roadmap planning session</title>
-
-	<id>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/</id>
-
-	<link href="http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/05/roadmap-planning-session/"/>
-
-
-
-
-
-	<updated>2017-03-14T21:12:45Z</updated>
-	<published>2016-02-05T18:09:21Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;From &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/01/30/using-glade-to-build-curie-gui/&quot;&gt;last time&lt;/a&gt;, we were going to
-look at the MuPDF API for the last remaining task. However, we should step back
-and take a look at where we are going before moving forward and why we are
-doing each thing.&lt;/p&gt;
-
-&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
-
-&lt;p&gt;First, we will look at UI functionality then move on to background processing
-that is necessary to support each of those.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;UI&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Display&lt;/li&gt;
-&lt;li&gt;Navigation&lt;/li&gt;
-&lt;li&gt;back, forward&lt;/li&gt;
-&lt;li&gt;jump to page&lt;/li&gt;
-&lt;li&gt;history list (what was the last page I was at)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/sketch-page-canvas-layout.jpg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-sketch-page-canvas-layout.jpg&quot; width=&quot;250&quot; height=&quot;188&quot; alt=&quot;Sketch of layout for drawing multiple pages on the canvas&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reading order: may be embedded in the PDF or might require
-extraction&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Metadata&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RDF database&lt;/li&gt;
-&lt;li&gt;Printing: cover page with metadata and QR code&lt;/li&gt;
-&lt;li&gt;Summary: automatic summarisation&lt;/li&gt;
-&lt;li&gt;Example old paper from 1965: &lt;a href=&quot;http://dx.doi.org/10.1109/TBME.1965.4502337&quot;&gt;A Semi-Automatic Computer-Microscope for the Analysis of Neuronal Morphology&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Note how the page layout was done manually&lt;/li&gt;
-&lt;li&gt;BibTeX &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX&quot;&gt;entry types table&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Binding example:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using Inline::C to bind to &lt;code&gt;libmatio&lt;/code&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB/InlineMatio.pm&quot;&gt;Getting the compiler flags&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/CBL-ORION/port-test/blob/master/lib/Data/MATLAB.pm&quot;&gt;Inline C code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;implementationwork&quot;&gt;Implementation work&lt;/h2&gt;
-
-&lt;p&gt;We continued work on the simple GUI by adding buttons to the Glade GUI for
-jumping to the first and last pages and moving forward and backwards
-one page at a time. See PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/6&quot;&gt;
-  &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/6&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/6.svg&quot;/&gt;
-&lt;/a&gt;
-.&lt;/p&gt;
-
-&lt;p&gt;To speed up development, we skipped creating a binding for now and
-just used the
-&lt;a href=&quot;http://mupdf.com/doc/browse/source/tools/mudraw.c&quot;&gt;&lt;code&gt;mudraw&lt;/code&gt;&lt;/a&gt;
-command to get the PDF page as a PNG image
-and &lt;a href=&quot;https://cgit.freedesktop.org/poppler/poppler/tree/utils/pdfinfo.cc&quot;&gt;&lt;code&gt;pdfinfo&lt;/code&gt;&lt;/a&gt;
-command to get the number of pages in the PDF. The following is the
-result.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/gfx/curie-simple-mudraw-pdf-render.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2016/02/05/roadmap-planning-session/250x-curie-simple-mudraw-pdf-render.png&quot; width=&quot;250&quot; height=&quot;220&quot; alt=&quot;curie GUI with a PDF page displayed (from the PDF reference manual) and buttons for navigation&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;furtherreading&quot;&gt;Further reading&lt;/h2&gt;
-
-&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
-
-&lt;p&gt;These two books discuss and compare how people use books both on paper
-and on screens. There are many ideas in them both.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Marshall, Catherine C. &lt;a href=&quot;http://www.morganclaypool.com/doi/abs/10.2200/S00215ED1V01Y200907ICR009&quot;&gt;&quot;Reading and writing the electronic
-book.&quot;&lt;/a&gt;
-Synthesis lectures on information concepts, retrieval, and services 1.1 (2009):
-1-185.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dillon, Andrew. Designing usable electronic text: Ergonomic aspects of human
-information usage. CRC Press, 2004.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reviewarticles&quot;&gt;Review articles&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Koolen, Corina, Ray Siemens, and Alex Garnett. &lt;a href=&quot;http://src-online.ca/index.php/src/article/view/71&quot;&gt;&quot;Electronic Environments for
-Reading: An Annotated Bibliography of Pertinent Hardware and Software (2011).&quot;&lt;/a&gt;
-Scholarly and Research Communication 3.4 (2012).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;researcharticles&quot;&gt;Research articles&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Hinckley, K., Bi, X., Pahud, M., Buxton, B. &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=2208327&quot;&gt;&quot;Informal information gathering
-techniques for active reading.&quot;&lt;/a&gt;
-Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
-ACM, 2012.&lt;/p&gt;
-
-&lt;p&gt;See this &lt;a href=&quot;https://kenhinckley.wordpress.com/2012/05/08/paper-informal-information-gathering-techniques-for-active-reading/&quot;&gt;video&lt;/a&gt; for a demo.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Willinsky, John, Alex Garnett, and Angela Pan Wong. &lt;a href=&quot;http://quod.lib.umich.edu/j/jep/3336451.0015.102?view=text;rgn=main&quot;&gt;&quot;Refurbishing the Camelot
-of Scholarship: How to Improve the Digital Contribution of the PDF Research
-Article.&quot;&lt;/a&gt; Journal of Electronic Publishing 15.1 (2012).&lt;/p&gt;
-
-&lt;p&gt;This one comes with a &lt;a href=&quot;https://pkp.sfu.ca/files/idealizedPDF.pdf&quot;&gt;demo PDF&lt;/a&gt;
-that demonstrates various aspects of what they would like to achieve
-which they compare with &lt;a href=&quot;http://www.italiavacance.eu/index.php/IJAR/article/download/95/102&quot;&gt;the article that they modified&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see, the authors opt to change the way PDFs are published, but
-clearly, we can&#39;t convince everyone to do that. So instead, we will need
-to be able to reformat documents our own way.&lt;/p&gt;
-
-&lt;p&gt;That will be the main contribution of Project Renard that nobody has
-done yet. I want to call it document resynthesis. I got the
-&quot;resynthesis&quot; name from a sound synthesis technique that takes existing
-sounds and takes the Fourier components and processes them in order to
-make new sounds.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 	</content>

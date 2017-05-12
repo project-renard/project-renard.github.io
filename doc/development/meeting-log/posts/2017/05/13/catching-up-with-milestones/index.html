@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Catching up with milestones</title>
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2017/05/13/catching-up-with-milestones.mdwn" />
+
+
+
+<meta name="description" content="Go over the plan for Curie v0.002, Curie
+v0.003, Curie v0.004, MuPDF, and release engineering" />
+<meta name="date" content="May 13 12:00:00 2017 -0600" />
+
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../../../2016/12/20/curie-v0.002-development-update/" title="Curie v0.002 development update" />
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2017</a>/ 
+
+<a href="../../">05</a>/ 
+
+<a href="../">13</a>/ 
+
+</span>
+<span class="title">
+Catching up with milestones
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2017/05/13/catching-up-with-milestones.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/posts/2017/05/13/catching-up-with-milestones.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../../../2016/12/20/curie-v0.002-development-update/">Curie v0.002 development update</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../../../user/">User</a></li>
+        <li><a href="../../../../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../../../">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../../../../survey/">Survey</a></li>
+        <li><a href="../../../../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p><a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000">Meeting time</a>.</p>
+
+<div class="toc">
+<ol>
+	<li class="L1"><a href="#index1h1">Agenda</a>
+	<ol>
+		<li class="L2"><a href="#index1h2">Curie</a>
+		<ol>
+			<li class="L3"><a href="#index1h3">Release Curie v0.002</a>
+			<ol>
+				<li class="L4"><a href="#index1h4">Tasks in progress</a>
+				</li>
+				<li class="L4"><a href="#index2h4">Tasks remaining</a>
+				</li>
+			</ol>
+			</li>
+			<li class="L3"><a href="#index2h3">Release Curie v0.003</a>
+			</li>
+			<li class="L3"><a href="#index3h3">Task remaining</a>
+			</li>
+			<li class="L3"><a href="#index4h3">Release Curie v0.004</a>
+			</li>
+			<li class="L3"><a href="#index5h3">Task remaining</a>
+			</li>
+		</ol>
+		</li>
+		<li class="L2"><a href="#index2h2">MuPDF</a>
+		<ol>
+			<li class="L3"><a href="#index6h3">Tasks done</a>
+			</li>
+			<li class="L3"><a href="#index7h3">Tasks in progress</a>
+			</li>
+		</ol>
+		</li>
+		<li class="L2"><a href="#index3h2">Release engineering</a>
+		<ol>
+			<li class="L3"><a href="#index8h3">Tasks done</a>
+			</li>
+			<li class="L3"><a href="#index9h3">Tasks remaining</a>
+			</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div>
+
+<h1 id="agenda"><a name="index1h1"></a>Agenda</h1>
+
+<h2 id="curie"><a name="index1h2"></a>Curie</h2>
+
+<h3 id="releasecuriev0.002"><a name="index1h3"></a>Release Curie v0.002</h3>
+
+<p>The release of <a href="https://github.com/project-renard/curie/milestone/6">Curie v0.002</a> is coming up
+(<a href="https://waffle.io/project-renard/roadmap?milestone=curie%20v0.002">Waffle board</a>,
+<a href="https://waffle.io/project-renard/roadmap/metrics/burndown?milestone=curie%20v0.002">Waffle burndown</a>).
+The following is a summary of what needs to be done to finish up this release
+as a continuation of the <a href="../../../../2016/12/20/curie-v0.002-development-update/">previous meeting log</a>.</p>
+
+<h4 id="tasksinprogress"><a name="index1h4"></a>Tasks in progress</h4>
+
+<ul>
+<li><strong>Feature</strong>:
+The user should be able to drag-and drop files onto the Curie workspace in order to open them
+(<a href="https://github.com/project-renard/curie/issues/19">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/19" src="https://github-shields.com/github/project-renard/curie/issues/19.svg"/>
+</a>
+,
+<a href="https://github.com/project-renard/curie/pull/170">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/170" src="https://github-shields.com/github/project-renard/curie/pull/170.svg"/>
+</a>
+).</li>
+</ul>
+
+<h4 id="tasksremaining"><a name="index2h4"></a>Tasks remaining</h4>
+
+<ul>
+<li><p>Before release</p>
+
+<ul>
+<li>Summarise the changes to Curie made since v0.001_01: 
+<ul>
+<li>Commits <a href="https://github.com/project-renard/curie/compare/v0.001_01...master">v0.001_01..master</a></li>
+</ul></li>
+</ul></li>
+<li><p>After release</p>
+
+<ul>
+<li>Update <a href="https://github.com/project-renard/homebrew-project-renard">homebrew formula</a> to Curie v0.002.</li>
+<li>Update <a href="https://github.com/project-renard/release">release submodule</a> to Curie v0.002.</li>
+</ul></li>
+</ul>
+
+<h3 id="releasecuriev0.003"><a name="index2h3"></a>Release Curie v0.003</h3>
+
+<p>The <a href="https://github.com/project-renard/curie/milestone/2">Curie v0.003</a>
+milestone's tasks will be finished by Zaki since it requires a number of
+refactoring steps that need to be done in one go.</p>
+
+<h3 id="taskremaining"><a name="index3h3"></a>Task remaining</h3>
+
+<ul>
+<li>TODO</li>
+</ul>
+
+<h3 id="releasecuriev0.004"><a name="index4h3"></a>Release Curie v0.004</h3>
+
+<p>The tasks of the <a href="https://github.com/project-renard/curie/milestone/3">Curie v0.004</a>
+milestone will be completed in parallel with the Curie v0.003
+milestone.</p>
+
+<h3 id="taskremaining"><a name="index5h3"></a>Task remaining</h3>
+
+<ul>
+<li>TODO</li>
+</ul>
+
+<h2 id="mupdf"><a name="index2h2"></a>MuPDF</h2>
+
+<h3 id="tasksdone"><a name="index6h3"></a>Tasks done</h3>
+
+<ul>
+<li><p>Alien::MuPDF has been switched over to using <code>alienfile</code>:
+<a href="https://github.com/project-renard/p5-Alien-MuPDF/issues/31">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/issues/31" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/31.svg"/>
+</a>
+, <a href="https://github.com/project-renard/p5-Alien-MuPDF/pull/34">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/pull/34" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/34.svg"/>
+</a>
+.
+Testing in <a href="https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_02">Alien::MuPDF v0.007_02</a>.</p></li>
+<li><p>Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
+<a href="https://github.com/project-renard/p5-Alien-MuPDF/issues/32">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/issues/32" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/32.svg"/>
+</a>
+, <a href="https://github.com/project-renard/p5-Alien-MuPDF/pull/33">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/pull/33" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/33.svg"/>
+</a></p>
+
+<p>Testing in <a href="https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01">Alien::MuPDF v0.007_01</a>.</p></li>
+<li><p>Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting <code>XCFLAGS=-fPIC</code>.
+<a href="https://github.com/project-renard/p5-Alien-MuPDF/issues/24">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/issues/24" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/24.svg"/>
+</a>
+, <a href="https://github.com/project-renard/p5-Alien-MuPDF/pull/25">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/pull/25" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/pull/25.svg"/>
+</a></p>
+
+<p>Testing in <a href="https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01">Alien::MuPDF v0.007_01</a>.</p></li>
+</ul>
+
+<h3 id="tasksinprogress"><a name="index7h3"></a>Tasks in progress</h3>
+
+<ul>
+<li>Start of MuPDF bindings using Inline::C: <a href="https://github.com/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2" src="https://github-shields.com/github/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2.svg"/>
+</a>
+.</li>
+</ul>
+
+<h2 id="releaseengineering"><a name="index3h2"></a>Release engineering</h2>
+
+<h3 id="tasksdone"><a name="index8h3"></a>Tasks done</h3>
+
+<ul>
+<li>Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
+See <a href="https://github.com/project-renard/devops/commit/ff97e4bcd037e1c973ad098c85923a95ee686105">commit</a>
+and discussion at <a href="https://github.com/pjcj/Devel--Cover/issues/164">
+<img class="github-shield" style="vertical-align: middle;" alt="pjcj/Devel--Cover/issues/164" src="https://github-shields.com/github/pjcj/Devel--Cover/issues/164.svg"/>
+</a>
+.</li>
+</ul>
+
+<h3 id="tasksremaining"><a name="index9h3"></a>Tasks remaining</h3>
+
+<ul>
+<li><p>Custom theme should be included in the release: see notes at <a href="https://github.com/project-renard/curie/issues/32">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/32" src="https://github-shields.com/github/project-renard/curie/issues/32.svg"/>
+</a>
+.</p></li>
+<li><p>Simplify the CI installation and release building by converting
+from shell-scripts to Perl.</p></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../../../2016/12/20/curie-v0.002-development-update/">Curie v0.002 development update</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Fri 12 May 2017 11:11:37 PM UTC</span>
+<!-- Created <span class="date">Sat 13 May 2017 06:00:00 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>
