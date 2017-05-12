@@ -1,0 +1,92 @@
+[[!meta title="Catching up with milestones"]]
+[[!meta description="Go over the plan for Curie v0.002, Curie
+v0.003, Curie v0.004, MuPDF, and release engineering"]]
+[[!meta date="May 13 12:00:00 2017 -0600"]]
+
+[[Meeting time|https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000]].
+
+[[!toc levels=4]]
+
+# Agenda
+
+## Curie
+
+### Release Curie v0.002
+
+The release of [[Curie v0.002|https://github.com/project-renard/curie/milestone/6]] is coming up
+([[Waffle board|https://waffle.io/project-renard/roadmap?milestone=curie%20v0.002]],
+[[Waffle burndown|https://waffle.io/project-renard/roadmap/metrics/burndown?milestone=curie%20v0.002]]).
+The following is a summary of what needs to be done to finish up this release
+as a continuation of the [[previous meeting log|2016/12/20/curie-v0.002-development-update]].
+
+#### Tasks in progress
+
+- **Feature**:
+  The user should be able to drag-and drop files onto the Curie workspace in order to open them
+  ([[!template id=github item="project-renard/curie/issues/19"]],
+  [[!template id=github item="project-renard/curie/pull/170"]]).
+
+#### Tasks remaining
+
+- Before release
+  - Summarise the changes to Curie made since v0.001_01: 
+     - Commits [[v0.001_01..master|https://github.com/project-renard/curie/compare/v0.001_01...master]]
+
+- After release
+  - Update [[homebrew formula|https://github.com/project-renard/homebrew-project-renard]] to Curie v0.002.
+  - Update [[release submodule|https://github.com/project-renard/release]] to Curie v0.002.
+
+### Release Curie v0.003
+
+The [[Curie v0.003|https://github.com/project-renard/curie/milestone/2]]
+milestone's tasks will be finished by Zaki since it requires a number of
+refactoring steps that need to be done in one go.
+
+### Task remaining
+
+- TODO
+
+### Release Curie v0.004
+
+The tasks of the [[Curie v0.004|https://github.com/project-renard/curie/milestone/3]]
+milestone will be completed in parallel with the Curie v0.003
+milestone.
+
+### Task remaining
+
+- TODO
+
+## MuPDF
+
+### Tasks done
+
+- Alien::MuPDF has been switched over to using `alienfile`:
+  [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/31"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/34"]].
+  Testing in [[Alien::MuPDF v0.007_02|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_02]].
+
+- Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
+  [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/32"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/33"]]
+  Testing in [[Alien::MuPDF v0.007_01|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01]].
+
+- Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting `XCFLAGS=-fPIC`.
+  [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/24"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/25"]]
+  Testing in [[Alien::MuPDF v0.007_01|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01]].
+
+### Tasks in progress
+
+- Start of MuPDF bindings using Inline::C: [[!template id=github item="project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2"]].
+
+## Release engineering
+
+### Tasks done
+
+- Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
+  See [[commit|https://github.com/project-renard/devops/commit/ff97e4bcd037e1c973ad098c85923a95ee686105]]
+  and discussion at [[!template id=github item="pjcj/Devel--Cover/issues/164"]].
+
+### Tasks remaining
+
+- Custom theme should be included in the release: see notes at [[!template id=github item="project-renard/curie/issues/32"]].
+
+- Simplify the CI installation and release building by converting
+  from shell-scripts to Perl.
