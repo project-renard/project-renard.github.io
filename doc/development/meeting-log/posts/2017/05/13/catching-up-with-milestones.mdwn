@@ -29,7 +29,7 @@ as a continuation of the [[previous meeting log|2016/12/20/curie-v0.002-developm
 #### Tasks remaining
 
 - Before release
-  - Summarise the changes to Curie made since v0.001_01: 
+  - Summarise the changes to Curie made since v0.001_01:
      - Commits [[v0.001_01..master|https://github.com/project-renard/curie/compare/v0.001_01...master]]
 
 - After release
@@ -42,9 +42,53 @@ The [[Curie v0.003|https://github.com/project-renard/curie/milestone/2]]
 milestone's tasks will be finished by Zaki since it requires a number of
 refactoring steps that need to be done in one go.
 
-### Task remaining
+#### Tasks in progress
 
-- TODO
+- **Refactoring** Add method to check for valid pages:
+  [[!template id=github item="project-renard/curie/issues/179"]],
+  [[!template id=github item="project-renard/curie/pull/195"]].
+  This simplifies the code for jumping to a page using the text
+  input.
+
+- **Bug** Zooming causes two calls to draw callback which makes the
+  page translate as the drawing area widget is resized:
+  [[!template id=github item="project-renard/curie/issues/197"]].
+  This will be fixed wit the refactoring of page views task since
+  it separates the page layout (and subsequent widget resizing)
+  from the drawing of the pages to the drawing area.
+
+- **Feature** Add opened documents to the Gtk3::RecentManager:
+  [[!template id=github item="project-renard/curie/issues/192"]],
+  [[!template id=github item="project-renard/curie/pull/193"]].
+  Whenever a file is opened, it needs to be added to the recent
+  manager so that a log is kept of when it was last opened.
+
+- **Refactoring** Refactor the page views:
+  [[!template id=github item="project-renard/curie/issues/150"]],
+  [[!template id=github item="project-renard/curie/pull/194"]].
+  Some discussion of the design is available at
+  [[interaction|doc/design/interaction]].
+
+#### Tasks remaining
+
+- **Feature** Handle exceptions in the Glib main loop:
+  [[!template id=github item="project-renard/curie/issues/180"]].
+  Instead of skipping the exceptions that are thrown, they need to
+  be displayed to the user. The first attempt at this could be by
+  using a popup message box.
+
+- **Feature** Dual page display:
+  [[!template id=github item="project-renard/curie/issues/94"]].
+  This displays two pages side-by-side. Once the refactoring part
+  is done, this will be simple to implement. The main change will
+  be setting up the option in the menu-bar.
+
+- **Refactoring** Split out PDF data model to separate package:
+  [[!template id=github item="project-renard/curie/issues/26"]].
+  This is more of a release engineering task since it will require
+  pulling modules from multiple repositories. The proposal on how
+  to do this will be described in that section.
+
 
 ### Release Curie v0.004
 
@@ -52,35 +96,67 @@ The tasks of the [[Curie v0.004|https://github.com/project-renard/curie/mileston
 milestone will be completed in parallel with the Curie v0.003
 milestone.
 
-### Task remaining
+#### Tasks remaining
 
-- TODO
+- GUI shell changes
+    - **Feature** Presentation mode
+      [[!template id=github item="project-renard/curie/issues/36"]].
+    - **Feature** macOS: Ensure that the application menu is at the top bar
+      [[!template id=github item="project-renard/curie/issues/159"]].
+    - Gather feedback on GUI [[!template id=github item="project-renard/curie/issues/123"]].
+
+- PDF metadata
+    - **Feature** Add a widget/dialog to show PDF metadata
+      [[!template id=github item="project-renard/curie/issues/12"]].
+      A quick-and-dirty approach is to run
+      ```
+      mutool show $PDF $(mutool show $PDF grep | grep Author | cut -d: -f2)
+      ```
+      and we might also want to replicate all the info in `pdfinfo $PDF`.
+- PDF text data
+  - **Feature** Display text data of PDF as plain text [[!template id=github item="project-renard/curie/issues/17"]].
+    This can be accomplised by using `mutool draw -F text`.
+  - **Feature**  Use ParsCit on the plain text:
+    [[!template id=github item="project-renard/curie/issues/76"]].
+    This will require creating [[`Alien::ParsCit`|https://github.com/project-renard/p5-Alien-ParsCit]] to install the
+    ParsCit tool.
+- PDF HTML data
+  - PDF hyperlinks [[!template id=github item="project-renard/curie/issues/79"]].
+    An example of how to do this is to run the file
+    [[page-links.js|gfx/page-links.js]] using `mutool run`.
+    To get the correct ouput requires [[this patch|https://bugs.ghostscript.com/show_bug.cgi?id=697898]].
+  - Display text data of PDF as HTML [[!template id=github item="project-renard/curie/issues/18"]].
+    This can be accomplised by using `mutool draw -F html`.
+
+- Tasks that require Curie v0.003 milestone completion
+  - **Feature** Rotate page: [[!template id=github item="project-renard/curie/issues/16"]]
+  - **Feature** Outline should handle PDF page coordinates: [[!template id=github item="project-renard/curie/issues/149"]]
 
 ## MuPDF
 
 ### Tasks done
 
-- Alien::MuPDF has been switched over to using `alienfile`:
+- **Refactoring** Alien::MuPDF has been switched over to using `alienfile`:
   [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/31"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/34"]].
   Testing in [[Alien::MuPDF v0.007_02|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_02]].
 
-- Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
+- **Bug** Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
   [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/32"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/33"]]
   Testing in [[Alien::MuPDF v0.007_01|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01]].
 
-- Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting `XCFLAGS=-fPIC`.
+- **Feature** Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting `XCFLAGS=-fPIC`.
   [[!template id=github item="project-renard/p5-Alien-MuPDF/issues/24"]], [[!template id=github item="project-renard/p5-Alien-MuPDF/pull/25"]]
   Testing in [[Alien::MuPDF v0.007_01|https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01]].
 
 ### Tasks in progress
 
-- Start of MuPDF bindings using Inline::C: [[!template id=github item="project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2"]].
+- **Feature** Start of MuPDF bindings using Inline::C: [[!template id=github item="project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2"]].
 
 ## Release engineering
 
 ### Tasks done
 
-- Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
+- **Bug** Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
   See [[commit|https://github.com/project-renard/devops/commit/ff97e4bcd037e1c973ad098c85923a95ee686105]]
   and discussion at [[!template id=github item="pjcj/Devel--Cover/issues/164"]].
 
@@ -89,4 +165,5 @@ milestone.
 - Custom theme should be included in the release: see notes at [[!template id=github item="project-renard/curie/issues/32"]].
 
 - Simplify the CI installation and release building by converting
-  from shell-scripts to Perl.
+  from shell-scripts to Perl. A proposal on how this should be
+  organised will come later.
