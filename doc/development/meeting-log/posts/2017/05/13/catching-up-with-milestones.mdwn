@@ -107,7 +107,7 @@ milestone.
 
 - PDF metadata
     - **Feature** Add a widget/dialog to show PDF metadata
-      [[!template id=github item="project-renard/curie/issues/12"]].
+      [[!template id=github item="project-renard/curie/issues/13"]].
       A quick-and-dirty approach is to run
       ```
       mutool show $PDF $(mutool show $PDF grep | grep Author | cut -d: -f2)
