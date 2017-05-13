@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-05-12T23:11:37Z</updated>
+<updated>2017-05-13T03:41:17Z</updated>
 <entry>
 	<title>Catching up with milestones</title>
 
@@ -29,7 +29,7 @@
 
 
 
-	<updated>2017-05-12T23:11:37Z</updated>
+	<updated>2017-05-13T03:41:17Z</updated>
 	<published>2017-05-13T18:00:00Z</published>
 
 
@@ -69,7 +69,7 @@ The user should be able to drag-and drop files onto the Curie workspace in order
 &lt;li&gt;&lt;p&gt;Before release&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Summarise the changes to Curie made since v0.001_01: 
+&lt;li&gt;Summarise the changes to Curie made since v0.001_01:
 &lt;ul&gt;
 &lt;li&gt;Commits &lt;a href=&quot;https://github.com/project-renard/curie/compare/v0.001_01...master&quot;&gt;v0.001_01..master&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -88,10 +88,80 @@ The user should be able to drag-and drop files onto the Curie workspace in order
 milestone&#39;s tasks will be finished by Zaki since it requires a number of
 refactoring steps that need to be done in one go.&lt;/p&gt;
 
-&lt;h3 id=&quot;taskremaining&quot;&gt;Task remaining&lt;/h3&gt;
+&lt;h4 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;TODO&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Refactoring&lt;/strong&gt; Add method to check for valid pages:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/179&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/179&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/179.svg&quot;/&gt;
+&lt;/a&gt;
+,
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/195&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/195&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/195.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This simplifies the code for jumping to a page using the text
+input.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Bug&lt;/strong&gt; Zooming causes two calls to draw callback which makes the
+page translate as the drawing area widget is resized:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/197&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/197&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/197.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This will be fixed wit the refactoring of page views task since
+it separates the page layout (and subsequent widget resizing)
+from the drawing of the pages to the drawing area.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Add opened documents to the Gtk3::RecentManager:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/192&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/192&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/192.svg&quot;/&gt;
+&lt;/a&gt;
+,
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/193&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/193&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/193.svg&quot;/&gt;
+&lt;/a&gt;
+.
+Whenever a file is opened, it needs to be added to the recent
+manager so that a log is kept of when it was last opened.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Refactoring&lt;/strong&gt; Refactor the page views:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/150&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/150&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/150.svg&quot;/&gt;
+&lt;/a&gt;
+,
+&lt;a href=&quot;https://github.com/project-renard/curie/pull/194&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/194&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/194.svg&quot;/&gt;
+&lt;/a&gt;
+.
+Some discussion of the design is available at
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../../design/interaction/&quot;&gt;interaction&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Handle exceptions in the Glib main loop:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/180&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/180&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/180.svg&quot;/&gt;
+&lt;/a&gt;
+.
+Instead of skipping the exceptions that are thrown, they need to
+be displayed to the user. The first attempt at this could be by
+using a popup message box.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Dual page display:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/94&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/94&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/94.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This displays two pages side-by-side. Once the refactoring part
+is done, this will be simple to implement. The main change will
+be setting up the option in the menu-bar.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Refactoring&lt;/strong&gt; Split out PDF data model to separate package:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/26&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/26&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/26.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This is more of a release engineering task since it will require
+pulling modules from multiple repositories. The proposal on how
+to do this will be described in that section.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;releasecuriev0.004&quot;&gt;Release Curie v0.004&lt;/h3&gt;
@@ -100,10 +170,82 @@ refactoring steps that need to be done in one go.&lt;/p&gt;
 milestone will be completed in parallel with the Curie v0.003
 milestone.&lt;/p&gt;
 
-&lt;h3 id=&quot;taskremaining&quot;&gt;Task remaining&lt;/h3&gt;
+&lt;h4 id=&quot;tasksremaining&quot;&gt;Tasks remaining&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;TODO&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GUI shell changes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt; Presentation mode
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/36&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/36&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/36.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt; macOS: Ensure that the application menu is at the top bar
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/159&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/159&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/159.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Gather feedback on GUI &lt;a href=&quot;https://github.com/project-renard/curie/issues/123&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/123&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/123.svg&quot;/&gt;
+&lt;/a&gt;
+.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PDF metadata&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt; Add a widget/dialog to show PDF metadata
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/12&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/12&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/12.svg&quot;/&gt;
+&lt;/a&gt;
+.
+A quick-and-dirty approach is to run
+&lt;code&gt;
+mutool show &amp;#036;PDF &amp;#036;(mutool show &amp;#036;PDF grep | grep Author | cut -d: -f2)
+&lt;/code&gt;
+and we might also want to replicate all the info in &lt;code&gt;pdfinfo &amp;#036;PDF&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PDF text data
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt; Display text data of PDF as plain text &lt;a href=&quot;https://github.com/project-renard/curie/issues/17&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/17&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/17.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This can be accomplised by using &lt;code&gt;mutool draw -F text&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt;  Use ParsCit on the plain text:
+&lt;a href=&quot;https://github.com/project-renard/curie/issues/76&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/76&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/76.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This will require creating &lt;a href=&quot;https://github.com/project-renard/p5-Alien-ParsCit&quot;&gt;&lt;code&gt;Alien::ParsCit&lt;/code&gt;&lt;/a&gt; to install the
+ParsCit tool.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PDF HTML data&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PDF hyperlinks &lt;a href=&quot;https://github.com/project-renard/curie/issues/79&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/79&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/79.svg&quot;/&gt;
+&lt;/a&gt;
+.
+An example of how to do this is to run the file
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/./posts/2017/05/13/gfx/page-links.js&quot;&gt;page-links.js&lt;/a&gt; using &lt;code&gt;mutool run&lt;/code&gt;.
+To get the correct ouput requires &lt;a href=&quot;https://bugs.ghostscript.com/show_bug.cgi?id=697898&quot;&gt;this patch&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Display text data of PDF as HTML &lt;a href=&quot;https://github.com/project-renard/curie/issues/18&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/18&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/18.svg&quot;/&gt;
+&lt;/a&gt;
+.
+This can be accomplised by using &lt;code&gt;mutool draw -F html&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tasks that require Curie v0.003 milestone completion&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Rotate page: &lt;a href=&quot;https://github.com/project-renard/curie/issues/16&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/16&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/16.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Outline should handle PDF page coordinates: &lt;a href=&quot;https://github.com/project-renard/curie/issues/149&quot;&gt;
+&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/149&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/149.svg&quot;/&gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;mupdf&quot;&gt;MuPDF&lt;/h2&gt;
@@ -111,7 +253,7 @@ milestone.&lt;/p&gt;
 &lt;h3 id=&quot;tasksdone&quot;&gt;Tasks done&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Alien::MuPDF has been switched over to using &lt;code&gt;alienfile&lt;/code&gt;:
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Refactoring&lt;/strong&gt; Alien::MuPDF has been switched over to using &lt;code&gt;alienfile&lt;/code&gt;:
 &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/31&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/31&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/31.svg&quot;/&gt;
 &lt;/a&gt;
@@ -120,7 +262,7 @@ milestone.&lt;/p&gt;
 &lt;/a&gt;
 .
 Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_02&quot;&gt;Alien::MuPDF v0.007_02&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Bug&lt;/strong&gt; Alien::MuPDF FreeBSD specific patch is removed since mupdf-1.11 removed the effected file:
 &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/32&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/32&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/32.svg&quot;/&gt;
 &lt;/a&gt;
@@ -129,7 +271,7 @@ Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.0
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.007_01&quot;&gt;Alien::MuPDF v0.007_01&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting &lt;code&gt;XCFLAGS=-fPIC&lt;/code&gt;.
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Feature&lt;/strong&gt; Compile MuPDF so that it can be linked into a shared library (e.g., with XS) by setting &lt;code&gt;XCFLAGS=-fPIC&lt;/code&gt;.
 &lt;a href=&quot;https://github.com/project-renard/p5-Alien-MuPDF/issues/24&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Alien-MuPDF/issues/24&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/24.svg&quot;/&gt;
 &lt;/a&gt;
@@ -143,7 +285,7 @@ Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.0
 &lt;h3 id=&quot;tasksinprogress&quot;&gt;Tasks in progress&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Start of MuPDF bindings using Inline::C: &lt;a href=&quot;https://github.com/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Feature&lt;/strong&gt; Start of MuPDF bindings using Inline::C: &lt;a href=&quot;https://github.com/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2&quot; src=&quot;https://github-shields.com/github/project-renard/p5-Renard-Incunabula-MuPDF-Inline/pull/2.svg&quot;/&gt;
 &lt;/a&gt;
 .&lt;/li&gt;
@@ -154,7 +296,7 @@ Testing in &lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Alien-MuPDF-0.0
 &lt;h3 id=&quot;tasksdone&quot;&gt;Tasks done&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
+&lt;li&gt;&lt;strong&gt;Bug&lt;/strong&gt; Fix issue with Devel::Cover and Type::Tiny by switching the constant deparsing that Devel::Cover uses to B::Deparse.
 See &lt;a href=&quot;https://github.com/project-renard/devops/commit/ff97e4bcd037e1c973ad098c85923a95ee686105&quot;&gt;commit&lt;/a&gt;
 and discussion at &lt;a href=&quot;https://github.com/pjcj/Devel--Cover/issues/164&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;pjcj/Devel--Cover/issues/164&quot; src=&quot;https://github-shields.com/github/pjcj/Devel--Cover/issues/164.svg&quot;/&gt;
@@ -170,7 +312,8 @@ and discussion at &lt;a href=&quot;https://github.com/pjcj/Devel--Cover/issues/1
 &lt;/a&gt;
 .&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Simplify the CI installation and release building by converting
-from shell-scripts to Perl.&lt;/p&gt;&lt;/li&gt;
+from shell-scripts to Perl. A proposal on how this should be
+organised will come later.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 	</content>
@@ -191,7 +334,7 @@ from shell-scripts to Perl.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2017-03-19T22:52:03Z</updated>
+	<updated>2017-03-20T04:54:56Z</updated>
 	<published>2016-12-20T23:57:59Z</published>
 
 
@@ -1755,7 +1898,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2017-03-19T22:52:03Z</updated>
+	<updated>2017-03-20T04:54:56Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 
@@ -1803,7 +1946,7 @@ which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/i
 
 
 
-	<updated>2017-03-19T22:52:03Z</updated>
+	<updated>2017-03-20T04:54:56Z</updated>
 	<published>2016-02-14T03:30:07Z</published>
 
 
