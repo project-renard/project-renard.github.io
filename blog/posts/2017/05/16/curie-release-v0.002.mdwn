@@ -1,0 +1,30 @@
+[[!meta title="Curie release v0.002"]]
+[[!meta author="zaki"]]
+[[!meta description="Curie: now with drag-and-drop and scrollwheel zooming."]]
+[[!meta link="/blog/posts/2017/05/16/gfx/curie-v0.002-dnd.png" rel="image_src"]]
+
+[[!img gfx/curie-v0.002-dnd.png caption="""Curie GUI displaying an excerpt from [[mTOR and rapamycin in the kidney: signaling and therapeutic implications beyond immunosuppression|hhttps://doi.org/10.1038/ki.2010.457]]"""
+size="400x"
+]]
+
+The second pre-alpha release of Curie is now available. It
+features the following user-visible improvements:
+
+- Zooming using the scrollwheel (Ctrl + Scroll Up to zoom in and
+  Ctrl + Scroll Down to zoom out).
+- Drag-and-drop of file on to the page area opens the file.
+
+There have also been some improvements to the installation
+particularly on macOS. There is now a working
+[homebrew tap for installing
+curie](https://github.com/project-renard/homebrew-project-renard)
+that installs Curie along with its native dependencies.
+
+Watch the video below for a demo:
+
+<iframe src="https://player.vimeo.com/video/217678413" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/217678413">Project Renard Curie v0.002 release demo</a> from <a href="https://vimeo.com/zmughal">Zaki Mughal</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+[[MetaCPAN|https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.002]]
+
+[[!tag release]]
