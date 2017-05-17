@@ -1,6 +1,6 @@
 [[!meta title="Interaction"]]
 
-[[!toc]]
+[[!toc levels=3]]
 
 # Views
 
@@ -21,16 +21,16 @@
 View is made up of a grid. A grid has rows and columns.
 
 [[!format txt """
-+---+---+---+
-|   |   |   |  row 1
-+---+---+---+
-|   |   |   |  row 2
-+---+---+---+
-  c   c   c 
-  o   o   o 
-  l   l   l 
-            
-  1   2   3 
+ +---+---+---+
+ |   |   |   |  row 1
+ +---+---+---+
+ |   |   |   |  row 2
+ +---+---+---+
+   c   c   c 
+   o   o   o 
+   l   l   l 
+             
+   1   2   3 
 """]]
 
 
@@ -41,21 +41,21 @@ These rows and columns can be filled in certain ways:
 - left-to-right-then-left-to-right
 
 [[!format txt """
-+---+---+---+
-| 1 | 2 | 3 |
-+---+---+---+
-| 4 | 5 | 6 |
-+---+---+---+
+ +---+---+---+
+ | 1 | 2 | 3 |
+ +---+---+---+
+ | 4 | 5 | 6 |
+ +---+---+---+
 """]]
 
 - right-to-left-then-right-to-left
 
 [[!format txt """
-+---+---+---+
-| 3 | 2 | 1 |
-+---+---+---+
-| 6 | 5 | 4 |
-+---+---+---+
+ +---+---+---+
+ | 3 | 2 | 1 |
+ +---+---+---+
+ | 6 | 5 | 4 |
+ +---+---+---+
 """]]
 
 ### Layout
@@ -68,12 +68,12 @@ will be used for layout. This can be in the form of
 Example: Rows: 2, Columns: 3, Total Pages: 11
 
 [[!format txt """
-View 1                     View 2
-+---+---+---+              +---+---+---+
-| 1 | 2 | 3 |              | 7 | 8 | 9 |
-+---+---+---+              +---+---+---+
-| 4 | 5 | 6 |              |10 |11 | - |
-+---+---+---+              +---+---+---+
+ View 1                     View 2
+ +---+---+---+              +---+---+---+
+ | 1 | 2 | 3 |              | 7 | 8 | 9 |
+ +---+---+---+              +---+---+---+
+ | 4 | 5 | 6 |              |10 |11 | - |
+ +---+---+---+              +---+---+---+
 """]]
 
 - Undefined rows, Defined columns
@@ -82,15 +82,15 @@ Example: Rows: undefined, Columns: 3, Total Pages: 11
 
 [[!format txt """
 View
-+---+---+---+
-| 1 | 2 | 3 |
-+---+---+---+
-| 4 | 5 | 6 |
-+---+---+---+
-| 7 | 8 | 9 |
-+---+---+---+
-|10 |11 | - |
-+---+---+---+
+ +---+---+---+
+ | 1 | 2 | 3 |
+ +---+---+---+
+ | 4 | 5 | 6 |
+ +---+---+---+
+ | 7 | 8 | 9 |
+ +---+---+---+
+ |10 |11 | - |
+ +---+---+---+
 """]]
 
 - Defined rows, Undefined columns
@@ -99,11 +99,11 @@ Example: Rows: 2, Columns: undefined, Total Pages: 11
 
 [[!format txt """
 View
-+---+---+---+---+---+---+
-| 1 | 2 | 3 | 4 | 5 | 6 |
-+---+---+---+---+---+---+
-| 7 | 8 | 9 |10 |11 | - |
-+---+---+---+---+---+---+
+ +---+---+---+---+---+---+
+ | 1 | 2 | 3 | 4 | 5 | 6 |
+ +---+---+---+---+---+---+
+ | 7 | 8 | 9 |10 |11 | - |
+ +---+---+---+---+---+---+
 """]]
 
 
@@ -130,7 +130,7 @@ G_d ← number of rows in grid
 if defined(G_r) and defined(G_d) then
     # We need to split into views
     NumOfPagesPerView ← G_r × G_d
-    NumberOfViews ← ceil( ( PageRange_end - PageRange_start + 1 ) ÷ NumOfPagesPerView )
+    NumberOfViews ← ceil( ( PageRange_end - PageRange_start + 1 ) / NumOfPagesPerView )
     for k ∈ [0, NumberOfViews)
         View[ k ] ← Grid( G,
                             ( k * NumOfPagesPerView ) + PageRange_start,
@@ -164,11 +164,32 @@ Finite / infinite
 
 
 
-[[!uml src="
-  Alice -> Bob: Authentication Request
-  Bob --> Alice: Authentication Respons
+[[!uml src="""
+Document *-- "many" Page: contains
 
-  Alice -> Bob: Another authentication Request
-  Alice <-- Bob: another authentication Response
+View *-- "1" Layout
 
-"]]
+class Layout {
+    PositiveInt number_of_items;
+
+    GlobalBoundingBox nth_bounding_box( PositiveInt item_num );
+}
+class Grid extends Layout {
+    Maybe[PositiveInt] rows;
+    Maybe[PositiveInt] columns;
+}
+
+class Document {
+    Page get_page();
+}
+
+class Page {
+    Transformation @transformations;
+
+}
+
+class View {
+    Transformation @transformations;
+    Layout layout;
+}
+"""]]
