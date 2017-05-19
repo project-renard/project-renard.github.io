@@ -2,6 +2,74 @@
 
 [[!toc levels=3]]
 
+# Rendering
+
+[[!uml src="""
+Document *-- "many" Page: contains
+
+View *-- "1" Layout
+
+class Document {
+    Page get_page();
+}
+
+class View {
+    Transformation @transformations;
+    Layout layout;
+    PageRenderer renderer;
+}
+
+class PageRenderer {
+    render( Page p, Transformation t ) {
+
+    }
+}
+"""]]
+
+[[!uml src="""
+control "GUI" as GUIComp << Widget >>
+control "Page Drawing\nComponent" as PDComp << Widget >>
+
+entity "View" as VM << Model >>
+entity "Document" as DM << Model >>
+entity "Transformation" as TM << Model >>
+
+== Initialisation ==
+
+GUIComp -> PDComp : init
+
+create VM
+PDComp -> VM : set-view
+
+create DM
+VM -> DM: open-document
+create TM
+VM -> TM: set-transformation
+
+== Calculate view ==
+
+GUIComp -> PDComp : configure-event
+
+PDComp -> VM : view-changed
+|||
+VM -> DM : get-bounding-boxes
+VM <- DM : bounding-box-results
+|||
+VM -> TM : apply-transformation
+TM -> VM : transformation-results
+|||
+VM -> PDComp : set-size-request
+
+== Draw page ==
+
+GUIComp -> PDComp : queue-redraw
+
+PDComp -> VM : get-view-actors
+
+VM -> DM : get-pages
+
+"""]]
+
 # Views
 
 ## Definitions
