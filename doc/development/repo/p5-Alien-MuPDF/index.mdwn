@@ -1,0 +1,3 @@
+`Alien::MuPDF` requires the Debian package `libssl1.0-dev` to build.
+This is because it is not yet (as of mupdf 1.10a) compatible with the
+OpenSSL v1.1 API (still needs v1.0 API).
