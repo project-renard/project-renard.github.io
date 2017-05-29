@@ -1,0 +1,15 @@
+[[!toc]]
+
+# Vagrant
+
+TODO
+
+# Docker
+
+TODO
+
+# `scripts/helper.pl`
+
+A script that is used to build and test projects on multiple environments
+including CI environments such as Travis CI and AppVeyor and OS environments
+such as Debian GNU/Linux (apt), macOS (Homebrew), and Windows (MSYS2).
