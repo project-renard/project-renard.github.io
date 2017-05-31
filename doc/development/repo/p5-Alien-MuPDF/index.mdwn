@@ -2,6 +2,7 @@ repo: project-renard/p5-Alien-MuPDF
 cpan: Alien-MuPDF
 type: alien
 ---
+[[!ftemplate id=repo]]
 
 `Alien::MuPDF` requires the Debian package `libssl1.0-dev` to build.
 This is because it is not yet (as of mupdf 1.10a) compatible with the
