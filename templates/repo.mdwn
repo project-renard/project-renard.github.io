@@ -1,0 +1,13 @@
+<div class="sidebar">
+
+<table>
+<TMPL_IF NAME="repo">
+<tr>
+    <td>
+[[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
+    </td>
+</tr>
+</TMPL_IF>
+</table>
+
+</div>
