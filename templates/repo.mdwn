@@ -8,6 +8,13 @@
     </td>
 </tr>
 </TMPL_IF>
+<TMPL_IF NAME="cpan">
+<tr>
+    <td>
+<a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
+    </td>
+</tr>
+</TMPL_IF>
 </table>
 
 </div>
