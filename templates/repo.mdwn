@@ -4,7 +4,7 @@
 <TMPL_IF NAME="repo">
 <tr>
     <td>
-[[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
+<b>Repo</b>: [[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
     </td>
 </tr>
 </TMPL_IF>
