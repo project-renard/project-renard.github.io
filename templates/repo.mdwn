@@ -15,6 +15,13 @@
     </td>
 </tr>
 </TMPL_IF>
+<TMPL_IF NAME="type">
+<tr>
+    <td>
+<b>Type</b>: <TMPL_VAR NAME="type">
+    </td>
+</tr>
+</TMPL_IF>
 </table>
 
 </div>
