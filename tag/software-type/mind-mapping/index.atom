@@ -100,11 +100,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>ThinkMap</title>
+	<title>TheBrain</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/thinkmap/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/thinkmap/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
 
 
 
@@ -114,8 +114,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -127,7 +127,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            ThinkMap
+            TheBrain
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -138,7 +138,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -169,6 +169,12 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 
 
@@ -195,8 +201,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -285,6 +291,81 @@ Runs: unknown
 
 </entry>
 <entry>
+	<title>Coggle</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/coggle/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/coggle/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Coggle
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>FreeMind</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/freemind/</id>
@@ -299,8 +380,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -401,8 +482,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -468,11 +549,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Coggle</title>
+	<title>ThinkMap</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/coggle/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/thinkmap/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/coggle/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/thinkmap/"/>
 
 
 
@@ -482,8 +563,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -495,82 +576,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Coggle
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>TheBrain</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
-
-
-
-
-
-
-	<category term="software-type/mind-mapping" />
-
-
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            TheBrain
+            ThinkMap
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -581,7 +587,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -611,12 +617,6 @@ Runs: unknown
 
 
 
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -646,8 +646,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-04-27T00:14:55Z</updated>
-	<published>2017-04-27T00:14:55Z</published>
+	<updated>2017-04-28T13:41:03Z</updated>
+	<published>2017-04-28T13:41:03Z</published>
 
 
 	<content type="html" xml:lang="en">
