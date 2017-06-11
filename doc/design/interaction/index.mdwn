@@ -5,28 +5,6 @@
 # Rendering
 
 [[!uml src="""
-Document *-- "many" Page: contains
-
-View *-- "1" Layout
-
-class Document {
-    Page get_page();
-}
-
-class View {
-    Transformation @transformations;
-    Layout layout;
-    PageRenderer renderer;
-}
-
-class PageRenderer {
-    render( Page p, Transformation t ) {
-
-    }
-}
-"""]]
-
-[[!uml src="""
 control "GUI" as GUIComp << Widget >>
 control "Page Drawing\nComponent" as PDComp << Widget >>
 
@@ -259,5 +237,10 @@ class Page {
 class View {
     Transformation @transformations;
     Layout layout;
+    PageRenderer renderer;
+}
+
+class PageRenderer {
+    CairoSurface render_cairo_surface( Page p, Transformation t );
 }
 """]]
