@@ -56,6 +56,7 @@ add_plugins:
 - tex4ht
 - taskjuggler
 - plantuml
+- graphviz
 # plugins to disable
 disable_plugins: [ htmlscrubber ]
 # additional directory to search for template files
