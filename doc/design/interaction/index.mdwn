@@ -4,6 +4,42 @@
 
 # View options
 
+Single page example:
+
+[[!graph src="""
+VC [label = "View Collection" ]
+
+G0 [label = "Grid[r=1, c=1]" ]
+G1 [label = "Grid[r=1, c=1]" ]
+G2 [label = "Grid[r=1, c=1]" ]
+
+rankdir = LR;
+{
+{
+VC -> G0 [label = "[0]" ];
+VC -> G1 [label = "[1]" ];
+VC -> G2 [label = "[2]" ];
+}
+
+{
+G0 -> P0 [label = "renders"];
+G1 -> P1 [label = "renders"];
+G2 -> P2 [label = "renders"];
+}
+}
+
+P0 [label = "Page[0]" ]
+P1 [label = "Page[1]" ]
+P2 [label = "Page[2]" ]
+
+P0 -> D0 [dir = back, label = "[0]"];
+P1 -> D0 [dir = back, label = "[1]"];
+P2 -> D0 [dir = back, label = "[2]"];
+
+D0 [label = "Document" ]
+
+"""]]
+
 [[!uml src="""
 
 package View::HighLevel {
