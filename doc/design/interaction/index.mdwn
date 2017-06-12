@@ -2,6 +2,41 @@
 
 [[!toc levels=3]]
 
+# View options
+
+[[!uml src="""
+
+package View::HighLevel {
+    ViewOptions *-- "1" GridOptions: contains
+    ViewOptions *-- "1" ZoomOptions: contains
+    ViewOptions *-- "1" OffsetOptions: contains
+    ZoomOptions *-- "1" ZoomType: contains
+}
+
+class ViewOptions {
+    Document d;
+    GridOptions g;
+    ZoomOptions z;
+    OffsetOptions o;
+}
+
+class ZoomOptions {
+    ZoomType z;
+    -Float _zoom_percentage;
+}
+
+enum ZoomType {
+    PERCENTAGE;
+    FIT_WIDTH;
+    FIT_HEIGHT;
+}
+
+class GridOptions {
+    Maybe[PositiveInt] rows;
+    Maybe[PositiveInt] columns;
+}
+"""]]
+
 # Rendering
 
 [[!uml src="""
