@@ -135,27 +135,33 @@ Interaction
 			</li>
 			<li class="L3"><a href="#index1h1">View options</a>
 			</li>
+			<li class="L3"><a href="#index1h2">Examples of supported layouts</a>
+			</li>
+			<li class="L3"><a href="#index2h3">Single page example</a>
+			</li>
+			<li class="L3"><a href="#index3h3">Dual page example</a>
+			</li>
+			<li class="L3"><a href="#index4h3">Grid layout</a>
+			</li>
 			<li class="L3"><a href="#index2h1">Rendering</a>
 			</li>
 			<li class="L3"><a href="#index3h1">Views</a>
 			</li>
-			<li class="L3"><a href="#index1h2">Definitions</a>
+			<li class="L3"><a href="#index2h2">Definitions</a>
 			</li>
-			<li class="L3"><a href="#index2h2">Grid</a>
+			<li class="L3"><a href="#index3h2">Grid</a>
 			</li>
-			<li class="L3"><a href="#index2h3">Page order</a>
+			<li class="L3"><a href="#index5h3">Page order</a>
 			</li>
-			<li class="L3"><a href="#index3h3">Layout</a>
+			<li class="L3"><a href="#index6h3">Layout</a>
 			</li>
-			<li class="L3"><a href="#index4h3">Alignment</a>
+			<li class="L3"><a href="#index7h3">Alignment</a>
 			</li>
-			<li class="L3"><a href="#index5h3">Algorithm</a>
+			<li class="L3"><a href="#index8h3">Algorithm</a>
 			</li>
-			<li class="L3"><a href="#index6h3">Page sequence</a>
+			<li class="L3"><a href="#index9h3">Page sequence</a>
 			</li>
-			<li class="L3"><a href="#index7h3">Page order</a>
-			</li>
-			<li class="L3"><a href="#index8h3">Transformations</a>
+			<li class="L3"><a href="#index10h3">Transformations</a>
 			<ol>
 				<li class="L4"><a href="#index1h4">Global transformation</a>
 				</li>
@@ -168,13 +174,23 @@ Interaction
 
 <h1 id="viewoptions"><a name="index1h1"></a>View options</h1>
 
-<p>Single page example:</p>
+<h2 id="examplesofsupportedlayouts"><a name="index1h2"></a>Examples of supported layouts</h2>
+
+<h3 id="singlepageexample"><a name="index2h3"></a>Single page example</h3>
 
 <p><img src="./graph-1686938eea6553c96d8b58b8f7d39f68655305b6.png" usemap="#graph1686938eea6553c96d8b58b8f7d39f68655305b6" />
 <map id="graph1686938eea6553c96d8b58b8f7d39f68655305b6" name="graph1686938eea6553c96d8b58b8f7d39f68655305b6">
 </map></p>
 
-<p><img src="./uml-8e1a920961635f1a8c917c51226875197c606076.svg" /></p>
+<h3 id="dualpageexample"><a name="index3h3"></a>Dual page example</h3>
+
+<p><img src="./graph-c8108c762a1a9641be8cd09fcfd10e4552045ff7.png" usemap="#graphc8108c762a1a9641be8cd09fcfd10e4552045ff7" />
+<map id="graphc8108c762a1a9641be8cd09fcfd10e4552045ff7" name="graphc8108c762a1a9641be8cd09fcfd10e4552045ff7">
+</map></p>
+
+<h3 id="gridlayout"><a name="index4h3"></a>Grid layout</h3>
+
+<p><img src="./uml-7fac5de6e6395f18adc08b62c7543494242bcc23.svg" /></p>
 
 <h1 id="rendering"><a name="index2h1"></a>Rendering</h1>
 
@@ -182,7 +198,7 @@ Interaction
 
 <h1 id="views"><a name="index3h1"></a>Views</h1>
 
-<h2 id="definitions"><a name="index1h2"></a>Definitions</h2>
+<h2 id="definitions"><a name="index2h2"></a>Definitions</h2>
 
 <p><strong>Page range</strong>: a page range indicates the which pages an operation is applied upon.</p>
 
@@ -194,7 +210,7 @@ Interaction
 
 <p><strong>Alignment</strong>: left, center, right; horizontal, vertical.</p>
 
-<h2 id="grid"><a name="index2h2"></a>Grid</h2>
+<h2 id="grid"><a name="index3h2"></a>Grid</h2>
 
 <p>View is made up of a grid. A grid has rows and columns.</p>
 
@@ -209,7 +225,7 @@ Interaction
 
    1   2   3 </pre>
 
-<h3 id="pageorder"><a name="index2h3"></a>Page order</h3>
+<h3 id="pageorder"><a name="index5h3"></a>Page order</h3>
 
 <p>These rows and columns can be filled in certain ways:</p>
 
@@ -233,7 +249,7 @@ Interaction
  | 6 | 5 | 4 |
  +---+---+---+</pre>
 
-<h3 id="layout"><a name="index3h3"></a>Layout</h3>
+<h3 id="layout"><a name="index6h3"></a>Layout</h3>
 
 <p>The grid can have a defined number of columns and defined number of rows that
 will be used for layout. This can be in the form of</p>
@@ -285,7 +301,7 @@ will be used for layout. This can be in the form of</p>
 incorporate the idea of continuous pages and how many pages should be fit into
 the current view.</p>
 
-<h3 id="alignment"><a name="index4h3"></a>Alignment</h3>
+<h3 id="alignment"><a name="index7h3"></a>Alignment</h3>
 
 <p>The grid approach offers two places where alignment can occur:</p>
 
@@ -294,7 +310,7 @@ the current view.</p>
 <li>With respect to the parent widget: this requires computing the size of the entire grid.</li>
 </ol>
 
-<h3 id="algorithm"><a name="index5h3"></a>Algorithm</h3>
+<h3 id="algorithm"><a name="index8h3"></a>Algorithm</h3>
 
 <pre>PageRange_start ← start of pages to render
 PageRange_end   ← end of pages to render
@@ -322,13 +338,11 @@ define Grid( Grid, P_start, P_end )
     GridWidth ← …
 end</pre>
 
-<h3 id="pagesequence"><a name="index6h3"></a>Page sequence</h3>
+<h3 id="pagesequence"><a name="index9h3"></a>Page sequence</h3>
 
 <p>Finite / infinite</p>
 
-<h3 id="pageorder"><a name="index7h3"></a>Page order</h3>
-
-<h3 id="transformations"><a name="index8h3"></a>Transformations</h3>
+<h3 id="transformations"><a name="index10h3"></a>Transformations</h3>
 
 <h4 id="globaltransformation"><a name="index1h4"></a>Global transformation</h4>
 
@@ -396,8 +410,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 12 Jun 2017 11:31:04 PM UTC</span>
-<!-- Created <span class="date">Thu 04 May 2017 02:15:06 PM UTC</span> -->
+Last edited <span class="date">Sun 18 Jun 2017 04:13:38 AM UTC</span>
+<!-- Created <span class="date">Thu 04 May 2017 03:00:10 PM UTC</span> -->
 </div>
 
 </div>
