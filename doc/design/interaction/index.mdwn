@@ -4,7 +4,9 @@
 
 # View options
 
-Single page example:
+## Examples of supported layouts
+
+### Single page example
 
 [[!graph src="""
 VC [label = "View Collection" ]
@@ -40,7 +42,86 @@ D0 [label = "Document" ]
 
 """]]
 
+### Dual page example
+
+[[!graph src="""
+VC [label = "View Collection" ]
+
+G0 [label = "Grid[r=1, c=2]" ]
+G1 [label = "Grid[r=1, c=2]" ]
+G2 [label = "Grid[r=1, c=2]" ]
+
+rankdir = LR;
+{
+{
+VC -> G0 [label = "[0]" ];
+VC -> G1 [label = "[1]" ];
+VC -> G2 [label = "[2]" ];
+}
+
+{
+G0 -> P0 [label = "renders"];
+G0 -> P1 [label = "renders"];
+G1 -> P2 [label = "renders"];
+G1 -> P3 [label = "renders"];
+G2 -> P4 [label = "renders"];
+G2 -> P5 [label = "renders"];
+}
+}
+
+P0 [label = "Page[0]" ]
+P1 [label = "Page[1]" ]
+P2 [label = "Page[2]" ]
+P3 [label = "Page[3]" ]
+P4 [label = "Page[4]" ]
+P5 [label = "Page[5]" ]
+
+P0 -> D0 [dir = back, label = "[0]"];
+P1 -> D0 [dir = back, label = "[1]"];
+P2 -> D0 [dir = back, label = "[2]"];
+P3 -> D0 [dir = back, label = "[3]"];
+P4 -> D0 [dir = back, label = "[4]"];
+P5 -> D0 [dir = back, label = "[5]"];
+
+D0 [label = "Document" ]
+
+"""]]
+
+### Grid layout
+
 [[!uml src="""
+
+package Render {
+    class Render::Context
+}
+
+class Render::Context {
+    BoundingRect viewport_bounds;
+    ZoomType z;
+}
+
+package Layout {
+    class Layout::Grid
+    class Layout::Page
+}
+
+class Layout::Grid {
+    GridOptions g;
+
+    Layout::Context lc;
+
+    Layout @sublayouts;
+
+    BoundingRect bounds;
+
+    SizeRequest get_size_request();
+}
+
+class Layout::Page {
+    Page p;
+
+    Layout::Context lc;
+}
 
 package View::HighLevel {
     ViewOptions *-- "1" GridOptions: contains
@@ -269,8 +350,6 @@ end
 ### Page sequence
 
 Finite / infinite
-
-### Page order
 
 ### Transformations
 
