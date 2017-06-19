@@ -91,36 +91,48 @@ D0 [label = "Document" ]
 
 [[!uml src="""
 
+package Geometry {
+    class Geometry::GlobalPosition;
+    class Geometry::BoundingRect
+}
+
+class Geometry::BoundingRect {
+    Geometry::GlobalPosition top_left;
+    PositiveNum width;
+    PositiveNum height;
+}
+
 package Render {
     class Render::Context
 }
 
 class Render::Context {
-    BoundingRect viewport_bounds;
+    Geometry::BoundingRect viewport_bounds;
     ZoomType z;
 }
+Render::Context *-- Geometry::BoundingRect
 
 package Layout {
+    class Role::Layoutable
     class Layout::Grid
     class Layout::Page
 }
 
-class Layout::Grid {
+interface Role::Layoutable {
+    Geometry::BoundingRect bounds;
+    Render::Context lc;
+}
+Role::Layoutable *-- Render::Context
+Role::Layoutable *-- Geometry::BoundingRect
+
+class Layout::Grid implements Role::Layoutable {
     GridOptions g;
-
-    Layout::Context lc;
-
     Layout @sublayouts;
-
-    BoundingRect bounds;
-
     SizeRequest get_size_request();
 }
 
-class Layout::Page {
+class Layout::Page implements Role::Layoutable {
     Page p;
-
-    Layout::Context lc;
 }
 
 package View::HighLevel {
