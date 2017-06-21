@@ -1,8 +1,37 @@
-# Current
+# Layout
 
-TODO
+## Current
 
-# Proposed
+
+[[!uml src="""
+control "Page Drawing\nComponent" as PDComp << Widget >>
+control "View::Continuous" as View << View Model >>
+
+
+== Init ==
+
+PDComp -> View : init()
+create View
+
+PDComp -> View : set-document($doc)
+
+== on-draw ==
+
+View -> View : signal[ view-changed ]
+
+PDComp -> PDComp : signal[ update-scroll-adjustment ]
+
+PDComp -> View : get-size-request()
+PDComp <- View : SizeRequest $sr
+PDComp -> PDComp : set-size-request( $sr )
+
+PDComp -> PDComp : signal[ draw ]
+PDComp -> View : draw-page(Cairo::Context $cr)
+View -> View : $cr->paint()
+
+"""]]
+
+## Proposed
 
 ### Grid layout
 
