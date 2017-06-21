@@ -1,0 +1,130 @@
+# Current
+
+TODO
+
+# Proposed
+
+### Grid layout
+
+[[!uml src="""
+
+package Geometry {
+    class Geometry::GlobalPosition;
+    class Geometry::BoundingRect
+}
+
+class Geometry::BoundingRect {
+    Geometry::GlobalPosition top_left;
+    PositiveNum width;
+    PositiveNum height;
+}
+
+package Render {
+    class Render::Context
+}
+
+class Render::Context {
+    Geometry::BoundingRect viewport_bounds;
+    ZoomType z;
+}
+Render::Context *-- Geometry::BoundingRect
+
+package Layout {
+    class Role::Layoutable
+    class Layout::Grid
+    class Layout::Page
+}
+
+interface Role::Layoutable {
+    Geometry::BoundingRect bounds;
+    Render::Context lc;
+}
+Role::Layoutable *-- Render::Context
+Role::Layoutable *-- Geometry::BoundingRect
+
+class Layout::Grid implements Role::Layoutable {
+    GridOptions g;
+    Layout @sublayouts;
+    SizeRequest get_size_request();
+}
+
+class Layout::Page implements Role::Layoutable {
+    Page p;
+}
+
+package View::HighLevel {
+    ViewOptions *-- "1" GridOptions: contains
+    ViewOptions *-- "1" ZoomOptions: contains
+    ViewOptions *-- "1" OffsetOptions: contains
+    ZoomOptions *-- "1" ZoomType: contains
+}
+
+class ViewOptions {
+    Document d;
+    GridOptions g;
+    ZoomOptions z;
+    OffsetOptions o;
+}
+
+class ZoomOptions {
+    ZoomType z;
+    -Float _zoom_percentage;
+}
+
+enum ZoomType {
+    PERCENTAGE;
+    FIT_WIDTH;
+    FIT_HEIGHT;
+}
+
+class GridOptions {
+    Maybe[PositiveInt] rows;
+    Maybe[PositiveInt] columns;
+}
+"""]]
+
+# Rendering
+
+[[!uml src="""
+control "GUI" as GUIComp << Widget >>
+control "Page Drawing\nComponent" as PDComp << Widget >>
+
+entity "View" as VM << Model >>
+entity "Document" as DM << Model >>
+entity "Transformation" as TM << Model >>
+
+== Initialisation ==
+
+GUIComp -> PDComp : init
+
+create VM
+PDComp -> VM : set-view
+
+create DM
+VM -> DM: open-document
+create TM
+VM -> TM: set-transformation
+
+== Calculate view ==
+
+GUIComp -> PDComp : configure-event
+
+PDComp -> VM : view-changed
+|||
+VM -> DM : get-bounding-boxes
+VM <- DM : bounding-box-results
+|||
+VM -> TM : apply-transformation
+TM -> VM : transformation-results
+|||
+VM -> PDComp : set-size-request
+
+== Draw page ==
+
+GUIComp -> PDComp : queue-redraw
+
+PDComp -> VM : get-view-actors
+
+VM -> DM : get-pages
+
+"""]]
