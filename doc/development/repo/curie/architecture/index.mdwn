@@ -1,3 +1,23 @@
+# View manager
+
+## Current
+
+The `::App` object handles all the setup and coordination.
+
+## Proposed
+
+[[!uml src="""
+control "AppController" as C << Controller >>
+control "ViewManager"   as VM << View Model >>
+control "MainWindow" as MW << View >>
+
+== init ==
+
+C -> VM : new()
+C -> MW : new()
+"""]]
+
+
 # Layout
 
 ## Current
