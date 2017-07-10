@@ -1,0 +1,3 @@
+[[!map pages="doc/development/repo/* and ! doc/development/repo/*/*"]]
+
+<table>[[!report template="repo_summary" pages="doc/development/repo/*"]]</table>

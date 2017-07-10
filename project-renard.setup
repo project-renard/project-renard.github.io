@@ -47,6 +47,7 @@ add_plugins:
 - autoindex
 - txt
 - ymlfront
+- report
 - ftemplate
 - github
 - format
