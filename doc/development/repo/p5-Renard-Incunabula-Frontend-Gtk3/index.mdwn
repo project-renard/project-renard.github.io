@@ -1,0 +1,13 @@
+---
+repo: project-renard/p5-Renard-Incunabula-Frontend-Gtk3
+cpan: Renard-Incunabula-Frontend-Gtk3
+type: application
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Frontend-Gtk3
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Frontend-Gtk3.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-renard-incunabula-frontend-gtk3
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/dxm9mqahh3v9838d/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Frontend-Gtk3?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Frontend-Gtk3/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
+
