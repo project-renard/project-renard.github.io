@@ -129,6 +129,16 @@ repo
 </TMPL_IF>
 </table>
 
+<TMPL_IF NAME="travis-ci">
+<a href="<TMPL_VAR NAME="travis-ci">"><img src="<TMPL_VAR NAME="travis-ci-badge">"/></a>
+</TMPL_IF>
+<TMPL_IF NAME="appveyor-ci">
+<a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="appveyor-ci-badge">"/></a>
+</TMPL_IF>
+<TMPL_IF NAME="coveralls">
+<a href="<TMPL_VAR NAME="coveralls">"><img src="<TMPL_VAR NAME="coveralls-badge">"/></a>
+</TMPL_IF>
+
 </div>
 
 </div>
@@ -157,7 +167,7 @@ repo
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 04 Jun 2017 03:54:06 AM UTC</span>
+Last edited <span class="date">Mon 10 Jul 2017 09:17:38 PM UTC</span>
 <!-- Created <span class="date">Wed 31 May 2017 08:18:54 PM UTC</span> -->
 </div>
 
