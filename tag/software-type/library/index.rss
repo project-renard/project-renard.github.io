@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 21 May 2017 19:33:54 +0000</pubDate>
+<pubDate>Wed, 24 May 2017 15:07:45 +0000</pubDate>
 <item>
 	<title>PDF.js</title>
 
@@ -23,8 +23,8 @@
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 21 May 2017 19:33:54 +0000</pubDate>
-	<dcterms:modified>2017-05-21T19:33:54Z</dcterms:modified>
+	<pubDate>Wed, 24 May 2017 15:07:45 +0000</pubDate>
+	<dcterms:modified>2017-05-24T15:07:45Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -114,89 +114,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>LibHaru</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
-
-
-
-	<category>software-type/library</category>
-
-
-	<pubDate>Sun, 21 May 2017 19:33:54 +0000</pubDate>
-	<dcterms:modified>2017-05-21T19:33:54Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            LibHaru
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>MuPDF</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mupdf/</guid>
@@ -208,8 +125,8 @@ Runs: unknown
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 21 May 2017 19:33:54 +0000</pubDate>
-	<dcterms:modified>2017-05-21T19:33:54Z</dcterms:modified>
+	<pubDate>Wed, 24 May 2017 15:07:45 +0000</pubDate>
+	<dcterms:modified>2017-05-24T15:07:45Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -330,6 +247,89 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 
 </item>
 <item>
+	<title>LibHaru</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/libharu/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/libharu/</link>
+
+
+
+	<category>software-type/library</category>
+
+
+	<pubDate>Wed, 24 May 2017 15:07:45 +0000</pubDate>
+	<dcterms:modified>2017-05-24T15:07:45Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            LibHaru
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>Poppler</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/poppler/</guid>
@@ -341,8 +341,8 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 	<category>software-type/library</category>
 
 
-	<pubDate>Sun, 21 May 2017 19:33:54 +0000</pubDate>
-	<dcterms:modified>2017-05-21T19:33:54Z</dcterms:modified>
+	<pubDate>Wed, 24 May 2017 15:07:45 +0000</pubDate>
+	<dcterms:modified>2017-05-24T15:07:45Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
