@@ -6,20 +6,20 @@
 <td>
 [[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
 </td>
+<td>
 <TMPL_IF NAME="travis-ci">
-<td>
 <a href="<TMPL_VAR NAME="travis-ci">"><img src="<TMPL_VAR NAME="travis-ci-badge">"/></a>
-</td>
 </TMPL_IF>
+</td>
+<td>
 <TMPL_IF NAME="appveyor-ci">
-<td>
 <a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="appveyor-ci-badge">"/></a>
-</td>
 </TMPL_IF>
-<TMPL_IF NAME="coveralls">
+</td>
 <td>
+<TMPL_IF NAME="coveralls">
 <a href="<TMPL_VAR NAME="coveralls">"><img src="<TMPL_VAR NAME="coveralls-badge">"/></a>
-</td>
 </TMPL_IF>
+</td>
 </tr>
 </TMPL_IF>
