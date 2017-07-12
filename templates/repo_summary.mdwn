@@ -4,7 +4,7 @@
 [[<TMPL_VAR NAME="page">]]
 </td>
 <td>
-[[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
+[[GitHub|https://github.com/<TMPL_VAR NAME="repo">]]
 </td>
 <td>
 <TMPL_IF NAME="travis-ci">
