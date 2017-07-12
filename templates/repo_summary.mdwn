@@ -7,6 +7,9 @@
 [[GitHub|https://github.com/<TMPL_VAR NAME="repo">]]
 </td>
 <td>
+<a href="https://github.com/<TMPL_VAR NAME="repo">/issues"><img src="https://img.shields.io/github/issues/<TMPL_VAR NAME="repo">.svg"/></a>
+</td>
+<td>
 <TMPL_IF NAME="travis-ci">
 <a href="<TMPL_VAR NAME="travis-ci">"><img src="<TMPL_VAR NAME="travis-ci-badge">"/></a>
 </TMPL_IF>

@@ -6,6 +6,9 @@
     <td>
 <b>Repo</b>: [[<TMPL_VAR NAME="repo">|https://github.com/<TMPL_VAR NAME="repo">]]
     </td>
+    <td>
+<a href="https://github.com/<TMPL_VAR NAME="repo">/issues"><img src="https://img.shields.io/github/issues/<TMPL_VAR NAME="repo">.svg"/></a>
+    </td>
 </tr>
 </TMPL_IF>
 <TMPL_IF NAME="cpan">
