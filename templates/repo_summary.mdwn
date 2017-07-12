@@ -21,5 +21,10 @@
 <a href="<TMPL_VAR NAME="coveralls">"><img src="<TMPL_VAR NAME="coveralls-badge">"/></a>
 </TMPL_IF>
 </td>
+<td>
+<TMPL_IF NAME="cpan">
+<a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
+</TMPL_IF>
+</td>
 </tr>
 </TMPL_IF>
