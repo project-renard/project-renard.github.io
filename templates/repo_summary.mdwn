@@ -5,6 +5,10 @@
 </td>
 <td>
 [[GitHub|https://github.com/<TMPL_VAR NAME="repo">]]
+<br/>
+<TMPL_IF NAME="cpan">
+<a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
+</TMPL_IF>
 </td>
 <td>
 <a href="https://github.com/<TMPL_VAR NAME="repo">/issues"><img src="https://img.shields.io/github/issues/<TMPL_VAR NAME="repo">.svg"/></a>
@@ -23,11 +27,6 @@
 <td>
 <TMPL_IF NAME="coveralls">
 <a href="<TMPL_VAR NAME="coveralls">"><img src="<TMPL_VAR NAME="coveralls-badge">"/></a>
-</TMPL_IF>
-</td>
-<td>
-<TMPL_IF NAME="cpan">
-<a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
 </TMPL_IF>
 </td>
 </tr>
