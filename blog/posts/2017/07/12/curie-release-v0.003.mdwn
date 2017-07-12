@@ -1,0 +1,24 @@
+[[!meta title="Curie release v0.003"]]
+[[!meta author="zaki"]]
+[[!meta description="A grid-based view"]]
+[[!meta link="/blog/posts/2017/07/12/gfx/curie-v0.003-continuous-grid-view.png" rel="image_src"]]
+[[!meta date="2017-07-12 17:24:06-0500"]]
+
+The third pre-alpha release of Curie is now available. It
+features the following user-visible improvements:
+
+- The `File -> Recent files` menu is updated whenever 
+  documents are opened.
+
+- Continuous page view and multiple columns (e.g., for dual page display) using a grid-based view model. The page number updates as this is scrolled.
+
+- Add exception handler popup window that displays errors such as missing files or invalid page number selection.
+
+Watch the video below for a demo:
+
+<iframe src="https://player.vimeo.com/video/225324936" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/225324936">Project Renard Curie v0.003 release demo</a> from <a href="https://vimeo.com/zmughal">Zaki Mughal</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+[[MetaCPAN|https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.003]]
+
+[[!tag release]]
