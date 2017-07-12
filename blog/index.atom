@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-12T22:28:15Z</updated>
+<updated>2017-07-12T22:50:01Z</updated>
 <entry>
 	<title>Curie release v0.003</title>
 
@@ -35,7 +35,7 @@
 	<category term="release" />
 
 
-	<updated>2017-07-12T22:28:15Z</updated>
+	<updated>2017-07-12T22:50:01Z</updated>
 	<published>2017-07-12T22:24:06Z</published>
 
 
@@ -47,7 +47,7 @@ features the following user-visible improvements:&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;The &lt;code&gt;File -&amp;gt; Recent files&lt;/code&gt; menu is updated whenever 
 documents are opened.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Continuous page view and multiple columns (e.g., for dual page display) using a grid-based view model. The page number updates as this is scrolled.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add exception handler popup window that displays errors such as missing files or invalid page number selection.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exception handler popup window that displays errors such as missing files or invalid page number selection.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
