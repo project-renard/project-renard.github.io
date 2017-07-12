@@ -109,7 +109,7 @@ repo summary
 <span class="createlink">&#60;TMPL VAR NAME&#61;&#34;page&#34;&#62;</span>
 </td>
 <td>
-<a href="https://github.com/<TMPL_VAR NAME="repo">"><TMPL_VAR NAME="repo"></a>
+<a href="https://github.com/<TMPL_VAR NAME="repo">">GitHub</a>
 </td>
 <td>
 <TMPL_IF NAME="travis-ci">
@@ -124,6 +124,11 @@ repo summary
 <td>
 <TMPL_IF NAME="coveralls">
 <a href="<TMPL_VAR NAME="coveralls">"><img src="<TMPL_VAR NAME="coveralls-badge">"/></a>
+</TMPL_IF>
+</td>
+<td>
+<TMPL_IF NAME="cpan">
+<a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
 </TMPL_IF>
 </td>
 </tr>
@@ -155,7 +160,7 @@ repo summary
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 11 Jul 2017 08:55:48 PM UTC</span>
+Last edited <span class="date">Wed 12 Jul 2017 11:17:49 AM UTC</span>
 <!-- Created <span class="date">Mon 10 Jul 2017 09:17:38 PM UTC</span> -->
 </div>
 
