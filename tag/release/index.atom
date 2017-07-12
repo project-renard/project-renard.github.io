@@ -17,7 +17,52 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-12T11:29:56Z</updated>
+<updated>2017-07-12T22:28:15Z</updated>
+<entry>
+	<title>Curie release v0.003</title>
+
+	<id>http://project-renard.github.io//blog/posts/2017/07/12/curie-release-v0.003/</id>
+
+	<link href="http://project-renard.github.io//blog/posts/2017/07/12/curie-release-v0.003/"/>
+
+	<author><name>zaki</name></author>
+
+
+
+
+
+
+	<category term="release" />
+
+
+	<updated>2017-07-12T22:28:15Z</updated>
+	<published>2017-07-12T22:24:06Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The third pre-alpha release of Curie is now available. It
+features the following user-visible improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;File -&amp;gt; Recent files&lt;/code&gt; menu is updated whenever 
+documents are opened.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Continuous page view and multiple columns (e.g., for dual page display) using a grid-based view model. The page number updates as this is scrolled.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add exception handler popup window that displays errors such as missing files or invalid page number selection.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/225324936&quot; width=&quot;640&quot; height=&quot;359&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/225324936&quot;&gt;Project Renard Curie v0.003 release demo&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/zmughal&quot;&gt;Zaki Mughal&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.003&quot;&gt;MetaCPAN&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Curie release v0.002</title>
 
