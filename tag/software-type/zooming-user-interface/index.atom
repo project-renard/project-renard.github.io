@@ -17,13 +17,13 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-05-30T16:04:24Z</updated>
+<updated>2017-05-31T20:18:54Z</updated>
 <entry>
-	<title>piccolo2d</title>
+	<title>pad</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/piccolo2d/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/pad/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/piccolo2d/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/pad/"/>
 
 
 
@@ -33,14 +33,12 @@
 	<category term="software-type/zooming-user-interface" />
 
 
-	<updated>2017-05-30T16:04:24Z</updated>
-	<published>2017-05-30T16:04:24Z</published>
+	<updated>2017-05-31T20:18:54Z</updated>
+	<published>2017-05-31T20:18:54Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;http://piccolo2d.org/&quot;&gt;http://piccolo2d.org/&lt;/a&gt;
-&lt;a href=&quot;http://www.cs.umd.edu/hcil/piccolo/&quot;&gt;http://www.cs.umd.edu/hcil/piccolo/&lt;/a&gt;
-&lt;a href=&quot;https://github.com/piccolo2d/piccolo2d.java&quot;&gt;https://github.com/piccolo2d/piccolo2d.java&lt;/a&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;a href=&quot;http://mrl.nyu.edu/projects/zui/&quot;&gt;http://mrl.nyu.edu/projects/zui/&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
@@ -62,8 +60,8 @@
 	<category term="software-type/zooming-user-interface" />
 
 
-	<updated>2017-05-30T16:04:24Z</updated>
-	<published>2017-05-30T16:04:24Z</published>
+	<updated>2017-05-31T20:18:54Z</updated>
+	<published>2017-05-31T20:18:54Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -75,11 +73,11 @@
 
 </entry>
 <entry>
-	<title>pad</title>
+	<title>piccolo2d</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/pad/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/piccolo2d/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/pad/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/piccolo2d/"/>
 
 
 
@@ -89,12 +87,14 @@
 	<category term="software-type/zooming-user-interface" />
 
 
-	<updated>2017-05-30T16:04:24Z</updated>
-	<published>2017-05-30T16:04:24Z</published>
+	<updated>2017-05-31T20:18:54Z</updated>
+	<published>2017-05-31T20:18:54Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;http://mrl.nyu.edu/projects/zui/&quot;&gt;http://mrl.nyu.edu/projects/zui/&lt;/a&gt;&lt;/p&gt;
+	&lt;p&gt;&lt;a href=&quot;http://piccolo2d.org/&quot;&gt;http://piccolo2d.org/&lt;/a&gt;
+&lt;a href=&quot;http://www.cs.umd.edu/hcil/piccolo/&quot;&gt;http://www.cs.umd.edu/hcil/piccolo/&lt;/a&gt;
+&lt;a href=&quot;https://github.com/piccolo2d/piccolo2d.java&quot;&gt;https://github.com/piccolo2d/piccolo2d.java&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
