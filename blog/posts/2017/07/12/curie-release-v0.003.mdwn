@@ -12,7 +12,7 @@ features the following user-visible improvements:
 
 - Continuous page view and multiple columns (e.g., for dual page display) using a grid-based view model. The page number updates as this is scrolled.
 
-- Add exception handler popup window that displays errors such as missing files or invalid page number selection.
+- An exception handler popup window that displays errors such as missing files or invalid page number selection.
 
 Watch the video below for a demo:
 
