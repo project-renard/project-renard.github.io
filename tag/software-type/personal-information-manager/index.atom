@@ -19,6 +19,139 @@
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2017-06-18T04:13:38Z</updated>
 <entry>
+	<title>Chandler</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/chandler/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/chandler/"/>
+
+
+
+
+
+
+	<category term="software-type/personal-information-manager" />
+
+
+	<updated>2017-06-18T04:13:38Z</updated>
+	<published>2017-06-18T04:13:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Chandler
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/personal-information-manager/../../../doc/survey/tool/chandler/gfx/chandler.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/personal-information-manager/../../../doc/survey/tool/chandler/gfx/chandler.png&quot; width=&quot;280&quot; height=&quot;250&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://chandlerproject.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Python
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/owenmorris/chandler&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b8/Chandler_calendar_screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b8/Chandler_calendar_screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Desktop GUI
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Status: Inactive
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Chandler_%28software%29&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discussed in the book &lt;a href=&quot;http://www.dreamingincode.com/&quot;&gt;Dreaming in Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/thechandlerproject&quot;&gt;YouTube channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mirrors of source at &lt;a href=&quot;https://github.com/project-renard-survey/chandler-1&quot;&gt;https://github.com/project-renard-survey/chandler-1&lt;/a&gt;, &lt;a href=&quot;https://github.com/project-renard-survey/chandler&quot;&gt;https://github.com/project-renard-survey/chandler&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jeffrey.skyhouseconsulting.com/pycon2008/&quot;&gt;Presentation&lt;/a&gt; describing the project from Pycon2008&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>DEVONthink</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/devonthink/</id>
@@ -205,139 +338,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Chandler</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/chandler/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/chandler/"/>
-
-
-
-
-
-
-	<category term="software-type/personal-information-manager" />
-
-
-	<updated>2017-06-18T04:13:38Z</updated>
-	<published>2017-06-18T04:13:38Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Chandler
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/personal-information-manager/../../../doc/survey/tool/chandler/gfx/chandler.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/personal-information-manager/../../../doc/survey/tool/chandler/gfx/chandler.png&quot; width=&quot;280&quot; height=&quot;250&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://chandlerproject.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Python
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/owenmorris/chandler&quot;&gt;Source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b8/Chandler_calendar_screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b8/Chandler_calendar_screenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Software form: Desktop GUI
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Status: Inactive
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Chandler_%28software%29&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Discussed in the book &lt;a href=&quot;http://www.dreamingincode.com/&quot;&gt;Dreaming in Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/thechandlerproject&quot;&gt;YouTube channel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mirrors of source at &lt;a href=&quot;https://github.com/project-renard-survey/chandler-1&quot;&gt;https://github.com/project-renard-survey/chandler-1&lt;/a&gt;, &lt;a href=&quot;https://github.com/project-renard-survey/chandler&quot;&gt;https://github.com/project-renard-survey/chandler&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jeffrey.skyhouseconsulting.com/pycon2008/&quot;&gt;Presentation&lt;/a&gt; describing the project from Pycon2008&lt;/li&gt;
-&lt;/ul&gt;
 
 	</content>
 
