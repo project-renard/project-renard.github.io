@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Renard-Incunabula-MuPDF-Inline
+cpan: Renard-Incunabula-Format-PDF
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-MuPDF-Inline
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-MuPDF-Inline.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-MuPDF-Inline
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/mavxt0kg98d8bwns/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-MuPDF-Inline?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-MuPDF-Inline/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
