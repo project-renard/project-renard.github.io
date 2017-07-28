@@ -1,7 +1,7 @@
 ---
 repo: project-renard/p5-Renard-Incunabula-Format-PDF
 cpan: Renard-Incunabula-Format-PDF
-type: application
+type: library
 travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Format-PDF
 travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Format-PDF.svg?branch=master
 appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-renard-incunabula-format-pdf
