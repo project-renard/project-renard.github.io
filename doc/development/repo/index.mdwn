@@ -12,7 +12,7 @@
 
 ## Report
 
-<table>[[!report template="repo_summary" pages="doc/development/repo/*"]]</table>
+<table>[[!report template="repo_summary" pages="doc/development/repo/*" sort="title"]]</table>
 
 ## Services
 
