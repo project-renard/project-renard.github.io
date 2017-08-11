@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Alien-FontForge
+cpan: Alien-FontForge
+type: alien
+travis-ci: https://travis-ci.org/project-renard/p5-Alien-FontForge
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Alien-FontForge.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Alien-FontForge
+appveyor-ci-badge: TODO
+coveralls: https://coveralls.io/github/project-renard/p5-Alien-FontForge?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-FontForge/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
