@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Renard-Incunabula-Speech-Synthesis
+cpan: Renard-Incunabula-Speech-Synthesis
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Speech-Synthesis
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Speech-Synthesis.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Speech-Synthesis
+appveyor-ci-badge: TODO
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Speech-Synthesis?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Speech-Synthesis/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
