@@ -17,24 +17,26 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-08T09:45:07Z</updated>
+<updated>2017-07-09T11:11:09Z</updated>
 <entry>
-	<title>ReadCube</title>
+	<title>Paperpile (older version)</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/readcube/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/readcube/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
 
 
 
+
+
+
+	<category term="handles-file-type/application-pdf" />
 
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -46,7 +48,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            ReadCube
+            Paperpile (older version)
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -57,7 +59,88 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Papers</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Papers
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -71,8 +154,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -99,7 +182,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -108,13 +191,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Article metrics&lt;/li&gt;
-&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
-&lt;/ul&gt;
 
 	</content>
 
@@ -136,8 +212,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -218,6 +294,116 @@ Runs: unknown
 
 </entry>
 <entry>
+	<title>JabRef</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            JabRef
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/JabRef/jabref&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/JabRef&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;JabRef works with BibTeX format references.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Mendeley</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/mendeley/</id>
@@ -234,8 +420,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -338,8 +524,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -441,281 +627,6 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>EndNote</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            EndNote
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Paperpile (older version)
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Qiqqa</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
-
-
-
-
-
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Qiqqa
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Qiqqa&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Paperpile</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
@@ -732,8 +643,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -820,11 +731,11 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Papers</title>
+	<title>ReadCube</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/papers/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/readcube/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/papers/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/readcube/"/>
 
 
 
@@ -834,8 +745,8 @@ a real-time collaborative editor.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -847,7 +758,7 @@ a real-time collaborative editor.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Papers
+            ReadCube
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -858,7 +769,7 @@ a real-time collaborative editor.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -872,8 +783,8 @@ a real-time collaborative editor.&lt;/p&gt;
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
+        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -900,7 +811,110 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Article metrics&lt;/li&gt;
+&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Qiqqa</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/qiqqa/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/qiqqa/"/>
+
+
+
+
+
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Qiqqa
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.qiqqa.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/9/98/QiqqaScreenshot.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Qiqqa&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -916,11 +930,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>JabRef</title>
+	<title>EndNote</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/jabref/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/endnote/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/jabref/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/endnote/"/>
 
 
 
@@ -930,8 +944,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-08T09:45:07Z</updated>
-	<published>2017-07-08T09:45:07Z</published>
+	<updated>2017-07-09T11:11:09Z</updated>
+	<published>2017-07-09T11:11:09Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -943,7 +957,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            JabRef
+            EndNote
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -954,23 +968,11 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.jabref.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/JabRef/jabref&quot;&gt;Source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -980,8 +982,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/84/Jabref-2.2-screenshot.png&quot;/&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -1008,7 +1010,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/JabRef&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1017,8 +1019,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;JabRef works with BibTeX format references.&lt;/p&gt;
 
 	</content>
 
