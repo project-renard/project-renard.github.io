@@ -10,3 +10,5 @@ coveralls: https://coveralls.io/github/project-renard/p5-Alien-Poppler?branch=ma
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-Poppler/badge.svg?branch=master
 ---
 [[!ftemplate id=repo]]
+
+Used by [[p5-Alien-pdf2htmlEX]].
