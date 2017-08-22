@@ -5,7 +5,7 @@ type: alien
 travis-ci: https://travis-ci.org/project-renard/p5-Alien-FontForge
 travis-ci-badge: https://travis-ci.org/project-renard/p5-Alien-FontForge.svg?branch=master
 appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Alien-FontForge
-appveyor-ci-badge: TODO
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/7uoe4jg18bwiic9q/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Alien-FontForge?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-FontForge/badge.svg?branch=master
 ---
