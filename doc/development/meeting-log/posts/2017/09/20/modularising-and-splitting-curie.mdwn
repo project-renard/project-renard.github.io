@@ -1,0 +1,303 @@
+[[!meta title="Modularising and splitting Curie"]]
+[[!meta author="zaki"]]
+[[!meta description="How Curie was split up into multiple repositories and how
+all of these repositories were tested using CI tools before being released."]]
+[[!meta date="2017-09-20 22:49:08-0400"]]
+
+
+[[!toc levels=2]]
+
+In order to make it easier to modify parts of Curie independently and make it
+possible to combine the codebase with other modules in new ways, it was
+necessary to split Curie into separate modules.
+
+For example, if we want to create a new Gtk3-based application, then pulling in
+a module which contains helper functions for setting up Gtk3 could be shared
+amongst all Gtk3-based applications instead of copying the code into each new
+application.
+
+## Renaming the quick-and-dirty way
+
+The first step towards refactoring is renaming the modules that make up Curie.
+Since all of the code is placed under the `Renard::Curie` namespace, a new
+namespace must be created and all the non-Curie specific modules need to be
+placed under that. This new namespace is `Renard::Incunabula` and the name
+changes are specified in the following subsection.
+
+### Package renaming by final repository
+
+#### project-renard/p5-Renard-Incunabula
+
+The [[repo/p5-Renard-Incunabula]] repository is for common code that all tools
+can use. In particular, it contains the common development setup (such as
+[[`Function::Parameters`|https://p3rl.org/Function::Parameters]], error types,
+and data types) and generic document/page models.
+
+|  Original  | Renamed |
+|------------|---------|
+| `Renard::Curie::Setup` | `Renard::Incunabula::Common::Setup` |
+| `Renard::Curie::Types` | `Renard::Incunabula::Common::Types` |
+| `Renard::Curie::Error` | `Renard::Incunabula::Common::Error` |
+| `Renard::Curie::Model::Document` | `Renard::Incunabula::Document` |
+| `Renard::Curie::Model::Outline` | `Renard::Incunabula::Outline` |
+| `Renard::Curie::Model::Document::Role::FromFile` | `Renard::Incunabula::Document::Role::FromFile` |
+| `Renard::Curie::Model::Document::Role::Pageable` | `Renard::Incunabula::Document::Role::Pageable` |
+| `Renard::Curie::Model::Document::Role::Cacheable` | `Renard::Incunabula::Document::Role::Cacheable` |
+| `Renard::Curie::Model::Document::Role::Renderable` | `Renard::Incunabula::Document::Role::Renderable` |
+| `Renard::Curie::Model::Document::Role::Boundable` | `Renard::Incunabula::Document::Role::Boundable` |
+| `Renard::Curie::Model::Document::Role::Outlineable` | `Renard::Incunabula::Document::Role::Outlineable` |
+| `Renard::Curie::Model::Page::Role::CairoRenderableFromPNG` | `Renard::Incunabula::Page::Role::CairoRenderableFromPNG` |
+| `Renard::Curie::Model::Page::Role::Bounds` | `Renard::Incunabula::Page::Role::Bounds` |
+| `Renard::Curie::Model::Page::Role::BoundsFromCairoImageSurface` | `Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface` |
+| `Renard::Curie::Model::Page::Role::CairoRenderable` | `Renard::Incunabula::Page::Role::CairoRenderable` |
+| `Renard::Curie::Model::Page::CairoImageSurface` | `Renard::Incunabula::Page::CairoImageSurface` |
+| `Renard::Curie::Model::Page::RenderedFromPNG` | `Renard::Incunabula::Page::RenderedFromPNG` |
+| `Renard::Curie::Model::Document::CairoImageSurface` | `Renard::Incunabula::Format::Cairo::ImageSurface::Document` |
+
+#### project-renard/p5-Renard-Incunabula-MuPDF-mutool
+
+The [[repo/p5-Renard-Incunabula-MuPDF-mutool]] repository wraps the `mutool` command line
+program from MuPDF in order to retrieve page bounding box information and
+to render document pages as PNG images.
+
+|  Original  | Renamed |
+|------------|---------|
+| `Renard::Curie::Data::PDF` | `Renard::Incunabula::MuPDF::mutool` |
+
+#### project-renard/p5-Renard-Incunabula-Format-PDF
+
+The [[repo/p5-Renard-Incunabula-Format-PDF]] repository contains models for
+working with PDF files. It currently uses [[repo/p5-Renard-Incunabula-MuPDF-mutool]]
+as the backend, but there are plans to use other backends.
+
+|  Original  | Renamed |
+|------------|---------|
+| `Renard::Curie::Model::Document::PDF` | `Renard::Incunabula::Format::PDF::Document` |
+| `Renard::Curie::Model::Page::PDF` | `Renard::Incunabula::Format::PDF::Page` |
+
+#### project-renard/p5-Renard-Incunabula-Frontend-Gtk3
+
+The [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] repository contains helper
+functions (e.g., shims for older versions of the `gtk+3` library) and roles
+(e.g., loading components from Glade GUI builder XML files) for Gtk3.
+
+|  Original  | Renamed |
+|------------|---------|
+| `Renard::Curie::Helper` | `Renard::Incunabula::Frontend::Gtk3::Helper` |
+| `Renard::Curie::Component::Role::FromBuilder` | `Renard::Incunabula::Frontend::Gtk3::Component::Role::FromBuilder` |
+| `Renard::Curie::Component::Role::UIFileFromPackageName` | `Renard::Incunabula::Frontend::Gtk3::Component::Role::UIFileFromPackageName` |
+
+
+### Creating the new repositories
+
+In order to create new repositories for these files, it is necessary to first
+make sure that we only keep the commits in the history that touch those files.
+The first step is to create clones of the original [[repo/curie]] repo for each
+of the new repositories. To do so, `.nfo` files are created that contain the
+information from the above renaming tables. In
+`project-renard/rename/p5-Renard-Incunabula-Format-PDF.nfo`, this looks like
+
+    s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,
+    s,Renard::Curie::Model::Page::PDF,Renard::Incunabula::Format::PDF::Page,
+
+Each original package name is listed in a `sed(1)` style substitution using
+commas as the delimiters (as opposed to the traditional forward-slash since
+this conflicts with file paths).
+
+
+We then run the following script for each repo in the form `./repo-process.sh
+p5-Renard-Incunabula-Format-PDF`.
+
+In `project-renard/rename/repo-process.sh`:
+
+    #!/bin/sh
+    
+    REPO="$1";
+    [ -z "$REPO" ] && echo "no repo" && exit 1
+    
+    cd ~/sw_projects/project-renard/$REPO/$REPO
+    PATHS_TO_KEEP=`~/sw_projects/project-renard/rename/files-to-keep.sh ~/sw_projects/project-renard/rename/$REPO.nfo | tr '\n' ' '`
+    if [ "$REPO" = "p5-Renard-Incunabula" ]; then
+        PATHS_TO_KEEP="$PATHS_TO_KEEP t/lib/CurieTestHelper.pm"
+    fi
+    echo $PATHS_TO_KEEP
+    BRANCH_TO_EXTRACT_FROM='master'
+    
+    git filter-branch -f --index-filter \
+        "git rm --ignore-unmatch --cached -qr -- . && git reset -q \$GIT_COMMIT -- $PATHS_TO_KEEP" \
+        --prune-empty -- $BRANCH_TO_EXTRACT_FROM
+
+In `project-renard/rename/files-to-keep.sh`:
+
+    #!/bin/sh
+    
+    FILE_OF_REPLACEMENTS="$1"
+    grep -o 's,[^,]*,' $FILE_OF_REPLACEMENTS \
+        | grep -o 'Renard[^,]*' \
+        | sed -e 's,::,/,g' \
+        | sed 's,\(.*\),lib/\1.pm t/\1.t,' \
+        | sed 's/ /\n/' | sort -u \
+        | xargs -I{} bash -c '[ -f "{}" ] && ls {}' \
+        | xargs -n1 git log --name-only --format=format: --follow -- \
+        | sort -u | grep -v '^$'
+
+What this does is keep all the git history for the files that are under the
+`lib/` and `t/` directories that refer to that package. So for the line
+
+    s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,
+
+it would keep the files `lib/Renard/Curie/Model/Document/PDF.pm` and
+`t/Renard/Curie/Model/Document/PDF.t` and any of the commits that contained
+those files or their previous names (by using `git log --follow`).
+
+### Renaming the packages
+
+The previous step only moves the files into the new repositories, but does not
+rename their contents. The following script changes the contents of
+each repository by calling `./do-replacements.sh`.
+
+In `project-renard/rename/do-replacements.sh`:
+
+    #!/bin/sh
+    
+    DIR_INFO="$HOME/sw_projects/project-renard/rename"
+    REPO_DIRS=`ls $DIR_INFO/*.nfo | xargs -n1 basename | sed 's/.nfo$//'`
+    SED_LIBS=`cat $DIR_INFO/*.nfo | awk '{ print length, $0 }'| sort -nr | cut -d' ' -f2 | tr '\n' ';'`
+    SED_FILES=`echo $SED_LIBS | sed -e 's,::,/,g'`
+    
+    #echo $SED_LIBS
+    #echo $SED_FILES
+    
+    
+    for repo in $REPO_DIRS curie; do
+        REPO_DIR="$HOME/sw_projects/project-renard/$repo/$repo"
+        REPO_FILES=`find $REPO_DIR/lib $REPO_DIR/t -type f`;
+        perl -pi -e "$SED_LIBS" $REPO_FILES
+        rename -n "$SED_FILES" $REPO_FILES \
+            | sed -e 's,rename(,smv ,' -e 's,)$,,' -e 's/,//' \
+            | sh
+    done
+    
+    for repo in $REPO_DIRS; do
+        REPO_DIR="$HOME/sw_projects/project-renard/$repo/$repo"
+        cd $REPO_DIR
+        git add .
+        git tag -d $(git tag -l)
+    done
+
+What this does is take all of the `.nfo` files that contain those
+substitutions and applies those substitutions in each repository (i.e., the new
+repositories and curie). Not only does it apply those substitutions to the
+contents of the files, but also to the full paths using the `rename(1p)`
+command. So the previously mentioned files are renamed as follows:
+
+|  Original  | Renamed |
+|------------|---------|
+| `lib/Renard/Curie/Model/Document/PDF.pm` | `lib/Renard/Incunabula/Format/PDF/Document.pm` |
+| `t/Renard/Curie/Model/Document/PDF.t` | `t/Renard/Incunabula/Format/PDF/Document.t` |
+
+
+In addition, for all the new repositories (i.e., not curie), the tags are deleted
+since the older release versions do not apply.
+
+Finally, the package in `t/lib/CurieTestHelper.pm` has been turned into the
+library package `Renard::Incunabula::Devel::TestHelper` in
+[[repo/p5-Renard-Incunabula]].  This allows it to be shared by the testing code
+in all the repositories.
+
+## Tracking dependencies and other developer maintenance 
+
+Since each of the new repositories are starting off without any of the
+developer maintenance setup that [[repo/curie]] has (such as the list of native
+dependencies and CI configuration), it is necessary to make sure that they
+start off with a basic skeleton. This is contained in the [[`skeleton`|https://github.com/project-renard/devops/tree/master/skeleton]]
+directory of [[repo/devops]].
+
+In particular, the following files are special because they are used to specify
+dependencies:
+
+### cpanfile-git
+
+The `maint/cpanfile-git` file contains the repository Git URLs and branch
+name for any of the other Project Renard dependencies that are needed to
+run the code in the current repository. Having this allows for testing
+changes in those dependencies by just switching to another branch name. For
+example, the [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] `cpanfile-git` file
+contains
+
+<code>
+<pre>
+    requires 'Renard::Incunabula',
+        git => 'https://github.com/project-renard/p5-Renard-Incunabula.git',
+        branch => 'master';
+</pre>
+</code>
+
+which means that when building under a CI environment, the
+`Renard-Incunabula` distribution will be installed from the Git repository
+before it is pulled from CPAN. In fact, this approach allowed the tests to
+run under the CI environment before all of the dependencies were uploaded to
+CPAN as long as the following environment variable was set
+
+<code>
+<pre>
+    - export PERL_CPANM_OPT="--skip-satisfied"
+</pre>
+</code>
+
+so that `cpanm` would not exit if the required module was installed but it
+could not find the required modules on CPAN.
+
+In addition to installing the code from source in the CI environment, the
+Git repository provides a commit SHA that can be used to decide whether to
+reinstall from source or keep the version that was previously installed at
+that SHA. This allows for shorter CI runs because modules that take a while
+to build such as [[repo/p5-Alien-MuPDF]] do not need to be rebuilt.
+
+### devops.yml
+
+The `maint/devops.yml` file specifies the native dependencies that are
+needed to run the code in the current repository. For
+example, the [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] `devops.yml` file
+contains
+
+<code>
+<pre>
+    ---
+    native:
+      debian:
+        packages:
+          - pkg-config
+          - libgirepository1.0-dev
+          - gobject-introspection
+          - libgtk-3-dev
+      macos-homebrew:
+        packages:
+          - gtk+3
+          - gtk-mac-integration
+          - gnome-icon-theme
+      msys2-mingw64:
+        packages:
+          - mingw-w64-x86_64-perl
+          - mingw-w64-x86_64-gobject-introspection
+          - mingw-w64-x86_64-cairo
+          - mingw-w64-x86_64-gtk3
+</pre>
+</code>
+
+which specifies all the `gtk+3` packages needed by that repository. This is
+used to install each module from source so it is not necessary to repeat the
+native dependencies of each of the repositories specified in `cpanfile-git`
+since the `devops.yml` files of those repositories will specify what they need.
+
+# Conclusion
+
+Moving the code into separate repositories has not yet been used to create new
+applications, but it has made library code more modular and opened the way for
+more flexible approaches such as the ability to incorporate multiple rendering
+backends for a given file type such as PDF.
+
+While the refactoring code is not the cleanest approach, it does cover all the
+needs for this job. It may need to be revisited later to make a more
+general-purpose tool.
+
