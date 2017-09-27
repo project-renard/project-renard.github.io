@@ -97,8 +97,10 @@ of the new repositories. To do so, `.nfo` files are created that contain the
 information from the above renaming tables. In
 `project-renard/rename/p5-Renard-Incunabula-Format-PDF.nfo`, this looks like
 
+[[!format txt """
     s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,
     s,Renard::Curie::Model::Page::PDF,Renard::Incunabula::Format::PDF::Page,
+"""]]
 
 Each original package name is listed in a `sed(1)` style substitution using
 commas as the delimiters (as opposed to the traditional forward-slash since
@@ -110,6 +112,7 @@ p5-Renard-Incunabula-Format-PDF`.
 
 In `project-renard/rename/repo-process.sh`:
 
+[[!format sh """
     #!/bin/sh
     
     REPO="$1";
@@ -126,9 +129,11 @@ In `project-renard/rename/repo-process.sh`:
     git filter-branch -f --index-filter \
         "git rm --ignore-unmatch --cached -qr -- . && git reset -q \$GIT_COMMIT -- $PATHS_TO_KEEP" \
         --prune-empty -- $BRANCH_TO_EXTRACT_FROM
+"""]]
 
 In `project-renard/rename/files-to-keep.sh`:
 
+[[!format sh """
     #!/bin/sh
     
     FILE_OF_REPLACEMENTS="$1"
@@ -140,11 +145,14 @@ In `project-renard/rename/files-to-keep.sh`:
         | xargs -I{} bash -c '[ -f "{}" ] && ls {}' \
         | xargs -n1 git log --name-only --format=format: --follow -- \
         | sort -u | grep -v '^$'
+"""]]
 
 What this does is keep all the git history for the files that are under the
 `lib/` and `t/` directories that refer to that package. So for the line
 
+[[!format txt """
     s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,
+"""]]
 
 it would keep the files `lib/Renard/Curie/Model/Document/PDF.pm` and
 `t/Renard/Curie/Model/Document/PDF.t` and any of the commits that contained
@@ -158,6 +166,7 @@ each repository by calling `./do-replacements.sh`.
 
 In `project-renard/rename/do-replacements.sh`:
 
+[[!format sh """
     #!/bin/sh
     
     DIR_INFO="$HOME/sw_projects/project-renard/rename"
@@ -184,6 +193,7 @@ In `project-renard/rename/do-replacements.sh`:
         git add .
         git tag -d $(git tag -l)
     done
+"""]]
 
 What this does is take all of the `.nfo` files that contain those
 substitutions and applies those substitutions in each repository (i.e., the new
@@ -225,13 +235,11 @@ changes in those dependencies by just switching to another branch name. For
 example, the [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] `cpanfile-git` file
 contains
 
-<code>
-<pre>
+[[!format perl """
     requires 'Renard::Incunabula',
         git => 'https://github.com/project-renard/p5-Renard-Incunabula.git',
         branch => 'master';
-</pre>
-</code>
+"""]]
 
 which means that when building under a CI environment, the
 `Renard-Incunabula` distribution will be installed from the Git repository
@@ -239,11 +247,9 @@ before it is pulled from CPAN. In fact, this approach allowed the tests to
 run under the CI environment before all of the dependencies were uploaded to
 CPAN as long as the following environment variable was set
 
-<code>
-<pre>
+[[!format yaml """
     - export PERL_CPANM_OPT="--skip-satisfied"
-</pre>
-</code>
+"""]]
 
 so that `cpanm` would not exit if the required module was installed but it
 could not find the required modules on CPAN.
@@ -261,8 +267,7 @@ needed to run the code in the current repository. For
 example, the [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] `devops.yml` file
 contains
 
-<code>
-<pre>
+[[!format yaml """
     ---
     native:
       debian:
@@ -282,8 +287,7 @@ contains
           - mingw-w64-x86_64-gobject-introspection
           - mingw-w64-x86_64-cairo
           - mingw-w64-x86_64-gtk3
-</pre>
-</code>
+"""]]
 
 which specifies all the `gtk+3` packages needed by that repository. This is
 used to install each module from source so it is not necessary to repeat the
