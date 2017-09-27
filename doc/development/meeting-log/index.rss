@@ -8,7 +8,417 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
+<pubDate>Wed, 27 Sep 2017 13:03:14 +0000</pubDate>
+<item>
+	<title>Modularising and splitting Curie</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2017/09/20/modularising-and-splitting-curie/</guid>
+
+	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2017/09/20/modularising-and-splitting-curie/</link>
+
+	<dc:creator>zaki</dc:creator>
+
+
+	<pubDate>Thu, 21 Sep 2017 02:49:08 +0000</pubDate>
+	<dcterms:modified>2017-09-27T13:03:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;In order to make it easier to modify parts of Curie independently and make it
+possible to combine the codebase with other modules in new ways, it was
+necessary to split Curie into separate modules.&lt;/p&gt;
+
+&lt;p&gt;For example, if we want to create a new Gtk3-based application, then pulling in
+a module which contains helper functions for setting up Gtk3 could be shared
+amongst all Gtk3-based applications instead of copying the code into each new
+application.&lt;/p&gt;
+
+&lt;h2 id=&quot;renamingthequick-and-dirtyway&quot;&gt;Renaming the quick-and-dirty way&lt;/h2&gt;
+
+&lt;p&gt;The first step towards refactoring is renaming the modules that make up Curie.
+Since all of the code is placed under the &lt;code&gt;Renard::Curie&lt;/code&gt; namespace, a new
+namespace must be created and all the non-Curie specific modules need to be
+placed under that. This new namespace is &lt;code&gt;Renard::Incunabula&lt;/code&gt; and the name
+changes are specified in the following subsection.&lt;/p&gt;
+
+&lt;h3 id=&quot;packagerenamingbyfinalrepository&quot;&gt;Package renaming by final repository&lt;/h3&gt;
+
+&lt;h4 id=&quot;project-renardp5-renard-incunabula&quot;&gt;project-renard/p5-Renard-Incunabula&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula/&quot;&gt;p5-Renard-Incunabula&lt;/a&gt; repository is for common code that all tools
+can use. In particular, it contains the common development setup (such as
+&lt;a href=&quot;https://p3rl.org/Function::Parameters&quot;&gt;&lt;code&gt;Function::Parameters&lt;/code&gt;&lt;/a&gt;, error types,
+and data types) and generic document/page models.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Original&lt;/th&gt;
+	&lt;th&gt;Renamed&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Setup&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Common::Setup&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Types&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Common::Types&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Error&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Common::Error&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Outline&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Outline&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::FromFile&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::FromFile&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::Pageable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::Pageable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::Cacheable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::Cacheable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::Renderable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::Renderable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::Boundable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::Boundable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::Role::Outlineable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Document::Role::Outlineable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::Role::CairoRenderableFromPNG&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::Role::CairoRenderableFromPNG&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::Role::Bounds&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::Role::Bounds&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::Role::BoundsFromCairoImageSurface&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::Role::CairoRenderable&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::Role::CairoRenderable&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::CairoImageSurface&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::CairoImageSurface&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::RenderedFromPNG&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Page::RenderedFromPNG&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::CairoImageSurface&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Format::Cairo::ImageSurface::Document&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;project-renardp5-renard-incunabula-mupdf-mutool&quot;&gt;project-renard/p5-Renard-Incunabula-MuPDF-mutool&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-MuPDF-mutool/&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/a&gt; repository wraps the &lt;code&gt;mutool&lt;/code&gt; command line
+program from MuPDF in order to retrieve page bounding box information and
+to render document pages as PNG images.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Original&lt;/th&gt;
+	&lt;th&gt;Renamed&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Data::PDF&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::MuPDF::mutool&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;project-renardp5-renard-incunabula-format-pdf&quot;&gt;project-renard/p5-Renard-Incunabula-Format-PDF&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Format-PDF/&quot;&gt;p5-Renard-Incunabula-Format-PDF&lt;/a&gt; repository contains models for
+working with PDF files. It currently uses &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-MuPDF-mutool/&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/a&gt;
+as the backend, but there are plans to use other backends.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Original&lt;/th&gt;
+	&lt;th&gt;Renamed&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Document::PDF&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Format::PDF::Document&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Model::Page::PDF&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Format::PDF::Page&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;project-renardp5-renard-incunabula-frontend-gtk3&quot;&gt;project-renard/p5-Renard-Incunabula-Frontend-Gtk3&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; repository contains helper
+functions (e.g., shims for older versions of the &lt;code&gt;gtk+3&lt;/code&gt; library) and roles
+(e.g., loading components from Glade GUI builder XML files) for Gtk3.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Original&lt;/th&gt;
+	&lt;th&gt;Renamed&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Helper&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Frontend::Gtk3::Helper&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Component::Role::FromBuilder&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Frontend::Gtk3::Component::Role::FromBuilder&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Curie::Component::Role::UIFileFromPackageName&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Renard::Incunabula::Frontend::Gtk3::Component::Role::UIFileFromPackageName&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;creatingthenewrepositories&quot;&gt;Creating the new repositories&lt;/h3&gt;
+
+&lt;p&gt;In order to create new repositories for these files, it is necessary to first
+make sure that we only keep the commits in the history that touch those files.
+The first step is to create clones of the original &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/curie/&quot;&gt;curie&lt;/a&gt; repo for each
+of the new repositories. To do so, &lt;code&gt;.nfo&lt;/code&gt; files are created that contain the
+information from the above renaming tables. In
+&lt;code&gt;project-renard/rename/p5-Renard-Incunabula-Format-PDF.nfo&lt;/code&gt;, this looks like&lt;/p&gt;
+
+&lt;pre&gt;    s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,
+    s,Renard::Curie::Model::Page::PDF,Renard::Incunabula::Format::PDF::Page,&lt;/pre&gt;
+
+&lt;p&gt;Each original package name is listed in a &lt;code&gt;sed(1)&lt;/code&gt; style substitution using
+commas as the delimiters (as opposed to the traditional forward-slash since
+this conflicts with file paths).&lt;/p&gt;
+
+&lt;p&gt;We then run the following script for each repo in the form &lt;code&gt;./repo-process.sh
+p5-Renard-Incunabula-Format-PDF&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In &lt;code&gt;project-renard/rename/repo-process.sh&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+    REPO&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;hl opt&quot;&gt;[ -&lt;/span&gt;z &lt;span class=&quot;hl str&quot;&gt;&amp;quot;$REPO&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;] &amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;no repo&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;
+
+    &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; ~&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;sw_projects&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;project&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;renard&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$REPO&lt;/span&gt;
+    PATHS_TO_KEEP&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`~/sw_projects/project-renard/rename/files-to-keep.sh ~/sw_projects/project-renard/rename/$REPO.nfo | tr &#39;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39; &#39; &#39;`&lt;/span&gt;
+    &lt;span class=&quot;hl kwa&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;$REPO&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;p5-Renard-Incunabula&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;then&lt;/span&gt;
+        PATHS_TO_KEEP&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$PATHS_TO_KEEP t/lib/CurieTestHelper.pm&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;hl kwa&quot;&gt;fi&lt;/span&gt;
+    &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$PATHS_TO_KEEP&lt;/span&gt;
+    BRANCH_TO_EXTRACT_FROM&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39;master&#39;&lt;/span&gt;
+
+    git filter&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;branch &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;f &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;index&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;filter \
+        &lt;span class=&quot;hl str&quot;&gt;&amp;quot;git rm --ignore-unmatch --cached -qr -- . &amp;amp;&amp;amp; git reset -q \$GIT_COMMIT -- $PATHS_TO_KEEP&amp;quot;&lt;/span&gt; \
+        &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;prune&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;empty &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$BRANCH_TO_EXTRACT_FROM&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In &lt;code&gt;project-renard/rename/files-to-keep.sh&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+    FILE_OF_REPLACEMENTS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;o &lt;span class=&quot;hl str&quot;&gt;&#39;s,*,&#39;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$FILE_OF_REPLACEMENTS&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;o &lt;span class=&quot;hl str&quot;&gt;&#39;Renard*&#39;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,::,/,g&#39;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;s,\(.*\),lib/\1.pm t/\1.t,&#39;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;s/ /&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&#39;&lt;/span&gt; | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;u \
+        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;I&lt;span class=&quot;hl opt&quot;&gt;{}&lt;/span&gt; bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;c &lt;span class=&quot;hl str&quot;&gt;&#39;[ -f &amp;quot;{}&amp;quot; ] &amp;amp;&amp;amp; ls {}&#39;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;n1 git log &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;name&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;only &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;format&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;format&lt;span class=&quot;hl opt&quot;&gt;: --&lt;/span&gt;follow &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;u | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v &lt;span class=&quot;hl str&quot;&gt;&#39;^$&#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What this does is keep all the git history for the files that are under the
+&lt;code&gt;lib/&lt;/code&gt; and &lt;code&gt;t/&lt;/code&gt; directories that refer to that package. So for the line&lt;/p&gt;
+
+&lt;pre&gt;    s,Renard::Curie::Model::Document::PDF,Renard::Incunabula::Format::PDF::Document,&lt;/pre&gt;
+
+&lt;p&gt;it would keep the files &lt;code&gt;lib/Renard/Curie/Model/Document/PDF.pm&lt;/code&gt; and
+&lt;code&gt;t/Renard/Curie/Model/Document/PDF.t&lt;/code&gt; and any of the commits that contained
+those files or their previous names (by using &lt;code&gt;git log --follow&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;renamingthepackages&quot;&gt;Renaming the packages&lt;/h3&gt;
+
+&lt;p&gt;The previous step only moves the files into the new repositories, but does not
+rename their contents. The following script changes the contents of
+each repository by calling &lt;code&gt;./do-replacements.sh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In &lt;code&gt;project-renard/rename/do-replacements.sh&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+    DIR_INFO&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$HOME/sw_projects/project-renard/rename&amp;quot;&lt;/span&gt;
+    REPO_DIRS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`ls $DIR_INFO/*.nfo | xargs -n1 basename | sed &#39;s/.nfo$//&#39;`&lt;/span&gt;
+    SED_LIBS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`cat $DIR_INFO/*.nfo | awk &#39;{ print length, $0 }&#39;| sort -nr | cut -d&#39; &#39; -f2 | tr &#39;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39; &#39;;&#39;`&lt;/span&gt;
+    SED_FILES&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`echo $SED_LIBS | sed -e &#39;s,::,/,g&#39;`&lt;/span&gt;
+
+    &lt;span class=&quot;hl slc&quot;&gt;#echo $SED_LIBS&lt;/span&gt;
+    &lt;span class=&quot;hl slc&quot;&gt;#echo $SED_FILES&lt;/span&gt;
+
+
+    &lt;span class=&quot;hl kwa&quot;&gt;for&lt;/span&gt; repo &lt;span class=&quot;hl kwa&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_DIRS&lt;/span&gt; curie&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;do&lt;/span&gt;
+        REPO_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$HOME/sw_projects/project-renard/$repo/$repo&amp;quot;&lt;/span&gt;
+        REPO_FILES&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`find $REPO_DIR/lib $REPO_DIR/t -type f`&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+        perl &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pi &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&amp;quot;$SED_LIBS&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt;
+        rename &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;n &lt;span class=&quot;hl str&quot;&gt;&amp;quot;$SED_FILES&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt; \
+            | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,rename(,smv ,&#39;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,)$,,&#39;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s/,//&#39;&lt;/span&gt; \
+            | sh
+    &lt;span class=&quot;hl kwa&quot;&gt;done&lt;/span&gt;
+
+    &lt;span class=&quot;hl kwa&quot;&gt;for&lt;/span&gt; repo &lt;span class=&quot;hl kwa&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_DIRS&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;do&lt;/span&gt;
+        REPO_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;$HOME/sw_projects/project-renard/$repo/$repo&amp;quot;&lt;/span&gt;
+        &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_DIR&lt;/span&gt;
+        git add .
+        git tag &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;d $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;git tag &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;l&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;hl kwa&quot;&gt;done&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What this does is take all of the &lt;code&gt;.nfo&lt;/code&gt; files that contain those
+substitutions and applies those substitutions in each repository (i.e., the new
+repositories and curie). Not only does it apply those substitutions to the
+contents of the files, but also to the full paths using the &lt;code&gt;rename(1p)&lt;/code&gt;
+command. So the previously mentioned files are renamed as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Original&lt;/th&gt;
+	&lt;th&gt;Renamed&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;lib/Renard/Curie/Model/Document/PDF.pm&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;lib/Renard/Incunabula/Format/PDF/Document.pm&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;&lt;code&gt;t/Renard/Curie/Model/Document/PDF.t&lt;/code&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;t/Renard/Incunabula/Format/PDF/Document.t&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In addition, for all the new repositories (i.e., not curie), the tags are deleted
+since the older release versions do not apply.&lt;/p&gt;
+
+&lt;p&gt;Finally, the package in &lt;code&gt;t/lib/CurieTestHelper.pm&lt;/code&gt; has been turned into the
+library package &lt;code&gt;Renard::Incunabula::Devel::TestHelper&lt;/code&gt; in
+&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula/&quot;&gt;p5-Renard-Incunabula&lt;/a&gt;.  This allows it to be shared by the testing code
+in all the repositories.&lt;/p&gt;
+
+&lt;h2 id=&quot;trackingdependenciesandotherdevelopermaintenance&quot;&gt;Tracking dependencies and other developer maintenance&lt;/h2&gt;
+
+&lt;p&gt;Since each of the new repositories are starting off without any of the
+developer maintenance setup that &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/curie/&quot;&gt;curie&lt;/a&gt; has (such as the list of native
+dependencies and CI configuration), it is necessary to make sure that they
+start off with a basic skeleton. This is contained in the &lt;a href=&quot;https://github.com/project-renard/devops/tree/master/skeleton&quot;&gt;&lt;code&gt;skeleton&lt;/code&gt;&lt;/a&gt;
+directory of &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/devops/&quot;&gt;devops&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In particular, the following files are special because they are used to specify
+dependencies:&lt;/p&gt;
+
+&lt;h3 id=&quot;cpanfile-git&quot;&gt;cpanfile-git&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;maint/cpanfile-git&lt;/code&gt; file contains the repository Git URLs and branch
+name for any of the other Project Renard dependencies that are needed to
+run the code in the current repository. Having this allows for testing
+changes in those dependencies by just switching to another branch name. For
+example, the &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; &lt;code&gt;cpanfile-git&lt;/code&gt; file
+contains&lt;/p&gt;
+
+&lt;div class=&quot;highlight-perl&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    requires &lt;span class=&quot;hl str&quot;&gt;&#39;Renard::Incunabula&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
+        git &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;https://github.com/project-renard/p5-Renard-Incunabula.git&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
+        branch &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;master&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;which means that when building under a CI environment, the
+&lt;code&gt;Renard-Incunabula&lt;/code&gt; distribution will be installed from the Git repository
+before it is pulled from CPAN. In fact, this approach allowed the tests to
+run under the CI environment before all of the dependencies were uploaded to
+CPAN as long as the following environment variable was set&lt;/p&gt;
+
+&lt;p&gt;[[!format &lt;span class=&quot;error&quot;&gt;Error: unsupported page format yaml&lt;/span&gt;]]&lt;/p&gt;
+
+&lt;p&gt;so that &lt;code&gt;cpanm&lt;/code&gt; would not exit if the required module was installed but it
+could not find the required modules on CPAN.&lt;/p&gt;
+
+&lt;p&gt;In addition to installing the code from source in the CI environment, the
+Git repository provides a commit SHA that can be used to decide whether to
+reinstall from source or keep the version that was previously installed at
+that SHA. This allows for shorter CI runs because modules that take a while
+to build such as &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Alien-MuPDF/&quot;&gt;p5-Alien-MuPDF&lt;/a&gt; do not need to be rebuilt.&lt;/p&gt;
+
+&lt;h3 id=&quot;devops.yml&quot;&gt;devops.yml&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;maint/devops.yml&lt;/code&gt; file specifies the native dependencies that are
+needed to run the code in the current repository. For
+example, the &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; &lt;code&gt;devops.yml&lt;/code&gt; file
+contains&lt;/p&gt;
+
+&lt;p&gt;[[!format &lt;span class=&quot;error&quot;&gt;Error: unsupported page format yaml&lt;/span&gt;]]&lt;/p&gt;
+
+&lt;p&gt;which specifies all the &lt;code&gt;gtk+3&lt;/code&gt; packages needed by that repository. This is
+used to install each module from source so it is not necessary to repeat the
+native dependencies of each of the repositories specified in &lt;code&gt;cpanfile-git&lt;/code&gt;
+since the &lt;code&gt;devops.yml&lt;/code&gt; files of those repositories will specify what they need.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Moving the code into separate repositories has not yet been used to create new
+applications, but it has made library code more modular and opened the way for
+more flexible approaches such as the ability to incorporate multiple rendering
+backends for a given file type such as PDF.&lt;/p&gt;
+
+&lt;p&gt;While the refactoring code is not the cleanest approach, it does cover all the
+needs for this job. It may need to be revisited later to make a more
+general-purpose tool.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Catching up with milestones</title>
 
@@ -18,7 +428,7 @@
 
 
 	<pubDate>Sat, 13 May 2017 18:00:00 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000&quot;&gt;Meeting time&lt;/a&gt;.&lt;/p&gt;
@@ -317,7 +727,7 @@ organised will come later.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Tue, 20 Dec 2016 23:57:59 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;style&gt;
@@ -529,7 +939,7 @@ on all platforms
 
 
 	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
@@ -606,7 +1016,7 @@ on all platforms
 
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
@@ -1575,7 +1985,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 02 Apr 2016 16:47:49 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -1625,7 +2035,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
@@ -1672,7 +2082,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -1779,7 +2189,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -1839,7 +2249,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
@@ -1867,44 +2277,6 @@ with.&lt;/p&gt;
 which addresses issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/25&quot;&gt;
 &lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/25&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/25.svg&quot;/&gt;
 &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-	<title>some project organisation</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</guid>
-
-	<link>http://project-renard.github.io//doc/development/meeting-log/posts/2016/02/14/some-project-organisation/</link>
-
-
-	<pubDate>Sun, 14 Feb 2016 03:30:07 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
-
-
-	<description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Assigned some tasks for further work on the GUI:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Stan: put the drawing area in a scrollable region &lt;a href=&quot;https://github.com/project-renard/curie/issues/7&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/7&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/7.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chirag: Add a text field for selecting page by number &lt;a href=&quot;https://github.com/project-renard/curie/issues/8&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/8&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/8.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Zaki: Set the window title to the PDF filename &lt;a href=&quot;https://github.com/project-renard/curie/issues/9&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/issues/9&quot; src=&quot;https://github-shields.com/github/project-renard/curie/issues/9.svg&quot;/&gt;
-&lt;/a&gt;
-with PR &lt;a href=&quot;https://github.com/project-renard/curie/pull/10&quot;&gt;
-&lt;img class=&quot;github-shield&quot; style=&quot;vertical-align: middle;&quot; alt=&quot;project-renard/curie/pull/10&quot; src=&quot;https://github-shields.com/github/project-renard/curie/pull/10.svg&quot;/&gt;
-&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Added a section to the wiki for &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../feature/&quot;&gt;features&lt;/a&gt; that are
-found in other similar software that might be worth implementing.&lt;/p&gt;
-
-&lt;p&gt;This will be supplemented with screenshots and links to example code.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 

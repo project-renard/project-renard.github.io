@@ -8,21 +8,23 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
+<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
 <item>
-	<title>EndNote</title>
+	<title>Mendeley</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/endnote/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mendeley/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/endnote/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/mendeley/</link>
 
 
+
+	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -33,7 +35,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            EndNote
+            Mendeley
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -44,7 +46,7 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -58,8 +60,8 @@
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -86,97 +88,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
-	<title>ReadCube</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/readcube/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/readcube/</link>
-
-
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            ReadCube
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -186,12 +98,11 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
+PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Article metrics&lt;/li&gt;
-&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Features:
+- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
 </description>
 
 
@@ -208,8 +119,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -301,96 +212,6 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Papers</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
-
-
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Papers
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Docear</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/docear/</guid>
@@ -404,8 +225,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -504,21 +325,19 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Paperpile (older version)</title>
+	<title>Zotero</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/zotero/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/zotero/</link>
 
 
-
-	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -529,7 +348,7 @@ links to the papers which need to be cited.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Paperpile (older version)
+            Zotero
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -540,7 +359,7 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -550,6 +369,15 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -570,6 +398,12 @@ Runs: unknown
 
 
 
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Zotero&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -594,8 +428,8 @@ Runs: unknown
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -679,104 +513,6 @@ a real-time collaborative editor.&lt;/p&gt;
 
 </item>
 <item>
-	<title>Mendeley</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/mendeley/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/mendeley/</link>
-
-
-
-	<category>handles-file-type/application-pdf</category>
-
-	<category>software-type/reference-management</category>
-
-
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Mendeley
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://static.blog.mendeley.com/wp-content/uploads/2012/06/1.6-dev2-mac.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Mendeley&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; is a reference manager with an embedded
-PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
-
-&lt;p&gt;Features:
-- &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
 	<title>Qiqqa</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/qiqqa/</guid>
@@ -788,8 +524,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -867,19 +603,21 @@ Runs: unknown
 
 </item>
 <item>
-	<title>Zotero</title>
+	<title>Paperpile (older version)</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/zotero/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/paperpile-older/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/zotero/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/paperpile-older/</link>
 
 
+
+	<category>handles-file-type/application-pdf</category>
 
 	<category>software-type/reference-management</category>
 
 
-	<pubDate>Mon, 10 Jul 2017 21:17:11 +0000</pubDate>
-	<dcterms:modified>2017-07-10T21:17:11Z</dcterms:modified>
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -890,7 +628,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Zotero
+            Paperpile (older version)
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -901,7 +639,82 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>Papers</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/papers/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/papers/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Papers
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.papersapp.com/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -915,8 +728,8 @@ Runs: unknown
 &lt;tr&gt;
     &lt;td&gt;
         &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/57/Zotero_2.0.9_recognizing_references_on_Wikipedia.org.png&quot;/&gt;
+        &lt;a href=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://www.papersapp.com/img/v3/screenshots/mac/hero.png&quot;/&gt;
         &lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
@@ -943,7 +756,194 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Zotero&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Papers_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
+<item>
+	<title>ReadCube</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/readcube/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/readcube/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ReadCube
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://www.readcube.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://green.readcube-cdn.com/assets/homepage/researchers/enhanced@2x-64884952ad053971fcb4dc7421fe5de4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/ReadCube&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Article metrics&lt;/li&gt;
+&lt;li&gt;Enhanced PDF: supplementary data&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>EndNote</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/endnote/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/endnote/</link>
+
+
+
+	<category>software-type/reference-management</category>
+
+
+	<pubDate>Mon, 10 Jul 2017 21:53:51 +0000</pubDate>
+	<dcterms:modified>2017-07-10T21:53:51Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            EndNote
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://endnote.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://1.f.ix.de/imagine/swvz-programme/zdFBzIjdiUgifQ6NFoKksOmI5dY/content/EndNote.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/EndNote&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
