@@ -1,6 +1,7 @@
 [submodule "rubykat-ikiplugins"]
 	path = .ikiwiki-plugins/rubykat-ikiplugins
-	url = https://github.com/rubykat/ikiplugins.git
+	url = https://github.com/ikiwiki-tavi/rubykat-ikiplugins.git
+	branch = include
 [submodule "p5-IkiWiki-Plugin-tex"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-tex
 	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-tex.git
