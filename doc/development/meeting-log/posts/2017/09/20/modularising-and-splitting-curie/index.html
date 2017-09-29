@@ -522,7 +522,9 @@ before it is pulled from CPAN. In fact, this approach allowed the tests to
 run under the CI environment before all of the dependencies were uploaded to
 CPAN as long as the following environment variable was set</p>
 
-<p>[[!format <span class="error">Error: unsupported page format yaml</span>]]</p>
+<!-- should be yaml format but highlight plugin needs to be updated -->
+
+<pre>    - export PERL_CPANM_OPT="--skip-satisfied"</pre>
 
 <p>so that <code>cpanm</code> would not exit if the required module was installed but it
 could not find the required modules on CPAN.</p>
@@ -540,7 +542,27 @@ needed to run the code in the current repository. For
 example, the <a href="../../../../../../repo/p5-Renard-Incunabula-Frontend-Gtk3/">p5-Renard-Incunabula-Frontend-Gtk3</a> <code>devops.yml</code> file
 contains</p>
 
-<p>[[!format <span class="error">Error: unsupported page format yaml</span>]]</p>
+<!-- should be yaml format but highlight plugin needs to be updated -->
+
+<pre>    ---
+    native:
+      debian:
+        packages:
+          - pkg-config
+          - libgirepository1.0-dev
+          - gobject-introspection
+          - libgtk-3-dev
+      macos-homebrew:
+        packages:
+          - gtk+3
+          - gtk-mac-integration
+          - gnome-icon-theme
+      msys2-mingw64:
+        packages:
+          - mingw-w64-x86_64-perl
+          - mingw-w64-x86_64-gobject-introspection
+          - mingw-w64-x86_64-cairo
+          - mingw-w64-x86_64-gtk3</pre>
 
 <p>which specifies all the <code>gtk+3</code> packages needed by that repository. This is
 used to install each module from source so it is not necessary to repeat the
@@ -600,7 +622,7 @@ general-purpose tool.</p>
 
 
 <div class="pagedate">
-Last edited <span class="date">Wed 27 Sep 2017 01:03:14 PM UTC</span>
+Last edited <span class="date">Fri 29 Sep 2017 01:06:49 PM UTC</span>
 <!-- Created <span class="date">Thu 21 Sep 2017 02:49:08 AM UTC</span> -->
 </div>
 
