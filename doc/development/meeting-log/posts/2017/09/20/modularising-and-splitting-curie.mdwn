@@ -247,7 +247,9 @@ before it is pulled from CPAN. In fact, this approach allowed the tests to
 run under the CI environment before all of the dependencies were uploaded to
 CPAN as long as the following environment variable was set
 
-[[!format yaml """
+<!-- should be yaml format but highlight plugin needs to be updated -->
+
+[[!format txt """
     - export PERL_CPANM_OPT="--skip-satisfied"
 """]]
 
@@ -267,7 +269,9 @@ needed to run the code in the current repository. For
 example, the [[repo/p5-Renard-Incunabula-Frontend-Gtk3]] `devops.yml` file
 contains
 
-[[!format yaml """
+<!-- should be yaml format but highlight plugin needs to be updated -->
+
+[[!format txt """
     ---
     native:
       debian:
