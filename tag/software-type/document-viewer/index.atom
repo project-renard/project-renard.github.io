@@ -33,8 +33,8 @@
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -128,100 +128,6 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>UpLib</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-
-	<updated>2017-08-22T01:09:06Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            UpLib
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/uplib/gfx/uplib-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/uplib/gfx/uplib-logo.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;papers&quot;&gt;Papers&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/4118613/&quot;&gt;The UpLib personal digital library system&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/1336128/&quot;&gt;Collaborative extensions for the UpLib system&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Utopia Documents</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/utopia-documents/</id>
@@ -236,8 +142,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -324,11 +230,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Nitro Reader</title>
+	<title>UpLib</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/nitro-reader/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/uplib/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/nitro-reader/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/uplib/"/>
 
 
 
@@ -338,8 +244,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-08-22T01:09:06Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -351,7 +257,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Nitro Reader
+            UpLib
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -359,21 +265,27 @@ Runs: unknown
 
 
 
-
-
-
-
-
-
-
-
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/uplib/gfx/uplib-logo.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/uplib/gfx/uplib-logo.png&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/nitro-pdf-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/xerox-parc-uplib-mirror&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -399,6 +311,207 @@ Runs: unknown
 &lt;/table&gt;
 &lt;/div&gt;
 
+&lt;h2 id=&quot;papers&quot;&gt;Papers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/4118613/&quot;&gt;The UpLib personal digital library system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/1336128/&quot;&gt;Collaborative extensions for the UpLib system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>LiquidText</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/liquidtext/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/liquidtext/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            LiquidText
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://liquidtext.net/product/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.macsparky.com/blog/2016/6/liquid-text-2-a-different-take-on-pdfs-for-ipad&quot;&gt;Discussion&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Okular</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/okular/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/okular/"/>
+
+
+
+
+
+
+	<category term="software-type/document-viewer" />
+
+
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Okular
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Okular&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install, run:&lt;/p&gt;
+
+&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;TODO:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 	</content>
 
 
@@ -419,8 +532,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -544,116 +657,6 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>PDF.js</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
-
-
-
-
-
-
-	<category term="software-type/document-viewer" />
-
-	<category term="software-type/library" />
-
-
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            PDF.js
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Evince</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/evince/</id>
@@ -668,8 +671,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1431,11 +1434,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>LiquidText</title>
+	<title>PDF.js</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/liquidtext/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/liquidtext/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
 
 
 
@@ -1444,9 +1447,11 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 	<category term="software-type/document-viewer" />
 
+	<category term="software-type/library" />
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1458,7 +1463,7 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            LiquidText
+            PDF.js
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1466,10 +1471,16 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/document-viewer/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://liquidtext.net/product/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -1480,7 +1491,22 @@ until the mouse is hovered near the top of the screen.&lt;/p&gt;
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -1500,13 +1526,17 @@ Runs: unknown
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.macsparky.com/blog/2016/6/liquid-text-2-a-different-take-on-pdfs-for-ipad&quot;&gt;Discussion&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
@@ -1528,8 +1558,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1595,11 +1625,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>Okular</title>
+	<title>Nitro Reader</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/okular/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/nitro-reader/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/okular/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/nitro-reader/"/>
 
 
 
@@ -1609,8 +1639,8 @@ Runs: unknown
 	<category term="software-type/document-viewer" />
 
 
-	<updated>2017-07-12T05:40:25Z</updated>
-	<published>2017-07-12T05:40:25Z</published>
+	<updated>2017-07-12T11:16:18Z</updated>
+	<published>2017-07-12T11:16:18Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -1622,7 +1652,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            Okular
+            Nitro Reader
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -1631,11 +1661,7 @@ Runs: unknown
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
+
 
 
 
@@ -1646,14 +1672,9 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/5/58/Okularkde4.png&quot;/&gt;
-        &lt;/a&gt;
+&lt;a href=&quot;http://alternativeto.net/software/nitro-pdf-reader/&quot;&gt;AlternativeTo&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
-
-
 
 
 
@@ -1673,32 +1694,11 @@ Runs: unknown
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Okular&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;To install, run:&lt;/p&gt;
-
-&lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;sudo apt&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;no&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;recommends okular jovie
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;TODO:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Show menus&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show the zoom level&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show continuous, single page, facing page, overview, trim margin&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show sidebar operation&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Show selection: region selection (text and image), text selection, table selection&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 	</content>
 
