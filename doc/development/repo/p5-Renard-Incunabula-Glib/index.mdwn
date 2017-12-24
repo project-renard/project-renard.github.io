@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Renard-Incunabula-Glib
+cpan: Renard-Incunabula-Glib
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Glib
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Glib.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Glib
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/7tutakl3q9hltjya/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Glib?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Glib/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
