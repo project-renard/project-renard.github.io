@@ -1,0 +1,15 @@
+---
+Name: ParsCit
+Homepage: http://parscit.comp.nus.edu.sg/
+Status: Active
+EstablishedForDistribution: true
+Runs: true
+SoftwareForm: Web application, library
+SourceCode: https://github.com/knmnyn/parscit
+ProgrammingLanguage: Perl, C++
+---
+[[!ftemplate id=tool]]
+
+[[Note about building of ParsCit|https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20]]
+
+[[!tag software-type/bibliography-parser]]

@@ -1,0 +1,13 @@
+---
+Name: FreeCite
+Homepage: http://freecite.library.brown.edu/
+Status: Active
+EstablishedForDistribution: true
+Runs: true
+SoftwareForm: Web application, library
+SourceCode: https://github.com/shoe/free_cite
+ProgrammingLanguage: Ruby, C++
+---
+[[!ftemplate id=tool]]
+
+[[!tag software-type/bibliography-parser]]

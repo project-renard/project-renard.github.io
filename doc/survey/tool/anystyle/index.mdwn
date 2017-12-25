@@ -1,0 +1,13 @@
+---
+Name: AnyStyle
+Homepage: https://anystyle.io/
+Status: Active
+EstablishedForDistribution: true
+Runs: true
+SoftwareForm: Web application, library
+SourceCode: https://github.com/inukshuk/anystyle-parser
+ProgrammingLanguage: Ruby, C
+---
+[[!ftemplate id=tool]]
+
+[[!tag software-type/bibliography-parser]]
