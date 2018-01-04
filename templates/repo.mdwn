@@ -17,6 +17,11 @@
 <a href="https://github.com/<TMPL_VAR NAME="repo">/pulls"><img src="https://img.shields.io/github/issues-pr/<TMPL_VAR NAME="repo">.svg"/></a>
     </td>
 </tr>
+<tr>
+    <td>
+<a href="https://github.com/<TMPL_VAR NAME="repo">/releases"><img src="https://img.shields.io/github/commits-since/<TMPL_VAR NAME="repo">/latest.svg"/></a>
+    </td>
+</tr>
 </TMPL_IF>
 <TMPL_IF NAME="cpan">
 <tr>

@@ -14,6 +14,8 @@
 <a href="https://github.com/<TMPL_VAR NAME="repo">/issues"><img src="https://img.shields.io/github/issues/<TMPL_VAR NAME="repo">.svg"/></a>
 <br/>
 <a href="https://github.com/<TMPL_VAR NAME="repo">/pulls"><img src="https://img.shields.io/github/issues-pr/<TMPL_VAR NAME="repo">.svg"/></a>
+<br/>
+<a href="https://github.com/<TMPL_VAR NAME="repo">/releases"><img src="https://img.shields.io/github/commits-since/<TMPL_VAR NAME="repo">/latest.svg"/></a>
 </td>
 <td>
 <TMPL_IF NAME="travis-ci">
