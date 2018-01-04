@@ -14,3 +14,8 @@ coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-MuPDF
 `Alien::MuPDF` requires the Debian package `libssl1.0-dev` to build.
 This is because it is not yet (as of mupdf 1.10a) compatible with the
 OpenSSL v1.1 API (still needs v1.0 API).
+
+# Notes
+
+- There are some MinGW patches in [this
+  fork](https://github.com/TamirEvan/mupdf).
