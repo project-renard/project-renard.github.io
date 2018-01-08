@@ -1,0 +1,25 @@
+[[!meta title="Curie release v0.004"]]
+[[!meta author="zaki"]]
+[[!meta description="Document property dialog"]]
+[[!meta link="/blog/posts/2018/01/08/gfx/curie-v0.004-document-properties.png" rel="image_src"]]
+[[!meta date="2018-01-08 02:20:28-0600"]]
+
+[[!img gfx/curie-v0.004-document-properties.png caption="""Curie GUI displaying the document properties of [[Social Determinants and universal health coverage by Professor Sir Michael Marmot|http://www.paho.org/forocoberturagt2014/wp-content/uploads/2014/08/Social-Determinants-and-UHC.pdf]] from [[Determinantes de la salud|http://www.paho.org/forocoberturagt2014/?attachment_id=361]]. See also Marmot, M. (2013). Universal health coverage and social determinants of health. *The Lancet* <http://dx.doi.org/10.1016/S0140-6736(13)61791-2>."""
+size="400x"
+]]
+
+
+The fourth pre-alpha release of Curie is now available. It
+features the following user-visible improvements:
+
+- The `File -> Properties` menu displays the document properties of the
+  currently open PDF document.
+
+Watch the video below for a demo:
+
+<iframe src="https://player.vimeo.com/video/250075570" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/250075570">Project Renard Curie v0.004 release demo</a> from <a href="https://vimeo.com/zmughal">Zaki Mughal</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+[[MetaCPAN|https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.004]]
+
+[[!tag release]]
