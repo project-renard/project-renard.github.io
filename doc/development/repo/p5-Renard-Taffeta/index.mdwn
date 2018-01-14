@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Renard-Taffeta
+cpan: Renard-Taffeta
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Taffeta
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Taffeta.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Taffeta
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/ncy9e0081ivsyqo7/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Taffeta?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Taffeta/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
