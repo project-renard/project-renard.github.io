@@ -1,0 +1,12 @@
+---
+repo: project-renard/p5-Renard-Incunabula-Cairo
+cpan: Renard-Incunabula-Cairo
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Cairo
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Cairo.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Cairo
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/wa0r5t522psqkpgr/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Cairo?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Cairo/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
