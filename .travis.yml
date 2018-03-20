@@ -24,6 +24,7 @@ addons:
       - texlive-latex-recommended
       - graphviz
       #- tj3 # not in Ubuntu Trusty
+      - dvipng # for teximg plugin
 install:
   - openssl aes-256-cbc -K $encrypted_4f43c47a058e_key -iv $encrypted_4f43c47a058e_iv -in .travisdeploykey.enc -out .travisdeploykey -d
   - chmod go-rwx .travisdeploykey
