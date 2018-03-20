@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-28T23:17:29Z</updated>
+<updated>2017-07-29T17:19:48Z</updated>
 <entry>
 	<title>Mendeley</title>
 
@@ -35,8 +35,8 @@
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-28T23:17:29Z</updated>
-	<published>2017-07-28T23:17:29Z</published>
+	<updated>2017-07-29T17:19:48Z</updated>
+	<published>2017-07-29T17:19:48Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -123,6 +123,89 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>Paperpile (older version)</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
+
+
+
+
+
+
+	<category term="handles-file-type/application-pdf" />
+
+	<category term="software-type/reference-management" />
+
+
+	<updated>2017-07-29T17:19:48Z</updated>
+	<published>2017-07-29T17:19:48Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Paperpile (older version)
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Paperpile</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/paperpile/</id>
@@ -139,8 +222,8 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 	<category term="software-type/reference-management" />
 
 
-	<updated>2017-07-28T23:17:29Z</updated>
-	<published>2017-07-28T23:17:29Z</published>
+	<updated>2017-07-29T17:19:48Z</updated>
+	<published>2017-07-29T17:19:48Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -220,89 +303,6 @@ distributed as a Chrome extension. It is tightly integrated with Google Apps
 services such as Google Docs and Google Drive. This allows for easy cloud
 storage and sharing of bibliography information with collaborators from inside
 a real-time collaborative editor.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Paperpile (older version)</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/paperpile-older/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/paperpile-older/"/>
-
-
-
-
-
-
-	<category term="handles-file-type/application-pdf" />
-
-	<category term="software-type/reference-management" />
-
-
-	<updated>2017-07-28T23:17:29Z</updated>
-	<published>2017-07-28T23:17:29Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Paperpile (older version)
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/project-renard-survey/paperpile&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
 
 	</content>
 
