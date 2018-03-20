@@ -17,6 +17,18 @@ See [[Jacquard loom|https://en.wikipedia.org/wiki/Jacquard_loom]].
 
 # Render tree
 
+## Transformation order
+
+[[!teximg  code="""
+\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix}
+"""]]
+
+## UML
+
 [[!graph src="""
 root -> item1
 
