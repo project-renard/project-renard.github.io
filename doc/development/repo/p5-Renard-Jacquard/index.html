@@ -161,11 +161,122 @@ p5-Renard-Jacquard
 
 <h2 id="transformationorder">Transformation order</h2>
 
-<p><img src="./0f2c6ebabc9beb3f4345af5b4057630a.png" alt="\begin{pmatrix}
-1 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 \\
-0 &amp; 0 &amp; 1 \\
-\end{pmatrix}" class="teximg" /></p>
+<h3 id="rectsizes">Rect sizes</h3>
+
+<p><img src="./d25ff2d974f72997d58f6558e4cef7f2.png" alt="\begin{aligned}
+r_0 :  [ 2   , 0.5 ] \times [ 100, 200 ] &amp;= [ 200, 100 ]\\
+r_1 :  [ 1   , 0.8 ] \times [ 100, 200 ] &amp;= [ 100, 160 ] \\
+r_2 :  [ 2.5 , 0.8 ] \times [ 100, 200 ] &amp;= [ 250, 160 ] \\
+r_3 :  [ 1   , 1.0 ] \times [ 100, 200 ] &amp;= [ 100, 200 ] \\
+\end{aligned}" class="teximg" /></p>
+
+<h3 id="whatiscurrentlyhappening:">What is currently happening:</h3>
+
+<h4 id="placement">Placement</h4>
+
+<p><img src="./ecdf18bfad88f50cb24f3cc629994f01.png" alt="\begin{aligned}
+r_0 &amp;: [ 0    ,&amp; 0   ] \\
+r_1 &amp;: [ 250  ,&amp; 0   ] \\
+r_2 &amp;: [ 0    ,&amp; 128 ] \\
+r_3 &amp;: [ 250  ,&amp; 160 ] \\
+\end{aligned}" class="teximg" /></p>
+
+<h4 id="matrices">Matrices</h4>
+
+<p><img src="./5d3bdb767284ff9a01d133bff650f6d7.png" alt="\begin{aligned}
+r_2 &amp;= \underbrace{
+    I
+}_{\text{\textbf{All}}}
+%
+\underbrace{
+    \begin{pmatrix}
+        1 &amp; 0   &amp; 0 &amp; 0 \\
+        0 &amp; 1   &amp; 0 &amp; 0 \\
+        0 &amp; 0   &amp; 1 &amp; 0 \\
+        0 &amp; 160 &amp; 0 &amp; 1 \\
+    \end{pmatrix}
+}_{\text{\textbf{Autofill(2,2)}}}
+\underbrace{
+    \begin{pmatrix}
+        2.5 &amp; 0   &amp; 0 &amp; 0 \\
+        0   &amp; 0.8 &amp; 0 &amp; 0 \\
+        0   &amp; 0   &amp; 1 &amp; 0 \\
+        0   &amp; 0   &amp; 0 &amp; 1 \\
+    \end{pmatrix}
+}_{\text{\textbf{Affine}}} \\
+&amp;=
+    \begin{pmatrix}
+        2.5 &amp;     0 &amp;   0  &amp;   0 \\
+        0   &amp;   0.8 &amp;   0  &amp;   0 \\
+        0   &amp;     0 &amp;   1  &amp;   0 \\
+        0   &amp;   128 &amp;   0  &amp;   1 \\
+    \end{pmatrix}
+\\
+\end{aligned}" class="teximg" /></p>
+
+<pre>&gt;&gt; r_2 = eye(4) * [ eye(3,4) ; 20 160 0 1 ] * diag( [2.5 0.8 1 1 ] )
+
+r_2 =
+
+    2.5000         0         0         0
+         0    0.8000         0         0
+         0         0    1.0000         0
+   50.0000  128.0000         0    1.0000</pre>
+
+<h3 id="whatneedstohappen:">What needs to happen:</h3>
+
+<h4 id="placement">Placement</h4>
+
+<p><img src="./2a851448870717624e146a87dd073fa4.png" alt="\begin{aligned}
+r_0 &amp;: [ 0    ,&amp; 0   ] \\
+r_1 &amp;: [ 250  ,&amp; 0   ] \\
+r_2 &amp;: [ 0    ,&amp; 160 ] \\
+r_3 &amp;: [ 250  ,&amp; 160 ] \\
+\end{aligned}" class="teximg" /></p>
+
+<h4 id="matrices">Matrices</h4>
+
+<p><img src="./a3bc31389dfd3bc5cae0d40a0e27880d.png" alt="\begin{aligned}
+r_2 &amp;=
+\underbrace{
+    \begin{pmatrix}
+        2.5 &amp; 0   &amp; 0 &amp; 0 \\
+        0   &amp; 0.8 &amp; 0 &amp; 0 \\
+        0   &amp; 0   &amp; 1 &amp; 0 \\
+        0   &amp; 0   &amp; 0 &amp; 1 \\
+    \end{pmatrix}
+}_{\text{\textbf{Affine}}}
+%
+\underbrace{
+    I
+}_{\text{\textbf{All}}}
+%
+\underbrace{
+    \begin{pmatrix}
+        1 &amp; 0   &amp; 0 &amp; 0 \\
+        0 &amp; 1   &amp; 0 &amp; 0 \\
+        0 &amp; 0   &amp; 1 &amp; 0 \\
+        0 &amp; 160 &amp; 0 &amp; 1 \\
+    \end{pmatrix}
+}_{\text{\textbf{Autofill(2,2)}}} \\
+&amp;=
+    \begin{pmatrix}
+    2.5000 &amp;       0  &amp;      0 &amp;       0 \\
+         0 &amp;  0.8000  &amp;      0 &amp;       0 \\
+         0 &amp;       0  &amp; 1.0000 &amp;       0 \\
+         0 &amp;160.0000  &amp;      0 &amp;  1.0000 \\
+    \end{pmatrix}
+\\
+\end{aligned}" class="teximg" /></p>
+
+<pre>&gt;&gt; r_2 = diag( [2.5 0.8 1 1 ] ) * eye(4) * [ eye(3,4) ; 0 160 0 1 ]
+
+r_2 =
+
+    2.5000         0         0         0
+         0    0.8000         0         0
+         0         0    1.0000         0
+         0  160.0000         0    1.0000</pre>
 
 <h2 id="uml">UML</h2>
 
@@ -209,7 +320,7 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 20 Mar 2018 01:41:26 AM UTC</span>
+Last edited <span class="date">Fri 23 Mar 2018 12:30:05 AM UTC</span>
 <!-- Created <span class="date">Wed 28 Feb 2018 02:45:40 PM UTC</span> -->
 </div>
 
