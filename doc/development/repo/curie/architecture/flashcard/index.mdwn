@@ -1,0 +1,71 @@
+[[!meta title="Flashcard architecture"]]
+[[!meta description="Architecture for adding flashcards to curie"]]
+
+[[!uml src="""
+!include templates/plantuml/er.iuml
+
+' entities
+Table(document, "Document\n(A document file)") {
+    primary_key(id) INTEGER
+    not_null(md5sum) VARCHAR[32]
+    path TEXT
+}
+
+Table(ignored_doc, "IgnoredDoc\n(Ignore this\ndocument?)") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(ignored) BOOLEAN
+}
+
+Table(phrase_cloze, "PhraseCloze\n(Some info of user)") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(page) INTEGER
+    not_null(text) TEXT
+    not_null(offset_start) INTEGER
+    not_null(offset_end) INTEGER
+    not_null(suspended) BOOLEAN
+    not_null(ignored) BOOLEAN
+}
+
+Table(processed_doc_pytextrank, "ProcessedDocPytextrank") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(processed) BOOLEAN
+}
+
+Table(pytextrank_cloze, "PytextrankCloze") {
+    primary_key(phrase_cloze_id) INTEGER
+    primary_key(pytextrank_data_id) INTEGER
+}
+
+Table(pytextrank_data, "PytextrankData") {
+    primary_key(id) INTEGER
+    not_null(processed_doc_pytextrank_id) INTEGER
+    not_null(count) INTEGER
+    not_null(pos) TEXT
+    not_null(rank) REAL
+    not_null(text) TEXT
+}
+
+
+' relationships
+
+' one-to-one relationship
+
+document "?" -- processed_doc_pytextrank: "document_id:\nA document may\nbe processed\nusing PyTextRank"
+document "?" -- ignored_doc : "document_id:\nA document\nmay be ignored"
+
+' one to many relationship
+document --> phrase_cloze
+
+phrase_cloze "?" --> pytextrank_cloze
+pytextrank_data --> pytextrank_cloze
+
+processed_doc_pytextrank --> pytextrank_data
+
+
+' many to many relationship
+
+"""]]
+
