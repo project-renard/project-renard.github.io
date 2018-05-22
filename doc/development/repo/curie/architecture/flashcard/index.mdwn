@@ -20,15 +20,118 @@
         - Hide all, reveal all
 4. Card
     1. Contents
-        - Front
-        - Back
-        - Explanation
+        - Front: the question / hint : always shown
+        - Back: the answer    : shown when card state is flipped
+        - Explanation: why?   : shown when card state is flipped
         - Priority
         - Tags
 5. Review
     - Sequential
     - Random
     - SRS
+
+# GUI
+
+## Show / edit card
+
+[[!uml src="""
+salt
+{+
+    Progress | { "[xxxxx 40%			" |  }
+    ==
+    Front
+    --
+    Back
+    --
+    Explanation
+    ==
+    Next | { [ Flip ] | [ Edit ] | [ Edit duplicate ] }
+    ..
+    Difficulty | { [ Again ] | [ Hard ] | [ Good ] | [ Easy ] }
+    ..
+    Hide card    | { [ Suspend/Unsuspend ] }
+}
+"""]]
+
+[[!uml src="""
+salt
+{+
+    {
+        {
+            Front         | { "Question?" } | text entry
+            Back          | { "Answer." }   | text entry
+            Explanation   | { "Why?" }      | text entry
+            Tags          | { "anatomy::back s1::m1" }
+            Priority      | { "0 ↕" }
+            Scheduled for | { "2018-05-22" } | (calendar widget)
+
+            Document     | {^Name^ }    | (choose from the ones in the document collection)
+            Page         | { ^Number^ } | (use the number of pages in the document)
+
+            Cloze regex  | { "qr/.../" | number of matches on page } | (search the page)
+            Matches      | {""} | (blank use all)
+            ^Overlap type^
+        }
+    }
+
+    { [ Save ] | [ Reset ] }
+}
+"""]]
+
+
+## Review table
+
+Two kinds of review tables:
+
+- All cards from current document set.
+- All cards in the current review.
+
+[[!uml src="""
+salt
+{+
+    {#
+      Rank | File | Page | Phrase         | Due date   | # of review | # of consecutive correct | e-factor
+      0    | abc  | 1    | some keyword   | 2018-05-22 | 5           | 3                        | 2.4
+      0    | abc  | 2    | another phrase | 2018-05-22 | 8           | 2                        | 0.4
+
+    }
+    [ Edit ] | [ New card ] | [ Update list ] | [ Clear ]
+}
+"""]]
+
+## Review control
+
+Generate deck: insert cards into the current review.
+
+[[!uml src="""
+salt
+{+
+    Generate deck |
+
+    {
+        Method | { (X) Sequential | ( ) Random | ( ) SRS }
+
+        Tag search | { "anatomy -anatomy::back" | [ Clear ] }
+
+        Number of cards | { "2000 ↕" | / 5000 total }
+
+        "100% ↔" | [ Set number of cards % of total ]
+
+        SRS options | {
+            Steps minutes |    "1 10"
+            Graduating interval (days) | "1"
+            Easy interval (days)| "4"
+            Interval modifier | "100% ↔"
+        }
+
+        [ Generate ]
+    }
+
+    ==
+
+    Review | { [ Start / Pause ] }
+}
+"""]]
 
 # Current schema
 
