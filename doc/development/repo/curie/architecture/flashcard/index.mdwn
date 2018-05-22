@@ -1,6 +1,37 @@
 [[!meta title="Flashcard architecture"]]
 [[!meta description="Architecture for adding flashcards to curie"]]
 
+# Tasks
+
+1. DB
+    1. [✓] All documents need to be stored with their checksum and path.
+        - This is so that a file can be associated with a document ID in the DB.
+        - Use [[`Digest::MD5`|https://p3rl.org/Digest::MD5]].
+2. Automatic phrase extraction
+    1. [✓] Process the text of a PDF file with [[PyTextRank|https://github.com/ceteri/pytextrank]].
+    2. [✓] Find the text of phrases inside that PDF file.
+        - Use [[`Regexp::Assemble`|https://p3rl.org/Regexp::Assemble]].
+    3. [_] Store the offset of that text.
+3. Cloze
+    1. Need to be able to cover a set of given text offsets.
+    2. Types
+        - nonoverlapping: Hide all, reveal one
+        - overlapping: Hide one, reveal all
+        - Hide all, reveal all
+4. Card
+    1. Contents
+        - Front
+        - Back
+        - Explanation
+        - Priority
+        - Tags
+5. Review
+    - Sequential
+    - Random
+    - SRS
+
+# Current schema
+
 [[!uml src="""
 !include templates/plantuml/er.iuml
 
