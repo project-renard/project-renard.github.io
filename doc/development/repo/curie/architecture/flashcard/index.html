@@ -111,6 +111,57 @@ Flashcard architecture
 <div id="pagebody">
 
 <div id="content">
+<h1 id="tasks">Tasks</h1>
+
+<ol>
+<li>DB
+<ol>
+<li>[✓] All documents need to be stored with their checksum and path.
+<ul>
+<li>This is so that a file can be associated with a document ID in the DB.</li>
+<li>Use <a href="https://p3rl.org/Digest::MD5"><code>Digest::MD5</code></a>.</li>
+</ul></li>
+</ol></li>
+<li>Automatic phrase extraction
+<ol>
+<li>[✓] Process the text of a PDF file with <a href="https://github.com/ceteri/pytextrank">PyTextRank</a>.</li>
+<li>[✓] Find the text of phrases inside that PDF file.
+<ul>
+<li>Use <a href="https://p3rl.org/Regexp::Assemble"><code>Regexp::Assemble</code></a>.</li>
+</ul></li>
+<li>[_] Store the offset of that text.</li>
+</ol></li>
+<li>Cloze
+<ol>
+<li>Need to be able to cover a set of given text offsets.</li>
+<li>Types
+<ul>
+<li>nonoverlapping: Hide all, reveal one</li>
+<li>overlapping: Hide one, reveal all</li>
+<li>Hide all, reveal all</li>
+</ul></li>
+</ol></li>
+<li>Card
+<ol>
+<li>Contents
+<ul>
+<li>Front</li>
+<li>Back</li>
+<li>Explanation</li>
+<li>Priority</li>
+<li>Tags</li>
+</ul></li>
+</ol></li>
+<li>Review
+<ul>
+<li>Sequential</li>
+<li>Random</li>
+<li>SRS</li>
+</ul></li>
+</ol>
+
+<h1 id="currentschema">Current schema</h1>
+
 <p><img src="./uml-462220851f0a3d2d34ed6f23bb337fbe84947567.svg" /></p>
 
 </div>
@@ -139,7 +190,7 @@ Flashcard architecture
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 21 May 2018 07:27:35 PM UTC</span>
+Last edited <span class="date">Tue 22 May 2018 07:45:01 PM UTC</span>
 <!-- Created <span class="date">Mon 21 May 2018 07:27:35 PM UTC</span> -->
 </div>
 
