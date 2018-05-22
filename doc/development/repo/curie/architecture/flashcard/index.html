@@ -145,9 +145,9 @@ Flashcard architecture
 <ol>
 <li>Contents
 <ul>
-<li>Front</li>
-<li>Back</li>
-<li>Explanation</li>
+<li>Front: the question / hint : always shown</li>
+<li>Back: the answer    : shown when card state is flipped</li>
+<li>Explanation: why?   : shown when card state is flipped</li>
 <li>Priority</li>
 <li>Tags</li>
 </ul></li>
@@ -159,6 +159,31 @@ Flashcard architecture
 <li>SRS</li>
 </ul></li>
 </ol>
+
+<h1 id="gui">GUI</h1>
+
+<h2 id="showeditcard">Show / edit card</h2>
+
+<p><img src="./uml-63640f5be0b57f38e31577a1c41ead595e690b99.svg" /></p>
+
+<p><img src="./uml-648fcacf172bc25652d11d8886026369cc8cbf94.svg" /></p>
+
+<h2 id="reviewtable">Review table</h2>
+
+<p>Two kinds of review tables:</p>
+
+<ul>
+<li>All cards from current document set.</li>
+<li>All cards in the current review.</li>
+</ul>
+
+<p><img src="./uml-9f98c7895dcc9aba34cb05f792e5f5e61107ea5d.svg" /></p>
+
+<h2 id="reviewcontrol">Review control</h2>
+
+<p>Generate deck: insert cards into the current review.</p>
+
+<p><img src="./uml-fc0f1fdf646db5cf3a5ba50c3c7769dc7a93ff9d.svg" /></p>
 
 <h1 id="currentschema">Current schema</h1>
 
@@ -190,7 +215,7 @@ Flashcard architecture
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 22 May 2018 07:45:01 PM UTC</span>
+Last edited <span class="date">Tue 22 May 2018 11:21:51 PM UTC</span>
 <!-- Created <span class="date">Mon 21 May 2018 07:27:35 PM UTC</span> -->
 </div>
 

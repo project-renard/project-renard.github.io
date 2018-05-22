@@ -10,11 +10,11 @@
 <generator>ikiwiki</generator>
 <pubDate>Mon, 25 Dec 2017 03:04:04 +0000</pubDate>
 <item>
-	<title>AnyStyle</title>
+	<title>ParsCit</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/anystyle/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/parscit/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/anystyle/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/parscit/</link>
 
 
 
@@ -33,7 +33,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            AnyStyle
+            ParsCit
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -44,21 +44,21 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://anystyle.io/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://parscit.comp.nus.edu.sg/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Ruby, C
+&lt;b&gt;Programming language:&lt;/b&gt; Perl, C++
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/inukshuk/anystyle-parser&quot;&gt;Source code&lt;/a&gt;
+&lt;a href=&quot;https://github.com/knmnyn/parscit&quot;&gt;Source code&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -110,6 +110,8 @@ Established for distribution: 1
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20&quot;&gt;Note about building of ParsCit&lt;/a&gt;&lt;/p&gt;
 </description>
 
 
@@ -220,11 +222,11 @@ Established for distribution: 1
 
 </item>
 <item>
-	<title>ParsCit</title>
+	<title>AnyStyle</title>
 
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/parscit/</guid>
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/anystyle/</guid>
 
-	<link>http://project-renard.github.io//doc/survey/tool/parscit/</link>
+	<link>http://project-renard.github.io//doc/survey/tool/anystyle/</link>
 
 
 
@@ -243,7 +245,7 @@ Established for distribution: 1
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            ParsCit
+            AnyStyle
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -254,21 +256,21 @@ Established for distribution: 1
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://parscit.comp.nus.edu.sg/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://anystyle.io/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Perl, C++
+&lt;b&gt;Programming language:&lt;/b&gt; Ruby, C
     &lt;/td&gt;
 &lt;/tr&gt;
 
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://github.com/knmnyn/parscit&quot;&gt;Source code&lt;/a&gt;
+&lt;a href=&quot;https://github.com/inukshuk/anystyle-parser&quot;&gt;Source code&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -320,8 +322,6 @@ Established for distribution: 1
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20&quot;&gt;Note about building of ParsCit&lt;/a&gt;&lt;/p&gt;
 </description>
 
 
