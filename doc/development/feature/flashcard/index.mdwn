@@ -1,0 +1,21 @@
+[[!meta title="Flashcards"]]
+
+# Algorithms
+
+- [[SuperMemo 2: Algorithm|https://www.supermemo.com/english/ol/sm2.htm]]
+    - [[SuperMemo 2 algorithm: source code|https://www.supermemo.com/english/ol/sm2source.htm]]
+- [[Algorithm SM-17 FAQs - SuperMemopedia|http://supermemopedia.com/wiki/Algorithm_SM-17_FAQs]]
+
+# Implementations
+
+- Anki
+    - [[How Anki calculates intervals · GitHub|https://gist.github.com/fasiha/31ce46c36371ff57fdbc1254af424174]]
+- [[LibSpacey|https://github.com/walterscarborough/LibSpacey]] (C++)
+    - [[Code of scheduler|https://github.com/walterscarborough/LibSpacey/blob/master/src/srsengine.cpp]]
+- [[sm-2|https://github.com/cnnrhill/sm-2]] (ES6)
+    - includes explanation
+
+# Reading
+
+- [[(1712.01856) Optimizing Human Learning|https://arxiv.org/abs/1712.01856]]
+- [[Spaced-repetition - Gwern.net|http://www.gwern.net/Spaced-repetition]]
