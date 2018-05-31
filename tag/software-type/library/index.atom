@@ -17,24 +17,26 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-08-22T05:46:14Z</updated>
+<updated>2017-08-23T13:55:38Z</updated>
 <entry>
-	<title>LibHaru</title>
+	<title>PDF.js</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/libharu/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
 
 
 
+
+
+
+	<category term="software-type/document-viewer" />
 
 	<category term="software-type/library" />
 
 
-	<updated>2017-08-22T05:46:14Z</updated>
-	<published>2017-08-22T05:46:14Z</published>
+	<updated>2017-08-23T13:55:38Z</updated>
+	<published>2017-08-23T13:55:38Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -46,7 +48,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            LibHaru
+            PDF.js
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -54,10 +56,16 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -68,7 +76,22 @@
 
 
 
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
 
 
 
@@ -90,7 +113,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -99,97 +122,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Poppler</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/poppler/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/poppler/"/>
-
-
-
-
-
-
-	<category term="software-type/library" />
-
-
-	<updated>2017-08-22T05:46:14Z</updated>
-	<published>2017-08-22T05:46:14Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Poppler
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 
 	</content>
 
@@ -211,8 +143,8 @@ Runs: unknown
 	<category term="software-type/library" />
 
 
-	<updated>2017-08-22T05:46:14Z</updated>
-	<published>2017-08-22T05:46:14Z</published>
+	<updated>2017-08-23T13:55:38Z</updated>
+	<published>2017-08-23T13:55:38Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -336,24 +268,22 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 
 </entry>
 <entry>
-	<title>PDF.js</title>
+	<title>LibHaru</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/pdf.js/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/libharu/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/pdf.js/"/>
-
-
+	<link href="http://project-renard.github.io//doc/survey/tool/libharu/"/>
 
 
 
 
-	<category term="software-type/document-viewer" />
+
 
 	<category term="software-type/library" />
 
 
-	<updated>2017-08-22T05:46:14Z</updated>
-	<published>2017-08-22T05:46:14Z</published>
+	<updated>2017-08-23T13:55:38Z</updated>
+	<published>2017-08-23T13:55:38Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -365,7 +295,7 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            PDF.js
+            LibHaru
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -373,16 +303,10 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;a href=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//tag/software-type/library/../../../doc/survey/tool/pdf.js/gfx/pdfjs.svg&quot; width=&quot;64&quot; height=&quot;64&quot; class=&quot;img fullwidth&quot; /&gt;&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://mozilla.github.io/pdf.js/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://libharu.org/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -393,22 +317,7 @@ so that exceptions in MuPDF are translated to exceptions in the host language.&l
 
 
 
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0d/Pdf.%E2%84%91s.png&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://alternativeto.net/software/mozilla-pdf-viewer/&quot;&gt;AlternativeTo&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
 
 
 
@@ -430,7 +339,7 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/PDF.js&quot;&gt;Wikipedia (en)&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/LibHaru&quot;&gt;Wikipedia (en)&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -439,6 +348,97 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
+
+&lt;p&gt;This is a library for generating new PDF files.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Poppler</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/poppler/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/poppler/"/>
+
+
+
+
+
+
+	<category term="software-type/library" />
+
+
+	<updated>2017-08-23T13:55:38Z</updated>
+	<published>2017-08-23T13:55:38Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Poppler
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Poppler_(software)&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This library has bindings for GTK+ and Qt.&lt;/p&gt;
 
 	</content>
 
