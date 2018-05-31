@@ -10,3 +10,5 @@ coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Flash
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Flashcard/badge.svg?branch=master
 ---
 [[!ftemplate id=repo]]
+
+See [[curie|repo/curie/architecture/flashcard]] and [[feature|feature/flashcard]].
