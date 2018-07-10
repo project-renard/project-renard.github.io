@@ -1,0 +1,14 @@
+---
+repo: project-renard/p5-Renard-Boteh-Debugger
+cpan: Renard-Boteh-Debugger
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Boteh-Debugger
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Boteh-Debugger.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Boteh-Debugger
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/qc3dtyvh2kjfge8d/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Boteh-Debugger?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Boteh-Debugger/badge.svg?branch=master
+---
+[[!ftemplate id=repo]]
+
+See [[taffeta|https://en.wikipedia.org/wiki/Taffeta]].
