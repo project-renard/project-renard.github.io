@@ -129,17 +129,7 @@ Flashcard architecture
 <ul>
 <li>Use <a href="https://p3rl.org/Regexp::Assemble"><code>Regexp::Assemble</code></a>.</li>
 </ul></li>
-<li>[_] Store the offset of that text.</li>
-</ol></li>
-<li>Cloze
-<ol>
-<li>Need to be able to cover a set of given text offsets.</li>
-<li>Types
-<ul>
-<li>nonoverlapping: Hide all, reveal one</li>
-<li>overlapping: Hide one, reveal all</li>
-<li>Hide all, reveal all</li>
-</ul></li>
+<li>[_] Toggle option to highlight all the phrases found on the page.</li>
 </ol></li>
 <li>Card
 <ol>
@@ -150,23 +140,49 @@ Flashcard architecture
 <li>Explanation: why?   : shown when card state is flipped</li>
 <li>Priority</li>
 <li>Tags</li>
+<li>Document</li>
+<li>Page</li>
+<li>Cloze
+<ol>
+<li>Cloze regex
+<ul>
+<li>Need to be able to cover a set of given text offsets.</li>
+</ul></li>
+<li>Overlap types
+<ul>
+<li>nonoverlapping: Hide all, reveal one</li>
+<li>overlapping: Hide one, reveal all</li>
+<li>Hide all, reveal all</li>
+</ul></li>
+</ol></li>
 </ul></li>
 </ol></li>
 <li>Review
 <ul>
-<li>Sequential</li>
+<li>Sequential
+<ul>
+<li>Sort by path -> page -> offset</li>
+</ul></li>
+<li>Random
+<ul>
 <li>Random</li>
-<li>SRS</li>
+</ul></li>
+<li>SRS
+<ul>
+<li>See description of algorithm.</li>
+</ul></li>
 </ul></li>
 </ol>
+
+<h1 id="srsalgorithm">SRS algorithm</h1>
 
 <h1 id="gui">GUI</h1>
 
 <h2 id="showeditcard">Show / edit card</h2>
 
-<p><img src="./uml-63640f5be0b57f38e31577a1c41ead595e690b99.svg" /></p>
+<p><img src="./uml-4f7eca4cf3c063fd79c16542aaccc1f8834c2055.svg" /></p>
 
-<p><img src="./uml-648fcacf172bc25652d11d8886026369cc8cbf94.svg" /></p>
+<p><img src="./uml-5dfb4d13e4b8bcbf5dedf2dfb47ce736a29cb564.svg" /></p>
 
 <h2 id="reviewtable">Review table</h2>
 
@@ -188,6 +204,10 @@ Flashcard architecture
 <h1 id="currentschema">Current schema</h1>
 
 <p><img src="./uml-462220851f0a3d2d34ed6f23bb337fbe84947567.svg" /></p>
+
+<h1 id="newschema">New schema</h1>
+
+<p><img src="./uml-297f187748f14aea8f0ec59bca7954cf169dd22f.svg" /></p>
 
 </div>
 
@@ -223,7 +243,7 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 22 May 2018 11:21:51 PM UTC</span>
+Last edited <span class="date">Sun 04 Nov 2018 07:46:01 AM UTC</span>
 <!-- Created <span class="date">Mon 21 May 2018 07:27:35 PM UTC</span> -->
 </div>
 
