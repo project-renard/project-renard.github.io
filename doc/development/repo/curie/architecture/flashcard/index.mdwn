@@ -11,13 +11,7 @@
     1. [✓] Process the text of a PDF file with [[PyTextRank|https://github.com/ceteri/pytextrank]].
     2. [✓] Find the text of phrases inside that PDF file.
         - Use [[`Regexp::Assemble`|https://p3rl.org/Regexp::Assemble]].
-    3. [_] Store the offset of that text.
-3. Cloze
-    1. Need to be able to cover a set of given text offsets.
-    2. Types
-        - nonoverlapping: Hide all, reveal one
-        - overlapping: Hide one, reveal all
-        - Hide all, reveal all
+    3. [_] Toggle option to highlight all the phrases found on the page.
 4. Card
     1. Contents
         - Front: the question / hint : always shown
@@ -25,10 +19,25 @@
         - Explanation: why?   : shown when card state is flipped
         - Priority
         - Tags
+        - Document
+        - Page
+        - Cloze
+            1. Cloze regex
+                - Need to be able to cover a set of given text offsets.
+            2. Overlap types
+                - nonoverlapping: Hide all, reveal one
+                - overlapping: Hide one, reveal all
+                - Hide all, reveal all
 5. Review
     - Sequential
+        - Sort by path -> page -> offset
     - Random
+        - Random
     - SRS
+        - See description of algorithm.
+
+# SRS algorithm
+
 
 # GUI
 
@@ -47,7 +56,7 @@ salt
     ==
     Next | { [ Flip ] | [ Edit ] | [ Edit duplicate ] }
     ..
-    Difficulty | { [ Again ] | [ Hard ] | [ Good ] | [ Easy ] }
+    Difficulty | { [ Again ] | [ Hard ] | [ Good ] | [ Easy ] } | (only when method is srs)
     ..
     Hide card    | { [ Suspend/Unsuspend ] }
 }
@@ -68,13 +77,13 @@ salt
             Document     | {^Name^ }    | (choose from the ones in the document collection)
             Page         | { ^Number^ } | (use the number of pages in the document)
 
-            Cloze regex  | { "qr/.../" | number of matches on page } | (search the page)
+            Cloze regex  | { "qr/.../" | number of matches on page } | (list box, search the page, highlight, draw number)
             Matches      | {""} | (blank use all)
             ^Overlap type^
         }
     }
 
-    { [ Save ] | [ Reset ] }
+    { [ Save ] | [ Cancel ] }
 }
 """]]
 
@@ -149,6 +158,92 @@ Table(ignored_doc, "IgnoredDoc\n(Ignore this\ndocument?)") {
     primary_key(id) INTEGER
     not_null(document_id) INTEGER
     not_null(ignored) BOOLEAN
+}
+
+Table(phrase_cloze, "PhraseCloze\n(Some info of user)") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(page) INTEGER
+    not_null(text) TEXT
+    not_null(offset_start) INTEGER
+    not_null(offset_end) INTEGER
+    not_null(suspended) BOOLEAN
+    not_null(ignored) BOOLEAN
+}
+
+Table(processed_doc_pytextrank, "ProcessedDocPytextrank") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(processed) BOOLEAN
+}
+
+Table(pytextrank_cloze, "PytextrankCloze") {
+    primary_key(phrase_cloze_id) INTEGER
+    primary_key(pytextrank_data_id) INTEGER
+}
+
+Table(pytextrank_data, "PytextrankData") {
+    primary_key(id) INTEGER
+    not_null(processed_doc_pytextrank_id) INTEGER
+    not_null(count) INTEGER
+    not_null(pos) TEXT
+    not_null(rank) REAL
+    not_null(text) TEXT
+}
+
+
+' relationships
+
+' one-to-one relationship
+
+document "?" -- processed_doc_pytextrank: "document_id:\nA document may\nbe processed\nusing PyTextRank"
+document "?" -- ignored_doc : "document_id:\nA document\nmay be ignored"
+
+' one to many relationship
+document --> phrase_cloze
+
+phrase_cloze "?" --> pytextrank_cloze
+pytextrank_data --> pytextrank_cloze
+
+processed_doc_pytextrank --> pytextrank_data
+
+
+' many to many relationship
+
+"""]]
+
+# New schema
+
+[[!uml src="""
+!include templates/plantuml/er.iuml
+
+' entities
+Table(document, "Document\n(A document file)") {
+    primary_key(id) INTEGER
+    not_null(md5sum) VARCHAR[32]
+    path TEXT
+}
+
+Table(ignored_doc, "IgnoredDoc\n(Ignore this\ndocument?)") {
+    primary_key(id) INTEGER
+    not_null(document_id) INTEGER
+    not_null(ignored) BOOLEAN
+}
+
+Table(cards, "Cards") {
+    primary_key(id) INTEGER
+}
+
+Table(reviews, "Reviews") {
+    primary_key(id) INTEGER
+    not_null(date) INTEGER
+    not_null(type) TEXT
+    not_null(cards) INTEGER
+    not_null(finished) BOOLEAN
+}
+
+Table(review_cards, "ReviewCards") {
+    primary_key(id) INTEGER
 }
 
 Table(phrase_cloze, "PhraseCloze\n(Some info of user)") {

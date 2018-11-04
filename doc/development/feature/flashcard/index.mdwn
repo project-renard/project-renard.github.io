@@ -10,12 +10,54 @@
 
 - Anki
     - [[How Anki calculates intervals · GitHub|https://gist.github.com/fasiha/31ce46c36371ff57fdbc1254af424174]]
+    - [[Database Structure · ankidroid/Anki-Android Wiki · GitHub|https://github.com/ankidroid/Anki-Android/wiki/Database-Structure]]
+    - scheduler
+        - Python
+            - [[https://github.com/dae/anki/blob/9c7c52b99cdd1aa26278f4cfd906e6945cc09877/anki/sched.py]]
+            - [[https://github.com/dae/anki/blob/9c7c52b99cdd1aa26278f4cfd906e6945cc09877/tests/test_schedv1.py]]
+            - [[https://github.com/dae/anki/blob/9c7c52b99cdd1aa26278f4cfd906e6945cc09877/anki/cards.py]]
+        - Java
+            - [[https://github.com/ankidroid/Anki-Android/blob/665df9d1e72bd652453d972ade9531aa68b17446/AnkiDroid/src/main/java/com/ichi2/libanki/Sched.java]]
+            - [[https://github.com/iniju/Anki-Android-Test/blob/master/src/com/ichi2/libanki/test/SchedTestCase.java]]
+        - C#
+            - [[https://github.com/AnkiUniversal/Anki-Universal/blob/master/AnkiU/AnkiCore/Sched.cs]]
+            - [[https://github.com/AnkiUniversal/Anki-Universal/blob/master/TestAnkiCore/TestSched.cs]]
 - [[LibSpacey|https://github.com/walterscarborough/LibSpacey]] (C++)
     - [[Code of scheduler|https://github.com/walterscarborough/LibSpacey/blob/master/src/srsengine.cpp]]
 - [[sm-2|https://github.com/cnnrhill/sm-2]] (ES6)
     - includes explanation
+- [[monica2|https://github.com/wareya/monica2]] (C++)
+    - [[Code of scheduler|https://github.com/wareya/monica2/blob/master/monica.cpp]]
+- [[ebisu|https://github.com/fasiha/ebisu]] (Python)
+- [[GitHub - hyperworks/swift-SRS: A Simple Spaced Repetition library for Swift with a permissive license|https://github.com/hyperworks/swift-SRS]]
+- [[GitHub - s9w/Ginseng: Spaced repetition learning for the browser|https://github.com/s9w/Ginseng]]
+- [[GitHub - helephant/SpacedRepetition.Net: A .NET library that implements spaced repetition algorithms|https://github.com/helephant/SpacedRepetition.Net]]
+- [[GitHub - dpwright/srs: A highly extensible command-line spaced repetition system|https://github.com/dpwright/srs]]
+- [[Fresh Memory (software) - Wikipedia|https://en.wikipedia.org/wiki/Fresh_Memory_(software)]]
+    - [[Downloads - Fresh memory|http://fresh-memory.com/downloads/]]
+- [[Mnemosyne (software) - Wikipedia|https://en.wikipedia.org/wiki/Mnemosyne_(software)#cite_note-2]]
+    - [[Principles - The Mnemosyne Project|https://mnemosyne-proj.org/principles.php]]
+- [[GitHub - tosbaha/SMLib: SuperMemo SM2 Algorithm in Swift|https://github.com/tosbaha/SMLib]]
+- [[GitHub - espresse/spaced_repetition: SM2 spaced repetition algorithm for Ruby|https://github.com/espresse/spaced_repetition]]
+- [[CleverDeck Manual - Algorithm|https://cleverdeck.com/manual/algorithm/]]
+    - [[CleverDeck Manual - Sibling Cards|https://cleverdeck.com/manual/siblings/]]
+- [[Can someone explain what graduating interval, starting ease %, east bonus%, and interval modifier% mean? : Anki|https://www.reddit.com/r/Anki/comments/4elur1/can_someone_explain_what_graduating_interval/]]
+- [[Anki Manual|https://apps.ankiweb.net/docs/manual.html#deck-options]]
+- [[Anki's Starting Ease Factor Setting|https://eshapard.github.io/anki/ankis-initial-ease-factor-setting.html]]
+- [[Anki - Dynamic Efficient Learning Steps With Feedback|https://eshapard.github.io/anki/anki-learning-steps-with-feedback.html]]
+- [[Target An 80-90 Percent Success Rate In Anki|https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html]]
+- [[Anki post 2: Cramming, gamification, and interval modification - ollie lovell|http://www.ollielovell.com/edtech/anki2/]]
+- [[Piotr Wozniak as a role model for lifelong learners - Art of Memory Forum|https://artofmemory.com/forums/piotr-wozniak-as-a-role-model-for-lifelong-learners]]
+- [[Home · glutanimate/image-occlusion-enhanced Wiki · GitHub|https://github.com/glutanimate/image-occlusion-enhanced/wiki]]
 
 # Reading
 
 - [[(1712.01856) Optimizing Human Learning|https://arxiv.org/abs/1712.01856]]
+- [[Can someone explain "Deck options" to me : Anki|https://www.reddit.com/r/Anki/comments/4oi4qf/can_someone_explain_deck_options_to_me/]]
+- [[Anki without flashcards : Anki|https://www.reddit.com/r/Anki/comments/4w594o/anki_without_flashcards/]]
 - [[Spaced-repetition - Gwern.net|http://www.gwern.net/Spaced-repetition]]
+- [[Thoughts On A New Algorithm For Anki|https://eshapard.github.io/anki/thoughts-on-a-new-algorithm-for-anki.html]]
+- [[Spacing Algorithms and Implementations - NihongoPeraPera|https://nihongoperapera.com/spacing-algorithm-reviews.html]]
+- [[Spaced Repetition for All: Cognitive Science Meets Big Data in a Procrastinating World|https://medium.com/tech-quizlet/spaced-repetition-for-all-cognitive-science-meets-big-data-in-a-procrastinating-world-59e4d2c8ede1]]
+- [[A Better Spaced Repetition Learning Algorithm: SM2+ — One Man's Trash is Another Man's Blog|http://www.blueraja.com/blog/477/a-better-spaced-repetition-learning-algorithm-sm2]]
+- [[Twitter: Michael Nielsen on spaced repetition|https://twitter.com/michael_nielsen/status/957763229454774272]]
