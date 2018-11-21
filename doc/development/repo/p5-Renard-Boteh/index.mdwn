@@ -8,6 +8,7 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Boteh
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/2r784062qkv1j75j/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Boteh?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Boteh/badge.svg?branch=master
+released-to-cpan: false
 ---
 [[!ftemplate id=repo]]
 

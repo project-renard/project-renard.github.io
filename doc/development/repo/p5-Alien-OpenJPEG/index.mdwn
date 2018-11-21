@@ -8,6 +8,7 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Alien-OpenJPEG
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/o2dr5lmtbh18fig6/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Alien-OpenJPEG?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-OpenJPEG/badge.svg?branch=master
+released-to-cpan: true
 ---
 [[!ftemplate id=repo]]
 

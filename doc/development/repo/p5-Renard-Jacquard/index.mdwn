@@ -8,6 +8,7 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Jacquard
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/hfcpypsapfq62u4l/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Jacquard?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Jacquard/badge.svg?branch=master
+released-to-cpan: false
 ---
 [[!ftemplate id=repo]]
 

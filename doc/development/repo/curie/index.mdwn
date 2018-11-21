@@ -8,6 +8,7 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/curie
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/d1oln5wwo7rkyxp0/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/curie?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/curie/badge.svg?branch=master
+released-to-cpan: true
 ---
 [[!ftemplate id=repo]]
 

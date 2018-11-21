@@ -8,6 +8,7 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Alien-MuPDF
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/t18efbee2hjq3urm/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Alien-MuPDF?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Alien-MuPDF/badge.svg?branch=master
+released-to-cpan: true
 ---
 [[!ftemplate id=repo]]
 

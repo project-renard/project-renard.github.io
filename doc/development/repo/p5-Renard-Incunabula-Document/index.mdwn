@@ -8,5 +8,6 @@ appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Docume
 appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/se2k3nhywme5ui06/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Document?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Document/badge.svg?branch=master
+released-to-cpan: true
 ---
 [[!ftemplate id=repo]]
