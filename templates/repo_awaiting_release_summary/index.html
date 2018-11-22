@@ -5,7 +5,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>pages tagged draft</title>
+<title>repo awaiting release summary</title>
 
 <link rel="stylesheet" href="../../style.css" type="text/css" />
 
@@ -14,9 +14,9 @@
 
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/tag/draft/index.mdwn" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/templates/repo_awaiting_release_summary.mdwn" />
 
-<link rel="alternate" type="application/rss+xml" title="Project Renard (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="Project Renard (Atom feed)" href="index.atom" />
+
 
 
 
@@ -34,11 +34,11 @@
 
 <a href="../../">Project Renard</a>/ 
 
-<a href="../">tag</a>/ 
+<a href="../">templates</a>/ 
 
 </span>
 <span class="title">
-pages tagged draft
+repo awaiting release summary
 
 </span>
 </span>
@@ -51,13 +51,13 @@ pages tagged draft
 <div class="actions">
 <ul>
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/tag/draft/index.mdwn" rel="nofollow">Edit</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/templates/repo_awaiting_release_summary.mdwn" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../../recentchanges/">RecentChanges</a></li>
 
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/tag/draft/index.mdwn">History</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/templates/repo_awaiting_release_summary.mdwn">History</a></li>
 
 
 
@@ -103,15 +103,13 @@ pages tagged draft
 <div id="pagebody">
 
 <div id="content">
-<div  class="feedlink">
-
-<a class="feedbutton" type="application/rss+xml" rel="alternate" title="Project Renard (RSS feed)" href="index.rss">RSS</a>
-
-
-<a class="feedbutton" type="application/atom+xml" rel="alternate" title="Project Renard (Atom feed)" href="index.atom">Atom</a>
-
-</div>
-
+<p><TMPL_IF NAME="cpan">
+<TMPL_UNLESS NAME="released-to-cpan">
+<li>
+    <span class="createlink">&#60;TMPL VAR NAME&#61;&#34;page&#34;&#62;</span> : <a href="https://github.com/<TMPL_VAR NAME="repo">">GitHub</a>
+</li>
+</TMPL_UNLESS>
+</TMPL_IF></p>
 
 </div>
 
@@ -139,8 +137,8 @@ pages tagged draft
 
 
 <div class="pagedate">
-Last edited <span class="date">Mon 25 Dec 2017 03:04:04 AM UTC</span>
-<!-- Created <span class="date">Mon 25 Dec 2017 03:04:04 AM UTC</span> -->
+Last edited <span class="date">Thu 22 Nov 2018 04:50:33 AM UTC</span>
+<!-- Created <span class="date">Thu 22 Nov 2018 04:50:33 AM UTC</span> -->
 </div>
 
 </div>
