@@ -6,8 +6,10 @@
 <td>
 [[GitHub|https://github.com/<TMPL_VAR NAME="repo">]]
 <br/>
+<TMPL_IF NAME="released-to-cpan">
 <TMPL_IF NAME="cpan">
 <a href="https://metacpan.org/release/<TMPL_VAR NAME="cpan">"><img src="https://badge.fury.io/pl/<TMPL_VAR NAME="cpan">.svg" alt="CPAN version" /></a>
+</TMPL_IF>
 </TMPL_IF>
 </td>
 <td>
