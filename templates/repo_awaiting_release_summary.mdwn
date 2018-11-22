@@ -1,0 +1,7 @@
+<TMPL_IF NAME="cpan">
+<TMPL_UNLESS NAME="released-to-cpan">
+<li>
+    [[<TMPL_VAR NAME="page">]] : [[GitHub|https://github.com/<TMPL_VAR NAME="repo">]]
+</li>
+</TMPL_UNLESS>
+</TMPL_IF>
