@@ -1,0 +1,13 @@
+---
+repo: project-renard/p5-Renard-Incunabula-API-MuPDF-Inline
+cpan: Renard-Incunabula-API-MuPDF-Inline
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-API-MuPDF-Inline
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-API-MuPDF-Inline.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-API-MuPDF-Inline
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/2uxonu7n9v7592xa/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-API-MuPDF-Inline?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-API-MuPDF-Inline/badge.svg?branch=master
+released-to-cpan: false
+---
+[[!ftemplate id=repo]]

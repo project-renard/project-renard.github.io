@@ -1,0 +1,13 @@
+---
+repo: project-renard/p5-Renard-Incunabula-Block-NLP
+cpan: Renard-Incunabula-Block-NLP
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Block-NLP
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Block-NLP.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Block-NLP
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/fnsd98f6o4y4h71m/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Block-NLP?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Block-NLP/badge.svg?branch=master
+released-to-cpan: false
+---
+[[!ftemplate id=repo]]
