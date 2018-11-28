@@ -8,7 +8,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 25 Dec 2017 03:04:04 +0000</pubDate>
+<pubDate>Mon, 25 Dec 2017 03:15:37 +0000</pubDate>
 <item>
 	<title>Modularising and splitting Curie</title>
 
@@ -20,7 +20,7 @@
 
 
 	<pubDate>Thu, 21 Sep 2017 02:49:08 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In order to make it easier to modify parts of Curie independently and make it
@@ -136,7 +136,7 @@ and data types) and generic document/page models.&lt;/p&gt;
 
 &lt;h4 id=&quot;project-renardp5-renard-incunabula-mupdf-mutool&quot;&gt;project-renard/p5-Renard-Incunabula-MuPDF-mutool&lt;/h4&gt;
 
-&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-MuPDF-mutool/&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/a&gt; repository wraps the &lt;code&gt;mutool&lt;/code&gt; command line
+&lt;p&gt;The &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/span&gt; repository wraps the &lt;code&gt;mutool&lt;/code&gt; command line
 program from MuPDF in order to retrieve page bounding box information and
 to render document pages as PNG images.&lt;/p&gt;
 
@@ -159,8 +159,8 @@ to render document pages as PNG images.&lt;/p&gt;
 
 &lt;h4 id=&quot;project-renardp5-renard-incunabula-format-pdf&quot;&gt;project-renard/p5-Renard-Incunabula-Format-PDF&lt;/h4&gt;
 
-&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Format-PDF/&quot;&gt;p5-Renard-Incunabula-Format-PDF&lt;/a&gt; repository contains models for
-working with PDF files. It currently uses &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-MuPDF-mutool/&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/a&gt;
+&lt;p&gt;The &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-Format-PDF&lt;/span&gt; repository contains models for
+working with PDF files. It currently uses &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-MuPDF-mutool&lt;/span&gt;
 as the backend, but there are plans to use other backends.&lt;/p&gt;
 
 &lt;table&gt;
@@ -186,7 +186,7 @@ as the backend, but there are plans to use other backends.&lt;/p&gt;
 
 &lt;h4 id=&quot;project-renardp5-renard-incunabula-frontend-gtk3&quot;&gt;project-renard/p5-Renard-Incunabula-Frontend-Gtk3&lt;/h4&gt;
 
-&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; repository contains helper
+&lt;p&gt;The &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/span&gt; repository contains helper
 functions (e.g., shims for older versions of the &lt;code&gt;gtk+3&lt;/code&gt; library) and roles
 (e.g., loading components from Glade GUI builder XML files) for Gtk3.&lt;/p&gt;
 
@@ -366,7 +366,7 @@ dependencies:&lt;/p&gt;
 name for any of the other Project Renard dependencies that are needed to
 run the code in the current repository. Having this allows for testing
 changes in those dependencies by just switching to another branch name. For
-example, the &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; &lt;code&gt;cpanfile-git&lt;/code&gt; file
+example, the &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/span&gt; &lt;code&gt;cpanfile-git&lt;/code&gt; file
 contains&lt;/p&gt;
 
 &lt;div class=&quot;highlight-perl&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    requires &lt;span class=&quot;hl str&quot;&gt;&#39;Renard::Incunabula&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
@@ -397,7 +397,7 @@ to build such as &lt;a href=&quot;http://project-renard.github.io//doc/developme
 
 &lt;p&gt;The &lt;code&gt;maint/devops.yml&lt;/code&gt; file specifies the native dependencies that are
 needed to run the code in the current repository. For
-example, the &lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/../repo/p5-Renard-Incunabula-Frontend-Gtk3/&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/a&gt; &lt;code&gt;devops.yml&lt;/code&gt; file
+example, the &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/span&gt; &lt;code&gt;devops.yml&lt;/code&gt; file
 contains&lt;/p&gt;
 
 &lt;!-- should be yaml format but highlight plugin needs to be updated --&gt;
@@ -450,7 +450,7 @@ general-purpose tool.&lt;/p&gt;
 
 
 	<pubDate>Sat, 13 May 2017 18:00:00 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000&quot;&gt;Meeting time&lt;/a&gt;.&lt;/p&gt;
@@ -749,7 +749,7 @@ organised will come later.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Tue, 20 Dec 2016 23:57:59 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;style&gt;
@@ -961,7 +961,7 @@ on all platforms
 
 
 	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
@@ -1038,7 +1038,7 @@ on all platforms
 
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
@@ -2007,7 +2007,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 02 Apr 2016 16:47:49 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -2057,7 +2057,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
@@ -2104,7 +2104,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -2211,7 +2211,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -2271,7 +2271,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2017-12-25T03:04:04Z</dcterms:modified>
+	<dcterms:modified>2017-12-25T03:15:37Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since
