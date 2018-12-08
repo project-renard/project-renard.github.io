@@ -1,0 +1,14 @@
+---
+repo: project-renard/p5-Renard-API-MuPDF-mutool
+cpan: Renard-API-MuPDF-mutool
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-API-MuPDF-mutool
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-API-MuPDF-mutool.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-API-MuPDF-mutool
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/dq2n0ajx4jhd386s/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-API-MuPDF-mutool?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-API-MuPDF-mutool/badge.svg?branch=master
+released-to-cpan: true
+---
+[[!ftemplate id=repo]]
+

@@ -1,0 +1,14 @@
+---
+repo: project-renard/p5-Renard-API-Gtk3
+cpan: Renard-API-Gtk3
+type: library
+travis-ci: https://travis-ci.org/project-renard/p5-Renard-API-Gtk3
+travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-API-Gtk3.svg?branch=master
+appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-API-Gtk3
+appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/lx3v00k9hn58lnyt/branch/master?svg=true
+coveralls: https://coveralls.io/github/project-renard/p5-Renard-API-Gtk3?branch=master
+coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-API-Gtk3/badge.svg?branch=master
+released-to-cpan: true
+---
+[[!ftemplate id=repo]]
+
