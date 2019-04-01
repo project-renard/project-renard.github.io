@@ -138,7 +138,11 @@ Status: <TMPL_VAR NAME="Status">
 <TMPL_IF NAME="EstablishedForDistribution">
 <tr>
     <td>
-Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
+<TMPL_IF NAME="EstablishedForDistribution">
+Established for distribution: yes
+<TMPL_ELSE>
+Established for distribution: no
+</TMPL_IF>
     </td>
 </tr>
 </TMPL_IF>
