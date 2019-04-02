@@ -12,4 +12,9 @@ ProgrammingLanguage: Perl, C++
 
 [[Note about building of ParsCit|https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20]]
 
+A fork that has appropriate changes to make ParsCit installable using the usual
+method for installing Perl modules is available
+[[here|https://github.com/zmughal/ParsCit]]
+([[pull request|https://github.com/knmnyn/ParsCit/pull/30]]).
+
 [[!tag software-type/bibliography-parser]]

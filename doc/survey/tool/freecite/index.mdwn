@@ -10,4 +10,6 @@ ProgrammingLanguage: Ruby, C++
 ---
 [[!ftemplate id=tool]]
 
+FreeCite is based on a a CRF model trained on the [[Cora Information Extraction|https://people.cs.umass.edu/~mccallum/data.html]] dataset.
+
 [[!tag software-type/bibliography-parser]]
