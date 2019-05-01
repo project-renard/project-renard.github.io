@@ -17,118 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-01-04T02:15:36Z</updated>
-<entry>
-	<title>FreeCite</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/freecite/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/freecite/"/>
-
-
-
-
-
-
-	<category term="software-type/bibliography-parser" />
-
-
-	<updated>2018-01-04T02:15:36Z</updated>
-	<published>2018-01-04T02:15:36Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            FreeCite
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://freecite.library.brown.edu/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Ruby, C++
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/shoe/free_cite&quot;&gt;Source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Software form: Web application, library
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: yes
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Status: Active
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Established for distribution: 1
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
+<updated>2019-04-02T02:38:17Z</updated>
 <entry>
 	<title>AnyStyle</title>
 
@@ -144,8 +33,8 @@ Established for distribution: 1
 	<category term="software-type/bibliography-parser" />
 
 
-	<updated>2018-01-04T02:15:36Z</updated>
-	<published>2018-01-04T02:15:36Z</published>
+	<updated>2018-01-04T03:56:53Z</updated>
+	<published>2018-01-04T03:56:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -227,7 +116,9 @@ Status: Active
 
 &lt;tr&gt;
     &lt;td&gt;
-Established for distribution: 1
+
+Established for distribution: yes
+
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -255,8 +146,8 @@ Established for distribution: 1
 	<category term="software-type/bibliography-parser" />
 
 
-	<updated>2018-01-04T02:15:36Z</updated>
-	<published>2018-01-04T02:15:36Z</published>
+	<updated>2019-04-02T02:38:17Z</updated>
+	<published>2018-01-04T03:56:53Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -338,7 +229,9 @@ Status: Active
 
 &lt;tr&gt;
     &lt;td&gt;
-Established for distribution: 1
+
+Established for distribution: yes
+
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -347,6 +240,126 @@ Established for distribution: 1
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20&quot;&gt;Note about building of ParsCit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A fork that has appropriate changes to make ParsCit installable using the usual
+method for installing Perl modules is available
+&lt;a href=&quot;https://github.com/zmughal/ParsCit&quot;&gt;here&lt;/a&gt;
+(&lt;a href=&quot;https://github.com/knmnyn/ParsCit/pull/30&quot;&gt;pull request&lt;/a&gt;).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>FreeCite</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/freecite/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/freecite/"/>
+
+
+
+
+
+
+	<category term="software-type/bibliography-parser" />
+
+
+	<updated>2019-04-02T02:38:17Z</updated>
+	<published>2018-01-04T03:56:53Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            FreeCite
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://freecite.library.brown.edu/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Ruby, C++
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/shoe/free_cite&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Web application, library
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: yes
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Status: Active
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Established for distribution: yes
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;FreeCite is based on a a CRF model trained on the &lt;a href=&quot;https://people.cs.umass.edu/~mccallum/data.html&quot;&gt;Cora Information Extraction&lt;/a&gt; dataset.&lt;/p&gt;
 
 	</content>
 

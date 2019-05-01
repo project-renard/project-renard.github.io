@@ -125,19 +125,19 @@ class="cmtt-10">http://worrydream.com/MagicInk/</span></a>
      <li class="itemize"><a 
 href="http://worrydream.com/TheHumaneRepresentationOfThought/note.html" class="url" ><span 
 class="cmtt-10">http://worrydream.com/TheHumaneRepresentationOfThought/note.html</span></a></li></ul>
-<!--l. 58--><p class="noindent" >
+<!--l. 64--><p class="noindent" >
 </p>
    <h3 class="sectionHead"><span class="titlemark">2   </span> <a 
  id="x1-20002"></a>Alan Kay</h3>
-<!--l. 60--><p class="noindent" ><a 
+<!--l. 66--><p class="noindent" ><a 
 href="https://www.youtube.com/watch?v=YyIQKBzIuBY" class="url" ><span 
 class="cmtt-10">https://www.youtube.com/watch?v=YyIQKBzIuBY</span></a>, <a 
 href="http://www.tele-task.de/archive/video/flash/14029/" >HPI</a>
-</p><!--l. 62--><p class="noindent" >
+</p><!--l. 68--><p class="noindent" >
 </p>
    <h3 class="sectionHead"><span class="titlemark">3   </span> <a 
  id="x1-30003"></a>Design of electronic books</h3>
-<!--l. 64--><p class="noindent" ><span class="paragraphHead"><a 
+<!--l. 70--><p class="noindent" ><span class="paragraphHead"><a 
  id="x1-40003"></a><a id="bibentry:marshall2009-reading"></a><span 
 class="cmbx-10">Reading and Writing the Electronic Book</span><span 
 class="cmbx-10"> </span><a 
@@ -149,7 +149,7 @@ class="cmbx-10">2009</span></a><span
 class="cmbx-10">]</span></span>
    <a href="#bibentry:marshall2009-reading">&para;</a>
 </p>
-<!--l. 66--><p class="noindent" ><span class="paragraphHead"><a 
+<!--l. 72--><p class="noindent" ><span class="paragraphHead"><a 
  id="x1-50003"></a><a id="bibentry:pearson2013-digital-reading"></a><span 
 class="cmbx-10">Designing for Digital Reading</span><span 
 class="cmbx-10"> </span><a 
@@ -161,14 +161,14 @@ href="#Xpearson2013-digital-reading"><span
 class="cmbx-10">2013</span></a><span 
 class="cmbx-10">]</span></span>
    <a href="#bibentry:pearson2013-digital-reading">&para;</a>
-</p><!--l. 68--><p class="noindent" >
+</p><!--l. 74--><p class="noindent" >
 </p>
    <h3 class="sectionHead"><span class="titlemark">4   </span> <a 
  id="x1-60004"></a>Software engineering</h3>
                                                                   
 
                                                                   
-<!--l. 70--><p class="noindent" ><span class="paragraphHead"><a 
+<!--l. 76--><p class="noindent" ><span class="paragraphHead"><a 
  id="x1-70004"></a><a id="bibentry:rosenberg2008-dreaming-code"></a><span 
 class="cmbx-10">Dreaming in code: two dozen programmers, three years, 4,732 bugs, and</span>
 <span 
@@ -181,19 +181,212 @@ href="#Xrosenberg2008-dreaming-code"><span
 class="cmbx-10">2008</span></a><span 
 class="cmbx-10">]</span></span>
    <a href="#bibentry:rosenberg2008-dreaming-code">&para;</a>
-</p><!--l. 72--><p class="noindent" >
+</p><!--l. 78--><p class="noindent" >
 </p>
    <h3 class="sectionHead"><span class="titlemark">5   </span> <a 
  id="x1-80005"></a>Workﬂow</h3>
-<!--l. 74--><p class="noindent" >In <a 
+<!--l. 80--><p class="noindent" >In <a 
 href="http://ahiddendiscourse.com/2013/02/17/the-cognitive-basis-for-academic-workflows/" >The cognitive basis for academic workﬂows</a>, Lisa D. Harper looks at sensemaking
 models as a way to understand academic workﬂows.
-</p><!--l. 1--><p class="noindent" >
+</p><!--l. 84--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6   </span> <a 
+ id="x1-90006"></a>Scene graphs</h3>
+<!--l. 86--><p class="noindent" >TODO OpenSceneGraph
+</p><!--l. 88--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">7   </span> <a 
+ id="x1-100007"></a>Attribute grammars</h3>
+<!--l. 90--><p class="noindent" >Attribute grammars were ﬁrst introduced by Knuth. They consist of a normal
+grammar, but augmented with attributes. Attributes are the results of calculations
+based on the values and attributes of nodes in the parse tree. <a 
+href="#Xknuth1968semantics">Knuth</a> [<a 
+href="#Xknuth1968semantics">1968</a>].
+</p><!--l. 95--><p class="indent" >   One issue with attributes grammars is determining the order of evaluation. One
+naive approach is to use a topological sort based on the dependency graph of the
+attributes.
+</p>
+   <div class="newtheorem">
+<!--l. 99--><p class="noindent" ><span class="head">
+<a 
+ id="x1-10001r1"></a>
+<span 
+class="cmbx-10">Example 7.1.</span>  </span>Example: Attribute grammar for summing values in list. Taken
+from <a 
+href="#Xsteinlechner2019attrgrammars">Steinlechner et al.</a> [<a 
+href="#Xsteinlechner2019attrgrammars">2019</a>].
+</p><!--l. 103--><p class="indent" >   Data structure </p><!--l. 104-->
+   <div class="lstlisting" id="listing-1"><span class="label"><a 
+ id="x1-10002r1"></a></span>interface List <span 
+class="cmsy-10">{</span> <span 
+class="cmsy-10">}</span> <br /><span class="label"><a 
+ id="x1-10003r2"></a></span>class Cons : List <span 
+class="cmsy-10">{</span> <br /><span class="label"><a 
+ id="x1-10004r3"></a></span>        Int Value; <br /><span class="label"><a 
+ id="x1-10005r4"></a></span>        List Rest; <br /><span class="label"><a 
+ id="x1-10006r5"></a></span><span 
+class="cmsy-10">}</span> <br /><span class="label"><a 
+ id="x1-10007r6"></a></span>class Nil : List <span 
+class="cmsy-10">{</span> <span 
+class="cmsy-10">}</span>
+   
+   </div>
+<!--l. 113--><p class="indent" >   Attribute grammar (UUAGC syntax) </p><!--l. 114-->
+   <div class="lstlisting" id="listing-2"><span class="label"><a 
+ id="x1-10008r1"></a></span>syn SEM List <br /><span class="label"><a 
+ id="x1-10009r2"></a></span><span 
+class="cmsy-10">|</span> Nil  this.Sum = 0 <br /><span class="label"><a 
+ id="x1-10010r3"></a></span><span 
+class="cmsy-10">|</span> Cons this.Sum = this.Value + this.Rest.Sum
+   
+                                                                  
+
+                                                                  
+   </div>
+   </div>
+<!--l. 121--><p class="indent" >   In this example, the attribute grammar deﬁnes a <span 
+class="cmti-10">synthesised attribute </span><span 
+class="cmtt-10">Sum</span>. The
+order of evaluation is bottom-up and since this grammar only uses a synthesised
+attribute, it is an <span 
+class="cmti-10">S-attributed grammar</span>.
+</p><!--l. 126--><p class="indent" >   There are also special classes of attribute grammars than can be evaluated in a
+single pass during parsing despite having both synthesised attributes and <span 
+class="cmti-10">inherited</span>
+<span 
+class="cmti-10">attributes</span>.
+</p><!--l. 130--><p class="indent" >   For a synthesised attribute <!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>&alpha;</mi></mrow></math>
+and production <!--l. 130--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>S</mi> <mo 
+class="MathClass-rel">&rarr;</mo> <mi 
+>A</mi><mi 
+>B</mi><mi 
+>C</mi></mrow></math> the
+semantic function for <!--l. 131--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>S</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>&alpha;</mi></mrow></math> can
+depend on attributes from <!--l. 132--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>A</mi></mrow></math>,
+<!--l. 132--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>B</mi></mrow></math>, or
+<!--l. 132--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>C</mi></mrow></math>.
+</p><!--l. 134--><p class="indent" >   For the inherited attribute <!--l. 134--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>&beta;</mi></mrow></math>
+on the same production, <!--l. 135--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>B</mi><mo 
+class="MathClass-punc">.</mo><mi 
+>&beta;</mi></mrow></math> can
+depend on attributes from <!--l. 135--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>S</mi></mrow></math>,
+<!--l. 135--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>A</mi></mrow></math>, or
+<!--l. 135--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow 
+><mi 
+>C</mi></mrow></math>
+(every other symbol).
+</p><!--l. 138--><p class="indent" >   However, to evaluate a general class of attribute grammars, a speciﬁc traversal
+would be needed for each attribute grammar depending on the dependencies for the
+semantic functions. There existed algorithms that can take a speciﬁc attribute
+grammar and compute a traversal function for an attribute. Some of these are
+implemented in the for of a code generating compiler (e.g., UUAGC, JastAdd).
+UUAGC which uses a version of the <a 
+href="#Xkennedy1976automatic">Kennedy and Warren</a> [<a 
+href="#Xkennedy1976automatic">1976</a>]) algorithm that is
+described in <a 
+href="#Xbransen2012kennedy">Bransen et al.</a> [<a 
+href="#Xbransen2012kennedy">2012</a>].
+</p><!--l. 148--><p class="indent" >   These algorithms are often used in an ahead of time compiler in order to generate
+a static tree-walker evaluator. However, in some applications, an online version may
+be useful for dynamic editing of values on the trees or changes to the tree structure
+itself (e.g., a language editor). This merges the work in attribute grammars
+with work in incremental computing <a 
+href="#Xreps1983incremental">Reps et al.</a> [<a 
+href="#Xreps1983incremental">1983</a>], <a 
+href="#Xramalingam1993categorized">Ramalingam and
+Reps</a> [<a 
+href="#Xramalingam1993categorized">1993</a>].
+</p><!--l. 156--><p class="indent" >   In order to use attribute grammars in a way that they can be composible (in FP,
+AGs can be used to deﬁne catamorphisms compositionally) and easy to write,
+there has been work on making embedded DSLs for AG deﬁnitions <a 
+href="#Xsloane2010pure">Sloane
+et al.</a> [<a 
+href="#Xsloane2010pure">2010</a>].
+</p><!--l. 162--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">8   </span> <a 
+ id="x1-110008"></a>Incremental computing</h3>
+                                                                  
+
+                                                                  
+<!--l. 164--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">9   </span> <a 
+ id="x1-120009"></a>Self-adjusting computation</h3>
+<!--l. 1--><p class="noindent" >
 </p>
    <h3 class="likesectionHead"><a 
- id="x1-90005"></a>References</h3>
+ id="x1-130009"></a>References</h3>
 <!--l. 1--><p class="noindent" >
   </p><div class="thebibliography">
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xbransen2012kennedy"></a><span class="bibsp">   </span></span>Jeroen Bransen, Arie Middelkoop, Atze Dijkstra, and S Doaitse Swierstra.
+  The kennedy-warren algorithm revisited: ordering attribute grammars.   In
+  <span 
+class="cmti-10">International  Symposium  on  Practical  Aspects  of  Declarative  Languages</span>,
+  pages 183–197. Springer, 2012.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xkennedy1976automatic"></a><span class="bibsp">   </span></span>Ken  Kennedy  and  Scott K  Warren.    Automatic  generation  of  eﬃcient
+  evaluators  for  attribute  grammars.     In  <span 
+class="cmti-10">Proceedings  of  the  3rd  ACM</span>
+  <span 
+class="cmti-10">SIGACT-SIGPLAN  symposium  on  Principles  on  programming  languages</span>,
+  pages 32–49. ACM, 1976.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xknuth1968semantics"></a><span class="bibsp">   </span></span>Donald E  Knuth.    Semantics  of  context-free  languages.    <span 
+class="cmti-10">Mathematical</span>
+  <span 
+class="cmti-10">systems theory</span>, 2(2):127–145, 1968.
+  </p>
   <p class="bibitem" ><span class="biblabel">
 <a 
  id="Xmarshall2009-reading"></a><span class="bibsp">   </span></span>Catherine C. Marshall. <span 
@@ -217,6 +410,26 @@ class="cmtt-10">http://dx.doi.org/10.2200/S00539ED1V01Y201310ICR029</span></a>.
   </p>
   <p class="bibitem" ><span class="biblabel">
 <a 
+ id="Xramalingam1993categorized"></a><span class="bibsp">   </span></span>Ganesan  Ramalingam  and  Thomas  Reps.    A  categorized  bibliography
+  on   incremental   computation.       In   <span 
+class="cmti-10">Proceedings   of   the   20th   ACM</span>
+                                                                  
+
+                                                                  
+  <span 
+class="cmti-10">SIGPLAN-SIGACT  symposium  on  Principles  of  programming  languages</span>,
+  pages 502–510. ACM, 1993.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xreps1983incremental"></a><span class="bibsp">   </span></span>Thomas   Reps,   Tim   Teitelbaum,   and   Alan   Demers.      Incremental
+  context-dependent analysis for language-based editors. <span 
+class="cmti-10">ACM Transactions on</span>
+  <span 
+class="cmti-10">Programming Languages and Systems (TOPLAS)</span>, 5(3):449–477, 1983.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
  id="Xrosenberg2008-dreaming-code"></a><span class="bibsp">   </span></span>Scott Rosenberg.  <span 
 class="cmti-10">Dreaming in code: two dozen programmers, three years,</span>
   <span 
@@ -224,6 +437,20 @@ class="cmti-10">4,732 bugs, and one quest for transcendent software</span>. Thre
   2008. URL <a 
 href="http://www.dreamingincode.com/" class="url" ><span 
 class="cmtt-10">http://www.dreamingincode.com/</span></a>.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xsloane2010pure"></a><span class="bibsp">   </span></span>Anthony M  Sloane,  Lennart CL  Kats,  and  Eelco  Visser.     A  pure
+  object-oriented  embedding  of  attribute  grammars.    <span 
+class="cmti-10">Electronic  Notes  in</span>
+  <span 
+class="cmti-10">Theoretical Computer Science</span>, 253(7):205–219, 2010.
+  </p>
+  <p class="bibitem" ><span class="biblabel">
+<a 
+ id="Xsteinlechner2019attrgrammars"></a><span class="bibsp">   </span></span>Harald Steinlechner, Georg Haaser, Stefan Maierhofer, and Robert Tobler.
+  Attribute grammars for incremental scene graph rendering.  02 2019.  doi:
+  10.5220/0007372800770088.
 </p>
   </div>
     
@@ -254,8 +481,8 @@ class="cmtt-10">http://www.dreamingincode.com/</span></a>.
 
 
 <div class="pagedate">
-Last edited <span class="date">Thu 01 Nov 2018 10:07:54 PM UTC</span>
-<!-- Created <span class="date">Thu 04 Jan 2018 02:15:36 AM UTC</span> -->
+Last edited <span class="date">Wed 01 May 2019 04:00:28 PM UTC</span>
+<!-- Created <span class="date">Thu 04 Jan 2018 03:56:53 AM UTC</span> -->
 </div>
 
 </div>

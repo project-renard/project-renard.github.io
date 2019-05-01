@@ -241,7 +241,11 @@ Status: <TMPL_VAR NAME="Status">
 <TMPL_IF NAME="EstablishedForDistribution">
 <tr>
     <td>
-Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
+<TMPL_IF NAME="EstablishedForDistribution">
+Established for distribution: yes
+<TMPL_ELSE>
+Established for distribution: no
+</TMPL_IF>
     </td>
 </tr>
 </TMPL_IF>
@@ -275,8 +279,8 @@ Established for distribution: <TMPL_VAR NAME="EstablishedForDistribution">
 
 
 <div class="pagedate">
-Last edited <span class="date">Thu 04 Jan 2018 02:15:36 AM UTC</span>
-<!-- Created <span class="date">Thu 04 Jan 2018 02:15:36 AM UTC</span> -->
+Last edited <span class="date">Mon 01 Apr 2019 04:56:55 PM UTC</span>
+<!-- Created <span class="date">Thu 04 Jan 2018 03:56:53 AM UTC</span> -->
 </div>
 
 </div>
