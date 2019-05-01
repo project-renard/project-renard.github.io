@@ -2,6 +2,12 @@
 
 \usepackage{hyperref}
 
+\usepackage{listings}
+
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+
 \newif\ifusenatbib
 \usenatbibtrue
 %\usenatbibfalse
@@ -74,6 +80,88 @@
 In \href{http://ahiddendiscourse.com/2013/02/17/the-cognitive-basis-for-academic-workflows/}{The cognitive basis for academic workflows},
 Lisa D. Harper looks at sensemaking models as a way to understand academic
 workflows.
+
+\section{Scene graphs}
+
+TODO OpenSceneGraph
+
+\section{Attribute grammars}
+
+Attribute grammars were first introduced by Knuth. They consist of
+a normal grammar, but augmented with attributes. Attributes are
+the results of calculations based on the values and attributes of
+nodes in the parse tree.~\cite{knuth1968semantics}.
+
+One issue with attributes grammars is determining the order of
+evaluation. One naive approach is to use a topological sort based
+on the dependency graph of the attributes.
+
+\begin{example}
+Example: Attribute grammar for summing values in list. Taken
+from~\cite{steinlechner2019attrgrammars}.
+
+Data structure
+\begin{lstlisting}
+interface List { }
+class Cons : List {
+	Int Value;
+	List Rest;
+}
+class Nil : List { }
+\end{lstlisting}
+
+Attribute grammar (UUAGC syntax)
+\begin{lstlisting}
+syn SEM List
+| Nil  this.Sum = 0
+| Cons this.Sum = this.Value + this.Rest.Sum
+\end{lstlisting}
+\end{example}
+
+In this example, the attribute grammar defines a \emph{synthesised
+attribute} \texttt{Sum}. The order of evaluation is bottom-up and
+since this grammar only uses a synthesised attribute, it is an
+\emph{S-attributed grammar}.
+
+There are also special classes of attribute grammars than can be
+evaluated in a single pass during parsing despite having both
+synthesised attributes and \emph{inherited attributes}.
+
+For a synthesised attribute \(\alpha\) and production \( S \to ABC
+\) the semantic function for \(S.\alpha\) can depend on attributes
+from \(A\), \(B\), or \(C\).
+
+For the inherited attribute \(\beta\) on the same production,
+\(B.\beta\) can depend on attributes from \(S\), \(A\), or \(C\)
+(every other symbol).
+
+However, to evaluate a general class of attribute grammars, a
+specific traversal would be needed for each attribute grammar
+depending on the dependencies for the semantic functions. There
+existed algorithms that can take a specific attribute grammar and
+compute a traversal function for an attribute. Some of these are
+implemented in the for of a code generating compiler (e.g., UUAGC,
+JastAdd). UUAGC which uses a version of
+the~\cite{kennedy1976automatic}) algorithm that is described
+in~\cite{bransen2012kennedy}.
+
+These algorithms are often used in an ahead of time compiler in
+order to generate a static tree-walker evaluator. However, in some
+applications, an online version may be useful for dynamic editing
+of values on the trees or changes to the tree structure itself
+(e.g., a language editor). This merges the work in attribute
+grammars with work in incremental
+computing~\cite{reps1983incremental,ramalingam1993categorized}.
+
+In order to use attribute grammars in a way that they can be
+composible (in FP, AGs can be used to define catamorphisms
+compositionally) and easy to write, there has been work on making
+embedded DSLs for AG definitions \cite{sloane2010pure}.
+
+
+\section{Incremental computing}
+
+\section{Self-adjusting computation}
 
 
 \ifusenatbib
