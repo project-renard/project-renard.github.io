@@ -36,13 +36,21 @@
 		\HCode{<a href="\##1">&para;</a>}%
 	\fi%
 }
+\newcommand{\htmlspantitle}[2]{%
+	\ifx\HCode\Undef%
+		#1
+	\else%
+		\HCode{<span title="#2">#1</span>}%
+	\fi%
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {{{
 \usepackage{usebib}
+\newbibfield{abstract}
 %% prints out the info for a citation key:
 %%     \printarticle{Author00}
 \newcommand{\printarticle}[1]{\citeauthor{#1}, ``\usebibentry{#1}{title}'' (\usebibentry{#1}{year})}
-\newcommand{\paracite}[1]{\paragraph{\htmlanchorstart{bibentry:#1}\usebibentry{#1}{title}~\citet{#1}}\label{bibentry:#1}\htmlanchorend{bibentry:#1}}
+\newcommand{\paracite}[1]{\paragraph{\htmlanchorstart{bibentry:#1}\htmlspantitle{\usebibentry{#1}{title}}{\usebibentry{#1}{abstract}}~\citet{#1}}\label{bibentry:#1}\htmlanchorend{bibentry:#1}}
 % \bibentry{#1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }}}
 
