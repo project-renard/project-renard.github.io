@@ -10,6 +10,120 @@
 <generator>ikiwiki</generator>
 <pubDate>Tue, 02 Apr 2019 02:38:17 +0000</pubDate>
 <item>
+	<title>ParsCit</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/parscit/</guid>
+
+	<link>http://project-renard.github.io//doc/survey/tool/parscit/</link>
+
+
+
+	<category>software-type/bibliography-parser</category>
+
+
+	<pubDate>Wed, 28 Feb 2018 14:45:54 +0000</pubDate>
+	<dcterms:modified>2019-04-02T02:38:17Z</dcterms:modified>
+
+
+	<description>&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ParsCit
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://parscit.comp.nus.edu.sg/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Perl, C++
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/knmnyn/parscit&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Software form: Web application, library
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: yes
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+Status: Active
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Established for distribution: yes
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20&quot;&gt;Note about building of ParsCit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A fork that has appropriate changes to make ParsCit installable using the usual
+method for installing Perl modules is available
+&lt;a href=&quot;https://github.com/zmughal/ParsCit&quot;&gt;here&lt;/a&gt;
+(&lt;a href=&quot;https://github.com/knmnyn/ParsCit/pull/30&quot;&gt;pull request&lt;/a&gt;).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>AnyStyle</title>
 
 	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/anystyle/</guid>
@@ -21,8 +135,8 @@
 	<category>software-type/bibliography-parser</category>
 
 
-	<pubDate>Mon, 08 Jan 2018 08:58:49 +0000</pubDate>
-	<dcterms:modified>2018-01-08T08:58:49Z</dcterms:modified>
+	<pubDate>Wed, 28 Feb 2018 14:45:54 +0000</pubDate>
+	<dcterms:modified>2018-02-28T14:45:54Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -128,7 +242,7 @@ Established for distribution: yes
 	<category>software-type/bibliography-parser</category>
 
 
-	<pubDate>Mon, 08 Jan 2018 08:58:49 +0000</pubDate>
+	<pubDate>Wed, 28 Feb 2018 14:45:54 +0000</pubDate>
 	<dcterms:modified>2019-04-02T02:38:17Z</dcterms:modified>
 
 
@@ -221,120 +335,6 @@ Established for distribution: yes
 &lt;/div&gt;
 
 &lt;p&gt;FreeCite is based on a a CRF model trained on the &lt;a href=&quot;https://people.cs.umass.edu/~mccallum/data.html&quot;&gt;Cora Information Extraction&lt;/a&gt; dataset.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>ParsCit</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//doc/survey/tool/parscit/</guid>
-
-	<link>http://project-renard.github.io//doc/survey/tool/parscit/</link>
-
-
-
-	<category>software-type/bibliography-parser</category>
-
-
-	<pubDate>Mon, 08 Jan 2018 08:58:49 +0000</pubDate>
-	<dcterms:modified>2019-04-02T02:38:17Z</dcterms:modified>
-
-
-	<description>&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            ParsCit
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://parscit.comp.nus.edu.sg/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Perl, C++
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://github.com/knmnyn/parscit&quot;&gt;Source code&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Software form: Web application, library
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: yes
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-Status: Active
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Established for distribution: yes
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/pdf-extraction-experiment/blob/02b8128db27ae1c03570690e1d231f19cf14ac3a/NOTE.otl#L20&quot;&gt;Note about building of ParsCit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A fork that has appropriate changes to make ParsCit installable using the usual
-method for installing Perl modules is available
-&lt;a href=&quot;https://github.com/zmughal/ParsCit&quot;&gt;here&lt;/a&gt;
-(&lt;a href=&quot;https://github.com/knmnyn/ParsCit/pull/30&quot;&gt;pull request&lt;/a&gt;).&lt;/p&gt;
 </description>
 
 
