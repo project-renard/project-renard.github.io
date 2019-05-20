@@ -12,15 +12,15 @@
 	eprint = {http://dx.doi.org/10.2200/S00215ED1V01Y200907ICR009},
 	abstract = {
 	Developments over the last twenty years have fueled considerable speculation
-	about the future of the book and of reading itself.  This book begins with a
+	about the future of the book and of reading itself. This book begins with a
 	gloss over the history of electronic books, including the social and technical
 	forces that have shaped their development. The focus then shifts to reading and
 	how we interact with what we read: basic issues such as legibility, annotation,
 	and navigation are examined as aspects of reading that ebooks inherit from
-	their print legacy.  Because reading is fundamentally communicative, I also
+	their print legacy. Because reading is fundamentally communicative, I also
 	take a closer look at the sociality of reading: how we read in a group and how
 	we share what we read. Studies of reading and ebook use are integrated
-	throughout the book, but Chapter 5 "goes meta" to explore how a researcher
+	throughout the book, but Chapter 5 ``goes meta'' to explore how a researcher
 	might go about designing his or her own reading-related studies.
 
 	No book about ebooks is complete without an explicit discussion of content
@@ -28,7 +28,7 @@
 	into the underlying representation of ebooks and efforts to create and apply
 	markup standards to them. This chapter also examines how print genres have made
 	the journey to digital and how some emerging digital genres might be realized
-	as ebooks.  Finally, Chapter 7 discusses some beyond-the-book functionality:
+	as ebooks. Finally, Chapter 7 discusses some beyond-the-book functionality:
 	how can ebook platforms be transformed into portable personal libraries? In the
 	end, my hope is that by the time the reader reaches the end of this book, he or
 	she will feel equipped to perform the next set of studies, write the next set
@@ -67,7 +67,7 @@
 	footnotes, and diagrams. Today, electronic documents are enabling paperless
 	reading supported by eReading technologies such as Kindles and Nooks, yet a
 	high proportion of users still opt to print on paper before reading. This
-	persistent habit of "printing to read" is one sign of the shortcomings of
+	persistent habit of ``printing to read'' is one sign of the shortcomings of
 	digital documents -- although the popularity of eReaders is one sign of the
 	shortcomings of paper. How do we get the best of both worlds?
 
@@ -114,330 +114,523 @@
 	title={Dreaming in code: two dozen programmers, three years, 4,732 bugs, and one quest for transcendent software},
 	author={Rosenberg, Scott},
 	year={2008},
+	isbn = {978-1-400-08246-9},
 	publisher={Three Rivers Press (CA)},
-	URL={http://www.dreamingincode.com/}
+	URL={http://www.dreamingincode.com/},
+	abstract = {
+	Our civilization runs on software. Yet the art of creating it
+	continues to be a dark mystery, even to the experts. To
+	find out why it’s so hard to bend computers to our
+	will, Scott Rosenberg spent three years following a
+	team of maverick software developers—led by Lotus 1-2-3
+	creator Mitch Kapor—designing a novel personal
+	information manager meant to challenge market leader
+	Microsoft Outlook. Their story takes us through a maze
+	of abrupt dead ends and exhilarating breakthroughs as
+	they wrestle not only with the abstraction of code, but
+	with the unpredictability of human behavior—especially
+	their own.
+	}
 }
 
 
 
-@ONLINE {tavenrath2016,
-    author = "Markus Tavenrath",
-    title  = "Handling Massive Transform Updates in a Scenegraph",
-    month  = "mar",
-    year   = "2016",
-    url    = "http://on-demand.gputechconf.com/gtc/2016/presentation/s6131-tavenrath-scenegraph.pdf"
+@ONLINE{tavenrath2016,
+	author = {Markus Tavenrath},
+	title = {Handling Massive Transform Updates in a Scenegraph},
+	month = {mar},
+	year = {2016},
+	url = {http://on-demand.gputechconf.com/gtc/2016/presentation/s6131-tavenrath-scenegraph.pdf}
 }
 
 @inproceedings{worister2013lazy,
-  title={Lazy incremental computation for efficient scene graph rendering},
-  author={W{\"o}rister, Michael and Steinlechner, Harald and Maierhofer, Stefan and Tobler, Robert F},
-  booktitle={Proceedings of the 5th high-performance graphics conference},
-  pages={53--62},
-  year={2013},
-  organization={ACM}
+	title={Lazy incremental computation for efficient scene graph rendering},
+	author={W{\"o}rister, Michael and Steinlechner, Harald and Maierhofer, Stefan and Tobler, Robert F},
+	booktitle={Proceedings of the 5th high-performance graphics conference},
+	pages={53--62},
+	year={2013},
+	organization={ACM},
+	DOI = {10.1145/2492045.2492051},
+	URL = {http://dx.doi.org/10.1145/2492045.2492051},
+	abstract={
+		In order to provide a highly performant rendering system while maintaining a scene graph structure with a high level of abstraction, we introduce improved rendering caches, that can be updated incrementally without any scene graph traversal. The basis of this novel system is the use of a dependency graph, that can be synthesized from the scene graph and links all sources of changes to the affected parts of rendering caches. By using and extending concepts from incremental computation we minimize the computational overhead for performing the necessary updates due to changes in any inputs. This makes it possible to provide a high-level semantic scene graph, while retaining the opportunity to apply a number of known optimizations to the rendering caches even for dynamic scenes. Our evaluation shows that the resulting rendering system is highly competitive and provides good rendering performance for scenes ranging from completely static geometry all the way to completely dynamic geometry.
+	}
 }
 
 @article{reps1983incremental,
-  title={Incremental context-dependent analysis for language-based editors},
-  author={Reps, Thomas and Teitelbaum, Tim and Demers, Alan},
-  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
-  volume={5},
-  number={3},
-  pages={449--477},
-  year={1983},
-  publisher={ACM}
+	title={Incremental context-dependent analysis for language-based editors},
+	author={Reps, Thomas and Teitelbaum, Tim and Demers, Alan},
+	journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+	volume={5},
+	number={3},
+	pages={449--477},
+	year={1983},
+	publisher={ACM},
+	url={http://dx.doi.org/10.1145/2166.357218},
+	DOI={10.1145/2166.357218},
+	abstract={
+		Knowledge of a programming language's grammar allows
+		language-based editors to enforce syntactic
+		correctness at all times during development by
+		restricting editing operations to legitimate
+		modifications of the program's context-free derivation
+		tree; however, not all language constraints can be
+		enforced in this way because not all features can be
+		described by the context-free formalism. Attribute
+		grammars permit context-dependent language features to
+		be expressed in a modular, declarative fashion and thus
+		are a good basis for specifying language-based editors.
+		Such editors represent programs as attributed trees,
+		Which are modified by operations such as subtree pruning and
+		grafting. Incremental analysis is performed by
+		updating attribute values after every modification.
+		This paper discusses how updating can be carried out
+		and presents several algorithms for the task, including
+		one that is asymptotically optimal in time.
+	}
 }
 
 @article{hudson1991incremental,
-  title={Incremental attribute evaluation: A flexible algorithm for lazy update},
-  author={Hudson, Scott E},
-  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
-  volume={13},
-  number={3},
-  pages={315--341},
-  year={1991},
-  publisher={ACM}
+	title={Incremental attribute evaluation: A flexible algorithm for lazy update},
+	author={Hudson, Scott E},
+	journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+	volume={13},
+	number={3},
+	pages={315--341},
+	year={1991},
+	publisher={ACM},
+	URL={http://dx.doi.org/10.1145/117009.117012},
+	DOI={10.1145/117009.117012},
+	abstract={
+		This paper introduces a new algorithm for incremental attribute evaluation. The algorithm is lazy: It evaluates only the attributes that are both affected by a change and that are directly or indirectly observable by the user. In this way, the wasted work of computing values that are never actually used is avoided. Although the algorithm is not optimal, it performs better than the standard “optimal” algorithm in cases where expensive but optional computations need to be supported. Furthermore, the algorithm does not have some of the limitations of other algorithms. It works for general attributed graphs as well as for standard attributed trees. In addition, it does not presume any special editing model, and it supports multiple change points without loss of efficiency.
+	}
 }
 
 @article{tobler2011separating,
-  title={Separating semantics from rendering: a scene graph based architecture for graphics applications},
-  author={Tobler, Robert F},
-  journal={The Visual Computer},
-  volume={27},
-  number={6-8},
-  pages={687--695},
-  year={2011},
-  publisher={Springer}
+	title={Separating semantics from rendering: a scene graph based architecture for graphics applications},
+	author={Tobler, Robert F},
+	journal={The Visual Computer},
+	volume={27},
+	number={6-8},
+	pages={687--695},
+	year={2011},
+	publisher={Springer},
+	URL={http://dx.doi.org/10.1007/s00371-011-0572-0},
+	DOI={10.1007/s00371-011-0572-0},
+	abstract={
+		A large number of rendering and graphics applications developed in research and industry are based on scene graphs. Traditionally, scene graphs encapsulate the hierarchical structure of a complete 3D scene, and combine both semantic and rendering aspects. In this paper, we propose a clean separation of the semantic and rendering parts of the scene graph. This leads to a generally applicable architecture for graphics applications that is loosely based on the well-known Model-View-Controller (MVC) design pattern for separating the user interface and computation parts of an application. We explore the benefits of this new design for various rendering and modeling tasks, such as rendering dynamic scenes, out-of-core rendering of large scenes, generation of geometry for trees and vegetation, and multi-view rendering. Finally, we show some of the implementation details that have been solved in the process of using this software architecture in a large framework for rapid development of visualization and rendering applications.
+	}
 }
 
 @inproceedings{zeleznik2000scene,
-  title={Scene-Graph-As-Bus: Collaboration between Heterogeneous Stand-alone 3-D Graphical Applications},
-  author={Zeleznik, Bob and Holden, Loring and Capps, Michael and Abrams, Howard and Miller, Tim},
-  booktitle={Computer Graphics Forum},
-  volume={19},
-  number={3},
-  pages={91--98},
-  year={2000},
-  organization={Wiley Online Library}
+	title={Scene-Graph-As-Bus: Collaboration between Heterogeneous Stand-alone 3-D Graphical Applications},
+	author={Zeleznik, Bob and Holden, Loring and Capps, Michael and Abrams, Howard and Miller, Tim},
+	booktitle={Computer Graphics Forum},
+	volume={19},
+	number={3},
+	pages={91--98},
+	year={2000},
+	organization={Wiley Online Library},
+	URL={http://dx.doi.org/10.1111/1467-8659.00401},
+	DOI={10.1111/1467-8659.00401},
+	abstract={
+		We describe the Scene‐Graph‐As‐Bus technique (SGAB), the first step in a staircase of solutions for sharing software components for virtual environments. The goals of SGAB are to allow, with minimal effort, independently‐designed applications to share component functionality; and for multiple users to share applications designed for single users.This paper reports on the SGAB design for transparently conjoining different applications by unifying the state information contained in their scene graphs. SGAB monitors and maps changes in the local scene graph of one application to a neutral scene graph representation (NSG), distributes the NSG changes over the network to remote peer applications, and then maps the NSG changes to the local scene graph of the remote application. The fundamental contribution of SGAB is that both the local and remote applications can be completely unaware of each other; that is, both applications can interoperate without code or binary modification despite each having no knowledge of networking or interoperability.
+	}
 }
 
 @article{knuth1968semantics,
-  title={Semantics of context-free languages},
-  author={Knuth, Donald E},
-  journal={Mathematical systems theory},
-  volume={2},
-  number={2},
-  pages={127--145},
-  year={1968},
-  publisher={Springer}
+	title={Semantics of context-free languages},
+	author={Knuth, Donald E},
+	journal={Mathematical systems theory},
+	volume={2},
+	number={2},
+	pages={127--145},
+	year={1968},
+	publisher={Springer},
+	URL={http://dx.doi.org/10.1007/bf01692511},
+	DOI={10.1007/bf01692511},
+	abstract={
+		“Meaning” may be assigned to a string in a context-free language by defining “attributes” of the symbols in a derivation tree for that string. The attributes can be defined by functions associated with each production in the grammar. This paper examines the implications of this process when some of the attributes are “synthesized”, i.e., defined solely in terms of attributes of the descendants of the corresponding nonterminal symbol, while other attributes are “inherited”, i.e., defined in terms of attributes of the ancestors of the nonterminal symbol. An algorithm is given which detects when such semantic rules could possibly lead to circular definition of some attributes. An example is given of a simple programming language defined with both inherited and synthesized attributes, and the method of definition is compared to other techniques for formal specification of semantics which have appeared in the literature.
+	}
 }
 
 
 @inproceedings{steinlechner2019attrgrammars,
-author = {Steinlechner, Harald and Haaser, Georg and Maierhofer, Stefan and Tobler, Robert},
-year = {2019},
-month = {02},
-pages = {},
-title = {Attribute Grammars for Incremental Scene Graph Rendering},
-doi = {10.5220/0007372800770088}
+	title = {Attribute Grammars for Incremental Scene Graph Rendering},
+	author = {Steinlechner, Harald and Haaser, Georg and Maierhofer, Stefan and Tobler, Robert},
+	year = {2019},
+	month = {02},
+	pages = {77-88},
+	journal={Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications},
+	ISBN={9789897583544},
+	publisher={SCITEPRESS - Science and Technology Publications},
+	URL={http://dx.doi.org/10.5220/0007372800770088},
+	DOI={10.5220/0007372800770088},
+	abstract={
+		Scene graphs, as found in many visualization systems are a well-established concept for modeling virtual
+		scenes in computer graphics. State-of-the-art approaches typically issue
+		appropriate draw commands while traversing the graph. Equipped with a
+		functional programming mindset we take a different approach and utilize
+		attribute grammars as a central concept for modeling the problem domain
+		declaratively. Instead of issuing draw commands imperatively, we synthesize
+		first class objects describing appropriate draw commands. In order to make this
+		approach practical in the face of dynamic changes to the scene graph, we
+		utilize incremental evaluation, and thereby avoid repeated evaluation of
+		unchanged parts. Our application prototypically demonstrates how complex
+		systems benefit from domain-specific languages, declarative problem solving and
+		the implications thereof. Besides from being concise and expressive, our
+		solution demonstrates a real-world use case of self-adjusting computation which
+		elegantly extends scene graphs with well-defined reactive semantics and
+		efficient, incremental execution.
+	}
 }
 
 @inproceedings{bransen2012kennedy,
-  title={The Kennedy-Warren algorithm revisited: ordering attribute grammars},
-  author={Bransen, Jeroen and Middelkoop, Arie and Dijkstra, Atze and Swierstra, S Doaitse},
-  booktitle={International Symposium on Practical Aspects of Declarative Languages},
-  pages={183--197},
-  year={2012},
-  organization={Springer}
+	title={The Kennedy-Warren algorithm revisited: ordering attribute grammars},
+	author={Bransen, Jeroen and Middelkoop, Arie and Dijkstra, Atze and Swierstra, S Doaitse},
+	booktitle={International Symposium on Practical Aspects of Declarative Languages},
+	pages={183--197},
+	year={2012},
+	organization={Springer},
+	URL={http://dx.doi.org/10.1007/978-3-642-27694-1_14},
+	DOI={10.1007/978-3-642-27694-1_14},
+	abstract={
+		Attribute Grammars (AGs) are a powerful tool for defining an executable semantics of a programming language, and thus for implementing a compiler. An execution plan for an AG determines a static evaluation order for the attributes which are defined as part of an AG specification. In building the Utrecht Haskell Compiler (UHC), a large scale AG project, we discovered that the Ordered AG approach (Kastens, 1980) for building such plans becomes impractical: the additional dependencies between attributes introduced by this algorithm too often result in grammars for which no execution plan can be generated.
+
+		To avoid such problems we have implemented a refined version of the algorithm of Kennedy and Warren (1976) as part of our purely functional AG system and show how this algorithm solves the problems that surface with the Ordered AG approach. Furthermore, we present the results of applying this algorithm to the UHC code and show that this approach in some cases also has a positive effect on the runtime of the resulting program.
+	}
 }
 
 @misc{baarsuuagc,
-  title={Utrecht University AG system manual},
-  author={Baars, A and Swierstra, D and Loh, A},
-  url = {http://foswiki.cs.uu.nl/foswiki/HUT/WebHome}
+	title={Utrecht University AG system manual},
+	author={Baars, A and Swierstra, D and Loh, A},
+	url = {http://foswiki.cs.uu.nl/foswiki/HUT/WebHome}
 }
 
 @inproceedings{kennedy1976automatic,
-  title={Automatic generation of efficient evaluators for attribute grammars},
-  author={Kennedy, Ken and Warren, Scott K},
-  booktitle={Proceedings of the 3rd ACM SIGACT-SIGPLAN symposium on Principles on programming languages},
-  pages={32--49},
-  year={1976},
-  organization={ACM}
+	title={Automatic generation of efficient evaluators for attribute grammars},
+	author={Kennedy, Ken and Warren, Scott K},
+	booktitle={Proceedings of the 3rd ACM SIGACT-SIGPLAN symposium on Principles on programming languages},
+	pages={32--49},
+	year={1976},
+	organization={ACM},
+	URL={http://dx.doi.org/10.1145/800168.811538},
+	DOI={10.1145/800168.811538},
+	abstract={
+		The translation process may be divided into a syntactic phase and a semantic phase. Context-free grammars can be used to describe the set of syntactically correct source texts in a formal yet intuitively appealing way, and many techniques are now known for automatically constructing parsers from given CF grammars. Knuth's attribute grammars offer the prospect of similarly automating the implementation of the semantic phase. An attribute grammar is an ordinary CF grammar extended to specify the “meaning” of each string in the language. Each grammar symbol has an associated set of “attributes:”, and each production rule is provided with corresponding semantic rules expressing the relationships between the attributes of symbols in the production. To find the meaning of a string, first we find its parse tree and then we determine the values of all the attributes of symbols in the tree.
+	}
 }
 
 @article{ekman2007jastadd,
-  title={The JastAdd system—modular extensible compiler construction},
-  author={Ekman, Torbj{\"o}rn and Hedin, G{\"o}rel},
-  journal={Science of Computer Programming},
-  volume={69},
-  number={1-3},
-  pages={14--26},
-  year={2007},
-  publisher={Elsevier}
+	title={The JastAdd system — modular extensible compiler construction},
+	author={Ekman, Torbj{\"o}rn and Hedin, G{\"o}rel},
+	journal={Science of Computer Programming},
+	volume={69},
+	number={1-3},
+	pages={14--26},
+	year={2007},
+	publisher={Elsevier},
+	URL={http://dx.doi.org/10.1016/j.scico.2007.02.003},
+	DOI={10.1016/j.scico.2007.02.003},
+	abstract={
+		The JastAdd system enables modular specifications of extensible compiler tools and languages. Java has been extended with the Rewritable Circular Reference Attributed Grammars formalism that supports modularization and extensibility through several synergistic mechanisms. Object-orientation and static aspect-oriented programming are combined with declarative attributes and context-dependent rewrites to allow highly modular specifications. The techniques have been verified by implementing a full Java 1.4 compiler with modular extensions for non-null types and Java 5 features.
+	}
 }
 
 @inproceedings{ramalingam1993categorized,
-  title={A categorized bibliography on incremental computation},
-  author={Ramalingam, Ganesan and Reps, Thomas},
-  booktitle={Proceedings of the 20th ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
-  pages={502--510},
-  year={1993},
-  organization={ACM}
+	title={A categorized bibliography on incremental computation},
+	author={Ramalingam, Ganesan and Reps, Thomas},
+	booktitle={Proceedings of the 20th ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+	pages={502--510},
+	year={1993},
+	organization={ACM},
+	URL={http://dx.doi.org/10.1145/158511.158710},
+	DOI={10.1145/158511.158710}
 }
 
 @article{sloane2010pure,
-  title={A pure object-oriented embedding of attribute grammars},
-  author={Sloane, Anthony M and Kats, Lennart CL and Visser, Eelco},
-  journal={Electronic Notes in Theoretical Computer Science},
-  volume={253},
-  number={7},
-  pages={205--219},
-  year={2010},
-  publisher={Elsevier}
+	title={A pure object-oriented embedding of attribute grammars},
+	author={Sloane, Anthony M and Kats, Lennart CL and Visser, Eelco},
+	journal={Electronic Notes in Theoretical Computer Science},
+	volume={253},
+	number={7},
+	pages={205--219},
+	year={2010},
+	publisher={Elsevier},
+	URL={http://dx.doi.org/10.1016/j.entcs.2010.08.043},
+	DOI={10.1016/j.entcs.2010.08.043},
+	abstract={
+		Attribute grammars are a powerful specification paradigm for many language processing tasks, particularly semantic analysis of programming languages. Recent attribute grammar systems use dynamic scheduling algorithms to evaluate attributes by need. In this paper, we show how to remove the need for a generator, by embedding a dynamic approach in a modern, object-oriented programming language to implement a small, lightweight attribute grammar library. The Kiama attribution library has similar features to current generators, including cached, uncached, circular, higher-order and parameterised attributes, and implements new techniques for dynamic extension and variation of attribute equations. We use the Scala programming language because of its combination of object-oriented and functional features, support for domain-specific notations and emphasis on scalability. Unlike generators with specialised notation, Kiama attribute grammars use standard Scala notations such as pattern-matching functions for equations and mixins for composition. A performance analysis shows that our approach is practical for realistic language processing.
+	}
 }
 
 
 @article{middelkoop2011visitor,
-  title={Visitor-based attribute grammars with side effect},
-  author={Middelkoop, Arie and Dijkstra, Atze and Swierstra, S Doaitse},
-  journal={Electronic Notes in Theoretical Computer Science},
-  volume={264},
-  number={5},
-  pages={47--69},
-  year={2011},
-  publisher={Elsevier}
+	title={Visitor-based attribute grammars with side effect},
+	author={Middelkoop, Arie and Dijkstra, Atze and Swierstra, S Doaitse},
+	journal={Electronic Notes in Theoretical Computer Science},
+	volume={264},
+	number={5},
+	pages={47--69},
+	year={2011},
+	publisher={Elsevier},
+	URL={http://dx.doi.org/10.1016/j.entcs.2011.06.004},
+	DOI={10.1016/j.entcs.2011.06.004},
+	abstract={
+		The visitor design pattern is often applied to program traversal algorithms over Abstract Syntax Trees (ASTs). It defines a visitor, an object with a visit method that is executed for each node in the AST. These visitors have the advantage that the order of traversal is explicitly under control of the programmer, which is essential to deal with side-effectful computations. Unfortunately, the exchange of results between traversals is error-prone. Attribute Grammars (AGs) are an alternative way to write multi-traversal algorithms. An attribute evaluator decorates the AST with attributes in one or more traversals. The attributes form a convenient mechanism to exchange results between traversals. Unfortunately, AGs discourage the use of side effect. In this paper, we present ruler-front, a language capturing the combination of the above approaches. A ruler-front grammar can be translated to traversal algorithms in multiple languages. In this paper, we translate to the imperative, dynamically-typed language JavaScript.
+	}
 }
 
 
 @inproceedings{saraiva2003generating,
-  title={Generating spreadsheet-like tools from strong attribute grammars},
-  author={Saraiva, Jo{\~a}o and Swierstra, Doaitse},
-  booktitle={International Conference on Generative Programming and Component Engineering},
-  pages={307--323},
-  year={2003},
-  organization={Springer}
+	title={Generating spreadsheet-like tools from strong attribute grammars},
+	author={Saraiva, Jo{\~a}o and Swierstra, Doaitse},
+	booktitle={International Conference on Generative Programming and Component Engineering},
+	pages={307--323},
+	year={2003},
+	organization={Springer},
+	URL={http://dx.doi.org/10.1007/978-3-540-39815-8_19},
+	DOI={10.1007/978-3-540-39815-8_19},
+	abstract={
+		This paper presents techniques for the formal specification and efficient incremental implementation of spreadsheet-like tools. The spreadsheets are specified by strong attribute grammars. In this style of attribute grammar programming every single inductive computation is expressed within the attribute grammar formalism. Well-known attribute grammar techniques are used to reason about such grammars. For example, ordered scheduling algorithms can be used to statically guarantee termination of the attribute grammars and to derive efficient implementations. A strong attribute grammar for a spreadsheet is defined and the first incremental results are presented.
+	}
 }
 
 @inproceedings{rendel2014object,
-  title={From object algebras to attribute grammars},
-  author={Rendel, Tillmann and Brachth{\"a}user, Jonathan Immanuel and Ostermann, Klaus},
-  booktitle={ACM SIGPLAN Notices},
-  volume={49},
-  number={10},
-  pages={377--395},
-  year={2014},
-  organization={ACM}
+	title={From object algebras to attribute grammars},
+	author={Rendel, Tillmann and Brachth{\"a}user, Jonathan Immanuel and Ostermann, Klaus},
+	booktitle={ACM SIGPLAN Notices},
+	volume={49},
+	number={10},
+	pages={377--395},
+	year={2014},
+	organization={ACM},
+	URL={http://dx.doi.org/10.1145/2714064.2660237},
+	DOI={10.1145/2714064.2660237},
+	abstract={
+		Oliveira and Cook (2012) and Oliveira et al. (2013) have recently introduced object algebras as a program structuring technique to improve the modularity and extensibility of programs. We analyze the relationship between object algebras and attribute grammars (AGs), a formalism to augment context-free grammars with attributes. We present an extension of the object algebra technique with which the full class of L-attributed grammars - an important class of AGs that corresponds to one-pass compilers - can be encoded in Scala. The encoding is modular (attributes can be defined and type-checked separately), scalable (the size of the encoding is linear in the size of the AG specification) and compositional (each AG artifact is represented as a semantic object of the host language). To evaluate these claims, we have formalized the encoding and re-implemented a one-pass compiler for a subset of C with our technique. We also discuss how advanced features of modern AG systems, such as higher-order and parameterized attributes, reference attributes, and forwarding can be supported.
+	}
 }
 
 @inproceedings{farrow1983attribute,
-  title={Attribute grammars and data-flow languages},
-  author={Farrow, Rodney},
-  booktitle={ACM SIGPLAN Notices},
-  volume={18},
-  number={6},
-  pages={28--40},
-  year={1983},
-  organization={ACM}
+	title={Attribute grammars and data-flow languages},
+	author={Farrow, Rodney},
+	booktitle={ACM SIGPLAN Notices},
+	volume={18},
+	number={6},
+	pages={28--40},
+	year={1983},
+	organization={ACM},
+	URL={http://dx.doi.org/10.1145/872728.806849},
+	DOI={10.1145/872728.806849},
+	abstract={
+		This paper examines the similarity between attribute grammars and data-flow languages. For any attribute grammar there is a data-flow program that is an evaluator for it, and we describe how to build this data-flow program. The design of semantic functions for an attribute grammar is seen to be a problem of programming in a data-flow language. Reinterpreting our experience writing attribute grammars, we suggest some techniques to use in data-flow programming and propose language features that will support them. We also propose using data-flow notation to specify the semantic functions of attribute grammars and implementing attribute evaluators in a data-flow language.
+	}
 }
 
 @phdthesis{merkle1977evaluators,
-  title={Evaluators for attribute grammars: research project},
-  author={Merkle, Ralph C},
-  year={1977},
-  school={University of California, Berkeley}
+	title={Evaluators for attribute grammars: research project},
+	author={Merkle, Ralph C},
+	year={1977},
+	school={University of California, Berkeley}
 }
 
 @inproceedings{johnsson1987attribute,
-  title={Attribute grammars as a functional programming paradigm},
-  author={Johnsson, Thomas},
-  booktitle={Conference on Functional Programming Languages and Computer Architecture},
-  pages={154--173},
-  year={1987},
-  organization={Springer}
+	title={Attribute grammars as a functional programming paradigm},
+	author={Johnsson, Thomas},
+	booktitle={Conference on Functional Programming Languages and Computer Architecture},
+	pages={154--173},
+	year={1987},
+	organization={Springer},
+	URL={http://dx.doi.org/10.1007/3-540-18317-5_10},
+	DOI={10.1007/3-540-18317-5_10},
+	abstract={
+		The purpose of this paper is twofold. Firstly we show how attributes in an attribute grammar can be simply and efficiently evaluated using a lazy functional language. The class of attribute grammars we can deal with are the most general ones possible: attributes may depend on each other in an arbitrary way, as long as there are no truly circular data dependencies.
+
+		Secondly, we describe a methodology based on attribute grammars, where, in a fairly straightforward way, we can develop efficient functional programs where direct, conventional solutions yield less efficient programs. We review two examples from a paper by R. Bird (Using circular programs to eliminate multiple traversals of data, Acta Informatica, 21, 1984) where he transforms simple but inefficient multipass programs into more efficient single pass ones, but which on their own can be very hard to understand. We show how such efficient but tangled programs can have natural formulations as attribute grammars.
+
+		We also propose a language construct, called case rec (akin to the case expression in Standard ML and Lazy ML), that defines an attribute grammar over a data structure in the language. In effect, a case rec expression defines a recursion operator that can handle multiple values, both upwards-propagating and downwards-propagating ones.
+	}
 }
 
 
 
 
 @article{myers1997amulet,
-  title={The Amulet environment: New models for effective user interface software development},
-  author={Myers, Brad A and McDaniel, Richard G and Miller, Robert C and Ferrency, Alan S and Faulring, Andrew and Kyle, Bruce D and Mickish, Andrew and Klimovitski, Alex and Doane, Patrick},
-  journal={IEEE Transactions on software engineering},
-  volume={23},
-  number={6},
-  pages={347--365},
-  year={1997},
-  publisher={IEEE}
+	title={The Amulet environment: New models for effective user interface software development},
+	author={Myers, Brad A and McDaniel, Richard G and Miller, Robert C and Ferrency, Alan S and Faulring, Andrew and Kyle, Bruce D and Mickish, Andrew and Klimovitski, Alex and Doane, Patrick},
+	journal={IEEE Transactions on software engineering},
+	volume={23},
+	number={6},
+	pages={347--365},
+	year={1997},
+	publisher={IEEE},
+	URL={http://dx.doi.org/10.1109/32.601073},
+	DOI={10.1109/32.601073},
+	abstract={
+		The Amulet user interface development environment makes it easier for programmers to create highly interactive, graphical user interface software for Unix, Windows and the Macintosh. Amulet uses new models for objects, constraints, animation, input, output, commands, and undo. The object system is a prototype instance model in which there is no distinction between classes and instances or between methods and data. The constraint system allows any value of any object to be computed by arbitrary code and supports multiple constraint solvers. Animations can be attached to existing objects with a single line of code. Input from the user is handled by ``interactor'' objects which support reuse of behavior objects. The output model provides a declarative definition of the graphics and supports automatic refresh. Command objects encapsulate all of the information needed about operations, including support for various ways to undo them. A key feature of the Amulet design is that all graphical objects and behaviors of those objects are explicitly represented at run time, so the system can provide a number of high level built-in functions, including automatic display and editing of objects, and external analysis and control of interfaces. Amulet integrates these capabilities in a flexible and effective manner.
+	}
 }
 
-@article{vander2001lessons,
-  title={Lessons learned about one-way, dataflow constraints in the Garnet and Amulet graphical toolkits},
-  author={Vander Zanden, Bradley T and Halterman, Richard and Myers, Brad A and McDaniel, Rich and Miller, Rob and Szekely, Pedro and Giuse, Dario A and Kosbie, David},
-  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
-  volume={23},
-  number={6},
-  pages={776--796},
-  year={2001},
-  publisher={ACM}
+@article{vanderzanden2001lessons,
+	title={Lessons learned about one-way, dataflow constraints in the Garnet and Amulet graphical toolkits},
+	author={Vander Zanden, Bradley T and Halterman, Richard and Myers, Brad A and McDaniel, Rich and Miller, Rob and Szekely, Pedro and Giuse, Dario A and Kosbie, David},
+	journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+	volume={23},
+	number={6},
+	pages={776--796},
+	year={2001},
+	publisher={ACM},
+	URL={http://dx.doi.org/10.1145/506315.506318},
+	DOI={10.1145/506315.506318},
+	abstract={
+		One-way, dataflow constraints are commonly used in graphical interface toolkits, programming environments, and circuit applications. Previous papers on dataflow constraints have focused on the design and implementation of individual algorithms. In contrast, this article focuses on the lessons we have learned from a decade of implementing competing algorithms in the Garnet and Amulet graphical interface toolkits. These lessons reveal the design and implementation tradeoffs for different one-way, constraint satisfaction algorithms. The most important lessons we have learned are that (1) mark-sweep algorithms are more efficient than topological ordering algorithms; (2) lazy and eager evaluators deliver roughly comparable performance for most applications; and (3) constraint satisfaction algorithms have more than adequate speed, except that the storage required by these algorithms can be problematic.
+	}
 }
 
 @article{myers2000past,
-  title={Past, present, and future of user interface software tools},
-  author={Myers, Brad and Hudson, Scott E and Pausch, Randy},
-  journal={ACM Transactions on Computer-Human Interaction (TOCHI)},
-  volume={7},
-  number={1},
-  pages={3--28},
-  year={2000},
-  publisher={ACM}
+	title={Past, present, and future of user interface software tools},
+	author={Myers, Brad and Hudson, Scott E and Pausch, Randy},
+	journal={ACM Transactions on Computer-Human Interaction (TOCHI)},
+	volume={7},
+	number={1},
+	pages={3--28},
+	year={2000},
+	publisher={ACM},
+	URL={http://dx.doi.org/10.1145/344949.344959},
+	DOI={10.1145/344949.344959},
+	abstract={
+		A user interface software tool helps developers design and implement the user interface. Research on past tools has had enormous impact on today's developers—virtually all applications today are built using some form of user interface tool. In this article, we consider cases of both success and failure in past user interface tools. From these cases we extract a set of themes which can serve as lessons for future work. Using these themes, past tools can be characterized by what aspects of the user interface they addressed, their threshold and ceiling, what path of least resistance they offer, how predictable they are to use, and whether they addressed a target that became irrelevant. We believe the lessons of these past themes are particularly important now, because increasingly rapid technological changes are likely to significantly change user interfaces. We are at the dawn of an era where user interfaces are about to break out of the “desktop” box where they have been stuck for the past 15 years. The next millenium will open with an increasing diversity of user interface on an increasing diversity of computerized devices. These devices include hand-held personal digital assistants (PDAs), cell phones, pages, computerized pens, computerized notepads, and various kinds of desk and wall size-computers, as well as devices in everyday objects (such as mounted on refridgerators, or even embedded in truck tires). The increased connectivity of computers, initially evidenced by the World Wide Web, but spreading also with technologies such as personal-area networks, will also have a profound effect on the user interface to computers. Another important force will be recognition-based user interfaces, especially speech, and camera-based vision systems. Other changes we see are an increasing need for 3D and end-user customization, programming, and scripting. All of these changes will require significant support from the underlying user interface sofware tools.
+	}
 }
 
 
 @incollection{bederson2003jazz,
-  title={Jazz: an extensible zoomable user interface graphics toolkit in Java},
-  author={Bederson, Benjamin B and Meyer, Jon and Good, Lance},
-  booktitle={The Craft of Information Visualization},
-  pages={95--104},
-  year={2003},
-  publisher={Elsevier}
+	title={Jazz: an extensible zoomable user interface graphics toolkit in Java},
+	author={Bederson, Benjamin B and Meyer, Jon and Good, Lance},
+	booktitle={The Craft of Information Visualization},
+	pages={95--104},
+	year={2003},
+	publisher={Elsevier},
+	URL={http://dx.doi.org/10.1016/b978-155860915-0/50016-0},
+	DOI={10.1016/b978-155860915-0/50016-0},
+	abstract={
+		In this paper we investigate the use of scene graphs as a general approach for implementing two-dimensional (2D) graphical applications, and in particular Zoomable User Interfaces (ZUIs). Scene graphs are typically found in three-dimensional (3D) graphics packages such as Sun's Java3D and SGI's Openlnventor. They have not been widely adopted by 2D graphical user interface toolkits.
+
+		To explore the effectiveness of scene graph techniques, we have developed Jazz, a general-purpose 2D scene graph toolkit. Jazz is implemented in Java using Java2D, and runs on all platforms that support Java 2. This paper describes Jazz and the lessons we learned using Jazz for ZUIs. It also discusses how 2D scene graphs can be applied to other application areas.
+	}
 }
 
 @article{bederson2004toolkit,
-  title={Toolkit design for interactive structured graphics},
-  author={Bederson, Benjamin B and Grosjean, Jesse and Meyer, Jon},
-  journal={IEEE Transactions on software engineering},
-  volume={30},
-  number={8},
-  pages={535--546},
-  year={2004},
-  publisher={IEEE}
+	title={Toolkit design for interactive structured graphics},
+	author={Bederson, Benjamin B and Grosjean, Jesse and Meyer, Jon},
+	journal={IEEE Transactions on software engineering},
+	volume={30},
+	number={8},
+	pages={535--546},
+	year={2004},
+	publisher={IEEE},
+	URL={http://dx.doi.org/10.1109/tse.2004.44},
+	DOI={10.1109/tse.2004.44},
+	abstract={
+		Here, we analyze toolkit designs for building graphical applications with rich user interfaces, comparing polylithic and monolithic toolkit-based solutions. Polylithic toolkits encourage extension by composition and follow a design philosophy similar to 3D scene graphs supported by toolkits including JavaSD and Openlnventor. Monolithic toolkits, on the other hand, encourage extension by inheritance, and are more akin to 2D graphical user interface toolkits such as Swing or MFC. We describe Jazz (a polylithic toolkit) and Piccolo (a monolithic toolkit), each of which we built to support interactive 2D structured graphics applications in general, and zoomable user interface applications in particular. We examine the trade offs of each approach in terms of performance, memory requirements, and programmability. We conclude that a polylithic approach is most suitable for toolkit builders, visual design software where code is automatically generated, and application builders where there is much customization of the toolkit. Correspondingly, we find that monolithic approaches appear to be best for application builders where there is not much customization of the toolkit.
+	}
 }
 
 @book{bederson2003craft,
-  title={The craft of information visualization: readings and reflections},
-  author={Bederson, Benjamin B and Shneiderman, Ben},
-  year={2003},
-  publisher={Morgan Kaufmann}
+	title={The craft of information visualization: readings and reflections},
+	ISBN={1558609156},
+	author={Bederson, Benjamin B and Shneiderman, Ben},
+	year={2003},
+	publisher={Morgan Kaufmann},
+	URL={https://www.cs.umd.edu/hcil/pubs/books/craft.shtml}
 }
 
 @inproceedings{tandler2001connectables,
-  title={Connectables: dynamic coupling of displays for the flexible creation of shared workspaces},
-  author={Tandler, Peter and Prante, Thorsten and M{\"u}ller-Tomfelde, Christian and Streitz, Norbert and Steinmetz, Ralf},
-  booktitle={Proceedings of the 14th annual ACM symposium on User interface software and technology},
-  pages={11--20},
-  year={2001},
-  organization={ACM}
+	title={Connectables: dynamic coupling of displays for the flexible creation of shared workspaces},
+	author={Tandler, Peter and Prante, Thorsten and M{\"u}ller-Tomfelde, Christian and Streitz, Norbert and Steinmetz, Ralf},
+	booktitle={Proceedings of the 14th annual ACM symposium on User interface software and technology},
+	pages={11--20},
+	year={2001},
+	organization={ACM},
+	URL={http://dx.doi.org/10.1145/502348.502351},
+	DOI={10.1145/502348.502351},
+	abstract={
+		We present the ConnecTable, a new mobile, networked and context-aware information appliance that provides affordances for pen-based individual and cooperative work as well as for the seamless transition between the two. In order to dynamically enlarge an interaction area for the purpose of shared use, a flexible coupling of displays has been realized that overcomes the restrictions of display sizes and borders. Two ConnecTable displays dynamically form a homogeneous display area when moved close to each other. The appropriate triggering signal comes from built-in sensors allowing users to temporally combine their individual displays to a larger shared one by a simple physical movement in space. Connected ConnecTables allow their users to work in parallel on an ad-hoc created shared workspace as well as exchanging information by simply shuffling objects from one display to the other. We discuss the user interface and related issues as well as the software architecture. We also present the physical realization of the ConnecTables.
+	}
 }
 
 @book{hong2006satin,
-  title={SATIN: a toolkit for informal ink-based applications},
-  author={Hong, Jason I and Landay, James A},
-  year={2006},
-  publisher={ACM}
+	title={SATIN: a toolkit for informal ink-based applications},
+	author={Hong, Jason I and Landay, James A},
+	year={2006},
+	publisher={ACM},
+	URL={http://dx.doi.org/10.1145/1185657.1185768},
+	DOI={10.1145/1185657.1185768},
+	abtract={
+		Software support for making effective pen-based applications is currently rudimentary. To facilitate the creation of such applications, we have developed SATIN, a Java-based toolkit designed to support the creation of applications that leverage the informal nature of pens. This support includes a scenegraph for manipulating and rendering objects; support for zooming and rotating objects, switching between multiple views of an object, integration of pen input with interpreters, libraries for manipulating ink strokes, widgets optimized for pens, and compatibility with Java's Swing toolkit. SATIN includes a generalized architecture for handling pen input, consisting of recognizers, interpreters, and multi-interpreters. In this paper, we describe the functionality and architecture of SATIN, using two applications built with SATIN as examples.
+	}
 }
 
 @inproceedings{hudson1996ultra,
-  title={Ultra-lightweight constraints},
-  author={Hudson, Scott E and Smith, Ian},
-  booktitle={Proceedings of the 9th annual ACM symposium on User interface software and technology},
-  pages={147--155},
-  year={1996},
-  organization={Citeseer}
+	title={Ultra-lightweight constraints},
+	author={Hudson, Scott E and Smith, Ian},
+	booktitle={Proceedings of the 9th annual ACM symposium on User interface software and technology},
+	pages={147--155},
+	year={1996},
+	ISBN={0897917987},
+	publisher={ACM Press},
+	URL={http://dx.doi.org/10.1145/237091.237112},
+	DOI={10.1145/237091.237112},
+	abstract={
+		Constraint systems have been used for some time to implement various components of a user interface. High level support for flexible screen layout has been among the more important uses; layout constraints in a user interface toolkit provide a declarative mechanism for controlling the size and position of objects in an interactive display, along with an efficient update mechanism for maintaining display layouts automatically in the face of dynamic changes. This paper describes a new technique for implementing one-way layout constraints which overcomes a substantial limitation of previous systems. In particular, it allows constraints to be implemented in an extremely small amount of space — as little as 17 bits per constraint — and still maintain the level of performance needed for good interactive response. These ultra-lightweight constraints, while not handling all cases, cover most relationships used for layout, and allow conventional constraints to be applied when needed. This paper will consider both a general technique for ultra-lightweight layout constraints and its specific implementation in a new Java-based user interface toolkit.
+	}
 }
 
 @techreport{mcdaniel1995amulet,
-  title={Amulet's dynamic and flexible prototype-instance object and constraint system in C++},
-  author={McDaniel, Rich and Myers, Brad A},
-  year={1995},
-  institution={CARNEGIE-MELLON UNIV PITTSBURGH PA DEPT OF COMPUTER SCIENCE}
-}
-
-@misc{mcdaniel1995dynamic,
-  title={A Dynamic And Flexible Prototype-Instance Object And Constraint System In C++},
-  author={McDaniel, Richard and Myers, Brad A},
-  year={1995},
-  publisher={Carnegie-Mellon University Technical Report}
+	title={Amulet's dynamic and flexible prototype-instance object and constraint system in C++},
+	institution={CARNEGIE-MELLON UNIV PITTSBURGH PA DEPT OF COMPUTER SCIENCE}
+	url={http://dx.doi.org/10.21236/ada303007},
+	DOI={10.21236/ada303007},
+	publisher={Defense Technical Information Center},
+	author={McDaniel, Rich and Myers, Brad A.},
+	year={1995},
+	month={Jul},
+	abstract={
+		In order to support rapid prototyping and efficient construction of user interface software, the Amulet user interface development environment uses a prototype-instance object model integrated with a constraint solver. The important innovations in the Amulet object and constraint systems are the automatic management of a part-owner hierarchy in addition to the prototype instance hierarchy, the support for multiple constraint solvers at the same time, control over slot inheritance, flexible demons, and a convenient integration of the models with C++ without requiring a pre-processor.
+	}
 }
 
 @article{bederson1998implementing,
-  title={Implementing a zooming user interface: experience building Pad++},
-  author={Bederson, Ben and Meyer, Jon},
-  journal={Software: Practice and Experience},
-  volume={28},
-  number={10},
-  pages={1101--1135},
-  year={1998},
-  publisher={Wiley Online Library}
+	title={Implementing a zooming user interface: experience building Pad++},
+	author={Bederson, Ben and Meyer, Jon},
+	journal={Software: Practice and Experience},
+	volume={28},
+	number={10},
+	pages={1101--1135},
+	year={1998},
+	publisher={Wiley Online Library},
+	URL={http://dx.doi.org/10.1002/(sici)1097-024x(199808)28:10<1101::aid-spe190>3.0.co;2-v},
+	DOI={10.1002/(sici)1097-024x(199808)28:10<1101::aid-spe190>3.0.co;2-v},
+	abstract={
+		We are investigating a novel user interface paradigm based on zooming, in which users are presented with a zooming view of a huge planar information surface. We have developed a system called Pad++ to explore this approach. The implementation of Pad++ is related to real‐time 3D graphics systems and to 2D windowing systems. However, the zooming nature of Pad++ requires new approaches to rendering, screen management, and spatial indexing. In this paper, we describe the design and implementation of the Pad++ engine, focusing in particular on rendering and data structure issues. Our goal is to present useful techniques that can be adopted in other real‐time graphical systems, and also to discuss how 2D zooming systems differ from other graphical systems.
+	}
 }
 
 @article{cockburn2009review,
-  title={A review of overview+ detail, zooming, and focus+ context interfaces},
-  author={Cockburn, Andy and Karlson, Amy and Bederson, Benjamin B},
-  journal={ACM Computing Surveys (CSUR)},
-  volume={41},
-  number={1},
-  pages={2},
-  year={2009},
-  publisher={ACM}
+	title={A review of overview+detail, zooming, and focus+context interfaces},
+	volume={41},
+	ISSN={0360-0300},
+	url={http://dx.doi.org/10.1145/1456650.1456652},
+	DOI={10.1145/1456650.1456652},
+	number={1},
+	journal={ACM Computing Surveys},
+	publisher={Association for Computing Machinery (ACM)},
+	author={Cockburn, Andy and Karlson, Amy and Bederson, Benjamin B.},
+	year={2008},
+	month={Dec},
+	pages={1–31},
+	abstract={
+		There are many interface schemes that allow users to work at, and move between, focused and contextual views of a dataset. We review and categorize these schemes according to the interface mechanisms used to separate and blend views. The four approaches are overview+detail, which uses a spatial separation between focused and contextual views; zooming, which uses a temporal separation; focus+context, which minimizes the seam between views by displaying the focus within the context; and cue-based techniques which selectively highlight or suppress items within the information space. Critical features of these categories, and empirical evidence of their success, are discussed. The aim is to provide a succinct summary of the state-of-the-art, to illuminate both successful and unsuccessful interface strategies, and to identify potentially fruitful areas for further work.
+	}
 }
