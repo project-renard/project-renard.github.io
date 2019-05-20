@@ -46,6 +46,9 @@
  %
 ENTRY
   { abstract
+    private
+    comment
+    keyword
     address
     author
     booktitle
