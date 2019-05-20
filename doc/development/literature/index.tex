@@ -14,7 +14,7 @@
 
 \ifusenatbib
 \usepackage{natbib}
-\bibliographystyle{plainnat}
+\bibliographystyle{myabstract}
 \usepackage{bibentry}
 \nobibliography*
 \else
@@ -50,7 +50,10 @@
 %% prints out the info for a citation key:
 %%     \printarticle{Author00}
 \newcommand{\printarticle}[1]{\citeauthor{#1}, ``\usebibentry{#1}{title}'' (\usebibentry{#1}{year})}
-\newcommand{\paracite}[1]{\paragraph{\htmlanchorstart{bibentry:#1}\htmlspantitle{\usebibentry{#1}{title}}{\usebibentry{#1}{abstract}}~\citet{#1}}\label{bibentry:#1}\htmlanchorend{bibentry:#1}}
+\newcommand{\printarticlespanabstract}[1]{\htmlspantitle{\usebibentry{#1}{title}}{\usebibentry{#1}{abstract}}}
+\newcommand{\printarticletitleonly}[1]{\usebibentry{#1}{title}}
+\newcommand{\paracitecite}[1]{\printarticletitleonly{#1}~\citet{#1}}
+\newcommand{\paracite}[1]{\paragraph{\htmlanchorstart{bibentry:#1}\paracitecite{#1}}\label{bibentry:#1}\htmlanchorend{bibentry:#1}}
 % \bibentry{#1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }}}
 
@@ -172,6 +175,7 @@ embedded DSLs for AG definitions \cite{sloane2010pure}.
 \section{Self-adjusting computation}
 
 
+%\nocite{*}
 \ifusenatbib
 	\bibliography{biblio}
 \else
