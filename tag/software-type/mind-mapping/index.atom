@@ -17,13 +17,13 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-02-28T14:45:54Z</updated>
+<updated>2018-02-28T19:08:43Z</updated>
 <entry>
-	<title>TreeSheets</title>
+	<title>TheBrain</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/treesheets/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/treesheets/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
 
 
 
@@ -33,8 +33,8 @@
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -46,7 +46,7 @@
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            TreeSheets
+            TheBrain
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -57,7 +57,94 @@
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://strlen.com/treesheets/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Cmap</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/cmap/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/cmap/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Cmap
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -114,8 +201,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -202,11 +289,11 @@ Runs: unknown
 
 </entry>
 <entry>
-	<title>TheBrain</title>
+	<title>Freeplane</title>
 
-	<id>http://project-renard.github.io//doc/survey/tool/thebrain/</id>
+	<id>http://project-renard.github.io//doc/survey/tool/freeplane/</id>
 
-	<link href="http://project-renard.github.io//doc/survey/tool/thebrain/"/>
+	<link href="http://project-renard.github.io//doc/survey/tool/freeplane/"/>
 
 
 
@@ -216,8 +303,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -229,7 +316,7 @@ Runs: unknown
     &lt;td&gt;
     &lt;center&gt;
         &lt;h3&gt;
-            TheBrain
+            Freeplane
         &lt;/h3&gt;
     &lt;/center&gt;
     &lt;/td&gt;
@@ -240,7 +327,111 @@ Runs: unknown
 
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;http://www.thebrain.com/&quot;&gt;Homepage&lt;/a&gt;
+&lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Freeplane&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/mind-mapping/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>TreeSheets</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/treesheets/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/treesheets/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            TreeSheets
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://strlen.com/treesheets/&quot;&gt;Homepage&lt;/a&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
 
@@ -271,11 +462,86 @@ Runs: unknown
 
 
 
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>ThinkMap</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/thinkmap/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/thinkmap/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
 &lt;tr&gt;
     &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/TheBrain&quot;&gt;Wikipedia (en)&lt;/a&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            ThinkMap
+        &lt;/h3&gt;
+    &lt;/center&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
 
 
 
@@ -305,8 +571,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -408,168 +674,6 @@ links to the papers which need to be cited.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>Cmap</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/cmap/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/cmap/"/>
-
-
-
-
-
-
-	<category term="software-type/mind-mapping" />
-
-
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Cmap
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://cmap.ihmc.us/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>ThinkMap</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/thinkmap/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/thinkmap/"/>
-
-
-
-
-
-
-	<category term="software-type/mind-mapping" />
-
-
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            ThinkMap
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://www.thinkmap.com/&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>Coggle</title>
 
 	<id>http://project-renard.github.io//doc/survey/tool/coggle/</id>
@@ -584,8 +688,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
+	<updated>2018-02-28T19:08:43Z</updated>
+	<published>2018-02-28T19:08:43Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -638,110 +742,6 @@ Runs: unknown
 
 &lt;/table&gt;
 &lt;/div&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Freeplane</title>
-
-	<id>http://project-renard.github.io//doc/survey/tool/freeplane/</id>
-
-	<link href="http://project-renard.github.io//doc/survey/tool/freeplane/"/>
-
-
-
-
-
-
-	<category term="software-type/mind-mapping" />
-
-
-	<updated>2018-02-28T14:45:54Z</updated>
-	<published>2018-02-28T14:45:54Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;div class=&quot;sidebar&quot;&gt;
-
-&lt;table&gt;
-
-&lt;tr&gt;
-    &lt;td&gt;
-    &lt;center&gt;
-        &lt;h3&gt;
-            Freeplane
-        &lt;/h3&gt;
-    &lt;/center&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/Main_Page&quot;&gt;Homepage&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;b&gt;Programming language:&lt;/b&gt; Java
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-        &lt;h2&gt;Screenshot&lt;/h2&gt;
-        &lt;a href=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;&gt;
-            &lt;img width=&quot;100%&quot; src=&quot;http://freeplane.sourceforge.net/wiki/index.php/File:FreeplaneFunctions.jpg&quot;/&gt;
-        &lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-
-Runs: unknown
-
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;tr&gt;
-    &lt;td&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Freeplane&quot;&gt;Wikipedia (en)&lt;/a&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-
-
-
-
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Forked from the &lt;a href=&quot;http://project-renard.github.io//tag/software-type/mind-mapping/../../../doc/survey/tool/freemind/&quot;&gt;FreeMind&lt;/a&gt; tool.&lt;/p&gt;
 
 	</content>
 
