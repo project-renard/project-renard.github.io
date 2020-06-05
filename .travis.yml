@@ -43,10 +43,14 @@ install:
 
   # wrapper for `mutool` that calls `mudraw` since older version of
   # `mupdf-tools` had the draw subcommand separate
+  #
+  # Note: the \ \ EOF here-doc is due to Travis CI multi-line YAML inserting
+  # two spaces.
   - |
     mkdir -p ~/bin
-    cat > ~/bin/mutool <<EOF
+    cat <<\ \ EOF > ~/bin/mutool
     #!/bin/sh
+
     if [ "$1" = "draw" ]; then
       shift
       /usr/bin/mudraw "$@"
