@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>testing and planning features</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features.mdwn" />
+
+
+
+<meta name="date" content="Fri Mar 11 19:12:49 2016 -0600" />
+
+
+<link rel="prev" href="../../19/improving-gui-navigation-and-tests/" title="improving the GUI navigation and tests" />
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../06/refactoring-recent-gui-additions/" title="refactoring recent GUI additions" />
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2016</a>/ 
+
+<a href="../../">03</a>/ 
+
+<a href="../">12</a>/ 
+
+</span>
+<span class="title">
+testing and planning features
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/posts/2016/03/12/testing-and-planning-features.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../06/refactoring-recent-gui-additions/">refactoring recent GUI additions</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../../../user/">User</a></li>
+        <li><a href="../../../../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../../../">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../../../../survey/">Survey</a></li>
+        <li><a href="../../../../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+<p>We need to start testing the code and automatically running those tests using
+continuous integration.</p>
+
+<ul>
+<li>Added <a href="https://github.com/project-renard/test-data">test data repository</a>.</li>
+<li>Start adding unit tests in PR <a href="https://github.com/project-renard/curie/pull/33">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/33" src="https://github-shields.com/github/project-renard/curie/pull/33.svg"/>
+</a>
+to address
+issue <a href="https://github.com/project-renard/curie/issues/28">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/28" src="https://github-shields.com/github/project-renard/curie/issues/28.svg"/>
+</a></li>
+</ul>
+
+<p>Looked at a review of PDF metadata extraction <a href="https://docs.google.com/document/d/1bmVV89ZozeYsboSTTebKXv3u2vUDAmY3rG2tr5IIl0I/preview">doc</a> (mirrored <a href="https://docs.google.com/document/d/1REI6cZParcQYRBDac6GRgsrjcdRKvloOi26sELZEG0U/preview">here</a>) from this <a href="http://connectedworks.blogspot.com/2010/09/full-review-of-publication-metadata.html">blog</a>.</p>
+
+<p>Adding Travis-CI support:
+    - Go to https://travis-ci.org/, select the + sign, click on project-renard https://travis-ci.org/profile/project-renard</p>
+
+<ul>
+<li>Zaki: need to add gir1.2-gdl-3 package for docking UIs to Travis-CI package whitelist
+(issues are at <a href="https://github.com/project-renard/curie/issues/34">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/34" src="https://github-shields.com/github/project-renard/curie/issues/34.svg"/>
+</a>
+, <a href="https://github.com/travis-ci/apt-package-whitelist/issues/2700">
+<img class="github-shield" style="vertical-align: middle;" alt="travis-ci/apt-package-whitelist/issues/2700" src="https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2700.svg"/>
+</a>
+, <a href="https://github.com/travis-ci/apt-package-whitelist/issues/2702">
+<img class="github-shield" style="vertical-align: middle;" alt="travis-ci/apt-package-whitelist/issues/2702" src="https://github-shields.com/github/travis-ci/apt-package-whitelist/issues/2702.svg"/>
+</a>
+).</li>
+</ul>
+
+<p>Issues carried over from <a href="../../06/refactoring-recent-gui-additions/">last week</a>:</p>
+
+<ul>
+<li><p>Stan: Show number of pages
+<a href="https://github.com/project-renard/curie/issues/21">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/21" src="https://github-shields.com/github/project-renard/curie/issues/21.svg"/>
+</a></p></li>
+<li><p>Chirag: Deactivate navigation buttons at start and end of document <a href="https://github.com/project-renard/curie/issues/22">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/22" src="https://github-shields.com/github/project-renard/curie/issues/22.svg"/>
+</a></p></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../06/refactoring-recent-gui-additions/">refactoring recent GUI additions</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 20 Mar 2018 01:58:09 AM UTC</span>
+<!-- Created <span class="date">Sat 12 Mar 2016 01:12:49 AM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

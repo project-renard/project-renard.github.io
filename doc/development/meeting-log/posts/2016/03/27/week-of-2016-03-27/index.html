@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>week of 2016-03-27</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27.mdwn" />
+
+
+
+<meta name="date" content="Sun Mar 27 13:16:04 2016 -0500" />
+
+
+<link rel="prev" href="../../../04/02/week-of-2016-04-02/" title="week of 2016-04-02" />
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../19/improving-gui-navigation-and-tests/" title="improving the GUI navigation and tests" />
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2016</a>/ 
+
+<a href="../../">03</a>/ 
+
+<a href="../">27</a>/ 
+
+</span>
+<span class="title">
+week of 2016-03-27
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/posts/2016/03/27/week-of-2016-03-27.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../04/02/week-of-2016-04-02/">week of 2016-04-02</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../../../user/">User</a></li>
+        <li><a href="../../../../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../../../">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../../../../survey/">Survey</a></li>
+        <li><a href="../../../../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+<p><a href="https://github.com/project-renard/curie/issues/40">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/40" src="https://github-shields.com/github/project-renard/curie/issues/40.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/curie/pull/53">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/53" src="https://github-shields.com/github/project-renard/curie/pull/53.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/curie/issues/31">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/31" src="https://github-shields.com/github/project-renard/curie/issues/31.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/curie/pull/52">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/52" src="https://github-shields.com/github/project-renard/curie/pull/52.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/devops/issues/2">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/devops/issues/2" src="https://github-shields.com/github/project-renard/devops/issues/2.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/devops/pull/3">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/devops/pull/3" src="https://github-shields.com/github/project-renard/devops/pull/3.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/curie/issues/27">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/27" src="https://github-shields.com/github/project-renard/curie/issues/27.svg"/>
+</a></p>
+
+<p><a href="https://github.com/project-renard/project-renard.github.io/issues/5">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/project-renard.github.io/issues/5" src="https://github-shields.com/github/project-renard/project-renard.github.io/issues/5.svg"/>
+</a></p>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../04/02/week-of-2016-04-02/">week of 2016-04-02</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../19/improving-gui-navigation-and-tests/">improving the GUI navigation and tests</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 20 Mar 2018 01:58:09 AM UTC</span>
+<!-- Created <span class="date">Sun 27 Mar 2016 06:16:04 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

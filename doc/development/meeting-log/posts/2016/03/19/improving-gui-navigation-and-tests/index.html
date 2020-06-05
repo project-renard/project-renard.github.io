@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>improving the GUI navigation and tests</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests.mdwn" />
+
+
+
+<meta name="date" content="Sat Mar 19 15:29:28 2016 -0500" />
+
+
+<link rel="prev" href="../../27/week-of-2016-03-27/" title="week of 2016-03-27" />
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../12/testing-and-planning-features/" title="testing and planning features" />
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2016</a>/ 
+
+<a href="../../">03</a>/ 
+
+<a href="../">19</a>/ 
+
+</span>
+<span class="title">
+improving the GUI navigation and tests
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/posts/2016/03/19/improving-gui-navigation-and-tests.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../27/week-of-2016-03-27/">week of 2016-03-27</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../12/testing-and-planning-features/">testing and planning features</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../../../user/">User</a></li>
+        <li><a href="../../../../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../../../">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../../../../survey/">Survey</a></li>
+        <li><a href="../../../../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+<h2 id="tasks">Tasks</h2>
+
+<h3 id="zaki">Zaki</h3>
+
+<ul>
+<li>Create a table of Evince and Okular menus on the wiki</li>
+<li>Write GUI tests using mock document and xvfb <a href="https://github.com/project-renard/curie/issues/35">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/35" src="https://github-shields.com/github/project-renard/curie/issues/35.svg"/>
+</a>
+(PR at <a href="https://github.com/project-renard/curie/pull/41">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/41" src="https://github-shields.com/github/project-renard/curie/pull/41.svg"/>
+</a>
+)</li>
+</ul>
+
+<h3 id="stan">Stan</h3>
+
+<ul>
+<li>Show number of pages <a href="https://github.com/project-renard/curie/issues/21">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/21" src="https://github-shields.com/github/project-renard/curie/issues/21.svg"/>
+</a>
+(PR at <a href="https://github.com/project-renard/curie/pull/43">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/43" src="https://github-shields.com/github/project-renard/curie/pull/43.svg"/>
+</a>
+).</li>
+</ul>
+
+<table class="img"><caption>GUI showing the label with the number of pages in a PDF document</caption><tr><td><a href="../gfx/number-of-pages-label.png"><img src="./250x-number-of-pages-label.png" width="250" height="196" class="img" /></a></td></tr></table>
+
+<p>and the corresponding unit tests (issue: <a href="https://github.com/project-renard/curie/issues/45">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/45" src="https://github-shields.com/github/project-renard/curie/issues/45.svg"/>
+</a>
+, PR: <a href="https://github.com/project-renard/curie/pull/51">
+  <img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/51" src="https://github-shields.com/github/project-renard/curie/pull/51.svg"/>
+</a>
+)</p>
+
+<h3 id="chirag">Chirag</h3>
+
+<ul>
+<li>Deactivate navigation buttons at start and end of document <a href="https://github.com/project-renard/curie/issues/22">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/22" src="https://github-shields.com/github/project-renard/curie/issues/22.svg"/>
+</a>
+(PR at <a href="https://github.com/project-renard/curie/pull/37">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/37" src="https://github-shields.com/github/project-renard/curie/pull/37.svg"/>
+</a>
+).</li>
+</ul>
+
+<table class="img"><caption>Disable navigation buttons on first page</caption><tr><td><a href="../gfx/curie-disable-first.png"><img src="./250x-curie-disable-first.png" width="250" height="197" class="img" /></a></td></tr></table>
+
+<table class="img"><caption>Disable navigation buttons on last page</caption><tr><td><a href="../gfx/curie-disable-last.png"><img src="./250x-curie-disable-last.png" width="250" height="197" class="img" /></a></td></tr></table>
+
+<h3 id="zaki">Zaki</h3>
+
+<ul>
+<li><p>Refactor Chirag's pull request (issue at <a href="https://github.com/project-renard/curie/issues/38">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/38" src="https://github-shields.com/github/project-renard/curie/issues/38.svg"/>
+</a>
+and PR at <a href="https://github.com/project-renard/curie/pull/39">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/39" src="https://github-shields.com/github/project-renard/curie/pull/39.svg"/>
+</a>
+).</p></li>
+<li><p>Check for errors using Perl::Critic and Test::Spelling. This can be used to check for irregular whitespace and spelling errors among other things
+(issue at <a href="https://github.com/project-renard/curie/issues/46">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/46" src="https://github-shields.com/github/project-renard/curie/issues/46.svg"/>
+</a>
+and PR at <a href="https://github.com/project-renard/curie/pull/47">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/47" src="https://github-shields.com/github/project-renard/curie/pull/47.svg"/>
+</a>
+)</p></li>
+</ul>
+
+<table class="img"><caption>Travis-CI: Shows whitespace and code stricture failures</caption><tr><td><a href="../gfx/curie-perl-critic-fail-1.png"><img src="./250x-curie-perl-critic-fail-1.png" width="250" height="34" class="img" /></a></td></tr></table>
+
+<table class="img"><caption>Travis-CI: Fix the stricture failures, but whitespace failures remain</caption><tr><td><a href="../gfx/curie-perl-critic-fail-2.png"><img src="./250x-curie-perl-critic-fail-2.png" width="246" height="27" class="img" /></a></td></tr></table>
+
+<table class="img"><caption>Travis-CI: Shows documentation spelling failure</caption><tr><td><a href="../gfx/curie-perl-critic-fail-3.png"><img src="./250x-curie-perl-critic-fail-3.png" width="250" height="64" class="img" /></a></td></tr></table>
+
+<table class="img"><caption>Travis-CI: Shows all tests (Perl::Critic and POD spelling) now passing</caption><tr><td><a href="../gfx/curie-perl-critic-success-4.png"><img src="./250x-curie-perl-critic-success-4.png" width="248" height="40" class="img" /></a></td></tr></table>
+
+<ul>
+<li>Add a compatibility layer for GtkScrolledWindow when using a Gtk+ version less v3.8
+(issue at <a href="https://github.com/project-renard/curie/issues/42">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/issues/42" src="https://github-shields.com/github/project-renard/curie/issues/42.svg"/>
+</a>
+and PR at <a href="https://github.com/project-renard/curie/pull/48">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/48" src="https://github-shields.com/github/project-renard/curie/pull/48.svg"/>
+</a>
+)</li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../27/week-of-2016-03-27/">week of 2016-03-27</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../12/testing-and-planning-features/">testing and planning features</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 20 Mar 2018 01:58:09 AM UTC</span>
+<!-- Created <span class="date">Sat 19 Mar 2016 08:29:28 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>

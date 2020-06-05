@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Blog</title>
+<link href="http://project-renard.github.io//blog/"/>
+<link href="http://project-renard.github.io//blog/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Project Renard</name>
+
+</author>
+
+
+
+
+<id>http://project-renard.github.io//blog/</id>
+
+<subtitle type="html">Project Renard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2018-03-20T01:58:09Z</updated>
+<entry>
+	<title>Curie release v0.004</title>
+
+	<id>http://project-renard.github.io//blog/posts/2018/01/08/curie-release-v0.004/</id>
+
+	<link href="http://project-renard.github.io//blog/posts/2018/01/08/curie-release-v0.004/"/>
+
+	<author><name>zaki</name></author>
+
+
+
+
+
+
+	<category term="release" />
+
+
+	<updated>2018-03-20T01:58:09Z</updated>
+	<published>2018-01-08T08:20:28Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Curie GUI displaying the document properties of &lt;a href=&quot;http://www.paho.org/forocoberturagt2014/wp-content/uploads/2014/08/Social-Determinants-and-UHC.pdf&quot;&gt;Social Determinants and universal health coverage&lt;/a&gt; by Professor Sir Michael Marmot from &lt;a href=&quot;http://www.paho.org/forocoberturagt2014/?attachment_id=361&quot;&gt;Determinantes de la salud&lt;/a&gt;. See also Marmot, M. (2013). &lt;a href=&quot;http://dx.doi.org/10.1016/S0140-6736(13)61791-2&quot;&gt;Universal health coverage and social determinants of health&lt;/a&gt;. &lt;i&gt;The Lancet&lt;/i&gt;.&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//blog/posts/2018/01/08/gfx/curie-v0.004-document-properties.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//blog/posts/2018/01/08/curie-release-v0.004/400x-curie-v0.004-document-properties.png&quot; width=&quot;399&quot; height=&quot;239&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;The fourth pre-alpha release of Curie is now available. It
+features the following user-visible improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;File -&amp;gt; Properties&lt;/code&gt; menu displays the document properties of the
+currently open PDF document.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/250075570&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/250075570&quot;&gt;Project Renard Curie v0.004 release demo&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/zmughal&quot;&gt;Zaki Mughal&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.004&quot;&gt;MetaCPAN&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Curie release v0.003</title>
+
+	<id>http://project-renard.github.io//blog/posts/2017/07/12/curie-release-v0.003/</id>
+
+	<link href="http://project-renard.github.io//blog/posts/2017/07/12/curie-release-v0.003/"/>
+
+	<author><name>zaki</name></author>
+
+
+
+
+
+
+	<category term="release" />
+
+
+	<updated>2018-03-20T01:58:09Z</updated>
+	<published>2017-07-12T22:24:06Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The third pre-alpha release of Curie is now available. It
+features the following user-visible improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;File -&amp;gt; Recent files&lt;/code&gt; menu is updated whenever 
+documents are opened.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Continuous page view and multiple columns (e.g., for dual page display) using a grid-based view model. The page number updates as this is scrolled.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exception handler popup window that displays errors such as missing files or invalid page number selection.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/225324936&quot; width=&quot;640&quot; height=&quot;359&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/225324936&quot;&gt;Project Renard Curie v0.003 release demo&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/zmughal&quot;&gt;Zaki Mughal&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.003&quot;&gt;MetaCPAN&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Curie release v0.002</title>
+
+	<id>http://project-renard.github.io//blog/posts/2017/05/16/curie-release-v0.002/</id>
+
+	<link href="http://project-renard.github.io//blog/posts/2017/05/16/curie-release-v0.002/"/>
+
+	<author><name>zaki</name></author>
+
+
+
+
+
+
+	<category term="release" />
+
+
+	<updated>2018-03-20T01:58:09Z</updated>
+	<published>2017-05-16T15:36:31Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Curie GUI displaying an excerpt from &lt;a href=&quot;https://doi.org/10.1038/ki.2010.457&quot;&gt;mTOR and rapamycin in the kidney: signaling and therapeutic implications beyond immunosuppression&lt;/a&gt;&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//blog/posts/2017/05/16/gfx/curie-v0.002-dnd.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//blog/posts/2017/05/16/curie-release-v0.002/400x-curie-v0.002-dnd.png&quot; width=&quot;400&quot; height=&quot;231&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;The second pre-alpha release of Curie is now available. It
+features the following user-visible improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zooming using the scrollwheel (Ctrl + Scroll Up to zoom in and
+Ctrl + Scroll Down to zoom out).&lt;/li&gt;
+&lt;li&gt;Drag-and-drop of file on to the page area opens the file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There have also been some improvements to the installation
+particularly on macOS. There is now a working
+&lt;a href=&quot;https://github.com/project-renard/homebrew-project-renard&quot;&gt;homebrew tap for installing
+curie&lt;/a&gt;
+that installs Curie along with its native dependencies.&lt;/p&gt;
+
+&lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/217678413&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/217678413&quot;&gt;Project Renard Curie v0.002 release demo&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/zmughal&quot;&gt;Zaki Mughal&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.002&quot;&gt;MetaCPAN&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Curie release v0.001</title>
+
+	<id>http://project-renard.github.io//blog/posts/2016/09/22/curie-release-v0.001/</id>
+
+	<link href="http://project-renard.github.io//blog/posts/2016/09/22/curie-release-v0.001/"/>
+
+	<author><name>zaki</name></author>
+
+
+
+
+
+
+	<category term="release" />
+
+
+	<updated>2018-03-20T01:58:09Z</updated>
+	<published>2016-09-22T19:16:08Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;table class=&quot;img&quot;&gt;&lt;caption&gt;Curie GUI displaying an excerpt from &lt;a href=&quot;http://dx.doi.org/10.1017/S0140525X00067248&quot;&gt;Ways of coloring: Comparative color vision as a case study for cognitive science&lt;/a&gt;&lt;/caption&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://project-renard.github.io//blog/posts/2016/09/22/gfx/curie-v0.001-ways-of-colouring.png&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//blog/posts/2016/09/22/curie-release-v0.001/400x-curie-v0.001-ways-of-colouring.png&quot; width=&quot;400&quot; height=&quot;323&quot; class=&quot;img&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Curie, named after Marie Curie, is the first released component of Project
+Renard. It is an application for reading and navigating documents.
+This first release is a typical document reader. It allows for&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;opening PDF files,&lt;/li&gt;
+&lt;li&gt;moving between pages using buttons,&lt;/li&gt;
+&lt;li&gt;moving to a specific page number, and&lt;/li&gt;
+&lt;li&gt;navigation via an outline if the PDF file contains one.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch the video below for a demo:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/183896234&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/183896234&quot;&gt;Project Renard Curie v0.001 release demo&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/zmughal&quot;&gt;Zaki Mughal&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://metacpan.org/release/ZMUGHAL/Renard-Curie-0.001&quot;&gt;MetaCPAN&lt;/a&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

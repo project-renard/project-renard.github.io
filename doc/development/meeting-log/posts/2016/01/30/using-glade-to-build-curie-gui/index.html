@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Using Glade to build curie GUI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../../../../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../../../../../../local.css" type="text/css" />
+
+
+
+
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui.mdwn" />
+
+
+
+<meta name="date" content="Sat Jan 30 17:23:38 2016 -0600" />
+
+
+<link rel="prev" href="../../../02/05/roadmap-planning-session/" title="Roadmap planning session" />
+
+<link rel="up" href="../../../../../" title="meeting-log" />
+
+<link rel="next" href="../../24/initial-setup/" title="Initial setup" />
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../../../../../../">Project Renard</a>/ 
+
+<a href="../../../../../../../">doc</a>/ 
+
+<a href="../../../../../../">development</a>/ 
+
+<a href="../../../../../">meeting-log</a>/ 
+
+<a href="../../../../">posts</a>/ 
+
+<a href="../../../">2016</a>/ 
+
+<a href="../../">01</a>/ 
+
+<a href="../">30</a>/ 
+
+</span>
+<span class="title">
+Using Glade to build curie GUI
+
+</span>
+</span>
+
+
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui.mdwn" rel="nofollow">Edit</a></li>
+
+
+<li><a href="../../../../../../../../recentchanges/">RecentChanges</a></li>
+
+
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/posts/2016/01/30/using-glade-to-build-curie-gui.mdwn">History</a></li>
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../02/05/roadmap-planning-session/">Roadmap planning session</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../24/initial-setup/">Initial setup</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="sidebar">
+<ul>
+    <li><a href="../../../../../../../../blog/">Blog</a></li>
+    <li><a href="../../../../../../../">Documentation</a></li>
+    <ul>
+        <li><a href="../../../../../../../user/">User</a></li>
+        <li><a href="../../../../../../">Development</a></li>
+        <ul>
+            <li><a href="../../../../../">Development meeting log</a></li>
+        </ul>
+        <li><a href="../../../../../../../survey/">Survey</a></li>
+        <li><a href="../../../../../../../design/">Design</a></li>
+    </ul>
+    <li><a href="../../../../../../../../about/">About</a></li>
+</ul>
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+<h2 id="agenda">Agenda</h2>
+
+<ul>
+<li>Discuss Glade tutorial.</li>
+<li>Start a simple GUI in Glade for <strong>curie</strong>.</li>
+</ul>
+
+<h2 id="taskscompleted">Tasks completed</h2>
+
+<ul>
+<li><p>Glade tutorial</p>
+
+<ul>
+<li>Tutorial code <a href="https://github.com/zmughal/learning-gtk/tree/master/charter">https://github.com/zmughal/learning-gtk/tree/master/charter</a>
+<ul>
+<li>If you are following this tutorial, note that there are changes that have occurred in GTK+3.0 since it was written.
+For example, the "expose-event" signal is now the "draw" signal: <a href="https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11">https://developer.gnome.org/gtk3/stable/ch25s02.html#id-1.6.3.4.11</a>.</li>
+</ul></li>
+<li>Look up callback signature:
+<ul>
+<li><a href="https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html">https://developer.gnome.org/gtk3/stable/GtkDrawingArea.html</a></li>
+<li><a href="https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw">https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-draw</a></li>
+</ul></li>
+</ul></li>
+<li><p>Discuss the display of supplemental information along with document</p>
+
+<ul>
+<li>Knowledge Graph <a href="https://en.wikipedia.org/wiki/Knowledge_Graph">https://en.wikipedia.org/wiki/Knowledge_Graph</a>: Google's infoboxes which show up on search.</li>
+<li>SPARQL: query langauge for semantic web data.</li>
+<li>Utopia <a href="http://utopiadocs.com/">http://utopiadocs.com/</a>: a PDF reader that shows social
+information and retrieves from sources such as the Protein Data Bank.</li>
+<li>Reflect: browser plugin for chemistry identifier lookup
+<ul>
+<li><a href="http://epafilis.info/projects.html">http://epafilis.info/projects.html</a></li>
+<li><a href="http://reflect.ws/">http://reflect.ws/</a></li>
+<li><a href="http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html">http://www.nature.com/nbt/journal/v27/n6/full/nbt0609-508.html</a></li>
+</ul></li>
+</ul></li>
+<li><p>Design a GUI for displaying images of the document</p>
+
+<ul>
+<li>PR <a href="https://github.com/project-renard/curie/pull/6">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/curie/pull/6" src="https://github-shields.com/github/project-renard/curie/pull/6.svg"/>
+</a>
+(and progress images)</li>
+<li>Examples
+<ul>
+<li>Anjuta: IDE with docking. Uses GDL <a href="http://anjuta.org/">http://anjuta.org/</a>.</li>
+<li>Example of simple PDF viewer using Poppler <a href="https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/">https://yassernour.wordpress.com/2010/04/04/how-hard-to-build-a-pdf-viewer/</a>.</li>
+</ul></li>
+<li>Display a single image
+<ul>
+<li>Cairo for loading PNG
+<ul>
+<li><a href="http://cairographics.org/cookbook/perl_cairo_module/">http://cairographics.org/cookbook/perl_cairo_module/</a></li>
+<li><a href="http://zetcode.com/gfx/cairo/cairoimages/">http://zetcode.com/gfx/cairo/cairoimages/</a></li>
+</ul></li>
+</ul></li>
+<li><p>First attempt: draw a green colour on the whole drawing area:</p>
+
+<p><a href="../gfx/curie-green-background-drawingarea.png"><img src="./250x-curie-green-background-drawingarea.png" width="250" height="197" alt="curie GUI with green colour" class="img" /></a></p></li>
+<li><p>Second attempt: draw an image read from a file on the drawing area:</p>
+
+<p><a href="../gfx/curie-image-peppers-drawingarea.png"><img src="./250x-curie-image-peppers-drawingarea.png" width="250" height="197" alt="curie GUI with image of peppers" class="img" /></a></p></li>
+</ul></li>
+</ul>
+
+<h2 id="tasksinprogress">Tasks in progress</h2>
+
+<ul>
+<li>PDF rendering using MuPDF library
+<ul>
+<li>Install MuPDF
+<a href="http://mupdf.com/downloads/">http://mupdf.com/downloads/</a>
+<pre>
+mkdir build; cd build
+wget 'http://mupdf.com/downloads/mupdf-1.8-source.tar.gz'
+tar xvvzf mupdf-1.8-source.tar.gz
+cd mupdf-1.8-source
+make HAVE_GLFW=no
+make HAVE_GLFW=no install
+</pre></li>
+<li>Make a note of the OpenGL viewer flag at <a href="https://github.com/project-renard/p5-Alien-MuPDF/issues/3">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Alien-MuPDF/issues/3" src="https://github-shields.com/github/project-renard/p5-Alien-MuPDF/issues/3.svg"/>
+</a>
+.</li>
+</ul></li>
+</ul>
+
+<h2 id="tasksremaining">Tasks remaining</h2>
+
+<ul>
+<li><p>Look into MuPDF API.</p>
+
+<ul>
+<li><a href="http://mupdf.com/docs/overview">http://mupdf.com/docs/overview</a></li>
+<li><a href="http://mupdf.com/docs/">http://mupdf.com/docs/</a></li>
+<li>See issue <a href="https://github.com/project-renard/p5-Incunabula-Format-PDF/issues/1">
+<img class="github-shield" style="vertical-align: middle;" alt="project-renard/p5-Incunabula-Format-PDF/issues/1" src="https://github-shields.com/github/project-renard/p5-Incunabula-Format-PDF/issues/1.svg"/>
+</a>
+.</li>
+</ul></li>
+<li><p>Refactor GUI code.</p></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+<div class="trails">
+<div class="trail">
+
+<span class="trailprev">
+<span class="trailarrow">←</span>
+<a href="../../../02/05/roadmap-planning-session/">Roadmap planning session</a>
+<span class="trailsep">|</span>
+</span>
+
+<span class="trailup">
+<a href="../../../../../">meeting-log</a>
+</span>
+
+<span class="trailnext">
+<span class="trailsep">|</span>
+<a href="../../24/initial-setup/">Initial setup</a>
+<span class="trailarrow">→</span>
+</span>
+
+</div>
+</div>
+
+
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../../../02/05/roadmap-planning-session/">02/05/roadmap-planning-session</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Tue 20 Mar 2018 01:58:09 AM UTC</span>
+<!-- Created <span class="date">Sat 30 Jan 2016 11:23:38 PM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from Project Renard -->
+</div>
+
+</div>
+
+</body>
+</html>
