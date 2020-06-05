@@ -26,6 +26,7 @@ addons:
       - graphviz
       #- tj3 # not latest version
       - dvipng # for teximg plugin
+      - mupdf-tools # for mutool
 install:
   - openssl aes-256-cbc -K $encrypted_4f43c47a058e_key -iv $encrypted_4f43c47a058e_iv -in .travisdeploykey.enc -out .travisdeploykey -d
   - chmod go-rwx .travisdeploykey
