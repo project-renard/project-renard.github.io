@@ -1,0 +1,14 @@
+% vim: ft=tex
+\usetikzlibrary{arrows,positioning}
+\begin{tikzpicture}[
+		every node/.style={draw,circle}
+	]
+	\node                     (Tst) {$T*$} ;
+	\node [below of=Tst]      (T0) {$T_0$} ;
+	\node [below left of=T0]  (T2) {$T_2$} ;
+	\node [below right of=T0] (T3) {$T_3$} ;
+
+	\draw [->] (Tst) -- (T0) ;
+	\draw [->] (T0)  -- (T2) ;
+	\draw [->] (T0)  -- (T3) ;
+\end{tikzpicture}
