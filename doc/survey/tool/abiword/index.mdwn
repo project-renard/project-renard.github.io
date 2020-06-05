@@ -18,7 +18,7 @@ AbiWord is a word processor. It is written using Gtk+3 and provides an
 embeddable widget called [[AbiWidget|http://www.abisource.com/wiki/AbiWidget]]
 that can be loaded into other Gtk+3 applications.
 
-It can be extended with plugins that can extend functionality. These can
+It supports plugins that can extend functionality. These can
 be used to add more import/export file formats.
 
 ## Description
