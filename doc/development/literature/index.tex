@@ -44,7 +44,8 @@
 	\fi%
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {{{
+% {{{ Print article title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{usebib}
 \newbibfield{abstract}
 %% prints out the info for a citation key:
@@ -61,7 +62,86 @@
 
 \def\printindex{}
 
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+
+% {{{ External TikZ
+% <http://tex.stackexchange.com/questions/40135/htlatex-and-tikz-creates-sometimes-incorrect-svgs>
+% <http://tex.stackexchange.com/questions/158551/using-htlatex-with-tikz-dependency>
+\usetikzlibrary{external}
+\tikzset{
+	png copy/.style={
+		external/system call={
+				pdflatex \tikzexternalcheckshellescape -halt-on-error -interaction=batchmode -jobname "\image" "\texsource";
+				mutool draw -r 300 -o "\image.png" "\image.pdf";
+				mogrify -transparent white "\image.png"
+		}
+	}
+}
+		%convert -density 300 -transparent white "\image.pdf" "\image.png"
+\tikzset{png copy}
+\makeatletter
+\@ifpackageloaded{tex4ht}{
+	\tikzexternalize[mode=only graphics]
+	\tikzset{png export/.style={/pgf/images/external info,/pgf/images/include external/.code={\includegraphics{##1.png}}}}
+%[width=\pgfexternalwidth,height=\pgfexternalheight]
+	\tikzset{png export}
+}{
+	\tikzexternalize
+	\tikzset{pdf export/.style={/pgf/images/external info,/pgf/images/include external/.code={\includegraphics{##1.pdf}}}}
+%[width=\pgfexternalwidth,height=\pgfexternalheight]
+	\tikzset{pdf export}
+}
+% }}}
+
+
+
 \begin{document}
+
+
+% {{{ configure graphics for TeX4ht
+\ifx\HCode\Undef \empty \else%
+\makeatletter
+
+% PDF page graphics {{{
+\define@key{Gin}{page}[1]{\def\Gin@page{#1}}
+\makeatother
+	\Configure{graphics*}{pdf}
+			{\Needs{"mutool draw -r 300 -o \jobname\arabic{texforhtimagecounter}y.png \csname input@path\endcsname/\csname Gin@base\endcsname.pdf \csname Gin@page\endcsname"}%
+				\Picture[pict]{\jobname\arabic{texforhtimagecounter}y.png
+				\space style="width: \space  \csname Gin@html@width\endcsname \space !important;
+				\space float: \csname Gin@html@float\endcsname;
+				\space clear: both;
+				"}%
+			\stepcounter{texforhtimagecounter}%
+				\special{t4ht+@File: \csname Gin@base\endcsname.png}
+				}
+
+			%{\Needs{"convert \csname Gin@base\endcsname.pdf
+				%\csname Gin@base\endcsname.png"}%
+% }}}
+
+
+% Configure graphics for PNG, JPEG {{{
+% From <http://tex.stackexchange.com/questions/46156/pdf-image-files-and-htlatex>
+	\DeclareGraphicsExtensions{.png,.jpg,.jpeg}
+	\newcounter{texforhtimagecounter}
+	\newcommand{\ConfigureGraphicsDirect}[3]{%
+		\Configure{graphics*}
+				{#1}
+				{\Needs{"#3 \csname Gin@base\endcsname.#1
+					\jobname\arabic{texforhtimagecounter}y.#2"}%
+					\Picture[pict]{\jobname\arabic{texforhtimagecounter}y.#2}%
+					\stepcounter{texforhtimagecounter}%
+				}%
+	}
+	%\ConfigureGraphicsDirect{pdf}{png}{convert -density 300}%
+	\ConfigureGraphicsDirect{png}{png}{cp}%
+	\ConfigureGraphicsDirect{jpg}{jpg}{cp}%
+	\ConfigureGraphicsDirect{jpeg}{jpg}{cp}%
+\fi
+% }}}
 
 \section{Bret Victor}
 
@@ -94,7 +174,122 @@ workflows.
 
 \section{Scene graphs}
 
-TODO OpenSceneGraph
+\paracite{tavenrath2016}
+
+\begin{itemize}
+\item dynamic scene graph: many updates
+\item extract just transform nodes to a transform tree
+\end{itemize}
+
+
+\[ T_{2,world} = T_{2,local} \cdot T_{0,local} \cdot T^{*}_{local} \]
+
+The world matrix is used for shader, culling, bounding box, collision
+detection.
+
+\begin{figure}
+\tikzsetnextfilename{tavenrath2016-fig1}
+\input{tavenrath2016-fig1.tikz}
+\caption{Example tree}
+\end{figure}
+
+\paracite{worister2013lazy}
+
+\begin{itemize}
+\item \fbox{scene graph} creates \fbox{dependency graph}
+\item \fbox{program} updates \fbox{scene graph} updates*
+	\fbox{dependency graph} \\
+	* but only parts that are visible are updated
+\end{itemize}
+
+\paragraph{Update algorithm}
+
+\paracite{reps1983incremental}
+
+\paracite{hudson1991incremental}
+
+They use a semantic scene graph as in
+\paracitecite{tobler2011separating} --- traversal cost is high ---
+caching eliminates this cost.
+
+caching however occurs an overhead (see Table 1 of paper) at
+startup time
+
+need to benchmark the number of draw calls to see when it will pay
+off: \( \uparrow \) draw calls, \(\downarrow\) frame rate.
+
+can be parallelised
+
+
+\paracite{tobler2011separating}
+
+semantic graph is used to keep application state inside of graph
+
+application acts like a compiler
+
+semantic scene graph \( \rightarrow \) rendering scene graph
+
+a single semantic scene graph node can build many intermediate
+rendering scene graph nodes that differ based on rendering backend
+
+applicator nodes are trees as well
+
+transformation
+\begin{itemize}
+\item children: transformation matrices
+\item aggregator: matrix multiplication
+\end{itemize}
+
+LOD node: returns a different scene graph based on level
+
+multiple-view has both:
+\begin{itemize}
+\item shared data
+\item private data
+\end{itemize}
+for
+\begin{itemize}
+\item traversal cache
+\item traversal state
+\end{itemize}
+
+editing of semantic nodes
+\begin{itemize}
+\item back references
+\item a little unclear why have 2 rendering scene graphs
+  \begin{itemize}
+  \item render normal
+		\begin{verbatim}
+		      ------
+		      |    |
+		      ------
+		\end{verbatim}
+	\item edit handles
+		\begin{verbatim}
+		      o    o
+		            
+		      o    o
+		\end{verbatim}
+  \item render w/ edit handles
+		\begin{verbatim}
+		      o----o
+		      |    |
+		      o----o
+		\end{verbatim}
+  \end{itemize}
+\end{itemize}
+
+rendering scene graph is cached by creating scene graph forest
+
+
+\paracite{zeleznik2000scene}
+
+networking
+
+
+\subsection*{OpenSceneGraph}
+
+TODO
 
 \section{Attribute grammars}
 
