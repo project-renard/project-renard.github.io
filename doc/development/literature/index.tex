@@ -1,3 +1,4 @@
+% {{{ LaTeX Preamble
 \documentclass{article}
 
 \usepackage{hyperref}
@@ -96,10 +97,11 @@
 % }}}
 
 
-
+% }}}
 \begin{document}
 
 
+% {{{ Configuration
 % {{{ configure graphics for TeX4ht
 \ifx\HCode\Undef \empty \else%
 \makeatletter
@@ -141,6 +143,7 @@
 	\ConfigureGraphicsDirect{jpg}{jpg}{cp}%
 	\ConfigureGraphicsDirect{jpeg}{jpg}{cp}%
 \fi
+% }}}
 % }}}
 
 \section{Bret Victor}
@@ -197,9 +200,9 @@ detection.
 
 \begin{itemize}
 \item \fbox{scene graph} creates \fbox{dependency graph}
-\item \fbox{program} updates \fbox{scene graph} updates*
+\item \fbox{program} updates \fbox{scene graph} updates$*$
 	\fbox{dependency graph} \\
-	* but only parts that are visible are updated
+	$*$ but only parts that are visible are updated
 \end{itemize}
 
 \paragraph{Update algorithm}
@@ -360,7 +363,7 @@ grammars with work in incremental
 computing~\cite{reps1983incremental,ramalingam1993categorized}.
 
 In order to use attribute grammars in a way that they can be
-composible (in FP, AGs can be used to define catamorphisms
+composable (in FP, AGs can be used to define catamorphisms
 compositionally) and easy to write, there has been work on making
 embedded DSLs for AG definitions \cite{sloane2010pure}.
 
