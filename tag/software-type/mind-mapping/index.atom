@@ -17,7 +17,113 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2020-06-05T09:30:51Z</updated>
+<updated>2020-08-23T07:35:12Z</updated>
+<entry>
+	<title>Visual Understanding Environment</title>
+
+	<id>http://project-renard.github.io//doc/survey/tool/vue/</id>
+
+	<link href="http://project-renard.github.io//doc/survey/tool/vue/"/>
+
+
+
+
+
+
+	<category term="software-type/mind-mapping" />
+
+
+	<updated>2020-08-23T07:35:12Z</updated>
+	<published>2020-08-23T07:35:12Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;div class=&quot;sidebar&quot;&gt;
+
+&lt;table&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;
+    &lt;center&gt;
+        &lt;h3&gt;
+            Visual Understanding Environment
+        &lt;/h3&gt;
+    &lt;/center&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;http://vue.tufts.edu/&quot;&gt;Homepage&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;b&gt;Programming language:&lt;/b&gt; Java
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+&lt;a href=&quot;https://github.com/VUE/VUE&quot;&gt;Source code&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;h2&gt;Screenshot&lt;/h2&gt;
+        &lt;a href=&quot;https://vue.tufts.edu/static/pm-0f45421a8cb8648d86f7c6783da5e222.png&quot;&gt;
+            &lt;img width=&quot;100%&quot; src=&quot;https://vue.tufts.edu/static/pm-0f45421a8cb8648d86f7c6783da5e222.png&quot;/&gt;
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;tr&gt;
+    &lt;td&gt;
+
+Runs: unknown
+
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+
+
+
+
+
+
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://datamining.cs.ucla.edu/dot2vue/doc/usage.html&quot;&gt;http://datamining.cs.ucla.edu/dot2vue/doc/usage.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Tinderbox</title>
 
@@ -126,8 +232,8 @@ Status: Active
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -207,8 +313,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -284,8 +390,8 @@ Runs: unknown
 	<category term="software-type/reference-management" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -401,8 +507,8 @@ links to the papers which need to be cited.&lt;/p&gt;
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -503,8 +609,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -607,8 +713,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -694,8 +800,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
@@ -775,8 +881,8 @@ Runs: unknown
 	<category term="software-type/mind-mapping" />
 
 
-	<updated>2018-04-17T02:33:31Z</updated>
-	<published>2018-04-17T02:33:31Z</published>
+	<updated>2018-05-21T19:27:15Z</updated>
+	<published>2018-05-21T19:27:15Z</published>
 
 
 	<content type="html" xml:lang="en">
