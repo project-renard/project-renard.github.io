@@ -2,6 +2,13 @@
 
 [[!toc levels=3]]
 
+# Zooming User Interface
+
+A [[zooming user interface (ZUI)|http://en.wikipedia.org/wiki/Zooming_user_interface]] can be used to
+display many different kinds of information at various scales, however they can
+be challening to implement for many of the same reasons that using a clutter
+graph can be.
+
 # View options
 
 ## Examples of supported layouts
