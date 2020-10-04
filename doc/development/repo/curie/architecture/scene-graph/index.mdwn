@@ -1,0 +1,17 @@
+[[!meta title="Scene graph"]]
+
+[[!toc levels=4]]
+
+# Application
+
+[[!uml src="""
+digraph foo {
+    a -> b
+}
+"""]]
+
+# Document
+
+## Layouts
+
+# Graphics
