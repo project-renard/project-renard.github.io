@@ -185,7 +185,7 @@ changes are specified in the following subsection.</p>
 
 <h4 id="project-renardp5-renard-incunabula"><a name="index1h4"></a>project-renard/p5-Renard-Incunabula</h4>
 
-<p>The <a href="../../../../../../repo/p5-Renard-Incunabula/">p5-Renard-Incunabula</a> repository is for common code that all tools
+<p>The <span class="createlink">p5-Renard-Incunabula</span> repository is for common code that all tools
 can use. In particular, it contains the common development setup (such as
 <a href="https://p3rl.org/Function::Parameters"><code>Function::Parameters</code></a>, error types,
 and data types) and generic document/page models.</p>
@@ -360,7 +360,7 @@ functions (e.g., shims for older versions of the <code>gtk+3</code> library) and
 
 <p>In order to create new repositories for these files, it is necessary to first
 make sure that we only keep the commits in the history that touch those files.
-The first step is to create clones of the original <a href="../../../../../../repo/curie/">curie</a> repo for each
+The first step is to create clones of the original <span class="createlink">curie</span> repo for each
 of the new repositories. To do so, <code>.nfo</code> files are created that contain the
 information from the above renaming tables. In
 <code>project-renard/rename/p5-Renard-Incunabula-Format-PDF.nfo</code>, this looks like</p>
@@ -487,16 +487,16 @@ since the older release versions do not apply.</p>
 
 <p>Finally, the package in <code>t/lib/CurieTestHelper.pm</code> has been turned into the
 library package <code>Renard::Incunabula::Devel::TestHelper</code> in
-<a href="../../../../../../repo/p5-Renard-Incunabula/">p5-Renard-Incunabula</a>.  This allows it to be shared by the testing code
+<span class="createlink">p5-Renard-Incunabula</span>.  This allows it to be shared by the testing code
 in all the repositories.</p>
 
 <h2 id="trackingdependenciesandotherdevelopermaintenance"><a name="index2h2"></a>Tracking dependencies and other developer maintenance</h2>
 
 <p>Since each of the new repositories are starting off without any of the
-developer maintenance setup that <a href="../../../../../../repo/curie/">curie</a> has (such as the list of native
+developer maintenance setup that <span class="createlink">curie</span> has (such as the list of native
 dependencies and CI configuration), it is necessary to make sure that they
 start off with a basic skeleton. This is contained in the <a href="https://github.com/project-renard/devops/tree/master/skeleton"><code>skeleton</code></a>
-directory of <a href="../../../../../../repo/devops/">devops</a>.</p>
+directory of <span class="createlink">devops</span>.</p>
 
 <p>In particular, the following files are special because they are used to specify
 dependencies:</p>
@@ -621,7 +621,7 @@ general-purpose tool.</p>
 
 
 <div class="pagedate">
-Last edited <span class="date">Tue 10 Jul 2018 05:28:28 PM UTC</span>
+Last edited <span class="date">Thu 01 Nov 2018 10:07:54 PM UTC</span>
 <!-- Created <span class="date">Thu 21 Sep 2017 02:49:08 AM UTC</span> -->
 </div>
 

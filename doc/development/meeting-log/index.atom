@@ -17,7 +17,7 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-07-10T17:28:28Z</updated>
+<updated>2018-11-01T22:07:54Z</updated>
 <entry>
 	<title>Modularising and splitting Curie</title>
 
@@ -31,7 +31,7 @@
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2017-09-21T02:49:08Z</published>
 
 
@@ -57,7 +57,7 @@ changes are specified in the following subsection.&lt;/p&gt;
 
 &lt;h4 id=&quot;project-renardp5-renard-incunabula&quot;&gt;project-renard/p5-Renard-Incunabula&lt;/h4&gt;
 
-&lt;p&gt;The &lt;a href=&quot;http://project-renard.github.io//doc/development/repo/p5-Renard-Incunabula/&quot;&gt;p5-Renard-Incunabula&lt;/a&gt; repository is for common code that all tools
+&lt;p&gt;The &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula&lt;/span&gt; repository is for common code that all tools
 can use. In particular, it contains the common development setup (such as
 &lt;a href=&quot;https://p3rl.org/Function::Parameters&quot;&gt;&lt;code&gt;Function::Parameters&lt;/code&gt;&lt;/a&gt;, error types,
 and data types) and generic document/page models.&lt;/p&gt;
@@ -232,7 +232,7 @@ functions (e.g., shims for older versions of the &lt;code&gt;gtk+3&lt;/code&gt; 
 
 &lt;p&gt;In order to create new repositories for these files, it is necessary to first
 make sure that we only keep the commits in the history that touch those files.
-The first step is to create clones of the original &lt;a href=&quot;http://project-renard.github.io//doc/development/repo/curie/&quot;&gt;curie&lt;/a&gt; repo for each
+The first step is to create clones of the original &lt;span class=&quot;createlink&quot;&gt;curie&lt;/span&gt; repo for each
 of the new repositories. To do so, &lt;code&gt;.nfo&lt;/code&gt; files are created that contain the
 information from the above renaming tables. In
 &lt;code&gt;project-renard/rename/p5-Renard-Incunabula-Format-PDF.nfo&lt;/code&gt;, this looks like&lt;/p&gt;
@@ -359,16 +359,16 @@ since the older release versions do not apply.&lt;/p&gt;
 
 &lt;p&gt;Finally, the package in &lt;code&gt;t/lib/CurieTestHelper.pm&lt;/code&gt; has been turned into the
 library package &lt;code&gt;Renard::Incunabula::Devel::TestHelper&lt;/code&gt; in
-&lt;a href=&quot;http://project-renard.github.io//doc/development/repo/p5-Renard-Incunabula/&quot;&gt;p5-Renard-Incunabula&lt;/a&gt;.  This allows it to be shared by the testing code
+&lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula&lt;/span&gt;.  This allows it to be shared by the testing code
 in all the repositories.&lt;/p&gt;
 
 &lt;h2 id=&quot;trackingdependenciesandotherdevelopermaintenance&quot;&gt;Tracking dependencies and other developer maintenance&lt;/h2&gt;
 
 &lt;p&gt;Since each of the new repositories are starting off without any of the
-developer maintenance setup that &lt;a href=&quot;http://project-renard.github.io//doc/development/repo/curie/&quot;&gt;curie&lt;/a&gt; has (such as the list of native
+developer maintenance setup that &lt;span class=&quot;createlink&quot;&gt;curie&lt;/span&gt; has (such as the list of native
 dependencies and CI configuration), it is necessary to make sure that they
 start off with a basic skeleton. This is contained in the &lt;a href=&quot;https://github.com/project-renard/devops/tree/master/skeleton&quot;&gt;&lt;code&gt;skeleton&lt;/code&gt;&lt;/a&gt;
-directory of &lt;a href=&quot;http://project-renard.github.io//doc/development/repo/devops/&quot;&gt;devops&lt;/a&gt;.&lt;/p&gt;
+directory of &lt;span class=&quot;createlink&quot;&gt;devops&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;In particular, the following files are special because they are used to specify
 dependencies:&lt;/p&gt;
@@ -467,7 +467,7 @@ general-purpose tool.&lt;/p&gt;
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2017-05-13T18:00:00Z</published>
 
 
@@ -772,7 +772,7 @@ organised will come later.&lt;/p&gt;&lt;/li&gt;
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-12-20T23:57:59Z</published>
 
 
@@ -990,7 +990,7 @@ on all platforms
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-05-28T02:46:43Z</published>
 
 
@@ -1073,7 +1073,7 @@ on all platforms
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-05-03T03:47:24Z</published>
 
 
@@ -2048,7 +2048,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-04-02T16:47:49Z</published>
 
 
@@ -2104,7 +2104,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-03-27T18:16:04Z</published>
 
 
@@ -2157,7 +2157,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-03-19T20:29:28Z</published>
 
 
@@ -2270,7 +2270,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-03-12T01:12:49Z</published>
 
 
@@ -2336,7 +2336,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 
-	<updated>2018-07-10T17:28:28Z</updated>
+	<updated>2018-11-01T22:07:54Z</updated>
 	<published>2016-03-06T21:30:50Z</published>
 
 

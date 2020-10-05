@@ -3,7 +3,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Event controller</title>
+<title>architecture</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../../../../../../style.css" type="text/css" />
@@ -13,11 +13,11 @@
 
 
 
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/repo/curie/architecture/event-controller/index.mdwn" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/repo/project-renard/curie/architecture/index.mdwn" />
 
 
 
-<meta name="description" content="Controller for events" />
+
 
 
 
@@ -39,13 +39,13 @@
 
 <a href="../../../">repo</a>/ 
 
-<a href="../../">curie</a>/ 
+<a href="../../">project-renard</a>/ 
 
-<a href="../">architecture</a>/ 
+<a href="../">curie</a>/ 
 
 </span>
 <span class="title">
-Event controller
+architecture
 
 </span>
 </span>
@@ -58,13 +58,13 @@ Event controller
 <div class="actions">
 <ul>
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/repo/curie/architecture/event-controller/index.mdwn" rel="nofollow">Edit</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/edit/source/doc/development/repo/project-renard/curie/architecture/index.mdwn" rel="nofollow">Edit</a></li>
 
 
 <li><a href="../../../../../../recentchanges/">RecentChanges</a></li>
 
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/repo/curie/architecture/event-controller/index.mdwn">History</a></li>
+<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/repo/project-renard/curie/architecture/index.mdwn">History</a></li>
 
 
 
@@ -110,7 +110,31 @@ Event controller
 <div id="pagebody">
 
 <div id="content" role="main">
-<p>Idea: need to have a generic approach to user interaction.</p>
+<h1 id="viewmanager">View manager</h1>
+
+<h2 id="current">Current</h2>
+
+<p>The <code>::App</code> object handles all the setup and coordination.</p>
+
+<h2 id="proposed">Proposed</h2>
+
+<p><img src="./uml-c68a5b6a819cd0d04f12220fab30324eed18602f.svg" /></p>
+
+<h1 id="layout">Layout</h1>
+
+<h2 id="current">Current</h2>
+
+<p><img src="./uml-6f9a2ec8f4e836e5e4dfaf30c2b0c6493bd7287c.svg" /></p>
+
+<h2 id="proposed">Proposed</h2>
+
+<h3 id="gridlayout">Grid layout</h3>
+
+<p><img src="./uml-38942ea14e053f4850fc3f6edd4b8dad0cfaa8fd.svg" /></p>
+
+<h1 id="rendering">Rendering</h1>
+
+<p><img src="./uml-a2c34ddc4aba6224c0027e795454b509f0643210.svg" /></p>
 
 </div>
 
@@ -138,8 +162,8 @@ Event controller
 
 
 <div class="pagedate">
-Last edited <span class="date">Sun 04 Oct 2020 10:09:34 PM UTC</span>
-<!-- Created <span class="date">Sun 04 Oct 2020 10:09:34 PM UTC</span> -->
+Last edited <span class="date">Mon 05 Oct 2020 09:20:19 PM UTC</span>
+<!-- Created <span class="date">Mon 05 Oct 2020 09:20:19 PM UTC</span> -->
 </div>
 
 </div>
