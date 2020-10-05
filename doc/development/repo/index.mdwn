@@ -2,11 +2,11 @@
 
 ## Awaiting release
 
-<ul>[[!report template="repo_awaiting_release_summary" pages="doc/development/repo/*" sort="title"]]</ul>
+<ul>[[!report template="repo_awaiting_release_summary" pages="doc/development/repo/project-renard/*" sort="title"]]</ul>
 
 ## Report
 
-<table>[[!report template="repo_summary" pages="doc/development/repo/*" sort="title"]]</table>
+<table>[[!report template="repo_summary" pages="doc/development/repo/project-renard/*" sort="title"]]</table>
 
 ## Services
 
