@@ -1,17 +1,17 @@
 [submodule "rubykat-ikiplugins"]
 	path = .ikiwiki-plugins/rubykat-ikiplugins
-	url = https://github.com/ikiwiki-tavi/rubykat-ikiplugins.git
+	url = https://github.com/ikiwiki-dakine/rubykat-ikiplugins.git
 	branch = include
 [submodule "p5-IkiWiki-Plugin-tex"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-tex
-	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-tex.git
+	url = https://github.com/ikiwiki-dakine/p5-IkiWiki-Plugin-tex.git
 [submodule "p5-IkiWiki-Plugin-github"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-github
-	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-github.git
+	url = https://github.com/ikiwiki-dakine/p5-IkiWiki-Plugin-github.git
 [submodule ".ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler"]
 	path = .ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler
-	url = https://github.com/ikiwiki-tavi/p5-IkiWiki-Plugin-taskjuggler.git
+	url = https://github.com/ikiwiki-dakine/p5-IkiWiki-Plugin-taskjuggler.git
 [submodule ".ikiwiki-plugins/ikiwiki-uml"]
 	path = .ikiwiki-plugins/ikiwiki-uml
-	url = https://github.com/ikiwiki-tavi/ikiwiki-uml.git
+	url = https://github.com/ikiwiki-dakine/ikiwiki-uml.git
 	branch = include
