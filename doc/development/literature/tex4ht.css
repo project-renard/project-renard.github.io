@@ -103,8 +103,8 @@ math .textsf { font-family: sans-serif; }
 math .textbf { font-weight: bold; }
 mo.MathClass-op + mi{margin-left:0.3em}
 mi + mo.MathClass-op{margin-left:0.3em}
- math mstyle[mathvariant="bold"] mi { font-weight: bold; font-style: normal; } 
- math mstyle[mathvariant="normal"] mi { font-weight: normal; font-style: normal; } 
+ math mi[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mi[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}

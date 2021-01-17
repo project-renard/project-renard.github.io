@@ -21,38 +21,7 @@ var selections_openid_large = {
         url: null
     }
 };
-var selections_openid_small = {
-    verisign: {
-        name: 'Verisign',
-        icon: 'ikiwiki/login-selector/verisign.png',
-        label: 'Enter your Verisign username:',
-        url: 'http://{username}.pip.verisignlabs.com/'
-    },
-    yahoo: {
-        name: 'Yahoo',
-        icon: 'ikiwiki/login-selector/goa-account-yahoo.png',
-        url: 'http://me.yahoo.com/'
-    },
-    flickr: {
-       name: 'Flickr',        
-       icon: 'ikiwiki/login-selector/goa-account-flickr.png',
-       label: 'Enter your Flickr username:',
-       url: 'http://flickr.com/photos/{username}/'
-    },
-    wordpress: {
-        name: 'Wordpress',
-       icon: 'ikiwiki/login-selector/wordpress.png',
-        label: 'Enter your Wordpress.com username:',
-        url: 'http://{username}.wordpress.com/'
-    },
-    aol: {
-        name: 'AOL',     
-        icon: 'ikiwiki/login-selector/aol.png',
-        label: 'Enter your AOL username:',
-        url: 'http://openid.aol.com/{username}'
-    }
-};
-var selections = $.extend({}, selections_email_large, selections_openid_large, selections_openid_small);
+var selections = $.extend({}, selections_email_large, selections_openid_large);
 
 var selector = {
 
@@ -108,14 +77,6 @@ var selector = {
 		$('#'+this.othersignin_id).hide();
 	}
 
-        if (login_methods['openid'] && selections_openid_small) {
-        	selector_btns.append('<br/>');
-        	
-	        for (id in selections_openid_small) {
-	           	selector_btns.append(this.getBoxHTML(selections_openid_small[id], 'small'));
-	        }
-        }
-        
         $('#login_selector_form').submit(this.submit);
         
         var box_id = this.readCookie();

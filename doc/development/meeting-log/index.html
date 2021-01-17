@@ -58,7 +58,7 @@ meeting-log
 <li><a href="../../../recentchanges/">RecentChanges</a></li>
 
 
-<li><a href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/index.mdwn">History</a></li>
+<li><a rel="nofollow" href="https://github.com/project-renard/project-renard.github.io/commits/source/doc/development/meeting-log/index.mdwn">History</a></li>
 
 
 
@@ -139,7 +139,7 @@ all of these repositories were tested using CI tools before being released.</div
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Thu 21 Sep 2017 02:49:08 AM UTC</span>
+Posted <span class="date">Thu Sep 21 02:49:08 2017</span>
 </span>
 
 
@@ -185,7 +185,7 @@ v0.003, Curie v0.004, MuPDF, and release engineering</div>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sat 13 May 2017 06:00:00 PM UTC</span>
+Posted <span class="date">Sat May 13 18:00:00 2017</span>
 </span>
 
 
@@ -237,7 +237,7 @@ will need to be fixed before Curie v0.002 is released.</div>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 20 Dec 2016 11:57:59 PM UTC</span>
+Posted <span class="date">Tue Dec 20 23:57:59 2016</span>
 </span>
 
 
@@ -341,7 +341,7 @@ Posted <span class="date">Tue 20 Dec 2016 11:57:59 PM UTC</span>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sat 28 May 2016 02:46:43 AM UTC</span>
+Posted <span class="date">Sat May 28 02:46:43 2016</span>
 </span>
 
 
@@ -384,7 +384,7 @@ zaki
 </div>
 
 <div class="inlinecontent">
-<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows<a href="#fn:portability" id="fnref:portability" class="footnote">1</a>,
+<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
 require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.</p>
@@ -425,10 +425,10 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>Syu  <span class="hl slc"># update</span>
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl kwb">-Syu</span>  <span class="hl slc"># update</span>
 
    <span class="hl slc"># Install compiler and build configuration tools</span>
-   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw-w64-x86_64-libtool
+   pacman <span class="hl kwb">-S --needed --noconfirm</span> mingw-w64-x86_64-toolchain autoconf automake libtool <span class="hl kwc">make patch</span> mingw-w64-x86_64-libtool
 
 </pre></div>
    </p>
@@ -440,7 +440,7 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm \
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl kwb">-S --needed --noconfirm</span> \
        mingw-w64-x86_64-gobject-introspection \
        mingw-w64-x86_64-cairo \
        mingw-w64-x86_64-gtk3 \
@@ -457,7 +457,7 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw-w64-x86_64-perl
+   <div class="highlight-sh"><pre class="hl">   pacman <span class="hl kwb">-S --needed --noconfirm</span> mingw-w64-x86_64-perl
    <span class="hl kwc">yes</span> | cpan App<span class="hl opt">::</span>cpanminus
 
 </pre></div>
@@ -573,7 +573,7 @@ architecture) throughout.</p>
    </p>
 
    <p>
-   <div class="highlight-sh"><pre class="hl">   cpanm <span class="hl opt">--</span>installdeps .
+   <div class="highlight-sh"><pre class="hl">   cpanm <span class="hl kwb">--installdeps</span> .
 
 </pre></div>
    </p>
@@ -982,36 +982,36 @@ can only run commands every 20 minutes!</p>
   <span class="hl kwb">echo</span> Bits<span class="hl opt">:</span> <span class="hl kwc">%BIT%</span>
 
   REM Create a writeable TMPDIR
-  <span class="hl kwb">mkdir</span> <span class="hl kwc">%APPVEYOR_BUILD_FOLDER%\tmp</span>
-  <span class="hl kwb">set</span> TMPDIR<span class="hl opt">=</span><span class="hl kwc">%APPVEYOR_BUILD_FOLDER%\tmp</span>
+  <span class="hl kwb">mkdir</span> <span class="hl kwc">%APPVEYOR_BUILD_FOLDER%</span><span class="hl esc">\t</span>mp
+  <span class="hl kwb">set</span> TMPDIR<span class="hl opt">=</span><span class="hl kwc">%APPVEYOR_BUILD_FOLDER%</span><span class="hl esc">\t</span>mp
 
-  <span class="hl kwa">IF</span> <span class="hl kwc">%COMPILER%==msys2</span> <span class="hl opt">(</span>
+  <span class="hl kwa">IF</span> <span class="hl kwc">%COMPILER%</span><span class="hl opt">==</span>msys2 <span class="hl opt">(</span>
     &#64;<span class="hl kwb">echo</span> on
-    <span class="hl kwb">SET</span> <span class="hl str">&quot;PATH=C:\%MSYS2_DIR%\%MSYSTEM%\bin;C:\%MSYS2_DIR%\usr\bin;%PATH%&quot;</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm pacman<span class="hl opt">-</span>mirrors<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm git<span class="hl str">&quot;</span>
-<span class="hl str">    REM Update</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>Syu <span class="hl opt">--</span>noconfirm<span class="hl str">&quot;</span>
-<span class="hl str"></span>
-<span class="hl str">    REM build tools</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>toolchain autoconf automake libtool make <span class="hl kwb">patch</span> mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>libtool<span class="hl str">&quot;</span>
-<span class="hl str"></span>
-<span class="hl str">    REM Set up perl</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>perl<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span>pl2bat $<span class="hl opt">(</span>which pl2bat<span class="hl opt">)</span><span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span>yes | cpan App<span class="hl opt">::</span>cpanminus<span class="hl str">&quot;</span>
-<span class="hl str">    bash -lc &quot;</span>cpanm <span class="hl opt">--</span>notest ExtUtils<span class="hl opt">::</span>MakeMaker<span class="hl str">&quot;</span>
-<span class="hl str"></span>
-<span class="hl str">    REM Native deps</span>
-<span class="hl str">    bash -lc &quot;</span>pacman <span class="hl opt">-</span>S <span class="hl opt">--</span>needed <span class="hl opt">--</span>noconfirm mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gobject<span class="hl opt">-</span>introspection mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>cairo mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>gtk3 mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>expat mingw<span class="hl opt">-</span>w64<span class="hl opt">-</span>x86_64<span class="hl opt">-</span>openssl<span class="hl str">&quot;</span>
-<span class="hl str"></span>
-<span class="hl str">    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.</span>
-<span class="hl str">    bash -lc &quot;</span>cp <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc<span class="hl str">&quot;</span>
-<span class="hl str"></span>
-<span class="hl str">    REM Install via cpanfile</span>
-<span class="hl str">    bash -lc &quot;</span><span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER<span class="hl opt">;</span> . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh<span class="hl opt">;</span> export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'<span class="hl opt">;</span> cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .<span class="hl str">&quot;</span>
-<span class="hl str">  )</span>
-<span class="hl str"></span>  
+    <span class="hl kwb">SET</span> <span class="hl str">&quot;PATH=C:\</span><span class="hl ipl">%MSYS2_DIR%</span><span class="hl str">\</span><span class="hl ipl">%MSYSTEM%</span><span class="hl str"></span><span class="hl esc">\b</span><span class="hl str">in;C:\</span><span class="hl ipl">%MSYS2_DIR%</span><span class="hl str">\usr</span><span class="hl esc">\b</span><span class="hl str">in;</span><span class="hl ipl">%PATH%</span><span class="hl str">&quot;</span>
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -S --needed --noconfirm pacman-mirrors&quot;</span>
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -S --needed --noconfirm git&quot;</span>
+    REM Update
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -Syu --noconfirm&quot;</span>
+
+    REM build tools
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool&quot;</span>
+
+    REM <span class="hl kwb">Set</span> up perl
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -S --needed --noconfirm mingw-w64-x86_64-perl&quot;</span>
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pl2bat $(which pl2bat)&quot;</span>
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;yes | cpan App::cpanminus&quot;</span>
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;cpanm --notest ExtUtils::MakeMaker&quot;</span>
+
+    REM Native deps
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;pacman -S --needed --noconfirm mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-cairo mingw-w64-x86_64-gtk3 mingw-w64-x86_64-expat mingw-w64-x86_64-openssl&quot;</span>
+
+    REM There is <span class="hl kwa">not</span> a corresponding cc <span class="hl kwa">for</span> the mingw64 gcc. So we <span class="hl kwb">copy</span> it in place.
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;cp -pv /mingw64/bin/gcc /mingw64/bin/cc&quot;</span>
+
+    REM Install via cpanfile
+    bash <span class="hl opt">-</span>lc <span class="hl str">&quot;cd $APPVEYOR_BUILD_FOLDER; . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh; export MAKEFLAGS=&apos;-j4 -P4&apos;; cpanm --notest --installdeps .&quot;</span>
+  <span class="hl opt">)</span>
+
 </pre></div>
   </p>
 
@@ -1031,7 +1031,7 @@ can only run commands every 20 minutes!</p>
 <p>
   <div class="highlight-bat"><pre class="hl">  <span class="hl kwb">cd</span> $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER<span class="hl opt">/</span>dev<span class="hl opt">/</span>ci<span class="hl opt">/</span>appveyor<span class="hl opt">/</span>EUMMnosearch.sh
-  export MAKEFLAGS<span class="hl opt">=</span>'<span class="hl opt">-</span>j4 <span class="hl opt">-</span>P4'
+  export MAKEFLAGS<span class="hl opt">=</span><span class="hl str">&apos;-j4 -P4&apos;</span>
   cpanm <span class="hl opt">--</span>notest <span class="hl opt">--</span>installdeps .
 
 </pre></div>
@@ -1302,7 +1302,7 @@ can only run commands every 20 minutes!</p>
    </p>
 
 <p>
-   <div class="highlight-sh"><pre class="hl">   <span class="hl kwc">cp</span> <span class="hl opt">-</span>pv <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc
+   <div class="highlight-sh"><pre class="hl">   <span class="hl kwc">cp</span> <span class="hl kwb">-pv</span> <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>gcc <span class="hl opt">/</span>mingw64<span class="hl opt">/</span>bin<span class="hl opt">/</span>cc
 
 </pre></div>
    </p>
@@ -1327,16 +1327,9 @@ can only run commands every 20 minutes!</p>
 <p>The full pull request for this Appveyor configuration is available
 <a href="https://github.com/project-renard/curie/pull/86">here</a>.</p>
 
-<div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn:portability"><p>Portability is important to writing robust software and
+<p>[^portability]: Portability is important to writing robust software and
 eventually curie will have an installer of Windows, so it is best to address
-any issues early through continuous integration.<a href="#fnref:portability" class="reversefootnote">&#160;&#8617;</a></p></li>
-
-</ol>
-</div>
+any issues early through continuous integration.</p>
 
 </div>
 
@@ -1345,7 +1338,7 @@ any issues early through continuous integration.<a href="#fnref:portability" cla
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
+Posted <span class="date">Tue May  3 03:47:24 2016</span>
 </span>
 
 
@@ -1424,7 +1417,7 @@ Posted <span class="date">Tue 03 May 2016 03:47:24 AM UTC</span>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sat 02 Apr 2016 04:47:49 PM UTC</span>
+Posted <span class="date">Sat Apr  2 16:47:49 2016</span>
 </span>
 
 
@@ -1500,7 +1493,7 @@ Posted <span class="date">Sat 02 Apr 2016 04:47:49 PM UTC</span>
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sun 27 Mar 2016 06:16:04 PM UTC</span>
+Posted <span class="date">Sun Mar 27 18:16:04 2016</span>
 </span>
 
 
@@ -1636,7 +1629,7 @@ and PR at <a href="https://github.com/project-renard/curie/pull/48">
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sat 19 Mar 2016 08:29:28 PM UTC</span>
+Posted <span class="date">Sat Mar 19 20:29:28 2016</span>
 </span>
 
 
@@ -1725,7 +1718,7 @@ issue <a href="https://github.com/project-renard/curie/issues/28">
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sat 12 Mar 2016 01:12:49 AM UTC</span>
+Posted <span class="date">Sat Mar 12 01:12:49 2016</span>
 </span>
 
 
@@ -1796,7 +1789,7 @@ which addresses issue <a href="https://github.com/project-renard/curie/issues/25
 <div class="inlinefooter">
 
 <span class="pagedate">
-Posted <span class="date">Sun 06 Mar 2016 09:30:50 PM UTC</span>
+Posted <span class="date">Sun Mar  6 21:30:50 2016</span>
 </span>
 
 
@@ -1859,8 +1852,8 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">Thu 22 Nov 2018 04:50:33 AM UTC</span>
-<!-- Created <span class="date">Thu 22 Nov 2018 04:50:33 AM UTC</span> -->
+Last edited <span class="date">Sun Jan 24 05:16:04 2016</span>
+<!-- Created <span class="date">Sun Jan 24 04:43:02 2016</span> -->
 </div>
 
 </div>

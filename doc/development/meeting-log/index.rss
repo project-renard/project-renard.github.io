@@ -10,7 +10,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 22 Nov 2018 04:50:33 +0000</pubDate>
+<pubDate>Fri, 29 Sep 2017 13:06:49 +0000</pubDate>
 <item>
 	<title>Modularising and splitting Curie</title>
 
@@ -22,7 +22,7 @@
 
 
 	<pubDate>Thu, 21 Sep 2017 02:49:08 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-09-29T13:06:49Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In order to make it easier to modify parts of Curie independently and make it
@@ -241,19 +241,19 @@ p5-Renard-Incunabula-Format-PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
 
     REPO&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;hl opt&quot;&gt;[ -&lt;/span&gt;z &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;] &amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;no repo&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;hl opt&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-z&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;] &amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;no repo&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;hl num&quot;&gt;1&lt;/span&gt;
 
     &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; ~&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;sw_projects&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;project-renard&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl kwd&quot;&gt;$REPO&lt;/span&gt;
-    PATHS_TO_KEEP&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`~/sw_projects/project-renard/rename/files-to-keep.sh ~/sw_projects/project-renard/rename/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;.nfo | tr &#39;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39; &#39; &#39;`&lt;/span&gt;
+    PATHS_TO_KEEP&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`~/sw_projects/project-renard/rename/files-to-keep.sh ~/sw_projects/project-renard/rename/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;.nfo | tr &amp;apos;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;apos; &amp;apos; &amp;apos;`&lt;/span&gt;
     &lt;span class=&quot;hl kwa&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$REPO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;p5-Renard-Incunabula&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;then&lt;/span&gt;
         PATHS_TO_KEEP&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$PATHS_TO_KEEP&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;t/lib/CurieTestHelper.pm&amp;quot;&lt;/span&gt;
     &lt;span class=&quot;hl kwa&quot;&gt;fi&lt;/span&gt;
     &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$PATHS_TO_KEEP&lt;/span&gt;
-    BRANCH_TO_EXTRACT_FROM&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39;master&#39;&lt;/span&gt;
+    BRANCH_TO_EXTRACT_FROM&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;apos;master&amp;apos;&lt;/span&gt;
 
-    git filter-branch &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;f &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;index-filter \
+    git filter-branch &lt;span class=&quot;hl kwb&quot;&gt;-f --index-filter&lt;/span&gt; \
         &lt;span class=&quot;hl str&quot;&gt;&amp;quot;git rm --ignore-unmatch --cached -qr -- . &amp;amp;&amp;amp; git reset -q \&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$GIT_COMMIT&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$PATHS_TO_KEEP&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; \
-        &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;prune-empty &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$BRANCH_TO_EXTRACT_FROM&lt;/span&gt;
+        &lt;span class=&quot;hl kwb&quot;&gt;--prune-empty --&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$BRANCH_TO_EXTRACT_FROM&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In &lt;code&gt;project-renard/rename/files-to-keep.sh&lt;/code&gt;:&lt;/p&gt;
@@ -261,14 +261,14 @@ p5-Renard-Incunabula-Format-PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
 
     FILE_OF_REPLACEMENTS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;o &lt;span class=&quot;hl str&quot;&gt;&#39;s,*,&#39;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$FILE_OF_REPLACEMENTS&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;o &lt;span class=&quot;hl str&quot;&gt;&#39;Renard*&#39;&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,::,/,g&#39;&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;s,\(.*\),lib/\1.pm t/\1.t,&#39;&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;s/ /&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&#39;&lt;/span&gt; | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;u \
-        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;I&lt;span class=&quot;hl opt&quot;&gt;{}&lt;/span&gt; bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;c &lt;span class=&quot;hl str&quot;&gt;&#39;[ -f &amp;quot;{}&amp;quot; ] &amp;amp;&amp;amp; ls {}&#39;&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;n1 git log &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;name-only &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;format&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;format&lt;span class=&quot;hl opt&quot;&gt;: --&lt;/span&gt;follow &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;u | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;v &lt;span class=&quot;hl str&quot;&gt;&#39;^$&#39;&lt;/span&gt;
+    &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,[^,]*,&amp;apos;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$FILE_OF_REPLACEMENTS&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;Renard[^,]*&amp;apos;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,::,/,g&amp;apos;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,\(.*\),lib/\1.pm t/\1.t,&amp;apos;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s/ /&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&amp;apos;&lt;/span&gt; | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-u&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-I&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;{}&lt;/span&gt; bash &lt;span class=&quot;hl kwb&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;[ -f &amp;quot;{}&amp;quot; ] &amp;amp;&amp;amp; ls {}&amp;apos;&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;xargs&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-n1&lt;/span&gt; git log &lt;span class=&quot;hl kwb&quot;&gt;--name-only --format&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;format&lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;--follow --&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-u&lt;/span&gt; | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;^$&amp;apos;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;What this does is keep all the git history for the files that are under the
@@ -291,9 +291,9 @@ each repository by calling &lt;code&gt;./do-replacements.sh&lt;/code&gt;.&lt;/p&
 &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
 
     DIR_INFO&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/sw_projects/project-renard/rename&amp;quot;&lt;/span&gt;
-    REPO_DIRS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`ls&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$DIR_INFO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/*.nfo | xargs -n1 basename | sed &#39;s/.nfo$//&#39;`&lt;/span&gt;
-    SED_LIBS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`cat&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$DIR_INFO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/*.nfo | awk &#39;{ print length,&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;}&#39;| sort -nr | cut -d&#39; &#39; -f2 | tr &#39;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&#39; &#39;;&#39;`&lt;/span&gt;
-    SED_FILES&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`echo&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$SED_LIBS&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;| sed -e &#39;s,::,/,g&#39;`&lt;/span&gt;
+    REPO_DIRS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`ls&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$DIR_INFO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/*.nfo | xargs -n1 basename | sed &amp;apos;s/.nfo$//&amp;apos;`&lt;/span&gt;
+    SED_LIBS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`cat&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$DIR_INFO&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/*.nfo | awk &amp;apos;{ print length,&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;}&amp;apos;| sort -nr | cut -d&amp;apos; &amp;apos; -f2 | tr &amp;apos;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;apos; &amp;apos;;&amp;apos;`&lt;/span&gt;
+    SED_FILES&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`echo&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$SED_LIBS&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;| sed -e &amp;apos;s,::,/,g&amp;apos;`&lt;/span&gt;
 
     &lt;span class=&quot;hl slc&quot;&gt;#echo $SED_LIBS&lt;/span&gt;
     &lt;span class=&quot;hl slc&quot;&gt;#echo $SED_FILES&lt;/span&gt;
@@ -302,9 +302,9 @@ each repository by calling &lt;code&gt;./do-replacements.sh&lt;/code&gt;.&lt;/p&
     &lt;span class=&quot;hl kwa&quot;&gt;for&lt;/span&gt; repo &lt;span class=&quot;hl kwa&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_DIRS&lt;/span&gt; curie&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;hl kwa&quot;&gt;do&lt;/span&gt;
         REPO_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/sw_projects/project-renard/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$repo&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$repo&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
         REPO_FILES&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;`find&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$REPO_DIR&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/lib&lt;/span&gt; &lt;span class=&quot;hl ipl&quot;&gt;$REPO_DIR&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/t -type f`&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
-        perl &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pi &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$SED_LIBS&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt;
-        rename &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;n &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$SED_FILES&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt; \
-            | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,rename(,smv ,&#39;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s,)$,,&#39;&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;e &lt;span class=&quot;hl str&quot;&gt;&#39;s/,//&#39;&lt;/span&gt; \
+        perl &lt;span class=&quot;hl kwb&quot;&gt;-pi -e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$SED_LIBS&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt;
+        rename &lt;span class=&quot;hl kwb&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$SED_FILES&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_FILES&lt;/span&gt; \
+            | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,rename(,smv ,&amp;apos;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,)$,,&amp;apos;&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s/,//&amp;apos;&lt;/span&gt; \
             | sh
     &lt;span class=&quot;hl kwa&quot;&gt;done&lt;/span&gt;
 
@@ -312,7 +312,7 @@ each repository by calling &lt;code&gt;./do-replacements.sh&lt;/code&gt;.&lt;/p&
         REPO_DIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/sw_projects/project-renard/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$repo&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$repo&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
         &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$REPO_DIR&lt;/span&gt;
         git add .
-        git tag &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;d $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;git tag &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;l&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
+        git tag &lt;span class=&quot;hl kwb&quot;&gt;-d&lt;/span&gt; $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;git tag &lt;span class=&quot;hl kwb&quot;&gt;-l&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;hl kwa&quot;&gt;done&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -371,9 +371,9 @@ changes in those dependencies by just switching to another branch name. For
 example, the &lt;span class=&quot;createlink&quot;&gt;p5-Renard-Incunabula-Frontend-Gtk3&lt;/span&gt; &lt;code&gt;cpanfile-git&lt;/code&gt; file
 contains&lt;/p&gt;
 
-&lt;div class=&quot;highlight-perl&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    requires &lt;span class=&quot;hl str&quot;&gt;&#39;Renard::Incunabula&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
-        git &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;https://github.com/project-renard/p5-Renard-Incunabula.git&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
-        branch &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&#39;master&#39;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;highlight-perl&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    requires &lt;span class=&quot;hl str&quot;&gt;&amp;apos;Renard::Incunabula&amp;apos;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
+        git &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;https://github.com/project-renard/p5-Renard-Incunabula.git&amp;apos;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;,&lt;/span&gt;
+        branch &lt;span class=&quot;hl opt&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;master&amp;apos;&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;which means that when building under a CI environment, the
@@ -452,7 +452,7 @@ general-purpose tool.&lt;/p&gt;
 
 
 	<pubDate>Sat, 13 May 2017 18:00:00 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-13T20:58:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170513T180000&quot;&gt;Meeting time&lt;/a&gt;.&lt;/p&gt;
@@ -751,7 +751,7 @@ organised will come later.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Tue, 20 Dec 2016 23:57:59 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2016-12-21T17:05:00Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;style&gt;
@@ -963,7 +963,7 @@ on all platforms
 
 
 	<pubDate>Sat, 28 May 2016 02:46:43 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
@@ -1040,10 +1040,10 @@ on all platforms
 
 
 	<pubDate>Tue, 03 May 2016 03:47:24 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
+	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows[^portability],
 we need to build the various Perl dependencies. These Perl dependencies in turn
 require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.&lt;/p&gt;
@@ -1084,10 +1084,10 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl kwb&quot;&gt;-Syu&lt;/span&gt;  &lt;span class=&quot;hl slc&quot;&gt;# update&lt;/span&gt;
 
    &lt;span class=&quot;hl slc&quot;&gt;# Install compiler and build configuration tools&lt;/span&gt;
-   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool &lt;span class=&quot;hl kwc&quot;&gt;make patch&lt;/span&gt; mingw-w64-x86_64-libtool
+   pacman &lt;span class=&quot;hl kwb&quot;&gt;-S --needed --noconfirm&lt;/span&gt; mingw-w64-x86_64-toolchain autoconf automake libtool &lt;span class=&quot;hl kwc&quot;&gt;make patch&lt;/span&gt; mingw-w64-x86_64-libtool
 
 &lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
@@ -1099,7 +1099,7 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm \
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl kwb&quot;&gt;-S --needed --noconfirm&lt;/span&gt; \
        mingw-w64-x86_64-gobject-introspection \
        mingw-w64-x86_64-cairo \
        mingw-w64-x86_64-gtk3 \
@@ -1116,7 +1116,7 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw-w64-x86_64-perl
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   pacman &lt;span class=&quot;hl kwb&quot;&gt;-S --needed --noconfirm&lt;/span&gt; mingw-w64-x86_64-perl
    &lt;span class=&quot;hl kwc&quot;&gt;yes&lt;/span&gt; | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus
 
 &lt;/pre&gt;&lt;/div&gt;
@@ -1232,7 +1232,7 @@ architecture) throughout.&lt;/p&gt;
    &lt;/p&gt;
 
    &lt;p&gt;
-   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   cpanm &lt;span class=&quot;hl kwb&quot;&gt;--installdeps&lt;/span&gt; .
 
 &lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
@@ -1641,36 +1641,36 @@ can only run commands every 20 minutes!&lt;/p&gt;
   &lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; Bits&lt;span class=&quot;hl opt&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%BIT%&lt;/span&gt;
 
   REM Create a writeable TMPDIR
-  &lt;span class=&quot;hl kwb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%\tmp&lt;/span&gt;
-  &lt;span class=&quot;hl kwb&quot;&gt;set&lt;/span&gt; TMPDIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%\tmp&lt;/span&gt;
+  &lt;span class=&quot;hl kwb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\t&lt;/span&gt;mp
+  &lt;span class=&quot;hl kwb&quot;&gt;set&lt;/span&gt; TMPDIR&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl kwc&quot;&gt;%APPVEYOR_BUILD_FOLDER%&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\t&lt;/span&gt;mp
 
-  &lt;span class=&quot;hl kwa&quot;&gt;IF&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%COMPILER%==msys2&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;hl kwa&quot;&gt;IF&lt;/span&gt; &lt;span class=&quot;hl kwc&quot;&gt;%COMPILER%&lt;/span&gt;&lt;span class=&quot;hl opt&quot;&gt;==&lt;/span&gt;msys2 &lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;
     &amp;#64;&lt;span class=&quot;hl kwb&quot;&gt;echo&lt;/span&gt; on
-    &lt;span class=&quot;hl kwb&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;PATH=C:\%MSYS2_DIR%\%MSYSTEM%\bin;C:\%MSYS2_DIR%\usr\bin;%PATH%&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm pacman&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;mirrors&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm git&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Update&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;Syu &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM build tools&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;toolchain autoconf automake libtool make &lt;span class=&quot;hl kwb&quot;&gt;patch&lt;/span&gt; mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;libtool&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Set up perl&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;perl&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pl2bat $&lt;span class=&quot;hl opt&quot;&gt;(&lt;/span&gt;which pl2bat&lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;yes | cpan App&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;cpanminus&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest ExtUtils&lt;span class=&quot;hl opt&quot;&gt;::&lt;/span&gt;MakeMaker&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Native deps&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;pacman &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;S &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;needed &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;noconfirm mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gobject&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;introspection mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;cairo mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;gtk3 mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;expat mingw&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;w64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;openssl&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM There is not a corresponding cc for the mingw64 gcc. So we copy it in place.&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;cp &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    REM Install via cpanfile&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;    bash -lc &amp;quot;&lt;/span&gt;&lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;&lt;span class=&quot;hl opt&quot;&gt;;&lt;/span&gt; cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;  )&lt;/span&gt;
-&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;  
+    &lt;span class=&quot;hl kwb&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;quot;PATH=C:\&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;%MSYS2_DIR%&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;%MSYSTEM%&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\b&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;in;C:\&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;%MSYS2_DIR%&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;\usr&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\b&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;in;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;%PATH%&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -S --needed --noconfirm pacman-mirrors&amp;quot;&lt;/span&gt;
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -S --needed --noconfirm git&amp;quot;&lt;/span&gt;
+    REM Update
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -Syu --noconfirm&amp;quot;&lt;/span&gt;
+
+    REM build tools
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -S --needed --noconfirm mingw-w64-x86_64-toolchain autoconf automake libtool make patch mingw-w64-x86_64-libtool&amp;quot;&lt;/span&gt;
+
+    REM &lt;span class=&quot;hl kwb&quot;&gt;Set&lt;/span&gt; up perl
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -S --needed --noconfirm mingw-w64-x86_64-perl&amp;quot;&lt;/span&gt;
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pl2bat $(which pl2bat)&amp;quot;&lt;/span&gt;
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;yes | cpan App::cpanminus&amp;quot;&lt;/span&gt;
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;cpanm --notest ExtUtils::MakeMaker&amp;quot;&lt;/span&gt;
+
+    REM Native deps
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;pacman -S --needed --noconfirm mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-cairo mingw-w64-x86_64-gtk3 mingw-w64-x86_64-expat mingw-w64-x86_64-openssl&amp;quot;&lt;/span&gt;
+
+    REM There is &lt;span class=&quot;hl kwa&quot;&gt;not&lt;/span&gt; a corresponding cc &lt;span class=&quot;hl kwa&quot;&gt;for&lt;/span&gt; the mingw64 gcc. So we &lt;span class=&quot;hl kwb&quot;&gt;copy&lt;/span&gt; it in place.
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;cp -pv /mingw64/bin/gcc /mingw64/bin/cc&amp;quot;&lt;/span&gt;
+
+    REM Install via cpanfile
+    bash &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;lc &lt;span class=&quot;hl str&quot;&gt;&amp;quot;cd $APPVEYOR_BUILD_FOLDER; . $APPVEYOR_BUILD_FOLDER/dev/ci/appveyor/EUMMnosearch.sh; export MAKEFLAGS=&amp;apos;-j4 -P4&amp;apos;; cpanm --notest --installdeps .&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;hl opt&quot;&gt;)&lt;/span&gt;
+
 &lt;/pre&gt;&lt;/div&gt;
   &lt;/p&gt;
 
@@ -1690,7 +1690,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;p&gt;
   &lt;div class=&quot;highlight-bat&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;  &lt;span class=&quot;hl kwb&quot;&gt;cd&lt;/span&gt; $APPVEYOR_BUILD_FOLDER
   . $APPVEYOR_BUILD_FOLDER&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;dev&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;ci&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;appveyor&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;EUMMnosearch.sh
-  export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&#39;&lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;j4 &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;P4&#39;
+  export MAKEFLAGS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;apos;-j4 -P4&amp;apos;&lt;/span&gt;
   cpanm &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;notest &lt;span class=&quot;hl opt&quot;&gt;--&lt;/span&gt;installdeps .
 
 &lt;/pre&gt;&lt;/div&gt;
@@ -1961,7 +1961,7 @@ can only run commands every 20 minutes!&lt;/p&gt;
    &lt;/p&gt;
 
 &lt;p&gt;
-   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;-&lt;/span&gt;pv &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc
+   &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;   &lt;span class=&quot;hl kwc&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-pv&lt;/span&gt; &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;gcc &lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;mingw64&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;hl opt&quot;&gt;/&lt;/span&gt;cc
 
 &lt;/pre&gt;&lt;/div&gt;
    &lt;/p&gt;
@@ -1986,16 +1986,9 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;p&gt;The full pull request for this Appveyor configuration is available
 &lt;a href=&quot;https://github.com/project-renard/curie/pull/86&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-
-&lt;li id=&quot;fn:portability&quot;&gt;&lt;p&gt;Portability is important to writing robust software and
+&lt;p&gt;[^portability]: Portability is important to writing robust software and
 eventually curie will have an installer of Windows, so it is best to address
-any issues early through continuous integration.&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fnref:portability&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
+any issues early through continuous integration.&lt;/p&gt;
 </description>
 
 
@@ -2009,7 +2002,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 02 Apr 2016 16:47:49 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;chirag&quot;&gt;Chirag&lt;/h2&gt;
@@ -2059,7 +2052,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sun, 27 Mar 2016 18:16:04 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;a href=&quot;https://github.com/project-renard/curie/issues/40&quot;&gt;
@@ -2106,7 +2099,7 @@ any issues early through continuous integration.&lt;a href=&quot;http://project-
 
 
 	<pubDate>Sat, 19 Mar 2016 20:29:28 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:30:57Z</dcterms:modified>
 
 
 	<description>&lt;h2 id=&quot;tasks&quot;&gt;Tasks&lt;/h2&gt;
@@ -2213,7 +2206,7 @@ and PR at &lt;a href=&quot;https://github.com/project-renard/curie/pull/48&quot;
 
 
 	<pubDate>Sat, 12 Mar 2016 01:12:49 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;We need to start testing the code and automatically running those tests using
@@ -2273,7 +2266,7 @@ issue &lt;a href=&quot;https://github.com/project-renard/curie/issues/28&quot;&g
 
 
 	<pubDate>Sun, 06 Mar 2016 21:30:50 +0000</pubDate>
-	<dcterms:modified>2018-11-22T04:50:33Z</dcterms:modified>
+	<dcterms:modified>2016-03-10T20:34:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The pull requests from the previous meeting were discussed and merged. Since

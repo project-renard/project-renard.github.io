@@ -10,7 +10,7 @@ footer,header,hgroup,menu,nav,section {
 	display: block;
 }
 
-.header {
+div.header, header.header {
 	margin: 0;
 	font-size: 140%;
 	font-weight: bold;
