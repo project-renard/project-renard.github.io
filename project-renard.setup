@@ -21,7 +21,7 @@ srcdir: .
 # where to build the wiki
 destdir: ../_site
 # base url to the wiki
-#url: http://localhost/~zaki/project-renard-design
+url: http://project-renard.github.io/
 # url to the ikiwiki.cgi
 #cgiurl: http://localhost/~zaki/project-renard-design/ikiwiki.cgi
 # do not adjust cgiurl if CGI is accessed via different URL
