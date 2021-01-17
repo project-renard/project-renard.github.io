@@ -94,7 +94,11 @@ jobs:
           git worktree add -B master ../_site origin/master
 
           eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
-          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler/lib:./.ikiwiki-plugins/ikiwiki-uml"
+          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins"
+          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib"
+          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib"
+          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler/lib"
+          export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/ikiwiki-uml"
 
           ikiwiki --setup project-renard.setup
 
