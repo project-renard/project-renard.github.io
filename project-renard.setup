@@ -19,7 +19,7 @@ banned_users: []
 # where the source of the wiki is located
 srcdir: .
 # where to build the wiki
-destdir: ./_site
+destdir: ../_site
 # base url to the wiki
 #url: http://localhost/~zaki/project-renard-design
 # url to the ikiwiki.cgi
