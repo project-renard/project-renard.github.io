@@ -29,6 +29,7 @@ jobs:
         with:
           path: |
             ~/perl5
+            ~/.ruby
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -64,6 +65,11 @@ jobs:
 
           cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
           cpanm -n YAML::Any YAML::XS Sort::Naturally LaTeXML
+
+          mkdir -p ~/.ruby
+          export GEM_HOME=~/.ruby
+          echo "GEM_HOME=$GEM_HOME" >> $GITHUB_ENV
+          echo "$GEM_HOME/bin" >> $GITHUB_PATH
           gem install taskjuggler
 
           # wrapper for `mutool` that calls `mudraw` since older version of
@@ -79,6 +85,7 @@ jobs:
           fi
           EOF
           chmod u+x ~/bin/mutool
+          echo "$HOME/bin" >> $GITHUB_PATH
 
       - name: Set up worktree and Run ikiwiki
         run: |
@@ -86,7 +93,6 @@ jobs:
           git worktree add -B master ../_site origin/master
 
           eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
-          export PATH=$HOME/bin:$PATH
           export PERL5LIB="$PERL5LIB:./.ikiwiki-plugins/rubykat-ikiplugins:./.ikiwiki-plugins/p5-IkiWiki-Plugin-github/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-tex/lib:./.ikiwiki-plugins/p5-IkiWiki-Plugin-taskjuggler/lib:./.ikiwiki-plugins/ikiwiki-uml"
 
           ikiwiki --setup project-renard.setup
