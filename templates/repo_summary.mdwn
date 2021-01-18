@@ -27,7 +27,7 @@
 </TMPL_IF>
 <br/>
 <TMPL_IF NAME="gha-ci">
-<a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="gha-ci-badge">"/></a>
+<a href="<TMPL_VAR NAME="gha-ci">"><img src="<TMPL_VAR NAME="gha-ci-badge">"/></a>
 </TMPL_IF>
 </td>
 <td>
