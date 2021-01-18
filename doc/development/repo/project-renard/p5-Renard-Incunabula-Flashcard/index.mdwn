@@ -2,10 +2,6 @@
 repo: project-renard/p5-Renard-Incunabula-Flashcard
 cpan: Renard-Incunabula-Flashcard
 type: library
-travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Flashcard
-travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula-Flashcard.svg?branch=master
-appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula-Flashcard
-appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/x80kdbveqbfjit36/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Flashcard?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Flashcard/badge.svg?branch=master
 released-to-cpan: false

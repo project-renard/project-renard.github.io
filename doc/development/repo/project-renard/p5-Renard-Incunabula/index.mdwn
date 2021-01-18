@@ -2,10 +2,6 @@
 repo: project-renard/p5-Renard-Incunabula
 cpan: Renard-Incunabula
 type: library
-travis-ci: https://travis-ci.org/project-renard/p5-Renard-Incunabula
-travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Incunabula.svg?branch=master
-appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Incunabula
-appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/60q88sgs3usvxbln/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula/badge.svg?branch=master
 released-to-cpan: true

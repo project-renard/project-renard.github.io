@@ -2,10 +2,6 @@
 repo: project-renard/p5-Renard-Block-Format-PDF
 cpan: Renard-Block-Format-PDF
 type: library
-travis-ci: https://travis-ci.org/project-renard/p5-Renard-Block-Format-PDF
-travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Block-Format-PDF.svg?branch=master
-appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Block-Format-PDF
-appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/vf3ajxde67psm6ui/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Block-Format-PDF?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Block-Format-PDF/badge.svg?branch=master
 released-to-cpan: true

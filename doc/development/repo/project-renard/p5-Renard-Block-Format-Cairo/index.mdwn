@@ -2,10 +2,6 @@
 repo: project-renard/p5-Renard-Block-Format-Cairo
 cpan: Renard-Block-Format-Cairo
 type: library
-travis-ci: https://travis-ci.org/project-renard/p5-Renard-Block-Format-Cairo
-travis-ci-badge: https://travis-ci.org/project-renard/p5-Renard-Block-Format-Cairo.svg?branch=master
-appveyor-ci: https://ci.appveyor.com/project/zmughal/p5-Renard-Block-Format-Cairo
-appveyor-ci-badge: https://ci.appveyor.com/api/projects/status/db1858xki8sep6em/branch/master?svg=true
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Block-Format-Cairo?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Block-Format-Cairo/badge.svg?branch=master
 released-to-cpan: true
