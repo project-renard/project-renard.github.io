@@ -25,6 +25,10 @@
 <TMPL_IF NAME="appveyor-ci">
 <a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="appveyor-ci-badge">"/></a>
 </TMPL_IF>
+<br/>
+<TMPL_IF NAME="gha-ci">
+<a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="gha-ci-badge">"/></a>
+</TMPL_IF>
 </td>
 <td>
 <TMPL_IF NAME="coveralls">
