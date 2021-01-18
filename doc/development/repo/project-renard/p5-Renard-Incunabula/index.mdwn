@@ -2,6 +2,8 @@
 repo: project-renard/p5-Renard-Incunabula
 cpan: Renard-Incunabula
 type: library
+gha-ci: https://github.com/project-renard/p5-Renard-Incunabula/actions?query=workflow:%22CI%22
+gha-ci-badge: https://github.com/project-renard/p5-Renard-Incunabula/workflows/CI/badge.svg
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula/badge.svg?branch=master
 released-to-cpan: true

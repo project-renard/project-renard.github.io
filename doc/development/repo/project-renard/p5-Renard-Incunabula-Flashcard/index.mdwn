@@ -2,6 +2,8 @@
 repo: project-renard/p5-Renard-Incunabula-Flashcard
 cpan: Renard-Incunabula-Flashcard
 type: library
+gha-ci: https://github.com/project-renard/p5-Renard-Incunabula-Flashcard/actions?query=workflow:%22CI%22
+gha-ci-badge: https://github.com/project-renard/p5-Renard-Incunabula-Flashcard/workflows/CI/badge.svg
 coveralls: https://coveralls.io/github/project-renard/p5-Renard-Incunabula-Flashcard?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/p5-Renard-Incunabula-Flashcard/badge.svg?branch=master
 released-to-cpan: false

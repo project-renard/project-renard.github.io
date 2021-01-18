@@ -2,6 +2,8 @@
 repo: project-renard/curie
 cpan: Renard-Curie
 type: application
+gha-ci: https://github.com/project-renard/curie/actions?query=workflow:%22CI%22
+gha-ci-badge: https://github.com/project-renard/curie/workflows/CI/badge.svg
 coveralls: https://coveralls.io/github/project-renard/curie?branch=master
 coveralls-badge: https://coveralls.io/repos/github/project-renard/curie/badge.svg?branch=master
 released-to-cpan: true
