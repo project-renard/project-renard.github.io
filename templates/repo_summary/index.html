@@ -129,6 +129,10 @@ repo summary
 <TMPL_IF NAME="appveyor-ci">
 <a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="appveyor-ci-badge">"/></a>
 </TMPL_IF>
+<br/>
+<TMPL_IF NAME="gha-ci">
+<a href="<TMPL_VAR NAME="appveyor-ci">"><img src="<TMPL_VAR NAME="gha-ci-badge">"/></a>
+</TMPL_IF>
 </td>
 <td>
 <TMPL_IF NAME="coveralls">
@@ -164,7 +168,7 @@ repo summary
 
 
 <div class="pagedate">
-Last edited <span class="date">Thu Nov 22 04:44:15 2018</span>
+Last edited <span class="date">Mon Jan 18 14:55:32 2021</span>
 <!-- Created <span class="date">Mon Jul 10 21:17:38 2017</span> -->
 </div>
 
