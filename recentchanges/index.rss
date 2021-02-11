@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 29 Jan 2021 04:33:46 +0000</pubDate>
+<pubDate>Thu, 11 Feb 2021 08:11:14 +0000</pubDate>
+<item>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_8a54f6033ebbe17aad781983c79866ab933fb4d3/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-8a54f6033ebbe17aad781983c79866ab933fb4d3</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Thu, 11 Feb 2021 08:11:14 +0000</pubDate>
+	<dcterms:modified>2021-02-11T08:11:14Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-8a54f6033ebbe17aad781983c79866ab933fb4d3&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/8a54f6033ebbe17aad781983c79866ab933fb4d3&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:11:14 02/11/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add question about DOM nodes&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 8a54f6033ebbe17aad781983c79866ab933fb4d3 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to sandbox on Project Renard</title>
 
@@ -5708,61 +5763,6 @@ Add Jacquard architecture notes&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 3592c100c2a89a24afb7add1396ea32deab31d38 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to doc/development/feature/file-format/chm on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_ccdf1ac613f6e2758f4deec8650c4a0175382fd1/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-ccdf1ac613f6e2758f4deec8650c4a0175382fd1</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Wed, 28 Feb 2018 14:45:54 +0000</pubDate>
-	<dcterms:modified>2018-02-28T14:45:54Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-ccdf1ac613f6e2758f4deec8650c4a0175382fd1&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/ccdf1ac613f6e2758f4deec8650c4a0175382fd1&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/feature/file-format/chm
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:45:54 02/28/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add CHM file format&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- ccdf1ac613f6e2758f4deec8650c4a0175382fd1 --&gt;
 </description>
 
 
