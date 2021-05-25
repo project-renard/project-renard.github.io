@@ -90,7 +90,7 @@
         pathways.
 - Goal: Accessibility
       - Should be able to use by people with visual impairment (perhaps look at
-        DAISY format)
+        DAISY format, liblouis)
 - Goal: Keep data on how the user is using the software
       - This can be used to give suggestions if it comes across a similar usage.
         For example, if I implemented splitting a document window into panes to
