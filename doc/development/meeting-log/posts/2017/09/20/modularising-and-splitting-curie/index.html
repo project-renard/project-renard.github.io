@@ -400,8 +400,8 @@ p5-Renard-Incunabula-Format-PDF</code>.</p>
 <div class="highlight-sh"><pre class="hl">    <span class="hl slc">#!/bin/sh</span>
 
     FILE_OF_REPLACEMENTS<span class="hl opt">=</span><span class="hl str">&quot;</span><span class="hl ipl">$1</span><span class="hl str">&quot;</span>
-    <span class="hl kwc">grep</span> <span class="hl kwb">-o</span> <span class="hl str">&apos;s,[^,]*,&apos;</span> <span class="hl kwd">$FILE_OF_REPLACEMENTS</span> \
-        | <span class="hl kwc">grep</span> <span class="hl kwb">-o</span> <span class="hl str">&apos;Renard[^,]*&apos;</span> \
+    <span class="hl kwc">grep</span> <span class="hl kwb">-o</span> <span class="hl str">&apos;s,*,&apos;</span> <span class="hl kwd">$FILE_OF_REPLACEMENTS</span> \
+        | <span class="hl kwc">grep</span> <span class="hl kwb">-o</span> <span class="hl str">&apos;Renard*&apos;</span> \
         | <span class="hl kwc">sed</span> <span class="hl kwb">-e</span> <span class="hl str">&apos;s,::,/,g&apos;</span> \
         | <span class="hl kwc">sed</span> <span class="hl str">&apos;s,\(.*\),lib/\1.pm t/\1.t,&apos;</span> \
         | <span class="hl kwc">sed</span> <span class="hl str">&apos;s/ /</span><span class="hl esc">\n</span><span class="hl str">/&apos;</span> | <span class="hl kwc">sort</span> <span class="hl kwb">-u</span> \

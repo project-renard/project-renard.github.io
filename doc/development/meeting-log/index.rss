@@ -261,8 +261,8 @@ p5-Renard-Incunabula-Format-PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;highlight-sh&quot;&gt;&lt;pre class=&quot;hl&quot;&gt;    &lt;span class=&quot;hl slc&quot;&gt;#!/bin/sh&lt;/span&gt;
 
     FILE_OF_REPLACEMENTS&lt;span class=&quot;hl opt&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;hl ipl&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,[^,]*,&amp;apos;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$FILE_OF_REPLACEMENTS&lt;/span&gt; \
-        | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;Renard[^,]*&amp;apos;&lt;/span&gt; \
+    &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,*,&amp;apos;&lt;/span&gt; &lt;span class=&quot;hl kwd&quot;&gt;$FILE_OF_REPLACEMENTS&lt;/span&gt; \
+        | &lt;span class=&quot;hl kwc&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;Renard*&amp;apos;&lt;/span&gt; \
         | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,::,/,g&amp;apos;&lt;/span&gt; \
         | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s,\(.*\),lib/\1.pm t/\1.t,&amp;apos;&lt;/span&gt; \
         | &lt;span class=&quot;hl kwc&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;hl str&quot;&gt;&amp;apos;s/ /&lt;/span&gt;&lt;span class=&quot;hl esc&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;hl str&quot;&gt;/&amp;apos;&lt;/span&gt; | &lt;span class=&quot;hl kwc&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;hl kwb&quot;&gt;-u&lt;/span&gt; \
@@ -1043,7 +1043,7 @@ on all platforms
 	<dcterms:modified>2017-05-02T19:41:09Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows[^portability],
+	<description>&lt;p&gt;In order to build &lt;a href=&quot;https://github.com/project-renard/curie&quot;&gt;curie&lt;/a&gt; on Windows&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fn:portability&quot; id=&quot;fnref:portability&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;,
 we need to build the various Perl dependencies. These Perl dependencies in turn
 require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.&lt;/p&gt;
@@ -1986,9 +1986,16 @@ can only run commands every 20 minutes!&lt;/p&gt;
 &lt;p&gt;The full pull request for this Appveyor configuration is available
 &lt;a href=&quot;https://github.com/project-renard/curie/pull/86&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;[^portability]: Portability is important to writing robust software and
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:portability&quot;&gt;&lt;p&gt;Portability is important to writing robust software and
 eventually curie will have an installer of Windows, so it is best to address
-any issues early through continuous integration.&lt;/p&gt;
+any issues early through continuous integration.&lt;a href=&quot;http://project-renard.github.io//doc/development/meeting-log/#fnref:portability&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
 
 

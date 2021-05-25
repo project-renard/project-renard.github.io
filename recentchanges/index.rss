@@ -10,7 +10,117 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 25 Feb 2021 04:42:07 +0000</pubDate>
+<pubDate>Tue, 25 May 2021 15:47:40 +0000</pubDate>
+<item>
+	<title>change to doc/development/roadmap on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_084b0122cebaaf85460e09c29d0191d70230c596/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-084b0122cebaaf85460e09c29d0191d70230c596</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Tue, 25 May 2021 15:47:40 +0000</pubDate>
+	<dcterms:modified>2021-05-25T15:47:40Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-084b0122cebaaf85460e09c29d0191d70230c596&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/084b0122cebaaf85460e09c29d0191d70230c596&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/roadmap
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;15:47:40 05/25/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Mark done task&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 084b0122cebaaf85460e09c29d0191d70230c596 --&gt;
+</description>
+
+
+</item>
+<item>
+	<title>change to doc/development/roadmap on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_e16d452f9c218ccd80c4ecf5f968d9aa176bb10e/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-e16d452f9c218ccd80c4ecf5f968d9aa176bb10e</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Tue, 25 May 2021 15:45:29 +0000</pubDate>
+	<dcterms:modified>2021-05-25T15:45:29Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-e16d452f9c218ccd80c4ecf5f968d9aa176bb10e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/e16d452f9c218ccd80c4ecf5f968d9aa176bb10e&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/roadmap
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;15:45:29 05/25/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add reference to liblouis&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- e16d452f9c218ccd80c4ecf5f968d9aa176bb10e --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to sandbox on Project Renard</title>
 
@@ -5647,122 +5757,6 @@ Test teximg&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 80f640bf291289536cdf17477fef72c25840405b --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to project-renard.setup on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_b404e2949e46e56734b63116c45a516fd3a7c8e5/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-b404e2949e46e56734b63116c45a516fd3a7c8e5</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Tue, 20 Mar 2018 01:38:52 +0000</pubDate>
-	<dcterms:modified>2018-03-20T01:38:52Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-b404e2949e46e56734b63116c45a516fd3a7c8e5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/b404e2949e46e56734b63116c45a516fd3a7c8e5&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;project-renard.setup
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:38:52 03/20/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Enable teximg plugin&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- b404e2949e46e56734b63116c45a516fd3a7c8e5 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to doc/development/repo doc/development/repo/p5-Alien-igraph doc/development/repo/p5-Renard-Incunabula-Cairo on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_320b5b94e6c440d2b8cf28cd7d4766c81f066d7f/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-320b5b94e6c440d2b8cf28cd7d4766c81f066d7f</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Wed, 07 Mar 2018 21:45:30 +0000</pubDate>
-	<dcterms:modified>2018-03-07T21:45:30Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-320b5b94e6c440d2b8cf28cd7d4766c81f066d7f&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/320b5b94e6c440d2b8cf28cd7d4766c81f066d7f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/repo
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/320b5b94e6c440d2b8cf28cd7d4766c81f066d7f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/repo/p5-Alien-igraph
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/320b5b94e6c440d2b8cf28cd7d4766c81f066d7f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/repo/p5-Renard-Incunabula-Cairo
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;21:45:30 03/07/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update repos&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 320b5b94e6c440d2b8cf28cd7d4766c81f066d7f --&gt;
 </description>
 
 

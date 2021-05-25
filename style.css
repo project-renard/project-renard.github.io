@@ -286,6 +286,7 @@ div.progress-done {
 	#searchform { display: none; }
 	.blogform, #blogform { display: none; }
 	#backlinks { display: none; }
+	.addcomment { display: none; }
 }
 
 /* infobox template */

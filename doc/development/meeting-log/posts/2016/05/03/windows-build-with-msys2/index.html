@@ -145,7 +145,7 @@ Windows build with MSYS2: locally and on Appveyor
 <div id="pagebody">
 
 <div id="content" role="main">
-<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows[^portability],
+<p>In order to build <a href="https://github.com/project-renard/curie">curie</a> on Windows<a href="#fn:portability" id="fnref:portability" class="footnote">1</a>,
 we need to build the various Perl dependencies. These Perl dependencies in turn
 require native libraries such as Gtk+ 3 and MuPDF. Using the MSYS2 package manager, we
 can install the native libraries and link against them.</p>
@@ -1088,9 +1088,16 @@ can only run commands every 20 minutes!</p>
 <p>The full pull request for this Appveyor configuration is available
 <a href="https://github.com/project-renard/curie/pull/86">here</a>.</p>
 
-<p>[^portability]: Portability is important to writing robust software and
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:portability"><p>Portability is important to writing robust software and
 eventually curie will have an installer of Windows, so it is best to address
-any issues early through continuous integration.</p>
+any issues early through continuous integration.<a href="#fnref:portability" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
 
 </div>
 

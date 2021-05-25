@@ -502,27 +502,114 @@ href="#Xsteinlechner2019attrgrammars">2019</a>).
 
                                                                   
    <div class="lstlisting" id="listing-1"><span class="label"><a 
- id="x1-18002r1"></a></span>interface List <span 
-class="cmsy-10">{</span> <span 
-class="cmsy-10">}</span> <br /><span class="label"><a 
- id="x1-18003r2"></a></span>class Cons : List <span 
-class="cmsy-10">{</span> <br /><span class="label"><a 
- id="x1-18004r3"></a></span>        Int Value; <br /><span class="label"><a 
- id="x1-18005r4"></a></span>        List Rest; <br /><span class="label"><a 
+ id="x1-18002r1"></a></span><span 
+class="cmtt-10">interface</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">List</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">{</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">}</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
+ id="x1-18003r2"></a></span><span 
+class="cmtt-10">class</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Cons</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">:</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">List</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">{</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
+ id="x1-18004r3"></a></span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Int</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Value</span><span 
+class="cmtt-10">;</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
+ id="x1-18005r4"></a></span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">List</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Rest</span><span 
+class="cmtt-10">;</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
  id="x1-18006r5"></a></span><span 
-class="cmsy-10">}</span> <br /><span class="label"><a 
- id="x1-18007r6"></a></span>class Nil : List <span 
-class="cmsy-10">{</span> <span 
-class="cmsy-10">}</span>
+class="cmtt-10">}</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
+ id="x1-18007r6"></a></span><span 
+class="cmtt-10">class</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Nil</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">:</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">List</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">{</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">}</span>
    
    </div>
 <!--l. 323--><p class="indent" >   Attribute grammar (UUAGC syntax) </p><!--l. 324-->
    <div class="lstlisting" id="listing-2"><span class="label"><a 
- id="x1-18008r1"></a></span>syn SEM List <br /><span class="label"><a 
+ id="x1-18008r1"></a></span><span 
+class="cmtt-10">syn</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">SEM</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">List</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
  id="x1-18009r2"></a></span><span 
-class="cmsy-10">|</span> Nil  this.Sum = 0 <br /><span class="label"><a 
+class="cmtt-10">|</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Nil</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">this</span><span 
+class="cmtt-10">.</span><span 
+class="cmtt-10">Sum</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">=</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">0</span><span 
+class="cmtt-10"> </span><br /><span class="label"><a 
  id="x1-18010r3"></a></span><span 
-class="cmsy-10">|</span> Cons this.Sum = this.Value + this.Rest.Sum
+class="cmtt-10">|</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">Cons</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">this</span><span 
+class="cmtt-10">.</span><span 
+class="cmtt-10">Sum</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">=</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">this</span><span 
+class="cmtt-10">.</span><span 
+class="cmtt-10">Value</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">+</span><span 
+class="cmtt-10"> </span><span 
+class="cmtt-10">this</span><span 
+class="cmtt-10">.</span><span 
+class="cmtt-10">Rest</span><span 
+class="cmtt-10">.</span><span 
+class="cmtt-10">Sum</span>
    
    </div>
    </div>
@@ -694,7 +781,7 @@ class="cmbx-10">Abstract: </span>This paper introduces a new algorithm for incre
       or  indirectly  observable  by  the  user.  In  this  way,  the  wasted
       work of computing values that are never actually used is avoided.
       Although the algorithm is not optimal, it performs better than the
-      standard optimal algorithm in cases where expensive but optional
+      standard “optimal” algorithm in cases where expensive but optional
       computations need to be supported. Furthermore, the algorithm
       does not have some of the limitations of other algorithms. It works
       for general attributed graphs as well as for standard attributed
@@ -722,8 +809,8 @@ class="cmbx-10">Abstract: </span>The translation process may be divided into a s
       CF grammars. Knuth’s attribute grammars oﬀer the prospect of
       similarly automating the implementation of the semantic phase.
       An attribute grammar is an ordinary CF grammar extended to
-      specify the meaning of each string in the language. Each grammar
-      symbol has an associated set of attributes:, and each production
+      specify the “meaning” of each string in the language. Each grammar
+      symbol has an associated set of “attributes:”, and each production
       rule is provided with corresponding semantic rules expressing the
       relationships between the attributes of symbols in the production.
       To ﬁnd the meaning of a string, ﬁrst we ﬁnd its parse tree and then
@@ -743,21 +830,21 @@ class="cmti-10">Mathematical systems</span>
 class="cmti-10">theory</span>, 2(2):127–145, 1968. doi: 10.1007/bf01692511.
          </p><div class="quotation">
       <p class="bibitem-p" ><span 
-class="cmbx-10">Abstract: </span>Meaning may be assigned to a string in a context-free
-      language  by  deﬁning  attributes  of  the  symbols  in  a  derivation
+class="cmbx-10">Abstract: </span>“Meaning” may be assigned to a string in a context-free
+      language by deﬁning “attributes” of the symbols in a derivation
       tree for that string. The attributes can be deﬁned by functions
       associated  with  each  production  in  the  grammar.  This  paper
       examines  the  implications  of  this  process  when  some  of  the
-      attributes are synthesized, i.e., deﬁned solely in terms of attributes
-      of the descendants of the corresponding nonterminal symbol, while
-      other attributes are inherited, i.e., deﬁned in terms of attributes
-      of the ancestors of the nonterminal symbol. An algorithm is given
-      which  detects  when  such  semantic  rules  could  possibly  lead  to
-      circular  deﬁnition  of  some  attributes.  An  example  is  given  of  a
-      simple  programming  language  deﬁned  with  both  inherited  and
-      synthesized attributes, and the method of deﬁnition is compared to
-      other techniques for formal speciﬁcation of semantics which have
-      appeared in the literature.</p></div>
+      attributes  are  “synthesized”,  i.e.,  deﬁned  solely  in  terms  of
+      attributes  of  the  descendants  of  the  corresponding  nonterminal
+      symbol,  while  other  attributes  are  “inherited”,  i.e.,  deﬁned  in
+      terms of attributes of the ancestors of the nonterminal symbol. An
+      algorithm is given which detects when such semantic rules could
+      possibly lead to circular deﬁnition of some attributes. An example
+      is  given  of  a  simple  programming  language  deﬁned  with  both
+      inherited and synthesized attributes, and the method of deﬁnition is
+      compared to other techniques for formal speciﬁcation of semantics
+      which have appeared in the literature.</p></div>
   <p class="bibitem-p" >URL <a 
 href="http://dx.doi.org/10.1007/bf01692511" class="url" ><span 
 class="cmtt-10">http://dx.doi.org/10.1007/bf01692511</span></a>.
@@ -922,14 +1009,14 @@ class="cmti-10">bugs, and one quest for transcendent software</span>. Three Rive
       <p class="bibitem-p" ><span 
 class="cmbx-10">Abstract:  </span>Our  civilization  runs  on  software.  Yet  the  art  of
       creating it continues to be a dark mystery, even to the experts.
-      To ﬁnd out why its so hard to bend computers to our will, Scott
+      To ﬁnd out why it’s so hard to bend computers to our will, Scott
       Rosenberg spent three years following a team of maverick software
-      developersled by Lotus 1-2-3 creator Mitch Kapordesigning a novel
-      personal information manager meant to challenge market leader
-      Microsoft Outlook. Their story takes us through a maze of abrupt
-      dead ends and exhilarating breakthroughs as they wrestle not only
-      with the abstraction of code, but with the unpredictability of human
-      behaviorespecially their own.</p></div>
+      developers—led  by  Lotus  1-2-3  creator  Mitch  Kapor—designing
+      a novel personal information manager meant to challenge market
+      leader Microsoft Outlook. Their story takes us through a maze of
+      abrupt dead ends and exhilarating breakthroughs as they wrestle
+      not only with the abstraction of code, but with the unpredictability
+      of human behavior—especially their own.</p></div>
   <p class="bibitem-p" >URL <a 
 href="http://www.dreamingincode.com/" class="url" ><span 
 class="cmtt-10">http://www.dreamingincode.com/</span></a>.
@@ -1079,10 +1166,10 @@ class="cmti-10">Computer Graphics Forum</span>, volume 19, pages 91–98.
   Wiley Online Library, 2000. doi: 10.1111/1467-8659.00401.
          </p><div class="quotation">
       <p class="bibitem-p" ><span 
-class="cmbx-10">Abstract: </span>We describe the SceneGraphAsBus technique (SGAB),
-      the  ﬁrst  step  in  a  staircase  of  solutions  for  sharing  software
+class="cmbx-10">Abstract:   </span>We   describe   the   Scene-Graph-As-Bus   technique
+      (SGAB), the ﬁrst step in a staircase of solutions for sharing software
       components for virtual environments. The goals of SGAB are to
-      allow, with minimal eﬀort, independentlydesigned applications to
+      allow, with minimal eﬀort, independently-designed applications to
       share  component  functionality;  and  for  multiple  users  to  share
       applications  designed  for  single  users.This  paper  reports  on  the
       SGAB  design  for  transparently  conjoining  diﬀerent  applications
