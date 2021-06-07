@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 25 May 2021 15:47:40 +0000</pubDate>
+<pubDate>Mon, 07 Jun 2021 01:29:44 +0000</pubDate>
+<item>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_2a18442a5e8360fcaccd921709a43a5c86b22ef4/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-2a18442a5e8360fcaccd921709a43a5c86b22ef4</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Mon, 07 Jun 2021 01:29:44 +0000</pubDate>
+	<dcterms:modified>2021-06-07T01:29:44Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-2a18442a5e8360fcaccd921709a43a5c86b22ef4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/2a18442a5e8360fcaccd921709a43a5c86b22ef4&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:29:44 06/07/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update index.mdwn&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 2a18442a5e8360fcaccd921709a43a5c86b22ef4 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/roadmap on Project Renard</title>
 
@@ -5702,61 +5757,6 @@ Travis CI: Add dvipng dependency for teximg plugin&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- e92075ba6d630ec2470b5799febe1e753988eff0 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to doc/development/repo/p5-Renard-Jacquard on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_80f640bf291289536cdf17477fef72c25840405b/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-80f640bf291289536cdf17477fef72c25840405b</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Tue, 20 Mar 2018 01:41:26 +0000</pubDate>
-	<dcterms:modified>2018-03-20T01:41:26Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-80f640bf291289536cdf17477fef72c25840405b&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/80f640bf291289536cdf17477fef72c25840405b&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/repo/p5-Renard-Jacquard
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:41:26 03/20/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Test teximg&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 80f640bf291289536cdf17477fef72c25840405b --&gt;
 </description>
 
 
