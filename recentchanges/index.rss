@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 07 Jun 2021 01:29:44 +0000</pubDate>
+<pubDate>Mon, 09 Aug 2021 16:32:40 +0000</pubDate>
+<item>
+	<title>change to sandbox on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_78100764a0e918bffd111469627d5c3849b020f5/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-78100764a0e918bffd111469627d5c3849b020f5</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Mon, 09 Aug 2021 16:32:40 +0000</pubDate>
+	<dcterms:modified>2021-08-09T16:32:40Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-78100764a0e918bffd111469627d5c3849b020f5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/78100764a0e918bffd111469627d5c3849b020f5&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sandbox
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;16:32:40 08/09/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add to sandbox&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 78100764a0e918bffd111469627d5c3849b020f5 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/open-questions on Project Renard</title>
 
@@ -5702,61 +5757,6 @@ creating index page blog/posts/2018/01&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 6b1ef34599f7ceb461a62c152694699e5b096712 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to .travis.yml on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_e92075ba6d630ec2470b5799febe1e753988eff0/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-e92075ba6d630ec2470b5799febe1e753988eff0</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Tue, 20 Mar 2018 01:55:44 +0000</pubDate>
-	<dcterms:modified>2018-03-20T01:55:44Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e92075ba6d630ec2470b5799febe1e753988eff0&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/e92075ba6d630ec2470b5799febe1e753988eff0&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:55:44 03/20/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Travis CI: Add dvipng dependency for teximg plugin&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- e92075ba6d630ec2470b5799febe1e753988eff0 --&gt;
 </description>
 
 
