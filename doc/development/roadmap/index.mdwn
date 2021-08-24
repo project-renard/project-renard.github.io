@@ -116,3 +116,6 @@
         - DONE Display table of contents
         - TODO Display pages as thumbnail images
     - Be able to store the current view
+        - TODO Store the current view page
+        - TODO Define a spec for view settings
+        - TODO Store the current view settings
