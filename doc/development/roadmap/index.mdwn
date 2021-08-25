@@ -119,3 +119,9 @@
         - TODO Store the current view page
         - TODO Define a spec for view settings
         - TODO Store the current view settings
+    - Be able to follow URLs
+        - TODO Click on URL should open:
+            - Another location in the same document.
+            - Another document.
+            - A web page.
+        - TODO A history stack to go backwards and forwards.
