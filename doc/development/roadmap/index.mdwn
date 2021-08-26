@@ -125,3 +125,6 @@
             - Another document.
             - A web page.
         - TODO A history stack to go backwards and forwards.
+- The document viewer should allow for viewing multiple documents at once.
+    - Side-by-side view
+        - TODO Place one document next to another using a dockable split-screen.
