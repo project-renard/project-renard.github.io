@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 28 Aug 2021 02:51:12 +0000</pubDate>
+<pubDate>Sun, 29 Aug 2021 03:23:35 +0000</pubDate>
+<item>
+	<title>change to doc/development/roadmap on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_359e5fd5099cc9a6f1cdca2833fcba53b81e1989/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-359e5fd5099cc9a6f1cdca2833fcba53b81e1989</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Sun, 29 Aug 2021 03:23:35 +0000</pubDate>
+	<dcterms:modified>2021-08-29T03:23:35Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-359e5fd5099cc9a6f1cdca2833fcba53b81e1989&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/359e5fd5099cc9a6f1cdca2833fcba53b81e1989&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/roadmap
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:23:35 08/29/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add tasks for biblio/bookmarks DBs&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 359e5fd5099cc9a6f1cdca2833fcba53b81e1989 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/roadmap on Project Renard</title>
 
@@ -5702,61 +5757,6 @@ Add ER diagram for flashcards&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- db8c884e2193661084d0f901e78994358cdcd1a1 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to templates/plantuml/er.iuml on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_dac249897c0df4ba4da5b39e6e4b5c002f505270/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-dac249897c0df4ba4da5b39e6e4b5c002f505270</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Mon, 21 May 2018 19:27:15 +0000</pubDate>
-	<dcterms:modified>2018-05-21T19:27:15Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-dac249897c0df4ba4da5b39e6e4b5c002f505270&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/dac249897c0df4ba4da5b39e6e4b5c002f505270&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;templates/plantuml/er.iuml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;19:27:15 05/21/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add ER diagram PlantUML template&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- dac249897c0df4ba4da5b39e6e4b5c002f505270 --&gt;
 </description>
 
 
