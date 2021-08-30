@@ -131,6 +131,7 @@
     - Portals: Arbitarily shaped and placeable views into other documents
 - Files
     - Watch directory for new files.
+    - [[doc/development/feature/recent-document]]
 - Resources
-    - Bibliography database
-    - Bookmarks database
+    - Bibliography database (e.g., [[doc/development/feature/data/bibliography]], see [[doc/survey/reference-management]]).
+    - Bookmarks database (e.g., Pocket)
