@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 30 Aug 2021 00:43:37 +0000</pubDate>
+<pubDate>Tue, 31 Aug 2021 03:09:31 +0000</pubDate>
+<item>
+	<title>change to doc/development/roadmap on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_f5394ce199460e0eadeccbedace87f397643d615/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-f5394ce199460e0eadeccbedace87f397643d615</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Tue, 31 Aug 2021 03:09:31 +0000</pubDate>
+	<dcterms:modified>2021-08-31T03:09:31Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-f5394ce199460e0eadeccbedace87f397643d615&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f5394ce199460e0eadeccbedace87f397643d615&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/roadmap
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:09:31 08/31/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add OPDS as source&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- f5394ce199460e0eadeccbedace87f397643d615 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/roadmap on Project Renard</title>
 
@@ -5702,61 +5757,6 @@ Update plantuml plugin: update plantuml.jar version&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 1508f0627253ffc9c3c855e9086439ae03c14acf --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to doc/development/repo/curie/architecture/flashcard on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_982b366bee7871bfb47023cae43a54d50559ca3e/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-982b366bee7871bfb47023cae43a54d50559ca3e</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Tue, 22 May 2018 19:45:01 +0000</pubDate>
-	<dcterms:modified>2018-05-22T19:45:01Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-982b366bee7871bfb47023cae43a54d50559ca3e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/982b366bee7871bfb47023cae43a54d50559ca3e&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/repo/curie/architecture/flashcard
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;19:45:01 05/22/18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add tasks&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 982b366bee7871bfb47023cae43a54d50559ca3e --&gt;
 </description>
 
 
