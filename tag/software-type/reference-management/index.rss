@@ -10,7 +10,7 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 14 May 2019 08:03:26 +0000</pubDate>
+<pubDate>Sat, 04 Sep 2021 19:25:47 +0000</pubDate>
 <item>
 	<title>Publish or Perish</title>
 
@@ -684,7 +684,7 @@ Runs: unknown
 
 
 	<pubDate>Tue, 16 Feb 2016 16:45:24 +0000</pubDate>
-	<dcterms:modified>2016-02-16T16:45:24Z</dcterms:modified>
+	<dcterms:modified>2021-09-04T19:25:47Z</dcterms:modified>
 
 
 	<description>&lt;div class=&quot;sidebar&quot;&gt;
@@ -763,6 +763,12 @@ PDF viewer that can be used to annotate PDF documents.&lt;/p&gt;
 
 &lt;p&gt;Features:
 - &lt;span class=&quot;createlink&quot;&gt;Metadata retrieval&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Recently Read&lt;/p&gt;
+  
+  &lt;p&gt;Our new Recently Read feature remembers the page number and the last position you scrolled to. This means you can start reading on one device, then pick up exactly where you left off on another.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
 
 
