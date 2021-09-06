@@ -37,6 +37,11 @@
 
 - How to translate document structure into speech?
     * Mathematical equations
+        + https://tex.stackexchange.com/questions/37640/are-there-good-resources-for-converting-tex-type-files-to-spoken-word
+        + https://github.com/tvraman/aster-math
+            + http://emacspeak.sourceforge.net/raman/aster/aster-toplevel.html
+        + https://mathjax.github.io/MathJax-demos-web/speech-generator/convert-with-speech.html
+        + other way: <https://tex.stackexchange.com/questions/153129/what-research-exists-on-speech-to-latex-mathml>
     * Block quotes
     * Citations
     * Abbreviations
