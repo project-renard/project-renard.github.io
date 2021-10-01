@@ -48,6 +48,11 @@
     * Table of contents
     * Figure captions
     * Tables
+        + extract table labels
+        + also useful for fixed/sticky table headers such as in HTML with `position: sticky` pattern:
+            + <https://css-tricks.com/position-sticky-2/>,
+            + <https://orangeable.com/css/fixed-table-headers>,
+            + <https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers>.
     * Index
     * Glossary
 
