@@ -64,6 +64,8 @@ Discussion of metacognitive strategies that could have computer aides.
   metaphor:
     * <https://en.wikipedia.org/wiki/Readability>
         + algorithm: readability metrics
+        + possible use: prompt reader to rewrite an idea using their own
+          simpler language to show they understand
     * <https://en.wikipedia.org/wiki/Sentiment_analysis>
     * <https://en.wikipedia.org/wiki/Politics_and_the_English_Language>
         + algorithm: etymology?
