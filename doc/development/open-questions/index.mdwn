@@ -14,6 +14,8 @@
 - How difficult is it to make changes to the UI when developing on the desktop?
 
 - How can the application be distributed on multiple platforms easily?
+    * Make an installer for each platform
+        + More info in the orbital-transfer project wiki.
 
 ## Mobile
 
@@ -22,10 +24,12 @@
 - How to reduce and measure energy consumption?
 
 - How to reduce and measure data consumption?
+    * <https://developer.android.com/training/basics/network-ops/managing>
 
 ## e-ink
 
 - How to manage UI in the absence of window manager?
+    * SDL, Tcl/Tk, [[Immediate mode GUI|https://en.wikipedia.org/wiki/Immediate_mode_GUI]]
 
 ## Text-based and command line
 
