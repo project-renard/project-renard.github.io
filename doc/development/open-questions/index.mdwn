@@ -34,8 +34,14 @@
 ## Text-based and command line
 
 - What would it take to build a system for reading on the terminal?
+    * Support converting to HTML and reading in lynx/elinks (either
+      static files or serve over HTTP).
+    * Support converting to Info file format.
 
 - How can it be integrated with a user's editor (such as Vim, Emacs, Notepad++).
+    * Vim and Emacs have built-in documentation support.
+        + Vim: <https://www.vim.org/docs.php>
+        + Emacs: <https://www.emacswiki.org/emacs/InfoMode>
 
 # Text-to-speech
 
