@@ -8,6 +8,7 @@
   - number of nodes in a graph
   - fidelity of PDF rendering (for display and printing)
 - Can DOM nodes be cloned by the browser engine and rendered in a new window?
+    * inspired by: <http://insitu.lri.fr/metisse/>
 
 ## Desktop
 
