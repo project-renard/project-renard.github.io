@@ -30,7 +30,10 @@
 ## e-ink
 
 - How to manage UI in the absence of window manager?
-    * SDL, Tcl/Tk, [[Immediate mode GUI|https://en.wikipedia.org/wiki/Immediate_mode_GUI]]
+    * SDL
+    * Tcl/Tk
+    * [[Immediate mode GUI|https://en.wikipedia.org/wiki/Immediate_mode_GUI]]
+    * [[EFL|https://www.enlightenment.org/about-efl.md]]
 
 ## Text-based and command line
 
