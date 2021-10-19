@@ -114,14 +114,24 @@ Open questions
 <li>number of nodes in a graph</li>
 <li>fidelity of PDF rendering (for display and printing)</li>
 </ul></li>
-<li>Can DOM nodes be cloned by the browser engine and rendered in a new window?</li>
+<li>Can DOM nodes be cloned by the browser engine and rendered in a new window?
+<ul>
+<li>inspired by: <a href="http://insitu.lri.fr/metisse/">http://insitu.lri.fr/metisse/</a></li>
+</ul></li>
 </ul>
 
 <h2 id="desktop">Desktop</h2>
 
 <ul>
 <li><p>How difficult is it to make changes to the UI when developing on the desktop?</p></li>
-<li><p>How can the application be distributed on multiple platforms easily?</p></li>
+<li><p>How can the application be distributed on multiple platforms easily?</p>
+
+<ul>
+<li>Make an installer for each platform
+<ul>
+<li>More info in the orbital-transfer project wiki.</li>
+</ul></li>
+</ul></li>
 </ul>
 
 <h2 id="mobile">Mobile</h2>
@@ -129,20 +139,44 @@ Open questions
 <ul>
 <li><p>Where will the documents be stored?</p></li>
 <li><p>How to reduce and measure energy consumption?</p></li>
-<li><p>How to reduce and measure data consumption?</p></li>
+<li><p>How to reduce and measure data consumption?</p>
+
+<ul>
+<li><a href="https://developer.android.com/training/basics/network-ops/managing">https://developer.android.com/training/basics/network-ops/managing</a></li>
+</ul></li>
 </ul>
 
 <h2 id="e-ink">e-ink</h2>
 
 <ul>
-<li>How to manage UI in the absence of window manager?</li>
+<li>How to manage UI in the absence of window manager?
+<ul>
+<li>SDL</li>
+<li>Tcl/Tk</li>
+<li><a href="https://en.wikipedia.org/wiki/Immediate_mode_GUI">Immediate mode GUI</a></li>
+<li><a href="https://www.enlightenment.org/about-efl.md">EFL</a></li>
+</ul></li>
 </ul>
 
 <h2 id="text-basedandcommandline">Text-based and command line</h2>
 
 <ul>
-<li><p>What would it take to build a system for reading on the terminal?</p></li>
-<li><p>How can it be integrated with a user's editor (such as Vim, Emacs, Notepad++).</p></li>
+<li><p>What would it take to build a system for reading on the terminal?</p>
+
+<ul>
+<li>Support converting to <a href="../feature/file-format/html/">HTML</a> and reading in lynx/elinks (either
+static files or serve over HTTP).</li>
+<li>Support converting to <a href="../feature/file-format/info/">Info file format</a>.</li>
+</ul></li>
+<li><p>How can it be integrated with a user's editor (such as Vim, Emacs, Notepad++).</p>
+
+<ul>
+<li>Vim and Emacs have built-in documentation support.
+<ul>
+<li>Vim: <a href="https://www.vim.org/docs.php">https://www.vim.org/docs.php</a></li>
+<li>Emacs: <a href="https://www.emacswiki.org/emacs/InfoMode">https://www.emacswiki.org/emacs/InfoMode</a></li>
+</ul></li>
+</ul></li>
 </ul>
 
 <h1 id="text-to-speech">Text-to-speech</h1>
@@ -162,12 +196,85 @@ Open questions
 </ul></li>
 <li>Block quotes</li>
 <li>Citations</li>
+<li>Footnotes/endnotes
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/use-a-screen-reader-to-read-and-edit-footnotes-and-endnotes-in-word-71427011-d8ad-4f5a-8ddc-f3b8718c3446">https://support.microsoft.com/en-us/office/use-a-screen-reader-to-read-and-edit-footnotes-and-endnotes-in-word-71427011-d8ad-4f5a-8ddc-f3b8718c3446</a></li>
+</ul></li>
 <li>Abbreviations</li>
 <li>Table of contents</li>
 <li>Figure captions</li>
-<li>Tables</li>
+<li>Tables
+<ul>
+<li>extract table labels</li>
+<li>also useful for fixed/sticky table headers such as in HTML with <code>position: sticky</code> pattern:
+<ul>
+<li><a href="https://css-tricks.com/position-sticky-2/">https://css-tricks.com/position-sticky-2/</a>,</li>
+<li><a href="https://orangeable.com/css/fixed-table-headers">https://orangeable.com/css/fixed-table-headers</a>,</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers">https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers</a>.</li>
+</ul></li>
+</ul></li>
 <li>Index</li>
 <li>Glossary</li>
+</ul></li>
+</ul>
+
+<h1 id="metacognition">Metacognition</h1>
+
+<p>Discussion of metacognitive strategies that could have computer aides.</p>
+
+<ul>
+<li>During writing, indicators for reading level, sentiment analysis, use of
+metaphor:
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Readability">https://en.wikipedia.org/wiki/Readability</a>
+<ul>
+<li>algorithm: readability metrics</li>
+<li>possible use: prompt reader to rewrite an idea using their own
+simpler language to show they understand</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Sentiment_analysis">https://en.wikipedia.org/wiki/Sentiment_analysis</a>
+<ul>
+<li>possible use: during conversations, use this to avoid "heated"
+language or filter out "heated" conversations. Relatedly: <a href="http://cognitionandculture.net/blogs/hugo-mercier/why-assholes-are-more-likely-to-be-wrong/">http://cognitionandculture.net/blogs/hugo-mercier/why-assholes-are-more-likely-to-be-wrong/</a>.</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Politics_and_the_English_Language">https://en.wikipedia.org/wiki/Politics_and_the_English_Language</a>
+<ul>
+<li>algorithm: etymology?
+<ul>
+<li>http://etym.org/</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Discuss phenomenon in terms of statistical distributions:
+<ul>
+<li>Make note of how frequent a phenomenon occurs. A particular
+phenomenon could be important in terms of its effects, but rare. For
+example, a <a href="https://en.wikipedia.org/wiki/Disulfide">disulfide bridge (SS bond)</a>
+between cysteine (Cys) amino acids is important for the stability of proteins,
+but per analysis of a <em>H. sapiens</em> proteome DB in
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7191308/">Cysteines and Disulfide Bonds as Structure-Forming Units: Insights From Different Domains of Life and the Potential for Characterization by NMR</a>,
+Cys is found in 97% of proteins, but disulfide bonds are only marked in
+18% of proteins, but there is also another effect of protein length that is
+correlated with the presence of a disulfide bond. Further information on this:
+<ul>
+<li><a href="https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&amp;v=2&amp;id=103538">Frequency of cysteine residue in proteins - Human Homo sapiens - BNID 103538</a></li>
+<li><a href="https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&amp;v=3&amp;id=103536">Fraction of protein cysteines engaged in disu - Human Homo sapiens - BNID 103536</a></li>
+<li><a href="https://academic.oup.com/peds/article/27/3/65/1518881">Occurrence of protein disulfide bonds in different domains of life: a comparison of proteins from the Protein Data Bank - Protein Engineering, Design and Selection - Oxford Academic</a></li>
+</ul></li>
+<li>Tools
+<ul>
+<li>Bayesian / Graphical models
+<ul>
+<li>https://mc-stan.org/</li>
+<li>https://github.com/pgmpy/pgmpy</li>
+<li>https://www.cs.ubc.ca/~murphyk/Bayes/bnintro.html</li>
+<li>https://stats.stackexchange.com/questions/16750/software-for-drawing-bayesian-networks-graphical-models</li>
+<li>https://mcmc-jags.sourceforge.io/</li>
+<li>https://www.mrc-bsu.cam.ac.uk/software/bugs/</li>
+<li>https://www.quora.com/Are-there-any-tools-that-will-take-a-graphical-model-specified-in-the-BUGS-language-and-output-a-visualization-of-that-graphical-model?share=1</li>
+<li>https://cran.r-project.org/web/views/gR.html</li>
+</ul></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -197,7 +304,7 @@ Open questions
 
 
 <div class="pagedate">
-Last edited <span class="date">Sat Sep 11 23:02:17 2021</span>
+Last edited <span class="date">Tue Oct 19 17:50:10 2021</span>
 <!-- Created <span class="date">Thu Feb  4 01:34:05 2016</span> -->
 </div>
 
