@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 30 Oct 2021 03:14:57 +0000</pubDate>
+<pubDate>Sat, 30 Oct 2021 23:44:55 +0000</pubDate>
+<item>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_75b7d6ea1eb03ae5f1e3f145f9b0179683ed8038/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-75b7d6ea1eb03ae5f1e3f145f9b0179683ed8038</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Sat, 30 Oct 2021 23:44:55 +0000</pubDate>
+	<dcterms:modified>2021-10-30T23:44:55Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-75b7d6ea1eb03ae5f1e3f145f9b0179683ed8038&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/75b7d6ea1eb03ae5f1e3f145f9b0179683ed8038&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;23:44:55 10/30/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+More examples&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 75b7d6ea1eb03ae5f1e3f145f9b0179683ed8038 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/open-questions on Project Renard</title>
 
@@ -5591,61 +5646,6 @@ Also adds TikZ external code.&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 4365ae6ddf2ffa3bc5183996ca7905524c8ed5bc --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to .ikiwiki-plugins/p5-IkiWiki-Plugin-tex on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_416b1678d6fb4968750e38d0ced469098421d27f/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-416b1678d6fb4968750e38d0ced469098421d27f</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Fri, 05 Jun 2020 09:28:32 +0000</pubDate>
-	<dcterms:modified>2020-06-05T09:28:32Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-416b1678d6fb4968750e38d0ced469098421d27f&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/416b1678d6fb4968750e38d0ced469098421d27f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.ikiwiki-plugins/p5-IkiWiki-Plugin-tex
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;09:28:32 06/05/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Use tikz-external branch of p5-IkiWiki-Plugin-tex&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 416b1678d6fb4968750e38d0ced469098421d27f --&gt;
 </description>
 
 
