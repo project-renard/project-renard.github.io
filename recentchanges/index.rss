@@ -10,7 +10,65 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 05 Dec 2021 03:38:45 +0000</pubDate>
+<pubDate>Mon, 06 Dec 2021 04:15:21 +0000</pubDate>
+<item>
+	<title>change to doc/development/open-questions sandbox on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_c133d950773319fb926c90de0389e90e51c02084/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-c133d950773319fb926c90de0389e90e51c02084</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Mon, 06 Dec 2021 04:15:21 +0000</pubDate>
+	<dcterms:modified>2021-12-06T04:15:21Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-c133d950773319fb926c90de0389e90e51c02084&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c133d950773319fb926c90de0389e90e51c02084&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/c133d950773319fb926c90de0389e90e51c02084&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sandbox
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:15:21 12/06/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Grouping together sensemaking articles&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- c133d950773319fb926c90de0389e90e51c02084 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/open-questions on Project Renard</title>
 
@@ -5582,61 +5640,6 @@ Add mupdf-tools package&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 41a7a2025f028e44249d91bffef1e1c4407d1c60 --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to .travis.yml on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_f866575e943c36d710e99a0a7578178587ad6c55/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-f866575e943c36d710e99a0a7578178587ad6c55</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Fri, 05 Jun 2020 10:32:26 +0000</pubDate>
-	<dcterms:modified>2020-06-05T10:32:26Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-f866575e943c36d710e99a0a7578178587ad6c55&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f866575e943c36d710e99a0a7578178587ad6c55&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:32:26 06/05/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Install latest version of tj3&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- f866575e943c36d710e99a0a7578178587ad6c55 --&gt;
 </description>
 
 
