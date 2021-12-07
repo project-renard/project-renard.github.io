@@ -17,7 +17,129 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2021-12-06T04:15:21Z</updated>
+<updated>2021-12-07T23:36:41Z</updated>
+<entry>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_de29836d7ac205f1018a624f6937e0435efebe5b/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-de29836d7ac205f1018a624f6937e0435efebe5b"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2021-12-07T23:36:41Z</updated>
+	<published>2021-12-07T23:36:41Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-de29836d7ac205f1018a624f6937e0435efebe5b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/de29836d7ac205f1018a624f6937e0435efebe5b&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;23:36:41 12/07/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add yet more sensemaking articles&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- de29836d7ac205f1018a624f6937e0435efebe5b --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_662de523b7e9d2c2a0191e74e1e569f22baa596f/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-662de523b7e9d2c2a0191e74e1e569f22baa596f"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2021-12-06T16:55:31Z</updated>
+	<published>2021-12-06T16:55:31Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-662de523b7e9d2c2a0191e74e1e569f22baa596f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/662de523b7e9d2c2a0191e74e1e569f22baa596f&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;16:55:31 12/06/21&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add another sensemaking article&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 662de523b7e9d2c2a0191e74e1e569f22baa596f --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/open-questions sandbox on Project Renard</title>
 
@@ -6123,128 +6245,6 @@ Mess with Travis-CI multi-line bug&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 26bd9d4c42f3e140d953fa9dc2a3328cd55043ce --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .travis.yml on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_5184bd081a45b587d4a217a141500cf256e1644e/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-5184bd081a45b587d4a217a141500cf256e1644e"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2020-06-05T10:59:58Z</updated>
-	<published>2020-06-05T10:59:58Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-5184bd081a45b587d4a217a141500cf256e1644e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/5184bd081a45b587d4a217a141500cf256e1644e&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:59:58 06/05/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add wrapper for mutool, mudraw&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 5184bd081a45b587d4a217a141500cf256e1644e --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .travis.yml on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_41a7a2025f028e44249d91bffef1e1c4407d1c60/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-41a7a2025f028e44249d91bffef1e1c4407d1c60"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2020-06-05T10:41:10Z</updated>
-	<published>2020-06-05T10:41:10Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-41a7a2025f028e44249d91bffef1e1c4407d1c60&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/41a7a2025f028e44249d91bffef1e1c4407d1c60&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:41:10 06/05/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add mupdf-tools package&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 41a7a2025f028e44249d91bffef1e1c4407d1c60 --&gt;
 
 	</content>
 
