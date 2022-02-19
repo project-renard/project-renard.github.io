@@ -17,7 +17,68 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2021-12-07T23:36:41Z</updated>
+<updated>2022-02-19T03:03:33Z</updated>
+<entry>
+	<title>change to sandbox on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_f43be83ab3f9b8107b205b4da16a1ee2b60608e0/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-f43be83ab3f9b8107b205b4da16a1ee2b60608e0"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2022-02-19T03:03:33Z</updated>
+	<published>2022-02-19T03:03:33Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-f43be83ab3f9b8107b205b4da16a1ee2b60608e0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/f43be83ab3f9b8107b205b4da16a1ee2b60608e0&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sandbox
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:03:33 02/19/22&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add info about The Syllabus to sandbox&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- f43be83ab3f9b8107b205b4da16a1ee2b60608e0 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/open-questions on Project Renard</title>
 
@@ -6184,67 +6245,6 @@ Fixes to literature&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- dc1aac123bc835fb6363a229c621137b204e551f --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .travis.yml on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_26bd9d4c42f3e140d953fa9dc2a3328cd55043ce/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-26bd9d4c42f3e140d953fa9dc2a3328cd55043ce"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2020-06-05T11:30:52Z</updated>
-	<published>2020-06-05T11:30:52Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-26bd9d4c42f3e140d953fa9dc2a3328cd55043ce&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/26bd9d4c42f3e140d953fa9dc2a3328cd55043ce&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;.travis.yml
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;11:30:52 06/05/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Mess with Travis-CI multi-line bug&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 26bd9d4c42f3e140d953fa9dc2a3328cd55043ce --&gt;
 
 	</content>
 
