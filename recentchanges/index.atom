@@ -17,7 +17,68 @@
 
 <subtitle type="html">Project Renard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2022-02-24T02:29:38Z</updated>
+<updated>2022-02-26T04:32:58Z</updated>
+<entry>
+	<title>change to doc/development/open-questions on Project Renard</title>
+
+	<id>http://project-renard.github.io//recentchanges/change_a40369f1d70dd67c6a9184510d3498c2ccac80a8/</id>
+
+	<link href="http://project-renard.github.io/recentchanges/#change-a40369f1d70dd67c6a9184510d3498c2ccac80a8"/>
+
+	<author><name>zaki.mughal</name></author>
+
+
+
+
+
+	<updated>2022-02-26T04:32:58Z</updated>
+	<published>2022-02-26T04:32:58Z</published>
+
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-a40369f1d70dd67c6a9184510d3498c2ccac80a8&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/a40369f1d70dd67c6a9184510d3498c2ccac80a8&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/open-questions
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;04:32:58 02/26/22&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add links about measuring energy usage&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- a40369f1d70dd67c6a9184510d3498c2ccac80a8 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to doc/development/literature doc/development/open-questions on Project Renard</title>
 
@@ -6187,67 +6248,6 @@ Add VUE&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 753397be53d838fbcadaa6dadab6afe4c8d31e28 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to doc/development/literature on Project Renard</title>
-
-	<id>http://project-renard.github.io//recentchanges/change_aad538268cd965679736ccc39a36b7609fea24c7/</id>
-
-	<link href="http://project-renard.github.io/recentchanges/#change-aad538268cd965679736ccc39a36b7609fea24c7"/>
-
-	<author><name>zaki.mughal</name></author>
-
-
-
-
-
-	<updated>2020-07-01T08:06:12Z</updated>
-	<published>2020-07-01T08:06:12Z</published>
-
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-aad538268cd965679736ccc39a36b7609fea24c7&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/aad538268cd965679736ccc39a36b7609fea24c7&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/development/literature
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:06:12 07/01/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Fix citation&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- aad538268cd965679736ccc39a36b7609fea24c7 --&gt;
 
 	</content>
 
