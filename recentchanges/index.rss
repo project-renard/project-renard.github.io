@@ -10,7 +10,62 @@
 
 <description>Project Renard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 26 Feb 2022 04:32:58 +0000</pubDate>
+<pubDate>Sat, 05 Mar 2022 01:31:04 +0000</pubDate>
+<item>
+	<title>change to sandbox on Project Renard</title>
+
+	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_5ee2af74766e59dd23cd036a900c31c372c813c6/</guid>
+
+	<link>http://project-renard.github.io/recentchanges/#change-5ee2af74766e59dd23cd036a900c31c372c813c6</link>
+
+	<dc:creator>zaki.mughal</dc:creator>
+
+
+	<pubDate>Sat, 05 Mar 2022 01:31:04 +0000</pubDate>
+	<dcterms:modified>2022-03-05T01:31:04Z</dcterms:modified>
+
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-5ee2af74766e59dd23cd036a900c31c372c813c6&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/5ee2af74766e59dd23cd036a900c31c372c813c6&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sandbox
+
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+zaki.mughal
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;01:31:04 03/05/22&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add related keywords&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 5ee2af74766e59dd23cd036a900c31c372c813c6 --&gt;
+</description>
+
+
+</item>
 <item>
 	<title>change to doc/development/open-questions on Project Renard</title>
 
@@ -5585,64 +5640,6 @@ Add info on ZUI&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 302904222afa6b1a5c2308173bf18c9e997781ac --&gt;
-</description>
-
-
-</item>
-<item>
-	<title>change to doc/survey/tool/vue sandbox on Project Renard</title>
-
-	<guid isPermaLink="false">http://project-renard.github.io//recentchanges/change_753397be53d838fbcadaa6dadab6afe4c8d31e28/</guid>
-
-	<link>http://project-renard.github.io/recentchanges/#change-753397be53d838fbcadaa6dadab6afe4c8d31e28</link>
-
-	<dc:creator>zaki.mughal</dc:creator>
-
-
-	<pubDate>Sun, 23 Aug 2020 07:35:12 +0000</pubDate>
-	<dcterms:modified>2020-08-23T07:35:12Z</dcterms:modified>
-
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-753397be53d838fbcadaa6dadab6afe4c8d31e28&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/753397be53d838fbcadaa6dadab6afe4c8d31e28&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;doc/survey/tool/vue
-
-
-&lt;a href=&quot;https://github.com/project-renard/project-renard.github.io/commit/753397be53d838fbcadaa6dadab6afe4c8d31e28&quot; title=&quot;diff&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://project-renard.github.io//wikiicons/diff.png&quot; alt=&quot;diff&quot; /&gt;&lt;/a&gt;sandbox
-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-zaki.mughal
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:35:12 08/23/20&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add VUE&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 753397be53d838fbcadaa6dadab6afe4c8d31e28 --&gt;
 </description>
 
 
