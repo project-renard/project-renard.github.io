@@ -73,22 +73,6 @@ jobs:
           echo "$GEM_HOME/bin" >> $GITHUB_PATH
           gem install taskjuggler
 
-          mkdir -p ~/bin
-          # wrapper for `mutool` that calls `mudraw` since older version of
-          # `mupdf-tools` had the draw subcommand separate
-          cat <<EOF > ~/bin/mutool
-          #!/bin/sh
-
-          if [ "$1" = "draw" ]; then
-            shift
-            /usr/bin/mudraw "$@"
-          else
-            /usr/bin/mutool "$@"
-          fi
-          EOF
-          chmod u+x ~/bin/mutool
-          echo "$HOME/bin" >> $GITHUB_PATH
-
       - name: Set up worktree and Run ikiwiki
         run: |
           git config extensions.worktreeConfig true
