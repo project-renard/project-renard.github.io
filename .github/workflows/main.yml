@@ -49,6 +49,7 @@ jobs:
             libimage-magick-perl \
             librsvg2-bin \
             cpanminus \
+            build-essential \
             libhighlight-perl \
             latexml \
             tex4ht \
