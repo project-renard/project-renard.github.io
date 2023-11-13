@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Install pre-reqs
         run: |
-          apt-get update && apt-get install -y --no-install-recommends git
+          apt-get update && apt-get install -y --no-install-recommends git ca-certificates
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
