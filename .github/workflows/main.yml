@@ -85,6 +85,7 @@ jobs:
 
       - name: Set up worktree and Run ikiwiki
         run: |
+          git config --global --add safe.directory $PWD
           git config extensions.worktreeConfig true
           git worktree add -B master ../_site origin/master
 
